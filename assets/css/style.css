@@ -2,8 +2,6 @@
   @charset "utf-8";
 
   /*
-  Grand Park LA Style Sheet
-
   Sections are grouped under headings with a “=” symbol,
   to make searching easier.
 
@@ -18,8 +16,205 @@
   */
 
 
+  /* =Colors
+  ----------------------------------------------- */
+  body {
+    background: rgb(245, 245, 245);
+    color: rgba(82, 82, 82);
+    color: rgba(82, 82, 82, 0.9);
+  }
+
+  h1, h2, h3, h4, h5, h6, strong, em {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+
+  a {
+    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(237, 192, 50); /* @dark-banana */
+    color: rgb(141, 208, 59); /* @lime */
+    color: rgb(101, 168, 19); /* @dark-lime */
+    color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(239, 150, 41); /* @dark-tangerine */
+    transition: background-color 0.2s, color 0.2s;
+    font-weight: 600; /* @semibold */
+  }
+  a:hover,
+  a:active,
+  a:focus {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+
+  header a,
+  footer a {
+    color: rgb(6, 179, 188); /* @blueberry */
+    text-transform: uppercase;
+    font-weight: 600; /* @semibold */
+    letter-spacing: 0.1em;
+  }
+
+  .action {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  .action ul,
+  .action li {
+    list-style: none;
+    padding-left: 0;
+  }
+  .action li {
+    display: inline;
+    margin-right: 1em;
+  }
+  .action a {
+    background-color: rgb(239, 150, 41); /* @dark-tangerine */
+    background-color: rgb(101, 168, 19); /* @dark-lime */
+    color: white;
+    padding: 0.75em 1.5em;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600; /* @semibold */
+    letter-spacing: 0.1em;
+  }
+  .action a:hover,
+  .action a:active,
+  .action a:focus {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+  }
+
+
+  /* =Type
+  ----------------------------------------------- */
+  body {
+    font: 100%/1.5 "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1.5em;
+  }
+
+  @media (min-width: 40em) {
+    body {
+      padding: 0 3em 0;
+    }
+  }
+
+  /* OPTIONAL: Increase the font size on big screens. */
+  @media screen and (min-width: 600px) {
+    html {
+      font-size: 112.5%;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    html {
+      font-size: 125%;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 137.5%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    html {
+      font-size: 150%;
+    }
+  }
+
+
+  /* Limit line lengths, for readability. */
+  h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure, hr {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.375em;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3em;
+  }
+  h1 em {
+    color: rgb(249, 160, 51); /* @tangerine */
+    display: inline-block;
+    font-style: normal;
+  }
+  h2 {
+    display: inline;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top, transparent, transparent 10%, rgb(237, 192, 50) 10%, rgb(237, 192, 50) 65%, transparent 65%, transparent); /* @dark-banana */
+  }
+
+  @supports(text-shadow: 0 0 0 rgb(0, 0, 0)) {
+    h2 {
+      position: relative;
+      left: 0.2em;
+      margin-right: 0.2em;
+      color: transparent;
+      text-shadow: -0.2em 0 0 rgb(237, 59, 136); /* @strawberry */
+    }
+  }
+
+  hr {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-width: 0 0 0.125em;
+    border-style: solid;
+    border-color: rgb(217, 217, 217);
+  }
+
+  dt {
+    margin-top: 0.75em;
+  }
+
+
+  header {
+    margin-top: 4.5em;
+    margin-bottom: 4.5em;
+  }
+  footer {
+    margin-top: 4.5em;
+    margin-bottom: 4.5em;
+  }
+
+  header ul,
+  header li,
+  footer ul,
+  footer li {
+    list-style: none;
+    padding-left: 0;
+  }
+  header li,
+  footer li {
+    display: inline;
+    margin-right: 1em;
+  }
+
+  /* =Layout
+  ----------------------------------------------- */
+  @media (min-width: 600em) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 33em 1fr;
+    }
+    h1 {
+      grid-column: span 3;
+    }
+    h2 {
+      grid-column: 1 / 2;
+    }
+    p, ul, dl {
+      grid-column: 2 / 3;
+    }
+  }
+
+
   /* =Fonts
-  https://www.quora.com/What-is-the-difference-between-Medium-Demi-and-Semibold-fonts
   ----------------------------------------------- */
   @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=68f50139-da27-4c8c-adaa-c005a8fd2b7a");
 
@@ -28,7 +223,7 @@
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/64779e28-a3b8-4364-949c-771372a0a327.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/c6c8e4be-17eb-4475-bbfc-bb485ffde766.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/87a872d0-5af3-4231-a77c-37f41ec74662.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/91464696-717b-4eaa-adbd-0dfc5e5fd782.svg#91464696-717b-4eaa-adbd-0dfc5e5fd782") format("svg");
     font-style: normal;
-    font-weight: 100; /* Thin (Hairline) */
+    font-weight: 100; /* @thin */
 
   }
   @font-face{
@@ -36,35 +231,35 @@
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/ec2dd1bd-4391-4b89-bf85-1a2346ea4342.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/fcf6f211-efa2-40f6-9c6b-e0ca63b6ea60.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/60fcc194-9529-4b99-9506-cdb26642656a.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/c110f1ef-6fdf-4008-bc75-b370649384a3.svg#c110f1ef-6fdf-4008-bc75-b370649384a3") format("svg");
     font-style: italic;
-    font-weight: 100; /* Thin (Hairline) */
+    font-weight: 100; /* @thin */
   }
   @font-face{
     font-family:"Avenir Next";
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/17c55b27-e9ab-43cd-b948-d49f97480d68.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/17c55b27-e9ab-43cd-b948-d49f97480d68.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/2e3f5cb9-101f-46cf-a7b3-dfaa58261e03.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/fa19948e-5e38-4909-b31e-41acd170d6f2.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/6de0ce4d-9278-467b-b96f-c1f5f0a4c375.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/9fd4ea0c-b19a-4b21-9fdf-37045707dd78.svg#9fd4ea0c-b19a-4b21-9fdf-37045707dd78") format("svg");
     font-style: italic;
-    font-weight: 200; /* ExtraLight (UltraLight) */
+    font-weight: 200; /* @extralight */
   }
   @font-face{
     font-family:"Avenir Next";
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/8b498c39-fabe-4789-bb81-5e37c9ecddd3.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/8b498c39-fabe-4789-bb81-5e37c9ecddd3.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/1c6c1881-23c9-4d6a-a018-759d1c9ded15.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/f0d655c5-a88a-49ad-bb29-f3b5cca41731.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/3a561c83-40d4-4868-8255-e8455eb009c4.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/3966f856-9dcf-48e7-88e7-7400f1b7d619.svg#3966f856-9dcf-48e7-88e7-7400f1b7d619") format("svg");
     font-style: italic;
-    font-weight: 200; /* ExtraLight (UltraLight) */
+    font-weight: 200; /* @extralight */
   }
   @font-face{
     font-family:"Avenir Next";
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/0ecef829-586e-426d-a633-4c8a8c926769.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/0ecef829-586e-426d-a633-4c8a8c926769.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/49c5f3e1-5867-4b1d-a843-2d07fa60d85d.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/f401df6f-54eb-406c-b46a-90b9451c598d.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/276fe25e-e430-4376-b33c-705dd77b3dba.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/869dc33b-3685-4d74-a51c-82b435579093.svg#869dc33b-3685-4d74-a51c-82b435579093") format("svg");
     font-style: normal;
-    font-weight: 300; /* Light */
+    font-weight: 300; /* @light */
   }
   @font-face{
     font-family:"Avenir Next";
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/440b64c9-a97b-4a0c-a6af-a6bb6d49c252.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/440b64c9-a97b-4a0c-a6af-a6bb6d49c252.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/62e28d52-436d-40b8-a5f0-00479f3f44ed.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/5b8c6fdc-0ba4-4b65-87e4-d5ae51245ea5.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/c677d79d-442e-4c76-8db1-c29ac7788039.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/216291a0-f927-4f75-9de7-6e36c7fd7ebf.svg#216291a0-f927-4f75-9de7-6e36c7fd7ebf") format("svg");
     font-style: italic;
-    font-weight: 300; /* Light */
+    font-weight: 300; /* @light */
   }
   @font-face{
     font-family:"Avenir Next";
@@ -85,28 +280,28 @@
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg");
     font-style: normal;
-    font-weight: 500; /* Medium */
+    font-weight: 500; /* @medium */
   }
   @font-face{
     font-family:"Avenir Next";
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/3f380a53-50ea-4a62-95c5-d5d8dba03ab8.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/8344e877-560d-44d4-82eb-9822766676f9.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/b28b01d9-78c5-46c6-a30d-9a62c8f407c5.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/ed4d3c45-af64-4992-974b-c37cd12a9570.svg#ed4d3c45-af64-4992-974b-c37cd12a9570") format("svg");
     font-style: italic;
-    font-weight: 500; /* Medium */
-  }
-  @font-face{
-    font-family:"Avenir Next";
-    src:url("https://jimthoburn.com/fonts-temp-for-la2050/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix");
-    src:url("https://jimthoburn.com/fonts-temp-for-la2050/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/a0f4c2f9-8a42-4786-ad00-fce42b57b148.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/99affa9a-a5e9-4559-bd07-20cf0071852d.svg#99affa9a-a5e9-4559-bd07-20cf0071852d") format("svg");
-    font-style: italic;
-    font-weight: 600; /* SemiBold (DemiBold) */
+    font-weight: 500; /* @medium */
   }
   @font-face{
     font-family:"Avenir Next";
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/770d9a7e-8842-4376-9319-8f2c8b8e880d.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/770d9a7e-8842-4376-9319-8f2c8b8e880d.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/687932cb-145b-4690-a21d-ed1243db9e36.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/bc350df4-3100-4ce1-84ce-4a5363dbccfa.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/bc13ae80-cd05-42b4-b2a9-c123259cb166.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/4862b373-2643-46b1-b0b5-88537c52d15c.svg#4862b373-2643-46b1-b0b5-88537c52d15c") format("svg");
+    font-style: italic;
+    font-weight: 600; /* @semibold */
+  }
+  @font-face{
+    font-family:"Avenir Next";
+    src:url("https://jimthoburn.com/fonts-temp-for-la2050/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix");
+    src:url("https://jimthoburn.com/fonts-temp-for-la2050/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/a0f4c2f9-8a42-4786-ad00-fce42b57b148.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/99affa9a-a5e9-4559-bd07-20cf0071852d.svg#99affa9a-a5e9-4559-bd07-20cf0071852d") format("svg");
     font-style: normal;
-    font-weight: 600; /* SemiBold (DemiBold) */
+    font-weight: 600; /* @semibold */
   }
   @font-face{
     font-family:"Avenir Next";
@@ -127,63 +322,12 @@
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/3418f6be-70a5-4c26-af1d-c09a8642ca20.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/3418f6be-70a5-4c26-af1d-c09a8642ca20.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/5c57b2e2-f641-421e-a95f-65fcb47e409a.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/181c847e-cdbc-43d5-ae14-03a81c8953b4.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/045d1654-97f2-4ff0-9d24-21ba9dfee219.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/3c111f4f-c9f7-45d4-b35f-4f4ed018842f.svg#3c111f4f-c9f7-45d4-b35f-4f4ed018842f") format("svg");
     font-style: normal;
-    font-weight: 900; /* Black (Heavy) */
+    font-weight: 900; /* @black */
   }
   @font-face{
     font-family:"Avenir Next";
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/ca9162bc-20bd-4810-91a9-e816fdc64dae.eot?#iefix");
     src:url("https://jimthoburn.com/fonts-temp-for-la2050/ca9162bc-20bd-4810-91a9-e816fdc64dae.eot?#iefix") format("eot"),url("https://jimthoburn.com/fonts-temp-for-la2050/71b9791b-4350-4b52-8b43-c03b82004511.woff2") format("woff2"),url("https://jimthoburn.com/fonts-temp-for-la2050/8c17992f-c017-49e0-b573-779f62016f06.woff") format("woff"),url("https://jimthoburn.com/fonts-temp-for-la2050/2b4885a7-fc02-4aa0-b998-5b008a589c80.ttf") format("truetype"),url("https://jimthoburn.com/fonts-temp-for-la2050/9b40a6ef-0ef5-49c0-aa8d-5ba7e8e7d9b7.svg#9b40a6ef-0ef5-49c0-aa8d-5ba7e8e7d9b7") format("svg");
     font-style: italic;
-    font-weight: 900; /* Black (Heavy) */
+    font-weight: 900; /* @black */
   }
-
-
-  /* =Type
-  ----------------------------------------------- */
-  body {
-    font: 100%/1.5 "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 1.5em;
-  }
-
-  @media (min-width: 40em) {
-    body {
-      padding: 0 3em 0;
-    }
-  }
-
-  /* OPTIONAL: Increase the font size on big screens. */
-  @media screen and (min-width: 600px) and (min-height: 600px) {
-    html {
-      font-size: 112.5%;
-    }
-  }
-  @media screen and (min-width: 800px) and (min-height: 800px) {
-    html {
-      font-size: 125%;
-    }
-  }
-  @media screen and (min-width: 1000px) and (min-height: 1000px) {
-    html {
-      font-size: 137.5%;
-    }
-  }
-  @media screen and (min-width: 1200px) and (min-height: 1200px) {
-    html {
-      font-size: 150%;
-    }
-  }
-
-
-  /* Limit line lengths, for readability. */
-  h1, h2, h3, h4, p, ol, ul, dl, figure {
-    max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
-  }
-
-
-
-

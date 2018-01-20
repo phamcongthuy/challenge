@@ -1,5 +1,8 @@
 ---
+title: Rules
 ---
+
+# Rules
 
 ## What are the rules and regulations for submitting a proposal to the My LA2050 Activation Challenge?
 
@@ -31,7 +34,7 @@ Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh 
 
 Read all the rules.
 
-## **To apply, organizations will:**
+## To apply, organizations will:
 
 * Outline how their activations will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activations;
 * Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
@@ -42,9 +45,9 @@ Read all the rules.
 
 * * *
 
-# FAQ
+# FAQs
 
-## WHAT IS LA2050?
+## What is LA2050?
 
 LA2050 is a community-guided initiative driving and tracking progress towards a shared vision for the future of Los Angeles. We believe that in order achieve a more thriving, prosperous, and equitable region, we must be united by a clear vision of success for the region. So we partnered with organizations to reach 30,000 Angelenos and created a vision! And to make sure it was smart and academically defensible, we received input from advisors and expert stakeholders.
 
@@ -133,7 +136,7 @@ Be sure to explain why you think the activation campaign strategy and engagement
 
 Videos can help quickly articulate your project or your organization’s mission. To include a video, use a YouTube URL. If you don’t have a video, be sure to include a high-resolution photo that represents your idea or organization. Photos should be in JPG, PNG, or GIF format, at least 570 × 345 pixels. We suggest limiting attachment files to 5 MB each.
 
-Please note that when uploading documents file names containing special characters (!@#$%^&*()) are not allowed and file names should be less than or equal to 30 characters.
+Please note that when uploading documents file names containing special characters (!@#$%^&\*()) are not allowed and file names should be less than or equal to 30 characters.
 
 Applicants should not expect to be able to revise their applications after the submission date.
 

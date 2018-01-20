@@ -1,7 +1,8 @@
 ---
+title: About
 ---
 
-## About LA2050
+# About
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. We’re also tracking our progress by evaluating [60+ metrics](https://www.la2050.org/metrics) over time that assess how Los Angeles is faring.
 
@@ -9,9 +10,9 @@ In 2013, we launched our first signature program, the My LA2050 Grants Challenge
 
 And now we want your help to take all of this work to the next level! We want you to help us answer: how can we engage 100,000 Angelenos to make measurable progress towards achieving our shared vision?
 
-## About the My LA2050 Activation Challenge
+## My LA2050 Activation Challenge
 
-This is an open call via for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations--one per goal category--to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
+This is an open call via for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations--one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
 
 The activations should aim to engage Angelenos to make a specific, tangible impact on one of the LA2050 goals and metrics by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
 
@@ -40,7 +41,7 @@ June 19-29, 2018
 July 9, 2018
 : Winners Announced
 
-Note: if your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event.
+_If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event._
 
 * * *
 
@@ -52,8 +53,7 @@ Note: if your application is selected as a finalist to win the activation challe
 * Ensure that the activation campaign creates clear and accessible engagement pathways for Angelenos  
 * Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, calling elected officials, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. Strategies cannot include any political election-related activities like candidate endorsements.
     
-
-## LA2050 PARTNERSHIP
+## LA2050 Partnership
 
 **We want to work together! To partner, we plan on:**
 

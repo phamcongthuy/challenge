@@ -1,7 +1,8 @@
 ---
+title: Application Process
 ---
 
-## APPLICATION PROCESS
+# Application Process
 
 Apply between March 1, 2018 (9am Pacific Time) and March 30, 2018 (5pm Pacific Time). Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Activation Challenge website on April 9, 2018 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on May 21, 2018.
 
@@ -23,29 +24,25 @@ Detail any additional non-financial assistance needed from LA2050 to make the su
 
 * * *
 
-## WINNERS SELECTION
+## Winners Selection
 
 **Winners will be selected via a two-step process:**
 
-_25 finalists will be selected by an evaluation committee_: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists--five in each goal category.
+_25 finalists will be selected by an evaluation committee_: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
 
 _5 winning proposals will be selected by the public_: The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
 
 The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
 
-Impact on the LA2050 goals and metrics
-
-Overall quality of the application
-
-Feasibility
-
-Ability to mobilize the LA community
-
-Collaborative spirit
+* Impact on the LA2050 goals and metrics
+* Overall quality of the application
+* Feasibility
+* Ability to mobilize the LA community
+* Collaborative spirit
 
 * * *
 
-## PUBLIC VOTING 
+## Public Voting 
 
 Voting begins on June 19, 2018 (9am Pacific Time) and closes June 29, 2018 (5pm Pacific Time).
 
@@ -59,4 +56,4 @@ Voters can use social sign-in via Facebook or Google or can use an email account
 
 We suggest using the latest versions of Firefox and Chrome for Mac and Windows, Safari for Mac, and Internet Explorer 10.
 
-If you have any questions, please review these FAQs or send us an email at connect@la2050.org.
+If you have any questions, please review these FAQs or send us an email at [connect@la2050.org](mailto:connect@la2050.org).

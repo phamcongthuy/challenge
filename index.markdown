@@ -2,70 +2,75 @@
 title: 2018 My LA2050 Activation Challenge
 ---
 
-How would you activate 100,000 angelenos for a better LA?
+# How would you activate _100,000 angelenos_ for a better LA?
 
-[Learn More](about-la2050.html)
+<div class="action" markdown="1">
+* [Learn More](/about)
+* [Get Updates](https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212)
+</div>
 
-[GET UPDATES](https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212)
+## We believe in the power of angelenos.
 
 #ACTIVATEFORLA
 
-We believe in the power of angelenos.
+The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.
 
-### The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.
+A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and partnership from LA2050 in support of their efforts.
 
-### A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and partnership from LA2050 in support of their efforts.
+## 1,000,000. 5 winners. Two years to shape LA.
 
-1,000,000. 5 winners. Two years to shape LA.
-
-[READ THE RULES](new-page.html)
+<p class="action" markdown="1">
+[Read the Rules](/rules)
+</p>
 
 * * *
 
-## _What do we mean by activation?_
+## What do we mean by activation?
 
-## We don’t want to limit your imagination, so think big!
+We don’t want to limit your imagination, so think big!
 
-## We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
+We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
 
-KEY DATES
+## Key Dates
 
 ![](/assets/images/icons/submission.png)
 
-## SUBMISSION  
-PERIOD
+### Submission Period
 
-MARCH 1-3O, 2018
+March 1-3O, 2018
 
 ![](/assets/images/icons/voting.png)
 
-## PUBLIC  
-VOTING
+### Public Voting
 
-JUNE 19-29, 2018
+June 19-29, 2018
 
 ![](/assets/images/icons/winners.png)
 
-## WINNERS ANNOUNCED
+### Winners Announced
 
-JULY 9, 2018
+July 9, 2018
 
-### 25 finalists will be chosen by jury, and the five final winners will be voted on by the public.
+## 25 finalists will be chosen by jury, and the five final winners will be voted on by the public.
 
-[TIMELINE](about-la2050.html)
+<p class="action" markdown="1">
+[Timeline](/about)
+</p>
 
 * * *
 
-# **Join us to harness our region’s civic activism for a better Los Angeles.**
+# Join us to harness our region’s civic activism for a better Los Angeles.
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great project](https://www.la2050.org/grantees)[s](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
 
-## **Starting March 1, 2018, you can submit your proposal to activate Angelenos around an important issue in the region.**
+**Starting March 1, 2018, you can submit your proposal to activate Angelenos around an important issue in the region.**
 
-## **For additional information, please check the [process page](guidelines.html).**
+**For additional information, please check the [process page](/process).**
 
-If you have questions not answered in the FAQs, please contact us at connect@la2050.org.
+If you have questions not answered in the FAQs, please contact us at [connect@la2050.org](mailto:connect@la2050.org).
 
-[MESSAGE US](mailto:connect@la2050.org)
+<p class="action" markdown="1">
+[Message Us](mailto:connect@la2050.org)
+</p>

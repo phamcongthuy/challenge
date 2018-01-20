@@ -1,7 +1,8 @@
 ---
+title: Guidelines
 ---
 
-## Guidelines
+# Guidelines
 
 **Applicants are encouraged to:**
 
@@ -12,7 +13,7 @@
 * Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, calling elected officials, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. Strategies cannot include any political election-related activities like candidate endorsements.
     
 
-## LA2050 PARTNERSHIP
+## LA2050 Partnership
 
 **We want to work together! To partner, we plan on:**
 
