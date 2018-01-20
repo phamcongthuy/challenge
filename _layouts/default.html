@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h2>{{ site.title }}</h2>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/process">Process</a></li>
+      <li><a href="/rules">Rules</a></li>
+      <!--
+      <li><a href="/guidelines">Guidelines</a></li>
+      -->
+    </ul>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p><a href="https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212">Sign up for Updates</a></p>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/process">Process</a></li>
+      <li><a href="/rules">Rules</a></li>
+      <!--
+      <li><a href="/guidelines">Guidelines</a></li>
+      -->
+      <li><a href="http://la2050.org/">LA2050</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://twitter.com/LA2050">Twitter</a></li>
+      <li><a href="https://instagram.com/la2050">Instagram</a></li>
+      <li><a href="https://www.facebook.com/LA2050">Facebook</a></li>
+    </ul>
+  </footer>
+</body>
+</html>

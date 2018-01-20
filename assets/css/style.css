@@ -1,0 +1,74 @@
+
+  @charset "utf-8";
+
+  /*
+  Grand Park LA Style Sheet
+
+  Sections are grouped under headings with a “=” symbol,
+  to make searching easier.
+
+  When a style is used more than once, it sometimes has a “@keyword”
+  in a comment next to it (to help with search and replace).
+
+  For example…
+
+  16px  @font-size
+  24px  @line-height
+  32em  @page-max-width
+  */
+
+
+  /* =Colors
+  ----------------------------------------------- */
+
+
+
+  /* =Type
+  ----------------------------------------------- */
+  body {
+    font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1.5em;
+  }
+
+  @media (min-width: 40em) {
+    body {
+      padding: 0 3em 0;
+    }
+  }
+
+  /* OPTIONAL: Increase the font size on big screens. */
+  @media screen and (min-width: 600px) and (min-height: 600px) {
+    html {
+      font-size: 112.5%;
+    }
+  }
+  @media screen and (min-width: 800px) and (min-height: 800px) {
+    html {
+      font-size: 125%;
+    }
+  }
+  @media screen and (min-width: 1000px) and (min-height: 1000px) {
+    html {
+      font-size: 137.5%;
+    }
+  }
+  @media screen and (min-width: 1200px) and (min-height: 1200px) {
+    html {
+      font-size: 150%;
+    }
+  }
+
+
+  /* Limit line lengths, for readability. */
+  h1, h2, h3, h4, p, ol, ul, dl, figure {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+
+
+
+

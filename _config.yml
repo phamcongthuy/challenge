@@ -1,0 +1,14 @@
+
+title: 2018 My LA2050 Activation Challenge
+
+permalink: pretty
+
+exclude:
+  - CNAME
+  - README
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
