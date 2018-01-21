@@ -98,15 +98,11 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
 
-* * *
-
 **Starting March 1, 2018, you can submit your proposal to activate Angelenos around an important issue in the region.**
-
-* * *
 
 **For additional information, please check the [process page](/process).**
 
-If you have questions not answered in the FAQs, please contact us at [connect@la2050.org](mailto:connect@la2050.org).
+If you have questions not answered in the [FAQs](/rules/#faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
 
 <p class="action" markdown="1">
 [Message Us](mailto:connect@la2050.org)
