@@ -203,7 +203,7 @@
     color: white;
   }
   main > h1 + section.timeline {
-    margin-top: -4.5em;
+    margin-top: -7.5em;
     padding-top: 0;
   }
   .in-depth h2 + p {
@@ -545,7 +545,6 @@
   }
   main > section:last-child {
     margin-bottom: -4.5em;
-    padding-bottom: 9em;
   }
 
   header ul,
@@ -576,7 +575,7 @@
     color: white;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
-    padding: 1.5rem;
+    padding: 0 1.5rem 4.5rem;
     margin-top: 0;
     margin-bottom: 4.5rem;
     text-align: center;
@@ -592,7 +591,7 @@
     main > h1:first-child {
       margin-left: -3rem;
       margin-right: -3rem;
-      padding: 3rem;
+      padding: 0rem 3rem 6rem;
     }
   }
   main > h1:first-child em {
@@ -604,13 +603,14 @@
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     padding: 1.5em 1.5em 3em;
-    margin-top: -4.5em;
+    margin-top: -6em;
     margin-bottom: 4.5em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     main > h1:first-child + .action {
       margin-left: -3em;
       margin-right: -3em;
+    margin-top: -9em;
       padding: 3em 3em 6em;
     }
   }
@@ -764,6 +764,11 @@
     color: rgb(237, 59, 136); /* @strawberry */
     color: white;
   }
+  .blueberry header a:hover,
+  .blueberry header a:active,
+  .blueberry header a:focus  {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
   .blueberry main > h1:not(:first-child),
   .blueberry main > h2,
   .blueberry main > h3,
@@ -782,6 +787,11 @@
   }
   .lime header a {
     color: white;
+  }
+  .lime header a:hover,
+  .lime header a:active,
+  .lime header a:focus  {
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   .lime main > h1:first-child {
     color: rgb(237, 59, 136); /* @strawberry */
@@ -808,6 +818,11 @@
     color: rgb(237, 59, 136); /* @strawberry */
     color: white;
   }
+  .tangerine header a:hover,
+  .tangerine header a:active,
+  .tangerine header a:focus  {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
   .tangerine main > h1:not(:first-child),
   .tangerine main > h2,
   .tangerine main > h3,
@@ -829,6 +844,11 @@
   .banana main > h1:first-child em {
     color: rgb(237, 59, 136); /* @strawberry */
     color: white;
+  }
+  .banana header a:hover,
+  .banana header a:active,
+  .banana header a:focus  {
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   .banana main > h1:not(:first-child),
   .banana main > h2,
