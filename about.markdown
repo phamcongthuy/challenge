@@ -55,7 +55,7 @@ _If your application is selected as a finalist to win the activation challenge, 
 * Ensure that the activation campaign creates clear and accessible engagement pathways for Angelenos  
 * Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, calling elected officials, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. Strategies cannot include any political election-related activities like candidate endorsements.
 
-## LA2050 Partnership
+## _LA2050 Partnership_
 
 **We want to work together! To partner, we plan on:**
 

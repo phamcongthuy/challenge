@@ -44,17 +44,17 @@ We envision activations ranging from engaging people on issue advocacy to helpin
 </div></section>
 
 
-<section class="timeline" markdown="1"><div markdown="1">
+<section class="timeline has-icons" markdown="1"><div markdown="1">
 
 ## Key Dates
 
-March 1-3O, 2018
+![](/assets/images/icons/submission.png) March 1-3O, 2018
 : Submission Period
 
-June 19-29, 2018
+![](/assets/images/icons/voting.png) June 19-29, 2018
 : Public Voting
 
-**July 9, 2018**
+![](/assets/images/icons/winners.png) **July 9, 2018**
 : **Winners Announced**
 
 _**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>_

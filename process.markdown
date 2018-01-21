@@ -19,7 +19,7 @@ From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), 
 
 * * *
 
-## Winners Selection
+## **Winners Selection**
 
 _Winners will be selected via a two-step process:_
 
@@ -37,7 +37,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 * * *
 
-## Public Voting
+## _Public Voting_
 
 * Voting begins on June 19, 2018 (9am Pacific Time) and closes June 29, 2018 (5pm Pacific Time).
 * Members of the public may vote once per goal category for a total of five votes.
