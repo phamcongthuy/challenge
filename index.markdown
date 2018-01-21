@@ -13,9 +13,15 @@ title: 2018 My LA2050 Activation Challenge
   </span>
 </h1>
 
+<!--
 <div class="action" markdown="1">
 * [Learn More](/about)
 * [Get Updates](https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212)
+</div>
+-->
+<div class="action" markdown="1">
+* [Submit your Propsal](/process)
+* [Vote for the Winners](/vote)
 </div>
 
 #ACTIVATEFORLA
@@ -98,12 +104,47 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
 
-**Starting March 1, 2018, you can submit your proposal to activate Angelenos around an important issue in the region.**
+* * *
 
-**For additional information, please check the [process page](/process).**
+**Starting March 1, 2018, you can [submit your proposal](/process) to activate Angelenos around an important issue in the region.**
 
+<!--
 If you have questions not answered in the [FAQs](/rules/#faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
 
 <p class="action" markdown="1">
 [Message Us](mailto:connect@la2050.org)
 </p>
+-->
+
+* * *
+
+## **Winners Selection**
+
+_Winners will be selected via a two-step process:_
+
+**25 finalists will be selected by an evaluation committee:** LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
+
+**5 winning proposals will be selected by the public:** The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
+
+The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
+
+* Impact on the LA2050 goals and metrics
+* Overall quality of the application
+* Feasibility
+* Ability to mobilize the LA community
+* Collaborative spirit
+
+## _Public Voting_
+
+**Help us choose our 5 winning proposals!** The activations that receives the most votes will be announced as the winner.
+
+The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
+
+* Impact on the LA2050 goals and metrics
+* Overall quality of the application
+* Feasibility
+* Ability to mobilize the LA community
+* Collaborative spirit
+
+Learn more abour [voting](/vote)
+

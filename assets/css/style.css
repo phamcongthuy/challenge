@@ -198,8 +198,12 @@
     color: white;
   }
   main > section.timeline {
-    background-color: rgb(237, 192, 50); /* @dark-banana */
+    background-color: rgb(255, 194, 51); /* @banana */
     color: white;
+  }
+  main > h1 + section.timeline {
+    margin-top: -7.5em;
+    padding-top: 0;
   }
   .in-depth h2 + p {
     font-size: 1.5em;
@@ -556,6 +560,14 @@
     margin: 0 0.5em;
   }
 
+
+  /* =Aside
+  ----------------------------------------------- */
+  aside {
+    padding-bottom: 3em;
+  }
+
+
   /* =Layout
   ----------------------------------------------- */
   main > h1:first-child {
@@ -736,6 +748,96 @@
   }
   footer .social-links li svg path {
     fill: currentColor;
+  }
+
+
+  /* =Color
+  ----------------------------------------------- */
+  .blueberry header,
+  .blueberry main > h1:first-child {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .blueberry header a,
+  .blueberry main > h1:first-child em {
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+  }
+  .blueberry main > h1:not(:first-child),
+  .blueberry main > h2,
+  .blueberry main > h3,
+  .blueberry aside > h3,
+  .blueberry main > p strong,
+  .blueberry main > p em,
+  .blueberry main > p a,
+  .blueberry aside > p a {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+
+
+  .lime header,
+  .lime main > h1:first-child {
+    background-color: rgb(141, 208, 59); /* @lime */
+  }
+  .lime header a {
+    color: white;
+  }
+  .lime main > h1:first-child em {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .lime main > h1:not(:first-child),
+  .lime main > h2,
+  .lime main > h3,
+  .lime aside > h3,
+  .lime main > p strong,
+  .lime main > p em,
+  .lime main > p a,
+  .lime aside > p a {
+    color: rgb(141, 208, 59); /* @lime */
+  }
+
+
+  .tangerine header,
+  .tangerine main > h1:first-child {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .tangerine header a,
+  .tangerine main > h1:first-child em {
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+  }
+  .tangerine main > h1:not(:first-child),
+  .tangerine main > h2,
+  .tangerine main > h3,
+  .tangerine aside > h3,
+  .tangerine main > p strong,
+  .tangerine main > p em,
+  .tangerine main > p a,
+  .tangerine aside > p a {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+
+
+  .banana header,
+  .banana main > h1:first-child {
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .banana header a,
+  .banana main > h1:first-child em {
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+  }
+  .banana main > h1:not(:first-child),
+  .banana main > h2,
+  .banana main > h3,
+  .banana aside > h3,
+  .banana main > p strong,
+  .banana main > p em,
+  .banana main > p a,
+  .banana aside > p a {
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
 

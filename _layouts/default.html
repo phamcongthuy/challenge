@@ -6,35 +6,34 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
-<body>
+<body{% if page.color %} class="{{ page.color }}"{% endif %}>
   <header>
     <h2><a href="/">My LA2050<br /><em>Activation</em><br />Challenge</a></h2>
     <ul>
       <!--
       <li><a href="/">Home</a></li>
-      -->
       <li><a href="/#join">Join Us</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/about/#timeline">Timeline</a></li>
-      <li><a href="/process">Process</a></li>
-      <li><a href="/rules">Rules</a></li>
-      <li><a href="/rules#faqs">FAQs</a></li>
-      <li><a href="/about/#guidelines">Guidelines</a></li>
+      -->
+      <li><a href="/process">Apply</a></li>
+      <li><a href="/vote">Vote</a></li>
+      <li><a href="/timeline">Timeline</a></li>
+      <li><a href="/rules">FAQs</a></li>
     </ul>
   </header>
   <main>
     {{ content }}
   </main>
+  <aside>
+    <h3>Send us your questions</h3>
+    <p>If you have any questions about this information on this page, please review our <a href="/rules#faqs">FAQs</a> or send us an email at <a href="mailto:connect@la2050.org">connect@la2050.org</a>.</p>
+  </aside>
   <footer>
     <h2><a href="/">My LA2050<br /><em>Activation</em><br />Challenge</a></h2>
     <ul class="navigation">
-      <li><a href="/#join">Join Us</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/about/#timeline">Timeline</a></li>
-      <li><a href="/process">Process</a></li>
-      <li><a href="/rules">Rules</a></li>
-      <li><a href="/rules#faqs">FAQs</a></li>
-      <li><a href="/about/#guidelines">Guidelines</a></li>
+      <li><a href="/process">Apply</a></li>
+      <li><a href="/vote">Vote</a></li>
+      <li><a href="/timeline">Timeline</a></li>
+      <li><a href="/rules">FAQs</a></li>
     </ul>
     <p class="action"><a href="https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212">Sign up for Updates</a></p>
     <ul class="social-links">

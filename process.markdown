@@ -1,13 +1,11 @@
 ---
-title: Application Process for the 2018 My LA2050 Activation Challenge
+title: How to apply for the 2018 My LA2050 Activation Challenge
+color: tangerine
 ---
 
-# Application Process
+# Submit _Your Proposal_
 
-Apply between March 1, 2018 (9am Pacific Time) and March 30, 2018 (5pm Pacific Time). Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Activation Challenge website on April 9, 2018 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on May 21, 2018.
-
-From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on July 9, 2018.
-
+<!--
 ### To apply, organizations will:
 
 * Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation;
@@ -16,33 +14,63 @@ From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), 
 * Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
 * Submit a detailed budget explaining how funds will be used across the two year grant period
 * Detail any additional non-financial assistance needed from LA2050 to make the successful
+-->
 
-* * *
+Starting **March 1, 2018**, you can submit your proposal on this website.
 
-## **Winners Selection**
+### To apply, organizations will:
 
-_Winners will be selected via a two-step process:_
+* Outline how their activations will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activations;
+* Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
+* Clearly articulate the engagement strategies and tools that will be employed
+* Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
+* Submit a detailed budget explaining how funds will be used across the two year grant period
+* Detail any additional non-financial assistance needed from LA2050 to make the campaign successful
 
-**25 finalists will be selected by an evaluation committee:** LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
+### Guidelines
 
-**5 winning proposals will be selected by the public:** The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
+_Applicants are encouraged to:_
 
-The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
+* Think boldly and creatively about the proposed activation campaign
+* Ensure that the activation campaign creates clear and accessible engagement pathways for Angelenos  
+* Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, calling elected officials, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. Strategies cannot include any political election-related activities like candidate endorsements.
 
-* Impact on the LA2050 goals and metrics
-* Overall quality of the application
-* Feasibility
-* Ability to mobilize the LA community
-* Collaborative spirit
+### Dates
 
-* * *
+Apply between March 1, 2018 (9am Pacific Time) and March 30, 2018 (5pm Pacific Time) on this website. 
 
-## _Public Voting_
+Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Activation Challenge website on April 9, 2018 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on May 21, 2018.
 
-* Voting begins on June 19, 2018 (9am Pacific Time) and closes June 29, 2018 (5pm Pacific Time).
-* Members of the public may vote once per goal category for a total of five votes.
-* Voters must be at least 14 years old and a US resident.
-* Voters must log in to participate in the My LA2050 Activation Challenge.
-* Voters can use social sign-in via Facebook or Google or can use an email account to register. Voters using an email account will be sent a link to click in order to validate their address.
+From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on July 9, 2018.
 
-If you have any questions, please review our [FAQs](/rules#faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
+Learn more about the [timeline and voting process](/timeline).
+
+### Rules
+
+_What are the rules for submitting a proposal to the My LA2050 Activation Challenge?_
+
+* The My LA2050 Grants Challenge is open for submissions from March 1, 2018 (9am Pacific Time) through March 30, 2018 (5pm Pacific Time).
+* In order to submit a proposal, log in and complete the application form.
+* US-based non-profit, for-profit, social enterprises and government agencies with projects serving Los Angeles County are eligible to apply.
+* Winning projects must be completed and the grant award must be expended within 24 months.
+* Ongoing projects are eligible for submission.
+* Previous applicants and winners of LA2050 grant programs may reapply.
+* Evaluation committee: In each goal category, the evaluation committee will select five finalists.
+* Public Vote: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
+* Projects will be featured on this site and public voting will be open from June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time).
+* Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
+* In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
+* Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
+* Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
+* Read all the rules.
+
+### _LA2050 Partnership_
+
+_We want to work together! To partner, we plan on:_
+
+* Leveraging the LA2050 community to support and participate in the activation campaign
+* Leading on planning public programming, including events, to connect its community to the activation campaign
+* Offering communications assistance to help the coalition advance thought leadership, including authoring articles, op-eds, and blog posts
+* Amplifying messaging on social media and via its newsletter to support the campaigns
+* Designing assets for materials
+* Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns

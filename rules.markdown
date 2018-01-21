@@ -1,36 +1,7 @@
 ---
-title: Rules for the 2018 My LA2050 Activation Challenge
+title: FAQs for the 2018 My LA2050 Activation Challenge
+color: lime
 ---
-
-# Rules
-
-### What are the rules and regulations for submitting a proposal to the My LA2050 Activation Challenge?
-
-* The My LA2050 Grants Challenge is open for submissions from March 1, 2018 (9am Pacific Time) through March 30, 2018 (5pm Pacific Time).
-* In order to submit a proposal, log in and complete the application form.
-* US-based non-profit, for-profit, social enterprises and government agencies with projects serving Los Angeles County are eligible to apply.
-* Winning projects must be completed and the grant award must be expended within 24 months.
-* Ongoing projects are eligible for submission.
-* Previous applicants and winners of LA2050 grant programs may reapply.
-* Evaluation committee: In each goal category, the evaluation committee will select five finalists.
-* Public Vote: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
-* Projects will be featured on this site and public voting will be open from June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time).
-* Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
-* In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
-* Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
-* Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
-* Read all the rules.
-
-### To apply, organizations will:
-
-* Outline how their activations will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activations;
-* Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
-* Clearly articulate the engagement strategies and tools that will be employed
-* Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
-* Submit a detailed budget explaining how funds will be used across the two year grant period
-* Detail any additional non-financial assistance needed from LA2050 to make the campaign successful
-
-* * *
 
 # FAQs
 
@@ -39,9 +10,24 @@ title: Rules for the 2018 My LA2050 Activation Challenge
 LA2050 is a community-guided initiative driving and tracking progress towards a shared vision for the future of Los Angeles. We believe that in order achieve a more thriving, prosperous, and equitable region, we must be united by a clear vision of success for the region. So we partnered with organizations to reach 30,000 Angelenos and created a vision! And to make sure it was smart and academically defensible, we received input from advisors and expert stakeholders.
 
 We also worked with our community to develop 60+ metrics that we’re tracking over time to evaluate how Los Angeles is faring. And to ignite action, we launched the My LA2050 Grants Challenge in 2013 which was an open call for project ideas to shape a better Los Angeles.
-
   
 You can read about vision, goals, and the metrics we’re using to track progress [here](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432). Our website also includes information about our [goals](https://la2050.org/goals) and [metrics](https://la2050.org/metrics).
+
+<!--
+LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. We’re also tracking our progress by evaluating [60+ metrics](https://www.la2050.org/metrics) over time that assess how Los Angeles is faring.
+
+In 2013, we launched our first signature program, the My LA2050 Grants Challenge, to inspire action and move the needle on the goals and metrics. Through the grants challenge, 1100+ creative and innovative proposals were submitted to build a better LA. With the help of 200,000 individuals who voted on their favorite proposals, $4M in funds were granted to [42 organizations](https://la2050.org/grantees) shaping a brighter future for Los Angeles.
+
+And now we want your help to take all of this work to the next level! We want you to help us answer: how can we engage 100,000 Angelenos to make measurable progress towards achieving our shared vision?
+-->
+
+### What is the Activation Challenge?
+
+This is an open call via for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations--one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
+
+The activations should aim to engage Angelenos to make a specific, tangible impact on one of the LA2050 goals and metrics by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
+
+LA2050 will commit to a two-year partnership to leveraging its resources, assets, and networks to help the activations succeed. Together, the winning organizations, LA2050, and Angelenos will produce five major wins for the region that will change the course of our future.
 
 ### 100,000 is a lot of people! Do we have to activate them all at once?
 
