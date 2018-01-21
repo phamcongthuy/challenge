@@ -608,6 +608,8 @@
   footer .action a,
   main > h1:first-child + .action a {
     background-color: rgb(255, 194, 51); /* @banana */
+    color: black;
+    color: rgba(0, 0, 0, 0.65);
   }
   footer .action a:hover,
   footer .action a:active,
@@ -628,6 +630,14 @@
   }
   header h2 {
     margin-top: 0;
+  }
+
+  footer .action {
+    margin-top: 1.5em;
+  }
+
+  footer > p a {
+    display: inline-block;
   }
 
   @supports (false) and (display: grid) {

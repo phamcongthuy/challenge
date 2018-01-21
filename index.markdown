@@ -44,7 +44,7 @@ We envision activations ranging from engaging people on issue advocacy to helpin
 </div></section>
 
 
-<section class="timeline has-icons" markdown="1"><div markdown="1">
+<section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
 
 ## Key Dates
 
@@ -89,6 +89,8 @@ July 9, 2018
 
 </section>
 -->
+
+<div id="join"></div>
 
 ## Join us to harness our region’s civic activism for a better Los Angeles.
 
