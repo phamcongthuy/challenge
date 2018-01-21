@@ -35,7 +35,7 @@
     color: rgb(101, 168, 19); /* @dark-lime */
     color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(239, 150, 41); /* @dark-tangerine */
-    transition: background-color 0.2s, color 0.2s;
+    transition: all 0.2s;
     font-weight: 600; /* @semibold */
   }
   a:hover,
@@ -486,6 +486,8 @@
   }
   footer h2 {
     color: inherit;
+  }
+  footer h2 a {
     opacity: 0.25;
   }
   header h2 em,
@@ -505,6 +507,7 @@
   footer h2 a:focus {
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(6, 179, 188); /* @blueberry */
+    opacity: 1;
   }
 
   hr {
