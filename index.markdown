@@ -23,13 +23,13 @@ A total of $1,000,000 will be awarded to five organizations to implement their i
 [Read the Rules](/rules)
 </p>
 
-* * *
-
+<section class="in-depth" markdown="1">
 ## What do we mean by activation?
 
 We don’t want to limit your imagination, so think big!
 
 We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
+</section>
 
 ## Key Dates
 

@@ -1,10 +1,10 @@
 ---
-title: Rules
+title: Rules for the 2018 My LA2050 Activation Challenge
 ---
 
 # Rules
 
-## What are the rules and regulations for submitting a proposal to the My LA2050 Activation Challenge?
+**What are the rules and regulations for submitting a proposal to the My LA2050 Activation Challenge?**
 
 The My LA2050 Grants Challenge is open for submissions from March 1, 2018 (9am Pacific Time) through March 30, 2018 (5pm Pacific Time).
 

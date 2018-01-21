@@ -1,5 +1,5 @@
 ---
-title: Application Process
+title: Application Process for the 2018 My LA2050 Activation Challenge
 ---
 
 # Application Process

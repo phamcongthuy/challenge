@@ -1,8 +1,8 @@
 ---
-title: About
+title: About the 2018 My LA2050 Activation Challenge
 ---
 
-# About
+# About LA2050
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. We’re also tracking our progress by evaluating [60+ metrics](https://www.la2050.org/metrics) over time that assess how Los Angeles is faring.
 

@@ -1,5 +1,5 @@
 ---
-title: Guidelines
+title: Guidelines for the 2018 My LA2050 Activation Challenge
 ---
 
 # Guidelines

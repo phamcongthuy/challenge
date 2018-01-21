@@ -44,17 +44,26 @@
     color: rgb(237, 59, 136); /* @strawberry */
   }
 
+  @supports (background-image: linear-gradient(white, white)) and (color: currentColor) {
+    main p:not(.action) a {
+      text-decoration: none;
+      background-image: linear-gradient(to top, transparent, transparent 7.5%, currentColor 7.5%, currentColor 12.5%, transparent 12.5%, transparent); /* @dark-tangerine */
+      transition: all 0.2s;
+    }
+  }
+
   header a,
   footer a {
     color: rgb(6, 179, 188); /* @blueberry */
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    text-decoration: none;
   }
 
   .action {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
   .action ul,
   .action li {
@@ -66,21 +75,39 @@
     margin-right: 1em;
   }
   .action a {
-    background-color: rgb(239, 150, 41); /* @dark-tangerine */
     background-color: rgb(101, 168, 19); /* @dark-lime */
+    background-color: rgb(239, 150, 41); /* @dark-tangerine */
     color: white;
     padding: 0.75em 1.5em;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
   }
   .action a:hover,
   .action a:active,
   .action a:focus {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: white;
+  }
+
+
+  /* =In Depth
+  ----------------------------------------------- */
+  .in-depth {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+    padding: 1.5em;
+  }
+  .in-depth > h2 {
+    color: inherit;
+  }
+  .in-depth > *:first-child {
+    margin-top: 0;
+  }
+  .in-depth > *:last-child {
+    margin-bottom: 0;
   }
 
 
@@ -133,31 +160,74 @@
 
   h1 {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 900; /* @black */
     font-size: 3em;
+    line-height: 1;
   }
   h1 em {
     color: rgb(249, 160, 51); /* @tangerine */
     display: inline-block;
     font-style: normal;
   }
-  h2 {
+  main > hr + h2,
+  main > h2:nth-of-type(1),
+  main > h2:nth-of-type(2) {
+    line-height: 1.5;
     display: inline;
     font-style: italic;
     font-size: 2em;
-    font-weight: 900;
+    font-weight: 900; /* @black */
     text-transform: uppercase;
-    background-image: linear-gradient(to top, transparent, transparent 10%, rgb(237, 192, 50) 10%, rgb(237, 192, 50) 65%, transparent 65%, transparent); /* @dark-banana */
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgb(237, 192, 50) 5%, rgb(237, 192, 50) 65%, transparent 65%, transparent); /* @dark-banana */
+  }
+  main > hr + h2,
+  main > h2:nth-of-type(2) {
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgb(6, 179, 188) 5%, rgb(6, 179, 188) 65%, transparent 65%, transparent); /* @blueberry */
   }
 
-  @supports(text-shadow: 0 0 0 rgb(0, 0, 0)) {
-    h2 {
+  @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
+    main > hr + h2,
+    main > h2:nth-of-type(1),
+    main > h2:nth-of-type(2) {
       position: relative;
       left: 0.2em;
       margin-right: 0.2em;
       color: transparent;
       text-shadow: -0.2em 0 0 rgb(237, 59, 136); /* @strawberry */
     }
+    main > hr + h2,
+    main > h2:nth-of-type(2) {
+      text-shadow:
+        -0.20em  0.00em 0 white,
+        -0.25em -0.05em 0 rgb(6, 179, 188), /* top left */
+        -0.20em -0.05em 0 rgb(6, 179, 188), /* top */
+        -0.15em -0.05em 0 rgb(6, 179, 188), /* top right */
+        -0.15em  0.00em 0 rgb(6, 179, 188), /* right */
+        -0.15em  0.05em 0 rgb(6, 179, 188), /* bottom right */
+        -0.20em  0.05em 0 rgb(6, 179, 188), /* bottom */
+        -0.25em  0.05em 0 rgb(6, 179, 188), /* bottom left */
+        -0.25em  0.00em 0 rgb(6, 179, 188)  /* left */
+        ; /* @blueberry */
+    }
+  }
+
+  header h2:first-child,
+  footer h2:first-child {
+    display: table;
+    font-weight: 500; /* @medium */
+    text-transform: uppercase;
+    color: rgb(249, 160, 51); /* @tangerine */
+    line-height: 1;
+    text-align: center;
+  }
+  header h2:first-child em,
+  footer h2:first-child em {
+    font-weight: bold;
+    color: inherit;
+  }
+  header h2:first-child a,
+  footer h2:first-child a {
+    color: inherit;
   }
 
   hr {
@@ -211,6 +281,23 @@
     p, ul, dl {
       grid-column: 2 / 3;
     }
+  }
+
+
+  /* =Social
+  ----------------------------------------------- */
+  footer .social-links {
+    font-size: 3em;
+  }
+  footer .social-links li {
+    margin-right: -0.25em;
+  }
+  footer .social-links li svg {
+    width: 1em;
+    height: 1em;
+  }
+  footer .social-links li svg path {
+    fill: currentColor;
   }
 
 
