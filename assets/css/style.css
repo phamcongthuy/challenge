@@ -112,7 +112,8 @@
   */
   h2 + .action,
   h3 + .action,
-  p + .action {
+  p + .action,
+  ul + .action {
     margin-top: 1.5em;
   }
   .action ul,
@@ -202,7 +203,7 @@
     color: white;
   }
   main > h1 + section.timeline {
-    margin-top: -7.5em;
+    margin-top: -4.5em;
     padding-top: 0;
   }
   .in-depth h2 + p {
@@ -782,7 +783,7 @@
   .lime header a {
     color: white;
   }
-  .lime main > h1:first-child em {
+  .lime main > h1:first-child {
     color: rgb(237, 59, 136); /* @strawberry */
   }
   .lime main > h1:not(:first-child),

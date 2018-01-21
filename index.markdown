@@ -20,7 +20,7 @@ title: 2018 My LA2050 Activation Challenge
 </div>
 -->
 <div class="action" markdown="1">
-* [Submit your Propsal](/process)
+* [Submit your Proposal](/process)
 * [Vote for the Winners](/vote)
 </div>
 
@@ -34,10 +34,11 @@ A total of $1,000,000 will be awarded to five organizations to implement their i
 
 <h3><span style="display: block; max-width: 15em"><em>1,000,000. 5&nbsp;winners. Two&nbsp;years to shape&nbsp;LA.</em></span></h3>
 
-
+<!--
 <p class="action" markdown="1">
-[Read the Rules](/rules)
+[Read the FAQs](/rules)
 </p>
+-->
 
 <section class="in-depth"><div markdown="1">
 
@@ -46,29 +47,6 @@ A total of $1,000,000 will be awarded to five organizations to implement their i
 **We don’t want to limit your imagination, _so think big!_**
 
 We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
-
-</div></section>
-
-
-<section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
-
-## Key Dates
-
-![](/assets/images/icons/submission.png) March 1-3O, 2018
-: Submission Period
-
-![](/assets/images/icons/voting.png) June 19-29, 2018
-: Public Voting
-
-![](/assets/images/icons/winners.png) **July 9, 2018**
-: **Winners Announced**
-
-_**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>_
-
-
-<p class="action" markdown="1">
-[Timeline](/about#timeline)
-</p>
 
 </div></section>
 
@@ -96,7 +74,7 @@ July 9, 2018
 </section>
 -->
 
-<div id="join"></div>
+<section><div markdown="1">
 
 ## Join us to harness our region’s civic activism for a better Los Angeles.
 
@@ -104,9 +82,58 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
 
-* * *
+<!--
+Starting March 1, 2018, you can [submit your proposal](/process) to activate Angelenos around an important issue in the region.
+-->
 
-**Starting March 1, 2018, you can [submit your proposal](/process) to activate Angelenos around an important issue in the region.**
+<p class="action" markdown="1">
+[Submit your Proposal](/process)
+</p>
+
+</div></section>
+
+## Winners Selection
+
+Winners will be selected via a two-step process:
+
+**25 finalists will be selected by an evaluation committee**: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
+
+**5 winning proposals will be selected by the public**: The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
+
+The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
+
+* Impact on the LA2050 goals and metrics
+* Overall quality of the application
+* Feasibility
+* Ability to mobilize the LA community
+* Collaborative spirit
+
+<p class="action" markdown="1">
+[Vote for the Winners](/vote)
+</p>
+
+
+<section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
+
+## Key Dates
+
+![](/assets/images/icons/submission.png) March 1-3O, 2018
+: Submission Period
+
+![](/assets/images/icons/voting.png) June 19-29, 2018
+: Public Voting
+
+![](/assets/images/icons/winners.png) **July 9, 2018**
+: **Winners Announced**
+
+_**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>_
+
+
+<p class="action" markdown="1">
+[Timeline](/timeline)
+</p>
+
+</div></section>
 
 <!--
 If you have questions not answered in the [FAQs](/rules/#faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
@@ -115,36 +142,4 @@ If you have questions not answered in the [FAQs](/rules/#faqs), please contact u
 [Message Us](mailto:connect@la2050.org)
 </p>
 -->
-
-* * *
-
-## **Winners Selection**
-
-_Winners will be selected via a two-step process:_
-
-**25 finalists will be selected by an evaluation committee:** LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
-
-**5 winning proposals will be selected by the public:** The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
-
-The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
-
-* Impact on the LA2050 goals and metrics
-* Overall quality of the application
-* Feasibility
-* Ability to mobilize the LA community
-* Collaborative spirit
-
-## _Public Voting_
-
-**Help us choose our 5 winning proposals!** The activations that receives the most votes will be announced as the winner.
-
-The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
-
-* Impact on the LA2050 goals and metrics
-* Overall quality of the application
-* Feasibility
-* Ability to mobilize the LA community
-* Collaborative spirit
-
-Learn more abour [voting](/vote)
 
