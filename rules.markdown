@@ -8,7 +8,7 @@ title: Rules for the 2018 My LA2050 Activation Challenge
 
 The My LA2050 Grants Challenge is open for submissions from March 1, 2018 (9am Pacific Time) through March 30, 2018 (5pm Pacific Time).
 
-In order to submit a proposal, log in using Skild and complete the application form.
+In order to submit a proposal, log in using FluidReview and complete the application form.
 
 US-based non-profit, for-profit, social enterprises and government agencies with projects serving Los Angeles County are eligible to apply.
 
@@ -47,7 +47,7 @@ Read all the rules.
 
 # FAQs
 
-## What is LA2050?
+### What is LA2050?
 
 LA2050 is a community-guided initiative driving and tracking progress towards a shared vision for the future of Los Angeles. We believe that in order achieve a more thriving, prosperous, and equitable region, we must be united by a clear vision of success for the region. So we partnered with organizations to reach 30,000 Angelenos and created a vision! And to make sure it was smart and academically defensible, we received input from advisors and expert stakeholders.
 
@@ -56,37 +56,37 @@ We also worked with our community to develop 60+ metrics that we’re tracking o
   
 You can read about vision, goals, and the metrics we’re using to track progress [here](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432). Our website also includes information about our [goals](https://la2050.org/goals) and [metrics](https://la2050.org/metrics).
 
-## 100,000 is a lot of people! Do we have to activate them all at once?
+### 100,000 is a lot of people! Do we have to activate them all at once?
 
 100,000 is an exciting number of Angelenos to get involved in local issues. And it’ll be no easy feat. We anticipate that the number of people activated will occur over two years and will take many forms. Some people will just receive and open an email, others will actually click on something and show up to a meeting, others will become super volunteers or community organizers. We anticipate that successful activations will create a clear ladder of engagement that take people from unengaged to superstar activists, organizers, volunteers, etc.
 
-## How will you measure the number of people activated?
+### How will you measure the number of people activated?
 
 Great question! We’re leaning on applicants to define how they plan to reach Angelenos and the number of people that will be reached via their various engagement strategies. We expect that Angelenos will be reached via social media, phone calls, in-person engagement, volunteerism, to name a few methods.
 
-## Why did you start the My LA2050 Activation Challenge?
+### Why did you start the My LA2050 Activation Challenge?
 
 LA is experiencing an exciting and important moment in civic activism. While we are inspired by those sparks of civic activism, by many traditional measures, LA lacks civic engagement on a local level. Further, many Angelenos report not knowing how to help address the issues they care about most.
 
-## Are there restrictions on what the activations can address?
+### Are there restrictions on what the activations can address?
 
 Yes: 501(c)4 activities are not eligible for funding; activations cannot be focused on supporting or opposing candidates for public office; activations cannot have voter registration as the main object. Things that are okay though include Get-Out-The-Vote efforts, candidate briefings, candidate questionnaires, and candidate forums and debates. Be sure to check the My LA2050 Activation Challenge rules.
 
-## I have feedback on the LA2050 goals. How can I share that with you? 
+### I have feedback on the LA2050 goals. How can I share that with you? 
 
 We want your feedback! Email us at connect@la2050.org with your feedback.
 
 We want Angelenos to see themselves as part of the solutions we need to improve our region. And we want to tap into the expertise of the organizations, agencies, and companies who have great ideas about how to boost engagement on local issues.
 
-## Can I apply more than once?
+### Can I apply more than once?
 
 Technically there can be multiple entries from the same organization, so long as the submissions are unique and in different categories. However, we would recommend consolidating your resources, collaborators, and supporters and submitting one awesome proposal!
 
 * * *
 
-## What are the benefits of applying?
+### What are the benefits of applying?
 
-**Beyond the potential to receive funds to address an issue you’re passionate about, we also believe that applying in this challenge will provide additional benefits including:**
+_Beyond the potential to receive funds to address an issue you’re passionate about, we also believe that applying in this challenge will provide additional benefits including:_
 
 The opportunity to participate in a first-of-its-kind regional effort
 
@@ -106,9 +106,9 @@ Inspires the creation of videos, photos, tweets, and pithy messaging to promote 
 
 Visibility in front of other foundations and potential alternative funding sources. Past challenges have resulted in $2M in grants from outside funding using the LA2050 platform for their grantmaking
 
-## What kinds of activations are you looking to support?
+### What kinds of activations are you looking to support?
 
-**We’re open! But here are some ideas about what we’re looking for:**
+_We’re open! But here are some ideas about what we’re looking for:_
 
 Bold efforts that will produce measurable wins for the LA region
 
@@ -122,7 +122,7 @@ Efforts that not only produce positive results but are focused on increasingloca
 
 A desire to test new strategies
 
-## What are some tips for submitting ideas to the My LA2050 Activation Challenge?
+### What are some tips for submitting ideas to the My LA2050 Activation Challenge?
 
 Collaborate. We are eager to see folks working together to improve Los Angeles.
 

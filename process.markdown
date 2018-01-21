@@ -10,17 +10,12 @@ From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), 
 
 **To apply, organizations will:**
 
-Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation;
-
-Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
-
-Clearly articulate the engagement strategies and tools that will be employed
-
-Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
-
-Submit a detailed budget explaining how funds will be used across the two year grant period
-
-Detail any additional non-financial assistance needed from LA2050 to make the successful
+* Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation;
+* Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
+* Clearly articulate the engagement strategies and tools that will be employed
+* Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
+* Submit a detailed budget explaining how funds will be used across the two year grant period
+* Detail any additional non-financial assistance needed from LA2050 to make the successful
 
 * * *
 
@@ -44,16 +39,10 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 ## Public Voting 
 
-Voting begins on June 19, 2018 (9am Pacific Time) and closes June 29, 2018 (5pm Pacific Time).
+* Voting begins on June 19, 2018 (9am Pacific Time) and closes June 29, 2018 (5pm Pacific Time).
+* Members of the public may vote once per goal category for a total of five votes.
+* Voters must be at least 14 years old and a US resident.
+* Voters must log in to participate in the My LA2050 Activation Challenge.
+* Voters can use social sign-in via Facebook or Google or can use an email account to register. Voters using an email account will be sent a link to click in order to validate their address.
 
-Members of the public may vote once per goal category for a total of five votes.
-
-Voters must be at least 14 years old and a US resident.
-
-Voters must log in to participate in the My LA2050 Activation Challenge.
-
-Voters can use social sign-in via Facebook or Google or can use an email account to register. Voters using an email account will be sent a link to click in order to validate their address.
-
-We suggest using the latest versions of Firefox and Chrome for Mac and Windows, Safari for Mac, and Internet Explorer 10.
-
-If you have any questions, please review these FAQs or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
+_If you have any questions, please review these FAQs or send us an email at [connect@la2050.org](mailto:connect@la2050.org)._

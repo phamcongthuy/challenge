@@ -52,13 +52,41 @@
     }
   }
 
+  header,
+  footer {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    header,
+    footer {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem;
+    }
+  }
+
   header a,
   footer a {
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+    color: rgb(255, 194, 51); /* @banana */
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
     text-decoration: none;
+  }
+  header a:hover,
+  header a:active,
+  header a:focus,
+  footer a:hover,
+  footer a:active,
+  footer a:focus {
+    color: rgb(6, 179, 188); /* @blueberry */
   }
 
   .action {
@@ -98,7 +126,17 @@
   .in-depth {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
     padding: 1.5em;
+    text-align: center;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .in-depth {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem;
+    }
   }
   .in-depth > h2 {
     color: inherit;
@@ -119,7 +157,7 @@
     padding: 1.5em;
   }
 
-  @media (min-width: 40em) {
+  @media (min-width: 40em) { /* @medium-size-screen */
     body {
       padding: 0 3em 0;
     }
@@ -147,23 +185,51 @@
     }
   }
 
+  .avoid-break {
+    display: inline-block;
+  }
 
   /* Limit line lengths, for readability. */
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure, hr {
     margin-top: 0.75em;
     margin-bottom: 0.75em;
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
   }
   h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.5em;
-    margin-bottom: 0.375em;
+    margin-top: 3rem;
+    margin-bottom: 0.75rem;
   }
 
+  /* http://type-scale.com/?size=16&scale=1.500&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
   h1 {
     text-transform: uppercase;
     font-weight: 900; /* @black */
-    font-size: 3em;
+    font-size: 3.375em;
     line-height: 1;
+    letter-spacing: 2px;
   }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+  }
+  h6 {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+  }
+
   h1 em {
     color: rgb(249, 160, 51); /* @tangerine */
     display: inline-block;
@@ -172,13 +238,16 @@
   main > hr + h2,
   main > h2:nth-of-type(1),
   main > h2:nth-of-type(2) {
-    line-height: 1.5;
     display: inline;
     font-style: italic;
-    font-size: 2em;
     font-weight: 900; /* @black */
     text-transform: uppercase;
     background-image: linear-gradient(to top, transparent, transparent 5%, rgb(237, 192, 50) 5%, rgb(237, 192, 50) 65%, transparent 65%, transparent); /* @dark-banana */
+  }
+  main > hr + h2 + *,
+  main > h2:nth-of-type(1) + *,
+  main > h2:nth-of-type(2) + * {
+    margin-top: 1.5em;
   }
   main > hr + h2,
   main > h2:nth-of-type(2) {
@@ -215,8 +284,10 @@
   footer h2:first-child {
     display: table;
     font-weight: 500; /* @medium */
+    font-size: 1.5em;
     text-transform: uppercase;
     color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(255, 194, 51); /* @banana */
     line-height: 1;
     text-align: center;
   }
@@ -228,6 +299,15 @@
   header h2:first-child a,
   footer h2:first-child a {
     color: inherit;
+  }
+  header h2:first-child a:hover,
+  header h2:first-child a:active,
+  header h2:first-child a:focus,
+  footer h2:first-child a:hover,
+  footer h2:first-child a:active,
+  footer h2:first-child a:focus {
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(6, 179, 188); /* @blueberry */
   }
 
   hr {
@@ -242,13 +322,7 @@
     margin-top: 0.75em;
   }
 
-
-  header {
-    margin-top: 4.5em;
-    margin-bottom: 4.5em;
-  }
-  footer {
-    margin-top: 4.5em;
+  main {
     margin-bottom: 4.5em;
   }
 
@@ -267,19 +341,138 @@
 
   /* =Layout
   ----------------------------------------------- */
-  @media (min-width: 600em) {
-    main {
-      display: grid;
-      grid-template-columns: 1fr 33em 1fr;
+  main > h1:first-child {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 4.5rem;
+    text-align: center;
+    max-width: none;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    main > h1:first-child {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem;
     }
-    h1 {
-      grid-column: span 3;
+  }
+  main > h1:first-child em {
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  main > h1:first-child + .action {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 1.5rem;
+    margin-top: -4.5rem;
+    margin-bottom: 4.5rem;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    main > h1:first-child + .action {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem;
     }
-    h2 {
-      grid-column: 1 / 2;
-    }
-    p, ul, dl {
-      grid-column: 2 / 3;
+  }
+  main > h1:first-child + .action ul {
+    text-align: center;
+    max-width: none;
+  }
+  footer .action a,
+  main > h1:first-child + .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+  }
+  footer .action a:hover,
+  footer .action a:active,
+  footer .action a:focus,
+  main > h1:first-child + .action a:hover,
+  main > h1:first-child + .action a:active,
+  main > h1:first-child + .action a:focus {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+  }
+
+  header,
+  footer {
+    text-align: center;
+  }
+  header h2,
+  footer h2 {
+    margin-bottom: 3rem;
+  }
+  header h2 {
+    margin-top: 0;
+  }
+
+  @supports (display: grid) {
+    @media (min-width: 60em) {
+      header,
+      footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 6em;
+      }
+      header h2,
+      footer h2,
+      footer .action {
+        margin: 0;
+        justify-self: start;
+      }
+      footer .action {
+        align-self: end;
+      }
+      header ul,
+      footer ul {
+        margin: 0;
+        justify-self: end;
+      }
+      footer h2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+      }
+      footer h2 + ul {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+      }
+      footer .social-links {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        justify-self: stretch;
+        text-align: right;
+      }
+
+      main {
+        /*display: grid;*/
+        grid-template-columns: 1fr 33em 1fr;
+        grid-column-gap: 1.5em;
+        grid-row-gap: 1.5em;
+        align-items: start;
+      }
+      main h1 {
+        grid-column: span 3;
+      }
+      /*
+      h2 {
+        margin-top: 0;
+        grid-column: 1 / 2;
+        grid-row: span 2;
+        align-self: top;
+      }
+      */
+/*      main h2,
+      main h3,
+      main p,
+      main ul,
+      main dl {
+        margin-top: 0;
+        grid-column: 2 / 3;
+      }
+      main section {
+        grid-column: 1 / 4;
+      }*/
     }
   }
 
