@@ -18,6 +18,8 @@ The activations should aim to engage Angelenos to make a specific, tangible impa
 
 LA2050 will commit to a two-year partnership to leveraging its resources, assets, and networks to help the activations succeed. Together, the winning organizations, LA2050, and Angelenos will produce five major wins for the region that will change the course of our future.
 
+<section class="timeline" markdown="1"><div markdown="1">
+
 ## Timeline
 
 March 1-30, 2018
@@ -29,8 +31,8 @@ April 2-6, 2018
 April 9 - May 18, 2018
 : Evaluation Period
 
-May 21, 2018
-: Finalists Announced
+**May 21, 2018**
+: **Finalists Announced**
 
 June 19, 2018
 : Public Event
@@ -38,12 +40,12 @@ June 19, 2018
 June 19-29, 2018
 : Public Voting
 
-July 9, 2018
-: Winners Announced
+**July 9, 2018**
+: **Winners Announced**
 
 _If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event._
 
-* * *
+</div></section>
 
 ## Guidelines
 
@@ -52,7 +54,7 @@ _If your application is selected as a finalist to win the activation challenge, 
 * Think boldly and creatively about the proposed activation campaign
 * Ensure that the activation campaign creates clear and accessible engagement pathways for Angelenos  
 * Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, calling elected officials, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. Strategies cannot include any political election-related activities like candidate endorsements.
-    
+
 ## LA2050 Partnership
 
 **We want to work together! To partner, we plan on:**
