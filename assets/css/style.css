@@ -470,7 +470,7 @@
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure, hr {
     margin-top: 0.75em;
     margin-bottom: 0.75em;
-    max-width: 40rem;
+    max-width: 33rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -876,7 +876,7 @@
 
       main {
         /*display: grid;*/
-        grid-template-columns: 1fr 40rem 1fr;
+        grid-template-columns: 1fr 33rem 1fr;
         grid-column-gap: 1.5em;
         grid-row-gap: 1.5em;
         align-items: start;

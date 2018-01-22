@@ -32,7 +32,7 @@ title: 2018 My LA2050 Activation Challenge
 
 The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.
 
-Learn more [about the challenge](/rules/#what-is-the-activation-challenge).
+Learn more [about the challenge](/faqs/#what-is-the-activation-challenge).
 
 </div></section>
 
@@ -41,12 +41,12 @@ Learn more [about the challenge](/rules/#what-is-the-activation-challenge).
 ## _1,000,000. 5&nbsp;winners.<br /> Two&nbsp;years to&nbsp;Shape&nbsp;LA._
 
 
-A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/rules/#how-can-la2050-partner-with-my-organization) in support of their efforts.
+A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/faqs/#how-can-la2050-partner-with-my-organization) in support of their efforts.
 
 
 <!--
 <p class="action" markdown="1">
-[Read the FAQs](/rules)
+[Read the FAQs](/faqs)
 </p>
 -->
 
@@ -164,7 +164,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 </div></section>
 
 <!--
-If you have questions not answered in the [FAQs](/rules/#faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
+If you have questions not answered in the [FAQs](/faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
 
 <p class="action" markdown="1">
 [Message Us](mailto:connect@la2050.org)
