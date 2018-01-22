@@ -651,33 +651,35 @@
       padding: 4.5em 3em;
     }
   }
-  aside + aside {
+  aside ~ aside {
     background-color: rgb(255, 194, 51); /* @banana */
     background-color: rgb(249, 160, 51); /* @tangerine */
     background-color: rgb(141, 208, 59); /* @lime */
     background-color: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(235, 235, 235);
     color: white;
     color: black;
     color: rgba(0, 0, 0, 0.75);
+    text-align: center;
   }
-  aside + aside h3,
-  aside + aside a {
+  aside ~ aside h3,
+  aside ~ aside a {
     color: white !important;
   }
-  aside + aside a:hover,
-  aside + aside a:active,
-  aside + aside a:focus {
+  aside ~ aside a:hover,
+  aside ~ aside a:active,
+  aside ~ aside a:focus {
     color: rgb(237, 59, 136) !important; /* @strawberry */
   }
-  aside + aside .action a {
+  aside ~ aside .action a {
     background-color: rgb(6, 179, 188); /* @blueberry */
     background-color: rgb(255, 194, 51); /* @banana */
     color: black !important;
     color: rgba(0, 0, 0, 0.65) !important;
   }
-  aside + aside .action a:hover,
-  aside + aside .action a:active,
-  aside + aside .action a:focus {
+  aside ~ aside .action a:hover,
+  aside ~ aside .action a:active,
+  aside ~ aside .action a:focus {
     background-color: rgb(6, 179, 188); /* @blueberry */
     background-color: rgb(237, 59, 136); /* @strawberry */
   }
@@ -687,7 +689,7 @@
   aside > div > *:last-child {
     margin-bottom: 0;
   }
-  .disabled aside + aside {
+  .disabled aside ~ aside {
     /*
     background: rgb(244, 244, 244);
     */
@@ -698,6 +700,13 @@
     justify-content: center;
     align-items: center;
   }
+
+
+  aside ~ aside {
+    margin-top: -1.5em;
+    padding-top: 0;
+  }
+
 
 
   /* =Layout
