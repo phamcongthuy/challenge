@@ -1,5 +1,5 @@
 ---
-title: How to apply for the 2018 My LA2050 Activation Challenge
+title: Submit Your Proposal for the 2018 My LA2050 Activation Challenge
 color: lime
 ---
 

@@ -20,7 +20,7 @@ title: 2018 My LA2050 Activation Challenge
 </div>
 -->
 <div class="action" markdown="1">
-* [Submit your Proposal](/process)
+* [Submit your Proposal](/proposal)
 * [Vote for the Winners](/vote)
 </div>
 
@@ -64,7 +64,7 @@ A total of $1,000,000 will be awarded to five organizations to implement their i
 
 We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
 
-Read our [guidelines for proposals](/process/#guidelines).
+Read our [guidelines for proposals](/proposal/#guidelines).
 
 </div></section>
 
@@ -101,11 +101,11 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
 
 <!--
-Starting March 1, 2018, you can [submit your proposal](/process) to activate Angelenos around an important issue in the region.
+Starting March 1, 2018, you can [submit your proposal](/proposal) to activate Angelenos around an important issue in the region.
 -->
 
 <p class="action" markdown="1">
-[Submit your Proposal](/process)
+[Submit your Proposal](/proposal)
 </p>
 
 </div></section>
