@@ -70,7 +70,7 @@
     color: white;
     margin-left: -1.5em;
     margin-right: -1.5em;
-    padding: 3em 1.5em;
+    padding: 3em 1.5em 6em;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -79,7 +79,7 @@
     footer {
       margin-left: -3em;
       margin-right: -3em;
-      padding: 4.5em 3em;
+      padding: 3em 3em 6em 3em;
     }
   }
 
@@ -591,6 +591,36 @@
     line-height: 1;
     text-align: center;
   }
+  header h2 .year {
+    display: none;
+  }
+  .false header h2 {
+    position: relative;
+  }
+  .false header h2 .year {
+    background-color: rgba(6, 179, 188, 0.2); /* @blueberry */
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    background-color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    color: rgb(237, 59, 136); /* @strawberry */
+    border-radius: 50%;
+    line-height: 4.5;
+    width: 4.5em;
+    text-align: center;
+    font-weight: 900; /* @black */
+    font-size: 0.75em;
+    position: absolute;
+    top: -2.5em;
+    left: -2.5em;
+    transform: rotate(-10deg);
+  }
+  .false .strawberry header h2 .year {
+    background-color: rgba(237, 59, 136, 0.2); /* @strawberry */
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+  }
   footer h2 {
     color: inherit;
     font-size: inherit;
@@ -817,6 +847,11 @@
     display: inline-block;
   }
 
+  main > h1 + p {
+    margin-bottom: 3em;
+    font-size: 1.5em;
+  }
+
   @supports (display: grid) {
     @media (min-width: 60em) {
       header,
@@ -875,14 +910,94 @@
       }
 
       main {
-        /*display: grid;*/
-        grid-template-columns: 1fr 33rem 1fr;
-        grid-column-gap: 1.5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
       }
-      main h1 {
-        grid-column: span 3;
+      main > h1,
+      main > h1 + p,
+      main > h1 + .action,
+      main > section {
+        grid-column: span 2;
+      }
+      main > h1 + p {
+        text-align: center;
+        max-width: none;
+      }
+      main > h2,
+      main > h3 {
+        margin: 0;
+        grid-column: 1 / 2;
+        justify-self: end;
+        text-align: right;
+      }
+      main > h2:not(.fancy),
+      main > h3:not(.fancy) {
+        font-size: 1.5em;
+        line-height: 1;
+        max-width: 33.333vw;
+      }
+      main > h2.fancy,
+      main > h3.fancy {
+        margin-top: -0.2em;
+      }
+      main > p,
+      main > p.action,
+      main > ul {
+        margin: 0;
+        grid-column: 2 / 3;
+      }
+      main > h1 + section,
+      main > h1 + .action + section,
+      main > section + section {
+        margin-top: -6em; /* offset the grid row gap */
+      }
+
+      main > section:not(.timeline):not(.styled) > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3em;
+        grid-row-gap: 1.5em;
+        align-items: start;
+      }
+      main > section:not(.timeline):not(.styled) > div > .activate-tag,
+      main > section:not(.timeline):not(.styled) > div > h2,
+      main > section:not(.timeline):not(.styled) > div > h3 {
+        margin: 0;
+        grid-column: 1 / 2;
+        align-self: start;
+        justify-self: end;
+        text-align: right;
+      }
+      main > section:not(.timeline):not(.styled) > div > h2:not(.fancy),
+      main > section:not(.timeline):not(.styled) > div > h3:not(.fancy) {
+        font-size: 1.5em;
+        max-width: 33.333vw;
+      }
+      main > section:not(.timeline):not(.styled) > div > h2.fancy,
+      main > section:not(.timeline):not(.styled) > div > h3.fancy {
+        margin-top: -0.2em;
+      }
+      main > section:not(.timeline):not(.styled) > div > p,
+      main > section:not(.timeline):not(.styled) > div > p.action,
+      main > section:not(.timeline):not(.styled) > div > ul {
+        margin: 0;
+        grid-column: 2 / 3;
+      }
+      main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p {
+        margin: 0;
+        grid-column: 1 / 2;
+        align-self: start;
+        justify-self: end;
+        text-align: right !important;
+      }
+      main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p * {
+        text-align: right !important;
+      }
+      main > section.in-depth:not(.timeline):not(.styled) > div > p {
+        text-align: left;
       }
       /*
       h2 {

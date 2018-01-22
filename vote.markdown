@@ -37,7 +37,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 If you have any questions about this information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-<section class="tangerine"><div markdown="1">
+<section class="tangerine styled"><div markdown="1">
 
 # <b>100,000 Angelinos</b><br />to shape the future of&nbsp;LA
 

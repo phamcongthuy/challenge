@@ -74,7 +74,7 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 
 If you have any questions about this information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-<section class="banana"><div markdown="1">
+<section class="banana styled"><div markdown="1">
 
 # Change is <b>L</b>oc<b>a</b>l
 

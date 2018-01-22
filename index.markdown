@@ -28,7 +28,7 @@ title: 2018 My LA2050 Activation Challenge
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
-<h2><span style="display: block; max-width: 14em"><strong>We&nbsp;believe&nbsp;in the&nbsp;power&nbsp;of angelenos.</strong></span></h2>
+<h2 class="fancy"><span style="display: block; max-width: 14em"><strong>We&nbsp;believe&nbsp;in the&nbsp;power&nbsp;of angelenos.</strong></span></h2>
 
 The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.
 
@@ -38,7 +38,7 @@ Learn more [about the challenge](/faqs/#what-is-the-activation-challenge).
 
 <section><div markdown="1">
 
-## _1,000,000. 5&nbsp;winners.<br /> Two&nbsp;years to&nbsp;Shape&nbsp;LA._
+<h2 class="fancy"><em>1,000,000. 5&nbsp;winners.<br /> Two&nbsp;years to&nbsp;Shape&nbsp;LA.</em></h2>
 
 
 A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/faqs/#how-can-la2050-partner-with-my-organization) in support of their efforts.
@@ -155,7 +155,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 
 
-<section class="lime"><div markdown="1">
+<section class="lime styled"><div markdown="1">
 
 # Change is <b>L</b>oc<b>a</b>l
 

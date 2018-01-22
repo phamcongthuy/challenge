@@ -34,7 +34,7 @@ June 19, 2018
 
 </div></section>
 
-<section class="blueberry"><div markdown="1">
+<section class="blueberry styled"><div markdown="1">
 
 # Angelinos: <b>Change</b> is&nbsp;Local
 
