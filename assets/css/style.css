@@ -629,6 +629,9 @@
   /* =Aside
   ----------------------------------------------- */
   aside {
+    /*
+    background: rgb(235, 235, 235);
+    */
     padding: 3em 1.5em 3em 1.5em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -636,31 +639,47 @@
       padding: 4.5em 3em 4.5em 3em;
     }
   }
-  aside + aside {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    background-color: rgb(255, 194, 51); /* @banana */
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    background-color: rgb(141, 208, 59); /* @lime */
-    color: white;
+  aside {
     margin-left: -1.5em;
     margin-right: -1.5em;
     padding: 3em 1.5em;
   }
-  .disabled aside {
-    /*
-    background: rgb(244, 244, 244);
-    */
-    background-color: rgb(255, 194, 51); /* @banana */
-    color: white;
-    min-height: 70vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  @media (min-width: 40em) { /* @medium-size-screen */
+    aside {
+      margin-left: -3em;
+      margin-right: -3em;
+      padding: 4.5em 3em;
+    }
   }
-  aside + aside h3 {
-    color: inherit !important;
+  aside + aside {
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    background-color: rgb(141, 208, 59); /* @lime */
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+    color: black;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  aside + aside h3,
+  aside + aside a {
+    color: white !important;
+  }
+  aside + aside a:hover,
+  aside + aside a:active,
+  aside + aside a:focus {
+    color: rgb(237, 59, 136) !important; /* @strawberry */
+  }
+  aside + aside .action a {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: black !important;
+    color: rgba(0, 0, 0, 0.65) !important;
+  }
+  aside + aside .action a:hover,
+  aside + aside .action a:active,
+  aside + aside .action a:focus {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    background-color: rgb(237, 59, 136); /* @strawberry */
   }
   aside > div > *:first-child {
     margin-top: 0;
@@ -668,12 +687,16 @@
   aside > div > *:last-child {
     margin-bottom: 0;
   }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    aside + aside {
-      margin-left: -3em;
-      margin-right: -3em;
-      padding: 4.5em 3em;
-    }
+  .disabled aside + aside {
+    /*
+    background: rgb(244, 244, 244);
+    */
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
 
