@@ -629,22 +629,29 @@
   /* =Aside
   ----------------------------------------------- */
   aside {
-    padding: 0 1.5em 3em 1.5em;
+    padding: 3em 1.5em 3em 1.5em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     aside {
-      padding: 0 3em 4.5em 3em;
+      padding: 4.5em 3em 4.5em 3em;
     }
+  }
+  aside + aside {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    background-color: rgb(141, 208, 59); /* @lime */
+    color: white;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    padding: 3em 1.5em;
   }
   .disabled aside {
     /*
     background: rgb(244, 244, 244);
     */
-    background-color: rgb(6, 179, 188); /* @blueberry */
+    background-color: rgb(255, 194, 51); /* @banana */
     color: white;
-    margin-left: -1.5em;
-    margin-right: -1.5em;
-    padding: 3em 1.5em;
     min-height: 70vh;
     box-sizing: border-box;
     display: flex;
@@ -652,17 +659,17 @@
     justify-content: center;
     align-items: center;
   }
-  .disabled aside h3 {
+  aside + aside h3 {
     color: inherit !important;
   }
-  .disabled aside > div > *:first-child {
+  aside > div > *:first-child {
     margin-top: 0;
   }
-  .disabled aside > div > *:last-child {
+  aside > div > *:last-child {
     margin-bottom: 0;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
-    .disabled aside {
+    aside + aside {
       margin-left: -3em;
       margin-right: -3em;
       padding: 4.5em 3em;
@@ -765,6 +772,9 @@
         grid-row-gap: 6em;
         text-align: left;
       }
+      footer {
+        grid-row-gap: 0em;
+      }
       header h2,
       footer h2,
       footer .action {
@@ -781,7 +791,7 @@
       }
       footer h2 {
         grid-column: 1 / 2;
-        grid-row: 2 / 3;
+        grid-row: 1 / 2;
       }
       footer h2 + ul {
         grid-column: 2 / 3;
@@ -796,7 +806,6 @@
         justify-self: center;
       }
       footer > p:not(.action) + p:not(.action) {
-        margin-top: -4.5em;
         grid-row: 4 / 5;
       }
       footer .social-links {
