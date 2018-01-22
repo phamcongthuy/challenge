@@ -933,7 +933,7 @@
       url(/assets/images/art/tree.svg);
     background-position:
       5% 100%,
-      75% 15%,
+      75% 7.5%,
       85% 100%;
     background-size:
       3em auto,
@@ -973,6 +973,8 @@
   }
   main > section h1 {
     color: white;
+    max-width: none;
+    text-align: center;
   }
   main > section h1 b {
     color: rgb(237, 59, 136); /* @strawberry */
@@ -984,6 +986,7 @@
   main > section h1 + .activate-tag {
     margin-top: 3em;
     color: white;
+    text-align: center;
   }
 
   .blueberry header,
