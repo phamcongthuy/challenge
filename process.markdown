@@ -1,6 +1,6 @@
 ---
 title: How to apply for the 2018 My LA2050 Activation Challenge
-color: tangerine
+color: lime
 ---
 
 # Submit Your Proposal
@@ -17,15 +17,6 @@ color: tangerine
 -->
 
 Starting **March 1, 2018**, you can submit your proposal on this website.
-
-### To apply, organizations will:
-
-* Outline how their activations will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activations;
-* Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
-* Clearly articulate the engagement strategies and tools that will be employed
-* Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
-* Submit a detailed budget explaining how funds will be used across the two year grant period
-* Detail any additional non-financial assistance needed from LA2050 to make the campaign successful
 
 ### Guidelines
 
@@ -45,6 +36,15 @@ From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), 
 
 Learn more about the [timeline and voting process](/timeline).
 
+### To apply, organizations will:
+
+* Outline how their activations will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activations;
+* Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
+* Clearly articulate the engagement strategies and tools that will be employed
+* Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
+* Submit a detailed budget explaining how funds will be used across the two year grant period
+* Detail any additional non-financial assistance needed from LA2050 to make the campaign successful
+
 ### Rules
 
 _What are the rules for submitting a proposal to the My LA2050 Activation Challenge?_
@@ -63,14 +63,3 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
 * Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
 * Read all the rules.
-
-### _LA2050 Partnership_
-
-_We want to work together! To partner, we plan on:_
-
-* Leveraging the LA2050 community to support and participate in the activation campaign
-* Leading on planning public programming, including events, to connect its community to the activation campaign
-* Offering communications assistance to help the coalition advance thought leadership, including authoring articles, op-eds, and blog posts
-* Amplifying messaging on social media and via its newsletter to support the campaigns
-* Designing assets for materials
-* Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns

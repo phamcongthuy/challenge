@@ -5,10 +5,10 @@ color: banana
 
 # Timeline
 
-<section class="timeline" markdown="1"><div markdown="1">
+<section class="timeline has-icons" markdown="1"><div markdown="1">
 
-March 1-30, 2018
-: Submissions Period
+![](/assets/images/icons/submission.png) March 1-3O, 2018
+: Submission Period
 
 April 2-6, 2018
 : Moderation Period
@@ -22,12 +22,14 @@ April 9 - May 18, 2018
 June 19, 2018
 : Public Event
 
-June 19-29, 2018
+![](/assets/images/icons/voting.png) June 19-29, 2018
 : Public Voting
 
-**July 9, 2018**
+![](/assets/images/icons/winners.png) **July 9, 2018**
 : **Winners Announced**
 
-_If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event._
+* * *
+
+_**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span><br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event._
 
 </div></section>

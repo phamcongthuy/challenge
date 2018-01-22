@@ -3,7 +3,7 @@ title: 2018 My LA2050 Activation Challenge
 ---
 
 <h1>
-  <span>
+  <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
     <span class="avoid-break">How would</span>
     <span class="avoid-break">you activate</span>
     <em>100,000 angelenos</em>
@@ -24,15 +24,24 @@ title: 2018 My LA2050 Activation Challenge
 * [Vote for the Winners](/vote)
 </div>
 
-#ACTIVATEFORLA
+<section><div markdown="1">
 
-## **We believe in the<br />power of angelenos.**
+<p class="activate-tag">#ACTIVATEFORLA</p>
+
+<h2><span style="display: block; max-width: 14em"><strong>We&nbsp;believe&nbsp;in the&nbsp;power&nbsp;of angelenos.</strong></span></h2>
 
 The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.
 
-A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and partnership from LA2050 in support of their efforts.
+Learn more [about the challenge](/rules/#what-is-the-activation-challenge).
 
-<h3><span style="display: block; max-width: 15em"><em>1,000,000. 5&nbsp;winners. Two&nbsp;years to shape&nbsp;LA.</em></span></h3>
+</div></section>
+
+<section><div markdown="1">
+
+<h2><span style="display: block; max-width: 13em"><em>1,000,000. 5&nbsp;winners. Two&nbsp;years to shape&nbsp;LA.</em></span></h2>
+
+A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/rules/#how-can-la2050-partner-with-my-organization) in support of their efforts.
+
 
 <!--
 <p class="action" markdown="1">
@@ -40,13 +49,21 @@ A total of $1,000,000 will be awarded to five organizations to implement their i
 </p>
 -->
 
+</div></section>
+
 <section class="in-depth"><div markdown="1">
 
 ## What do we mean by activation?
 
-**We don’t want to limit your imagination, so _think big!_**
+<strong>
+  <span style="">
+    <span style="max-width: 9em; display: block;">We don’t want to limit your imagination, so <em>think big!</em></span>
+  </span>
+</strong>
 
 We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
+
+Read our [guidelines for proposals](/process/#guidelines).
 
 </div></section>
 
@@ -92,27 +109,6 @@ Starting March 1, 2018, you can [submit your proposal](/process) to activate Ang
 
 </div></section>
 
-## Winners Selection
-
-Winners will be selected via a two-step process:
-
-**25 finalists will be selected by an evaluation committee**: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
-
-**5 winning proposals will be selected by the public**: The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
-
-The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
-
-* Impact on the LA2050 goals and metrics
-* Overall quality of the application
-* Feasibility
-* Ability to mobilize the LA community
-* Collaborative spirit
-
-<p class="action" markdown="1">
-[Vote for the Winners](/vote)
-</p>
-
-
 <section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
 
 ## Key Dates
@@ -134,6 +130,29 @@ _**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 
 </p>
 
 </div></section>
+
+
+## Winners Selection
+
+Winners will be selected via a two-step process:
+
+**25 finalists will be selected by an evaluation committee**: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
+
+**5 winning proposals will be selected by the public**: The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
+
+The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
+
+* Impact on the LA2050 goals and metrics
+* Overall quality of the application
+* Feasibility
+* Ability to mobilize the LA community
+* Collaborative spirit
+
+<p class="action" markdown="1">
+[Vote for the Winners](/vote)
+</p>
+
+
 
 <!--
 If you have questions not answered in the [FAQs](/rules/#faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
