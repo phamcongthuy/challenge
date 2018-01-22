@@ -229,6 +229,12 @@
     background-color: rgb(255, 194, 51); /* @banana */
     color: white;
   }
+  main > section.timeline p {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.timeline p strong {
+    color: inherit;
+  }
   main > h1 + section.timeline {
     margin-top: -7.5em;
     padding-top: 0;
@@ -924,6 +930,31 @@
 
   /* =Color
   ----------------------------------------------- */
+  main > section:last-child {
+    background-image:
+      url(/assets/images/art/wave.svg),
+      url(/assets/images/art/sun.svg),
+      url(/assets/images/art/tree.svg);
+    background-position:
+      5% 100%,
+      75% 15%,
+      85% 100%;
+    background-size:
+      3em auto,
+      3em auto,
+      3em auto;
+    background-size:
+      15vmin auto,
+      15vmin auto,
+      15vmin auto;
+    background-repeat: no-repeat;
+  }
+  main > section.strawberry:last-child {
+    background-image:
+      url(/assets/images/art/blueberry/wave.svg),
+      url(/assets/images/art/blueberry/sun.svg),
+      url(/assets/images/art/blueberry/tree.svg);
+  }
   main > section.tangerine {
     background-color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
@@ -949,6 +980,7 @@
   }
   main > section h1 b {
     color: rgb(237, 59, 136); /* @strawberry */
+    font-weight: inherit;
   }
   main > section.strawberry h1 b {
     color: rgb(6, 179, 188); /* @blueberry */

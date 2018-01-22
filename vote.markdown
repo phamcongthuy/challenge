@@ -39,7 +39,7 @@ If you have any questions about this information on this page, [please review ou
 
 <section class="tangerine"><div markdown="1">
 
-# Change is <b>L</b>oc<b>a</b>l
+# <b>100,000 Angelinos</b><br />to shape the future of&nbsp;LA
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 

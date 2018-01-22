@@ -36,7 +36,7 @@ June 19, 2018
 
 <section class="blueberry"><div markdown="1">
 
-# Change is <b>L</b>oc<b>a</b>l
+# Angelinos: <b>Change</b> is Local
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 

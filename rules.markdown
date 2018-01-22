@@ -124,7 +124,7 @@ If you have any questions that aren’t answered on this page, please send us an
 
 <section class="strawberry"><div markdown="1">
 
-# Change is <b>L</b>oc<b>a</b>l
+# Los Angeles: <b>Change</b> is Local
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
