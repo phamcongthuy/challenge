@@ -18,6 +18,12 @@ color: lime
 
 Starting **March 1, 2018**, you can submit your proposal on this website.
 
+### Get notified when it’s time to submit a proposal:
+
+<p class="action" markdown="1">
+[Sign up for updates](https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212)
+</p>
+
 ### Guidelines
 
 _Applicants are encouraged to:_
@@ -63,3 +69,8 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
 * Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
 * Read all the rules.
+
+### Questions
+
+If you have any questions about this information on this page, [please review our FAQs](/rules/#faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
+

@@ -38,7 +38,8 @@ Learn more [about the challenge](/rules/#what-is-the-activation-challenge).
 
 <section><div markdown="1">
 
-<h2><span style="display: block; max-width: 13em"><em>1,000,000. 5&nbsp;winners. Two&nbsp;years to shape&nbsp;LA.</em></span></h2>
+## _1,000,000. 5&nbsp;winners.<br /> Two&nbsp;years to&nbsp;Shape&nbsp;LA._
+
 
 A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/rules/#how-can-la2050-partner-with-my-organization) in support of their efforts.
 
@@ -122,7 +123,7 @@ Starting March 1, 2018, you can [submit your proposal](/process) to activate Ang
 ![](/assets/images/icons/winners.png) **July 9, 2018**
 : **Winners Announced**
 
-_**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>_
+**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>
 
 
 <p class="action" markdown="1">

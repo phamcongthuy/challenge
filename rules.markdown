@@ -71,8 +71,6 @@ We want Angelenos to see themselves as part of the solutions we need to improve 
 
 Technically there can be multiple entries from the same organization, so long as the submissions are unique and in different categories. However, we would recommend consolidating your resources, collaborators, and supporters and submitting one awesome proposal!
 
-* * *
-
 ### What are the benefits of applying?
 
 _Beyond the potential to receive funds to address an issue you’re passionate about, we also believe that applying in this challenge will provide additional benefits including:_
@@ -119,3 +117,8 @@ Applicants should not expect to be able to revise their applications after the s
 Your application goes through a moderation process, and will show up on the site if it is approved. If we have questions about your application, we will be in touch.
 
 Check out the [LA2050 Goals](https://la2050.org/goals), the [LA2050 Report](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432), and our most recent [metrics update](https://la2050.s3-us-west-1.amazonaws.com/reports/13/pdfs/FINALDRAFT_OCT24.pdf?1508955187) for additional information.
+
+### Send us your questions!
+
+If you have any questions that aren’t answered on this page, please send us an email at [connect@la2050.org](mailto:connect@la2050.org).
+
