@@ -247,14 +247,6 @@
     color: inherit;
     font-weight: inherit;
   }
-  .in-depth  {
-    text-align: center;
-  }
-  .in-depth h2 + p strong span {
-    text-align: center;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
   .in-depth h2 + p strong em {
     color: rgb(237, 59, 136); /* @strawberry */
     font-style: normal;
