@@ -155,6 +155,14 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 
 
+<section class="lime"><div markdown="1">
+
+# Change is <b>L</b>oc<b>a</b>l
+
+<p class="activate-tag">#ACTIVATEFORLA</p>
+
+</div></section>
+
 <!--
 If you have questions not answered in the [FAQs](/rules/#faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
 

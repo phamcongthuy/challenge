@@ -31,6 +31,7 @@
 
   h1, h2, h3, h4, h5, h6, strong, em {
     color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(249, 160, 51); /* @tangerine */
   }
 
   em {
@@ -200,7 +201,9 @@
     */
   }
   @media (min-width: 40em) { /* @medium-size-screen */
-    min-height: 100vh;
+    main > section {
+      min-height: 100vh;
+    }
   }
   .timeline {
     text-align: center;
@@ -921,6 +924,40 @@
 
   /* =Color
   ----------------------------------------------- */
+  main > section.tangerine {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.lime {
+    background-color: rgb(141, 208, 59); /* @lime */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.blueberry {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.banana {
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.strawberry {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  main > section h1 {
+    color: white;
+  }
+  main > section h1 b {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.strawberry h1 b {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  main > section h1 + .activate-tag {
+    margin-top: 3em;
+    color: white;
+  }
+
   .blueberry header,
   .blueberry main > h1:first-child {
     background-color: rgb(6, 179, 188); /* @blueberry */

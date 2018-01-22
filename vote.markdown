@@ -36,3 +36,11 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 ### Questions
 
 If you have any questions about this information on this page, [please review our FAQs](/rules/#faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
+
+<section class="tangerine"><div markdown="1">
+
+# Change is <b>L</b>oc<b>a</b>l
+
+<p class="activate-tag">#ACTIVATEFORLA</p>
+
+</div></section>
