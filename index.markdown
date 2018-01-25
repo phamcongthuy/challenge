@@ -24,7 +24,6 @@ title: 2018 My LA2050 Activation Challenge
 * [Get updates about the challenge](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </div>
 
-<section><div markdown="1">
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
@@ -32,31 +31,7 @@ title: 2018 My LA2050 Activation Challenge
 
 The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.
 
-Learn more [about the challenge](/faqs/#what-is-the-activation-challenge).
-
-</div></section>
-
-<section><div markdown="1">
-
-## Join us to harness our region’s civic activism for a better Los Angeles.
-
-LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great project](https://www.la2050.org/grantees)[s](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
-
-Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
-
-<!--
-Starting March 1, 2018, you can [submit your proposal](/submit) to activate Angelenos around an important issue in the region.
--->
-
-<p class="action" markdown="1">
-[Submit your Proposal](/submit)
-</p>
-
-</div></section>
-
-<section><div markdown="1">
-
-<h2 class="fancy"><em>$1 million in&nbsp;grants.<br />5&nbsp;organizations. $200,000 over two&nbsp;years</em></h2>
+<h3>$1 million in&nbsp;grants.<br />5&nbsp;organizations.<br />$200,000 over two&nbsp;years</h3>
 
 <!--
 <h2 class="fancy"><em>1,000,000. 5&nbsp;winners.<br /> Two&nbsp;years to&nbsp;Shape&nbsp;LA.</em></h2>
@@ -67,13 +42,27 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/faqs/#how-can-la2050-partner-with-my-organization) in support of their efforts.
 
 
+## Join us to harness our region’s civic activism for a better Los Angeles.
+
+LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great project](https://www.la2050.org/grantees)[s](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
+
+Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
+
+<p class="action" markdown="1">
+[Learn how to submit your proposal](/submit)
+</p>
+
+
+<!--
+Starting March 1, 2018, you can [submit your proposal](/submit) to activate Angelenos around an important issue in the region.
+-->
+
+
 <!--
 <p class="action" markdown="1">
 [Read the FAQs](/faqs)
 </p>
 -->
-
-</div></section>
 
 <section class="in-depth"><div markdown="1">
 

@@ -960,6 +960,7 @@
         grid-row-gap: 1.5em;
         align-items: start;
       }
+      main > .activate-tag,
       main > section:not(.timeline):not(.styled) > div > .activate-tag,
       main > section:not(.timeline):not(.styled) > div > h2,
       main > section:not(.timeline):not(.styled) > div > h3 {
