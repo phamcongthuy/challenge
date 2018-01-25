@@ -16,8 +16,8 @@ April 2-6, 2018
 April 9 - May 18, 2018
 : Evaluation Period
 
-**May 21, 2018**
-: **Finalists Announced**
+May 21, 2018
+: Finalists Announced
 
 June 19, 2018
 : Public Event
@@ -25,8 +25,8 @@ June 19, 2018
 ![](/assets/images/icons/voting.png) June 19-29, 2018
 : Public Voting
 
-![](/assets/images/icons/winners.png) **July 9, 2018**
-: **Winners Announced**
+![](/assets/images/icons/winners.png) July 9, 2018
+: Winners Announced
 
 * * *
 

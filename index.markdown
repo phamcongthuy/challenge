@@ -120,10 +120,8 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 ![](/assets/images/icons/voting.png) June 19-29, 2018
 : Public Voting
 
-![](/assets/images/icons/winners.png) **July 9, 2018**
-: **Winners Announced**
-
-**25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>
+![](/assets/images/icons/winners.png) July 9, 2018
+: Winners Announced
 
 
 <p class="action" markdown="1">
