@@ -10,7 +10,7 @@ Starting **June 19, 2018**, you can vote for a proposal on this website.
 ### Get notified when it’s time to vote:
 
 <p class="action" markdown="1">
-[Sign up for updates](https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212)
+[Sign up for updates](http://eepurl.com/dij8RD)
 </p>
 
 ### Help us choose our winners!

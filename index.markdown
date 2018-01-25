@@ -16,7 +16,7 @@ title: 2018 My LA2050 Activation Challenge
 <!--
 <div class="action" markdown="1">
 * [Learn More](/about)
-* [Get Updates](https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&id=b16f498212)
+* [Get Updates](http://eepurl.com/dij8RD)
 </div>
 -->
 <div class="action" markdown="1">

@@ -56,6 +56,11 @@
     color: rgb(6, 179, 188); /* @blueberry */
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   @supports (false) and (background-image: linear-gradient(white, white)) and (color: currentColor) {
     main p:not(.action) a {
       text-decoration: none;
@@ -919,7 +924,8 @@
         max-width: none;
       }
       main > h2,
-      main > h3 {
+      main > h3,
+      main > h4 {
         margin: 0;
         grid-column: 1 / 2;
         justify-self: end;
@@ -1012,6 +1018,27 @@
         grid-column: 1 / 4;
       }*/
     }
+  }
+
+
+  /* =Team
+  ----------------------------------------------- */
+  ul.team,
+  ul.team li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  ul.team li {
+    margin-top: 3em;
+    max-width: 15em;
+    text-align: center;
+  }
+  ul.team li img {
+    border-radius: 50%;
+    width: 15em;
+    max-width: 100%;
+    height: auto;
   }
 
 
