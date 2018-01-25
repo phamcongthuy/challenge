@@ -21,7 +21,7 @@ Starting **March 1, 2018**, you can submit your proposal on this website.
 ### Get notified when it’s time to submit a proposal:
 
 <p class="action" markdown="1">
-[Sign up for updates](http://eepurl.com/dij8RD)
+[Sign up for updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </p>
 
 ### Guidelines
