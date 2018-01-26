@@ -198,7 +198,7 @@
     justify-content: center;
     align-items: center;
     background: rgba(217, 217, 217, 0.15);
-    min-height: 50vmin;
+    min-height: 75vmin;
 
     /*
     border-width: 0.125em 0 0;
@@ -1051,11 +1051,12 @@
     padding-left: 0;
   }
   ul.team li {
-    padding: 0.75em;
+    padding: 1.5em;
     box-sizing: border-box;
   }
   ul.team li img {
     border-radius: 50%;
+    width: 15em;
     max-width: 100%;
     height: auto;
   }
@@ -1070,14 +1071,11 @@
       display: flex;
       flex-wrap: wrap;
       max-width: none;
+      width: 100%;
+      justify-content: center;
     }
     ul.team li {
-      flex-basis: 50%;
-    }
-  }
-  @media (min-width: 70em) {
-    main > ul.team li {
-      flex-basis: 25%;
+      flex-basis: 15em;
     }
   }
 
