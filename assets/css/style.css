@@ -927,76 +927,76 @@
         margin-top: -0.5em;
       }
 
-      main {
+      body:not(.tangerine) main {
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
       }
-      main > h1,
-      main > h1 + p,
-      main > .team,
-      main > h1 + .notifications,
-      main > h1 + .action,
-      main > section {
+      body:not(.tangerine) main > h1,
+      body:not(.tangerine) main > h1 + p,
+      body:not(.tangerine) main > .team,
+      body:not(.tangerine) main > h1 + .notifications,
+      body:not(.tangerine) main > h1 + .action,
+      body:not(.tangerine) main > section {
         grid-column: span 3;
       }
-      main > h1 + p,
-      main > h1 + .notifications p,
-      main > h1 + .notifications h3 {
+      body:not(.tangerine) main > h1 + p,
+      body:not(.tangerine) main > h1 + .notifications p,
+      body:not(.tangerine) main > h1 + .notifications h3 {
         text-align: center;
         max-width: none;
       }
-      main > h2,
-      main > h3,
-      main > h4 {
+      body:not(.tangerine) main > h2,
+      body:not(.tangerine) main > h3,
+      body:not(.tangerine) main > h4 {
         margin: 0;
         grid-column: 1 / 2;
         justify-self: end;
         text-align: right;
       }
-      main > h2:not(.fancy),
-      main > h3:not(.fancy) {
+      body:not(.tangerine) main > h2:not(.fancy),
+      body:not(.tangerine) main > h3:not(.fancy) {
         font-size: 1.5em;
         line-height: 1.125;
         max-width: 17.5em;
       }
-      main > h2.fancy,
-      main > h3.fancy {
+      body:not(.tangerine) main > h2.fancy,
+      body:not(.tangerine) main > h3.fancy {
         margin-top: -0.2em;
       }
-      main > p,
-      main > p.action,
-      main > ul:not(.team) {
+      body:not(.tangerine) main > p,
+      body:not(.tangerine) main > p.action,
+      body:not(.tangerine) main > ul:not(.team) {
         margin: 0;
         grid-column: 2 / 3;
       }
-      main > h1 + section,
-      main > h1 + .action + section,
-      main > section + section {
+      body:not(.tangerine) main > h1 + section,
+      body:not(.tangerine) main > h1 + .action + section,
+      body:not(.tangerine) main > section + section {
         margin-top: -6em; /* offset the grid row gap */
       }
 
-      main > section:not(.timeline):not(.styled) > div {
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div {
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
       }
-      main > .activate-tag,
-      main > section:not(.timeline):not(.styled) > div > .activate-tag,
-      main > section:not(.timeline):not(.styled) > div > h2,
-      main > section:not(.timeline):not(.styled) > div > h3 {
+      body:not(.tangerine) main > .activate-tag,
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > .activate-tag,
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h2,
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h3 {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
         justify-self: end;
         text-align: right;
       }
-      main > section:not(.timeline):not(.styled) > div > h2:not(.fancy),
-      main > section:not(.timeline):not(.styled) > div > h3:not(.fancy) {
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h2:not(.fancy),
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h3:not(.fancy) {
         font-size: 2em;
         margin-bottom: 0.5em;
         line-height: 1.125;
@@ -1005,27 +1005,27 @@
         text-align: center;
         justify-self: center;
       }
-      main > section:not(.timeline):not(.styled) > div > h2.fancy,
-      main > section:not(.timeline):not(.styled) > div > h3.fancy {
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h2.fancy,
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h3.fancy {
         margin-top: -0.2em;
       }
-      main > section:not(.timeline):not(.styled) > div > p,
-      main > section:not(.timeline):not(.styled) > div > p.action,
-      main > section:not(.timeline):not(.styled) > div > ul {
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > p,
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > p.action,
+      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > ul {
         margin: 0;
         grid-column: 2 / 3;
       }
-      main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p {
+      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
         justify-self: end;
         text-align: right !important;
       }
-      main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p * {
+      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p * {
         text-align: right !important;
       }
-      main > section.in-depth:not(.timeline):not(.styled) > div > p {
+      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > p {
         text-align: left;
       }
       /*
