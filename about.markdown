@@ -155,18 +155,30 @@ Metrics
 <ul class="team">
   <li>
     <img src="/assets/images/team/angie.jpg" width="200" alt="" /><br />
-    Angie Jean-Marie, Director
+    <strong>Angie Jean-Marie</strong>
+    Director
   </li>
   <li>
     <img src="/assets/images/team/megan.png" width="200" alt="" /><br />
-    Megan Park, Designer
+    <strong>Megan Park</strong>
+    Designer
   </li>
   <li>
     <img src="/assets/images/team/margo.png" width="200" alt="" /><br />
-    Margo Lang, Digital
+    <strong>Margo Lang</strong>
+    Digital
   </li>
   <li>
     <img src="/assets/images/team/tara.jpg" width="200" alt="" /><br />
-    Tara Roth, Advisor and President of the Goldhirsh Foundation
+    <strong>Tara Roth</strong>
+    Advisor and President of the Goldhirsh Foundation
   </li>
 </ul>
+
+<section class="blueberry styled"><div markdown="1">
+
+# Change is&nbsp;Local
+
+<p class="activate-tag">#ACTIVATEFORLA</p>
+
+</div></section>

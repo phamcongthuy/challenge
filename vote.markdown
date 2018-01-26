@@ -5,6 +5,8 @@ color: blueberry
 
 # Public Voting
 
+<div class="notifications" markdown="1">
+
 Starting **June 19, 2018**, you can vote for a proposal on this website.
 
 ### Get notified when it’s time to vote:
@@ -12,6 +14,8 @@ Starting **June 19, 2018**, you can vote for a proposal on this website.
 <p class="action" markdown="1">
 [Sign up for updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </p>
+
+</div>
 
 ### Help us choose our winners!
 
@@ -39,7 +43,7 @@ If you have any questions about this information on this page, [please review ou
 
 <section class="tangerine styled"><div markdown="1">
 
-# <b>100,000 Angelinos</b><br />to shape the future of&nbsp;LA
+# Change is Local
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 

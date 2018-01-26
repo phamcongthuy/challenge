@@ -198,7 +198,7 @@
     justify-content: center;
     align-items: center;
     background: rgba(217, 217, 217, 0.15);
-    min-height: 100vmin;
+    min-height: 50vmin;
 
     /*
     border-width: 0.125em 0 0;
@@ -581,7 +581,7 @@
   footer h2 {
     display: table;
     font-weight: 500; /* @medium */
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-transform: uppercase;
     color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(255, 194, 51); /* @banana */
@@ -848,6 +848,18 @@
     margin-bottom: 3em;
     font-size: 1.5em;
   }
+  main > h1 + .notifications {
+    margin-bottom: 3em;
+  }
+  main > h1 + .notifications p:not(.action) {
+    font-size: 1.5em;
+  }
+  main > h1 + .notifications h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: inherit;
+    color: inherit;
+  }
 
   @supports (display: grid) {
     @media (min-width: 60em) {
@@ -908,18 +920,22 @@
 
       main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
       }
       main > h1,
       main > h1 + p,
+      main > .team,
+      main > h1 + .notifications,
       main > h1 + .action,
       main > section {
-        grid-column: span 2;
+        grid-column: span 3;
       }
-      main > h1 + p {
+      main > h1 + p,
+      main > h1 + .notifications p,
+      main > h1 + .notifications h3 {
         text-align: center;
         max-width: none;
       }
@@ -943,7 +959,7 @@
       }
       main > p,
       main > p.action,
-      main > ul {
+      main > ul:not(.team) {
         margin: 0;
         grid-column: 2 / 3;
       }
@@ -955,7 +971,7 @@
 
       main > section:not(.timeline):not(.styled) > div {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
@@ -1031,15 +1047,34 @@
     padding-left: 0;
   }
   ul.team li {
-    margin-top: 3em;
-    max-width: 15em;
-    text-align: center;
+    padding: 0.75em;
+    box-sizing: border-box;
   }
   ul.team li img {
     border-radius: 50%;
-    width: 15em;
     max-width: 100%;
     height: auto;
+  }
+  ul.team strong {
+    display: block;
+  }
+  ul.team {
+    text-align: center;
+  }
+  @media (min-width: 33em) {
+    ul.team {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: none;
+    }
+    ul.team li {
+      flex-basis: 50%;
+    }
+  }
+  @media (min-width: 70em) {
+    main > ul.team li {
+      flex-basis: 25%;
+    }
   }
 
 
@@ -1062,31 +1097,6 @@
 
   /* =Color
   ----------------------------------------------- */
-  main > section:last-child {
-    background-image:
-      url(/assets/images/art/wave.svg),
-      url(/assets/images/art/sun.svg),
-      url(/assets/images/art/tree.svg);
-    background-position:
-      5% 100%,
-      75% 7.5%,
-      85% 100%;
-    background-size:
-      3em auto,
-      3em auto,
-      3em auto;
-    background-size:
-      15vmin auto,
-      15vmin auto,
-      15vmin auto;
-    background-repeat: no-repeat;
-  }
-  main > section.strawberry:last-child {
-    background-image:
-      url(/assets/images/art/blueberry/wave.svg),
-      url(/assets/images/art/blueberry/sun.svg),
-      url(/assets/images/art/blueberry/tree.svg);
-  }
   main > section.tangerine {
     background-color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
@@ -1097,7 +1107,7 @@
   }
   main > section.blueberry {
     background-color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 194, 51); /* @banana */
   }
   main > section.banana {
     background-color: rgb(255, 194, 51); /* @banana */
@@ -1108,7 +1118,7 @@
     color: rgb(255, 194, 51); /* @banana */
   }
   main > section h1 {
-    color: white;
+    color: inherit;
     max-width: none;
     text-align: center;
   }
@@ -1128,7 +1138,7 @@
   .blueberry header,
   .blueberry main > h1:first-child {
     background-color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 194, 51); /* @banana */
   }
   .blueberry header a,
   .blueberry main > h1:first-child em {
@@ -1143,8 +1153,8 @@
   .blueberry main > h1:not(:first-child),
   .blueberry main > h2,
   .blueberry main > h3,
-  .blueberry main > p strong,
-  .blueberry main > p em {
+  .blueberry main p strong,
+  .blueberry main p em {
     color: rgb(6, 179, 188); /* @blueberry */
   }
 
@@ -1167,8 +1177,8 @@
   .lime main > h1:not(:first-child),
   .lime main > h2,
   .lime main > h3,
-  .lime main > p strong,
-  .lime main > p em {
+  .lime main p strong,
+  .lime main p em {
     color: rgb(141, 208, 59); /* @lime */
   }
 
