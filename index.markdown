@@ -15,13 +15,13 @@ title: 2018 My LA2050 Activation Challenge
 
 <!--
 <div class="action" markdown="1">
-* [Learn More](/about)
-* [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+* [What is LA2050?](/about)
+* [Get updates about the challenge](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </div>
 -->
 <div class="action" markdown="1">
-* [What is LA2050?](/about)
-* [Get updates about the challenge](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+* [Learn More](/about)
+* [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </div>
 
 
@@ -48,9 +48,7 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
 
-<p class="action" markdown="1">
 [Learn how to submit your proposal](/submit)
-</p>
 
 
 <!--
@@ -141,9 +139,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Ability to mobilize the LA community
 * Collaborative spirit
 
-<p class="action" markdown="1">
 [Learn how to vote](/vote)
-</p>
 
 
 
