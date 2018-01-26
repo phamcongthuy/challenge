@@ -265,7 +265,7 @@
     font-weight: inherit;
   }
   .in-depth a {
-    color: rgb(255, 194, 51); /* @banana */
+    color: white;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .in-depth h2 + p {
@@ -804,7 +804,8 @@
       padding: 0rem 3rem 6rem;
     }
   }
-  main > h1:first-child em {
+  main > h1:first-child em,
+  main > h1:first-child + .action strong {
     color: rgb(255, 194, 51); /* @banana */
   }
   main > h1:first-child + .action {

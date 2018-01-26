@@ -81,9 +81,7 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
   </span>
 </strong>
 
-We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
-
-Read our [guidelines for proposals](/submit/#guidelines).
+We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.<br /><br />Read our [guidelines for proposals](/submit/#guidelines).
 
 </div></section>
 
