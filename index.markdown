@@ -1,8 +1,10 @@
 ---
 title: 2018 My LA2050 Activation Challenge
-color: home
 ---
 
+<h1>Change is&nbsp;Local</h1>
+
+<!--
 <h1>
   <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
     <span class="avoid-break">How would</span>
@@ -14,7 +16,6 @@ color: home
   </span>
 </h1>
 
-<!--
 <div class="action" markdown="1">
 * [What is LA2050?](/about)
 * [Get updates about the challenge](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
@@ -25,6 +26,9 @@ color: home
 </div>
 -->
 <div class="action">
+
+<p>How would you activate <strong>100,000 angelenos</strong> for a better LA?</p>
+
 <p>Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
 <p style="max-width: none; text-align: center;" markdown="1">
 [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
@@ -43,8 +47,6 @@ The My LA2050 Activation Challenge is an open call for ideas that will activate 
 
 <img src="/assets/images/numbers.png" alt="$1 million in grants. 5 organizations. $200,000 over two years" />
 -->
-
-## Join us to harness our region’s civic activism for a better Los Angeles.
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great projects](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
 
@@ -86,10 +88,12 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 [Read the FAQs](/faqs)
 </p>
 -->
-<figure markdown="1">
-![lamas](/assets/images/home/lamas.jpg)
-</figure>
 
+## Join us to harness our region’s civic activism for a better Los Angeles.
+
+<figure markdown="1">
+![Women’s March Los Angeles](/assets/images/home/womens-march-la.jpg)
+</figure>
 
 <section class="in-depth"><div markdown="1">
 
@@ -168,15 +172,13 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 Learn how to [vote for the winners](/vote).
 
-
 <figure markdown="1">
-![Women’s March Los Angeles](/assets/images/home/womens-march-la.jpg)
+![lamas](/assets/images/home/lamas.jpg)
 </figure>
 
+<section class="strawberry styled"><div markdown="1">
 
-<section class="lime styled"><div markdown="1">
-
-# Change is <b>L</b>oc<b>a</b>l
+# Change is&nbsp;Local
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
