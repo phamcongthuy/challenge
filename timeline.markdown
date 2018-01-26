@@ -7,7 +7,7 @@ color: banana
 
 <section class="timeline has-icons" markdown="1"><div markdown="1">
 
-![](/assets/images/icons/submission.svg) March 1-3O, 2018
+![](/assets/images/icons/submission.svg) March 1-30, 2018
 : Submission Period
 
 ![](/assets/images/icons/moderation.svg) April 2-6, 2018

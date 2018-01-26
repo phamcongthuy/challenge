@@ -115,7 +115,7 @@ July 9, 2018
 
 ## Key Dates
 
-![](/assets/images/icons/submission.svg) March 1-3O, 2018
+![](/assets/images/icons/submission.svg) March 1-30, 2018
 : Submission Period
 
 ![](/assets/images/icons/voting.svg) June 19-29, 2018
