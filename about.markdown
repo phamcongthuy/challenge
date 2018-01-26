@@ -12,7 +12,9 @@ With the support of 30,000 Angelenos we’ve outlined an [aspirational vision](h
 In 2013, we launched our first signature program, the My LA2050 Grants Challenge, to inspire action and move the needle on the goals and metrics. Through the grants challenge, 1100+ creative and innovative proposals were submitted to build a better LA. With the help of 200,000 individuals who voted on their favorite proposals, $4M in funds were granted to [42 organizations](http://la2050.org/grantees) shaping a brighter future for Los Angeles.
 
 And now we want your help to take all of this work to the next level! We want you to help us answer: how can we engage 100,000 Angelenos to make measurable progress towards achieving our shared vision?
-About the My LA2050 Activation Challenge
+
+## About the My LA2050 Activation Challenge
+
 This is an open call via for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations--one per goal category--to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
 
 The activations should aim to engage Angelenos to make a specific, tangible impact on one of the LA2050 goals and metrics by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
@@ -22,18 +24,26 @@ LA2050 will commit to a two-year partnership to leveraging its resources, assets
 ## LA2050 Partnership
 
 We want to work together! To partner, we plan on: 
-Leveraging the LA2050 community to support and participate in the activation campaign
-Leading on planning public programming, including events, to connect its community to the activation campaign
-Offering communications assistance to help the coalition advance thought leadership, including authoring articles, op-eds, and blog posts
-Amplifying messaging on social media and via its newsletter to support the campaigns
-Designing assets for materials
-Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns
+* Leveraging the LA2050 community to support and participate in the activation campaign
+* Leading on planning public programming, including events, to connect its community to the activation campaign
+* Offering communications assistance to help the coalition advance thought leadership, including authoring articles, op-eds, and blog posts
+* Amplifying messaging on social media and via its newsletter to support the campaigns
+* Designing assets for materials
+* Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns
 
 ## LA2050 Goals
 
-### Learn
+* [Learn](#learn)
+* [Create](#create)
+* [Play](#play)
+* [Connect](#connect)
+* [Live](#live)
 
+<figure markdown="1">
 ![Kids smiling](/assets/images/goals/learn.png)
+</figure>
+
+### Learn
 
 Our region will offer opportunities for lifelong learning, allowing all residents to contribute their skills, talents, and abilities to society.
 
@@ -53,9 +63,11 @@ By the year 2050, all Los Angeles students will have access to early education p
 * Truancy rates in elementary and middle schools
 * Youth unemployment and underemployment
 
-### Create
-
+<figure markdown="1">
 ![Street art](/assets/images/goals/create.png)
+</figure>
+
+### Create
 
 Our region will empower its residents to harness their creativity by fostering entrepreneurship, cultural diversity, and inclusivity.
 
@@ -78,9 +90,11 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 * Unemployment (and opportunities) for the formerly incarcerated
 * Venture capital investment
 
-### Play
-
+<figure markdown="1">
 ![Child doing a somersault by a fountain](/assets/images/goals/play.png)
+</figure>
+
+### Play
 
 Our region will be a place where people of all ages have easy access to clean, safe, and sustainable venues to enjoy the natural environment, arts and cultural resources, and local beaches, waterways, and open space.
 
@@ -98,9 +112,11 @@ Metrics
 * Per capita crime rates
 * Perceived safety
 
-### Connect
-
+<figure markdown="1">
 ![People riding bikes together on a street](/assets/images/goals/connect.png)
+</figure>
+
+### Connect
 
 Our region will be a place where every resident has the opportunity to engage and interact with other Angelenos and are empowered to contribute meaningfully in civic processes.
 
@@ -122,9 +138,11 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 * Transit-accessible housing and employment (the share of housing units and percentage of jobs that are located within a half-mile of transit)
 * Voting rates
 
-### Live
-
+<figure markdown="1">
 ![A garden full of fruits and vegetables](/assets/images/goals/live.png)
+</figure>
+
+### Live
 
 Our region’s residents will have the economic means and cultural capital to lead active, healthy lives, and everyone benefits from a sustainable environment.
 

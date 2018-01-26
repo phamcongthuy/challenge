@@ -1046,6 +1046,20 @@
       body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > p {
         text-align: left;
       }
+      body:not(.tangerine) figure {
+        grid-column: 1/4;
+        padding: 0;
+        max-width: none;
+        margin: 0 -3em;
+      }
+      body:not(.tangerine) figure p {
+        max-width: none;
+        margin: 0;
+      }
+      body:not(.tangerine) figure img {
+        width: 100%;
+        height: auto;
+      }
       /*
       h2 {
         margin-top: 0;
