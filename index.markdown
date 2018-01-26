@@ -52,7 +52,24 @@ Now, we're asking for your help to turn the LA2050 goals and metrics into action
 
 Learn how to [submit your proposal](/submit).
 
+<div class="numbers" markdown="1">
+$1 million
+: in grants
+
+5
+: organizations
+
+$200,000
+: over two years
+</div>
+
+
+
+<!--
+<figure markdown="1">
 ![$1 million in grants. 5 organizations. $200,000 over two years](/assets/images/numbers.png)
+</figure>
+-->
 
 <!--
 <h3>$1 million in&nbsp;grants.<br />5&nbsp;organizations.<br />$200,000 over two&nbsp;years</h3> 

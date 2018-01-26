@@ -518,6 +518,32 @@
     font-weight: normal;
   }
 
+
+
+  figure {
+    padding: 0;
+    max-width: none;
+    margin: 1.5em -1.5em 0;
+  }
+  figure p {
+    max-width: none;
+    margin: 0;
+  }
+  figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    figure {
+      margin: 3em -3em 0;
+    }
+  }
+  main > figure + section {
+    margin-top: -1.5em;
+  }
+
+
   @media (min-width: 40em) {
     h1 {
       font-size: 3.375em;
@@ -955,6 +981,7 @@
       body:not(.tangerine) main > h1,
       body:not(.tangerine) main > h1 + p,
       body:not(.tangerine) main > .team,
+      body:not(.tangerine) main > .numbers,
       body:not(.tangerine) main > h1 + .notifications,
       body:not(.tangerine) main > h1 + .action,
       body:not(.tangerine) main > section {
@@ -994,9 +1021,6 @@
       body:not(.tangerine) main > h1 + .action + section,
       body:not(.tangerine) main > section + section {
         margin-top: -6em; /* offset the grid row gap */
-      }
-      body:not(.tangerine) main > figure + section {
-        margin-top: -1.5em;
       }
 
       body:not(.tangerine) main > section:not(.timeline):not(.styled) > div {
@@ -1051,18 +1075,6 @@
       }
       body:not(.tangerine) figure {
         grid-column: 1/4;
-        padding: 0;
-        max-width: none;
-        margin: 3em -3em 0;
-      }
-      body:not(.tangerine) figure p {
-        max-width: none;
-        margin: 0;
-      }
-      body:not(.tangerine) figure img {
-        width: 100%;
-        height: auto;
-        display: block;
       }
       /*
       h2 {
@@ -1083,6 +1095,57 @@
       main section {
         grid-column: 1 / 4;
       }*/
+    }
+  }
+
+
+  /* =Numbers
+  ----------------------------------------------- */
+  .numbers dl {
+    margin-top: 3em;
+    color: rgb(6, 179, 188); /* @blueberry */
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
+  }
+  .numbers dt {
+    font-size: 2em;
+    line-height: 1;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
+    border-bottom-width: 0;
+    padding: 0.5em 0.25em 0;
+  }
+  .numbers dd {
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-left: 0;
+    color: rgba(6, 179, 188, 0.5); /* @blueberry */
+    border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
+    border-top-width: 0;
+    padding: 0.375em 0.75em 1.5em;
+  }
+  @supports(display: grid) {
+    @media (min-width: 60em) {
+      .numbers dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .numbers dt {
+        grid-row: 1 / 2;
+        align-self: end;
+      }
+      .numbers dd {
+        grid-row: 2 / 3;
+        align-self: start;
+      }
     }
   }
 
