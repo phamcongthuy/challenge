@@ -42,9 +42,13 @@ Your application will go through a moderation process to ensure that your projec
 
 From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on July 9, 2018.
 
-![Application process. Apply, Moderate and then Display all proposals. Voting process. Finalists announced, vote on finalists, and then winners announced.](/assets/images/process.png)
-
 Learn more about the [timeline and voting process](/timeline).
+
+<figure markdown="1">
+![Application process. Apply, Moderate and then Display all proposals. Voting process. Finalists announced, vote on finalists, and then winners announced.](/assets/images/process.png)
+</figure>
+
+<br />
 
 ### To apply, organizations will:
 

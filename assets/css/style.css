@@ -75,7 +75,7 @@
     color: white;
     margin-left: -1.5em;
     margin-right: -1.5em;
-    padding: 3em 1.5em 6em;
+    padding: 3em 1.5em 3em;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -654,6 +654,7 @@
     color: white;
   }
   footer h2 {
+    margin-top: 0;
     color: inherit;
     font-size: inherit;
   }
@@ -715,7 +716,8 @@
     margin: 0 0.5em;
   }
   @media (max-width: 30em) {
-    header ul {
+    header ul,
+    footer ul {
       max-width: 20em;
     }
   }
@@ -1115,7 +1117,7 @@
     font-weight: bold;
     border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
     border-bottom-width: 0;
-    padding: 0.5em 0.25em 0;
+    padding: 0.75em 0.25em 0;
   }
   .numbers dd {
     letter-spacing: 0.05em;
@@ -1127,7 +1129,7 @@
     color: rgba(6, 179, 188, 0.5); /* @blueberry */
     border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
     border-top-width: 0;
-    padding: 0.375em 0.75em 1.5em;
+    padding: 0.375em 0.75em 2em;
   }
   @supports(display: grid) {
     @media (min-width: 60em) {
