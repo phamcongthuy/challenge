@@ -1,6 +1,6 @@
 ---
 title: About the 2018 My LA2050 Activation Challenge
-color: tangerine
+color: banana
 ---
 
 # About LA2050

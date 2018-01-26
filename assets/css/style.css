@@ -1236,13 +1236,11 @@
   .banana main > h1:not(:first-child),
   .banana main > h2,
   .banana main > h3,
-  .banana aside > h3,
+  .banana main > h4,
+  .banana main > ul.team strong,
   .banana main > p strong,
-  .banana main > p em,
-  .banana main > p a,
-  .banana aside > p a {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(237, 59, 136); /* @strawberry */
+  .banana main > p em {
+    color: rgb(237, 192, 50); /* @dark-banana */
   }
 
 
