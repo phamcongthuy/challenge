@@ -19,10 +19,16 @@ color: home
 * [What is LA2050?](/about)
 * [Get updates about the challenge](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </div>
--->
 <div class="action" markdown="1">
 * [Learn about LA2050](/about)
 * [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+</div>
+-->
+<div class="action">
+<p>Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
+<p style="max-width: none; text-align: center;" markdown="1">
+[Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+</p>
 </div>
 
 
