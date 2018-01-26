@@ -21,7 +21,7 @@ color: home
 </div>
 -->
 <div class="action" markdown="1">
-* [Learn More](/about)
+* [Learn about LA2050](/about)
 * [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </div>
 
