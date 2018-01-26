@@ -105,6 +105,11 @@
   footer a:focus {
     color: rgb(6, 179, 188); /* @blueberry */
   }
+  header a:hover,
+  header a:active,
+  header a:focus {
+    color: white;
+  }
 
   footer {
     background: rgb(245, 245, 245);
@@ -647,6 +652,11 @@
     color: rgb(6, 179, 188); /* @blueberry */
     opacity: 1;
   }
+  header h2 a:hover,
+  header h2 a:active,
+  header h2 a:focus {
+    color: white;
+  }
 
   hr {
     margin-top: 3em;
@@ -831,11 +841,13 @@
   }
   footer .action a:hover,
   footer .action a:active,
-  footer .action a:focus,
+  footer .action a:focus {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+  }
   main > h1:first-child + .action a:hover,
   main > h1:first-child + .action a:active,
   main > h1:first-child + .action a:focus {
-    background-color: rgb(6, 179, 188); /* @blueberry */
+    background-color: white;
   }
 
   header,

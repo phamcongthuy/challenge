@@ -47,7 +47,7 @@ The My LA2050 Activation Challenge is an open call for ideas that will activate 
 
 ## Join us to harness our region’s civic activism for a better Los Angeles.
 
-LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great project](https://www.la2050.org/grantees)[s](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
+LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great projects](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action.
 
