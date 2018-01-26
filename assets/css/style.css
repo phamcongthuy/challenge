@@ -539,6 +539,14 @@
       margin: 3em -3em 0;
     }
   }
+  @supports (object-fit: cover) {
+    @media (min-width: 60em) {
+      figure img {
+        height: 50vw;
+        object-fit: cover;
+      }
+    }
+  }
   main > figure + section {
     margin-top: -1.5em;
   }
@@ -1078,6 +1086,15 @@
       body:not(.tangerine) figure {
         grid-column: 1/4;
       }
+
+      body:not(.tangerine) .introduction {
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3em;
+        grid-row-gap: 1.5em;
+      }
+
       /*
       h2 {
         margin-top: 0;
@@ -1105,17 +1122,17 @@
   ----------------------------------------------- */
   .numbers dl {
     margin-top: 3em;
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @blueberry */
     text-transform: uppercase;
     text-align: center;
-    border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
+    border: 2px solid rgba(237, 59, 136, 0.5); /* @blueberry */
   }
   .numbers dt {
     font-size: 2em;
     line-height: 1;
     font-style: italic;
     font-weight: bold;
-    border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
+    border: 2px solid rgba(237, 59, 136, 0.5); /* @blueberry */
     border-bottom-width: 0;
     padding: 0.75em 0.25em 0;
   }
@@ -1126,8 +1143,8 @@
     text-transform: uppercase;
     line-height: 1;
     margin-left: 0;
-    color: rgba(6, 179, 188, 0.5); /* @blueberry */
-    border: 2px solid rgba(6, 179, 188, 0.5); /* @blueberry */
+    color: rgba(237, 59, 136, 0.5); /* @blueberry */
+    border: 2px solid rgba(237, 59, 136, 0.5); /* @blueberry */
     border-top-width: 0;
     padding: 0.375em 0.75em 2em;
   }
