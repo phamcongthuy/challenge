@@ -995,6 +995,9 @@
       body:not(.tangerine) main > section + section {
         margin-top: -6em; /* offset the grid row gap */
       }
+      body:not(.tangerine) main > figure + section {
+        margin-top: -1.5em;
+      }
 
       body:not(.tangerine) main > section:not(.timeline):not(.styled) > div {
         display: grid;
@@ -1050,7 +1053,7 @@
         grid-column: 1/4;
         padding: 0;
         max-width: none;
-        margin: 0 -3em;
+        margin: 3em -3em 0;
       }
       body:not(.tangerine) figure p {
         max-width: none;
@@ -1059,6 +1062,7 @@
       body:not(.tangerine) figure img {
         width: 100%;
         height: auto;
+        display: block;
       }
       /*
       h2 {

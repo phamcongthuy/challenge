@@ -31,7 +31,6 @@ color: home
 </p>
 </div>
 
-
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
 <h2 class="fancy"><span style="display: block; max-width: 14em"><strong>We&nbsp;believe&nbsp;in the&nbsp;power&nbsp;of angelenos.</strong></span></h2>
@@ -70,6 +69,10 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 [Read the FAQs](/faqs)
 </p>
 -->
+<figure markdown="1">
+![lamas](/assets/images/home/lamas.jpg)
+</figure>
+
 
 <section class="in-depth"><div markdown="1">
 
@@ -148,6 +151,10 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 Learn how to [vote for the winners](/vote).
 
+
+<figure markdown="1">
+![Women’s March Los Angeles](/assets/images/home/womens-march-la.jpg)
+</figure>
 
 
 <section class="lime styled"><div markdown="1">
