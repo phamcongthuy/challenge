@@ -1,5 +1,6 @@
 ---
 title: 2018 My LA2050 Activation Challenge
+color: home
 ---
 
 <h1>
@@ -29,9 +30,8 @@ title: 2018 My LA2050 Activation Challenge
 
 <h2 class="fancy"><span style="display: block; max-width: 14em"><strong>We&nbsp;believe&nbsp;in the&nbsp;power&nbsp;of angelenos.</strong></span></h2>
 
-The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.
+The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/faqs/#how-can-la2050-partner-with-my-organization) in support of their efforts.
 
-<h3>$1 million in&nbsp;grants.<br />5&nbsp;organizations.<br />$200,000 over two&nbsp;years</h3>
 
 <!--
 <h2 class="fancy"><em>1,000,000. 5&nbsp;winners.<br /> Two&nbsp;years to&nbsp;Shape&nbsp;LA.</em></h2>
@@ -39,16 +39,19 @@ The My LA2050 Activation Challenge is an open call for ideas that will activate 
 <img src="/assets/images/numbers.png" alt="$1 million in grants. 5 organizations. $200,000 over two years" />
 -->
 
-A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/faqs/#how-can-la2050-partner-with-my-organization) in support of their efforts.
-
-
 ## Join us to harness our region’s civic activism for a better Los Angeles.
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great project](https://www.la2050.org/grantees)[s](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
 
-Now, we're asking for your help to turn the LA2050 goals and metrics into action. 
+Now, we're asking for your help to turn the LA2050 goals and metrics into action.
 
-[Learn how to submit your proposal](/submit)
+Learn how to [submit your proposal](/submit).
+
+![$1 million in grants. 5 organizations. $200,000 over two years](/assets/images/numbers.png)
+
+<!--
+<h3>$1 million in&nbsp;grants.<br />5&nbsp;organizations.<br />$200,000 over two&nbsp;years</h3> 
+-->
 
 
 <!--
@@ -106,13 +109,13 @@ July 9, 2018
 
 ## Key Dates
 
-![](/assets/images/icons/submission.png) March 1-3O, 2018
+![](/assets/images/icons/submission.svg) March 1-3O, 2018
 : Submission Period
 
-![](/assets/images/icons/voting.png) June 19-29, 2018
+![](/assets/images/icons/voting.svg) June 19-29, 2018
 : Public Voting
 
-![](/assets/images/icons/winners.png) July 9, 2018
+![](/assets/images/icons/winners.svg) July 9, 2018
 : Winners Announced
 
 
@@ -139,7 +142,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Ability to mobilize the LA community
 * Collaborative spirit
 
-[Learn how to vote](/vote)
+Learn how to [vote for the winners](/vote).
 
 
 

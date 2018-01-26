@@ -7,25 +7,25 @@ color: banana
 
 <section class="timeline has-icons" markdown="1"><div markdown="1">
 
-![](/assets/images/icons/submission.png) March 1-3O, 2018
+![](/assets/images/icons/submission.svg) March 1-3O, 2018
 : Submission Period
 
-April 2-6, 2018
+![](/assets/images/icons/moderation.svg) April 2-6, 2018
 : Moderation Period
 
-April 9 - May 18, 2018
+![](/assets/images/icons/evaluation.svg) April 9 - May 18, 2018
 : Evaluation Period
 
-May 21, 2018
+![](/assets/images/icons/finalists.svg) May 21, 2018
 : Finalists Announced
 
-June 19, 2018
+![](/assets/images/icons/event.svg) June 19, 2018
 : Public Event
 
-![](/assets/images/icons/voting.png) June 19-29, 2018
+![](/assets/images/icons/voting.svg) June 19-29, 2018
 : Public Voting
 
-![](/assets/images/icons/winners.png) July 9, 2018
+![](/assets/images/icons/winners.svg) July 9, 2018
 : Winners Announced
 
 * * *
