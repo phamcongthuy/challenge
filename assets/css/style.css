@@ -279,7 +279,8 @@
   .in-depth > div > h2 {
     margin-top: 0;
     color: inherit;
-    font-size: 1.5em;
+    font-size: 1.75em;
+    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
     font-style: italic;
     margin-bottom: 1;
   }
@@ -288,6 +289,15 @@
   }
   main > section > div > *:last-child {
     margin-bottom: 0;
+  }
+
+
+  @supports (display: grid) {
+    @media (min-width: 60em) {
+      .in-depth {
+
+      }
+    }
   }
 
 
@@ -1081,7 +1091,7 @@
         margin-top: -6em; /* offset the grid row gap */
       }
 
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div {
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div {
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
@@ -1089,17 +1099,17 @@
         align-items: start;
       }
       body:not(.tangerine) main > .activate-tag,
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > .activate-tag,
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h2,
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h3 {
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > .activate-tag,
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h2,
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h3 {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
         justify-self: end;
         text-align: right;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h2:not(.fancy),
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h3:not(.fancy) {
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h2:not(.fancy),
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h3:not(.fancy) {
         font-size: 2em;
         margin-bottom: 0.5em;
         line-height: 1.125;
@@ -1108,18 +1118,18 @@
         text-align: center;
         justify-self: center;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.styled).in-depth > div > h2:not(.fancy) {
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled).in-depth > div > h2:not(.fancy) {
         grid-column: 2 / 3;
         text-align: left;
         justify-self: start;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h2.fancy,
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h3.fancy {
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h2.fancy,
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h3.fancy {
         margin-top: -0.2em;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > p,
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > p.action,
-      body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > ul {
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > p,
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > p.action,
+      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > ul {
         margin: 0;
         grid-column: 2 / 3;
       }
@@ -1132,10 +1142,10 @@
         text-align: right !important;
       }
       */
-      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p * {
+      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.in-depth):not(.styled) > div > h2 + p * {
         text-align: right !important;
       }
-      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > p {
+      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.in-depth):not(.styled) > div > p {
         text-align: left;
       }
       body:not(.tangerine) figure {
