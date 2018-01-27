@@ -1458,7 +1458,7 @@
   @media (min-width: 40em) { /* @medium-size-screen */
     figure.change-is-local ~ .notifications {
       margin: -1.5em -3em 3em -3em;
-      padding: 3em;
+      padding: 2.25em 3em 3em;
     }
   }
   figure.change-is-local ~ .notifications p:first-child {
@@ -1531,6 +1531,10 @@
       .home header a:focus {
         color: rgb(237, 59, 136); /* @strawberry */
         color: rgb(141, 208, 59); /* @lime */
+      }
+      figure.change-is-local ~ .notifications {
+        margin-top: -18vw;
+        z-index: 1;
       }
     }
   }
