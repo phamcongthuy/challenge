@@ -141,7 +141,7 @@ Check out the [LA2050 Goals](https://la2050.org/goals), the [LA2050 Report](http
 
 If you have any questions that aren’t answered on this page, please send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-<section class="strawberry styled"><div markdown="1">
+<section class="lime styled"><div markdown="1">
 
 # Change is&nbsp;Local
 

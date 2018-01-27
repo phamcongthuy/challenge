@@ -39,10 +39,8 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 If you have any questions about this information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-<section class="tangerine styled"><div markdown="1">
-
-# Change is Local
-
-<p class="activate-tag">#ACTIVATEFORLA</p>
-
-</div></section>
+<figure>
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
+  <p class="caption"><span>Change is&nbsp;Local</span></p>
+  <p class="activate-tag">#ACTIVATEFORLA</p>
+</figure>

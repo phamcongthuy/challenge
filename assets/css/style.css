@@ -547,7 +547,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
   figure .caption {
     position: absolute;
@@ -564,20 +564,24 @@
     align-items: center;
     color: white;
     opacity: 0.9;
-  }
-  figure.change-is-local .caption {
-    font-size: 1em;
-  }
-  figure.change-is-local .caption p:first-child {
-    font-size: 2em;
+    box-sizing: border-box;
+    padding: 1.5em;
   }
   figure .caption strong {
-    color: rgb(255, 194, 51); /* @banana */
+    font-weight: inherit;
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 79, 156); /* @bright-strawberry */
+    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(141, 208, 59); /* @lime */
   }
-  @media (min-width: 40em) {
-    figure.change-is-local .caption {
-      font-size: 3vw;
-    }
+  figure .activate-tag {
+    position: absolute;
+    bottom: 1.5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     figure {
@@ -590,12 +594,7 @@
         height: 50vw;
         object-fit: cover;
       }
-      figure.change-is-local img {
-      }
     }
-  }
-  figure.change-is-local {
-    margin-top: 0;
   }
   main > figure + section {
     margin-top: -1.5em;
@@ -1086,6 +1085,7 @@
         margin: 0;
         grid-column: 2 / 3;
       }
+      body:not(.tangerine) main > section + figure,
       body:not(.tangerine) main > h1 + section,
       body:not(.tangerine) main > h1 + .action + section,
       body:not(.tangerine) main > section + section {
@@ -1437,12 +1437,91 @@
 
   /* =Home
   ----------------------------------------------- */
-/*  .home header {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-    box-sizing: border-box;
-  }*/
+  figure.change-is-local {
+    margin-top: 0;
+  }
+  figure.change-is-local .caption p:first-child {
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+  figure.change-is-local .caption p:nth-child(2n) {
+    font-weight: normal;
+    text-transform: none;
+  }
+  figure.change-is-local ~ .notifications {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    margin: 0 -1.5em 3em -1.5em;
+    padding: 1.5em 1.5em 2.25em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    figure.change-is-local ~ .notifications {
+      margin: -1.5em -3em 3em -3em;
+      padding: 3em;
+    }
+  }
+  figure.change-is-local ~ .notifications p:first-child {
+    max-width: 27em;
+  }
+  figure.change-is-local ~ .notifications p:first-child strong {
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  figure.change-is-local ~ .notifications .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: black;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  figure.change-is-local ~ .notifications .action a:hover,
+  figure.change-is-local ~ .notifications .action  a:active,
+  figure.change-is-local ~ .notifications .action  a:focus {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+  }
+
+  @supports(object-fit: cover) {
+    figure.change-is-local .caption {
+      font-size: 1.5em;
+    }
+    .home main > figure:first-child img {
+      height: 100vw;
+      object-fit: cover;
+    }
+    @media (min-aspect-ratio: 1/1) {
+      .home main > figure:first-child img {
+        height: auto;
+      }
+      figure.change-is-local .caption p:nth-child(2n) > span {
+        display: block;
+        max-width: 18em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      figure.change-is-local .caption p strong {
+        display: inline-block;
+      }
+      @media (min-width: 40em) {
+        figure.change-is-local .caption {
+          font-size: 4vw;
+        }
+      }
+      .home header {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        box-sizing: border-box;
+        background: transparent;
+      }
+      .home header a {
+        color: white;
+      }
+      .home header a:hover,
+      .home header a:active,
+      .home header a:focus {
+        color: rgb(237, 59, 136); /* @strawberry */
+        color: rgb(141, 208, 59); /* @lime */
+      }
+    }
+  }
 
 
   /* =Fonts

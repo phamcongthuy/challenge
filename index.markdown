@@ -33,7 +33,7 @@ color: home
     <div>
       <p><span>Change is&nbsp;Local</span></p>
       <p>
-        <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
+        <span>
           <span class="avoid-break">How would</span>
           <span class="avoid-break">you activate</span>
           <strong>100,000 angelenos</strong>
@@ -228,10 +228,13 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 Learn how to [vote for the winners](/vote).
 
-<figure>
-  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
-  <p class="caption"><span>Change is&nbsp;Local</span></p>
-</figure>
+<section class="strawberry styled"><div markdown="1">
+
+# Change is&nbsp;Local
+
+<p class="activate-tag">#ACTIVATEFORLA</p>
+
+</div></section>
 
 <!--
 If you have questions not answered in the [FAQs](/faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).

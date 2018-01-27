@@ -44,9 +44,7 @@ From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), 
 
 Learn more about the [timeline and voting process](/timeline).
 
-<figure markdown="1">
 ![Application process. Apply, Moderate and then Display all proposals. Voting process. Finalists announced, vote on finalists, and then winners announced.](/assets/images/process.png)
-</figure>
 
 <br />
 
@@ -82,10 +80,8 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 
 If you have any questions about this information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-<section class="banana styled"><div markdown="1">
-
-# Change is <b>L</b>oc<b>a</b>l
-
-<p class="activate-tag">#ACTIVATEFORLA</p>
-
-</div></section>
+<figure>
+  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
+  <p class="caption"><span>Change is&nbsp;Local</span></p>
+  <p class="activate-tag">#ACTIVATEFORLA</p>
+</figure>

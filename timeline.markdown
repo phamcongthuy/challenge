@@ -34,10 +34,8 @@ color: banana
 
 </div></section>
 
-<section class="blueberry styled"><div markdown="1">
-
-# Change is&nbsp;Local
-
-<p class="activate-tag">#ACTIVATEFORLA</p>
-
-</div></section>
+<figure>
+  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
+  <p class="caption"><span>Change is&nbsp;Local</span></p>
+  <p class="activate-tag">#ACTIVATEFORLA</p>
+</figure>
