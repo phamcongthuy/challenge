@@ -1123,6 +1123,7 @@
         margin: 0;
         grid-column: 2 / 3;
       }
+      /*
       body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p {
         margin: 0;
         grid-column: 1 / 2;
@@ -1130,6 +1131,7 @@
         justify-self: end;
         text-align: right !important;
       }
+      */
       body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p * {
         text-align: right !important;
       }

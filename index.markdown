@@ -138,10 +138,15 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 ## What do we mean by activation?
 
 <strong>
+  We don’t want to limit your imagination, so think big!
+</strong>
+<!--
+<strong>
   <span style="">
     <span style="max-width: 9em; display: block;">We don’t want to limit your imagination, so think big!</span>
   </span>
 </strong>
+-->
 
 We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
 
