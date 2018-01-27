@@ -519,11 +519,11 @@
   }
 
 
-
   figure {
     padding: 0;
     max-width: none;
     margin: 1.5em -1.5em 0;
+    position: relative;
   }
   figure p {
     max-width: none;
@@ -533,6 +533,45 @@
     width: 100%;
     height: auto;
     display: block;
+  }
+  figure::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  figure .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 900; /* @black */
+    text-transform: uppercase;
+    font-size: 6vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.9;
+  }
+  figure.change-is-local .caption {
+    font-size: 1em;
+  }
+  figure.change-is-local .caption p:first-child {
+    font-size: 2em;
+  }
+  figure .caption strong {
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  @media (min-width: 40em) {
+    figure.change-is-local .caption {
+      font-size: 3vw;
+    }
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     figure {
@@ -545,7 +584,12 @@
         height: 50vw;
         object-fit: cover;
       }
+      figure.change-is-local img {
+      }
     }
+  }
+  figure.change-is-local {
+    margin-top: 0;
   }
   main > figure + section {
     margin-top: -1.5em;
@@ -862,6 +906,10 @@
   }
   main > h1:first-child + .action > p:nth-child(1) {
     margin-top: 0;
+    font-weight: bold;
+  }
+  main > h1:first-child + .action > p:nth-child(1) strong {
+    font-weight: inherit;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     main > h1:first-child + .action {
@@ -1366,6 +1414,15 @@
     color: rgb(237, 192, 50); /* @dark-banana */
   }
 
+
+  /* =Home
+  ----------------------------------------------- */
+/*  .home header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+  }*/
 
 
   /* =Fonts

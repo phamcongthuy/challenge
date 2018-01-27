@@ -1,10 +1,11 @@
 ---
 title: 2018 My LA2050 Activation Challenge
+color: home
 ---
 
-<h1>Change is&nbsp;Local</h1>
-
 <!--
+
+<h1>Change is&nbsp;Local</h1>
 <h1>
   <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
     <span class="avoid-break">How would</span>
@@ -25,15 +26,53 @@ title: 2018 My LA2050 Activation Challenge
 * [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </div>
 -->
-<div class="action">
 
-<p>How would you activate <strong>100,000 angelenos</strong> for a better LA?</p>
+<figure class="change-is-local">
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
+  <div class="caption">
+    <div>
+      <p><span>Change is&nbsp;Local</span></p>
+      <p>
+        <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
+          <span class="avoid-break">How would</span>
+          <span class="avoid-break">you activate</span>
+          <strong>100,000 angelenos</strong>
+          <span class="avoid-break">
+            for a <span class="avoid-break">better LA?</span>
+          </span>
+        </span>
+      </p>
+    </div>
+  </div>
+</figure>
+
+<h1 style="display: none">Public Voting</h1>
+
+<div class="notifications" markdown="1">
 
 <p>Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
-<p style="max-width: none; text-align: center;" markdown="1">
+
+<p class="action" markdown="1">
+[Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+</p>
+
+</div>
+
+<!--
+<div class="action">
+<p>Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
+<p style="max-width: none; text-align: center; margin-top: 3em;" markdown="1">
 [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
 </p>
 </div>
+-->
+
+<!--
+<figure>
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
+  <p class="caption"><span>How would you activate <strong>100,000 angelenos</strong> for a better LA?</span></p>
+</figure>
+-->
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
@@ -89,10 +128,9 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 </p>
 -->
 
-## Join us to harness our region’s civic activism for a better Los Angeles.
-
-<figure markdown="1">
-![Women’s March Los Angeles](/assets/images/home/womens-march-la.jpg)
+<figure>
+  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
+  <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
 <section class="in-depth"><div markdown="1">
@@ -172,17 +210,10 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 Learn how to [vote for the winners](/vote).
 
-<figure markdown="1">
-![lamas](/assets/images/home/lamas.jpg)
+<figure>
+  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
+  <p class="caption"><span>Change is&nbsp;Local</span></p>
 </figure>
-
-<section class="strawberry styled"><div markdown="1">
-
-# Change is&nbsp;Local
-
-<p class="activate-tag">#ACTIVATEFORLA</p>
-
-</div></section>
 
 <!--
 If you have questions not answered in the [FAQs](/faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
