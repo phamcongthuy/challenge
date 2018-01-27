@@ -1108,6 +1108,11 @@
         text-align: center;
         justify-self: center;
       }
+      body:not(.tangerine) main > section:not(.timeline):not(.styled).in-depth > div > h2:not(.fancy) {
+        grid-column: 2 / 3;
+        text-align: left;
+        justify-self: start;
+      }
       body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h2.fancy,
       body:not(.tangerine) main > section:not(.timeline):not(.styled) > div > h3.fancy {
         margin-top: -0.2em;
