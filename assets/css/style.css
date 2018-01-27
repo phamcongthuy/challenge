@@ -257,6 +257,7 @@
   .in-depth h2 + p strong em {
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
     font-style: normal;
     display: inline-block;
     font-weight: inherit;

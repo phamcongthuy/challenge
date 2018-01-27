@@ -138,7 +138,7 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 ## What do we mean by activation?
 
 <strong>
-  We don’t want to limit your imagination, so think big!
+  We don’t want to limit your imagination, <em>so think big</em>!
 </strong>
 <!--
 <strong>
