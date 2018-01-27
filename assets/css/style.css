@@ -1486,12 +1486,22 @@
       height: 100vw;
       object-fit: cover;
     }
-    @media (min-aspect-ratio: 1/1) {
+    @media (min-aspect-ratio: 1/1), (min-height: 30em) {
       .home main > figure:first-child img {
         height: auto;
+        min-height: 100vw;
       }
     }
-    @media (min-aspect-ratio: 1/1) and (min-height: 30em) {
+    @media (min-aspect-ratio: 1/1), (min-width: 30em) {
+      .home main > figure:first-child img {
+        min-height: 0;
+      }
+    }
+    @media (min-aspect-ratio: 1/1) and (min-width: 60em) {
+      .home main > figure:first-child img {
+        height: auto;
+        min-height: 0;
+      }
       figure.change-is-local .caption p:nth-child(2n) > span {
         display: block;
         max-width: 18em;
