@@ -51,6 +51,19 @@ _We want to work together! To partner, we plan on:_
 * Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns
 -->
 
+<div class="faq-nav" markdown="1">
+* [100,000 is a lot of people! Do we have to activate them all at once?](#100000-is-a-lot-of-people-do-we-have-to-activate-them-all-at-once)
+* [How will you measure the number of people activated?](#how-will-you-measure-the-number-of-people-activated)
+* [Why did you start the My LA2050 Activation Challenge?](#why-did-you-start-the-my-la2050-activation-challenge)
+* [Are there restrictions on what the activations can address?](#are-there-restrictions-on-what-the-activations-can-address)
+* [I have feedback on the LA2050 goals. How can I share that with you?](#i-have-feedback-on-the-la2050-goals-how-can-i-share-that-with-you)
+* [Can I apply more than once?](#can-i-apply-more-than-once)
+* [What are the benefits of applying?](#what-are-the-benefits-of-applying)
+* [What kinds of activations are you looking to support?](#what-kinds-of-activations-are-you-looking-to-support)
+* [What are some tips for submitting ideas to the My LA2050 Activation Challenge?](#what-are-some-tips-for-submitting-ideas-to-the-my-la2050-activation-challenge)
+* [Send us your questions!](#send-us-your-questions)
+</div>
+
 ### 100,000 is a lot of people! Do we have to activate them all at once?
 
 100,000 is an exciting number of Angelenos to get involved in local issues. And it’ll be no easy feat. We anticipate that the number of people activated will occur over two years and will take many forms. Some people will just receive and open an email, others will actually click on something and show up to a meeting, others will become super volunteers or community organizers. We anticipate that successful activations will create a clear ladder of engagement that take people from unengaged to superstar activists, organizers, volunteers, etc.
