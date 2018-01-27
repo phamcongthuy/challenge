@@ -1490,6 +1490,8 @@
       .home main > figure:first-child img {
         height: auto;
       }
+    }
+    @media (min-aspect-ratio: 1/1) and (min-height: 30em) {
       figure.change-is-local .caption p:nth-child(2n) > span {
         display: block;
         max-width: 18em;
