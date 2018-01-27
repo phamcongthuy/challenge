@@ -27,7 +27,7 @@ color: home
 </div>
 -->
 
-<figure class="change-is-local">
+<figure class="change-is-local has-text">
   <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
   <div class="caption">
     <div>
@@ -128,12 +128,12 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 </p>
 -->
 
-<figure>
+<figure class="has-text">
   <img src="/assets/images/home/lamas.jpg" alt="LA Más">
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
-<section class="in-depth"><div markdown="1">
+<section class="activation-examples"><div markdown="1">
 
 ## What do we mean by activation?
 
@@ -150,16 +150,16 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 
 We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
 
-* Read and share news
-* Donate or fundraise
-* Participate in a rally or meeting
-* Contact your elected official
-* Digital activism
-* Volunteer
-* Boycott / Buycott
-* Organize community
-* Vote
-* Civic tech
+* ![](/assets/images/examples/share-news.svg) Read and share news
+* ![](/assets/images/examples/donate.svg) Donate or fundraise
+* ![](/assets/images/examples/rally.svg) Participate in a rally or meeting
+* ![](/assets/images/examples/contact-official.svg) Contact your elected official
+* ![](/assets/images/examples/digital-activism.svg) Digital activism
+* ![](/assets/images/examples/volunteer.svg) Volunteer
+* ![](/assets/images/examples/boycott.svg) Boycott / Buycott
+* ![](/assets/images/examples/organize-community.svg) Organize community
+* ![](/assets/images/examples/vote.svg) Vote
+* ![](/assets/images/examples/civic-tech.svg) Civic tech
 
 Read our [guidelines for proposals](/submit/#guidelines).
 
@@ -170,19 +170,19 @@ Read our [guidelines for proposals](/submit/#guidelines).
 
 ### Submission Period
 
-![](/assets/images/icons/submission.png)
+![](/assets/images/timeline/submission.png)
 
 March 1-3O, 2018
 
 ### Public Voting
 
-![](/assets/images/icons/voting.png)
+![](/assets/images/timeline/voting.png)
 
 June 19-29, 2018
 
 ### Winners Announced
 
-![](/assets/images/icons/winners.png)
+![](/assets/images/timeline/winners.png)
 
 July 9, 2018
 
@@ -193,13 +193,13 @@ July 9, 2018
 
 ## Key Dates
 
-![](/assets/images/icons/submission.svg) March 1-30, 2018
+![](/assets/images/timeline/submission.svg) March 1-30, 2018
 : Submission Period
 
-![](/assets/images/icons/voting.svg) June 19-29, 2018
+![](/assets/images/timeline/voting.svg) June 19-29, 2018
 : Public Voting
 
-![](/assets/images/icons/winners.svg) July 9, 2018
+![](/assets/images/timeline/winners.svg) July 9, 2018
 : Winners Announced
 
 

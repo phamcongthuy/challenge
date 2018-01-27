@@ -211,6 +211,7 @@
     border-color: rgb(217, 217, 217);
     */
   }
+  .activation-examples,
   .timeline {
     text-align: center;
   }
@@ -222,13 +223,13 @@
   main > section:nth-of-type(2n) {
     background: white;
   }
-  main > section.in-depth {
+  main > section.activation-examples {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;
   }
-  main > section.in-depth a:hover,
-  main > section.in-depth a:active,
-  main > section.in-depth a:focus {
+  main > section.activation-examples a:hover,
+  main > section.activation-examples a:active,
+  main > section.activation-examples a:focus {
     color: inherit;
   }
   main > section.timeline {
@@ -245,16 +246,16 @@
     margin-top: -7.5em;
     padding-top: 0;
   }
-  .in-depth h2 + p {
+  .activation-examples h2 + p {
     max-width: none;
     font-weight: bold;
   }
 
-  .in-depth h2 + p strong {
+  .activation-examples h2 + p strong {
     color: inherit;
     font-weight: inherit;
   }
-  .in-depth h2 + p strong em {
+  .activation-examples h2 + p strong em {
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
@@ -262,11 +263,11 @@
     display: inline-block;
     font-weight: inherit;
   }
-  .in-depth a {
+  .activation-examples a {
     color: white;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
-    .in-depth h2 + p {
+    .activation-examples h2 + p {
     }
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -277,7 +278,7 @@
     }
   }
   .timeline > div > h2,
-  .in-depth > div > h2 {
+  .activation-examples > div > h2 {
     margin-top: 0;
     color: inherit;
     font-size: 1.75em;
@@ -295,7 +296,7 @@
 
   @supports (display: grid) {
     @media (min-width: 60em) {
-      .in-depth {
+      .activation-examples {
 
       }
     }
@@ -306,17 +307,38 @@
     letter-spacing: 0.1em;
     max-width: none;
   }
-  .timeline dl + p {
+  .activation-examples ul + p:last-child,
+  .timeline dl + p:last-child {
     margin-top: 3em;
-    margin-bottom: 4.5em;
+    margin-bottom: 1.25em;
   }
 
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .activation-examples ul + p:last-child,
+    .timeline dl + p:last-child {
+      margin-top: 4.5em;
+      margin-bottom: 1.5em;
+    }
+  }
+
+
+  .activation-examples ul,
+  .activation-examples li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .activation-examples li,  
   .timeline dt {
     margin-top: 3em;
     font-weight: 600;
-    color: rgb(237, 59, 136); /* @strawberry */
     text-transform: uppercase;
   }
+  .timeline dt {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .activation-examples li img,
   .timeline dt img {
     width: auto;
     height: 4.5em;
@@ -357,10 +379,15 @@
       .timeline:not(.has-icons) dd {
         text-align: left;
       }
+      .activation-examples ul,
       .timeline.has-icons dl {
         display: grid;
         grid-column-gap: 1.5em;
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: none;
+      }
+      .activation-examples li:nth-child(3n+1):last-child {
+        grid-column: span 3;
       }
       .timeline.has-icons dt:nth-of-type(1),
       .timeline.has-icons dt:nth-of-type(2),
@@ -372,7 +399,7 @@
       .timeline.has-icons dd:nth-of-type(2),
       .timeline.has-icons dd:nth-of-type(3) {
         grid-row: 2 / 3;
-        align-self: end;
+        align-self: start;
       }
       .timeline.has-icons dt:nth-of-type(4),
       .timeline.has-icons dt:nth-of-type(5),
@@ -384,7 +411,7 @@
       .timeline.has-icons dd:nth-of-type(5),
       .timeline.has-icons dd:nth-of-type(6) {
         grid-row: 4 / 5;
-        align-self: end;
+        align-self: start;
       }
       .timeline.has-icons dt:nth-of-type(7) {
         grid-row: 5 / 6;
@@ -540,7 +567,7 @@
     height: auto;
     display: block;
   }
-  figure::before {
+  figure.has-text::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1092,7 +1119,7 @@
         margin-top: -6em; /* offset the grid row gap */
       }
 
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div {
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div {
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
@@ -1100,17 +1127,17 @@
         align-items: start;
       }
       body:not(.tangerine) main > .activate-tag,
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > .activate-tag,
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h2,
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h3 {
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > .activate-tag,
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2,
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3 {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
         justify-self: end;
         text-align: right;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h2:not(.fancy),
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h3:not(.fancy) {
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2:not(.fancy),
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3:not(.fancy) {
         font-size: 2em;
         margin-bottom: 0.5em;
         line-height: 1.125;
@@ -1119,23 +1146,23 @@
         text-align: center;
         justify-self: center;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled).in-depth > div > h2:not(.fancy) {
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled).activation-examples > div > h2:not(.fancy) {
         grid-column: 2 / 3;
         text-align: left;
         justify-self: start;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h2.fancy,
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > h3.fancy {
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2.fancy,
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3.fancy {
         margin-top: -0.2em;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > p,
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > p.action,
-      body:not(.tangerine) main > section:not(.timeline):not(.in-depth):not(.styled) > div > ul {
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p,
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p.action,
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > ul {
         margin: 0;
         grid-column: 2 / 3;
       }
       /*
-      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.styled) > div > h2 + p {
+      body:not(.tangerine) main > section.activation-examples:not(.timeline):not(.styled) > div > h2 + p {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
@@ -1143,10 +1170,10 @@
         text-align: right !important;
       }
       */
-      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.in-depth):not(.styled) > div > h2 + p * {
+      body:not(.tangerine) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > h2 + p * {
         text-align: right !important;
       }
-      body:not(.tangerine) main > section.in-depth:not(.timeline):not(.in-depth):not(.styled) > div > p {
+      body:not(.tangerine) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > p {
         text-align: left;
       }
       body:not(.tangerine) figure {

@@ -7,25 +7,25 @@ color: banana
 
 <section class="timeline has-icons" markdown="1"><div markdown="1">
 
-![](/assets/images/icons/submission.svg) March 1-30, 2018
+![](/assets/images/timeline/submission.svg) March 1-30, 2018
 : Submission Period
 
-![](/assets/images/icons/moderation.svg) April 2-6, 2018
+![](/assets/images/timeline/moderation.svg) April 2-6, 2018
 : Moderation Period
 
-![](/assets/images/icons/evaluation.svg) April 9 - May 18, 2018
+![](/assets/images/timeline/evaluation.svg) April 9 - May 18, 2018
 : Evaluation Period
 
-![](/assets/images/icons/finalists.svg) May 21, 2018
+![](/assets/images/timeline/finalists.svg) May 21, 2018
 : Finalists Announced
 
-![](/assets/images/icons/event.svg) June 19, 2018
+![](/assets/images/timeline/event.svg) June 19, 2018
 : Public Event
 
-![](/assets/images/icons/voting.svg) June 19-29, 2018
+![](/assets/images/timeline/voting.svg) June 19-29, 2018
 : Public Voting
 
-![](/assets/images/icons/winners.svg) July 9, 2018
+![](/assets/images/timeline/winners.svg) July 9, 2018
 : Winners Announced
 
 * * *
@@ -34,7 +34,7 @@ color: banana
 
 </div></section>
 
-<figure>
+<figure class="has-text">
   <img src="/assets/images/home/lamas.jpg" alt="LA Más">
   <p class="caption"><span>Change is&nbsp;Local</span></p>
   <p class="activate-tag">#ACTIVATEFORLA</p>
