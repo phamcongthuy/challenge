@@ -32,16 +32,6 @@ color: home
   <div class="caption">
     <div>
       <p><span>Change is&nbsp;Local</span></p>
-      <p>
-        <span>
-          <span class="avoid-break">How would</span>
-          <span class="avoid-break">you activate</span>
-          <strong>100,000 angelenos</strong>
-          <span class="avoid-break">
-            for a <span class="avoid-break">better LA?</span>
-          </span>
-        </span>
-      </p>
     </div>
   </div>
 </figure>
@@ -49,6 +39,16 @@ color: home
 <h1 style="display: none">Public Voting</h1>
 
 <div class="notifications" markdown="1">
+<p>
+  <span>
+    <span class="avoid-break">How would</span>
+    <span class="avoid-break">you activate</span>
+    <strong>100,000 angelenos</strong>
+    <span class="avoid-break">
+      for a <span class="avoid-break">better LA?</span>
+    </span>
+  </span>
+</p>
 
 <p>Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
 
