@@ -173,6 +173,7 @@
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
+    border-radius: 1.5em;
   }
   .action a:hover,
   .action a:active,
