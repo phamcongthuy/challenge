@@ -93,6 +93,7 @@
   footer a {
     color: white;
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
@@ -738,6 +739,7 @@
     text-transform: uppercase;
     color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
     line-height: 1;
     text-align: center;
   }
@@ -1222,6 +1224,17 @@
         grid-column: 1/4;
       }
 
+      body:not(.tangerine) .application-process {
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
+        grid-column-gap: 3em;
+        grid-row-gap: 1.5em;
+        align-items: start;
+      }
+      body:not(.tangerine) .application-process > div {
+        grid-column: 2/3;
+      }
       body:not(.tangerine) .introduction {
         grid-column: 1/4;
         display: grid;
@@ -1633,6 +1646,41 @@
         z-index: 1;
       }
       */
+    }
+  }
+
+
+  /* =Application Process
+  ----------------------------------------------- */
+  .application-process {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 224, 81); /* @bright-banana */
+    text-transform: uppercase;
+    font-weight: 900; /* @black */
+    margin: 1.5em -1.5em 0;
+    padding: 3em 1.5em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .application-process {
+      margin: 3em -3em 0;
+      padding: 3em;
+    }
+  }
+  .application-process h4 {
+    font-weight: inherit;
+    font-style: italic;
+    color: white;
+  }
+  .application-process h4:first-child {
+    margin-top: 0;
+  }
+  .application-process ol:last-child {
+    margin-bottom: 0;
+  }
+
+  @supports (display: grid) {
+    @media (min-width: 60em) {
+
     }
   }
 
