@@ -590,7 +590,7 @@
     height: 100%;
     font-weight: 900; /* @black */
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 1.5em;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -599,6 +599,11 @@
     opacity: 0.9;
     box-sizing: border-box;
     padding: 1.5em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    figure .caption {
+      font-size: 5vw;
+    }
   }
   figure .caption strong {
     font-weight: inherit;
@@ -622,6 +627,10 @@
     }
   }
   @supports (object-fit: cover) {
+    figure img {
+      height: 66.6666vw;
+      object-fit: cover;
+    }
     @media (min-width: 60em) {
       figure img {
         height: 50vw;
@@ -635,12 +644,15 @@
       }
     }
   }
+
+  main > figure + section {
+    margin-top: 0;
+  }
+
+  @media (min-width: 40em) {
   main > figure + section {
     margin-top: -1.5em;
   }
-
-
-  @media (min-width: 40em) {
     h1 {
       font-size: 3.375em;
       font-size: 6vmax;
@@ -1227,6 +1239,7 @@
   ----------------------------------------------- */
   .numbers dl {
     margin-top: 3em;
+    margin-bottom: 3em;
     color: rgb(237, 59, 136); /* @blueberry */
     text-transform: uppercase;
     text-align: center;
@@ -1261,6 +1274,7 @@
         max-width: none;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 1.5em;
       }
       .numbers dt {
         grid-row: 1 / 2;
@@ -1476,6 +1490,19 @@
 
   /* =Home
   ----------------------------------------------- */
+  .home-2 main > h1:first-child {
+    margin-bottom: -1.5rem
+  }
+  @media (min-width: 40em) {
+    .home-2 main > h1:first-child {
+      margin-bottom: -3rem;
+    }
+  }
+  @media (min-width: 60em) {
+    .home-2 main > h1:first-child {
+      margin-bottom: -4.5rem;
+    }
+  }
   figure.change-is-local {
     margin-top: 0;
   }

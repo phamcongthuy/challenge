@@ -1,7 +1,36 @@
 ---
 title: 2018 My LA2050 Activation Challenge
-color: home
+color: home-2
 ---
+
+<h1>Change is&nbsp;Local</h1>
+
+<figure class="has-text">
+  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
+  <p class="caption">
+    <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
+    <span class="avoid-break">How would</span>
+    <span class="avoid-break">you activate</span>
+    <strong>100,000 angelenos</strong>
+    <span class="avoid-break">
+      for a <span class="avoid-break">better LA?</span>
+    </span>
+  </span>
+  </p>
+</figure>
+  
+<h1 style="display: none">Public Voting</h1>
+
+<div class="notifications" markdown="1">
+
+<p style="max-width: 27em">Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
+
+<p class="action" markdown="1">
+[Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+</p>
+
+</div>
+
 
 <!--
 
@@ -27,6 +56,7 @@ color: home
 </div>
 -->
 
+<!--
 <figure class="change-is-local has-text">
   <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
   <div class="caption">
@@ -57,6 +87,7 @@ color: home
 </p>
 
 </div>
+-->
 
 <!--
 <div class="action">
@@ -129,7 +160,7 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 -->
 
 <figure class="has-text">
-  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
+  <img src="/assets/images/home/womens-march-la.jpg" alt="LA Más">
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
@@ -228,13 +259,11 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 Learn how to [vote for the winners](/vote).
 
-<section class="lime styled"><div markdown="1">
-
-# Change is&nbsp;Local
-
-<p class="activate-tag">#ACTIVATEFORLA</p>
-
-</div></section>
+<figure class="has-text">
+  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
+  <p class="caption"><span>Change is&nbsp;Local</span></p>
+  <p class="activate-tag">#ACTIVATEFORLA</p>
+</figure>
 
 <!--
 If you have questions not answered in the [FAQs](/faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).
