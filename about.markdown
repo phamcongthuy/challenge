@@ -39,19 +39,27 @@ We want to work together! To partner, we plan on:
 * Designing assets for materials
 * Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns
 
+<section class="goals"><div markdown="1">
+
 ## LA2050 Goals
 
-* [Learn](#learn)
-* [Create](#create)
-* [Play](#play)
-* [Connect](#connect)
-* [Live](#live)
+<ul class="action">
+  <li class="blueberry"><a href="#learn">Learn</a></li>
+  <li class="banana"><a href="#create">Create</a></li>
+  <li class="strawberry"><a href="#play">Play</a></li>
+  <li class="tangerine"><a href="#connect">Connect</a></li>
+  <li class="lime"><a href="#live">Live</a></li>
+</ul>
+
+</div></section>
 
 <figure markdown="1">
 ![Kids smiling](/assets/images/goals/learn.png)
 </figure>
 
-### Learn
+<section class="blueberry"><div markdown="1">
+
+<h3 class="fancy" id="learn"><strong>Learn</strong></h3>
 
 Our region will offer opportunities for lifelong learning, allowing all residents to contribute their skills, talents, and abilities to society.
 
@@ -71,11 +79,16 @@ By the year 2050, all Los Angeles students will have access to early education p
 * Truancy rates in elementary and middle schools
 * Youth unemployment and underemployment
 
+</div>
+</section>
+
 <figure markdown="1">
 ![Street art](/assets/images/goals/create.png)
 </figure>
 
-### Create
+<section class="banana"><div markdown="1">
+
+<h3 class="fancy" id="create"><strong>Create</strong></h3>
 
 Our region will empower its residents to harness their creativity by fostering entrepreneurship, cultural diversity, and inclusivity.
 
@@ -98,11 +111,15 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 * Unemployment (and opportunities) for the formerly incarcerated
 * Venture capital investment
 
+</div></section>
+
 <figure markdown="1">
 ![Child doing a somersault by a fountain](/assets/images/goals/play.png)
 </figure>
 
-### Play
+<section class="strawberry"><div markdown="1">
+
+<h3 class="fancy" id="play"><strong>Play</strong></h3>
 
 Our region will be a place where people of all ages have easy access to clean, safe, and sustainable venues to enjoy the natural environment, arts and cultural resources, and local beaches, waterways, and open space.
 
@@ -120,11 +137,15 @@ Metrics
 * Per capita crime rates
 * Perceived safety
 
+</div></section>
+
 <figure markdown="1">
 ![People riding bikes together on a street](/assets/images/goals/connect.png)
 </figure>
 
-### Connect
+<section class="tangerine"><div markdown="1">
+
+<h3 class="fancy" id="connect"><strong>Connect</strong></h3>
 
 Our region will be a place where every resident has the opportunity to engage and interact with other Angelenos and are empowered to contribute meaningfully in civic processes.
 
@@ -146,11 +167,15 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 * Transit-accessible housing and employment (the share of housing units and percentage of jobs that are located within a half-mile of transit)
 * Voting rates
 
+</div></section>
+
 <figure markdown="1">
 ![A garden full of fruits and vegetables](/assets/images/goals/live.png)
 </figure>
 
-### Live
+<section class="lime"><div markdown="1">
+
+<h3 class="fancy" id="live"><strong>Live</strong></h3>
 
 Our region’s residents will have the economic means and cultural capital to lead active, healthy lives, and everyone benefits from a sustainable environment.
 
@@ -174,6 +199,10 @@ Metrics
 * Homelessness
 * Mental illness
 * Walk/bike/transit score
+
+</div></section>
+
+<section><div markdown="1">
 
 ## LA2050 Team
 
@@ -199,6 +228,9 @@ Metrics
     Advisor and President of the Goldhirsh Foundation
   </li>
 </ul>
+
+</div>
+</section>
 
 <section class="blueberry styled"><div markdown="1">
 

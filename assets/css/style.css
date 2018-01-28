@@ -758,6 +758,23 @@
     }
   }
 
+  .banana h3 strong {
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgba(255, 255, 255, 0.5) 5%, rgba(255, 255, 255, 0.5) 65%, transparent 65%, transparent);
+  }
+  .strawberry h3 strong {
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgba(255, 255, 255, 0.25) 5%, rgba(255, 255, 255, 0.25) 65%, transparent 65%, transparent);
+  }
+  .tangerine h3 strong,
+  .blueberry h3 strong,
+  .lime h3 strong {
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgb(255, 224, 81) 5%, rgb(255, 224, 81) 65%, transparent 65%, transparent);
+  }
+  @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
+    .strawberry h3 strong {
+      text-shadow: -0.2em 0 0 rgb(255, 224, 81); /* @bright-banana */
+    }
+  }
+
   header h2,
   footer h2 {
     display: table;
@@ -1203,7 +1220,8 @@
       body:not(.tangerine) main > .activate-tag,
       body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > .activate-tag,
       body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3 {
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3,
+      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h4 {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
@@ -1426,6 +1444,73 @@
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 194, 51); /* @banana */
   }
+  main > section.strawberry .fancy {
+
+  }
+  main > section .fancy ~ h4,
+  main > section .fancy ~ p,
+  main > section .fancy ~ ul {
+    color: white;
+  }
+  main > section.banana .fancy ~ p,
+  main > section.banana .fancy ~ ul {
+    color: black;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  main > section.lime .fancy ~ h4,
+  main > section.tangerine .fancy ~ h4,
+  main > section.banana .fancy ~ h4 {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.strawberry .fancy ~ h4,
+  main > section.blueberry .fancy ~ h4 {
+    color: rgb(255, 224, 81); /* @bright-banana */
+  }
+
+  .goals h2 {
+    grid-column: 1/4 !important;
+    text-align: center;
+  }
+  .goals ul,
+  .goals li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .goals ul {
+    grid-column: 1/4 !important;
+    text-align: center;
+    max-width: none;
+    margin: 0;
+  }
+  .goals li {
+    display: inline-block;
+    margin: 0.5em;
+  }
+  .goals a {
+  }
+  .goals .strawberry a {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .goals .blueberry a {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+  }
+  .goals .banana a {
+    background-color: rgb(237, 192, 50); /* @dark-banana */
+  }
+  .goals .tangerine a {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+  }
+  .goals .lime a {
+    background-color: rgb(141, 208, 59); /* @lime */
+  }
+  .goals a:hover,
+  .goals a:active,
+  .goals a:focus {
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
   main > section h1 {
     color: inherit;
     max-width: none;

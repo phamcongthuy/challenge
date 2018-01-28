@@ -142,7 +142,7 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action.
 
-Learn how to [submit your proposal](/submit).
+[How to submit your proposal](/submit/#guidelines).
 
 <div class="numbers" markdown="1">
 $1 million
@@ -254,9 +254,7 @@ July 9, 2018
 : Winners Announced
 
 
-<p class="action" markdown="1">
-[Timeline](/timeline)
-</p>
+View the full [timeline](/timeline).
 
 </div></section>
 
@@ -277,7 +275,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Ability to mobilize the LA community
 * Collaborative spirit
 
-Learn how to [vote for the winners](/vote).
+[Help us choose our winners!](/vote/)
 
 <figure class="has-text">
   <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
