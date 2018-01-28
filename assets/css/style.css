@@ -574,7 +574,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  figure.change-is-local::before {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
   }
   figure .caption {
     position: absolute;
@@ -596,10 +599,10 @@
   }
   figure .caption strong {
     font-weight: inherit;
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(255, 79, 156); /* @bright-strawberry */
     color: rgb(6, 179, 188); /* @blueberry */
     color: rgb(141, 208, 59); /* @lime */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 79, 156); /* @bright-strawberry */
   }
   figure .activate-tag {
     position: absolute;
@@ -1008,6 +1011,12 @@
     font-weight: inherit;
     color: inherit;
   }
+      body:not(.tangerine) main > h1 + p,
+      body:not(.tangerine) main > h1 + .notifications p,
+      body:not(.tangerine) main > h1 + .notifications h3 {
+        text-align: center;
+        max-width: none;
+      }
 
   @supports (display: grid) {
     @media (min-width: 60em) {
@@ -1048,7 +1057,7 @@
         margin-right: -0.5em;
       }
       footer > div {
-      	margin: 0;
+        margin: 0;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         justify-self: start;
@@ -1081,12 +1090,6 @@
       body:not(.tangerine) main > h1 + .action,
       body:not(.tangerine) main > section {
         grid-column: span 3;
-      }
-      body:not(.tangerine) main > h1 + p,
-      body:not(.tangerine) main > h1 + .notifications p,
-      body:not(.tangerine) main > h1 + .notifications h3 {
-        text-align: center;
-        max-width: none;
       }
       body:not(.tangerine) main > h2,
       body:not(.tangerine) main > h3,
@@ -1488,10 +1491,10 @@
       padding: 2.25em 3em 3em;
     }
   }
-  figure.change-is-local ~ .notifications p:first-child {
+  figure.change-is-local ~ .notifications p:not(.action) + p:not(.action) {
     max-width: 27em;
   }
-  figure.change-is-local ~ .notifications p:first-child strong {
+  figure.change-is-local ~ .notifications p:not(.action) strong {
     color: rgb(255, 194, 51); /* @banana */
   }
   figure.change-is-local ~ .notifications .action a {
@@ -1509,6 +1512,7 @@
     figure.change-is-local .caption {
       font-size: 1.5em;
     }
+    /*
     .home main > figure:first-child img {
       height: 100vw;
       object-fit: cover;
@@ -1524,11 +1528,14 @@
         min-height: 0;
       }
     }
+    */
     @media (min-aspect-ratio: 1/1) and (min-width: 60em) {
+      /*
       .home main > figure:first-child img {
         height: auto;
         min-height: 0;
       }
+      */
       figure.change-is-local .caption p:nth-child(2n) > span {
         display: block;
         max-width: 18em;
@@ -1559,10 +1566,12 @@
         color: rgb(237, 59, 136); /* @strawberry */
         color: rgb(141, 208, 59); /* @lime */
       }
+      /*
       figure.change-is-local ~ .notifications {
         margin-top: -18vw;
         z-index: 1;
       }
+      */
     }
   }
 
