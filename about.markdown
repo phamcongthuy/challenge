@@ -18,7 +18,7 @@ And now we want your help to take all of this work to the next level! We want yo
 </div>
 
 <figure markdown="1">
-![lamas](/assets/images/home/lamas.jpg)
+<img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
 </figure>
 
 ## About the My LA2050 Activation Challenge
