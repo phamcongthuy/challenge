@@ -1,5 +1,6 @@
 ---
 title: 2018 My LA2050 Activation Challenge
+color: home
 ---
 
 <figure class="change-is-local has-text">

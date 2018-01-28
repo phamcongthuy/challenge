@@ -1556,24 +1556,6 @@
 
   /* =Home
   ----------------------------------------------- */
-/*  .home-2 main > h1:first-child {
-    margin-bottom: -1.5rem
-  }
-  @media (min-width: 40em) {
-    .home-2 main > h1:first-child {
-      margin-bottom: -3rem;
-    }
-  }*/
-  @media (min-width: 60em) {
-    .home-2 main > h1:first-child {
-      margin-bottom: -4.5rem;
-    }
-  }
-  @media (max-width: 60em) {
-    .home-2 main .notifications {
-      margin-top: 3em;
-    }
-  }
   figure.change-is-local {
     margin-top: 0;
     margin-bottom: 0;
@@ -1602,12 +1584,12 @@
       margin-top: 0;
     }*/
   }
-@supports (false) {
+
   figure.change-is-local ~ .notifications {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: white;
     margin: 0 -1.5em 3em -1.5em;
-    padding: 1.5em 1.5em 2.25em;
+    padding: 2.25em 1.5em 2.25em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     figure.change-is-local ~ .notifications {
@@ -1631,7 +1613,7 @@
   figure.change-is-local ~ .notifications .action  a:focus {
     background-color: rgb(6, 179, 188); /* @blueberry */
   }
-}
+
 
   @supports(object-fit: cover) {
     figure.change-is-local .caption {
@@ -1692,6 +1674,12 @@
         color: rgb(237, 59, 136); /* @strawberry */
         color: rgb(6, 179, 188); /* @blueberry */
         color: rgb(46, 219, 228); /* @bright-blueberry */
+      }
+      .home .change-is-local .caption {
+        align-items: flex-end;
+      }
+      .home .change-is-local img {
+        height: 45vw;
       }
       /*
       figure.change-is-local ~ .notifications {
