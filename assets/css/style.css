@@ -30,8 +30,9 @@
   }
 
   h1, h2, h3, h4, h5, h6, strong, em {
-    color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(237, 192, 50); /* @dark-banana */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
   em {
@@ -599,6 +600,7 @@
     opacity: 0.9;
     box-sizing: border-box;
     padding: 1.5em;
+    text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     figure .caption {
@@ -611,6 +613,9 @@
     color: rgb(141, 208, 59); /* @lime */
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 79, 156); /* @bright-strawberry */
+    color: rgb(181, 248, 99); /* @bright-lime */
+    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
   }
   figure .activate-tag {
     position: absolute;
@@ -620,6 +625,7 @@
     text-align: center;
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
+    text-shadow: 0 0 2em rgba(0, 0, 0, 1);
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     figure {
@@ -1021,7 +1027,7 @@
     font-size: 1.5em;
   }
   main > h1 + .notifications {
-    margin-bottom: 3em;
+    margin-bottom: 4.5em;
   }
   main > h1 + .notifications p:not(.action) {
     font-size: 1.5em;
@@ -1501,6 +1507,11 @@
   @media (min-width: 60em) {
     .home-2 main > h1:first-child {
       margin-bottom: -4.5rem;
+    }
+  }
+  @media (max-width: 60em) {
+    .home-2 main .notifications {
+      margin-top: 3em;
     }
   }
   figure.change-is-local {
