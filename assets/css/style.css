@@ -582,12 +582,6 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.15);
   }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    figure.change-is-local::before {
-      background-color: rgba(0, 0, 0, 0.45);
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
-    }
-  }
   figure .caption {
     position: absolute;
     top: 0;
@@ -662,8 +656,9 @@
       */
     }
   }
+
   @supports (object-fit: cover) {
-    @media (max-width: 40em) {   
+    @media (max-width: 19em) {   
       figure.change-is-local {
         background: black;
         padding-bottom: 25vw;
@@ -1561,7 +1556,7 @@
     margin-bottom: 0;
   }
   figure.change-is-local .caption p:first-child {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1;
     margin-bottom: 0.75rem;
   }
@@ -1636,26 +1631,35 @@
       }
     }
     */
-    @media (min-aspect-ratio: 1/1) and (min-width: 60em) {
+    figure.change-is-local .caption p:nth-child(2n) > span {
+      display: block;
+      max-width: 18em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    figure.change-is-local .caption p strong {
+      display: inline-block;
+      font-weight: bold;
+    }
+    @media (min-width: 40em) {
+      figure.change-is-local .caption p:first-child {
+        font-size: 5vw;
+      }
+    }
+/*    @media (min-width: 15em) {
+      figure.change-is-local::before {
+        background-color: rgba(0, 0, 0, 0.45);
+      }
+    }*/
+    @media (min-width: 15em) {
       /*
       .home main > figure:first-child img {
         height: auto;
         min-height: 0;
       }
       */
-      figure.change-is-local .caption p:nth-child(2n) > span {
-        display: block;
-        max-width: 18em;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      figure.change-is-local .caption p strong {
-        display: inline-block;
-      }
-      @media (min-width: 40em) {
-        figure.change-is-local .caption {
-          font-size: 4vw;
-        }
+      .home figure.change-is-local::before {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
       }
       .home header {
         position: absolute;
@@ -1675,18 +1679,74 @@
         color: rgb(6, 179, 188); /* @blueberry */
         color: rgb(46, 219, 228); /* @bright-blueberry */
       }
-      .home .change-is-local .caption {
-        align-items: flex-end;
-      }
-      .home .change-is-local img {
-        height: 45vw;
-      }
       /*
       figure.change-is-local ~ .notifications {
         margin-top: -18vw;
         z-index: 1;
       }
       */
+    }
+  }
+    .home figure.change-is-local::before {
+      background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    }
+    .home figure.change-is-local .caption {
+      align-items: flex-end;
+      padding-bottom: 1.5em;
+    }
+    .home figure.change-is-local img {
+      height: auto;
+    }
+  @media (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 250vw;
+    }
+    .home figure.change-is-local::before {
+      background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
+    }
+  }
+  @media (min-width: 19em) and (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 175vw;
+    }
+  }
+  @media (min-width: 21em) and (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 150vw;
+    }
+  }
+  @media (min-width: 25em) and (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 125vw;
+    }
+  }
+  @media (min-width: 30em) and (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 100vw;
+    }
+  }
+  @media (min-width: 40em) and (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 80vw;
+    }
+  }
+  @media (min-width: 50em) and (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 70vw;
+    }
+  }
+  @media (min-width: 60em) and (max-width: 80em) {
+    .home figure.change-is-local img {
+      height: 60vw;
+    }
+  }
+  @media (min-width: 15em) and (max-width: 60em) {
+    .home figure.change-is-local ~ .notifications {
+      margin-top: 0;
     }
   }
 
