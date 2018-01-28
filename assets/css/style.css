@@ -1552,6 +1552,21 @@
     font-weight: normal;
     text-transform: none;
   }
+  h1 + figure {
+    margin-top: -4.5em;
+  }
+  figure ~ .notifications {
+    margin-top: 3em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    h1 + figure {
+      margin-top: -6em;
+    }
+    figure ~ .notifications {
+      margin-top: 0;
+    }
+  }
+@supports (false) {
   figure.change-is-local ~ .notifications {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: white;
@@ -1580,6 +1595,7 @@
   figure.change-is-local ~ .notifications .action  a:focus {
     background-color: rgb(6, 179, 188); /* @blueberry */
   }
+}
 
   @supports(object-fit: cover) {
     figure.change-is-local .caption {
