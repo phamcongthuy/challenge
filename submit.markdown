@@ -48,9 +48,9 @@ View the [full timeline](/timeline).
 <div markdown="1">
 #### Application Process
 
-1. Submit propsal
+1. Submit proposal
 2. Moderation period
-3. Proposal on website
+3. Proposals on website
 
 #### Voting Process
 

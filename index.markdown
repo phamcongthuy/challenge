@@ -5,7 +5,7 @@ title: 2018 My LA2050 Activation Challenge
 <figure class="has-text">
   <img src="/assets/images/home/lamas.jpg" alt="LA Más">
   <p class="caption">
-  <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
+  <span>
     <span class="avoid-break">How would</span>
     <span class="avoid-break">you activate</span>
     <strong>100,000 angelenos</strong>
