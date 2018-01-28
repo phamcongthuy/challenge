@@ -227,11 +227,6 @@
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;
   }
-  main > section.activation-examples a:hover,
-  main > section.activation-examples a:active,
-  main > section.activation-examples a:focus {
-    color: inherit;
-  }
   main > section.timeline {
     background-color: rgb(255, 194, 51); /* @banana */
     color: white;
@@ -264,6 +259,14 @@
     font-weight: inherit;
   }
   .activation-examples a {
+    color: rgb(255, 224, 81); /* @bright-banana */
+  }
+  main > section.activation-examples a:hover,
+  main > section.activation-examples a:active,
+  main > section.activation-examples a:focus {
+    color: rgb(255, 79, 156); /* @bright-strawberry */
+    color: rgb(141, 208, 59); /* @lime */
+    color: rgb(181, 248, 99); /* @bright-lime */
     color: white;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -623,6 +626,12 @@
       figure img {
         height: 50vw;
         object-fit: cover;
+      }
+      figure.change-is-local .caption {
+        align-items: flex-end;
+      }
+      figure.change-is-local img {
+        height: 33vw;
       }
     }
   }
@@ -1563,8 +1572,10 @@
       .home header a:hover,
       .home header a:active,
       .home header a:focus {
-        color: rgb(237, 59, 136); /* @strawberry */
         color: rgb(141, 208, 59); /* @lime */
+        color: rgb(237, 59, 136); /* @strawberry */
+        color: rgb(6, 179, 188); /* @blueberry */
+        color: rgb(46, 219, 228); /* @bright-blueberry */
       }
       /*
       figure.change-is-local ~ .notifications {

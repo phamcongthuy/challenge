@@ -228,7 +228,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 Learn how to [vote for the winners](/vote).
 
-<section class="strawberry styled"><div markdown="1">
+<section class="lime styled"><div markdown="1">
 
 # Change is&nbsp;Local
 
