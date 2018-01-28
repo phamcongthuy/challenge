@@ -1,14 +1,11 @@
 ---
 title: 2018 My LA2050 Activation Challenge
-color: home-2
 ---
-
-<h1>Change is&nbsp;Local</h1>
 
 <figure class="has-text">
   <img src="/assets/images/home/lamas.jpg" alt="LA Más">
   <p class="caption">
-    <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
+  <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
     <span class="avoid-break">How would</span>
     <span class="avoid-break">you activate</span>
     <strong>100,000 angelenos</strong>
@@ -18,7 +15,7 @@ color: home-2
   </span>
   </p>
 </figure>
-  
+
 <h1 style="display: none">Public Voting</h1>
 
 <div class="notifications" markdown="1">
@@ -30,7 +27,6 @@ color: home-2
 </p>
 
 </div>
-
 
 <!--
 
