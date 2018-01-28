@@ -2,6 +2,28 @@
 title: 2018 My LA2050 Activation Challenge
 ---
 
+<figure class="change-is-local has-text">
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
+  <div class="caption">
+    <div>
+      <p><span>Change is&nbsp;Local</span></p>
+      <p>
+        <span>
+          <span class="avoid-break">How would</span>
+          <span class="avoid-break">you activate</span>
+          <strong>100,000 angelenos</strong>
+          <span class="avoid-break">
+            for a <span class="avoid-break">better LA?</span>
+          </span>
+        </span>
+      </p>
+    </div>
+  </div>
+</figure>
+
+<!--
+<h1>Change is&nbsp;Local</h1>
+
 <figure class="has-text">
   <img src="/assets/images/home/lamas.jpg" alt="LA Más">
   <p class="caption">
@@ -15,6 +37,7 @@ title: 2018 My LA2050 Activation Challenge
   </span>
   </p>
 </figure>
+-->
 
 <h1 style="display: none">Public Voting</h1>
 
@@ -156,7 +179,7 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 -->
 
 <figure class="has-text">
-  <img src="/assets/images/home/womens-march-la.jpg" alt="LA Más">
+  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 

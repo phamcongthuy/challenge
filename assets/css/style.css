@@ -582,8 +582,11 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.15);
   }
-  figure.change-is-local::before {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
+  @media (min-width: 40em) { /* @medium-size-screen */
+    figure.change-is-local::before {
+      background-color: rgba(0, 0, 0, 0.45);
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
+    }
   }
   figure .caption {
     position: absolute;
@@ -612,6 +615,7 @@
   }
   figure .caption strong {
     font-weight: inherit;
+    display: inline-block;
     color: rgb(6, 179, 188); /* @blueberry */
     color: rgb(141, 208, 59); /* @lime */
     color: rgb(237, 59, 136); /* @strawberry */
@@ -648,12 +652,39 @@
         height: 50vw;
         object-fit: cover;
       }
+      /*
       figure.change-is-local .caption {
         align-items: flex-end;
       }
       figure.change-is-local img {
         height: 33vw;
       }
+      */
+    }
+  }
+  @supports (object-fit: cover) {
+    @media (max-width: 40em) {   
+      figure.change-is-local {
+        background: black;
+        padding-bottom: 25vw;
+      } 
+      figure.change-is-local img {
+        height: auto;
+        object-fit: cover;
+      }
+      figure.change-is-local::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 25vw, rgba(0, 0, 0, 0) 50vw, rgba(0, 0, 0, 0));
+        z-index: 1;
+      }
+      figure.change-is-local .caption {
+        z-index: 2;
+      } 
     }
   }
 
@@ -1035,6 +1066,9 @@
   }
   main > h1 + .notifications {
     margin-bottom: 4.5em;
+  }
+  main > h1 + .notifications p:first-child {
+    margin-top: 0;
   }
   main > h1 + .notifications p:not(.action) {
     font-size: 1.5em;
@@ -1542,6 +1576,7 @@
   }
   figure.change-is-local {
     margin-top: 0;
+    margin-bottom: 0;
   }
   figure.change-is-local .caption p:first-child {
     font-size: 2em;
@@ -1551,6 +1586,7 @@
   figure.change-is-local .caption p:nth-child(2n) {
     font-weight: normal;
     text-transform: none;
+    text-shadow: 0 0 1em rgba(0, 0, 0, 1);
   }
   h1 + figure {
     margin-top: -4.5em;
@@ -1561,10 +1597,10 @@
   @media (min-width: 40em) { /* @medium-size-screen */
     h1 + figure {
       margin-top: -6em;
-    }
+    }/*
     figure ~ .notifications {
       margin-top: 0;
-    }
+    }*/
   }
 @supports (false) {
   figure.change-is-local ~ .notifications {
