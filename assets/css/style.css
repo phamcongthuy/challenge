@@ -1564,6 +1564,7 @@
     font-weight: normal;
     text-transform: none;
     text-shadow: 0 0 1em rgba(0, 0, 0, 1);
+    letter-spacing: normal;
   }
   h1 + figure {
     margin-top: -4.5em;
