@@ -635,8 +635,8 @@
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 79, 156); /* @bright-strawberry */
     color: rgb(181, 248, 99); /* @bright-lime */
-    color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
   }
   figure .activate-tag {
     position: absolute;
@@ -644,8 +644,8 @@
     left: 0;
     width: 100%;
     text-align: center;
-    color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
     text-shadow: 0 0 2em rgba(0, 0, 0, 1);
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -1902,12 +1902,12 @@
     max-width: 27em;
   }
   figure.change-is-local ~ .notifications p:not(.action) strong {
-    color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
   }
   figure.change-is-local ~ .notifications .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
     background-color: rgb(255, 224, 81); /* @bright-banana */
+    background-color: rgb(255, 194, 51); /* @banana */
     color: black;
     color: rgba(0, 0, 0, 0.65);
   }
