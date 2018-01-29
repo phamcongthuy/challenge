@@ -240,6 +240,14 @@
   main > section.timeline p strong {
     color: inherit;
   }
+  main > section.timeline p a {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  main > section.timeline p a:active,
+  main > section.timeline p a:hover,
+  main > section.timeline p a:focus {
+    color: white;
+  }
   main > h1 + section.timeline {
     margin-top: -7.5em;
     padding-top: 0;
@@ -563,6 +571,8 @@
     max-width: none;
     margin: 1.5em -1.5em;
     position: relative;
+    background: black;
+    color: white;
   }
   figure p {
     max-width: none;
@@ -705,6 +715,10 @@
     display: inline-block;
     font-style: normal;
     font-weight: inherit;
+  }
+
+  main h2.fancy {
+    margin-bottom: 1.5rem;
   }
 
   main h2 em,
@@ -1409,6 +1423,7 @@
   ----------------------------------------------- */
   footer .social-links {
     font-size: 3em;
+    margin-bottom: 0.5em;
   }
   footer .social-links li {
     margin: -0.125em;
@@ -1805,17 +1820,17 @@
   }
   @media (min-width: 19em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 175vw;
+      height: 160vw;
     }
   }
   @media (min-width: 21em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 150vw;
+      height: 130vw;
     }
   }
   @media (min-width: 25em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 125vw;
+      height: 115vw;
     }
   }
   @media (min-width: 30em) and (max-width: 80em) {

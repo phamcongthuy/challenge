@@ -31,7 +31,7 @@ And now we want your help to take all of this work to the next level! We want yo
 <!--
 ### What is the Activation Challenge?
 
-This is an open call via for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations--one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
+This is an open call via for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
 
 The activations should aim to engage Angelenos to make a specific, tangible impact on one of the LA2050 goals and metrics by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
 
