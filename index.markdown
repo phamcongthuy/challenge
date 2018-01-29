@@ -127,7 +127,7 @@ color: home
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
-<h2 class="fancy"><span style="display: block; max-width: 10em"><strong>We&nbsp;believe&nbsp;in the&nbsp;power&nbsp;of angelenos.</strong></span></h2>
+<h2 class="fancy"><span><strong>We believe in the power of angelenos.</strong></span></h2>
 
 The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/about/#la2050-partnership) in support of their efforts.
 
@@ -142,7 +142,7 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action.
 
-[How to submit your proposal](/submit/).
+Starting March 1, 2018, you can [submit your proposal](/submit/) on this website.
 
 <div class="numbers" markdown="1">
 $1 million
@@ -275,7 +275,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Ability to mobilize the LA community
 * Collaborative spirit
 
-[Help us choose our winners!](/vote/)
+Starting June 19, 2018, you can [vote for a proposal](/vote/) on this website.
 
 <figure class="has-text">
   <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">

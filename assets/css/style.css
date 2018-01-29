@@ -240,7 +240,7 @@
   main > section.timeline p strong {
     color: inherit;
   }
-  main > section.timeline p a {
+  main > section.timeline p:not(.action) a {
     color: rgb(237, 59, 136); /* @strawberry */
   }
   main > section.timeline p a:active,
@@ -456,6 +456,12 @@
     font-weight: bold;
     letter-spacing: 0.2em;
     color: rgb(237, 59, 136); /* @strawberry */
+  }
+  @media (max-width: 180em) {
+    .activate-tag + h2.fancy > span {
+      display: block;
+      max-width: 8em;
+    }
   }
 
   /*
@@ -732,37 +738,39 @@
     font-weight: inherit;
   }
 
-  main h2.fancy {
+  h2.fancy {
     margin-bottom: 1.5rem;
   }
 
-  main h2 em,
-  main h2 strong,
-  main h3 em,
-  main h3 strong {
+  h2.fancy em,
+  h2.fancy strong,
+  h3.fancy em,
+  h3.fancy strong {
     display: inline;
     font-style: italic;
     font-weight: 900; /* @black */
     text-transform: uppercase;
     background-image: linear-gradient(to top, transparent, transparent 5%, rgb(237, 192, 50) 5%, rgb(237, 192, 50) 65%, transparent 65%, transparent); /* @dark-banana */
   }
-  main h2 em,
-  main h3 em {
+  h2.fancy em,
+  h3.fancy em {
     background-image: linear-gradient(to top, transparent, transparent 5%, rgb(6, 179, 188) 5%, rgb(6, 179, 188) 65%, transparent 65%, transparent); /* @blueberry */
   }
 
   @media (min-width: 40em) { /* @medium-size-screen */
-    main h2 em,
-    main h2 strong {
-      font-size: 4vmax;
+    h2.fancy,
+    h2.fancy,
+    h3.fancy,
+    h3.fancy {
+      font-size: 2.5vw;
     }
   }
 
   @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
-    main h2 em,
-    main h2 strong,
-    main h3 em,
-    main h3 strong {
+    h2.fancy em,
+    h2.fancy strong,
+    h3.fancy em,
+    h3.fancy strong {
       position: relative;
       left: 0.2em;
       /*
@@ -771,8 +779,8 @@
       color: transparent;
       text-shadow: -0.2em 0 0 rgb(237, 59, 136); /* @strawberry */
     }
-    main h2 em,
-    main h3 em {
+    h2.fancy em,
+    h3.fancy em {
       text-shadow:
         -0.20em  0.00em 0 white,
         -0.25em -0.05em 0 rgb(6, 179, 188), /* top left */
@@ -1473,9 +1481,6 @@
   main > section.strawberry {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 194, 51); /* @banana */
-  }
-  main > section.strawberry .fancy {
-
   }
   main > section .fancy ~ h4,
   main > section .fancy ~ p,
