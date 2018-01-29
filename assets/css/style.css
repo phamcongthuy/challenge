@@ -664,6 +664,21 @@
         height: 33vw;
       }
       */
+      figure img[src*="learn"] {
+        height: 33.3333vw;
+      }
+      figure img[src*="create"] {
+        height: 33.3333vw;
+        object-position: bottom;
+      }
+      figure img[src*="connect"] {
+        height: 33.3333vw;
+        object-position: 0 75%;
+      }
+      figure img[src*="live"] {
+        height: 33.3333vw;
+        object-position: 0 75%;
+      }
     }
   }
 
@@ -1467,10 +1482,22 @@
   main > section .fancy ~ ul {
     color: white;
   }
+  main > section.lime .fancy ~ p,
+  main > section.lime .fancy ~ ul,
+  main > section.tangerine .fancy ~ p,
+  main > section.tangerine .fancy ~ ul,
   main > section.banana .fancy ~ p,
   main > section.banana .fancy ~ ul {
     color: black;
     color: rgba(0, 0, 0, 0.75);
+  }
+  @supports (false) {
+    main > section .fancy ~ p,
+    main > section .fancy ~ ul {
+      background: white;
+      padding: 0.75em 1.5em;
+      color: rgb(237, 59, 136); /* @strawberry */
+    }
   }
   main > section.lime .fancy ~ h4,
   main > section.tangerine .fancy ~ h4,
@@ -1481,6 +1508,8 @@
   main > section.blueberry .fancy ~ h4 {
     color: rgb(255, 224, 81); /* @bright-banana */
   }
+
+
 
   .goals h2 {
     grid-column: 1/4 !important;
