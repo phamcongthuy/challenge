@@ -135,7 +135,7 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 <strong>Now, we're asking for your help to turn the LA2050 goals and metrics into action.</strong>
 
-Starting March 1, 2018, you can [submit your proposal](/submit/) on this website.
+Starting Thursday, March 1, 2018, you can [submit your proposal](/submit/) on this website.
 
 <div class="numbers" markdown="1">
 $1 million
@@ -160,8 +160,6 @@ $200,000
 <strong>
   We don’t want to limit your imagination, <em>so think big</em>!
 </strong>
-
-We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
 
 * ![](/assets/images/examples/share-news.svg) Read and share news
 * ![](/assets/images/examples/donate.svg) Donate or fundraise
@@ -214,7 +212,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Ability to mobilize the LA community
 * Collaborative spirit
 
-Starting June 19, 2018, you can [vote for a proposal](/vote/) on this website.
+Starting Tuesday, June 19, 2018, you can [vote for a proposal](/vote/) on this website.
 
 <figure>
   <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
