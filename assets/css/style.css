@@ -89,6 +89,10 @@
     }
   }
 
+  footer small a {
+    display: inline-block;
+  }
+
   header a,
   footer a {
     color: white;
