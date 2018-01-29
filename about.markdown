@@ -57,17 +57,23 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 
 </div></section>
 
+<section class="blueberry"><div markdown="1">
+
 <figure markdown="1">
 ![Kids smiling](/assets/images/goals/learn.jpg)
 </figure>
 
-<section class="blueberry"><div markdown="1">
+<div markdown="1">
 
-<h3 class="fancy" id="learn"><strong>Learn</strong></h3>
+<h3 id="learn">Learn</h3>
 
 Our region will offer opportunities for lifelong learning, allowing all residents to contribute their skills, talents, and abilities to society.
 
 By the year 2050, all Los Angeles students will have access to early education programs, every high school student will graduate and be college and career ready, and all parents will be engaged and empowered to direct their children’s learning. LA will capitalize on its concentration of higher education facilities to foster new businesses, advance research, and spur innovation.
+
+</div>
+
+<div markdown="1">
 
 #### Metrics
 
@@ -84,19 +90,27 @@ By the year 2050, all Los Angeles students will have access to early education p
 * Youth unemployment and underemployment
 
 </div>
+
+</div>
 </section>
+
+<section class="banana"><div markdown="1">
 
 <figure markdown="1">
 ![Street art](/assets/images/goals/create.jpg)
 </figure>
 
-<section class="banana"><div markdown="1">
+<div markdown="1">
 
-<h3 class="fancy" id="create"><strong>Create</strong></h3>
+<h3 id="create">Create</h3>
 
 Our region will empower its residents to harness their creativity by fostering entrepreneurship, cultural diversity, and inclusivity.
 
 By the year 2050, Los Angeles will continue to play host to the largest concentration of working artists in the nation and provide support to maintain (and build) its robust collection of arts establishments. It will lead the nation in manufacturing and become an international leader in technology and innovation. Our region will be a center for entrepreneurial activity that creates jobs and generates wealth for a diverse, flexible, and talented workforce. LA’s business community will reflect the diversity of our region, enhancing our international business opportunities.
+
+</div>
+
+<div markdown="1">
 
 #### Metrics
 
@@ -115,20 +129,28 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 * Unemployment (and opportunities) for the formerly incarcerated
 * Venture capital investment
 
+</div>
+
 </div></section>
+
+<section class="strawberry"><div markdown="1">
 
 <figure markdown="1">
 ![Child doing a somersault by a fountain](/assets/images/goals/play.jpg)
 </figure>
 
-<section class="strawberry"><div markdown="1">
+<div markdown="1">
 
-<h3 class="fancy" id="play"><strong>Play</strong></h3>
+<h3 id="play">Play</h3>
 
 Our region will be a place where people of all ages have easy access to clean, safe, and sustainable venues to enjoy the natural environment, arts and cultural resources, and local beaches, waterways, and open space.
 
 By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, and safe places to play. Every neighborhood will provide its residents with vibrant park space, every child will have access to afterschool enrichment programs, and residents will love their neighborhoods.
 Metrics
+
+</div>
+
+<div markdown="1">
 
 #### Metrics
 
@@ -141,19 +163,27 @@ Metrics
 * Per capita crime rates
 * Perceived safety
 
+</div>
+
 </div></section>
+
+<section class="tangerine"><div markdown="1">
 
 <figure markdown="1">
 ![People riding bikes together on a street](/assets/images/goals/connect.jpg)
 </figure>
 
-<section class="tangerine"><div markdown="1">
+<div markdown="1">
 
-<h3 class="fancy" id="connect"><strong>Connect</strong></h3>
+<h3 id="connect">Connect</h3>
 
 Our region will be a place where every resident has the opportunity to engage and interact with other Angelenos and are empowered to contribute meaningfully in civic processes.
 
 By the year 2050, Los Angeles will be the most civically engaged region in the U.S., with multiple online and offline platforms for residents to voice their opinions and influence elected officials, decision-makers, and local government. Our region’s voting rates and volunteerism will lead the nation, and an expanded network of transportation options will facilitate the easy flow of people and ideas.
+
+</div>
+
+<div markdown="1">
 
 #### Metrics
 
@@ -171,20 +201,28 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 * Transit-accessible housing and employment (the share of housing units and percentage of jobs that are located within a half-mile of transit)
 * Voting rates
 
+</div>
+
 </div></section>
+
+<section class="lime"><div markdown="1">
 
 <figure markdown="1">
 ![A garden full of fruits and vegetables](/assets/images/goals/live.jpg)
 </figure>
 
-<section class="lime"><div markdown="1">
+<div markdown="1">
 
-<h3 class="fancy" id="live"><strong>Live</strong></h3>
+<h3 id="live">Live</h3>
 
 Our region’s residents will have the economic means and cultural capital to lead active, healthy lives, and everyone benefits from a sustainable environment.
 
 By the year 2050, Los Angeles will have the nation’s lowest obesity rates and every neighborhood will have access to healthy, affordable food. Every family will be able to afford quality health care and housing. And no families will face environmental health hazards because of where they live or how much money they make.
 Metrics
+
+</div>
+
+<div markdown="1">
 
 #### Metrics
 
@@ -204,9 +242,11 @@ Metrics
 * Mental illness
 * Walk/bike/transit score
 
+</div>
+
 </div></section>
 
-<section><div markdown="1">
+<section class="team"><div markdown="1">
 
 ## LA2050 Team
 

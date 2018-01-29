@@ -1243,7 +1243,7 @@
       body:not(.tangerine) main > p,
       body:not(.tangerine) main > p.action,
       body:not(.tangerine) main > .process,
-      body:not(.tangerine) main > ul:not(.team) {
+      body:not(.tangerine) main > ul:not(.team):not(.styled) {
         margin: 0;
         grid-column: 2 / 3;
       }
@@ -1314,6 +1314,7 @@
         text-align: right !important;
       }
       */
+
       body:not(.tangerine) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > h2 + p * {
         text-align: right !important;
       }
@@ -1323,6 +1324,43 @@
       body:not(.tangerine) figure {
         grid-column: 1/4;
       }
+
+      /*
+      body:not(.tangerine) .goals ~ figure {
+        grid-column: 1/2;
+        width: 33.333vw;
+        margin: 0 !important;
+      }
+      body:not(.tangerine) .goals ~ figure img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      body:not(.tangerine) .goals ~ figure + section {
+        grid-column: 2/3;
+        margin: 0 !important;
+        width: 33.333vw;
+      }
+      body:not(.tangerine) .goals ~ figure + section h3,
+      body:not(.tangerine) .goals ~ figure + section h4 {
+        text-align: left !important;
+        margin-top: 0 !important;
+        margin-bottom: 1.5rem !important;
+      }
+      body:not(.tangerine) .goals ~ figure + section h4 {
+        margin-top: 1.5rem !important;
+        margin-bottom: 0.75rem !important;
+      }
+      body:not(.tangerine) .goals ~ figure + section > div {
+        display: block !important;
+      }
+
+      body:not(.tangerine) .goals ~ figure:nth-of-type(2n) {
+        grid-column: 3/4;
+      }
+      body:not(.tangerine) .goals ~ figure:nth-of-type(2n) + section {
+        grid-column: 2/3;
+      }
+      */
 
       body:not(.tangerine) .application-process {
         grid-column: 1/4;
@@ -1365,23 +1403,103 @@
     }
   }
 
+  body:not(.tangerine) .goals ~ section:not(.team):not(.styled) figure {
+    margin-top: -4.5em;
+  }
+
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) {
+        background: rgb(252, 252, 252);
+        color: rgba(82, 82, 82);
+        color: rgba(82, 82, 82, 0.9);
+      }
+      body:not(.tangerine) .goals ~ section.blueberry h3,
+      body:not(.tangerine) .goals ~ section.blueberry h4 {
+        color: rgb(6, 179, 188); /* @blueberry */
+      }
+      body:not(.tangerine) .goals ~ section.lime h3,
+      body:not(.tangerine) .goals ~ section.lime h4 {
+        color: rgb(141, 208, 59); /* @lime */
+      }
+      body:not(.tangerine) .goals ~ section.banana h3,
+      body:not(.tangerine) .goals ~ section.banana h4 {
+        color: rgb(255, 194, 51); /* @banana */
+      }
+      body:not(.tangerine) .goals ~ section.tangerine h3,
+      body:not(.tangerine) .goals ~ section.tangerine h4 {
+        color: rgb(249, 160, 51); /* @tangerine */
+      }
+      body:not(.tangerine) .goals ~ section.strawberry h3,
+      body:not(.tangerine) .goals ~ section.strawberry h4 {
+        color: rgb(237, 59, 136); /* @strawberry */
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) {
+        background-color: white;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) h3 {
+        margin-top: 0;
+        text-transform: uppercase;
+        max-width: none;
+        font-style: italic;
+        font-weight: 900; /* @black */
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div h4 {
+        max-width: none;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div p,
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div ul {
+        color: inherit;
+        max-width: none;
+      }
+  @supports (display: grid) {
+    @media (min-width: 60em) {
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div {
+        grid-template-columns: 1fr 1fr !important;
+        grid-column-gap: 1.5em !important;
+        grid-row-gap: 0 !important;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) figure {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin: 0;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        padding: 0.75em 1.5em;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure {
+        grid-column: 2 / 3;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure img {
+        height: 100%;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) > div > div {
+        grid-column: 1 / 2;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div + div {
+        grid-column: 1 / 3 !important;
+        grid-row: 2 / 3 !important;
+      }
+    }
+  }
+
 
   /* =Numbers
   ----------------------------------------------- */
   .numbers dl {
     margin-top: 3em;
     margin-bottom: 3em;
-    color: rgb(237, 59, 136); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
     text-transform: uppercase;
     text-align: center;
-    border: 2px solid rgba(237, 59, 136, 0.5); /* @blueberry */
+    border: 2px solid rgba(237, 59, 136, 0.5); /* @strawberry */
   }
   .numbers dt {
     font-size: 2em;
     line-height: 1;
     font-style: italic;
     font-weight: bold;
-    border: 2px solid rgba(237, 59, 136, 0.5); /* @blueberry */
+    border: 2px solid rgba(237, 59, 136, 0.5); /* @strawberry */
     border-bottom-width: 0;
     padding: 0.75em 0.25em 0;
   }
@@ -1392,8 +1510,8 @@
     text-transform: uppercase;
     line-height: 1;
     margin-left: 0;
-    color: rgba(237, 59, 136, 0.5); /* @blueberry */
-    border: 2px solid rgba(237, 59, 136, 0.5); /* @blueberry */
+    color: rgba(237, 59, 136, 0.5); /* @strawberry */
+    border: 2px solid rgba(237, 59, 136, 0.5); /* @strawberry */
     border-top-width: 0;
     padding: 0.375em 0.75em 2em;
   }

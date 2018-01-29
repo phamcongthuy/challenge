@@ -216,10 +216,8 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 Starting June 19, 2018, you can [vote for a proposal](/vote/) on this website.
 
-<figure class="has-text">
+<figure>
   <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
-  <p class="caption"><span>Change is&nbsp;Local</span></p>
-  <p class="activate-tag">#ACTIVATEFORLA</p>
 </figure>
 
 <!--

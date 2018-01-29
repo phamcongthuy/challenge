@@ -95,7 +95,7 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 If you have any questions about the information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
 <figure class="has-text">
-  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
-  <p class="caption"><span>Change is&nbsp;Local</span></p>
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles" />
+  <p class="caption"><span>We believe in the power of angelenos</span></p>
   <p class="activate-tag">#ACTIVATEFORLA</p>
 </figure>
