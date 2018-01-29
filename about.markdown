@@ -58,7 +58,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 </div></section>
 
 <figure markdown="1">
-![Kids smiling](/assets/images/goals/learn.png)
+![Kids smiling](/assets/images/goals/learn.jpg)
 </figure>
 
 <section class="blueberry"><div markdown="1">
@@ -87,7 +87,7 @@ By the year 2050, all Los Angeles students will have access to early education p
 </section>
 
 <figure markdown="1">
-![Street art](/assets/images/goals/create.png)
+![Street art](/assets/images/goals/create.jpg)
 </figure>
 
 <section class="banana"><div markdown="1">
@@ -118,7 +118,7 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 </div></section>
 
 <figure markdown="1">
-![Child doing a somersault by a fountain](/assets/images/goals/play.png)
+![Child doing a somersault by a fountain](/assets/images/goals/play.jpg)
 </figure>
 
 <section class="strawberry"><div markdown="1">
@@ -144,7 +144,7 @@ Metrics
 </div></section>
 
 <figure markdown="1">
-![People riding bikes together on a street](/assets/images/goals/connect.png)
+![People riding bikes together on a street](/assets/images/goals/connect.jpg)
 </figure>
 
 <section class="tangerine"><div markdown="1">
@@ -174,7 +174,7 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 </div></section>
 
 <figure markdown="1">
-![A garden full of fruits and vegetables](/assets/images/goals/live.png)
+![A garden full of fruits and vegetables](/assets/images/goals/live.jpg)
 </figure>
 
 <section class="lime"><div markdown="1">
@@ -217,12 +217,12 @@ Metrics
     Director
   </li>
   <li>
-    <img src="/assets/images/team/megan.png" width="200" alt="" /><br />
+    <img src="/assets/images/team/megan.jpg" width="200" alt="" /><br />
     <strong>Megan Park</strong>
     Designer
   </li>
   <li>
-    <img src="/assets/images/team/margo.png" width="200" alt="" /><br />
+    <img src="/assets/images/team/margo.jpg" width="200" alt="" /><br />
     <strong>Margo Lang</strong>
     Digital
   </li>

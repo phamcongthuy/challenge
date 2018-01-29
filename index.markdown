@@ -4,7 +4,7 @@ color: home
 ---
 
 <figure class="change-is-local has-text">
-  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles" />
+  <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
   <div class="caption">
     <div>
       <p><span>Change is&nbsp;Local</span></p>
@@ -131,13 +131,6 @@ color: home
 
 The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/about/#la2050-partnership) in support of their efforts.
 
-
-<!--
-<h2 class="fancy"><em>1,000,000. 5&nbsp;winners.<br /> Two&nbsp;years to&nbsp;Shape&nbsp;LA.</em></h2>
-
-<img src="/assets/images/numbers.png" alt="$1 million in grants. 5 organizations. $200,000 over two years" />
--->
-
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great projects](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action.
@@ -155,32 +148,8 @@ $200,000
 : over two years
 </div>
 
-
-
-<!--
-<figure markdown="1">
-![$1 million in grants. 5 organizations. $200,000 over two years](/assets/images/numbers.png)
-</figure>
--->
-
-<!--
-<h3>$1 million in&nbsp;grants.<br />5&nbsp;organizations.<br />$200,000 over two&nbsp;years</h3> 
--->
-
-
-<!--
-Starting March 1, 2018, you can [submit your proposal](/submit) to activate Angelenos around an important issue in the region.
--->
-
-
-<!--
-<p class="action" markdown="1">
-[Read the FAQs](/faqs)
-</p>
--->
-
 <figure class="has-text">
-  <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles" />
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
@@ -191,13 +160,6 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 <strong>
   We don’t want to limit your imagination, <em>so think big</em>!
 </strong>
-<!--
-<strong>
-  <span style="">
-    <span style="max-width: 9em; display: block;">We don’t want to limit your imagination, so think big!</span>
-  </span>
-</strong>
--->
 
 We envision activations ranging from engaging people on issue advocacy to helping change individual or consumer behavior to creating technology that makes it easier participate locally. The main goal is to think about the power of Angelenos and how all can take part in crafting a brighter future for the LA of our dreams.
 
@@ -216,29 +178,6 @@ Read our [guidelines for proposals](/submit/#guidelines).
 
 </div></section>
 
-<!--
-<section class="key-dates" markdown="1">
-
-### Submission Period
-
-![](/assets/images/timeline/submission.png)
-
-March 1-3O, 2018
-
-### Public Voting
-
-![](/assets/images/timeline/voting.png)
-
-June 19-29, 2018
-
-### Winners Announced
-
-![](/assets/images/timeline/winners.png)
-
-July 9, 2018
-
-</section>
--->
 
 <section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
 
@@ -290,4 +229,3 @@ If you have questions not answered in the [FAQs](/faqs), please contact us at [c
 [Message Us](mailto:connect@la2050.org)
 </p>
 -->
-

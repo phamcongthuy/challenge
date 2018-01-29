@@ -754,7 +754,7 @@
     font-style: italic;
     font-weight: 900; /* @black */
     text-transform: uppercase;
-    background-image: linear-gradient(to top, transparent, transparent 5%, rgb(237, 192, 50) 5%, rgb(237, 192, 50) 65%, transparent 65%, transparent); /* @dark-banana */
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgb(255, 194, 51) 5%, rgb(255, 194, 51) 65%, transparent 65%, transparent); /* @banana */
   }
   h2.fancy em,
   h3.fancy em {
@@ -1753,9 +1753,11 @@
   }
   figure.change-is-local ~ .notifications p:not(.action) strong {
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
   }
   figure.change-is-local ~ .notifications .action a {
     background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(255, 224, 81); /* @bright-banana */
     color: black;
     color: rgba(0, 0, 0, 0.65);
   }
