@@ -96,8 +96,8 @@
   header a,
   footer a {
     color: white;
-    color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
@@ -2078,6 +2078,7 @@
   .application-process {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
     text-transform: uppercase;
     font-weight: 900; /* @black */
     margin: 1.5em -1.5em 0;
