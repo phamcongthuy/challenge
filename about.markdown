@@ -57,7 +57,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 
 </div></section>
 
-<section class="blueberry"><div markdown="1">
+<section class="blueberry" id="learn"><div markdown="1">
 
 <figure markdown="1">
 ![Kids smiling](/assets/images/goals/learn.jpg)
@@ -65,7 +65,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 
 <div markdown="1">
 
-<h3 id="learn">Learn</h3>
+<h3>Learn</h3>
 
 Our region will offer opportunities for lifelong learning, allowing all residents to contribute their skills, talents, and abilities to society.
 
@@ -94,7 +94,7 @@ By the year 2050, all Los Angeles students will have access to early education p
 </div>
 </section>
 
-<section class="banana"><div markdown="1">
+<section class="banana" id="create"><div markdown="1">
 
 <figure markdown="1">
 ![Street art](/assets/images/goals/create.jpg)
@@ -102,7 +102,7 @@ By the year 2050, all Los Angeles students will have access to early education p
 
 <div markdown="1">
 
-<h3 id="create">Create</h3>
+<h3>Create</h3>
 
 Our region will empower its residents to harness their creativity by fostering entrepreneurship, cultural diversity, and inclusivity.
 
@@ -133,7 +133,7 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 
 </div></section>
 
-<section class="strawberry"><div markdown="1">
+<section class="strawberry" id="play"><div markdown="1">
 
 <figure markdown="1">
 ![Child doing a somersault by a fountain](/assets/images/goals/play.jpg)
@@ -141,7 +141,7 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 
 <div markdown="1">
 
-<h3 id="play">Play</h3>
+<h3>Play</h3>
 
 Our region will be a place where people of all ages have easy access to clean, safe, and sustainable venues to enjoy the natural environment, arts and cultural resources, and local beaches, waterways, and open space.
 
@@ -167,7 +167,7 @@ Metrics
 
 </div></section>
 
-<section class="tangerine"><div markdown="1">
+<section class="tangerine" id="connect"><div markdown="1">
 
 <figure markdown="1">
 ![People riding bikes together on a street](/assets/images/goals/connect.jpg)
@@ -175,7 +175,7 @@ Metrics
 
 <div markdown="1">
 
-<h3 id="connect">Connect</h3>
+<h3>Connect</h3>
 
 Our region will be a place where every resident has the opportunity to engage and interact with other Angelenos and are empowered to contribute meaningfully in civic processes.
 
@@ -205,7 +205,7 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 
 </div></section>
 
-<section class="lime"><div markdown="1">
+<section class="lime" id="live"><div markdown="1">
 
 <figure markdown="1">
 ![A garden full of fruits and vegetables](/assets/images/goals/live.jpg)
@@ -213,7 +213,7 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 
 <div markdown="1">
 
-<h3 id="live">Live</h3>
+<h3>Live</h3>
 
 Our region’s residents will have the economic means and cultural capital to lead active, healthy lives, and everyone benefits from a sustainable environment.
 

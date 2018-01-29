@@ -1450,12 +1450,21 @@
         color: inherit;
         max-width: none;
       }
+      /*
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div ul {
+        column-count: 2;
+        column-gap: 3em;
+      }
+      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div li {
+        page-break-inside: avoid;
+      }
+      */
   @supports (display: grid) {
     @media (min-width: 60em) {
       body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div {
         grid-template-columns: 1fr 1fr !important;
-        grid-column-gap: 1.5em !important;
-        grid-row-gap: 0 !important;
+        grid-column-gap: 3em !important;
+        grid-row-gap: 1.5em !important;
       }
       body:not(.tangerine) .goals ~ section:not(.team):not(.styled) figure {
         grid-column: 1 / 2;
@@ -1465,7 +1474,9 @@
       body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
+        /*
         padding: 0.75em 1.5em;
+        */
       }
       body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure {
         grid-column: 2 / 3;
@@ -1660,21 +1671,18 @@
     padding-left: 0;
   }
   .goals ul {
-    grid-column: 1/4 !important;
-    text-align: center;
-    max-width: none;
-    margin: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
   }
   .goals li {
-    display: inline-block;
-    margin: 0.5em;
+    margin: 0;
+    text-align: center;
+  }
+  .goals .action a {
+    display: block;
+    border-radius: 0;
   }
   .goals .strawberry a {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-  }
-  .goals .strawberry a:hover,
-  .goals .strawberry a:active,
-  .goals .strawberry a:focus {
     background-color: rgb(237, 59, 136); /* @strawberry */
   }
   .goals .blueberry a {
@@ -1695,6 +1703,19 @@
     background-color: black;
     background-color: rgba(0, 0, 0, 0.25);
   }
+    .goals ul {
+      grid-column: 1/4 !important;
+      text-align: center;
+      max-width: none;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .goals li {
+      flex-grow: 1;
+      flex-basis: 7em;
+    }
 
   main > section h1 {
     color: inherit;
