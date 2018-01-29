@@ -12,7 +12,7 @@ color: home
         <span>
           <span class="avoid-break">How would</span>
           <span class="avoid-break">you activate</span>
-          <strong>100,000 angelenos</strong>
+          <strong>100,000 Angelenos</strong>
           <span class="avoid-break">
             for a <span class="avoid-break">better LA?</span>
           </span>
