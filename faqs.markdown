@@ -51,7 +51,8 @@ _We want to work together! To partner, we plan on:_
 * Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns
 -->
 
-<div class="faq-nav" markdown="1">
+<section class="faq-nav">
+<div markdown="1">
 * [100,000 is a lot of people! Do we have to activate them all at once?](#100000-is-a-lot-of-people-do-we-have-to-activate-them-all-at-once)
 * [How will you measure the number of people activated?](#how-will-you-measure-the-number-of-people-activated)
 * [Why did you start the My LA2050 Activation Challenge?](#why-did-you-start-the-my-la2050-activation-challenge)
@@ -63,6 +64,7 @@ _We want to work together! To partner, we plan on:_
 * [What are some tips for submitting ideas to the My LA2050 Activation Challenge?](#what-are-some-tips-for-submitting-ideas-to-the-my-la2050-activation-challenge)
 * [Send us your questions!](#send-us-your-questions)
 </div>
+</section>
 
 ### 100,000 is a lot of people! Do we have to activate them all at once?
 
