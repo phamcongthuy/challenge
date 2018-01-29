@@ -36,11 +36,11 @@ _Applicants are encouraged to:_
 
 ### Dates
 
-Apply between March 1, 2018 (9am Pacific Time) and March 30, 2018 (5pm Pacific Time) on this website. 
+Apply between Thursday, March 1, 2018 (9am Pacific Time) and Friday, March 30, 2018 (5pm Pacific Time) on this website. 
 
-Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Activation Challenge website on April 9, 2018 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on May 21, 2018.
+Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Activation Challenge website on Monday, April 9, 2018 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on Monday, May 21, 2018.
 
-From June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on July 9, 2018.
+From Tuesday, June 19, 2018 (9am Pacific Time) through Friday, June 29, 2018 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on Monday, July 9, 2018.
 
 View the [full timeline](/timeline).
 
@@ -64,7 +64,7 @@ View the [full timeline](/timeline).
 
 ### To apply, organizations will:
 
-* Outline how their activations will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activations;
+* Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation;
 * Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
 * Clearly articulate the engagement strategies and tools that will be employed
 * Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
@@ -83,7 +83,7 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * Previous applicants and winners of LA2050 grant programs may reapply.
 * Evaluation committee: In each goal category, the evaluation committee will select five finalists.
 * Public Vote: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
-* Projects will be featured on this site and public voting will be open from June 19, 2018 (9am Pacific Time) through June 29, 2018 (5pm Pacific Time).
+* Projects will be featured on this site and public voting will be open from Tuesday, June 19, 2018 (9am Pacific Time) through Friday, June 29, 2018 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
 * In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
 * Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
