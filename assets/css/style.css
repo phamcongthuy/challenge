@@ -1706,12 +1706,16 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  figure.change-is-local .caption {
+    font-size: inherit;
+  }
   figure.change-is-local .caption p:first-child {
-    font-size: 1.5em;
+    font-size: 2.25em;
     line-height: 1;
     margin-bottom: 0.75rem;
   }
   figure.change-is-local .caption p:nth-child(2n) {
+    font-size: 1.5em;
     font-weight: normal;
     text-transform: none;
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
@@ -1763,10 +1767,10 @@
 
 
   @supports(object-fit: cover) {
+    /*
     figure.change-is-local .caption {
       font-size: 1.5em;
     }
-    /*
     .home main > figure:first-child img {
       height: 100vw;
       object-fit: cover;
@@ -1847,7 +1851,7 @@
   }
   .home figure.change-is-local .caption {
     align-items: flex-end;
-    padding-bottom: 1.5em;
+    padding-bottom: 2.25em;
   }
   @media (min-width: 60em) {
     .home figure.change-is-local .caption {

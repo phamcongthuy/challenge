@@ -4,7 +4,7 @@ color: home
 ---
 
 <figure class="change-is-local has-text">
-  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles" />
   <div class="caption">
     <div>
       <p><span>Change is&nbsp;Local</span></p>
@@ -180,7 +180,7 @@ Starting March 1, 2018, you can [submit your proposal](/submit) to activate Ange
 -->
 
 <figure class="has-text">
-  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
+  <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
