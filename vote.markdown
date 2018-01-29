@@ -17,7 +17,7 @@ Starting **June 19, 2018**, you can vote for a proposal on this website.
 
 ### Help us choose our winners!
 
-The 5 activations that receives the most votes will be announced as the winner.
+The 5 activations that receive the most votes will be announced as the winner.
 
 The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
 

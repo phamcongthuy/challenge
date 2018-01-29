@@ -142,7 +142,7 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 Now, we're asking for your help to turn the LA2050 goals and metrics into action.
 
-[How to submit your proposal](/submit/#guidelines).
+[How to submit your proposal](/submit/).
 
 <div class="numbers" markdown="1">
 $1 million

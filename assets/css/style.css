@@ -571,7 +571,7 @@
     max-width: none;
     margin: 1.5em -1.5em;
     position: relative;
-    background: black;
+    background: rgb(153, 153, 153);
     color: white;
   }
   figure p {
@@ -1531,9 +1531,12 @@
     display: inline-block;
     margin: 0.5em;
   }
-  .goals a {
-  }
   .goals .strawberry a {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .goals .strawberry a:hover,
+  .goals .strawberry a:active,
+  .goals .strawberry a:focus {
     background-color: rgb(237, 59, 136); /* @strawberry */
   }
   .goals .blueberry a {
@@ -1692,7 +1695,7 @@
   figure.change-is-local .caption p:nth-child(2n) {
     font-weight: normal;
     text-transform: none;
-    text-shadow: 0 0 1em rgba(0, 0, 0, 1);
+    text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
     letter-spacing: normal;
   }
   h1 + figure {
@@ -1800,6 +1803,7 @@
       }
       .home header a {
         color: white;
+        text-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
       }
       .home header a:hover,
       .home header a:active,
@@ -1817,34 +1821,34 @@
       */
     }
   }
-    .home figure.change-is-local::before {
-      background-image:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0)),
-        linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-    }
-    .home figure.change-is-local .caption {
-      align-items: flex-end;
-      padding-bottom: 1.5em;
-    }
-    @media (min-width: 60em) {
+  .home figure.change-is-local::before {
+    background-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0)),
+      linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+  }
+  .home figure.change-is-local .caption {
+    align-items: flex-end;
+    padding-bottom: 1.5em;
+  }
+  @media (min-width: 60em) {
     .home figure.change-is-local .caption {
       align-items: flex-end;
       padding-bottom: 2.25em;
     }
-    }
-    .home figure.change-is-local img {
-      height: 61.66992188vw; /* The aspect ratio of the LA Más image */
-      height: 50vw;
-      object-position: bottom;
-    }
+  }
+  .home figure.change-is-local img {
+    height: 61.66992188vw; /* The aspect ratio of the LA Más image */
+    height: 50vw;
+    object-position: bottom;
+  }
   @media (max-width: 80em) {
     .home figure.change-is-local img {
       height: 250vw;
     }
     .home figure.change-is-local::before {
       background-image:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)),
-        linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
     }
   }
   @media (min-width: 19em) and (max-width: 80em) {
