@@ -129,11 +129,11 @@ color: home
 
 <h2 class="fancy"><span><strong>We believe in the power of angelenos.</strong></span></h2>
 
-The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000 will be awarded to five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/about/#la2050-partnership) in support of their efforts.
+LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. We've supported 42 great projects to shape a better LA via the My LA2050 Grants Challenge. 
 
-LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](https://la2050.org/goals) and [60+ metrics](https://www.la2050.org/metrics) tracked over time to evaluate how Los Angeles is faring. We've supported [](https://www.la2050.org/grantees) [42 great projects](https://www.la2050.org/grantees) to shape a better LA via the My LA2050 Grants Challenge. 
+<strong>The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded to five organizations to implement their ideas engaging Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/about/#la2050-partnership) in support of their efforts.
 
-Now, we're asking for your help to turn the LA2050 goals and metrics into action.
+<strong>Now, we're asking for your help to turn the LA2050 goals and metrics into action.</strong>
 
 Starting March 1, 2018, you can [submit your proposal](/submit/) on this website.
 
@@ -204,7 +204,7 @@ Winners will be selected via a two-step process:
 
 **25 finalists will be selected by an evaluation committee**: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.
 
-**5 winning proposals will be selected by the public**: The public will vote on the finalists. The activations that receives the most votes will be announced as the winner.
+**5 winning proposals will be selected by the public**: The public will vote on the finalists. The activations that receives the most votes will be announced as the winners.
 
 The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
 
