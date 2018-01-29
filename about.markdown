@@ -28,7 +28,7 @@ This is an open call via for ideas to activate 100,000 Angelenos to make Los Ang
 
 The activations should aim to engage Angelenos to make a specific, tangible impact on one of the LA2050 goals and metrics by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
 
-LA2050 will commit to a two-year partnership to leveraging its resources, assets, and networks to help the activations succeed. Together, the winning organizations, LA2050, and Angelenos will produce five major wins for the region that will change the course of our future.
+LA2050 will commit to a two-year partnership leveraging its resources, assets, and networks to help the activations succeed. Together, the winning organizations, LA2050, and Angelenos will produce five major wins for the region that will change the course of our future.
 
 ## LA2050 Partnership
 
