@@ -17,8 +17,9 @@ And now we want your help to take all of this work to the next level! We want yo
 
 </div>
 
-<figure markdown="1">
-<img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
+<figure class="has-text">
+  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
+  <p class="caption"><span>We believe in the power of angelenos</span></p>
 </figure>
 
 ## About the My LA2050 Activation Challenge

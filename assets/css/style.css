@@ -1155,15 +1155,15 @@
     font-weight: inherit;
     color: inherit;
   }
-      body:not(.tangerine) main > h1 + p,
-      body:not(.tangerine) main > h1 + .notifications p,
-      body:not(.tangerine) main > h1 + .notifications h3 {
+      body main > h1 + p,
+      body main > h1 + .notifications p,
+      body main > h1 + .notifications h3 {
         text-align: center;
         max-width: none;
       }
 
 
-      body:not(.tangerine) main > section + figure {
+      body main > section + figure {
         margin-top: -4.5em;
       }
 
@@ -1226,74 +1226,77 @@
         margin-top: -0.5em;
       }
 
-      body:not(.tangerine) main {
+      body main {
         display: grid;
-        grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
+        grid-template-columns: 1fr 2fr 0;
         grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
       }
-      body:not(.tangerine) main > h1,
-      body:not(.tangerine) main > h1 + p,
-      body:not(.tangerine) main > .team,
-      body:not(.tangerine) main > .numbers,
-      body:not(.tangerine) main > h1 + .notifications,
-      body:not(.tangerine) main > h1 + .action,
-      body:not(.tangerine) main > section {
+      body main > h1,
+      body main > h1 + p,
+      body main > .team,
+      body main > .numbers,
+      body main > h1 + .notifications,
+      body main > h1 + .action,
+      body main > section {
         grid-column: span 3;
       }
-      body:not(.tangerine) main > h2,
-      body:not(.tangerine) main > h3,
-      body:not(.tangerine) main > h4 {
+      body main > h2,
+      body main > h3,
+      body main > h4 {
         margin: 0;
         grid-column: 1 / 2;
         justify-self: end;
         text-align: right;
       }
-      body:not(.tangerine) main > h2:not(.fancy),
-      body:not(.tangerine) main > h3:not(.fancy) {
+      body main > h2:not(.fancy),
+      body main > h3:not(.fancy) {
         font-size: 1.5em;
         line-height: 1.125;
         max-width: 17.5em;
       }
-      body:not(.tangerine) main > h2.fancy,
-      body:not(.tangerine) main > h3.fancy {
+      body main > h2.fancy,
+      body main > h3.fancy {
         margin-top: -0.2em;
       }
-      body:not(.tangerine) main > p,
-      body:not(.tangerine) main > p.action,
-      body:not(.tangerine) main > .process,
-      body:not(.tangerine) main > ul:not(.team):not(.styled) {
+      body main > p,
+      body main > p.action,
+      body main > .process,
+      body main > ul:not(.team):not(.styled) {
         margin: 0;
         grid-column: 2 / 3;
       }
-      body:not(.tangerine) main > section + figure,
-      body:not(.tangerine) main > h1 + section,
-      body:not(.tangerine) main > h1 + .action + section,
-      body:not(.tangerine) main > section + section {
+      body main > .faq-nav {
+        grid-column: 1 / 3;
+      }
+      body main > section + figure,
+      body main > h1 + section,
+      body main > h1 + .action + section,
+      body main > section + section {
         margin-top: -6em; /* offset the grid row gap */
       }
 
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div {
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div {
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
       }
-      body:not(.tangerine) main > .activate-tag,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > .activate-tag,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h4 {
+      body main > .activate-tag,
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > .activate-tag,
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2,
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3,
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h4 {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
         justify-self: end;
         text-align: right;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2:not(.fancy),
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3:not(.fancy) {
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2:not(.fancy),
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3:not(.fancy) {
         font-size: 2em;
         margin-bottom: 0.5em;
         line-height: 1.125;
@@ -1302,18 +1305,18 @@
         text-align: center;
         justify-self: center;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled).activation-examples > div > h2:not(.fancy) {
+      body main > section:not(.timeline):not(.activation-examples):not(.styled).activation-examples > div > h2:not(.fancy) {
         grid-column: 2 / 3;
         text-align: left;
         justify-self: start;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2.fancy,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3.fancy {
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2.fancy,
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3.fancy {
         margin-top: -0.2em;
       }
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p.action,
-      body:not(.tangerine) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > ul {
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p,
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p.action,
+      body main > section:not(.timeline):not(.activation-examples):not(.styled) > div > ul {
         margin: 0;
         grid-column: 2 / 3;
       }
@@ -1326,7 +1329,7 @@
         }
       }
       /*
-      body:not(.tangerine) main > section.activation-examples:not(.timeline):not(.styled) > div > h2 + p {
+      body main > section.activation-examples:not(.timeline):not(.styled) > div > h2 + p {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
@@ -1335,54 +1338,54 @@
       }
       */
 
-      body:not(.tangerine) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > h2 + p * {
+      body main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > h2 + p * {
         text-align: right !important;
       }
-      body:not(.tangerine) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > p {
+      body main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > p {
         text-align: left;
       }
-      body:not(.tangerine) figure {
+      body figure {
         grid-column: 1/4;
       }
 
       /*
-      body:not(.tangerine) .goals ~ figure {
+      body .goals ~ figure {
         grid-column: 1/2;
         width: 33.333vw;
         margin: 0 !important;
       }
-      body:not(.tangerine) .goals ~ figure img {
+      body .goals ~ figure img {
         width: 100% !important;
         height: auto !important;
       }
-      body:not(.tangerine) .goals ~ figure + section {
+      body .goals ~ figure + section {
         grid-column: 2/3;
         margin: 0 !important;
         width: 33.333vw;
       }
-      body:not(.tangerine) .goals ~ figure + section h3,
-      body:not(.tangerine) .goals ~ figure + section h4 {
+      body .goals ~ figure + section h3,
+      body .goals ~ figure + section h4 {
         text-align: left !important;
         margin-top: 0 !important;
         margin-bottom: 1.5rem !important;
       }
-      body:not(.tangerine) .goals ~ figure + section h4 {
+      body .goals ~ figure + section h4 {
         margin-top: 1.5rem !important;
         margin-bottom: 0.75rem !important;
       }
-      body:not(.tangerine) .goals ~ figure + section > div {
+      body .goals ~ figure + section > div {
         display: block !important;
       }
 
-      body:not(.tangerine) .goals ~ figure:nth-of-type(2n) {
+      body .goals ~ figure:nth-of-type(2n) {
         grid-column: 3/4;
       }
-      body:not(.tangerine) .goals ~ figure:nth-of-type(2n) + section {
+      body .goals ~ figure:nth-of-type(2n) + section {
         grid-column: 2/3;
       }
       */
 
-      body:not(.tangerine) .application-process {
+      body .application-process {
         grid-column: 1/4;
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
@@ -1390,10 +1393,10 @@
         grid-row-gap: 1.5em;
         align-items: start;
       }
-      body:not(.tangerine) .application-process > div {
+      body .application-process > div {
         grid-column: 2/3;
       }
-      body:not(.tangerine) .introduction {
+      body .introduction {
         grid-column: 1/4;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1423,91 +1426,91 @@
     }
   }
 
-  body:not(.tangerine) .goals ~ section:not(.team):not(.styled) figure {
+  body .goals ~ section:not(.team):not(.styled) figure {
     margin-top: -4.5em;
   }
 
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) {
+      body .goals ~ section:not(.team):not(.styled) {
         background: rgb(252, 252, 252);
         color: rgba(82, 82, 82);
         color: rgba(82, 82, 82, 0.9);
       }
-      body:not(.tangerine) .goals ~ section.blueberry h3,
-      body:not(.tangerine) .goals ~ section.blueberry h4 {
+      body .goals ~ section.blueberry h3,
+      body .goals ~ section.blueberry h4 {
         color: rgb(6, 179, 188); /* @blueberry */
       }
-      body:not(.tangerine) .goals ~ section.lime h3,
-      body:not(.tangerine) .goals ~ section.lime h4 {
+      body .goals ~ section.lime h3,
+      body .goals ~ section.lime h4 {
         color: rgb(141, 208, 59); /* @lime */
       }
-      body:not(.tangerine) .goals ~ section.banana h3,
-      body:not(.tangerine) .goals ~ section.banana h4 {
+      body .goals ~ section.banana h3,
+      body .goals ~ section.banana h4 {
         color: rgb(255, 194, 51); /* @banana */
       }
-      body:not(.tangerine) .goals ~ section.tangerine h3,
-      body:not(.tangerine) .goals ~ section.tangerine h4 {
+      body .goals ~ section.tangerine h3,
+      body .goals ~ section.tangerine h4 {
         color: rgb(249, 160, 51); /* @tangerine */
       }
-      body:not(.tangerine) .goals ~ section.strawberry h3,
-      body:not(.tangerine) .goals ~ section.strawberry h4 {
+      body .goals ~ section.strawberry h3,
+      body .goals ~ section.strawberry h4 {
         color: rgb(237, 59, 136); /* @strawberry */
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) {
+      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) {
         background-color: white;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) h3 {
+      body .goals ~ section:not(.team):not(.styled) h3 {
         margin-top: 0;
         text-transform: uppercase;
         max-width: none;
         font-style: italic;
         font-weight: 900; /* @black */
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div h4 {
+      body .goals ~ section:not(.team):not(.styled) > div > div h4 {
         max-width: none;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div p,
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div ul {
+      body .goals ~ section:not(.team):not(.styled) > div > div p,
+      body .goals ~ section:not(.team):not(.styled) > div > div ul {
         color: inherit;
         max-width: none;
       }
       /*
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div ul {
+      body .goals ~ section:not(.team):not(.styled) > div > div ul {
         column-count: 2;
         column-gap: 3em;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div li {
+      body .goals ~ section:not(.team):not(.styled) > div > div li {
         page-break-inside: avoid;
       }
       */
   @supports (display: grid) {
     @media (min-width: 60em) {
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div {
+      body .goals ~ section:not(.team):not(.styled) > div {
         grid-template-columns: 1fr 1fr !important;
         grid-column-gap: 3em !important;
         grid-row-gap: 1.5em !important;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) figure {
+      body .goals ~ section:not(.team):not(.styled) figure {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         margin: 0;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div {
+      body .goals ~ section:not(.team):not(.styled) > div > div {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         /*
         padding: 0.75em 1.5em;
         */
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure {
+      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure {
         grid-column: 2 / 3;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure img {
+      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure img {
         height: 100%;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled):nth-of-type(2n) > div > div {
+      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) > div > div {
         grid-column: 1 / 2;
       }
-      body:not(.tangerine) .goals ~ section:not(.team):not(.styled) > div > div + div {
+      body .goals ~ section:not(.team):not(.styled) > div > div + div {
         grid-column: 1 / 3 !important;
         grid-row: 2 / 3 !important;
       }
@@ -1855,6 +1858,9 @@
 
   /* =FAQ Navigation
   ----------------------------------------------- */
+  .faq-nav div {
+    display: block !important;
+  }
   .faq-nav ul,
   .faq-nav li {
     list-style: none;
@@ -1862,6 +1868,8 @@
   }
   .faq-nav ul {
     margin-top: -0.75em;
+    max-width: none;
+    font-size: 1.5em;
   }
   .faq-nav li a {
     display: block;
