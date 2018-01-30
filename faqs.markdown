@@ -80,7 +80,7 @@ LA is experiencing an exciting and important moment in civic activism. While we 
 
 ### Are there restrictions on what the activations can address?
 
-Yes: 501(c)4 activities are not eligible for funding; activations cannot be focused on supporting or opposing candidates for public office; activations cannot have voter registration as the main object. Things that are okay though include Get-Out-The-Vote efforts, candidate briefings, candidate questionnaires, and candidate forums and debates. Be sure to check the My LA2050 Activation Challenge rules.
+All activities, whether your organization is a nonprofit or for-profit entity, must comply with the 501(c)(3) guidelines from the IRS. Please also carefully review the detailed rules for the activation challenge.
 
 ### I have feedback on the LA2050 goals. How can I share that with you? 
 
