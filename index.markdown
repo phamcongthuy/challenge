@@ -164,7 +164,7 @@ $200,000
 * ![](/assets/images/examples/share-news.svg) Read and share news
 * ![](/assets/images/examples/donate.svg) Donate or fundraise
 * ![](/assets/images/examples/rally.svg) Participate in a rally or meeting
-* ![](/assets/images/examples/contact-official.svg) Contact your elected official
+* ![](/assets/images/examples/contact-official.svg) Participate in political processes
 * ![](/assets/images/examples/digital-activism.svg) Digital activism
 * ![](/assets/images/examples/volunteer.svg) Volunteer
 * ![](/assets/images/examples/boycott.svg) Boycott / Buycott
