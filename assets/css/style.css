@@ -2087,7 +2087,7 @@
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: white;
     margin: 0 -1.5em 3em -1.5em;
-    padding: 1.5em 1.5em 1.5em;
+    padding: 1.5em 1.5em 2.25em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     figure.change-is-local ~ .notifications {
