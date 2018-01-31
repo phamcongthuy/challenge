@@ -81,6 +81,8 @@ By the year 2050, all Los Angeles students will have access to early education p
 
 </div>
 
+<p class="action banana">Next Goal: <a href="#create">Create</a></p>
+
 </div>
 </section>
 
@@ -121,6 +123,8 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 
 </div>
 
+<p class="action strawberry">Next Goal: <a href="#play">Play</a></p>
+
 </div></section>
 
 <section class="strawberry" id="play"><div markdown="1">
@@ -154,6 +158,8 @@ Metrics
 * Perceived safety
 
 </div>
+
+<p class="action tangerine">Next Goal: <a href="#connect">Connect</a></p>
 
 </div></section>
 
@@ -192,6 +198,8 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 * Voting rates
 
 </div>
+
+<p class="action lime">Next Goal: <a href="#live">Live</a></p>
 
 </div></section>
 
@@ -234,6 +242,8 @@ Metrics
 
 </div>
 
+<p class="action blueberry">Next Goal: <a href="#learn">Learn</a></p>
+
 </div></section>
 
 <section class="team"><div markdown="1">
@@ -265,4 +275,70 @@ Metrics
 
 </div>
 </section>
+
+<script>
+(function() {
+  var goals = document.querySelectorAll('.goals ~ section:not(.team)');
+
+  var buttonsContainer = document.querySelector('.goals');
+  var buttons = buttonsContainer.querySelectorAll('a');
+
+  if (goals.length > 1 && goals.length === buttons.length) {
+
+    function hideAllExcept(id) {
+
+      // Hide all of the goals except the first one
+      for (var index = 0; index < goals.length; index++) {
+        if (goals[index].id === id) {
+          goals[index].classList.remove('hidden');
+        } else {
+          goals[index].classList.add('hidden');
+        }
+      }
+    }
+
+    function closest(element, tagName) {
+
+      // If the element is the target
+      if (element.nodeName.toLowerCase() === tagName) return element;
+
+      var ancestor = element;
+      while ((ancestor = ancestor.parentElement) && ancestor.nodeName && ancestor.nodeName.toLowerCase() !== tagName);
+      if (ancestor && ancestor.nodeName && ancestor.nodeName.toLowerCase() === tagName) {
+        return ancestor;
+      }
+    }
+
+    // If a link is pressed
+    buttonsContainer.addEventListener('click', function(e) {
+
+      var link = closest(e.target, 'a');
+
+      if (link) {
+        // Hide all of the goals except the one that was chosen
+        hideAllExcept(link.getAttribute('href').replace('#', ''));
+        // e.preventDefault();
+      }
+
+
+    }, false);
+
+    hideAllExcept(goals[0].getAttribute('id'));
+
+    // Link the buttons insid each goal to the next one
+    for (var index = 0; index < goals.length; index++) {
+      goals[index].querySelector('.action').addEventListener('click', function(e) {
+        var link = closest(e.target, 'a');
+
+        if (link) {
+          // Hide all of the goals except the one that was chosen
+          hideAllExcept(link.getAttribute('href').replace('#', ''));
+          // e.preventDefault();
+        }
+      }, false);
+    }
+
+  }
+})();
+</script>
 

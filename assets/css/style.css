@@ -1512,16 +1512,16 @@
         /*
         padding: 0.75em 1.5em;
         */
-      }
+      }/*
       body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure {
         grid-column: 2 / 3;
-      }
+      }*/
       body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure img {
         height: 100%;
       }
-      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) > div > div {
+/*      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) > div > div {
         grid-column: 1 / 2;
-      }
+      }*/
       body .goals ~ section:not(.team):not(.styled) > div > div + div {
         grid-column: 1 / 3 !important;
         grid-row: 2 / 3 !important;
@@ -1698,6 +1698,10 @@
   }
 
 
+  main .goals {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
   .goals h2 {
     grid-column: 1/4 !important;
@@ -1721,21 +1725,32 @@
     display: block;
     border-radius: 0;
   }
+
+  .action.strawberry a
   .goals .strawberry a {
     background-color: rgb(237, 59, 136); /* @strawberry */
   }
+  .action.blueberry a,
   .goals .blueberry a {
     background-color: rgb(6, 179, 188); /* @blueberry */
   }
+  .action.banana a,
   .goals .banana a {
     background-color: rgb(237, 192, 50); /* @dark-banana */
   }
+  .action.tangerine a,
   .goals .tangerine a {
     background-color: rgb(249, 160, 51); /* @tangerine */
   }
+  .action.lime a,
   .goals .lime a {
     background-color: rgb(141, 208, 59); /* @lime */
   }
+
+  .goals ~ section:not(.team) .action {
+    grid-column: 1/4 !important;
+  }
+
 
   .goals ~ section:not(.team) ul {
     padding: 1.4em 2.8em;
@@ -1779,11 +1794,18 @@
     color: white !important;
   }
 
+  .goals ~ section:not(.team).hidden {
+    display: none;
+  }
+
+  .goals a {
+    transition: all 0.2s;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
   .goals a:hover,
   .goals a:active,
   .goals a:focus {
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   }
     .goals ul {
       grid-column: 1/4 !important;
