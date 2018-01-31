@@ -146,9 +146,8 @@ $200,000
 : over two years
 </div>
 
-<figure class="has-text">
+<figure>
   <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
-  <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
 <section class="activation-examples"><div markdown="1">
