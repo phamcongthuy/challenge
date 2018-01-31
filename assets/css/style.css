@@ -309,6 +309,15 @@
     font-style: italic;
     margin-bottom: 1;
   }
+  @media (min-width: 40em) {
+    .timeline > div > h2,
+    .activation-examples > div > h2 {
+      font-size: 3.375em;
+      font-size: 5vw;
+      max-width: none;
+    }
+  }
+
   main > section > div > *:first-child {
     margin-top: 0;
   }
@@ -357,6 +366,7 @@
     margin-top: 3em;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: 0.75em;
   }
   .timeline dt {
     color: rgb(237, 59, 136); /* @strawberry */
@@ -467,12 +477,12 @@
     letter-spacing: 0.2em;
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  @media (max-width: 180em) {
+/*  @media (max-width: 180em) {
     .activate-tag + h2.fancy > span {
       display: block;
       max-width: 8em;
     }
-  }
+  }*/
 
   /*
   main > ul,
@@ -1866,6 +1876,13 @@
     padding: 0.75em 0;
   }
 
+  .faq-nav {
+
+  }
+  .faq-mark {
+    background-color: rgb(255, 194, 51); /* @banana */
+  }
+
 
   /* =Home
   ----------------------------------------------- */
@@ -1968,7 +1985,7 @@
     }
     @media (min-width: 40em) {
       figure.change-is-local .caption p:first-child {
-        font-size: 5vw;
+        font-size: 6vmax;
       }
     }
 /*    @media (min-width: 15em) {
