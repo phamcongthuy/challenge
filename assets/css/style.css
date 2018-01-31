@@ -27,6 +27,7 @@
     background: rgb(252, 252, 252);
     color: rgba(82, 82, 82);
     color: rgba(82, 82, 82, 0.9);
+    background: rgb(254, 254, 254);
     color: rgb(41, 41, 41);
   }
 
@@ -229,9 +230,11 @@
   main > section + section {
     margin-top: -4.5em;
   }
+  /*
   main > section:nth-of-type(2n) {
     background: white;
   }
+  */
   main > section.activation-examples {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;
@@ -1416,6 +1419,7 @@
         background: rgb(252, 252, 252);
         color: rgba(82, 82, 82);
         color: rgba(82, 82, 82, 0.9);
+        color: inherit;
       }
       body .goals ~ section.blueberry h3,
       body .goals ~ section.blueberry h4 {
@@ -1444,7 +1448,7 @@
         margin-top: 0;
         text-transform: uppercase;
         max-width: none;
-        font-style: italic;
+        font-size: 4em;
         font-weight: 900; /* @black */
       }
       body .goals ~ section:not(.team):not(.styled) > div > div h4 {
@@ -1555,6 +1559,10 @@
 
   /* =Team
   ----------------------------------------------- */
+  .team h2 {
+    text-align: center;
+    grid-column: 1 / 4 !important;
+  }
   ul.team,
   ul.team li {
     list-style: none;
@@ -1856,7 +1864,6 @@
   .faq-nav li a {
     display: block;
     padding: 0.75em 0;
-    text-decoration: none;
   }
 
 
