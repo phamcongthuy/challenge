@@ -1720,9 +1720,18 @@
     margin-left: 0;
     padding-left: 0;
   }
+  main > .goals {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    min-height: 0;
+  }
+  main > .goals ~ section:not(.team) {
+    margin-top: 0em;
+    padding-top: 1.5em;
+  }
   .goals ul {
     padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    margin-bottom: 0;
   }
   .goals li {
     margin: 0;
@@ -1733,7 +1742,7 @@
     border-radius: 0;
   }
 
-  .action.strawberry a
+  .action.strawberry a,
   .goals .strawberry a {
     background-color: rgb(237, 59, 136); /* @strawberry */
   }
@@ -1766,7 +1775,9 @@
 
 
   .goals ~ section:not(.team) ul {
+    /*
     padding: 1.4em 2.8em;
+    */
     width: auto;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -1784,24 +1795,52 @@
   .goals ~ section ul li {
     page-break-inside: avoid;
   }
-  .goals ~ section.tangerine ul {
+  .goals ~ section > div > div:last-of-type {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    width: 100vw;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals ~ section > div > div:last-of-type {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem;
+    }
+  }
+  .goals ~ section > div > div:last-of-type ul,
+  .goals ~ section > div > div:last-of-type h4 {
+    margin-top: 0;
+    color: inherit !important;
+  }
+  .goals ~ section > div > div:last-of-type h4 {
+    margin-top: 0;
+  }
+  .goals ~ section > div > div:last-of-type ul {
+    margin-bottom: 0;
+  }
+  .goals ~ section.tangerine > div > div:last-of-type {
     background-color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
+    color: white !important;
   }
-  .goals ~ section.lime ul {
+  .goals ~ section.lime > div > div:last-of-type {
     background-color: rgb(141, 208, 59); /* @lime */
     color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
   }
-  .goals ~ section.blueberry ul {
+  .goals ~ section.blueberry > div > div:last-of-type {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: rgb(255, 194, 51); /* @banana */
     color: white !important;
   }
-  .goals ~ section.banana ul {
+  .goals ~ section.banana > div > div:last-of-type {
     background-color: rgb(255, 194, 51); /* @banana */
     color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
   }
-  .goals ~ section.strawberry ul {
+  .goals ~ section.strawberry > div > div:last-of-type {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 194, 51); /* @banana */
     color: white !important;

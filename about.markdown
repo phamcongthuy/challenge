@@ -140,7 +140,6 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 Our region will be a place where people of all ages have easy access to clean, safe, and sustainable venues to enjoy the natural environment, arts and cultural resources, and local beaches, waterways, and open space.
 
 By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, and safe places to play. Every neighborhood will provide its residents with vibrant park space, every child will have access to afterschool enrichment programs, and residents will love their neighborhoods.
-Metrics
 
 </div>
 
@@ -317,7 +316,7 @@ Metrics
       if (link) {
         // Hide all of the goals except the one that was chosen
         hideAllExcept(link.getAttribute('href').replace('#', ''));
-        // e.preventDefault();
+        e.preventDefault();
       }
 
 
