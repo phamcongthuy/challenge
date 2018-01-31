@@ -1448,9 +1448,9 @@
     }
   }
 
-  body .goals ~ section:not(.team):not(.styled) figure {
+/*  body .goals ~ section:not(.team):not(.styled) figure {
     margin-top: -4.5em;
-  }
+  }*/
 
       body .goals ~ section:not(.team):not(.styled) {
         background: rgb(252, 252, 252);
