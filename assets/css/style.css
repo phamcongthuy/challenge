@@ -89,6 +89,10 @@
       margin-right: -3em;
       padding: 3em 3em 3em 3em;
     }
+    footer {
+      padding-top: 2.25em;
+      padding-bottom: 2.25em;
+    }
   }
 
   footer small a {
@@ -1748,7 +1752,13 @@
   }
 
   .goals ~ section:not(.team) .action {
+    padding-top: 3em;
+    max-width: none;
+    text-align: center;
     grid-column: 1/4 !important;
+  }
+  .goals ~ section:not(.team) .action a {
+    margin-left: 0.75em;
   }
 
 
