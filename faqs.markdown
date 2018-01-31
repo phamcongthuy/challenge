@@ -53,16 +53,16 @@ _We want to work together! To partner, we plan on:_
 
 <section class="faq-nav">
 <div markdown="1">
-* [100,000 is a lot of people! Do we have to activate them all at once?](#100000-is-a-lot-of-people-do-we-have-to-activate-them-all-at-once)
-* [How will you measure the number of people activated?](#how-will-you-measure-the-number-of-people-activated)
-* [Why did you start the My LA2050 Activation Challenge?](#why-did-you-start-the-my-la2050-activation-challenge)
-* [Are there restrictions on what the activations can address?](#are-there-restrictions-on-what-the-activations-can-address)
-* [I have feedback on the LA2050 goals. How can I share that with you?](#i-have-feedback-on-the-la2050-goals-how-can-i-share-that-with-you)
-* [Can I apply more than once?](#can-i-apply-more-than-once)
-* [What are the benefits of applying?](#what-are-the-benefits-of-applying)
-* [What kinds of activations are you looking to support?](#what-kinds-of-activations-are-you-looking-to-support)
-* [What are some tips for submitting ideas to the My LA2050 Activation Challenge?](#what-are-some-tips-for-submitting-ideas-to-the-my-la2050-activation-challenge)
-* [Send us your questions!](#send-us-your-questions)
+1. [100,000 is a lot of people! Do we have to activate them all at once?](#100000-is-a-lot-of-people-do-we-have-to-activate-them-all-at-once)
+2. [How will you measure the number of people activated?](#how-will-you-measure-the-number-of-people-activated)
+3. [Why did you start the My LA2050 Activation Challenge?](#why-did-you-start-the-my-la2050-activation-challenge)
+4. [Are there restrictions on what the activations can address?](#are-there-restrictions-on-what-the-activations-can-address)
+5. [I have feedback on the LA2050 goals. How can I share that with you?](#i-have-feedback-on-the-la2050-goals-how-can-i-share-that-with-you)
+6. [Can I apply more than once?](#can-i-apply-more-than-once)
+7. [What are the benefits of applying?](#what-are-the-benefits-of-applying)
+8. [What kinds of activations are you looking to support?](#what-kinds-of-activations-are-you-looking-to-support)
+9. [What are some tips for submitting ideas to the My LA2050 Activation Challenge?](#what-are-some-tips-for-submitting-ideas-to-the-my-la2050-activation-challenge)
+10. [Send us your questions!](#send-us-your-questions)
 </div>
 </section>
 
@@ -144,6 +144,6 @@ Check out the [LA2050 Goals](https://la2050.org/goals), the [LA2050 Report](http
 If you have any questions that aren’t answered on this page, please send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
 <script>
-	
+
 </script>
 

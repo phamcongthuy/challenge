@@ -578,7 +578,7 @@
     font-size: 1.5em;
   }
   h4 {
-    font-size: 1em;
+    font-size: 1.25em;
   }
   h5 {
     font-size: 1em;
@@ -784,7 +784,7 @@
     h2.fancy,
     h3.fancy,
     h3.fancy {
-      font-size: 2.5vw;
+      font-size: 3vmax;
     }
   }
 
@@ -1039,7 +1039,7 @@
     margin-right: -1.5rem;
     padding: 0 1.5rem 4.5rem;
     margin-top: 0;
-    margin-bottom: 4.5rem;
+    margin-bottom: 3rem;
     text-align: center;
     max-width: none;
   }
@@ -1427,6 +1427,7 @@
 
       body .goals ~ section:not(.team):not(.styled) {
         background: rgb(252, 252, 252);
+        background: rgb(254, 254, 254);
         color: rgba(82, 82, 82);
         color: rgba(82, 82, 82, 0.9);
         color: inherit;
@@ -1720,6 +1721,40 @@
   .goals .lime a {
     background-color: rgb(141, 208, 59); /* @lime */
   }
+
+  .goals ~ section:not(.team) ul {
+    padding: 1.4em 2.8em;
+    box-sizing: border-box;
+    width: auto;
+    column-count: 3;
+    column-gap: 3em;
+  }
+  .goals ~ section ul li {
+    page-break-inside: avoid;
+  }
+  .goals ~ section.tangerine ul {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .goals ~ section.lime ul {
+    background-color: rgb(141, 208, 59); /* @lime */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .goals ~ section.blueberry ul {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+  .goals ~ section.banana ul {
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .goals ~ section.strawberry ul {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+
   .goals a:hover,
   .goals a:active,
   .goals a:focus {
@@ -1862,10 +1897,11 @@
     display: block !important;
   }
   .faq-nav ul,
-  .faq-nav li {
+  .faq-nav ul li {
     list-style: none;
     padding-left: 0;
   }
+  .faq-nav ol,
   .faq-nav ul {
     margin-top: -0.75em;
     max-width: none;
