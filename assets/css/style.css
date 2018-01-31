@@ -2072,19 +2072,22 @@
       linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
   }
   .home figure.change-is-local .caption {
+    align-items: center;
     align-items: flex-end;
     padding-bottom: 2.25em;
-  }
-  @media (min-width: 60em) {
-    .home figure.change-is-local .caption {
-      align-items: flex-end;
-      padding-bottom: 3em;
-    }
   }
   .home figure.change-is-local img {
     height: 61.66992188vw; /* The aspect ratio of the LA Más image */
     height: 50vw;
-    object-position: bottom;
+  }
+  @media (min-width: 60em) {
+    .home figure.change-is-local .caption {
+      align-items: center;
+      /*
+      align-items: flex-end;
+      padding-bottom: 3em; 
+      */
+    }
   }
     .home figure.change-is-local::before {
       background-image: none;
