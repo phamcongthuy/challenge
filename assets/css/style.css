@@ -36,6 +36,11 @@
     color: rgb(237, 192, 50); /* @dark-banana */
     color: rgb(237, 59, 136); /* @strawberry */
   }
+  h2 strong {
+    font-weight: inherit;
+    color: rgb(6, 179, 188); /* @blueberry */
+    display: inline-block;
+  }
 
   em {
     font-weight: 600; /* @medium */
@@ -2101,11 +2106,20 @@
     margin-bottom: 0.75rem;
   }
   figure.change-is-local .caption p:nth-child(2n) {
-    font-size: 1.5em;
     font-weight: normal;
     text-transform: none;
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
     letter-spacing: normal;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  figure.change-is-local .caption .action a {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+  }
+  figure.change-is-local .caption .action a:hover,
+  figure.change-is-local .caption .action a:active,
+  figure.change-is-local .caption .action a:focus {
+    background-color: rgb(237, 59, 136); /* @strawberry */
   }
   h1 + figure {
     margin-top: -4.5em;
@@ -2252,9 +2266,11 @@
   }
   @media (min-width: 60em) {
     .home figure.change-is-local .caption {
+      padding-top: 7.5em;
+      padding-bottom: 0;
       align-items: center;
-      align-items: flex-end;
-      padding-bottom: 3em; 
+/*      align-items: flex-end;
+      padding-bottom: 3em; */
     }
   }
     .home figure.change-is-local::before {
@@ -2266,17 +2282,17 @@
   }
   @media (min-width: 19em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 160vw;
+      height: 210vw;
     }
   }
   @media (min-width: 21em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 130vw;
+      height: 180vw;
     }
   }
   @media (min-width: 25em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 115vw;
+      height: 145vw;
     }
   }
   @media (min-width: 30em) and (max-width: 80em) {
