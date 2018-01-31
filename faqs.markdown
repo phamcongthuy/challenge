@@ -97,6 +97,8 @@ color: tangerine
   <p>Check out the <a href="https://la2050.org/goals">LA2050 Goals</a>, the <a href="https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432">LA2050 Report</a>, and our most recent <a href="https://la2050.s3-us-west-1.amazonaws.com/reports/13/pdfs/FINALDRAFT_OCT24.pdf?1508955187">metrics update</a> for additional information.</p>
 </details>
 
+<div></div>
+
 ### Send us your questions!
 
 If you have any questions that aren’t answered on this page, please send us an email at [connect@la2050.org](mailto:connect@la2050.org).
