@@ -277,10 +277,3 @@ Metrics
 </div>
 </section>
 
-<section class="blueberry styled"><div markdown="1">
-
-# Change is&nbsp;Local
-
-<p class="activate-tag">#ACTIVATEFORLA</p>
-
-</div></section>

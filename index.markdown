@@ -4,7 +4,7 @@ color: home
 ---
 
 <figure class="change-is-local has-text">
-  <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
+  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles" />
   <div class="caption">
     <div>
       <p><span>Change is&nbsp;Local</span></p>
@@ -149,7 +149,7 @@ $200,000
 </div>
 
 <figure class="has-text">
-  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles" />
+  <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
@@ -213,10 +213,6 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Collaborative spirit
 
 Starting Tuesday, June 19, 2018, you can [vote for a proposal](/vote/) on this website.
-
-<figure>
-  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
-</figure>
 
 <!--
 If you have questions not answered in the [FAQs](/faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).

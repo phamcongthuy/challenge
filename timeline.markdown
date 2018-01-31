@@ -33,9 +33,3 @@ color: banana
 **25 finalists** will be chosen by jury, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span><br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event.
 
 </div></section>
-
-<figure class="has-text">
-  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
-  <p class="caption"><span>Change is&nbsp;Local</span></p>
-  <p class="activate-tag">#ACTIVATEFORLA</p>
-</figure>

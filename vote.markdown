@@ -39,9 +39,3 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 If you have any questions about the information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-<figure class="has-text">
-  <img src="/assets/images/home/collaborates.jpg" alt="A room filled with people listening to someone speaking">
-  <p class="caption"><span>Change is&nbsp;Local</span></p>
-  <p class="activate-tag">#ACTIVATEFORLA</p>
-</figure>
-
