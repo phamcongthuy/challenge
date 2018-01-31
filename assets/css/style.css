@@ -1739,10 +1739,19 @@
 
   .goals ~ section:not(.team) ul {
     padding: 1.4em 2.8em;
-    box-sizing: border-box;
     width: auto;
-    column-count: 3;
-    column-gap: 3em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals ~ section:not(.team) ul {
+      column-count: 2;
+      column-gap: 3em;
+    }
+  }
+  @media (min-width: 60em) {
+    .goals ~ section:not(.team) ul {
+      font-size: 0.875em;
+      column-count: 3;
+    }
   }
   .goals ~ section ul li {
     page-break-inside: avoid;
