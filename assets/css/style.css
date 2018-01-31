@@ -1506,6 +1506,22 @@
         page-break-inside: avoid;
       }
       */
+
+
+  body .goals ~ section:not(.team):not(.styled) figure {
+    position: relative;
+  }
+  body .goals ~ section:not(.team):not(.styled) figure p::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    z-index: 1;
+  }
+
   @supports (display: grid) {
     @media (min-width: 60em) {
       body .goals ~ section:not(.team):not(.styled) > div {
@@ -1528,8 +1544,37 @@
       body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure {
         grid-column: 2 / 3;
       }*/
-      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) figure img {
+      body .goals ~ section:not(.team):not(.styled) figure {
+        position: relative;
+        justify-self: stretch;
+        align-self: stretch;
+        margin-left: -3em;
+        margin-bottom: -1.5em;
+      }
+      body .goals ~ section:not(.team):not(.styled) figure p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
         height: 100%;
+      }
+      body .goals ~ section:not(.team):not(.styled) figure p::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        z-index: 1;
+      }
+      body .goals ~ section:not(.team):not(.styled) figure img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
       }
 /*      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) > div > div {
         grid-column: 1 / 2;

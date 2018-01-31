@@ -311,7 +311,11 @@ Metrics
       if (link) {
         // Hide all of the goals except the one that was chosen
         hideAllExcept(link.getAttribute('href').replace('#', ''));
-        e.preventDefault();
+
+        // TODO: Base this on whether the section title is in view
+        if (window.innerHeight > 600 && window.innerWidth > 600) {
+          e.preventDefault();
+        }
       }
 
 
@@ -319,18 +323,18 @@ Metrics
 
     hideAllExcept(goals[0].getAttribute('id'));
 
-    // Link the buttons insid each goal to the next one
-    for (var index = 0; index < goals.length; index++) {
-      goals[index].querySelector('.action').addEventListener('click', function(e) {
-        var link = closest(e.target, 'a');
+    // Link the buttons inside each goal to the next one
+    // for (var index = 0; index < goals.length; index++) {
+    //   goals[index].querySelector('.action').addEventListener('click', function(e) {
+    //     var link = closest(e.target, 'a');
 
-        if (link) {
-          // Hide all of the goals except the one that was chosen
-          hideAllExcept(link.getAttribute('href').replace('#', ''));
-          // e.preventDefault();
-        }
-      }, false);
-    }
+    //     if (link) {
+    //       // Hide all of the goals except the one that was chosen
+    //       hideAllExcept(link.getAttribute('href').replace('#', ''));
+    //       // e.preventDefault();
+    //     }
+    //   }, false);
+    // }
 
   }
 })();
