@@ -519,32 +519,12 @@
   }
   @media screen and (min-width: 1000px) {
     html {
-      font-size: 135%;
+      font-size: 137.5%;
     }
   }
   @media screen and (min-width: 1200px) {
     html {
-      font-size: 145%;
-    }
-  }
-  @media screen and (min-width: 1400px) {
-    html {
-      font-size: 155%;
-    }
-  }
-  @media screen and (min-width: 1600px) {
-    html {
-      font-size: 170%;
-    }
-  }
-  @media screen and (min-width: 1800px) {
-    html {
-      font-size: 185%;
-    }
-  }
-  @media screen and (min-width: 2000px) {
-    html {
-      font-size: 200%;
+      font-size: 150%;
     }
   }
 
