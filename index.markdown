@@ -8,16 +8,11 @@ color: home
   <div class="caption">
     <div>
       <p><span>Change is&nbsp;Local</span></p>
-      <p>
-        <span>
-          <span class="avoid-break">How would</span>
-          <span class="avoid-break">you activate</span>
-          <strong>100,000 Angelenos</strong>
-          <span class="avoid-break">
-            for a <span class="avoid-break">better LA?</span>
-          </span>
-        </span>
-      </p>
+<p style="max-width: 27em">Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
+
+<p class="action" markdown="1">
+[Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+</p>
     </div>
   </div>
 </figure>
@@ -40,6 +35,7 @@ color: home
 </figure>
 -->
 
+<!--
 <h1 style="display: none">Public Voting</h1>
 
 <div class="notifications" markdown="1">
@@ -51,6 +47,7 @@ color: home
 </p>
 
 </div>
+-->
 
 <!--
 
@@ -125,9 +122,17 @@ color: home
 </figure>
 -->
 
+<div style="margin-top: 1.5em"></div>
+
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
-<h2 class="fancy"><span><strong>Join us to harness our region’s civic activism for a&nbsp;better Los&nbsp;Angeles.</strong></span></h2>
+<h2>
+          <span class="avoid-break">How would</span>
+          <span class="avoid-break">you activate</span>
+          100,000 Angelenos
+          <span class="avoid-break">
+            for a <span class="avoid-break">better LA?</span>
+          </span></h2>
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. We've supported 42 great projects to shape a better LA via the My LA2050 Grants Challenge.<br /><br /><strong>The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded to five organizations to implement their ideas engaging Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/about/#la2050-partnership) in support of their efforts.
 
@@ -146,8 +151,9 @@ $200,000
 : over two years
 </div>
 
-<figure>
+<figure class="has-text">
   <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
+  <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 
 <section class="activation-examples"><div markdown="1">
@@ -174,23 +180,6 @@ Read our [guidelines for proposals](/submit/#guidelines).
 </div></section>
 
 
-<section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
-
-## Key Dates
-
-![](/assets/images/timeline/submission.svg) March 1-30, 2018
-: Submission Period
-
-![](/assets/images/timeline/voting.svg) June 19-29, 2018
-: Public Voting
-
-![](/assets/images/timeline/winners.svg) July 9, 2018
-: Winners Announced
-
-
-View the full [timeline](/timeline).
-
-</div></section>
 
 
 ## Winners Selection
@@ -210,6 +199,25 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Collaborative spirit
 
 Starting Tuesday, June 19, 2018, you can [vote for a proposal](/vote/) on this website.
+
+
+<section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
+
+## Key Dates
+
+![](/assets/images/timeline/submission.svg) March 1-30, 2018
+: Submission Period
+
+![](/assets/images/timeline/voting.svg) June 19-29, 2018
+: Public Voting
+
+![](/assets/images/timeline/winners.svg) July 9, 2018
+: Winners Announced
+
+
+View the full [timeline](/timeline).
+
+</div></section>
 
 <!--
 If you have questions not answered in the [FAQs](/faqs), please contact us at [connect@la2050.org](mailto:connect@la2050.org).

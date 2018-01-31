@@ -29,6 +29,11 @@ We want to work together! To partner, we plan on:
 * Designing assets for materials
 * Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns
 
+<div style="margin-top: 4.5em; border-width: 0 0 0.125em;
+    border-style: solid;
+    border-color: rgb(217, 217, 217);
+    grid-column: 1/4 !important;"></div>
+
 <section class="goals"><div markdown="1">
 
 ## LA2050 Goals
@@ -81,8 +86,6 @@ By the year 2050, all Los Angeles students will have access to early education p
 
 </div>
 
-<p class="action banana">Next Goal: <a href="#create">Create</a></p>
-
 </div>
 </section>
 
@@ -123,8 +126,6 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 
 </div>
 
-<p class="action strawberry">Next Goal: <a href="#play">Play</a></p>
-
 </div></section>
 
 <section class="strawberry" id="play"><div markdown="1">
@@ -157,8 +158,6 @@ By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, 
 * Perceived safety
 
 </div>
-
-<p class="action tangerine">Next Goal: <a href="#connect">Connect</a></p>
 
 </div></section>
 
@@ -197,8 +196,6 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 * Voting rates
 
 </div>
-
-<p class="action lime">Next Goal: <a href="#live">Live</a></p>
 
 </div></section>
 
@@ -240,8 +237,6 @@ Metrics
 * Walk/bike/transit score
 
 </div>
-
-<p class="action blueberry">Next Goal: <a href="#learn">Learn</a></p>
 
 </div></section>
 
