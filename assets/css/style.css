@@ -244,6 +244,9 @@
   main > section + section {
     margin-top: -4.5em;
   }
+  main > .goals + section {
+    margin-top: 0;
+  }
   /*
   main > section:nth-of-type(2n) {
     background: white;
