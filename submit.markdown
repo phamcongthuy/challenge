@@ -32,7 +32,7 @@ _Applicants are encouraged to:_
 
 * Think boldly and creatively about the proposed activation
 * Ensure that the activation creates clear and accessible engagement pathways for Angelenos  
-* Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, participating in political processes, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. 
+* Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to: policy advocacy, volunteering, participating in political processes, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. 
 * If your organization plans to engage in any activities that would constitute lobbying for tax law purposes, please be sure to provide an allocated budget with your application. LA2050 can only fund the non-lobbying portion of your project budgets.
 
 ### Dates
@@ -65,7 +65,7 @@ View the [full timeline](/timeline).
 
 ### To apply, organizations will:
 
-* Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation;
+* Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation
 * Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
 * Clearly articulate the engagement strategies and tools that will be employed
 * Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
