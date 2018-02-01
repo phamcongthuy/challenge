@@ -52,7 +52,7 @@ color: tangerine
   <summary>
     <h3 id="What_are_the_benefits_of_applying_22">What are the benefits of applying?</h3>
   </summary>
-  <p><em>Beyond the potential to receive funds to address an issue you’re passionate about, we also believe that applying in this challenge will provide additional benefits including:</em></p>
+  <p><em>Beyond the potential to receive funds to address an issue you’re passionate about, we also believe that applying to this challenge will provide additional benefits including:</em></p>
   <ul>
     <li>The opportunity to participate in a first-of-its-kind regional effort</li>
     <li>Increasing awareness and exposure around an issue important for LA’s future</li>
@@ -61,7 +61,7 @@ color: tangerine
     <li>The opportunity to cultivate and build new relationships with peers</li>
     <li>The chance to build a coalition of committed Angelenos and organizations to support an important issue for LA</li>
     <li>The opportunity to learn how to tell a compelling story about your organization’s impact</li>
-    <li>Inspires the creation of videos, photos, tweets, and pithy messaging to promote your proposal</li>
+    <li>Inspiring the creation of videos, photos, tweets, and pithy messaging to promote your proposal</li>
     <li>Visibility in front of other foundations and potential alternative funding sources. Past challenges have resulted in $2M in grants from outside funding using the LA2050 platform for their grantmaking</li>
   </ul>
 </details>
@@ -76,7 +76,7 @@ color: tangerine
     <li>Activations with clear pathways for Angelenos to get involved</li>
     <li>A spirit of collaboration and desire to unify and amplify collective efforts</li>
     <li>Clear focus on inclusion, diversity of voices, and equity</li>
-    <li>Efforts that not only produce positive results but are focused on increasing local engagement and civic participation</li>
+    <li>Efforts that not only produce positive results but are also focused on increasing local engagement and civic participation</li>
     <li>A desire to test new strategies</li>
   </ul>
 </details>
