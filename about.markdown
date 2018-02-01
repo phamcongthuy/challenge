@@ -313,9 +313,9 @@ Metrics
         hideAllExcept(link.getAttribute('href').replace('#', ''));
 
         // TODO: Base this on whether the section title is in view
-        if (window.innerHeight > 600 && window.innerWidth > 600) {
+        // if (window.innerHeight > 600 && window.innerWidth > 600) {
           e.preventDefault();
-        }
+        // }
       }
 
 
