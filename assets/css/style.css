@@ -1528,7 +1528,7 @@
       body .goals ~ section:not(.team):not(.styled) > div {
         grid-template-columns: 1fr 1fr !important;
         grid-column-gap: 3em !important;
-        grid-row-gap: 1.5em !important;
+        grid-row-gap: 2.25em !important;
       }
       body .goals ~ section:not(.team):not(.styled) figure {
         grid-column: 1 / 2;
@@ -1550,7 +1550,7 @@
         justify-self: stretch;
         align-self: stretch;
         margin-left: -3em;
-        margin-bottom: -1.5em;
+        margin-bottom: -2.25em;
       }
       body .goals ~ section:not(.team):not(.styled) figure p {
         position: absolute;
