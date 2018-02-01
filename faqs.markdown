@@ -30,7 +30,7 @@ color: tangerine
   <summary>
     <h3 id="Are_there_restrictions_on_what_the_activations_can_address_8">Are there restrictions on what the activations can address?</h3>
   </summary>
-  <p>LA2050 can only fund projects that further charitable and educational purposes within the meaning of IRC section 501(c)(3). Thus, whether your organization is a nonprofit or for-profit entity, all activities for which you seek LA2050 grant funding must comply with section 501(c)(3). Please also carefully review the detailed rules for the activation challenge.</p>
+  <p>LA2050 can only fund projects that further charitable and educational purposes within the meaning of IRC section 501(c)(3). Thus, whether your organization is a nonprofit or for-profit entity, all activities for which you seek LA2050 grant funding must comply with section 501(c)(3). Please also carefully review <a href = "http://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf">the detailed rules</a> for the activation challenge.</p>
 </details>
 
 <details>
