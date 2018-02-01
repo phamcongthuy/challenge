@@ -16,21 +16,21 @@ color: tangerine
   <summary>
     <h3 id="How_will_you_measure_the_number_of_people_activated_0">How will you measure the number of people activated?</h3>
   </summary>
-  <p>Great question! We’re leaning on applicants to define how they plan to reach Angelenos and the number of people that will be reached via their various engagement strategies. We expect that Angelenos will be reached via social media, phone calls, in-person engagement, volunteerism, to name a few methods.</p>
+  <p>Great question! We’re leaning on applicants to define how they plan to reach Angelenos and the number of people that will be reached via their various engagement strategies.</p>
 </details>
 
 <details>
   <summary>
     <h3 id="Why_did_you_start_the_My_LA2050_Activation_Challenge_4">Why did you start the My LA2050 Activation Challenge?</h3>
   </summary>
-  <p>LA is experiencing an exciting and important moment in civic activism. While we are inspired by those sparks of civic activism, by many traditional measures, LA lacks civic engagement on a local level. Further, many Angelenos report not knowing how to help address the issues they care about most.</p>
+  <p>LA is experiencing an exciting and important moment in civic activism. While we are inspired by those sparks of civic activism, by many traditional measures, LA lacks civic engagement on a local level. Further, many Angelenos report not knowing how to help address the issues they care about most. We're hoping that we can work together to help address barriers to civic engagement and direct civic energy to local actions.</p>
 </details>
 
 <details>
   <summary>
     <h3 id="Are_there_restrictions_on_what_the_activations_can_address_8">Are there restrictions on what the activations can address?</h3>
   </summary>
-  <p>All activities, whether your organization is a nonprofit or for-profit entity, must comply with the 501c(3) guidelines from the IRS. Please also carefully review the detailed rules for the activation challenge.</p>
+  <p>LA2050 can only fund projects that further charitable and educational purposes within the meaning of IRC section 501(c)(3). Thus, whether your organization is a nonprofit or for-profit entity, all activities for which you seek LA2050 grant funding must comply with section 501(c)(3). Please also carefully review the detailed rules for the activation challenge.</p>
 </details>
 
 <details>
@@ -56,7 +56,7 @@ color: tangerine
   <ul>
     <li>The opportunity to participate in a first-of-its-kind regional effort</li>
     <li>Increasing awareness and exposure around an issue important for LA’s future</li>
-    <li>Helping to create or crystallize a campaign, civic engagement, or mobilization idea</li>
+    <li>Helping to create or crystallize an activation, civic engagement, or mobilization idea</li>
     <li>Increased understanding of the LA social impact landscape</li>
     <li>The opportunity to cultivate and build new relationships with peers</li>
     <li>The chance to build a coalition of committed Angelenos and organizations to support an important issue for LA</li>
@@ -76,7 +76,7 @@ color: tangerine
     <li>Activations with clear pathways for Angelenos to get involved</li>
     <li>A spirit of collaboration and desire to unify and amplify collective efforts</li>
     <li>Clear focus on inclusion, diversity of voices, and equity</li>
-    <li>Efforts that not only produce positive results but are focused on increasinglocal engagement and civic participation</li>
+    <li>Efforts that not only produce positive results but are focused on increasing local engagement and civic participation</li>
     <li>A desire to test new strategies</li>
   </ul>
 </details>
@@ -86,7 +86,7 @@ color: tangerine
     <h3 id="What_are_some_tips_for_submitting_ideas_to_the_My_LA2050_Activation_Challenge_47">What are some tips for submitting ideas to the My LA2050 Activation Challenge?</h3>
   </summary>
   <p><em>Collaborate.</em> We are eager to see folks working together to improve Los Angeles.</p>
-  <p><em>Think about impact.</em> Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your activation campaign is feasible, implementable, and that it could impact the LA2050 goals and metrics outlined by a community of Angelenos.</p>
+  <p><em>Think about impact.</em> Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your activation is feasible, implementable, and that it could impact the LA2050 goals and metrics outlined by a community of Angelenos.</p>
   <p>Share how your activation will impact the LA2050 goal you are focusing on. For example, if you’ve chosen LA is the best place to learn, you might describe how your activation will improve graduation rates; if you’ve chosen LA is the best place to connect, you might explain how your activation will increase voting rates or volunteerism.</p>
   <p>We want to see that you’ve considered how to create a ladder of engagement for Angelenos. Show in your submission that you’re thinking about someone’s journey from uninformed to an activist for social change.</p>
   <p>Be sure to explain why you think the activation strategy and engagement methods are the best course of action for impacting the goal and metrics.</p>
