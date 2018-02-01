@@ -87,9 +87,9 @@ color: tangerine
   </summary>
   <p><em>Collaborate.</em> We are eager to see folks working together to improve Los Angeles.</p>
   <p><em>Think about impact.</em> Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your activation campaign is feasible, implementable, and that it could impact the LA2050 goals and metrics outlined by a community of Angelenos.</p>
-  <p>Share how your activation campaign will impact the LA2050 goal you are focusing on. For example, if you’ve chosen LA is the best place to learn, you might describe how your activation campaign will improve graduation rates; if you’ve chosen LA is the best place to connect, you might explain how your activation campaign will increase voting rates or volunteerism.</p>
+  <p>Share how your activation will impact the LA2050 goal you are focusing on. For example, if you’ve chosen LA is the best place to learn, you might describe how your activation will improve graduation rates; if you’ve chosen LA is the best place to connect, you might explain how your activation will increase voting rates or volunteerism.</p>
   <p>We want to see that you’ve considered how to create a ladder of engagement for Angelenos. Show in your submission that you’re thinking about someone’s journey from uninformed to an activist for social change.</p>
-  <p>Be sure to explain why you think the activation campaign strategy and engagement methods are the best course of action for impacting the goal and metrics.</p>
+  <p>Be sure to explain why you think the activation strategy and engagement methods are the best course of action for impacting the goal and metrics.</p>
   <p>Videos can help quickly articulate your project or your organization’s mission. To include a video, use a YouTube URL. If you don’t have a video, be sure to include a high-resolution photo that represents your idea or organization. Photos should be in JPG, PNG, or GIF format, at least 570 × 345 pixels. We suggest limiting attachment files to 5 MB each.</p>
   <p>Please note that when uploading documents file names containing special characters (!@#$%^&amp;\*()) are not allowed and file names should be less than or equal to 30 characters.</p>
   <p>Applicants should not expect to be able to revise their applications after the submission date.</p>
