@@ -20,6 +20,39 @@
   }
 
 
+  /* =Navigation Link
+  ----------------------------------------------- */
+  header {
+    position: relative;
+    z-index: 3;
+  }
+  figure.change-is-local {
+    position: relative;
+    z-index: 2;
+  }
+  .nav-link {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin: 0;
+  }
+  .nav-link a {
+    display: block;
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    padding: 1.125em;
+  }
+  .nav-link svg {
+    width: 1.5em;
+    height: 1.5em;
+    display: block;
+  }
+  .nav-link svg polygon {
+    fill: currentColor;
+  }
+
+
   /* =Colors
   ----------------------------------------------- */
   body {
@@ -2316,7 +2349,6 @@
       .home header {
         position: absolute;
         width: 100%;
-        z-index: 1;
         box-sizing: border-box;
         background: transparent;
       }
@@ -2508,11 +2540,6 @@
     .application-process li + li {
       margin-left: 0.375em;
     }
-  }
-
-
-  @supports (display: grid) {
-
   }
 
 
