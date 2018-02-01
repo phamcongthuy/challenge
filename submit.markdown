@@ -83,8 +83,8 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * Winning projects must be completed and the grant award must be expended within 24 months.
 * Ongoing projects are eligible for submission.
 * Previous applicants and winners of LA2050 grant programs may reapply.
-* *+Evaluation committee+*: In each goal category, the evaluation committee will select five finalists.
-* *+Public Vote+*: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
+* <em>Evaluation committee</em>: In each goal category, the evaluation committee will select five finalists.
+* <em>Public Vote</em>: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
 * Projects will be featured on this site and public voting will be open from Tuesday, June 19, 2018 (9am Pacific Time) through Friday, June 29, 2018 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
 * In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
