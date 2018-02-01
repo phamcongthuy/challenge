@@ -43,6 +43,12 @@
     color: white;
     padding: 1.125em;
   }
+  .nav-link a:hover,
+  .nav-link a:active,
+  .nav-link a:focus {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+  }
   .nav-link svg {
     width: 1.5em;
     height: 1.5em;
@@ -230,7 +236,7 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .action a {
-      font-size: 0.75em;
+      font-size: 0.875em;
     }
   }
   .action a:hover,
@@ -1201,9 +1207,9 @@
   main > h1 + .notifications p:first-child {
     margin-top: 0;
   }
-/*  main > h1 + .notifications p:not(.action) {
-    font-size: 1.5em;
-  }*/
+  main > h1 + .notifications p:not(.action) {
+    font-size: 1.25em;
+  }
   main > h1 + .notifications h3 {
     margin-top: 0;
     font-size: 1.5em;
@@ -2233,6 +2239,7 @@
     margin-bottom: 0.75rem;
   }
   figure.change-is-local .caption p:nth-child(2n) {
+    font-size: 1.25em;
     font-weight: normal;
     text-transform: none;
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
