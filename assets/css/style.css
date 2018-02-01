@@ -1488,6 +1488,7 @@
         max-width: none;
         font-size: 4em;
         font-weight: 900; /* @black */
+        letter-spacing: 1px;
       }
       body .goals ~ section:not(.team):not(.styled) > div > div h4 {
         max-width: none;
@@ -1864,8 +1865,27 @@
     margin-top: 0;
     color: inherit !important;
   }
+  .goals ~ section > div > div:last-of-type {
+    margin-top: 3em;
+  }
+
+  @media (min-width: 60em) {
+    .goals ~ section > div > div:last-of-type {
+      margin-top: 0;
+    }
+  }
   .goals ~ section > div > div:last-of-type h4 {
-    margin-top: 0;
+    margin-top: -4.5em;
+    position: relative;
+    left: -1.5rem;
+    z-index: 1;
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    line-height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
   }
   .goals ~ section > div > div:last-of-type ul {
     margin-bottom: 0;
@@ -1895,6 +1915,35 @@
     color: rgb(255, 194, 51); /* @banana */
     color: white !important;
   }
+
+
+  .goals ~ section.tangerine > div > div:last-of-type h4 {
+    background-color: rgb(255, 180, 71); /* @brighter-tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: white !important;
+  }
+  .goals ~ section.lime > div > div:last-of-type h4 {
+    background-color: rgb(161, 228, 79); /* @brighter-lime */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
+  }
+  .goals ~ section.blueberry > div > div:last-of-type h4 {
+    background-color: rgb(26, 189, 208); /* @brighter-blueberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+  .goals ~ section.banana > div > div:last-of-type h4 {
+    background-color: rgb(255, 214, 71); /* @brighter-banana */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
+  }
+  .goals ~ section.strawberry > div > div:last-of-type h4 {
+    background-color: rgb(255, 79, 156); /* @brighter-strawberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+
+
 
   .goals ~ section:not(.team).hidden {
     display: none;
