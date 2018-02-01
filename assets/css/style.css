@@ -2240,7 +2240,7 @@
   }
   figure.change-is-local .caption p:nth-child(2n) {
     font-size: 1.25em;
-    font-weight: normal;
+    font-weight: 500; /* @medium */
     text-transform: none;
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
     letter-spacing: normal;
