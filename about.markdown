@@ -21,13 +21,13 @@ LA2050 will commit to a two-year partnership leveraging its resources, assets, a
 
 ## LA2050 Partnership
 
-We want to work together! To partner, we plan on: 
-* Leveraging the LA2050 community to support and participate in the activation
-* Leading on planning public programming, including events, to connect our community to the activation
-* Offering communications assistance to build awareness and thought-leadership, including authoring articles, op-eds, and blog posts
-* Amplifying messaging on social media and via the LA2050 newsletter to support the activations
-* Designing assets for materials
-* Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
+We want to work together! To partner, we plan to: 
+* Leverage the LA2050 community to support and participate in the activation
+* Plan on planning public programming, including events, to connect our community to the activation
+* Offer communications assistance to build awareness and thought-leadership, including authoring articles, op-eds, and blog posts
+* Amplify messaging on social media and via the LA2050 newsletter to support the activations
+* Design assets for materials
+* Provide technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
 
 <div style="margin-top: 4.5em; border-width: 0 0 0.125em;
     border-style: solid;
