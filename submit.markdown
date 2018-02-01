@@ -32,8 +32,8 @@ _Applicants are encouraged to:_
 
 * Think boldly and creatively about the proposed activation
 * Ensure that the activation creates clear and accessible engagement pathways for Angelenos  
-* Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, participating in political processes, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. Strategies cannot include any political election-related activities like candidate endorsements.
-* If your organization plans to engage in lobbying, please be sure to provide an allocated budget in your application. 
+* Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to, policy advocacy, volunteering, participating in political processes, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. 
+* If your organization plans to engage in any activities that would constitute lobbying for tax law purposes, please be sure to provide an allocated budget with your application. LA2050 can only fund the non-lobbying portion of your project budgets.
 
 ### Dates
 
@@ -70,7 +70,8 @@ View the [full timeline](/timeline).
 * Clearly articulate the engagement strategies and tools that will be employed
 * Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
 * Submit a detailed budget explaining how funds will be used across the two year grant period
-* Detail any additional non-financial assistance needed from LA2050 to make the campaign successful
+* Detail any additional non-financial assistance needed from LA2050 to make the activation
+successful
 
 ### Rules
 
@@ -82,8 +83,8 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * Winning projects must be completed and the grant award must be expended within 24 months.
 * Ongoing projects are eligible for submission.
 * Previous applicants and winners of LA2050 grant programs may reapply.
-* Evaluation committee: In each goal category, the evaluation committee will select five finalists.
-* Public Vote: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
+* <u>Evaluation committee</u>: In each goal category, the evaluation committee will select five finalists.
+* <u>Public Vote</u>: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
 * Projects will be featured on this site and public voting will be open from Tuesday, June 19, 2018 (9am Pacific Time) through Friday, June 29, 2018 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
 * In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
