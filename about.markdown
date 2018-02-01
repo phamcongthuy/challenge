@@ -13,7 +13,7 @@ And now we want your help to take all of this work to the next level! We want yo
 
 ## About the My LA2050 Activation Challenge
 
-This is an open call via for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
+This is an open call for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded to five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
 
 The activations should aim to engage Angelenos to make a specific, tangible impact on one of the LA2050 goals and metrics by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
 
@@ -22,12 +22,12 @@ LA2050 will commit to a two-year partnership leveraging its resources, assets, a
 ## LA2050 Partnership
 
 We want to work together! To partner, we plan on: 
-* Leveraging the LA2050 community to support and participate in the activation campaign
-* Leading on planning public programming, including events, to connect its community to the activation campaign
+* Leveraging the LA2050 community to support and participate in the activation
+* Leading on planning public programming, including events, to connect its community to the activation
 * Offering communications assistance to help the coalition advance thought leadership, including authoring articles, op-eds, and blog posts
-* Amplifying messaging on social media and via its newsletter to support the campaigns
+* Amplifying messaging on social media and via its newsletter to support the activations
 * Designing assets for materials
-* Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful campaigns
+* Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
 
 <div style="margin-top: 4.5em; border-width: 0 0 0.125em;
     border-style: solid;
