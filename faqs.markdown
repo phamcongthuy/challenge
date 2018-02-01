@@ -9,7 +9,7 @@ color: tangerine
   <summary>
     <h3 id="100000-is-a-lot-of-people-do-we-have-to-activate-them-all-at-once">100,000 is a lot of people! Do we have to activate them all at once?</h3>
   </summary>
-  <p>100,000 is an exciting number of Angelenos to get involved in local issues. And it’ll be no easy feat. We anticipate that the number of people activated will occur over two years and will take many forms. Some people will just receive and open an email, others will actually click on something and show up to a meeting, others will become super volunteers or community organizers. We anticipate that successful activations will create a clear ladder of engagement that take people from unengaged to superstar activists, organizers, volunteers, etc.</p>
+  <p>100,000 is an exciting number of Angelenos to get involved in local issues. And it’ll be no easy feat. We anticipate that the number of people activated will occur over two years and will take many forms. Some people will just visit a website to learn about a new cause. Others will receive and open an email, others will actually click on something and show up to a meeting, and others will become super volunteers or community organizers. We anticipate that successful activations will create a clear ladder of engagement that take people from unengaged to superstar activists, organizers, volunteers, etc.</p>
 </details>
 
 <details>
