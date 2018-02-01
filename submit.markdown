@@ -90,7 +90,7 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
 * Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
 * Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
-* Read all the rules.
+* [Read all the rules](http://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf)
 
 ### Questions
 
