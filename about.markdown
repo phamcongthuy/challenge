@@ -23,9 +23,9 @@ LA2050 will commit to a two-year partnership leveraging its resources, assets, a
 
 We want to work together! To partner, we plan on: 
 * Leveraging the LA2050 community to support and participate in the activation
-* Leading on planning public programming, including events, to connect its community to the activation
-* Offering communications assistance to help the coalition advance thought leadership, including authoring articles, op-eds, and blog posts
-* Amplifying messaging on social media and via its newsletter to support the activations
+* Leading on planning public programming, including events, to connect our community to the activation
+* Offering communications assistance to build awareness and thought-leadership, including authoring articles, op-eds, and blog posts
+* Amplifying messaging on social media and via the LA2050 newsletter to support the activations
 * Designing assets for materials
 * Providing technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
 
@@ -248,7 +248,7 @@ Metrics
   <li>
     <img src="/assets/images/team/angie.jpg" width="200" alt="" /><br />
     <strong>Angie Jean-Marie</strong>
-    Director
+    Interim Director
   </li>
   <li>
     <img src="/assets/images/team/megan.jpg" width="200" alt="" /><br />
@@ -263,7 +263,7 @@ Metrics
   <li>
     <img src="/assets/images/team/tara.jpg" width="200" alt="" /><br />
     <strong>Tara Roth</strong>
-    Advisor and President of the Goldhirsh Foundation
+    President of the Goldhirsh Foundation
   </li>
 </ul>
 
