@@ -212,7 +212,6 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 Our region’s residents will have the economic means and cultural capital to lead active, healthy lives, and everyone benefits from a sustainable environment.
 
 By the year 2050, Los Angeles will have the nation’s lowest obesity rates and every neighborhood will have access to healthy, affordable food. Every family will be able to afford quality health care and housing. And no families will face environmental health hazards because of where they live or how much money they make.
-Metrics
 
 </div>
 
