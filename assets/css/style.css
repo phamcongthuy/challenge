@@ -135,7 +135,7 @@
     }
     footer {
       padding-top: 2.25em;
-      padding-bottom: 2.25em;
+      padding-bottom: 3em;
     }
   }
 
@@ -538,6 +538,7 @@
   }
 
   .activate-tag {
+    margin-top: 3em;
     font-weight: bold;
     font-size: 0.75em;
     letter-spacing: 0.2em;
@@ -985,6 +986,7 @@
     border-width: 0 0 0.125em;
     border-style: solid;
     border-color: rgb(217, 217, 217);
+    border-color: transparent;
     grid-column: 1/4 !important;
   }
 
@@ -1917,7 +1919,7 @@
     }
   }
   .goals ~ section > div > div:last-of-type h4 {
-    margin-top: -4.5em;
+    margin-top: -3em;
     position: relative;
     left: -1.5rem;
     z-index: 1;
@@ -1929,18 +1931,27 @@
     text-transform: uppercase;
     margin-bottom: 1.5em;
   }
+  @media (min-width: 60em) {
+    .goals ~ section > div > div:last-of-type h4 {
+      margin-top: -4.5em;
+    }
+  }
+
   .goals ~ section > div > div:last-of-type ul {
     margin-bottom: 0;
   }
   .goals ~ section.tangerine > div > div:last-of-type {
     background-color: rgb(249, 160, 51); /* @tangerine */
+    background-color: rgb(229, 140, 31); /* @darker-tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
     color: white !important;
   }
   .goals ~ section.lime > div > div:last-of-type {
     background-color: rgb(141, 208, 59); /* @lime */
+    background-color: rgb(121, 188, 39); /* @darker-lime */
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(41, 41, 41) !important;
+    color: white !important;
   }
   .goals ~ section.blueberry > div > div:last-of-type {
     background-color: rgb(6, 179, 188); /* @blueberry */
@@ -1949,8 +1960,10 @@
   }
   .goals ~ section.banana > div > div:last-of-type {
     background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(235, 174, 31); /* @darker-banana */
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(41, 41, 41) !important;
+    color: white !important;
   }
   .goals ~ section.strawberry > div > div:last-of-type {
     background-color: rgb(237, 59, 136); /* @strawberry */
@@ -1961,13 +1974,16 @@
 
   .goals ~ section.tangerine > div > div:last-of-type h4 {
     background-color: rgb(255, 180, 71); /* @brighter-tangerine */
+    background-color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
     color: white !important;
   }
   .goals ~ section.lime > div > div:last-of-type h4 {
     background-color: rgb(161, 228, 79); /* @brighter-lime */
+    background-color: rgb(141, 208, 59); /* @lime */
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(41, 41, 41) !important;
+    color: white !important;
   }
   .goals ~ section.blueberry > div > div:last-of-type h4 {
     background-color: rgb(26, 189, 208); /* @brighter-blueberry */
@@ -1976,8 +1992,10 @@
   }
   .goals ~ section.banana > div > div:last-of-type h4 {
     background-color: rgb(255, 214, 71); /* @brighter-banana */
+    background-color: rgb(255, 194, 51); /* @banana */
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(41, 41, 41) !important;
+    color: white !important;
   }
   .goals ~ section.strawberry > div > div:last-of-type h4 {
     background-color: rgb(255, 79, 156); /* @brighter-strawberry */
@@ -2428,17 +2446,17 @@
   }
   @media (min-width: 19em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 210vw;
+      height: 170vw;
     }
   }
   @media (min-width: 21em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 180vw;
+      height: 150vw;
     }
   }
   @media (min-width: 25em) and (max-width: 80em) {
     .home figure.change-is-local img {
-      height: 145vw;
+      height: 125vw;
     }
   }
   @media (min-width: 30em) and (max-width: 80em) {
