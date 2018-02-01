@@ -1571,7 +1571,7 @@
     @media (min-width: 60em) {
       body .goals ~ section:not(.team):not(.styled) > div {
         grid-template-columns: 1fr 1fr !important;
-        grid-column-gap: 3em !important;
+        grid-column-gap: 6em !important;
         grid-row-gap: 2.25em !important;
       }
       body .goals ~ section:not(.team):not(.styled) figure {
@@ -1595,6 +1595,7 @@
         align-self: stretch;
         margin-left: -3em;
         margin-bottom: -2.25em;
+        margin-right: -3em;
       }
       body .goals ~ section:not(.team):not(.styled) figure p {
         position: absolute;
@@ -1829,7 +1830,7 @@
     margin-bottom: 0;
   }
   .goals li {
-    margin: 0;
+    margin: 0.1em;
     text-align: center;
   }
   .goals .action a {
@@ -1837,25 +1838,61 @@
     border-radius: 0;
   }
 
-  .action.strawberry a,
   .goals .strawberry a {
     background-color: rgb(237, 59, 136); /* @strawberry */
+    border: 0.125em solid rgb(237, 59, 136); /* @strawberry */
   }
-  .action.blueberry a,
   .goals .blueberry a {
     background-color: rgb(6, 179, 188); /* @blueberry */
+    border: 0.125em solid rgb(6, 179, 188); /* @blueberry */
   }
-  .action.banana a,
   .goals .banana a {
     background-color: rgb(237, 192, 50); /* @dark-banana */
+    border: 0.125em solid rgb(237, 192, 50); /* @dark-banana */
   }
-  .action.tangerine a,
   .goals .tangerine a {
     background-color: rgb(249, 160, 51); /* @tangerine */
+    border: 0.125em solid rgb(249, 160, 51); /* @tangerine */
   }
-  .action.lime a,
   .goals .lime a {
     background-color: rgb(141, 208, 59); /* @lime */
+    border: 0.125em solid rgb(141, 208, 59); /* @lime */
+  }
+
+  .goals .strawberry a.active,
+  .goals .strawberry a:hover,
+  .goals .strawberry a:active,
+  .goals .strawberry a:focus {
+    background-color: white;
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .goals .blueberry a.active,
+  .goals .blueberry a:hover,
+  .goals .blueberry a:active,
+  .goals .blueberry a:focus {
+    background-color: white;
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  .goals .banana a.active,
+  .goals .banana a:hover,
+  .goals .banana a:active,
+  .goals .banana a:focus {
+    background-color: white;
+    color: rgb(237, 192, 50); /* @dark-banana */
+  }
+  .goals .tangerine a.active,
+  .goals .tangerine a:hover,
+  .goals .tangerine a:active,
+  .goals .tangerine a:focus {
+    background-color: white;
+    color: rgb(249, 160, 51); /* @tangerine */
+  }
+  .goals .lime a.active,
+  .goals .lime a:hover,
+  .goals .lime a:active,
+  .goals .lime a:focus {
+    background-color: white;
+    color: rgb(141, 208, 59); /* @lime */
   }
 
   .goals ~ section:not(.team) .action {
@@ -1921,7 +1958,6 @@
   .goals ~ section > div > div:last-of-type h4 {
     margin-top: -3em;
     position: relative;
-    left: -1.5rem;
     z-index: 1;
     background-color: rgb(249, 160, 51); /* @tangerine */
     line-height: 6em;
@@ -2009,15 +2045,6 @@
     display: none;
   }
 
-  .goals a {
-    transition: all 0.2s;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-  }
-  .goals a:hover,
-  .goals a:active,
-  .goals a:focus {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
-  }
     .goals ul {
       grid-column: 1/4 !important;
       text-align: center;

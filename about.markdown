@@ -277,31 +277,33 @@ Metrics
   var buttonsContainer = document.querySelector('.goals');
   var buttons = buttonsContainer.querySelectorAll('a');
 
+  function hideAllExcept(id) {
+
+    // Hide all of the goals except the first one
+    for (var index = 0; index < goals.length; index++) {
+      if (goals[index].id === id) {
+        goals[index].classList.remove('hidden');
+      } else {
+        goals[index].classList.add('hidden');
+      }
+    }
+  }
+
+  function closest(element, tagName) {
+
+    // If the element is the target
+    if (element.nodeName.toLowerCase() === tagName) return element;
+
+    var ancestor = element;
+    while ((ancestor = ancestor.parentElement) && ancestor.nodeName && ancestor.nodeName.toLowerCase() !== tagName);
+    if (ancestor && ancestor.nodeName && ancestor.nodeName.toLowerCase() === tagName) {
+      return ancestor;
+    }
+  }
+
+  var currentLink;
+
   if (goals.length > 1 && goals.length === buttons.length) {
-
-    function hideAllExcept(id) {
-
-      // Hide all of the goals except the first one
-      for (var index = 0; index < goals.length; index++) {
-        if (goals[index].id === id) {
-          goals[index].classList.remove('hidden');
-        } else {
-          goals[index].classList.add('hidden');
-        }
-      }
-    }
-
-    function closest(element, tagName) {
-
-      // If the element is the target
-      if (element.nodeName.toLowerCase() === tagName) return element;
-
-      var ancestor = element;
-      while ((ancestor = ancestor.parentElement) && ancestor.nodeName && ancestor.nodeName.toLowerCase() !== tagName);
-      if (ancestor && ancestor.nodeName && ancestor.nodeName.toLowerCase() === tagName) {
-        return ancestor;
-      }
-    }
 
     // If a link is pressed
     buttonsContainer.addEventListener('click', function(e) {
@@ -311,6 +313,9 @@ Metrics
       if (link) {
         // Hide all of the goals except the one that was chosen
         hideAllExcept(link.getAttribute('href').replace('#', ''));
+        if (currentLink) currentLink.classList.remove('active');
+        currentLink = link;
+        currentLink.classList.add('active');
 
         // TODO: Base this on whether the section title is in view
         // if (window.innerHeight > 600 && window.innerWidth > 600) {
@@ -322,6 +327,8 @@ Metrics
     }, false);
 
     hideAllExcept(goals[0].getAttribute('id'));
+    currentLink = buttonsContainer.querySelector('a');
+    currentLink.classList.add('active');
 
     // Link the buttons inside each goal to the next one
     // for (var index = 0; index < goals.length; index++) {
