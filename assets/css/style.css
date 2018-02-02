@@ -1172,8 +1172,10 @@
   footer .action a,
   main > h1:first-child + .action a {
     background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(237, 192, 50); /* @dark-banana */
     color: black;
     color: rgba(0, 0, 0, 0.65);
+    color: white;
   }
   footer .action a:hover,
   footer .action a:active,
