@@ -903,6 +903,7 @@
     }
   }
 
+  body.navigation h1,
   header h2,
   footer h2 {
     display: table;
@@ -952,8 +953,10 @@
   }
   footer h2 a {
   }
+  body.navigation h1 em,
   header h2 em,
   footer h2 em {
+    font-style: italic;
     font-weight: bold;
     color: inherit;
   }
@@ -2658,6 +2661,50 @@
     .application-process li + li {
       margin-left: 0.375em;
     }
+  }
+
+
+  /* =Navigation
+  ----------------------------------------------- */
+  body.navigation {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    color: rgb(255, 194, 51); /* @banana */
+    text-align: center;
+  }
+  body.navigation h1 {
+    font-size: inherit;
+  }
+  body.navigation ul {
+    font-size: 1.5em;
+  }
+  @media (min-width: 50em) {
+    body.navigation h1 {
+      font-size: 2vw;
+    }
+    body.navigation ul {
+      font-size: 3vw;
+    } 
+  }
+  body.navigation a,
+  body.navigation h1 {
+    color: inherit;
+  }
+  body.navigation a {
+    display: block;
+    text-decoration: none;
+    padding: 0.375em 1.5em;
+  }
+  body.navigation a:hover,
+  body.navigation a:active,
+  body.navigation a:focus {
+    color: white;
+  }
+  body.navigation ul,
+  body.navigation li {
+    list-style: none;
+    marign-left: 0;
+    padding-left: 0;
   }
 
 
