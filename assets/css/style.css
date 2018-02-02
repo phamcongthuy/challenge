@@ -234,11 +234,6 @@
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
   }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    .action a {
-      font-size: 0.875em;
-    }
-  }
   .action a:hover,
   .action a:active,
   .action a:focus {
@@ -1218,8 +1213,11 @@
   main > h1 + .notifications p:first-child {
     margin-top: 0;
   }
-  main > h1 + .notifications p:not(.action) {
-    font-size: 1.25em;
+  @media (min-width: 40em) {
+    main > h1 + .notifications p:not(.action) {
+      font-size: 1.5em;
+      font-size: 2vmax;
+    } 
   }
   main > h1 + .notifications h3 {
     margin-top: 0;
@@ -2342,13 +2340,18 @@
     margin-bottom: 0.75rem;
   }
   figure.change-is-local .caption p:nth-child(2n) {
-    font-size: 1.25em;
     font-weight: 500; /* @medium */
     text-transform: none;
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
     letter-spacing: normal;
     margin-left: auto;
     margin-right: auto;
+  }
+  @media (min-width: 40em) {
+    figure.change-is-local .caption p:nth-child(2n) {
+      font-size: 1.5em;
+      font-size: 2vmax;
+    }
   }
   figure.change-is-local .caption .action a {
     background-color: rgb(6, 179, 188); /* @blueberry */
@@ -2463,16 +2466,21 @@
         background: transparent;
       }
       .home header a {
-        color: white;
+        color: rgb(46, 219, 228); /* @bright-blueberry */
         text-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
+      }
+      .home header h2 a {
+        color: white;
       }
       .home header a:hover,
       .home header a:active,
       .home header a:focus {
         color: rgb(141, 208, 59); /* @lime */
-        color: rgb(237, 59, 136); /* @strawberry */
         color: rgb(6, 179, 188); /* @blueberry */
         color: rgb(46, 219, 228); /* @bright-blueberry */
+        color: white;
+        color: rgb(237, 59, 136); /* @strawberry */
+        color: rgb(255, 89, 176); /* @brighter-strawberry */
       }
       /*
       figure.change-is-local ~ .notifications {
