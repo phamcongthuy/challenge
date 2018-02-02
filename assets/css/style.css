@@ -750,6 +750,7 @@
       figure img {
         height: 45vw;
         object-fit: cover;
+        object-position: center;
       }
       /*
       figure.change-is-local .caption {
@@ -758,7 +759,6 @@
       figure.change-is-local img {
         height: 33vw;
       }
-      */
       figure img[src*="learn"] {
         height: 33.3333vw;
       }
@@ -776,6 +776,10 @@
       figure img[src*="live"] {
         height: 66.666vw;
         object-position: 0 75%;
+      }
+      */
+      figure img[src*="learn"] {
+        object-position: right;
       }
     }
   }
@@ -1895,6 +1899,45 @@
     color: rgb(141, 208, 59); /* @lime */
   }
 
+
+@supports (false) {
+  .goals ~ script + figure {
+    margin-top: -6em;
+  }
+
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals ~ script + figure {
+      margin-top: -9em;
+    }    
+  }
+
+  @media (min-width: 60em) {
+    .goals ~ script + figure {
+      margin-top: -10.5em;
+    }    
+  }
+}
+
+
+  /* Remove whitespace between goals and figure */
+  .goals ~ section:not(.team) {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .goals ~ figure {
+    margin-top: 0;
+  }
+  @media (min-width: 60em) {
+    .goals ~ section:not(.team) ul {
+      padding-bottom: 3rem;
+    }
+    .goals ~ figure {
+      margin-top: -1.5em;
+    }
+  }
+
+
+
   .goals ~ section:not(.team) .action {
     padding-top: 3em;
     max-width: none;
@@ -1930,7 +1973,7 @@
   .goals ~ section > div > div:last-of-type {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 3rem;
     box-sizing: border-box;
     width: 100vw;
   }

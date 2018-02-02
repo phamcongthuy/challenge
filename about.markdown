@@ -239,6 +239,7 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 </div></section>
 
+<!--
 <section class="team"><div markdown="1">
 
 ## LA2050 Team
@@ -268,6 +269,7 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 </div>
 </section>
+-->
 
 <script>
 (function() {
