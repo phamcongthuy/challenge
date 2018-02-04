@@ -146,8 +146,8 @@
   header a,
   footer a {
     color: white;
-    color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
@@ -950,8 +950,6 @@
     margin-top: 0;
     color: inherit;
     font-size: inherit;
-  }
-  footer h2 a {
   }
   body.navigation h1 em,
   header h2 em,
@@ -2670,10 +2668,13 @@
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: white;
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
     text-align: center;
   }
   body.navigation h1 {
-    font-size: inherit;
+    font-size: 1.25em;
+    line-height: 1;
+    letter-spacing: 1px;
   }
   body.navigation ul {
     font-size: 1.5em;
@@ -2691,8 +2692,10 @@
     color: inherit;
   }
   body.navigation a {
-    display: block;
     text-decoration: none;
+  }
+  body.navigation ul a {
+    display: block;
     padding: 0.375em 1.5em;
   }
   body.navigation a:hover,

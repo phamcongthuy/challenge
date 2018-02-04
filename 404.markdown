@@ -1,0 +1,15 @@
+---
+title: Page not found, 2018 My LA2050 Activation Challenge
+
+permalink: /404.html
+
+canonical_url: /
+---
+
+# Missing page
+
+<div class="notifications" markdown="1">
+Oops! This page couldn’t be found.
+
+You may want to visit our [home page](/) instead.
+</div>

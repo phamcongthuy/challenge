@@ -15,6 +15,12 @@
   <!-- for Windows 8 -->
   <meta name="msapplication-TileImage" content="/assets/images/favicon.png" />
   <meta name="msapplication-TileColor" content="rgb(240, 53, 133)" />
+
+  {% if page.canonical_url %}
+  <link rel="canonical" href="https://activation.la2050.org{{ page.canonical_url }}" />
+  {% else %}
+  <link rel="canonical" href="https://activation.la2050.org{{ page.url }}" />
+  {% endif %}
 </head>
 <body{% if page.color %} class="{{ page.color }}"{% endif %}>
 
@@ -152,10 +158,11 @@ if (!_dntEnabled()) {
   gtag('js', new Date());
 
   gtag('config', 'UA-1209628-2');
+  gtag('anonymizeIp', true); // https://support.google.com/analytics/answer/2763052
 
   (function() {
     var ga = document.createElement('script'); ga.async = true;
-    ga.src = 'https://www.googletagmanager.com/gtag/js?id=UA-1209628-2';
+    ga.src = 'https://www.googletagmanager.com/gtag/js?id=UA-1209628-2&aip=1';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 }
