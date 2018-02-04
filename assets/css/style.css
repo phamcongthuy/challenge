@@ -1113,6 +1113,8 @@
     margin-bottom: 1.5rem;
     text-align: center;
     max-width: none;
+    position: relative;
+    z-index: 1;
   }
   main > h1:first-child > span:not(.avoid-break) {
     display: block;
