@@ -2207,6 +2207,14 @@
     margin-top: 0;
   }
 
+  /* TRICKY: The details text may look super narrow in iOS Safari, if they have a max width. */
+  details h3,
+  details p,
+  details ol,
+  details ul {
+    max-width: none;
+  }
+
   details summary::-webkit-details-marker {
     color: rgb(249, 160, 51); /* @tangerine */
   }
@@ -2301,7 +2309,7 @@
 
   /* =FAQ Navigation
   ----------------------------------------------- */
-  .faq-nav div {
+/*  .faq-nav div {
     display: block !important;
   }
   .faq-nav ul,
@@ -2318,14 +2326,7 @@
   .faq-nav li a {
     display: block;
     padding: 0.75em 0;
-  }
-
-  .faq-nav {
-
-  }
-  .faq-mark {
-    background-color: rgb(255, 194, 51); /* @banana */
-  }
+  }*/
 
 
   /* =Home
