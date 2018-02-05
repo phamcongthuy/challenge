@@ -323,6 +323,8 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
         currentLink = link;
         currentLink.classList.add('active');
 
+        if (window.__updateImages) window.__updateImages();
+
         // TODO: Base this on whether the section title is in view
         // if (window.innerHeight > 600 && window.innerWidth > 600) {
           e.preventDefault();
@@ -332,8 +334,15 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
     }, false);
 
-    hideAllExcept(goals[0].getAttribute('id'));
-    currentLink = buttonsContainer.querySelector('a');
+    // https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript#answer-7228322
+    function randomIntFromInterval(min,max) {
+      return Math.floor(Math.random()*(max-min+1)+min);
+    }
+
+    var random = randomIntFromInterval(0, goals.length - 1);
+
+    hideAllExcept(goals[random].getAttribute('id'));
+    currentLink = buttonsContainer.querySelectorAll('a')[random];
     currentLink.classList.add('active');
 
     // Link the buttons inside each goal to the next one

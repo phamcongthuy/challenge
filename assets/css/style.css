@@ -754,6 +754,7 @@
     figure img {
       height: 66.6666vw;
       object-fit: cover;
+      will-change: object-position;
     }
     @media (min-width: 60em) {
       figure img {
