@@ -1008,12 +1008,19 @@
   }
 
   main {
+    padding-bottom: 0;
+  }
+  main > figure:last-child,
+  main > section:last-child {
+    margin-bottom: 0;
+  }
+/*  main {
     padding-bottom: 4.5em;
   }
   main > figure:last-child,
   main > section:last-child {
     margin-bottom: -4.5em;
-  }
+  }*/
 
   header ul,
   header li,
@@ -2149,6 +2156,7 @@
   .blueberry main > h1:first-child {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
   }
   .blueberry header a,
   .blueberry main > h1:first-child em {
