@@ -613,13 +613,14 @@
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure, hr {
     margin-top: 0.75em;
     margin-bottom: 0.75em;
-    max-width: 33rem;
+    max-width: 33em;
     margin-left: auto;
     margin-right: auto;
   }
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
+    max-width: 33rem;
   }
 
   /* http://type-scale.com/?size=16&scale=1.500&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
@@ -952,6 +953,7 @@
     margin-top: 0;
     color: inherit;
     font-size: inherit;
+    max-width: none;
   }
   body.navigation h1 em,
   header h2 em,
@@ -2199,6 +2201,21 @@
     color: rgb(249, 160, 51); /* @tangerine */
   }
 
+
+  /* SHIM: Make the list look nicer in browsers that don’t understand summary / details */
+  /* https://github.com/whatwg/html/issues/722 */
+  details > summary {
+    display: list-item;
+    list-style: disclosure-closed inside;
+  }
+  details {
+    display: block;
+  }
+  details[open] > summary {
+    list-style: disclosure-open inside;
+  }
+
+
   details {
     margin-top: 3em;
     max-width: 33em;
@@ -2217,8 +2234,8 @@
     max-width: none;
   }
 
-  details summary::-webkit-details-marker {
-    color: rgb(249, 160, 51); /* @tangerine */
+  summary {
+    color: rgb(249, 160, 51); /* @tangerine */;
   }
 
   details summary:focus {
@@ -2256,6 +2273,14 @@
       margin-right: 0.75rem;
     }
   }
+
+  /* SHIM: Work aroudn for Safari REM bug: https://colloq.io/blog/safaris-detailssummary-rem-font-size-issue */
+  details ~ h3 {
+    margin-top: 2em;
+    max-width: 22em;
+  }
+
+
 
   .tangerine main figure:last-child {
     margin-top: 3em;
