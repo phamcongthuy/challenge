@@ -752,9 +752,17 @@
   }
   @supports (object-fit: cover) {
     figure img {
-      height: 66.6666vw;
+      height: 100vw;
       object-fit: cover;
       will-change: object-position;
+    }
+    @media (min-width: 40em) {
+      figure img {
+        height: 66.6666vw;
+      }
+    }
+    .goals ~ section figure img {
+      height: 50vw;
     }
     @media (min-width: 60em) {
       figure img {
