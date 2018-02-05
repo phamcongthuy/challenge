@@ -42,12 +42,13 @@
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: white;
     padding: 1.125em;
+    border: 0.125em solid rgb(237, 59, 136); /* @strawberry */
   }
   .nav-link a:hover,
   .nav-link a:active,
   .nav-link a:focus {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: white;
+    background-color: white;
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   .nav-link svg {
     width: 1.5em;
@@ -177,7 +178,7 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     footer a {
-      font-size: 0.75em;
+      font-size: 0.875em;
     }
   }
   footer a:hover,
@@ -226,6 +227,7 @@
     background-color: rgb(249, 160, 51); /* @tangerine */
     background-color: rgb(255, 194, 51); /* @banana */
     background-color: rgb(237, 59, 136); /* @strawberry */
+    border: 0.125em solid rgb(237, 59, 136); /* @strawberry */
     color: white;
     padding: 0.75em 1.5em;
     display: inline-block;
@@ -240,6 +242,9 @@
     background-color: rgb(237, 59, 136); /* @strawberry */
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;
+
+    background-color: white;
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
 
@@ -283,7 +288,14 @@
   main > h1 + section,
   main > h1 + .action + section,
   main > section + section {
-    margin-top: -4.5em;
+    margin-top: -1.5em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    main > h1 + section,
+    main > h1 + .action + section,
+    main > section + section {
+      margin-top: -3em;
+    }
   }
   main > .goals + section {
     margin-top: 0;
@@ -462,6 +474,14 @@
     color: rgb(237, 59, 136); /* @strawberry */
   }
   @supports (display: grid) {
+    @media (min-width: 40em) {
+      .activation-examples ul {
+        display: grid;
+        grid-column-gap: 1.5em;
+        grid-template-columns: 1fr 1fr;
+        max-width: none;
+      }
+    }
     @media (min-width: 60em) {
       .timeline:not(.has-icons) dl {
         margin-top: 1.5em;
@@ -760,7 +780,7 @@
     }
     @media (min-width: 40em) {
       figure img {
-        height: 66.6666vw;
+        height: 75vw;
       }
     }
     .goals ~ section figure img {
@@ -1208,19 +1228,80 @@
   main > h1:first-child + .action a {
     background-color: rgb(255, 194, 51); /* @banana */
     background-color: rgb(237, 192, 50); /* @dark-banana */
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    border-color: rgb(6, 179, 188); /* @blueberry */
     color: black;
     color: rgba(0, 0, 0, 0.65);
     color: white;
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    border: 0.125em solid rgb(6, 179, 188); /* @blueberry */
   }
   footer .action a:hover,
   footer .action a:active,
-  footer .action a:focus {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-  }
-  main > h1:first-child + .action a:hover,
-  main > h1:first-child + .action a:active,
-  main > h1:first-child + .action a:focus {
+  footer .action a:focus,
+  main > h1:first-child + .action a,
+  main > h1:first-child + .action a,
+  main > h1:first-child + .action a {
+    background-color: rgb(237, 59, 136); /* @strawberry */
     background-color: white;
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+
+  .strawberry footer .action a {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    border: 0.125em solid rgb(237, 59, 136); /* @strawberry */
+  }
+  .blueberry footer .action a {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    border: 0.125em solid rgb(6, 179, 188); /* @blueberry */
+  }
+  .banana footer .action a {
+    background-color: rgb(237, 192, 50); /* @dark-banana */
+    border: 0.125em solid rgb(237, 192, 50); /* @dark-banana */
+  }
+  .tangerine footer .action a {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    border: 0.125em solid rgb(249, 160, 51); /* @tangerine */
+  }
+  .lime footer .action a {
+    background-color: rgb(141, 208, 59); /* @lime */
+    border: 0.125em solid rgb(141, 208, 59); /* @lime */
+  }
+
+  .strawberry footer .action a.active,
+  .strawberry footer .action a:hover,
+  .strawberry footer .action a:active,
+  .strawberry footer .action a:focus {
+    background-color: white;
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .blueberry footer .action a.active,
+  .blueberry footer .action a:hover,
+  .blueberry footer .action a:active,
+  .blueberry footer .action a:focus {
+    background-color: white;
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  .banana footer .action a.active,
+  .banana footer .action a:hover,
+  .banana footer .action a:active,
+  .banana footer .action a:focus {
+    background-color: white;
+    color: rgb(237, 192, 50); /* @dark-banana */
+  }
+  .tangerine footer .action a.active,
+  .tangerine footer .action a:hover,
+  .tangerine footer .action a:active,
+  .tangerine footer .action a:focus {
+    background-color: white;
+    color: rgb(249, 160, 51); /* @tangerine */
+  }
+  .lime footer .action a.active,
+  .lime footer .action a:hover,
+  .lime footer .action a:active,
+  .lime footer .action a:focus {
+    background-color: white;
+    color: rgb(141, 208, 59); /* @lime */
   }
 
   header,
@@ -2433,11 +2514,14 @@
   }
   figure.change-is-local .caption .action a {
     background-color: rgb(6, 179, 188); /* @blueberry */
+    border: 0.125em solid rgb(6, 179, 188); /* @blueberry */
   }
   figure.change-is-local .caption .action a:hover,
   figure.change-is-local .caption .action a:active,
   figure.change-is-local .caption .action a:focus {
     background-color: rgb(237, 59, 136); /* @strawberry */
+    background-color: white;
+    color: rgb(6, 179, 188); /* @blueberry */
   }
   h1 + figure {
     margin-top: -4.5em;
