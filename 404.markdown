@@ -6,10 +6,10 @@ permalink: /404.html
 canonical_url: /
 ---
 
-# Missing page
+# Oops!
 
 <div class="notifications" markdown="1">
-Oops! This page couldn’t be found.
+This page couldn’t be found.
 
 You may want to visit our [home page](/) instead.
 </div>
