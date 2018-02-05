@@ -273,6 +273,8 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 <script>
 (function() {
+  if (!document.querySelector || !document.body.addEventListener || !document.body.classList) return;
+
   var goals = document.querySelectorAll('.goals ~ section:not(.team)');
 
   var buttonsContainer = document.querySelector('.goals');
