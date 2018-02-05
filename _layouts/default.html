@@ -220,10 +220,10 @@ if (!_dntEnabled()) {
     for (var index = 0; index < images.length; index++) {
 
       if (isVisible(images[index], positions[index])) {
-        var scrollPositionRelativeToImage = window.scrollY - positions[index];
+        var scrollPositionRelativeToImage = images[index].getBoundingClientRect().top;
 
         var scrollPercentage = scrollPositionRelativeToImage / images[index].offsetHeight;
-        images[index].style.objectPosition = '50%' + (50 - (scrollPercentage * 10)) + '%';
+        images[index].style.objectPosition = '50%' + (50 + (scrollPercentage * 10)) + '%';
       }
 
     }
