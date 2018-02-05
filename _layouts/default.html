@@ -193,13 +193,23 @@ if (!_dntEnabled()) {
     }
   }
 
-  function isVisible(element, elementTop) {
-    var elementBottom = elementTop + element.offsetHeight;
-    var windowBottom  = window.scrollY  + window.innerHeight;
+  // function isVisible(element, elementTop) {
+  //   var elementBottom = elementTop + element.offsetHeight;
+  //   var windowBottom  = window.scrollY  + window.innerHeight;
 
-    // If the top edge of the window is greater than the top edge of the target
-    if ((elementTop > window.scrollY && elementTop < windowBottom) || 
-        (elementBottom > window.scrollY && elementBottom < windowBottom)) {
+  //   // If the top edge of the window is greater than the top edge of the target
+  //   if ((elementTop > window.scrollY && elementTop < windowBottom) || 
+  //       (elementBottom > window.scrollY && elementBottom < windowBottom)) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
+  // }
+
+  function isVisible(element) {
+    var elementTop = element.getBoundingClientRect().top;
+    var elementBottom = elementTop + element.offsetHeight;
+    if (elementTop - window.innerHeight < 0 && elementBottom > 0) {
       return true;
     } else {
       return false;

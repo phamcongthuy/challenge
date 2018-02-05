@@ -345,6 +345,118 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
     currentLink = buttonsContainer.querySelectorAll('a')[random];
     currentLink.classList.add('active');
 
+
+
+
+
+
+    (function() {
+
+      function isVisible(element) {
+        var elementTop = element.getBoundingClientRect().top;
+        var elementBottom = elementTop + element.offsetHeight;
+        if (elementTop - window.innerHeight < 0 && elementBottom > 0) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+      function isMostlyVisible(element) {
+        var elementTop = element.getBoundingClientRect().top;
+        var elementBottom = elementTop + element.offsetHeight;
+        if (elementTop - window.innerHeight < (-(window.innerHeight) / 2) && elementBottom > 0) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+      var interval;
+
+      var userInteracted = false;
+      buttonsContainer.addEventListener('click', function() {
+        console.log('click');
+        userInteracted = true;
+        clearInterval(interval);
+      }, false)
+
+      var goalsPosition;
+      function calculatePositions() {
+        // goalsPosition = buttonsContainer.getBoundingClientRect().top;
+        // console.log('goalsPosition: ' + goalsPosition);
+      }
+
+      function update() {
+        console.log('update');
+
+        // Switch to the next goal automatically, every few seconds
+        clearInterval(interval);
+        interval = setInterval(function() {
+          console.log('interval');
+
+          console.log('!isVisible(buttonsContainer): ' + (!isVisible(buttonsContainer)));
+          // console.log('userInteracted: ' + userInteracted);
+          // console.log('isVisible(document.querySelector(.goals ~ section:not(.team):not(.hidden))): ' + isVisible(document.querySelector('.goals ~ section:not(.team):not(.hidden)')))
+
+          // If the top of the goals area is visible, but the rest of the goals area is barely visible
+          // And if the user has not yet interacted with the goals area
+          if (!isVisible(buttonsContainer) || isMostlyVisible(document.querySelector('.goals ~ section:not(.team):not(.hidden)')) || userInteracted) return;
+
+          console.log('updating');
+
+          var linkItem = closest(currentLink, 'li');
+
+          // Get the next item element
+          var nextGoalItem = linkItem;
+          do {
+            nextGoalItem = nextGoalItem.nextSibling;
+          } while(nextGoalItem && nextGoalItem.nodeType !== Node.ELEMENT_NODE);
+
+          // Or use the first item element in the list
+          if (!nextGoalItem || nextGoalItem === linkItem) nextGoalItem = closest(currentLink, 'ul').querySelector('li:first-child');
+
+          // Show the next goal item
+          if (nextGoalItem) {
+            var items = buttonsContainer.querySelectorAll('li');
+            for (var index = 0; index < items.length; index++) {
+              if (items[index] === nextGoalItem) {
+
+                hideAllExcept(goals[index].getAttribute('id'));
+                if (currentLink) currentLink.classList.remove('active');
+                currentLink = buttonsContainer.querySelectorAll('a')[index];
+                currentLink.classList.add('active');
+
+                if (window.__updateImages) window.__updateImages();
+              }
+            }
+          }
+        }, 3000);
+      }
+
+      window.addEventListener('scroll', update);
+
+      (function() {
+        var timer;
+        window.addEventListener('resize', function(e) {
+          if (timer) clearTimeout(timer);
+          timer = setTimeout(function() {
+            calculatePositions();
+            update();
+          }, 100); // Wait for the resize to finish before recalculating
+        });
+      })();
+
+      window.addEventListener('load', function(e) {
+        calculatePositions();
+        update();
+      });
+
+      calculatePositions();
+      update();
+    })();
+
+
     // Link the buttons inside each goal to the next one
     // for (var index = 0; index < goals.length; index++) {
     //   goals[index].querySelector('.action').addEventListener('click', function(e) {
