@@ -613,14 +613,25 @@
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure, hr {
     margin-top: 0.75em;
     margin-bottom: 0.75em;
-    max-width: 33em;
-    margin-left: auto;
-    margin-right: auto;
   }
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
+  }
+  main h1,
+  main h2,
+  main h3,
+  main h4,
+  main h5,
+  main h6,
+  main p,
+  main ol,
+  main ul,
+  main dl,
+  main hr {
     max-width: 33rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* http://type-scale.com/?size=16&scale=1.500&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
@@ -635,7 +646,7 @@
   }
   h2 {
     margin-top: 3rem;
-    font-size: 1.75em;
+    font-size: 1.5em;
     line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
   }
   h3 {
@@ -820,9 +831,9 @@
       font-size: 3.375em;
       font-size: 6vmax;
     }
-    h2 {
+/*    h2 {
       font-size: 2.25em;
-    }
+    }*/
   }
 
   h1 em {
@@ -910,6 +921,8 @@
   header h2,
   footer h2 {
     display: table;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 500; /* @medium */
     font-size: 1.25em;
     text-transform: uppercase;
@@ -2095,11 +2108,15 @@
     display: none;
   }
 
+  .goals ul {
+    grid-column: 1/4 !important;
+    text-align: center;
+    max-width: none;
+    margin: 0;
+  }
+
+  @supports (display: flex) {
     .goals ul {
-      grid-column: 1/4 !important;
-      text-align: center;
-      max-width: none;
-      margin: 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -2108,6 +2125,7 @@
       flex-grow: 1;
       flex-basis: 7em;
     }
+  }
 
   main > section h1 {
     color: inherit;
@@ -2274,7 +2292,10 @@
     }
   }
 
-  /* SHIM: Work aroudn for Safari REM bug: https://colloq.io/blog/safaris-detailssummary-rem-font-size-issue */
+  /* SHIM: Work around for Safari REM bug: https://colloq.io/blog/safaris-detailssummary-rem-font-size-issue */
+  details ~ p {
+    max-width: 33em;
+  }
   details ~ h3 {
     margin-top: 2em;
     max-width: 22em;
