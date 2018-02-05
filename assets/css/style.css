@@ -243,6 +243,8 @@
   }
 
 
+
+
   /* =Key Dates
   ----------------------------------------------- */
   .key-dates {
@@ -1878,59 +1880,59 @@
     border-radius: 0;
   }
 
-  .goals .strawberry a {
+  .action .strawberry a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.125em solid rgb(237, 59, 136); /* @strawberry */
   }
-  .goals .blueberry a {
+  .action .blueberry a {
     background-color: rgb(6, 179, 188); /* @blueberry */
     border: 0.125em solid rgb(6, 179, 188); /* @blueberry */
   }
-  .goals .banana a {
+  .action .banana a {
     background-color: rgb(237, 192, 50); /* @dark-banana */
     border: 0.125em solid rgb(237, 192, 50); /* @dark-banana */
   }
-  .goals .tangerine a {
+  .action .tangerine a {
     background-color: rgb(249, 160, 51); /* @tangerine */
     border: 0.125em solid rgb(249, 160, 51); /* @tangerine */
   }
-  .goals .lime a {
+  .action .lime a {
     background-color: rgb(141, 208, 59); /* @lime */
     border: 0.125em solid rgb(141, 208, 59); /* @lime */
   }
 
-  .goals .strawberry a.active,
-  .goals .strawberry a:hover,
-  .goals .strawberry a:active,
-  .goals .strawberry a:focus {
+  .action .strawberry a.active,
+  .action .strawberry a:hover,
+  .action .strawberry a:active,
+  .action .strawberry a:focus {
     background-color: white;
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .goals .blueberry a.active,
-  .goals .blueberry a:hover,
-  .goals .blueberry a:active,
-  .goals .blueberry a:focus {
+  .action .blueberry a.active,
+  .action .blueberry a:hover,
+  .action .blueberry a:active,
+  .action .blueberry a:focus {
     background-color: white;
     color: rgb(6, 179, 188); /* @blueberry */
   }
-  .goals .banana a.active,
-  .goals .banana a:hover,
-  .goals .banana a:active,
-  .goals .banana a:focus {
+  .action .banana a.active,
+  .action .banana a:hover,
+  .action .banana a:active,
+  .action .banana a:focus {
     background-color: white;
     color: rgb(237, 192, 50); /* @dark-banana */
   }
-  .goals .tangerine a.active,
-  .goals .tangerine a:hover,
-  .goals .tangerine a:active,
-  .goals .tangerine a:focus {
+  .action .tangerine a.active,
+  .action .tangerine a:hover,
+  .action .tangerine a:active,
+  .action .tangerine a:focus {
     background-color: white;
     color: rgb(249, 160, 51); /* @tangerine */
   }
-  .goals .lime a.active,
-  .goals .lime a:hover,
-  .goals .lime a:active,
-  .goals .lime a:focus {
+  .action .lime a.active,
+  .action .lime a:hover,
+  .action .lime a:active,
+  .action .lime a:focus {
     background-color: white;
     color: rgb(141, 208, 59); /* @lime */
   }
@@ -2734,10 +2736,13 @@
   ----------------------------------------------- */
   body.navigation {
     background-color: rgb(237, 59, 136); /* @strawberry */
+    background-color: rgb(217, 39, 116); /* @dark-strawberry */
     color: white;
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
   }
   body.navigation h1 {
     font-size: 1.25em;
@@ -2746,6 +2751,9 @@
   }
   body.navigation ul {
     font-size: 1.5em;
+    max-width: 33rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   @media (min-width: 50em) {
     body.navigation h1 {
@@ -2755,10 +2763,17 @@
       font-size: 3vw;
     } 
   }
-  body.navigation a,
-  body.navigation h1 {
+  body.navigation h1,
+  body.navigation h1 a {
     color: inherit;
   }
+  body.navigation li {
+    /*border-top: 2px solid rgba(0, 0, 0, 0.1);*/
+    margin: 0.25em;
+  }
+/*  body.navigation li:last-child {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }*/
   body.navigation a {
     text-decoration: none;
   }

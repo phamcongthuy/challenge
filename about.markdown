@@ -376,7 +376,6 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
       var userInteracted = false;
       buttonsContainer.addEventListener('click', function() {
-        console.log('click');
         userInteracted = true;
         clearInterval(interval);
       }, false)
@@ -388,22 +387,14 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
       }
 
       function update() {
-        console.log('update');
 
         // Switch to the next goal automatically, every few seconds
         clearInterval(interval);
         interval = setInterval(function() {
-          console.log('interval');
-
-          console.log('!isVisible(buttonsContainer): ' + (!isVisible(buttonsContainer)));
-          // console.log('userInteracted: ' + userInteracted);
-          // console.log('isVisible(document.querySelector(.goals ~ section:not(.team):not(.hidden))): ' + isVisible(document.querySelector('.goals ~ section:not(.team):not(.hidden)')))
 
           // If the top of the goals area is visible, but the rest of the goals area is barely visible
           // And if the user has not yet interacted with the goals area
           if (!isVisible(buttonsContainer) || isMostlyVisible(document.querySelector('.goals ~ section:not(.team):not(.hidden)')) || userInteracted) return;
-
-          console.log('updating');
 
           var linkItem = closest(currentLink, 'li');
 
