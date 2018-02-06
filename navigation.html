@@ -29,7 +29,8 @@
     <li><a href="/faqs"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
   </ul>
 
-  <p class="back">
+  <p class="back strawberry">
+    <span class="action">
     <a href="/">
       <svg width="20" height="20" viewBox="0 0 20 20">
         <!--
@@ -39,6 +40,7 @@
         <foreignObject>Go back</foreignObject>
       </svg>
     </a>
+    </span>
   </p>
 
   <script>
@@ -54,9 +56,28 @@
       return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
     var previousPage = getParameterByName('previous_page');
+    var previousLinkContainer = document.querySelector('.back');
     var previousLink = document.querySelector('.back a');
     if (previousPage && previousLink) {
       previousLink.setAttribute('href', previousPage);
+
+      if (previousPage.indexOf('vote') >= 0) {
+        previousLinkContainer.classList.remove('strawberry');
+        previousLinkContainer.classList.add('blueberry');
+      } else if (previousPage.indexOf('timeline') >= 0) {
+        previousLinkContainer.classList.remove('strawberry');
+        previousLinkContainer.classList.add('banana');
+      } else if (previousPage.indexOf('submit') >= 0) {
+        previousLinkContainer.classList.remove('strawberry');
+        previousLinkContainer.classList.add('lime');
+      } else if (previousPage.indexOf('faqs') >= 0) {
+        previousLinkContainer.classList.remove('strawberry');
+        previousLinkContainer.classList.add('tangerine');
+      } else if (previousPage === '/') {
+        previousLinkContainer.classList.remove('strawberry');
+        previousLinkContainer.classList.add('blueberry');
+      }
+
       previousLink.addEventListener('click', function(e) {
         if (document.referrer != '') {
           window.history.back();
