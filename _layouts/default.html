@@ -268,6 +268,20 @@ if (!_dntEnabled()) {
 })();
 </script>
 
+<script>
+(function() {
+
+  var navLink = document.querySelector('.nav-link a');
+  if (navLink) {
+
+    // https://stackoverflow.com/questions/1034621/get-the-current-url-with-javascript
+    var currentPage = window.location.href.toString().split(window.location.host)[1];
+
+    navLink.setAttribute('href', '/navigation?previous_page=' + currentPage);
+  }
+
+})();
+</script>
 
 </body>
 </html>

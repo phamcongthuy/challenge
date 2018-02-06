@@ -19,6 +19,7 @@
   <link rel="canonical" href="https://activation.la2050.org/" />
 </head>
 <body class="navigation">
+
   <h1><a href="/">My LA2050<br /><em>Activation</em><br />Challenge</a></h1>
   <ul>
     <li><a href="/about">About</a></li>
@@ -27,5 +28,38 @@
     <li><a href="/timeline">Timeline</a></li>
     <li><a href="/faqs"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
   </ul>
+
+  <p class="back">
+    <a href="/">
+      <svg width="20" height="20" viewBox="0 0 20 20">
+        <!--
+        <path d="M2.143 10l7.857 7.857 1.947-1.947-4.534-4.534h10.443v-2.753h-10.443l4.534-4.534-1.947-1.947z"></path>
+        -->
+        <path d="M17.792 3.766l-1.558-1.559-6.234 6.234-6.234-6.234-1.559 1.558 6.234 6.234-6.234 6.234 1.558 1.558 6.234-6.234 6.234 6.234 1.558-1.558-6.234-6.234z"></path>
+        <foreignObject>Go back</foreignObject>
+      </svg>
+    </a>
+  </p>
+
+  <script>
+  (function() {
+    // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    var previousPage = getParameterByName('previous_page');
+    var previousLink = document.querySelector('.back a');
+    if (previousPage && previousLink) {
+      previousLink.setAttribute('href', previousPage);
+    }
+  })();
+  </script>
+
 </body>
 </html>

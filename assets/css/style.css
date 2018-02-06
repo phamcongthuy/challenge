@@ -2790,10 +2790,6 @@
 
   /* =Navigation
   ----------------------------------------------- */
-  html, body {
-    height: 100%;
-    box-sizing: border-box;
-  }
   body.navigation {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 194, 51); /* @banana */
@@ -2854,6 +2850,25 @@
     list-style: none;
     marign-left: 0;
     padding-left: 0;
+  }
+  body.navigation .back {
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  body.navigation .back a {
+    display: block;
+    padding: 1.125em;
+  }
+  body.navigation .back svg {
+    width: 1.5em;
+    height: 1.5em;
+    display: block;
+  }
+  body.navigation .back svg path {
+    fill: currentColor;
   }
 
 
