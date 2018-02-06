@@ -57,6 +57,12 @@
     var previousLink = document.querySelector('.back a');
     if (previousPage && previousLink) {
       previousLink.setAttribute('href', previousPage);
+      previousLink.addEventListener('click', function(e) {
+        if (document.referrer != '') {
+          window.history.back();
+          e.preventDefault(); 
+        }
+      }, false);
     }
   })();
   </script>
