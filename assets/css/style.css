@@ -1184,7 +1184,7 @@
     text-align: center;
     max-width: none;
   }
-  .nav-link.action a,
+  body .nav-link.action a,
   footer .action a,
   main > h1:first-child + .action a {
     background-color: rgb(255, 194, 51); /* @banana */
@@ -1194,13 +1194,13 @@
     color: black;
     color: rgba(0, 0, 0, 0.65);
     color: white;
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    border: 0.125em solid rgb(6, 179, 188); /* @blueberry */
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    border: 0.125em solid rgb(237, 59, 136); /* @strawberry */
   }
 
-  .nav-link.action a:hover,
-  .nav-link.action a:active,
-  .nav-link.action a:focus,
+  body .nav-link.action a:hover,
+  body .nav-link.action a:active,
+  body .nav-link.action a:focus,
   footer .action a:hover,
   footer .action a:active,
   footer .action a:focus,
@@ -1209,7 +1209,7 @@
   main > h1:first-child + .action a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     background-color: white;
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
   .strawberry .action a {
