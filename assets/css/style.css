@@ -2605,9 +2605,9 @@
         color: rgb(141, 208, 59); /* @lime */
         color: rgb(6, 179, 188); /* @blueberry */
         color: rgb(46, 219, 228); /* @bright-blueberry */
-        color: white;
         color: rgb(237, 59, 136); /* @strawberry */
         color: rgb(255, 89, 176); /* @brighter-strawberry */
+        color: white;
       }
       /*
       figure.change-is-local ~ .notifications {
