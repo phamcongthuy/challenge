@@ -278,6 +278,11 @@ if (!_dntEnabled()) {
     var currentPage = window.location.href.toString().split(window.location.host)[1];
 
     navLink.setAttribute('href', '/navigation?previous_page=' + currentPage);
+
+    // navLink.addEventListener('click', function(e) {
+    //   document.body.classList.toggle('has-active-menu');
+    //   e.preventDefault();
+    // }, false);
   }
 
 })();

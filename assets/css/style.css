@@ -2856,7 +2856,7 @@
     color: white;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
   }
   body.navigation .back a {
     display: block;
@@ -2902,6 +2902,13 @@
     fill: currentColor;
   }
 
+/*  .has-active-menu header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+*/
 
   /* =Fonts
   ----------------------------------------------- */
