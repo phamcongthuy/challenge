@@ -241,7 +241,16 @@ if (!_dntEnabled()) {
     }
   }
 
-  window.addEventListener('scroll', update);
+  var doUpdate = true;
+  window.addEventListener('scroll', function() {
+    if (doUpdate) {
+      requestAnimationFrame(update);
+      doUpdate = false;
+      setTimeout(function() {
+        doUpdate = true;
+      }, 100);
+    }
+  });
 
   var timer;
   window.addEventListener('resize', function(e) {
