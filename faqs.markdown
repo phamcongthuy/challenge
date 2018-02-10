@@ -23,9 +23,8 @@ color: tangerine
   <summary>
     <h3 id="Why_did_you_start_the_My_LA2050_Activation_Challenge_4">Why did you start the My LA2050 Activation Challenge?</h3>
   </summary>
-  <p>The My LA2050 Activation Challenge represents a pivot from the past four My LA2050 grants challenges. This challenge is focused on building, organizing, and supporting a united LA2050 community to take action and produce the LA we all dream of.
-<br><br>
-We've been inspired by the sparks of activism we've seen, but by traditional measures, LA has lacked civic engagement on a local level. We're hoping that this activation challenge can help address barriers to civic engagement and create mechanisms to direct energy into local change.
+  <p>The My LA2050 Activation Challenge represents a pivot from the past four My LA2050 grants challenges. This challenge is focused on building, organizing, and supporting a united LA2050 community to take action and produce the LA we all dream of.</p>
+  <p>We’ve been inspired by the sparks of activism we’ve seen, but by traditional measures, LA has lacked civic engagement on a local level. We’re hoping that this activation challenge can help address barriers to civic engagement and create mechanisms to direct energy into local change.
   </p>
 </details>
 
