@@ -50,23 +50,14 @@
         var scrollPositionRelativeToImage = images[index].getBoundingClientRect().top;
 
         var scrollPercentage = scrollPositionRelativeToImage / images[index].offsetHeight;
-        // images[index].style.objectPosition = (50 + (scrollPercentage * 2)) + '% ' + (50 + (scrollPercentage * 10)) + '%';
-        images[index].style.objectPosition = '50% ' + (50 + (scrollPercentage * 10)) + '%';
+        images[index].style.objectPosition = (50 + (scrollPercentage * 2)) + '% ' + (50 + (scrollPercentage * 10)) + '%';
+        // images[index].style.objectPosition = '50% ' + (50 + (scrollPercentage * 10)) + '%';
       }
 
     }
   }
 
-  var doUpdate = true;
-  window.addEventListener('scroll', function() {
-    if (doUpdate) {
-      requestAnimationFrame(update);
-      doUpdate = false;
-      setTimeout(function() {
-        doUpdate = true;
-      }, 100);
-    }
-  });
+  window.addEventListener('scroll', update);
 
   var timer;
   window.addEventListener('resize', function(e) {

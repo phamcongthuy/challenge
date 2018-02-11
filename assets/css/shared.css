@@ -66,21 +66,21 @@
 
   .blueberry main > p a {
     color: rgb(237, 192, 50); /* @dark-banana */
+    color: rgb(6, 179, 188); /* @blueberry */
   }
   .blueberry main > p a:hover,
   .blueberry main > p a:active,
   .blueberry main > p a:focus {
     color: rgb(237, 192, 50); /* @dark-banana */
-    color: rgb(6, 179, 188); /* @blueberry */
   }
 
   .tangerine main a {
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(249, 160, 51); /* @tangerine */
   }
   .tangerine main a:hover,
   .tangerine main a:active,
   .tangerine main a:focus {
-    color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
   .lime main a:hover,
@@ -92,6 +92,7 @@
   .strawberry main > ul a,
   .strawberry main > p a {
     color: rgb(237, 192, 50); /* @dark-banana */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   .strawberry main > ul a:hover,
   .strawberry main > ul a:active,
@@ -100,7 +101,6 @@
   .strawberry main > p a:active,
   .strawberry main > p a:focus {
     color: rgb(237, 192, 50); /* @dark-banana */
-    color: rgb(237, 59, 136); /* @strawberry */
   }
 
   img {
@@ -560,11 +560,14 @@
   }
 
   .activate-tag {
-    margin-top: 3em;
+    margin-top: 4.5em;
     font-weight: bold;
     font-size: 0.75em;
     letter-spacing: 0.2em;
     color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .activate-tag + h2 {
+    margin-top: 1.5rem;
   }
 /*  @media (max-width: 180em) {
     .activate-tag + h2.fancy > span {
@@ -784,11 +787,13 @@
   .standard-figure:first-child {
     margin-top: 0;
   }
+
   @supports (object-fit: cover) {
     .standard-figure img {
       height: 100vw;
       object-fit: cover;
-      will-change: object-position;
+      /* will-change: object-position; */
+      /*transition: object-position linear 1s;*/
     }
     @media (min-width: 40em) {
       .standard-figure img {
