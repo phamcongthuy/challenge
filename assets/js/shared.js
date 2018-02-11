@@ -50,7 +50,8 @@
         var scrollPositionRelativeToImage = images[index].getBoundingClientRect().top;
 
         var scrollPercentage = scrollPositionRelativeToImage / images[index].offsetHeight;
-        images[index].style.objectPosition = (50 + (scrollPercentage * 2)) + '% ' + (50 + (scrollPercentage * 10)) + '%';
+        // images[index].style.objectPosition = (50 + (scrollPercentage * 2)) + '% ' + (50 + (scrollPercentage * 10)) + '%';
+        images[index].style.objectPosition = '50% ' + (50 + (scrollPercentage * 10)) + '%';
       }
 
     }
@@ -103,38 +104,57 @@
     navLink.setAttribute('href', '/navigation?previous_page=' + currentPage);
 
     // navLink.parentNode.style.display = 'none';
-    // navLink.addEventListener('click', function(e) {
-    //   document.body.classList.toggle('has-active-nav');
-    //   e.preventDefault();
-    // }, false);
+    navLink.addEventListener('click', function(e) {
+      document.body.classList.toggle('has-active-nav');
+      e.preventDefault();
+    }, false);
   }
 
 })();
 
 (function() {
-
   /* Do we have the features we need? */
   if (!document.querySelector || !window.addEventListener || !document.body.classList) return;
 
+  var fadeInTimer;
+  function fadeIn() {
+    document.body.classList.add('transition-header-in');
+    clearTimeout(fadeInTimer);
+    fadeInTimer = setTimeout(function() {
+      document.body.classList.remove('transition-header-in');
+    }, 400);
+  }
+
+  var animationTimer;
   function updateScrollPosition(e) {
+
     /* OPTIONAL: Add a class name of “header-not-visible” to the header,
                  including the navigation, is not visible. */
-    if (window.scrollY >= 300) {
+
+    if (window.scrollY >= 300 && !document.body.classList.contains('header-not-visible')) {
       document.body.classList.add('header-not-visible');
-    } else {
+
+      clearTimeout(animationTimer);
+      setTimeout(function() {
+        document.body.classList.add('animate-header');
+      }, 1);
+      fadeIn();
+    } else if (window.scrollY < 300 && document.body.classList.contains('header-not-visible')) {
       document.body.classList.remove('header-not-visible');
+      document.body.classList.remove('animate-header');
+      clearTimeout(animationTimer);
+      fadeIn();
     }
+
+    document.body.classList.remove('has-active-nav');
   }
 
   updateScrollPosition();
 
-  (function() {
-    var throttle;
-    window.addEventListener('scroll', function() {
-      if (throttle) clearTimeout(throttle);
-      throttle = setTimeout(updateScrollPosition, 10);
-    }, false);
-  })();
+  window.addEventListener('scroll', function() {
+    requestAnimationFrame(updateScrollPosition);
+  }, false);
+
 })();
 
 
