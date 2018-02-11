@@ -146,12 +146,12 @@
       setTimeout(function() {
         document.body.classList.add('animate-header');
       }, 1);
-      fadeIn();
+      // fadeIn();
     } else if (window.scrollY < 300 && document.body.classList.contains('header-not-visible')) {
       document.body.classList.remove('header-not-visible');
       document.body.classList.remove('animate-header');
       clearTimeout(animationTimer);
-      fadeIn();
+      // fadeIn();
     }
 
     document.body.classList.remove('has-active-nav');
