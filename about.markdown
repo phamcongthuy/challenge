@@ -375,12 +375,13 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
         }
       }
 
-      var interval;
+      var timeout;
 
       var userInteracted = false;
       buttonsContainer.addEventListener('click', function() {
         userInteracted = true;
-        clearInterval(interval);
+        clearTimeout(timeout);
+        timeout = undefined;
       }, false)
 
       var goalsPosition;
@@ -389,43 +390,57 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
         // console.log('goalsPosition: ' + goalsPosition);
       }
 
+      function _update() {
+
+        // If the top of the goals area is visible, but the rest of the goals area is barely visible
+        // And if the user has not yet interacted with the goals area
+        if (!isVisible(buttonsContainer) || isMostlyVisible(document.querySelector('.goals ~ section:not(.team):not(.hidden)')) || userInteracted) return;
+
+        var linkItem = closest(currentLink, 'li');
+
+        // Get the next item element
+        var nextGoalItem = linkItem;
+        do {
+          nextGoalItem = nextGoalItem.nextSibling;
+        } while(nextGoalItem && nextGoalItem.nodeType !== Node.ELEMENT_NODE);
+
+        // Or use the first item element in the list
+        if (!nextGoalItem || nextGoalItem === linkItem) nextGoalItem = closest(currentLink, 'ul').querySelector('li:first-child');
+
+        // Show the next goal item
+        if (nextGoalItem) {
+          var items = buttonsContainer.querySelectorAll('li');
+          for (var index = 0; index < items.length; index++) {
+            if (items[index] === nextGoalItem) {
+
+              hideAllExcept(goals[index].getAttribute('id'));
+              if (currentLink) currentLink.classList.remove('active');
+              currentLink = buttonsContainer.querySelectorAll('a')[index];
+              currentLink.classList.add('active');
+
+              if (window.__updateImages) window.__updateImages();
+            }
+          }
+        }
+        timeout = setTimeout(_update, 3000);
+      }
+
       function update() {
 
         // Switch to the next goal automatically, every few seconds
-        clearInterval(interval);
-        interval = setInterval(function() {
-
+        if (timeout) {
           // If the top of the goals area is visible, but the rest of the goals area is barely visible
           // And if the user has not yet interacted with the goals area
-          if (!isVisible(buttonsContainer) || isMostlyVisible(document.querySelector('.goals ~ section:not(.team):not(.hidden)')) || userInteracted) return;
+          if (!isVisible(buttonsContainer) || isMostlyVisible(document.querySelector('.goals ~ section:not(.team):not(.hidden)')) || userInteracted) {
 
-          var linkItem = closest(currentLink, 'li');
-
-          // Get the next item element
-          var nextGoalItem = linkItem;
-          do {
-            nextGoalItem = nextGoalItem.nextSibling;
-          } while(nextGoalItem && nextGoalItem.nodeType !== Node.ELEMENT_NODE);
-
-          // Or use the first item element in the list
-          if (!nextGoalItem || nextGoalItem === linkItem) nextGoalItem = closest(currentLink, 'ul').querySelector('li:first-child');
-
-          // Show the next goal item
-          if (nextGoalItem) {
-            var items = buttonsContainer.querySelectorAll('li');
-            for (var index = 0; index < items.length; index++) {
-              if (items[index] === nextGoalItem) {
-
-                hideAllExcept(goals[index].getAttribute('id'));
-                if (currentLink) currentLink.classList.remove('active');
-                currentLink = buttonsContainer.querySelectorAll('a')[index];
-                currentLink.classList.add('active');
-
-                if (window.__updateImages) window.__updateImages();
-              }
-            }
+            clearTimeout(timeout);
+            timeout = undefined;
           }
-        }, 3000);
+          return;
+        }
+
+        clearTimeout(timeout);
+        timeout = setTimeout(_update, 1000);
       }
 
       window.addEventListener('scroll', update);
