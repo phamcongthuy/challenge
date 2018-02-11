@@ -1,20 +1,9 @@
 ---
 title: Submit Your Proposal for the 2018 My LA2050 Activation Challenge
-color: lime
+color: strawberry
 ---
 
 # Submit Your Proposal
-
-<!--
-### To apply, organizations will:
-
-* Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation;
-* Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
-* Clearly articulate the engagement strategies and tools that will be employed
-* Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
-* Submit a detailed budget explaining how funds will be used across the two year grant period
-* Detail any additional non-financial assistance needed from LA2050 to make the successful
--->
 
 <div class="notifications" markdown="1">
 

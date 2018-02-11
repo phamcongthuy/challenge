@@ -64,6 +64,28 @@
     color: rgb(6, 179, 188); /* @blueberry */
   }
 
+  .blueberry main > p a {
+    color: rgb(237, 192, 50); /* @dark-banana */
+  }
+  .blueberry main > p a:hover,
+  .blueberry main > p a:active,
+  .blueberry main > p a:focus {
+    color: rgb(237, 192, 50); /* @dark-banana */
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+
+  .tangerine main a:hover,
+  .tangerine main a:active,
+  .tangerine main a:focus {
+    color: rgb(249, 160, 51); /* @tangerine */
+  }
+
+  .lime main > p a:hover,
+  .lime main > p a:active,
+  .lime main > p a:focus {
+    color: rgb(141, 208, 59); /* @lime */
+  }
+
   img {
     max-width: 100%;
     height: auto;
@@ -1277,6 +1299,39 @@
     color: rgb(141, 208, 59); /* @lime */
   }
 
+  .notifications .action a {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    border: 0.125em solid rgb(237, 59, 136); /* @strawberry */
+  }
+  .notifications .action a:hover,
+  .notifications .action a:active,
+  .notifications .action a:focus {
+    background-color: white;
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+
+  .strawberry .notifications .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    border: 0.125em solid rgb(255, 194, 51); /* @banana */
+  }
+  .strawberry .notifications .action a:hover,
+  .strawberry .notifications .action a:active,
+  .strawberry .notifications .action a:focus {
+    background-color: white;
+    color: rgb(255, 194, 51); /* @banana */
+  }
+
+  .blueberry .notifications .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    border: 0.125em solid rgb(255, 194, 51); /* @banana */
+  }
+  .blueberry .notifications .action a:hover,
+  .blueberry .notifications .action a:active,
+  .blueberry .notifications .action a:focus {
+    background-color: white;
+    color: rgb(255, 194, 51); /* @banana */
+  }
+
   header,
   footer {
     text-align: center;
@@ -2337,9 +2392,11 @@
   }
   details summary:focus h3 {
     color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   details summary:focus::-webkit-details-marker {
     color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
   details {
@@ -3012,7 +3069,7 @@
     .banana.has-active-nav header,
     .banana.header-not-visible header {
       background: white;
-      color: rgb(255, 194, 51); /* @banana */
+      color: rgb(237, 59, 136); /* @strawberry */
     }
     .banana .nav-link a {
       border-color: white;
@@ -3029,7 +3086,8 @@
     .banana.header-not-visible header a:hover,
     .banana.header-not-visible header a:active,
     .banana.header-not-visible header a:focus {
-      color: rgb(237, 59, 136); /* @strawberry */
+      background: white;
+      color: rgb(255, 194, 51); /* @banana */
     }
   }
 

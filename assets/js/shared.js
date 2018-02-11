@@ -110,6 +110,14 @@
     }, false);
   }
 
+  var headerLinks = document.querySelectorAll('header a');
+  for (var index = 0; index < headerLinks.length; index++) {
+    headerLinks[index].addEventListener('focus', function(e) {
+      setTimeout(function() {
+        document.body.classList.add('has-active-nav');
+      }, 300);
+    }, false);
+  }
 })();
 
 (function() {
