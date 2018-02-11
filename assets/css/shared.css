@@ -704,6 +704,12 @@
     max-width: none;
     margin: 0;
   }
+  .standard-figure p + p {
+    margin-top: 0.75em;
+  }
+  .standard-figure p + .action {
+    margin-top: 1.5em;
+  }
   .standard-figure img {
     width: 100%;
     height: auto;
