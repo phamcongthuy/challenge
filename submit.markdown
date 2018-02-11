@@ -1,6 +1,6 @@
 ---
 title: Submit Your Proposal for the 2018 My LA2050 Activation Challenge
-color: strawberry
+color: lime
 ---
 
 # Submit Your Proposal

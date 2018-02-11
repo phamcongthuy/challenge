@@ -83,9 +83,9 @@
     color: rgb(249, 160, 51); /* @tangerine */
   }
 
-  .lime main > p a:hover,
-  .lime main > p a:active,
-  .lime main > p a:focus {
+  .lime main a:hover,
+  .lime main a:active,
+  .lime main a:focus {
     color: rgb(141, 208, 59); /* @lime */
   }
 
@@ -2401,9 +2401,13 @@
   }
 
   summary {
-    color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(249, 160, 51); /* @tangerine */
   }
+  .lime summary {
+    color: rgb(141, 208, 59); /* @lime */
+  }
+  summary h3,
   .tangerine main > details h3 {
     color: inherit;
   }
@@ -2413,8 +2417,8 @@
   }
   details summary:focus {
     color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   details summary::-webkit-details-marker,
   details summary:focus::-webkit-details-marker {
@@ -2466,11 +2470,11 @@
 
 
 
-  .tangerine main figure:last-child {
+  .tags main figure:last-child {
     margin-top: 3em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
-    .tangerine main figure:last-child {
+    .tags main figure:last-child {
       margin-top: 4.5em;
     }
   }
