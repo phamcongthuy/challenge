@@ -74,6 +74,9 @@
     color: rgb(6, 179, 188); /* @blueberry */
   }
 
+  .tangerine main a {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
   .tangerine main a:hover,
   .tangerine main a:active,
   .tangerine main a:focus {
@@ -84,6 +87,20 @@
   .lime main > p a:active,
   .lime main > p a:focus {
     color: rgb(141, 208, 59); /* @lime */
+  }
+
+  .strawberry main > ul a,
+  .strawberry main > p a {
+    color: rgb(237, 192, 50); /* @dark-banana */
+  }
+  .strawberry main > ul a:hover,
+  .strawberry main > ul a:active,
+  .strawberry main > ul a:focus,
+  .strawberry main > p a:hover,
+  .strawberry main > p a:active,
+  .strawberry main > p a:focus {
+    color: rgb(237, 192, 50); /* @dark-banana */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
   img {
