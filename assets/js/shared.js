@@ -102,8 +102,9 @@
 
     navLink.setAttribute('href', '/navigation?previous_page=' + currentPage);
 
+    // navLink.parentNode.style.display = 'none';
     // navLink.addEventListener('click', function(e) {
-    //   document.body.classList.toggle('has-active-menu');
+    //   document.body.classList.toggle('has-active-nav');
     //   e.preventDefault();
     // }, false);
   }

@@ -2874,7 +2874,8 @@
 
   /* =Navigation Link
   ----------------------------------------------- */
-  header {
+  header,
+  main > h1:first-child {
     position: relative;
     z-index: 3;
   }
@@ -2902,7 +2903,37 @@
     fill: currentColor;
   }
 
-/*  .has-active-menu header {
+
+/*  @supports(--custom-properties: 1) {   
+    .has-active-nav header,
+    .header-not-visible header {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      left: 0;
+      transform: translateY(calc(-100% + 0.375em));
+    } 
+    .nav-link {
+      display: block !important;
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      transform: translateY(100%);
+    }
+    .has-active-nav header {
+      transform: none;
+    }
+    .has-active-nav .nav-link {
+    }
+  }*/
+
+
+
+
+/* 
+  .has-active-menu header {
     position: sticky;
     width: 100%;
     top: 0;
