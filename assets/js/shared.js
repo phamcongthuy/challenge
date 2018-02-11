@@ -125,7 +125,7 @@
   }
 
   var animationTimer;
-  function updateScrollPosition(e) {
+  function updateScrollPosition() {
 
     /* OPTIONAL: Add a class name of “header-not-visible” to the header,
                  including the navigation, is not visible. */

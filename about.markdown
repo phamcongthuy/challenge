@@ -7,7 +7,7 @@ color: strawberry
 
 ## LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles.
 
-With the support of 30,000 Angelenos we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](http://la2050.org/goals): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. We’re also tracking our progress by evaluating [60+ metrics](https://www.la2050.org/metrics) over time that assess how Los Angeles is faring.<br /><br />In 2013, we launched our first signature program, the My LA2050 Grants Challenge, to inspire action and move the needle on the goals and metrics. Through the grants challenge, 1100+ creative and innovative proposals were submitted to build a better LA. With the help of 200,000 individuals who voted on their favorite proposals, $4M in funds were granted to [42 organizations](http://la2050.org/grantees) shaping a brighter future for Los Angeles.
+With the support of 30,000 Angelenos we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432) centered on [five goals](#goals): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. We’re also tracking our progress by evaluating [60+ metrics](https://www.la2050.org/metrics) over time that assess how Los Angeles is faring.<br /><br />In 2013, we launched our first signature program, the My LA2050 Grants Challenge, to inspire action and move the needle on the goals and metrics. Through the grants challenge, 1100+ creative and innovative proposals were submitted to build a better LA. With the help of 200,000 individuals who voted on their favorite proposals, $4M in funds were granted to [42 organizations](http://la2050.org/grantees) shaping a brighter future for Los Angeles.
 
 And now we want your help to take all of this work to the next level! We want you to help us answer: **how can we engage 100,000 Angelenos to make measurable progress towards achieving our shared vision?**
 
@@ -29,20 +29,23 @@ We want to work together! To partner, we plan to:
 * Design assets for materials
 * Provide technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
 
-<div style="margin-top: 4.5em; border-width: 0 0 0.125em;
+<div id="goals" style="
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-width: 0 0 0.1875em;
     border-style: solid;
     border-color: rgb(217, 217, 217);
     grid-column: 1/4 !important;"></div>
 
-<section class="goals"><div markdown="1">
-
 ## LA2050 Goals
 
-<p style="text-align: center;">
+<p>
 With the support of 30,000 Angelenos we’ve outlined an aspirational vision centered on five goals: to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. 
 </p>
 
-<ul class="action">
+<section class="goals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1">
+
+<ul class="action" style="margin-top: 0">
   <li class="blueberry"><a href="#learn">Learn</a></li>
   <li class="banana"><a href="#create">Create</a></li>
   <li class="strawberry"><a href="#play">Play</a></li>
