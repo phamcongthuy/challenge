@@ -3,19 +3,24 @@ title: 2018 My LA2050 Activation Challenge
 color: home
 ---
 
-<figure class="change-is-local has-text">
-  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="100vw" alt="Women’s March Los Angeles" />
+<div class="standard-figure change-is-local has-text">
   <div class="caption">
     <div>
-      <p><span>Change is&nbsp;Local</span></p>
-<p style="max-width: 27em">Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
-
-<p class="action" markdown="1">
+      <h1><span>Change is&nbsp;Local</span></h1>
+      <p style="max-width: 27em">
+        Starting <strong>March 1, 2018</strong>,
+        you can submit your proposal. Voting begins on
+        <span style="display: inline-block">
+          <strong>June 19, 2018</strong>.
+        </span>
+      </p>
+      <p class="action" markdown="1">
 [Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
-</p>
+      </p>
     </div>
   </div>
-</figure>
+  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="100vw" alt="Women’s March Los Angeles" />
+</div>
 
 <div style="margin-top: 1.5em"></div>
 
@@ -46,7 +51,7 @@ $200,000
 : over two years
 </div>
 
-<figure class="has-text">
+<figure class="standard-figure has-text">
   <img src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>

@@ -2,7 +2,7 @@
 
   if (!document.querySelector || !document.body.addEventListener || !document.body.getBoundingClientRect || window.scrollY === undefined) return;
 
-  var images = document.querySelectorAll('figure img');
+  var images = document.querySelectorAll('.standard-figure img');
 
 
     // As the view is scrolled up or down

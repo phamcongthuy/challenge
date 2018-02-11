@@ -54,7 +54,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 
 <section class="blueberry" id="learn"><div markdown="1">
 
-<figure>
+<figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/learn.jpg" srcset="/assets/images/goals/384-wide/learn.jpg 384w, /assets/images/goals/512-wide/learn.jpg 512w, /assets/images/goals/768-wide/learn.jpg 768w, /assets/images/goals/1024-wide/learn.jpg 1024w, /assets/images/goals/1536-wide/learn.jpg 1536w, /assets/images/goals/2048-wide/learn.jpg 2048w" sizes="100vw" alt="Kids smiling" />
 </figure>
 
@@ -91,7 +91,7 @@ By the year 2050, all Los Angeles students will have access to early education p
 
 <section class="banana" id="create"><div markdown="1">
 
-<figure>
+<figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/create.jpg" srcset="/assets/images/goals/384-wide/create.jpg 384w, /assets/images/goals/512-wide/create.jpg 512w, /assets/images/goals/768-wide/create.jpg 768w, /assets/images/goals/1024-wide/create.jpg 1024w, /assets/images/goals/1536-wide/create.jpg 1536w, /assets/images/goals/2048-wide/create.jpg 2048w" sizes="100vw" alt="Street art" />
 </figure>
 
@@ -130,7 +130,7 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 
 <section class="strawberry" id="play"><div markdown="1">
 
-<figure>
+<figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/play.jpg" srcset="/assets/images/goals/384-wide/play.jpg 384w, /assets/images/goals/512-wide/play.jpg 512w, /assets/images/goals/768-wide/play.jpg 768w, /assets/images/goals/1024-wide/play.jpg 1024w, /assets/images/goals/1536-wide/play.jpg 1536w, /assets/images/goals/2048-wide/play.jpg 2048w" sizes="100vw" alt="Child doing a somersault by a fountain" />
 </figure>
 
@@ -163,7 +163,7 @@ By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, 
 
 <section class="tangerine" id="connect"><div markdown="1">
 
-<figure>
+<figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/connect.jpg" srcset="/assets/images/goals/384-wide/connect.jpg 384w, /assets/images/goals/512-wide/connect.jpg 512w, /assets/images/goals/768-wide/connect.jpg 768w, /assets/images/goals/1024-wide/connect.jpg 1024w, /assets/images/goals/1536-wide/connect.jpg 1536w, /assets/images/goals/2048-wide/connect.jpg 2048w" sizes="100vw" alt="People riding bikes together on a street" />
 </figure>
 
@@ -201,7 +201,7 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 
 <section class="lime" id="live"><div markdown="1">
 
-<figure markdown="1">
+<figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/live.jpg" srcset="/assets/images/goals/384-wide/live.jpg 384w, /assets/images/goals/512-wide/live.jpg 512w, /assets/images/goals/768-wide/live.jpg 768w, /assets/images/goals/1024-wide/live.jpg 1024w, /assets/images/goals/1536-wide/live.jpg 1536w, /assets/images/goals/2048-wide/live.jpg 2048w" sizes="100vw" alt="A garden full of fruits and vegetables" />
 </figure>
 
