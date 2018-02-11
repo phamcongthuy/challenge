@@ -1631,6 +1631,10 @@
       body .goals ~ section:not(.team):not(.styled) > div > div p,
       body .goals ~ section:not(.team):not(.styled) > div > div ul {
         color: inherit;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      body .goals ~ section:not(.team):not(.styled) > div > div ul {
         max-width: none;
       }
 
@@ -1655,6 +1659,7 @@
         grid-template-columns: 1fr 1fr !important;
         grid-column-gap: 6em !important;
         grid-row-gap: 2.25em !important;
+        grid-template-rows: minmax(33.333vw, auto) auto;
       }
       body .goals ~ section:not(.team):not(.styled) .standard-figure {
         grid-column: 1 / 2;
@@ -1901,6 +1906,7 @@
   main > .goals ~ section:not(.team) {
     margin-top: 0em;
     padding-top: 1.5em;
+    min-height: 0;
   }
   .goals ul {
     padding-top: 1.5em;
