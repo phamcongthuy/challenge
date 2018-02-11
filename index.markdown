@@ -4,7 +4,7 @@ color: home
 ---
 
 <figure class="change-is-local has-text">
-  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles" />
+  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="100vw" alt="Women’s March Los Angeles" />
   <div class="caption">
     <div>
       <p><span>Change is&nbsp;Local</span></p>
@@ -16,111 +16,6 @@ color: home
     </div>
   </div>
 </figure>
-
-<!--
-<h1>Change is&nbsp;Local</h1>
-
-<figure class="has-text">
-  <img src="/assets/images/home/lamas.jpg" alt="LA Más">
-  <p class="caption">
-  <span>
-    <span class="avoid-break">How would</span>
-    <span class="avoid-break">you activate</span>
-    <strong>100,000 angelenos</strong>
-    <span class="avoid-break">
-      for a <span class="avoid-break">better LA?</span>
-    </span>
-  </span>
-  </p>
-</figure>
--->
-
-<!--
-<h1 style="display: none">Public Voting</h1>
-
-<div class="notifications" markdown="1">
-
-<p style="max-width: 27em">Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
-
-<p class="action" markdown="1">
-[Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
-</p>
-
-</div>
--->
-
-<!--
-
-<h1>Change is&nbsp;Local</h1>
-<h1>
-  <span style="display: block; max-width: 15em; margin-left: auto; margin-right: auto;">
-    <span class="avoid-break">How would</span>
-    <span class="avoid-break">you activate</span>
-    <em>100,000 angelenos</em>
-    <span class="avoid-break">
-      for a <span class="avoid-break">better LA?</span>
-    </span>
-  </span>
-</h1>
-
-<div class="action" markdown="1">
-* [What is LA2050?](/about)
-* [Get updates about the challenge](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
-</div>
-<div class="action" markdown="1">
-* [Learn about LA2050](/about)
-* [Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
-</div>
--->
-
-<!--
-<figure class="change-is-local has-text">
-  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
-  <div class="caption">
-    <div>
-      <p><span>Change is&nbsp;Local</span></p>
-    </div>
-  </div>
-</figure>
-
-<h1 style="display: none">Public Voting</h1>
-
-<div class="notifications" markdown="1">
-<p>
-  <span>
-    <span class="avoid-break">How would</span>
-    <span class="avoid-break">you activate</span>
-    <strong>100,000 angelenos</strong>
-    <span class="avoid-break">
-      for a <span class="avoid-break">better LA?</span>
-    </span>
-  </span>
-</p>
-
-<p>Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
-
-<p class="action" markdown="1">
-[Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
-</p>
-
-</div>
--->
-
-<!--
-<div class="action">
-<p>Starting <strong>March 1, 2018</strong>, you can submit your proposal. Voting begins on  <span style="display: inline-block"><strong>June 19, 2018</strong>.</span></p>
-<p style="max-width: none; text-align: center; margin-top: 3em;" markdown="1">
-[Get Updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
-</p>
-</div>
--->
-
-<!--
-<figure>
-  <img src="/assets/images/home/womens-march-la.jpg" alt="Women’s March Los Angeles">
-  <p class="caption"><span>How would you activate <strong>100,000 angelenos</strong> for a better LA?</span></p>
-</figure>
--->
 
 <div style="margin-top: 1.5em"></div>
 
@@ -152,7 +47,7 @@ $200,000
 </div>
 
 <figure class="has-text">
-  <img src="/assets/images/home/lamas.jpg" alt="LA Más" />
+  <img src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />
   <p class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></p>
 </figure>
 

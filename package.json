@@ -1,0 +1,16 @@
+{
+  "name": "la2050-activation",
+  "version": "0.0.1",
+  "description": "",
+  "author": "jim@jimthoburn.com",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "dependencies": {
+    "concurrent-transform": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.12.0"
+  }
+}
