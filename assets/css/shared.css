@@ -801,7 +801,7 @@
       }
     }
     .goals ~ section .standard-figure img {
-      height: 50vw;
+      height: 60vw; /* This happens to work well with the particular images we have */
     }
     @media (min-width: 60em) {
       .standard-figure img {
@@ -2094,8 +2094,8 @@
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     padding: 1.5rem 1.5rem 3rem;
-    box-sizing: border-box;
-    width: 100vw;
+    /*box-sizing: border-box;
+    width: 100vw;*/
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .goals ~ section > div > div:last-of-type {
