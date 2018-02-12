@@ -2892,6 +2892,7 @@
     height: 1.5em;
     display: block;
   }
+  .nav-link svg path,
   .nav-link svg polygon {
     fill: currentColor;
   }
@@ -2952,6 +2953,12 @@
     .has-active-nav header {
       transform: none;
       z-index: 4;
+    }
+    .has-active-nav header .open {
+      display: none;
+    }
+    .has-active-nav header .close {
+      display: block !important;
     }
     .animate-header header {
       transition: transform 0.2s;
