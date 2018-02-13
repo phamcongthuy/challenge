@@ -1622,14 +1622,9 @@
         margin-top: 0;
         text-transform: uppercase;
         max-width: none;
-        font-size: 1.5em;
+        font-size: 2.5em;
         letter-spacing: 2px;
         font-weight: 900; /* @black */
-      }
-      @media (min-width: 30em) {
-        body .goals ~ section:not(.team):not(.styled) h3 {
-          font-size: 2.5em;
-        }
       }
       @media (min-width: 40em) {
         body .goals ~ section:not(.team):not(.styled) h3 {
