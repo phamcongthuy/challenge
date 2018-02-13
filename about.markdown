@@ -31,19 +31,19 @@ We want to work together! To partner, we plan to:
 
 <div id="goals" style="
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     border-width: 0 0 0.1875em;
     border-style: solid;
     border-color: rgb(217, 217, 217);
     grid-column: 1/4 !important;"></div>
 
+<section class="goals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1">
+
 ## LA2050 Goals
 
-<p>
+<p style="text-align: center;">
 With the support of 30,000 Angelenos we’ve outlined an aspirational vision centered on five goals: to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. 
 </p>
-
-<section class="goals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1">
 
 <ul class="action" style="margin-top: 0">
   <li class="blueberry"><a href="#learn">Learn</a></li>

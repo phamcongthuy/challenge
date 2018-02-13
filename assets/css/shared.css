@@ -1514,7 +1514,7 @@
       }
       body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2:not(.fancy),
       body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3:not(.fancy) {
-        font-size: 2em;
+        font-size: 1.5em;
         margin-bottom: 0.5em;
         line-height: 1.125;
         max-width: none;
