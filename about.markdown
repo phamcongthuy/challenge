@@ -37,7 +37,7 @@ We want to work together! To partner, we plan to:
     border-color: rgb(217, 217, 217);
     grid-column: 1/4 !important;"></div>
 
-<section class="goals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1">
+<section class="goals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1" style="width: 100%">
 
 ## LA2050 Goals
 
@@ -45,7 +45,7 @@ We want to work together! To partner, we plan to:
 With the support of 30,000 Angelenos we’ve outlined an aspirational vision centered on five goals: to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. 
 </p>
 
-<ul class="action" style="margin-top: 0">
+<ul class="action" style="max-width: none;">
   <li class="blueberry"><a href="#learn">Learn</a></li>
   <li class="banana"><a href="#create">Create</a></li>
   <li class="strawberry"><a href="#play">Play</a></li>
@@ -422,7 +422,7 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
             }
           }
         }
-        timeout = setTimeout(_update, 3000);
+        timeout = setTimeout(_update, 5000);
       }
 
       function update() {

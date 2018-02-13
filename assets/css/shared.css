@@ -1493,7 +1493,7 @@
         margin-top: -6em; /* offset the grid row gap */
       }
 
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div {
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
@@ -1502,19 +1502,19 @@
         width: 100%;
       }
       body:not(.faqs) main > .activate-tag,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > .activate-tag,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h4 {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > .activate-tag,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h2,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h3,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h4 {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
         justify-self: end;
         text-align: right;
       }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2:not(.fancy),
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3:not(.fancy) {
-        font-size: 1.5em;
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h2:not(.fancy),
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h3:not(.fancy) {
+        font-size: 2em;
         margin-bottom: 0.5em;
         line-height: 1.125;
         max-width: none;
@@ -1522,18 +1522,18 @@
         text-align: center;
         justify-self: center;
       }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled).activation-examples > div > h2:not(.fancy) {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals).activation-examples > div > h2:not(.fancy) {
         grid-column: 2 / 3;
         text-align: left;
         justify-self: start;
       }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h2.fancy,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > h3.fancy {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h2.fancy,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h3.fancy {
         margin-top: -0.2em;
       }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > p.action,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled) > div > ul {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > p,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > p.action,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > ul {
         margin: 0;
         grid-column: 2 / 3;
       }
@@ -1622,9 +1622,23 @@
         margin-top: 0;
         text-transform: uppercase;
         max-width: none;
-        font-size: 4em;
+        font-size: 1.5em;
+        letter-spacing: 2px;
         font-weight: 900; /* @black */
-        letter-spacing: 1px;
+      }
+      @media (min-width: 30em) {
+        body .goals ~ section:not(.team):not(.styled) h3 {
+          font-size: 2.5em;
+        }
+      }
+      @media (min-width: 40em) {
+        body .goals ~ section:not(.team):not(.styled) h3 {
+          font-size: 3em;
+          font-size: 6vw;
+        }
+      }
+      body .goals ~ section:not(.team):not(.styled) h3 {
+
       }
       body .goals ~ section:not(.team):not(.styled) > div > div h4 {
         max-width: none;
@@ -2243,6 +2257,19 @@
     margin-top: 3em;
     color: white;
     text-align: center;
+  }
+
+  .goals h2 {    
+    font-size: 1.75em !important;
+    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
+    font-style: italic;
+    margin-bottom: 1;
+  }
+  @media (min-width: 40em) {
+    .goals h2 {
+      font-size: 2.5em !important;
+      max-width: none;
+    }
   }
 
   .blueberry header,
