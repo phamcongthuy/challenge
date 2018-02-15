@@ -6,6 +6,7 @@ permalink: pretty
 exclude:
   - CNAME
   - README
+  - node_modules
 
 defaults:
   - scope:
