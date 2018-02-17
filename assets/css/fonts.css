@@ -1,40 +1,7 @@
 
-  @charset "utf-8";
-
-  /*
-  Sections are grouped under headings with a “=” symbol,
-  to make searching easier.
-
-  When a style is used more than once, it sometimes has a “@keyword”
-  in a comment next to it (to help with search and replace).
-
-  For example…
-
-  16px  @font-size
-  24px  @line-height
-  32em  @page-max-width
-  */
-
-  @import url(type.css);
-  @import url(color.css);
-  @import url(action.css);
-  @import url(figure.css);
-  @import url(section.css);
-  @import url(social.css);
-  @import url(numbers.css);
-  @import url(goals.css);
-  @import url(process.css);
-  @import url(layout.css);
-  @import url(navigation.css);
-  @import url(grid.css);
-  @import url(home.css);
-  @import url(faqs.css);
-
 
   /* =Fonts
   ----------------------------------------------- */
-  @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=68f50139-da27-4c8c-adaa-c005a8fd2b7a");
-
   @font-face{
     font-family:"Avenir Next";
     src:url("https://fonts.jimthoburn.com/activation.la2050.org/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
@@ -96,12 +63,5 @@
     src:url("https://fonts.jimthoburn.com/activation.la2050.org/3418f6be-70a5-4c26-af1d-c09a8642ca20.eot?#iefix");
     src:url("https://fonts.jimthoburn.com/activation.la2050.org/3418f6be-70a5-4c26-af1d-c09a8642ca20.eot?#iefix") format("eot"),url("https://fonts.jimthoburn.com/activation.la2050.org/5c57b2e2-f641-421e-a95f-65fcb47e409a.woff2") format("woff2"),url("https://fonts.jimthoburn.com/activation.la2050.org/181c847e-cdbc-43d5-ae14-03a81c8953b4.woff") format("woff"),url("https://fonts.jimthoburn.com/activation.la2050.org/045d1654-97f2-4ff0-9d24-21ba9dfee219.ttf") format("truetype"),url("https://fonts.jimthoburn.com/activation.la2050.org/3c111f4f-c9f7-45d4-b35f-4f4ed018842f.svg#3c111f4f-c9f7-45d4-b35f-4f4ed018842f") format("svg");
     font-style: normal;
-    font-weight: 900; /* @black */
-  }
-  @font-face{
-    font-family:"Avenir Next";
-    src:url("https://fonts.jimthoburn.com/activation.la2050.org/ca9162bc-20bd-4810-91a9-e816fdc64dae.eot?#iefix");
-    src:url("https://fonts.jimthoburn.com/activation.la2050.org/ca9162bc-20bd-4810-91a9-e816fdc64dae.eot?#iefix") format("eot"),url("https://fonts.jimthoburn.com/activation.la2050.org/71b9791b-4350-4b52-8b43-c03b82004511.woff2") format("woff2"),url("https://fonts.jimthoburn.com/activation.la2050.org/8c17992f-c017-49e0-b573-779f62016f06.woff") format("woff"),url("https://fonts.jimthoburn.com/activation.la2050.org/2b4885a7-fc02-4aa0-b998-5b008a589c80.ttf") format("truetype"),url("https://fonts.jimthoburn.com/activation.la2050.org/9b40a6ef-0ef5-49c0-aa8d-5ba7e8e7d9b7.svg#9b40a6ef-0ef5-49c0-aa8d-5ba7e8e7d9b7") format("svg");
-    font-style: italic;
     font-weight: 900; /* @black */
   }
