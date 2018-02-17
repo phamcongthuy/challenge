@@ -1,65 +1,64 @@
 
 
+  body .goals ~ section:not(.team):not(.styled) {
+    background: rgb(252, 252, 252);
+    background: rgb(254, 254, 254);
+    color: rgba(82, 82, 82);
+    color: rgba(82, 82, 82, 0.9);
+    color: inherit;
+  }
+  body .goals ~ section.blueberry h3,
+  body .goals ~ section.blueberry h4 {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  body .goals ~ section.lime h3,
+  body .goals ~ section.lime h4 {
+    color: rgb(141, 208, 59); /* @lime */
+  }
+  body .goals ~ section.banana h3,
+  body .goals ~ section.banana h4 {
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  body .goals ~ section.tangerine h3,
+  body .goals ~ section.tangerine h4 {
+    color: rgb(249, 160, 51); /* @tangerine */
+  }
+  body .goals ~ section.strawberry h3,
+  body .goals ~ section.strawberry h4 {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) {
+    background-color: white;
+  }
+  body .goals ~ section:not(.team):not(.styled) h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+    max-width: none;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: 900; /* @black */
+  }
+  @media (min-width: 40em) {
+    body .goals ~ section:not(.team):not(.styled) h3 {
+      font-size: 3em;
+      font-size: 6vw;
+    }
+  }
+  body .goals ~ section:not(.team):not(.styled) h3 {
 
-      body .goals ~ section:not(.team):not(.styled) {
-        background: rgb(252, 252, 252);
-        background: rgb(254, 254, 254);
-        color: rgba(82, 82, 82);
-        color: rgba(82, 82, 82, 0.9);
-        color: inherit;
-      }
-      body .goals ~ section.blueberry h3,
-      body .goals ~ section.blueberry h4 {
-        color: rgb(6, 179, 188); /* @blueberry */
-      }
-      body .goals ~ section.lime h3,
-      body .goals ~ section.lime h4 {
-        color: rgb(141, 208, 59); /* @lime */
-      }
-      body .goals ~ section.banana h3,
-      body .goals ~ section.banana h4 {
-        color: rgb(255, 194, 51); /* @banana */
-      }
-      body .goals ~ section.tangerine h3,
-      body .goals ~ section.tangerine h4 {
-        color: rgb(249, 160, 51); /* @tangerine */
-      }
-      body .goals ~ section.strawberry h3,
-      body .goals ~ section.strawberry h4 {
-        color: rgb(237, 59, 136); /* @strawberry */
-      }
-      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) {
-        background-color: white;
-      }
-      body .goals ~ section:not(.team):not(.styled) h3 {
-        margin-top: 0;
-        text-transform: uppercase;
-        max-width: none;
-        font-size: 2.5em;
-        letter-spacing: 2px;
-        font-weight: 900; /* @black */
-      }
-      @media (min-width: 40em) {
-        body .goals ~ section:not(.team):not(.styled) h3 {
-          font-size: 3em;
-          font-size: 6vw;
-        }
-      }
-      body .goals ~ section:not(.team):not(.styled) h3 {
-
-      }
-      body .goals ~ section:not(.team):not(.styled) > div > div h4 {
-        max-width: none;
-      }
-      body .goals ~ section:not(.team):not(.styled) > div > div p,
-      body .goals ~ section:not(.team):not(.styled) > div > div ul {
-        color: inherit;
-        margin-left: 0;
-        margin-right: 0;
-      }
-      body .goals ~ section:not(.team):not(.styled) > div > div ul {
-        max-width: none;
-      }
+  }
+  body .goals ~ section:not(.team):not(.styled) > div > div h4 {
+    max-width: none;
+  }
+  body .goals ~ section:not(.team):not(.styled) > div > div p,
+  body .goals ~ section:not(.team):not(.styled) > div > div ul {
+    color: inherit;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  body .goals ~ section:not(.team):not(.styled) > div > div ul {
+    max-width: none;
+  }
 
 
   body .goals ~ section:not(.team):not(.styled) .standard-figure {

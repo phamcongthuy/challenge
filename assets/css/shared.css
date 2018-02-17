@@ -15,7 +15,6 @@
   32em  @page-max-width
   */
 
-  @import url(goals.css);
   @import url(type.css);
   @import url(color.css);
   @import url(action.css);
@@ -23,6 +22,7 @@
   @import url(section.css);
   @import url(social.css);
   @import url(numbers.css);
+  @import url(goals.css);
   @import url(process.css);
   @import url(layout.css);
   @import url(navigation.css);
