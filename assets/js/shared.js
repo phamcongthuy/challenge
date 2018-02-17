@@ -110,7 +110,9 @@
   for (var index = 0; index < headerLinks.length; index++) {
     headerLinks[index].addEventListener('focus', function(e) {
       setTimeout(function() {
-        document.body.classList.add('has-active-nav');
+        if (document.body.classList.contains('header-not-visible')) {
+          document.body.classList.add('has-active-nav');
+        }
       }, 300);
     }, false);
   }
