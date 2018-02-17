@@ -84,19 +84,24 @@
 })();
 
 
+
 (function() {
 
   var navLink = document.querySelector('.nav-link a');
   if (navLink) {
 
     // https://stackoverflow.com/questions/1034621/get-the-current-url-with-javascript
-    var currentPage = window.location.href.toString().split(window.location.host)[1];
+    // var currentPage = window.location.href.toString().split(window.location.host)[1];
 
-    navLink.setAttribute('href', '/navigation?previous_page=' + currentPage);
+    // navLink.setAttribute('href', '/navigation?previous_page=' + currentPage);
 
     // navLink.parentNode.style.display = 'none';
     navLink.addEventListener('click', function(e) {
       document.body.classList.toggle('has-active-nav');
+
+      // If the user wants to open the link in a new window, let the browser handle it.
+      if (e && (e.shiftKey || e.ctrlKey || e.altKey || e.metaKey)) return;
+
       e.preventDefault();
     }, false);
   }
@@ -110,6 +115,8 @@
     }, false);
   }
 })();
+
+
 
 (function() {
   /* Do we have the features we need? */
