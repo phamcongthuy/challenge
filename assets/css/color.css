@@ -86,54 +86,6 @@
 
 
 
-  /* =Color
-  ----------------------------------------------- */
-  main > section.tangerine {
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  main > section.lime {
-    background-color: rgb(141, 208, 59); /* @lime */
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  main > section.blueberry {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(255, 194, 51); /* @banana */
-  }
-  main > section.banana {
-    background-color: rgb(255, 194, 51); /* @banana */
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  main > section.strawberry {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(255, 194, 51); /* @banana */
-  }
-  main > section .fancy ~ h4,
-  main > section .fancy ~ p,
-  main > section .fancy ~ ul {
-    color: white;
-  }
-  main > section.lime .fancy ~ p,
-  main > section.lime .fancy ~ ul,
-  main > section.tangerine .fancy ~ p,
-  main > section.tangerine .fancy ~ ul,
-  main > section.banana .fancy ~ p,
-  main > section.banana .fancy ~ ul {
-    color: black;
-    color: rgba(0, 0, 0, 0.75);
-  }
-  main > section.lime .fancy ~ h4,
-  main > section.tangerine .fancy ~ h4,
-  main > section.banana .fancy ~ h4 {
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  main > section.strawberry .fancy ~ h4,
-  main > section.blueberry .fancy ~ h4 {
-    color: rgb(255, 224, 81); /* @bright-banana */
-  }
-
-
-
   .blueberry header,
   .blueberry main > h1:first-child {
     background-color: rgb(6, 179, 188); /* @blueberry */

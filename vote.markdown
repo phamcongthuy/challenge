@@ -5,7 +5,7 @@ color: blueberry
 
 # Public Voting
 
-<div class="notifications" markdown="1">
+<div class="introduction" markdown="1">
 
 Starting **June 19, 2018**, you can vote for a proposal on this website.
 

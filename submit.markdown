@@ -5,7 +5,7 @@ color: lime
 
 # Submit Your Proposal
 
-<div class="notifications" markdown="1">
+<div class="introduction" markdown="1">
 
 Starting **March 1, 2018**, you can submit your proposal on this website.
 

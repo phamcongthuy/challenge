@@ -42,7 +42,7 @@
   h1 + .standard-figure {
     margin-top: -4.5em;
   }
-  .standard-figure ~ .notifications {
+  .standard-figure ~ .introduction {
     margin-top: 3em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -51,34 +51,34 @@
     }
   }
 
-  .change-is-local ~ .notifications {
+  .change-is-local ~ .introduction {
     background-color: rgb(237, 59, 136); /* @strawberry */
     color: white;
     margin: 0 -1.5em 3em -1.5em;
     padding: 1.5em 1.5em 2.25em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
-    .change-is-local ~ .notifications {
+    .change-is-local ~ .introduction {
       margin: -1.5em -3em 3em -3em;
       padding: 1.5em 3em 2.25em;
     }
   }
-  .change-is-local ~ .notifications p:not(.action) + p:not(.action) {
+  .change-is-local ~ .introduction p:not(.action) + p:not(.action) {
     max-width: 27em;
   }
-  .change-is-local ~ .notifications p:not(.action) strong {
+  .change-is-local ~ .introduction p:not(.action) strong {
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
   }
-  .change-is-local ~ .notifications .action a {
+  .change-is-local ~ .introduction .action a {
     background-color: rgb(255, 224, 81); /* @bright-banana */
     background-color: rgb(255, 194, 51); /* @banana */
     color: black;
     color: rgba(0, 0, 0, 0.65);
   }
-  .change-is-local ~ .notifications .action a:hover,
-  .change-is-local ~ .notifications .action  a:active,
-  .change-is-local ~ .notifications .action  a:focus {
+  .change-is-local ~ .introduction .action a:hover,
+  .change-is-local ~ .introduction .action  a:active,
+  .change-is-local ~ .introduction .action  a:focus {
     background-color: rgb(6, 179, 188); /* @blueberry */
   }
 
@@ -185,11 +185,11 @@
     }
   }
   @media (min-width: 15em) and (max-width: 60em) {
-    .home .change-is-local ~ .notifications {
+    .home .change-is-local ~ .introduction {
       margin-top: 0;
     }
   }
 
-  .home .change-is-local ~ .notifications .action {
+  .home .change-is-local ~ .introduction .action {
     margin-bottom: 0;
   }

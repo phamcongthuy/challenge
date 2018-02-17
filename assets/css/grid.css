@@ -69,7 +69,7 @@
       body:not(.faqs) main > h1 + p,
       body:not(.faqs) main > .team,
       body:not(.faqs) main > .numbers,
-      body:not(.faqs) main > h1 + .notifications,
+      body:not(.faqs) main > h1 + .introduction,
       body:not(.faqs) main > h1 + .action,
       body:not(.faqs) main > section {
         grid-column: span 3;
@@ -153,14 +153,7 @@
         margin: 0;
         grid-column: 2 / 3;
       }
-      @media (min-width: 90em) {
-        ul.team {
-          grid-column: 1 / 4 !important;
-          margin-left: -3em !important;
-          margin-right: -3em !important;
-          width: calc(100% + 6em) !important;
-        }
-      }
+
 
       body:not(.faqs) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > h2 + p * {
         text-align: right !important;
@@ -183,13 +176,6 @@
       }
       body .application-process > div {
         grid-column: 2/3;
-      }
-      body .introduction {
-        grid-column: 1/4;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 3em;
-        grid-row-gap: 1.5em;
       }
     }
   }

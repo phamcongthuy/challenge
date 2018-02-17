@@ -1,36 +1,36 @@
 
 
-  body .goals ~ section:not(.team):not(.styled) {
+  .goals ~ section {
     background: rgb(252, 252, 252);
     background: rgb(254, 254, 254);
     color: rgba(82, 82, 82);
     color: rgba(82, 82, 82, 0.9);
     color: inherit;
   }
-  body .goals ~ section.blueberry h3,
-  body .goals ~ section.blueberry h4 {
+  .goals ~ section.blueberry h3,
+  .goals ~ section.blueberry h4 {
     color: rgb(6, 179, 188); /* @blueberry */
   }
-  body .goals ~ section.lime h3,
-  body .goals ~ section.lime h4 {
+  .goals ~ section.lime h3,
+  .goals ~ section.lime h4 {
     color: rgb(141, 208, 59); /* @lime */
   }
-  body .goals ~ section.banana h3,
-  body .goals ~ section.banana h4 {
+  .goals ~ section.banana h3,
+  .goals ~ section.banana h4 {
     color: rgb(255, 194, 51); /* @banana */
   }
-  body .goals ~ section.tangerine h3,
-  body .goals ~ section.tangerine h4 {
+  .goals ~ section.tangerine h3,
+  .goals ~ section.tangerine h4 {
     color: rgb(249, 160, 51); /* @tangerine */
   }
-  body .goals ~ section.strawberry h3,
-  body .goals ~ section.strawberry h4 {
+  .goals ~ section.strawberry h3,
+  .goals ~ section.strawberry h4 {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) {
+  .goals ~ section:nth-of-type(2n) {
     background-color: white;
   }
-  body .goals ~ section:not(.team):not(.styled) h3 {
+  .goals ~ section h3 {
     margin-top: 0;
     text-transform: uppercase;
     max-width: none;
@@ -39,32 +39,32 @@
     font-weight: 900; /* @black */
   }
   @media (min-width: 40em) {
-    body .goals ~ section:not(.team):not(.styled) h3 {
+    .goals ~ section h3 {
       font-size: 3em;
       font-size: 6vw;
     }
   }
-  body .goals ~ section:not(.team):not(.styled) h3 {
+  .goals ~ section h3 {
 
   }
-  body .goals ~ section:not(.team):not(.styled) > div > div h4 {
+  .goals ~ section > div > div h4 {
     max-width: none;
   }
-  body .goals ~ section:not(.team):not(.styled) > div > div p,
-  body .goals ~ section:not(.team):not(.styled) > div > div ul {
+  .goals ~ section > div > div p,
+  .goals ~ section > div > div ul {
     color: inherit;
     margin-left: 0;
     margin-right: 0;
   }
-  body .goals ~ section:not(.team):not(.styled) > div > div ul {
+  .goals ~ section > div > div ul {
     max-width: none;
   }
 
 
-  body .goals ~ section:not(.team):not(.styled) .standard-figure {
+  .goals ~ section .standard-figure {
     position: relative;
   }
-  body .goals ~ section:not(.team):not(.styled) .standard-figure p::before {
+  .goals ~ section .standard-figure p::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -77,23 +77,23 @@
 
   @supports (display: grid) {
     @media (min-width: 60em) {
-      body .goals ~ section:not(.team):not(.styled) > div {
+      .goals ~ section > div {
         grid-template-columns: 1fr 1fr !important;
         grid-column-gap: 6em !important;
         grid-row-gap: 2.25em !important;
         grid-template-rows: minmax(33.333vw, auto) auto;
       }
-      body .goals ~ section:not(.team):not(.styled) .standard-figure {
+      .goals ~ section .standard-figure {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         margin: 0;
       }
-      body .goals ~ section:not(.team):not(.styled) > div > div {
+      .goals ~ section > div > div {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
 
       }
-      body .goals ~ section:not(.team):not(.styled) .standard-figure {
+      .goals ~ section .standard-figure {
         position: relative;
         justify-self: stretch;
         align-self: stretch;
@@ -101,14 +101,14 @@
         margin-bottom: -2.25em;
         margin-right: -3em;
       }
-      body .goals ~ section:not(.team):not(.styled) .standard-figure p {
+      .goals ~ section .standard-figure p {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
       }
-      body .goals ~ section:not(.team):not(.styled) .standard-figure p::before {
+      .goals ~ section .standard-figure p::before {
         content: "";
         position: absolute;
         width: 100%;
@@ -118,7 +118,7 @@
         background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
         z-index: 1;
       }
-      body .goals ~ section:not(.team):not(.styled) .standard-figure img {
+      .goals ~ section .standard-figure img {
         position: absolute;
         top: 0;
         left: 0;
@@ -127,7 +127,7 @@
         max-width: 100%;
       }
 
-      body .goals ~ section:not(.team):not(.styled) > div > div + div {
+      .goals ~ section > div > div + div {
         grid-column: 1 / 3 !important;
         grid-row: 2 / 3 !important;
       }

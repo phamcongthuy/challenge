@@ -269,27 +269,27 @@
     margin-bottom: 3em;
     font-size: 1.5em;
   }
-  main > h1 + .notifications {
+  main > h1 + .introduction {
     margin-bottom: 4.5em;
   }
-  main > h1 + .notifications p:first-child {
+  main > h1 + .introduction p:first-child {
     margin-top: 0;
   }
   @media (min-width: 40em) {
-    main > h1 + .notifications p:not(.action) {
+    main > h1 + .introduction p:not(.action) {
       font-size: 1.5em;
       /*font-size: 2vmax;*/
     } 
   }
-  main > h1 + .notifications h3 {
+  main > h1 + .introduction h3 {
     margin-top: 0;
     font-size: 1.5em;
     font-weight: inherit;
     color: inherit;
   }
   body:not(.faqs) main > h1 + p,
-  body:not(.faqs) main > h1 + .notifications p,
-  body:not(.faqs) main > h1 + .notifications h3 {
+  body:not(.faqs) main > h1 + .introduction p,
+  body:not(.faqs) main > h1 + .introduction h3 {
     text-align: center;
     max-width: none;
   }
