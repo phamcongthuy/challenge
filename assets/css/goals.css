@@ -216,9 +216,6 @@
 
 
   .goals ~ section:not(.team) ul {
-    /*
-    padding: 1.4em 2.8em;
-    */
     width: auto;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -240,8 +237,6 @@
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     padding: 1.5rem 1.5rem 3rem;
-    /*box-sizing: border-box;
-    width: 100vw;*/
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .goals ~ section > div > div:last-of-type {

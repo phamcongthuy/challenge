@@ -13,16 +13,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /*
-    background: rgba(217, 217, 217, 0.15);
-    */
     min-height: 67.5vmin;
-
-    /*
-    border-width: 0.125em 0 0;
-    border-style: solid;
-    border-color: rgb(217, 217, 217);
-    */
   }
   .activation-examples,
   .timeline {
@@ -43,11 +34,6 @@
   main > .goals + section {
     margin-top: 0;
   }
-  /*
-  main > section:nth-of-type(2n) {
-    background: white;
-  }
-  */
   main > section.activation-examples {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;

@@ -139,21 +139,3 @@
   }
 
 
-
-  .banana h3 strong {
-    background-image: linear-gradient(to top, transparent, transparent 5%, rgba(255, 255, 255, 0.5) 5%, rgba(255, 255, 255, 0.5) 65%, transparent 65%, transparent);
-  }
-  .strawberry h3 strong {
-    background-image: linear-gradient(to top, transparent, transparent 5%, rgba(255, 255, 255, 0.25) 5%, rgba(255, 255, 255, 0.25) 65%, transparent 65%, transparent);
-  }
-  .tangerine h3 strong,
-  .blueberry h3 strong,
-  .lime h3 strong {
-    background-image: linear-gradient(to top, transparent, transparent 5%, rgb(255, 224, 81) 5%, rgb(255, 224, 81) 65%, transparent 65%, transparent);
-  }
-  @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
-    .strawberry h3 strong {
-      text-shadow: -0.2em 0 0 rgb(255, 224, 81); /* @bright-banana */
-    }
-  }
-

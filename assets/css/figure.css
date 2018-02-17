@@ -65,12 +65,6 @@
   .standard-figure .caption strong {
     font-weight: inherit;
     display: inline-block;
-    color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(141, 208, 59); /* @lime */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(255, 79, 156); /* @bright-strawberry */
-    color: rgb(181, 248, 99); /* @bright-lime */
-    color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
   }
   .standard-figure .activate-tag {
@@ -79,7 +73,6 @@
     left: 0;
     width: 100%;
     text-align: center;
-    color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
     text-shadow: 0 0 2em rgba(0, 0, 0, 1);
   }

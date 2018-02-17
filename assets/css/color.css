@@ -4,17 +4,11 @@
   /* =Colors
   ----------------------------------------------- */
   body {
-    background: rgb(245, 245, 245);
-    background: rgb(252, 252, 252);
-    color: rgba(82, 82, 82);
-    color: rgba(82, 82, 82, 0.9);
     background: rgb(254, 254, 254);
     color: rgb(41, 41, 41);
   }
 
   h1, h2, h3, h4, h5, h6, strong, em {
-    color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(237, 192, 50); /* @dark-banana */
     color: rgb(237, 59, 136); /* @strawberry */
   }
   h2 strong {
@@ -28,12 +22,6 @@
   }
 
   a {
-    color: rgb(255, 194, 51); /* @banana */
-    color: rgb(237, 192, 50); /* @dark-banana */
-    color: rgb(141, 208, 59); /* @lime */
-    color: rgb(101, 168, 19); /* @dark-lime */
-    color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(239, 150, 41); /* @dark-tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
     transition: all 0.2s;
     font-weight: 600; /* @semibold */
