@@ -29,23 +29,15 @@ We want to work together! To partner, we plan to:
 * Design assets for materials
 * Provide technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
 
-<div id="goals" style="
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    border-width: 0 0 0.1875em;
-    border-style: solid;
-    border-color: rgb(217, 217, 217);
-    grid-column: 1/4 !important;"></div>
+<hr id="goals" />
 
-<section class="goals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1" style="width: 100%">
+<section class="goals"><div markdown="1">
 
 ## LA2050 Goals
 
-<p style="text-align: center;">
 With the support of 30,000 Angelenos we’ve outlined an aspirational vision centered on five goals: to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. 
-</p>
 
-<ul class="action" style="max-width: none;">
+<ul class="action">
   <li class="blueberry"><a href="#learn">Learn</a></li>
   <li class="banana"><a href="#create">Create</a></li>
   <li class="strawberry"><a href="#play">Play</a></li>
@@ -58,7 +50,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 <section class="blueberry" id="learn"><div markdown="1">
 
 <figure class="standard-figure">
-  <img src="/assets/images/goals/384-wide/learn.jpg" srcset="/assets/images/goals/384-wide/learn.jpg 384w, /assets/images/goals/512-wide/learn.jpg 512w, /assets/images/goals/768-wide/learn.jpg 768w, /assets/images/goals/1024-wide/learn.jpg 1024w, /assets/images/goals/1536-wide/learn.jpg 1536w, /assets/images/goals/2048-wide/learn.jpg 2048w" sizes="100vw" alt="Kids smiling" />
+  <img src="/assets/images/goals/384-wide/learn.jpg" srcset="/assets/images/goals/384-wide/learn.jpg 384w, /assets/images/goals/512-wide/learn.jpg 512w, /assets/images/goals/768-wide/learn.jpg 768w, /assets/images/goals/1024-wide/learn.jpg 1024w, /assets/images/goals/1536-wide/learn.jpg 1536w, /assets/images/goals/2048-wide/learn.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Kids smiling" />
 </figure>
 
 <div markdown="1">
@@ -95,7 +87,7 @@ By the year 2050, all Los Angeles students will have access to early education p
 <section class="banana" id="create"><div markdown="1">
 
 <figure class="standard-figure">
-  <img src="/assets/images/goals/384-wide/create.jpg" srcset="/assets/images/goals/384-wide/create.jpg 384w, /assets/images/goals/512-wide/create.jpg 512w, /assets/images/goals/768-wide/create.jpg 768w, /assets/images/goals/1024-wide/create.jpg 1024w, /assets/images/goals/1536-wide/create.jpg 1536w, /assets/images/goals/2048-wide/create.jpg 2048w" sizes="100vw" alt="Street art" />
+  <img src="/assets/images/goals/384-wide/create.jpg" srcset="/assets/images/goals/384-wide/create.jpg 384w, /assets/images/goals/512-wide/create.jpg 512w, /assets/images/goals/768-wide/create.jpg 768w, /assets/images/goals/1024-wide/create.jpg 1024w, /assets/images/goals/1536-wide/create.jpg 1536w, /assets/images/goals/2048-wide/create.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Street art" />
 </figure>
 
 <div markdown="1">
@@ -134,7 +126,7 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 <section class="strawberry" id="play"><div markdown="1">
 
 <figure class="standard-figure">
-  <img src="/assets/images/goals/384-wide/play.jpg" srcset="/assets/images/goals/384-wide/play.jpg 384w, /assets/images/goals/512-wide/play.jpg 512w, /assets/images/goals/768-wide/play.jpg 768w, /assets/images/goals/1024-wide/play.jpg 1024w, /assets/images/goals/1536-wide/play.jpg 1536w, /assets/images/goals/2048-wide/play.jpg 2048w" sizes="100vw" alt="Child doing a somersault by a fountain" />
+  <img src="/assets/images/goals/384-wide/play.jpg" srcset="/assets/images/goals/384-wide/play.jpg 384w, /assets/images/goals/512-wide/play.jpg 512w, /assets/images/goals/768-wide/play.jpg 768w, /assets/images/goals/1024-wide/play.jpg 1024w, /assets/images/goals/1536-wide/play.jpg 1536w, /assets/images/goals/2048-wide/play.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Child doing a somersault by a fountain" />
 </figure>
 
 <div markdown="1">
@@ -167,7 +159,7 @@ By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, 
 <section class="tangerine" id="connect"><div markdown="1">
 
 <figure class="standard-figure">
-  <img src="/assets/images/goals/384-wide/connect.jpg" srcset="/assets/images/goals/384-wide/connect.jpg 384w, /assets/images/goals/512-wide/connect.jpg 512w, /assets/images/goals/768-wide/connect.jpg 768w, /assets/images/goals/1024-wide/connect.jpg 1024w, /assets/images/goals/1536-wide/connect.jpg 1536w, /assets/images/goals/2048-wide/connect.jpg 2048w" sizes="100vw" alt="People riding bikes together on a street" />
+  <img src="/assets/images/goals/384-wide/connect.jpg" srcset="/assets/images/goals/384-wide/connect.jpg 384w, /assets/images/goals/512-wide/connect.jpg 512w, /assets/images/goals/768-wide/connect.jpg 768w, /assets/images/goals/1024-wide/connect.jpg 1024w, /assets/images/goals/1536-wide/connect.jpg 1536w, /assets/images/goals/2048-wide/connect.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="People riding bikes together on a street" />
 </figure>
 
 <div markdown="1">
@@ -205,7 +197,7 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 <section class="lime" id="live"><div markdown="1">
 
 <figure class="standard-figure">
-  <img src="/assets/images/goals/384-wide/live.jpg" srcset="/assets/images/goals/384-wide/live.jpg 384w, /assets/images/goals/512-wide/live.jpg 512w, /assets/images/goals/768-wide/live.jpg 768w, /assets/images/goals/1024-wide/live.jpg 1024w, /assets/images/goals/1536-wide/live.jpg 1536w, /assets/images/goals/2048-wide/live.jpg 2048w" sizes="100vw" alt="A garden full of fruits and vegetables" />
+  <img src="/assets/images/goals/384-wide/live.jpg" srcset="/assets/images/goals/384-wide/live.jpg 384w, /assets/images/goals/512-wide/live.jpg 512w, /assets/images/goals/768-wide/live.jpg 768w, /assets/images/goals/1024-wide/live.jpg 1024w, /assets/images/goals/1536-wide/live.jpg 1536w, /assets/images/goals/2048-wide/live.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="A garden full of fruits and vegetables" />
 </figure>
 
 <div markdown="1">
@@ -315,10 +307,6 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
     hideAllExcept(goals[random].getAttribute('id'));
     currentLink = buttonsContainer.querySelectorAll('a')[random];
     currentLink.classList.add('active');
-
-
-
-
 
 
     (function() {
@@ -432,20 +420,6 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
       calculatePositions();
       update();
     })();
-
-
-    // Link the buttons inside each goal to the next one
-    // for (var index = 0; index < goals.length; index++) {
-    //   goals[index].querySelector('.action').addEventListener('click', function(e) {
-    //     var link = closest(e.target, 'a');
-
-    //     if (link) {
-    //       // Hide all of the goals except the one that was chosen
-    //       hideAllExcept(link.getAttribute('href').replace('#', ''));
-    //       // e.preventDefault();
-    //     }
-    //   }, false);
-    // }
 
   }
 })();
