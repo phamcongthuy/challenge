@@ -1,0 +1,160 @@
+
+  /* =Navigation Link
+  ----------------------------------------------- */
+  header {
+    position: relative;
+    z-index: 5;
+  }
+  .home header {
+    z-index: 6;
+  }
+  main > h1:first-child,
+  .change-is-local {
+    position: relative;
+    z-index: 5;
+  }
+  .nav-link {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+  }
+  .nav-link a {
+    display: block;
+    padding: 1.125em;
+  }
+  .nav-link svg {
+    width: 1.5em;
+    height: 1.5em;
+    display: block;
+  }
+  .nav-link svg path,
+  .nav-link svg polygon {
+    fill: currentColor;
+  }
+
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  @supports (position: sticky) or (position: -webkit-sticky) {
+    .transition-header-in header {
+      animation: fade-in 0.2s both;
+    }
+    .has-active-nav header,
+    .header-not-visible header {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      left: 0;
+      transform: translateY(calc(-100% + 0.375em));
+    }
+    .home.has-active-nav header,
+    .home.header-not-visible header {
+      background-color: rgb(237, 59, 136); /* @strawberry */
+      position: fixed;
+      z-index: 4;
+    }
+    .has-active-nav.home header h2 a,
+    .has-active-nav.home header ul a {
+      color: white;
+    }
+    .has-active-nav.home header h2 a:hover,
+    .has-active-nav.home header h2 a:active,
+    .has-active-nav.home header h2 a:focus,
+    .has-active-nav.home header ul a:hover,
+    .has-active-nav.home header ul a:active,
+    .has-active-nav.home header ul a:focus {
+      color: rgb(255, 224, 81); /* @bright-banana */
+      color: rgb(255, 194, 51); /* @banana */
+    }
+    .nav-link {
+      position: absolute;
+      top: auto;
+      bottom: 2px;
+      left: auto;
+      right: 0;
+      transform: translateY(100%);
+    }
+    .header-not-visible .nav-link {
+      display: block !important;
+    }
+    .has-active-nav header {
+      transform: none;
+      z-index: 4;
+    }
+    .has-active-nav header .open {
+      display: none;
+    }
+    .has-active-nav header .close {
+      display: block !important;
+    }
+    .animate-header header {
+      transition: transform 0.2s;
+    }
+    .nav-link.action a:hover,
+    .nav-link.action a:active,
+    .nav-link.action a:focus {
+      background-color: rgb(237, 59, 136); /* @strawberry */
+      color: rgb(255, 224, 81); /* @bright-banana */
+      color: rgb(255, 194, 51); /* @banana */
+    }
+    .strawberry .nav-link a:hover,
+    .strawberry .nav-link a:active,
+    .strawberry .nav-link a:focus {
+      background-color: rgb(237, 59, 136); /* @strawberry */
+      color: rgb(255, 224, 81); /* @bright-banana */
+      color: rgb(255, 194, 51); /* @banana */
+    }
+    .blueberry .nav-link a:hover,
+    .blueberry .nav-link a:active,
+    .blueberry .nav-link a:focus {
+      background-color: rgb(6, 179, 188); /* @blueberry */
+      color: rgb(255, 224, 81); /* @bright-banana */
+    }
+    .lime .nav-link a:hover,
+    .lime .nav-link a:active,
+    .lime .nav-link a:focus {
+      background-color: rgb(141, 208, 59); /* @lime */
+      color: rgb(237, 59, 136); /* @strawberry */
+    }
+    .tangerine .nav-link a:hover,
+    .tangerine .nav-link a:active,
+    .tangerine .nav-link a:focus {
+      background-color: rgb(249, 160, 51); /* @tangerine */
+      color: rgb(237, 59, 136); /* @strawberry */
+    }
+    .banana .nav-link a,
+    .banana.has-active-nav header,
+    .banana.header-not-visible header {
+      background: white;
+      color: rgb(237, 59, 136); /* @strawberry */
+    }
+    .banana .nav-link a {
+      border-color: white;
+    }
+    .banana.has-active-nav header a,
+    .banana.header-not-visible header a,
+    .banana.has-active-nav header h2,
+    .banana.header-not-visible header h2 {
+      color: inherit;
+    }
+    .banana.has-active-nav header a:hover,
+    .banana.has-active-nav header a:active,
+    .banana.has-active-nav header a:focus,
+    .banana.header-not-visible header a:hover,
+    .banana.header-not-visible header a:active,
+    .banana.header-not-visible header a:focus {
+      background: white;
+      color: rgb(255, 194, 51); /* @banana */
+    }
+  }
+
+

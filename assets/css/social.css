@@ -1,0 +1,17 @@
+
+  /* =Social
+  ----------------------------------------------- */
+  footer .social-links {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+  footer .social-links li {
+    margin: -0.125em;
+  }
+  footer .social-links li svg {
+    width: 1em;
+    height: 1em;
+  }
+  footer .social-links li svg path {
+    fill: currentColor;
+  }

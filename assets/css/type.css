@@ -1,0 +1,159 @@
+
+
+  /* =Type
+  ----------------------------------------------- */
+  body {
+    font: 100%/1.5 "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 1.5em;
+    /*
+    text-align: center;
+    */
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  abbr {
+    text-decoration: none;
+  }
+
+  .activate-tag {
+    margin-top: 4.5em;
+    font-weight: bold;
+    font-size: 0.75em;
+    letter-spacing: 0.2em;
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .activate-tag + h2 {
+    margin-top: 1.5rem;
+  }
+
+  @media (min-width: 40em) { /* @medium-size-screen */
+    body {
+      padding: 0 3em 0;
+    }
+  }
+
+  /* OPTIONAL: Increase the font size on big screens. */
+  @media screen and (min-width: 600px) {
+    html {
+      font-size: 110%;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    html {
+      font-size: 115%;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 120%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    html {
+      font-size: 125%;
+    }
+  }
+
+  .avoid-break {
+    display: inline-block;
+  }
+
+  /* Limit line lengths, for readability. */
+  h1, h2, h3, h4, h5, h6, p, ol, ul, dl, .standard-figure {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  main h1,
+  main h2,
+  main h3,
+  main h4,
+  main h5,
+  main h6,
+  main p,
+  main ol,
+  main ul,
+  main dl {
+    max-width: 33rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  hr {
+    margin: 3em 0;
+    border-width: 0 0 0.1875em;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.15);
+    grid-column: 1/4 !important;
+  }
+
+
+  /* http://type-scale.com/?size=16&scale=1.500&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
+  h1 {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-weight: 900; /* @black */
+    font-size: 2em;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  h2 {
+    margin-top: 3rem;
+    font-size: 1.5em;
+    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
+  }
+  h3 {
+    margin-top: 3rem;
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 1.25em;
+  }
+  h5 {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+  }
+  h6 {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+  h1 em {
+    color: rgb(249, 160, 51); /* @tangerine */
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+  }
+
+
+
+  .banana h3 strong {
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgba(255, 255, 255, 0.5) 5%, rgba(255, 255, 255, 0.5) 65%, transparent 65%, transparent);
+  }
+  .strawberry h3 strong {
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgba(255, 255, 255, 0.25) 5%, rgba(255, 255, 255, 0.25) 65%, transparent 65%, transparent);
+  }
+  .tangerine h3 strong,
+  .blueberry h3 strong,
+  .lime h3 strong {
+    background-image: linear-gradient(to top, transparent, transparent 5%, rgb(255, 224, 81) 5%, rgb(255, 224, 81) 65%, transparent 65%, transparent);
+  }
+  @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
+    .strawberry h3 strong {
+      text-shadow: -0.2em 0 0 rgb(255, 224, 81); /* @bright-banana */
+    }
+  }
+

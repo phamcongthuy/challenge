@@ -1,0 +1,406 @@
+
+
+
+      body .goals ~ section:not(.team):not(.styled) {
+        background: rgb(252, 252, 252);
+        background: rgb(254, 254, 254);
+        color: rgba(82, 82, 82);
+        color: rgba(82, 82, 82, 0.9);
+        color: inherit;
+      }
+      body .goals ~ section.blueberry h3,
+      body .goals ~ section.blueberry h4 {
+        color: rgb(6, 179, 188); /* @blueberry */
+      }
+      body .goals ~ section.lime h3,
+      body .goals ~ section.lime h4 {
+        color: rgb(141, 208, 59); /* @lime */
+      }
+      body .goals ~ section.banana h3,
+      body .goals ~ section.banana h4 {
+        color: rgb(255, 194, 51); /* @banana */
+      }
+      body .goals ~ section.tangerine h3,
+      body .goals ~ section.tangerine h4 {
+        color: rgb(249, 160, 51); /* @tangerine */
+      }
+      body .goals ~ section.strawberry h3,
+      body .goals ~ section.strawberry h4 {
+        color: rgb(237, 59, 136); /* @strawberry */
+      }
+      body .goals ~ section:not(.team):not(.styled):nth-of-type(2n) {
+        background-color: white;
+      }
+      body .goals ~ section:not(.team):not(.styled) h3 {
+        margin-top: 0;
+        text-transform: uppercase;
+        max-width: none;
+        font-size: 2.5em;
+        letter-spacing: 2px;
+        font-weight: 900; /* @black */
+      }
+      @media (min-width: 40em) {
+        body .goals ~ section:not(.team):not(.styled) h3 {
+          font-size: 3em;
+          font-size: 6vw;
+        }
+      }
+      body .goals ~ section:not(.team):not(.styled) h3 {
+
+      }
+      body .goals ~ section:not(.team):not(.styled) > div > div h4 {
+        max-width: none;
+      }
+      body .goals ~ section:not(.team):not(.styled) > div > div p,
+      body .goals ~ section:not(.team):not(.styled) > div > div ul {
+        color: inherit;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      body .goals ~ section:not(.team):not(.styled) > div > div ul {
+        max-width: none;
+      }
+
+
+  body .goals ~ section:not(.team):not(.styled) .standard-figure {
+    position: relative;
+  }
+  body .goals ~ section:not(.team):not(.styled) .standard-figure p::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    z-index: 1;
+  }
+
+  @supports (display: grid) {
+    @media (min-width: 60em) {
+      body .goals ~ section:not(.team):not(.styled) > div {
+        grid-template-columns: 1fr 1fr !important;
+        grid-column-gap: 6em !important;
+        grid-row-gap: 2.25em !important;
+        grid-template-rows: minmax(33.333vw, auto) auto;
+      }
+      body .goals ~ section:not(.team):not(.styled) .standard-figure {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin: 0;
+      }
+      body .goals ~ section:not(.team):not(.styled) > div > div {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+
+      }
+      body .goals ~ section:not(.team):not(.styled) .standard-figure {
+        position: relative;
+        justify-self: stretch;
+        align-self: stretch;
+        margin-left: -3em;
+        margin-bottom: -2.25em;
+        margin-right: -3em;
+      }
+      body .goals ~ section:not(.team):not(.styled) .standard-figure p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      body .goals ~ section:not(.team):not(.styled) .standard-figure p::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        z-index: 1;
+      }
+      body .goals ~ section:not(.team):not(.styled) .standard-figure img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      body .goals ~ section:not(.team):not(.styled) > div > div + div {
+        grid-column: 1 / 3 !important;
+        grid-row: 2 / 3 !important;
+      }
+    }
+  }
+
+
+
+  main .goals {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .goals h2 {
+    grid-column: 1/4 !important;
+    text-align: center;
+  }
+  .goals ul,
+  .goals li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  main > .goals {
+    min-height: 0;
+    margin: 0em 0 2.25em;
+    padding: 0;
+  }
+  main > .goals > div {
+    width: 100%;
+  }
+  main > .goals > div p {
+    text-align: center;
+  }
+  main > .goals > div ul {
+    max-width: none;
+  }
+  main > .goals ~ section:not(.team) {
+    margin-top: 0em;
+    padding-top: 1.5em;
+    min-height: 0;
+  }
+  .goals ul {
+    padding-top: 1.5em;
+    margin-bottom: 0;
+  }
+  .goals li {
+    margin: 0.15em;
+    text-align: center;
+  }
+  .goals .action a {
+    display: block;
+    border-radius: 0;
+  }
+
+
+
+  /* Remove whitespace between goals and .standard-figure */
+  .goals ~ section:not(.team) {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .goals ~ .standard-figure {
+    margin-top: 0;
+  }
+  @media (min-width: 60em) {
+    .goals ~ section:not(.team) ul {
+      padding-bottom: 3rem;
+    }
+    .goals ~ .standard-figure {
+      margin-top: -1.5em;
+    }
+  }
+
+
+
+  .goals ~ section:not(.team) .action {
+    padding-top: 3em;
+    max-width: none;
+    text-align: center;
+    grid-column: 1/4 !important;
+  }
+  .goals ~ section:not(.team) .action a {
+    margin-left: 0.75em;
+  }
+
+
+  .goals ~ section:not(.team) ul {
+    /*
+    padding: 1.4em 2.8em;
+    */
+    width: auto;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals ~ section:not(.team) ul {
+      column-count: 2;
+      column-gap: 3em;
+    }
+  }
+  @media (min-width: 60em) {
+    .goals ~ section:not(.team) ul {
+      font-size: 0.875em;
+      column-count: 3;
+    }
+  }
+  .goals ~ section ul li {
+    page-break-inside: avoid;
+  }
+  .goals ~ section > div > div:last-of-type {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 1.5rem 1.5rem 3rem;
+    /*box-sizing: border-box;
+    width: 100vw;*/
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals ~ section > div > div:last-of-type {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem;
+    }
+  }
+  .goals ~ section > div > div:last-of-type ul,
+  .goals ~ section > div > div:last-of-type h4 {
+    margin-top: 0;
+    color: inherit !important;
+  }
+  .goals ~ section > div > div:last-of-type {
+    margin-top: 3em;
+  }
+
+  @media (min-width: 60em) {
+    .goals ~ section > div > div:last-of-type {
+      margin-top: 0;
+    }
+  }
+  .goals ~ section > div > div:last-of-type h4 {
+    margin-top: -3em;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    line-height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+  }
+  @media (min-width: 60em) {
+    .goals ~ section > div > div:last-of-type h4 {
+      margin-top: -4.5em;
+    }
+  }
+
+  .goals ~ section > div > div:last-of-type ul {
+    margin-bottom: 0;
+  }
+  .goals ~ section.tangerine > div > div:last-of-type {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    background-color: rgb(229, 140, 31); /* @darker-tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: white !important;
+  }
+  .goals ~ section.lime > div > div:last-of-type {
+    background-color: rgb(141, 208, 59); /* @lime */
+    background-color: rgb(121, 188, 39); /* @darker-lime */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
+    color: white !important;
+  }
+  .goals ~ section.blueberry > div > div:last-of-type {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+  .goals ~ section.banana > div > div:last-of-type {
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(235, 174, 31); /* @darker-banana */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
+    color: white !important;
+  }
+  .goals ~ section.strawberry > div > div:last-of-type {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+
+
+  .goals ~ section.tangerine > div > div:last-of-type h4 {
+    background-color: rgb(255, 180, 71); /* @brighter-tangerine */
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: white !important;
+  }
+  .goals ~ section.lime > div > div:last-of-type h4 {
+    background-color: rgb(161, 228, 79); /* @brighter-lime */
+    background-color: rgb(141, 208, 59); /* @lime */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
+    color: white !important;
+  }
+  .goals ~ section.blueberry > div > div:last-of-type h4 {
+    background-color: rgb(26, 189, 208); /* @brighter-blueberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+  .goals ~ section.banana > div > div:last-of-type h4 {
+    background-color: rgb(255, 214, 71); /* @brighter-banana */
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(41, 41, 41) !important;
+    color: white !important;
+  }
+  .goals ~ section.strawberry > div > div:last-of-type h4 {
+    background-color: rgb(255, 79, 156); /* @brighter-strawberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white !important;
+  }
+
+
+
+  .goals ~ section:not(.team).hidden {
+    display: none;
+  }
+
+  .goals ul {
+    grid-column: 1/4 !important;
+    text-align: center;
+    max-width: none;
+    margin: 0;
+  }
+
+  @supports (display: flex) {
+    .goals ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .goals li {
+      flex-grow: 1;
+      flex-basis: 7em;
+    }
+  }
+
+  main > section h1 {
+    color: inherit;
+    max-width: none;
+    text-align: center;
+  }
+  main > section h1 b {
+    color: rgb(237, 59, 136); /* @strawberry */
+    font-weight: inherit;
+  }
+  main > section.strawberry h1 b {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  main > section h1 + .activate-tag {
+    margin-top: 3em;
+    color: white;
+    text-align: center;
+  }
+
+  .goals h2 {    
+    font-size: 1.75em !important;
+    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
+    font-style: italic;
+    margin-bottom: 1;
+  }
+  @media (min-width: 40em) {
+    .goals h2 {
+      font-size: 2.5em !important;
+      max-width: none;
+    }
+  }

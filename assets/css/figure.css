@@ -1,0 +1,160 @@
+
+  .standard-figure {
+    padding: 0;
+    max-width: none;
+    margin: 1.5em -1.5em;
+    position: relative;
+    color: white;
+  }
+  .standard-figure h1,
+  .standard-figure p {
+    max-width: none;
+    margin: 0;
+  }
+  .standard-figure p + p {
+    margin-top: 0.75em;
+  }
+  .standard-figure p + .action {
+    margin-top: 1.5em;
+  }
+  .standard-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .standard-figure.has-caption::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  .standard-figure .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 900; /* @black */
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 1.5em;
+    text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
+  }
+  .standard-figure .caption h1,
+  .standard-figure .caption p:first-child,
+  .standard-figure p.caption {
+    opacity: 0.9;
+    color: inherit;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .standard-figure .caption {
+      font-size: 2em;
+      font-size: 5vw;
+    }
+  }
+  .standard-figure .caption strong {
+    font-weight: inherit;
+    display: inline-block;
+    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(141, 208, 59); /* @lime */
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(255, 79, 156); /* @bright-strawberry */
+    color: rgb(181, 248, 99); /* @bright-lime */
+    color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  .standard-figure .activate-tag {
+    position: absolute;
+    bottom: 1.5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
+    text-shadow: 0 0 2em rgba(0, 0, 0, 1);
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .standard-figure {
+      margin: 3em -3em;
+    }
+  }
+  .standard-figure:first-child {
+    margin-top: 0;
+  }
+
+  @supports (object-fit: cover) {
+    .standard-figure img {
+      height: 100vw;
+      object-fit: cover;
+      /* will-change: object-position; */
+      /*transition: object-position linear 1s;*/
+    }
+    @media (min-width: 40em) {
+      .standard-figure img {
+        height: 75vw;
+      }
+    }
+    .goals ~ section .standard-figure img {
+      height: 60vw; /* This happens to work well with the particular images we have */
+    }
+    @media (min-width: 60em) {
+      .standard-figure img {
+        height: 45vw;
+        object-fit: cover;
+        object-position: center;
+      }
+      .standard-figure img[src*="learn"] {
+        object-position: right;
+      }
+    }
+  }
+
+  @supports (object-fit: cover) {
+    @media (max-width: 19em) {   
+      .change-is-local {
+        background: black;
+        padding-bottom: 25vw;
+      } 
+      .change-is-local img {
+        height: auto;
+        object-fit: cover;
+      }
+      .change-is-local::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 25vw, rgba(0, 0, 0, 0) 50vw, rgba(0, 0, 0, 0));
+        z-index: 1;
+      }
+      .change-is-local .caption {
+        z-index: 2;
+      } 
+    }
+  }
+
+  main > .standard-figure + section {
+    margin-top: -1.5em;
+  }
+
+  @media (min-width: 40em) {
+    main > .standard-figure + section {
+      margin-top: -4.5em;
+    }
+    h1 {
+      font-size: 3.375em;
+      font-size: 6vmax;
+    }
+  }

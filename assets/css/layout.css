@@ -1,0 +1,301 @@
+
+
+  header ul,
+  header li,
+  footer ul,
+  footer li {
+    list-style: none;
+    padding-left: 0;
+  }
+  header li,
+  footer li {
+    display: inline;
+    margin: 0 0.5em;
+  }
+  @media (max-width: 30em) {
+    header ul,
+    footer ul {
+      max-width: 20em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+
+  header,
+  footer {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    padding: 3em 1.5em 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    header,
+    footer {
+      margin-left: -3em;
+      margin-right: -3em;
+      padding: 3em 3em 3em 3em;
+    }
+    footer {
+      padding-top: 2.25em;
+      padding-bottom: 3em;
+    }
+  }
+
+  footer small a {
+    display: inline-block;
+  }
+
+  header a,
+  footer a {
+    color: white;
+    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600; /* @semibold */
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+  header a:hover,
+  header a:active,
+  header a:focus,
+  footer a:hover,
+  footer a:active,
+  footer a:focus {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  header a:hover,
+  header a:active,
+  header a:focus {
+    color: white;
+    color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
+  }
+
+  footer {
+    background: rgb(245, 245, 245);
+    background: rgb(235, 235, 235);
+    color: inherit;
+  }
+  footer a {
+    color: inherit;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    footer a {
+      font-size: 0.875em;
+    }
+  }
+  footer a:hover,
+  footer a:active,
+  footer a:focus {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+
+
+
+
+
+  header h2,
+  footer h2 {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500; /* @medium */
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: rgb(249, 160, 51); /* @tangerine */
+    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
+    color: white;
+    line-height: 1;
+    text-align: center;
+  }
+  header h2 .year {
+    display: none;
+  }
+
+  footer h2 {
+    margin-top: 0;
+    color: inherit;
+    font-size: inherit;
+    max-width: none;
+  }
+  header h2 em,
+  footer h2 em {
+    font-style: italic;
+    font-weight: bold;
+    color: inherit;
+  }
+  header h2 a,
+  footer h2 a {
+    color: inherit;
+  }
+  header h2 a:hover,
+  header h2 a:active,
+  header h2 a:focus,
+  footer h2 a:hover,
+  footer h2 a:active,
+  footer h2 a:focus {
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(6, 179, 188); /* @blueberry */
+    opacity: 1;
+  }
+  header h2 a:hover,
+  header h2 a:active,
+  header h2 a:focus {
+    color: white;
+    color: rgb(255, 224, 81); /* @bright-banana */
+  }
+
+
+
+  main {
+    padding-bottom: 0;
+  }
+  main > .standard-figure:last-child,
+  main > section:last-child {
+    margin-bottom: 0;
+  }
+
+
+  /* =Layout
+  ----------------------------------------------- */
+  main > h1:first-child {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(255, 194, 51); /* @banana */
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 0 1.5rem 4.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    max-width: none;
+    position: relative;
+    z-index: 1;
+  }
+  main > h1:first-child > span:not(.avoid-break) {
+    display: block;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    main > h1:first-child {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem 3rem 6rem;
+    }
+  }
+  main > h1:first-child em,
+  main > h1:first-child + .action strong {
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  main > h1:first-child + .action {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 0 1.5em 3em;
+    margin-top: -6em;
+    margin-bottom: 4.5em;
+  }
+  main > h1:first-child + .action > p:nth-child(1),
+  main > h1:first-child + .action > p:nth-child(2) {
+    font-size: 1.5em;
+    text-align: center;
+    max-width: none;
+  }
+  main > h1:first-child + .action > p:nth-child(1) {
+    margin-top: 0;
+    font-weight: bold;
+  }
+  main > h1:first-child + .action > p:nth-child(1) strong {
+    font-weight: inherit;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    main > h1:first-child + .action {
+      margin-left: -3em;
+      margin-right: -3em;
+      margin-top: -9em;
+      padding: 0 3em 3em;
+    }
+  }
+  main > h1:first-child + .action ul {
+    text-align: center;
+    max-width: none;
+  }
+  .home .nav-link.action a,
+  footer .action a,
+  main > h1:first-child + .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(237, 192, 50); /* @dark-banana */
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    border-color: rgb(6, 179, 188); /* @blueberry */
+    color: black;
+    color: rgba(0, 0, 0, 0.65);
+    color: white;
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+  }
+
+  header,
+  footer {
+    text-align: center;
+  }
+  header h2,
+  footer h2 {
+    margin-bottom: 3rem;
+  }
+  header h2 {
+    margin-top: 0;
+  }
+
+  footer .action {
+    margin-top: 3em;
+  }
+
+  footer > p a {
+    display: inline-block;
+  }
+
+  main > h1 + p {
+    margin-bottom: 3em;
+    font-size: 1.5em;
+  }
+  main > h1 + .notifications {
+    margin-bottom: 4.5em;
+  }
+  main > h1 + .notifications p:first-child {
+    margin-top: 0;
+  }
+  @media (min-width: 40em) {
+    main > h1 + .notifications p:not(.action) {
+      font-size: 1.5em;
+      /*font-size: 2vmax;*/
+    } 
+  }
+  main > h1 + .notifications h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: inherit;
+    color: inherit;
+  }
+  body:not(.faqs) main > h1 + p,
+  body:not(.faqs) main > h1 + .notifications p,
+  body:not(.faqs) main > h1 + .notifications h3 {
+    text-align: center;
+    max-width: none;
+  }
+
+
+  body:not(.faqs) main > section + .standard-figure {
+    margin-top: -4.5em;
+  }
+
