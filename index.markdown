@@ -102,7 +102,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 Starting Tuesday, June 19, 2018, you can [vote for a proposal](/vote/) on this website.
 
 
-<section class="timeline has-icons" markdown="1" id="dates"><div markdown="1">
+<section class="timeline" id="dates"><div markdown="1">
 
 ## Key Dates
 

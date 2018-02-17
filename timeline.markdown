@@ -5,7 +5,7 @@ color: banana
 
 # Timeline
 
-<section class="timeline has-icons" markdown="1"><div markdown="1">
+<section class="timeline"><div markdown="1">
 
 ![](/assets/images/timeline/submission.svg) March 1-30, 2018
 : Submission Period
@@ -27,8 +27,6 @@ color: banana
 
 ![](/assets/images/timeline/winners.svg) July 9, 2018
 : Winners Announced
-
-* * *
 
 **25 finalists** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span><br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event.
 
