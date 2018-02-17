@@ -242,38 +242,6 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 </div></section>
 
-<!--
-<section class="team"><div markdown="1">
-
-## LA2050 Team
-
-<ul class="team">
-  <li>
-    <img src="/assets/images/team/angie.jpg" width="200" alt="" /><br />
-    <strong>Angie Jean-Marie</strong>
-    Interim Director
-  </li>
-  <li>
-    <img src="/assets/images/team/megan.jpg" width="200" alt="" /><br />
-    <strong>Megan Park</strong>
-    Designer
-  </li>
-  <li>
-    <img src="/assets/images/team/margo.jpg" width="200" alt="" /><br />
-    <strong>Margo Lang</strong>
-    Digital
-  </li>
-  <li>
-    <img src="/assets/images/team/tara.jpg" width="200" alt="" /><br />
-    <strong>Tara Roth</strong>
-    President of the Goldhirsh Foundation
-  </li>
-</ul>
-
-</div>
-</section>
--->
-
 <script>
 (function() {
   if (!document.querySelector || !document.body.addEventListener || !document.body.classList) return;
