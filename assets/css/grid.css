@@ -152,12 +152,12 @@
         text-align: left;
       }*/
 
-      body .standard-figure {
+      .standard-figure {
         grid-column: 1/4;
       }
 
 
-      body .application-process {
+      .application-process {
         grid-column: 1/4;
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
@@ -165,7 +165,7 @@
         grid-row-gap: 1.5em;
         align-items: start;
       }
-      body .application-process > div {
+      .application-process > div {
         grid-column: 2/3;
       }
     }
