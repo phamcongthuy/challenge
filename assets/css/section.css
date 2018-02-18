@@ -27,7 +27,7 @@
   @media (min-width: 40em) {
     .standard-section > div > h2 {
       font-size: 3.375em;
-      /*font-size: 3.75vw;*/
+      font-size: 3.75vw;
       max-width: none;
     }
   }

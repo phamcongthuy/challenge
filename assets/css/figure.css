@@ -40,7 +40,7 @@
     height: 100%;
     font-weight: 900; /* @black */
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 2.25em;
     letter-spacing: 2px;
     text-align: center;
     display: flex;
@@ -121,7 +121,7 @@
     }
   }
 
-  @supports (object-fit: cover) {
+/*  @supports (object-fit: cover) {
     @media (max-width: 19em) {   
       .header-figure {
         background: black;
@@ -145,4 +145,4 @@
         z-index: 2;
       } 
     }
-  }
+  }*/

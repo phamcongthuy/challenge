@@ -55,6 +55,8 @@
   /* =Image
   ----------------------------------------------- */
   .goals .standard-figure {
+    margin-top: 0;
+    margin-bottom: 2.25em;
     position: relative;
   }
   .goals .standard-figure p::before {

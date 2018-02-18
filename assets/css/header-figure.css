@@ -97,23 +97,23 @@
     background-color: rgba(0, 0, 0, 0.375);
     background-image: none;
   }
-  .header-figure .caption {
+/*  .header-figure .caption {
     align-items: center;
     align-items: flex-end;
     padding-bottom: 2.25em;
-  }
-  .header-figure img {
+  }*/
+.disabled .header-figure img {
     height: 61.66992188vw; /* The aspect ratio of the LA Más image */
     height: 50vw;
   }
-  @media (min-width: 60em) {
+/*  @media (min-width: 60em) {
     .header-figure .caption {
       padding-top: 7.5em;
       padding-bottom: 0;
       align-items: center;
     }
-  }
-  @media (max-width: 80em) {
+  }*/
+/*  @media (max-width: 80em) {
     .header-figure img {
       height: 250vw;
     }
@@ -152,4 +152,30 @@
     .header-figure img {
       height: 60vw;
     }
+  }*/
+
+
+  .standard-figure.has-caption::before {
+    z-index: 1;
   }
+  .standard-figure .caption {
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  .header-figure .caption {
+    padding-top: 13.5em;
+    padding-bottom: 6em;
+  }
+  .standard-figure.has-caption img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
