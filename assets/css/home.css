@@ -105,7 +105,8 @@
         margin: 0;
         left: 0;
       }
-      .home header a {
+      .home header h2 a,
+      .home header ul a {
         color: rgb(46, 219, 228); /* @bright-blueberry */
         text-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
       }

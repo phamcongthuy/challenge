@@ -1,5 +1,64 @@
 
 
+  /* =Layout
+  ----------------------------------------------- */
+  main {
+    padding-bottom: 0;
+  }
+  main > .standard-figure:last-child,
+  main > .standard-section:last-child {
+    margin-bottom: 0;
+  }
+  .standard-section + .standard-figure {
+    margin-top: -4.5em;
+  }
+
+
+  /* =Header / Footer
+  ----------------------------------------------- */
+  header,
+  footer {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    padding: 3em 1.5em 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  footer {
+    background: rgb(245, 245, 245);
+    background: rgb(235, 235, 235);
+    color: inherit;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    header,
+    footer {
+      margin-left: -3em;
+      margin-right: -3em;
+      padding: 3em 3em 3em 3em;
+    }
+    footer {
+      padding-top: 2.25em;
+      padding-bottom: 3em;
+    }
+  }
+
+  header h2,
+  footer h2 {
+    margin-bottom: 3rem;
+  }
+  header h2 {
+    margin-top: 0;
+  }
+  footer .action {
+    margin-top: 3em;
+  }
+
+
+  /* =Lists
+  ----------------------------------------------- */
   header ul,
   header li,
   footer ul,
@@ -22,33 +81,8 @@
   }
 
 
-  header,
-  footer {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
-    margin-left: -1.5em;
-    margin-right: -1.5em;
-    padding: 3em 1.5em 3em;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    header,
-    footer {
-      margin-left: -3em;
-      margin-right: -3em;
-      padding: 3em 3em 3em 3em;
-    }
-    footer {
-      padding-top: 2.25em;
-      padding-bottom: 3em;
-    }
-  }
-
-  footer small a {
-    display: inline-block;
-  }
-
+  /* =Links
+  ----------------------------------------------- */
   header a,
   footer a {
     color: white;
@@ -76,12 +110,6 @@
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
   }
-
-  footer {
-    background: rgb(245, 245, 245);
-    background: rgb(235, 235, 235);
-    color: inherit;
-  }
   footer a {
     color: inherit;
   }
@@ -95,11 +123,13 @@
   footer a:focus {
     color: rgb(6, 179, 188); /* @blueberry */
   }
+  footer small a {
+    display: inline-block;
+  }
 
 
-
-
-
+  /* =Logotype
+  ----------------------------------------------- */
   header h2,
   footer h2 {
     display: table;
@@ -115,10 +145,6 @@
     line-height: 1;
     text-align: center;
   }
-  header h2 .year {
-    display: none;
-  }
-
   footer h2 {
     margin-top: 0;
     color: inherit;
@@ -153,17 +179,7 @@
   }
 
 
-
-  main {
-    padding-bottom: 0;
-  }
-  main > .standard-figure:last-child,
-  main > section:last-child {
-    margin-bottom: 0;
-  }
-
-
-  /* =Layout
+  /* =Headline
   ----------------------------------------------- */
   main > h1:first-child {
     background-color: rgb(237, 59, 136); /* @strawberry */
@@ -180,12 +196,6 @@
     position: relative;
     z-index: 1;
   }
-  main > h1:first-child > span:not(.avoid-break) {
-    display: block;
-    max-width: 25em;
-    margin-left: auto;
-    margin-right: auto;
-  }
   @media (min-width: 40em) { /* @medium-size-screen */
     main > h1:first-child {
       margin-left: -3rem;
@@ -193,103 +203,5 @@
       padding: 3rem 3rem 6rem;
     }
   }
-  main > h1:first-child em,
-  main > h1:first-child + .action strong {
-    color: rgb(255, 194, 51); /* @banana */
-  }
-  main > h1:first-child + .action {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    padding: 0 1.5em 3em;
-    margin-top: -6em;
-    margin-bottom: 4.5em;
-  }
-  main > h1:first-child + .action > p:nth-child(1),
-  main > h1:first-child + .action > p:nth-child(2) {
-    font-size: 1.5em;
-    text-align: center;
-    max-width: none;
-  }
-  main > h1:first-child + .action > p:nth-child(1) {
-    margin-top: 0;
-    font-weight: bold;
-  }
-  main > h1:first-child + .action > p:nth-child(1) strong {
-    font-weight: inherit;
-  }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    main > h1:first-child + .action {
-      margin-left: -3em;
-      margin-right: -3em;
-      margin-top: -9em;
-      padding: 0 3em 3em;
-    }
-  }
-  main > h1:first-child + .action ul {
-    text-align: center;
-    max-width: none;
-  }
-  .home .nav-link.action a,
-  footer .action a,
-  main > h1:first-child + .action a {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
-    color: white;
-  }
 
-  header,
-  footer {
-    text-align: center;
-  }
-  header h2,
-  footer h2 {
-    margin-bottom: 3rem;
-  }
-  header h2 {
-    margin-top: 0;
-  }
-
-  footer .action {
-    margin-top: 3em;
-  }
-
-  footer > p a {
-    display: inline-block;
-  }
-
-  main > h1 + p {
-    margin-bottom: 3em;
-    font-size: 1.5em;
-  }
-  main > h1 + .introduction {
-    margin-bottom: 4.5em;
-  }
-  main > h1 + .introduction p:first-child {
-    margin-top: 0;
-  }
-  @media (min-width: 40em) {
-    main > h1 + .introduction p:not(.action) {
-      font-size: 1.5em;
-      /*font-size: 2vmax;*/
-    } 
-  }
-  main > h1 + .introduction h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    font-weight: inherit;
-    color: inherit;
-  }
-  .standard-layout > h1 + p,
-  .standard-layout > h1 + .introduction p,
-  .standard-layout > h1 + .introduction h3 {
-    text-align: center;
-    max-width: none;
-  }
-
-
-  .standard-section + .standard-figure {
-    margin-top: -4.5em;
-  }
 
