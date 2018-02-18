@@ -51,7 +51,7 @@ We’ve been inspired by the sparks of activism we’ve seen, but by traditional
 ## Are there restrictions on what the activations can address?
 </summary>
 
-LA2050 can only fund projects that further charitable and educational purposes within the meaning of IRC section 501(c)(3). Thus, whether your organization is a nonprofit or for-profit entity, all activities for which you seek LA2050 grant funding must comply with section 501(c)(3). Please also carefully review [the detailed rules](http://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf) for the activation challenge.
+LA2050 can only fund projects that further charitable and educational purposes within the meaning of IRC section 501(c)(3). Thus, whether your organization is a nonprofit or for-profit entity, all activities for which you seek LA2050 grant funding must comply with section 501(c)(3). Please also carefully review [the detailed rules](https://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf) for the activation challenge.
 
 </details>
 
