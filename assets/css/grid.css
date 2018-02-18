@@ -67,7 +67,6 @@
       }
       body:not(.faqs) main > h1,
       body:not(.faqs) main > h1 + p,
-      body:not(.faqs) main > .team,
       body:not(.faqs) main > .numbers,
       body:not(.faqs) main > h1 + .introduction,
       body:not(.faqs) main > h1 + .action,
@@ -82,20 +81,15 @@
         justify-self: end;
         text-align: right;
       }
-      body:not(.faqs) main > h2:not(.fancy),
-      body:not(.faqs) main > h3:not(.fancy) {
+      body:not(.faqs) main > h2,
+      body:not(.faqs) main > h3 {
         font-size: 1.5em;
         line-height: 1.125;
         max-width: 17.5em;
       }
-      body:not(.faqs) main > h2.fancy,
-      body:not(.faqs) main > h3.fancy {
-        margin-top: -0.2em;
-      }
       body:not(.faqs) main > p,
       body:not(.faqs) main > p.action,
-      body:not(.faqs) main > .process,
-      body:not(.faqs) main > ul:not(.team):not(.styled) {
+      body:not(.faqs) main > ul {
         margin: 0;
         grid-column: 2 / 3;
       }
@@ -109,7 +103,7 @@
         margin-top: -6em; /* offset the grid row gap */
       }
 
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div {
         display: grid;
         grid-template-columns: 1fr minmax(20vw, 33em) 1fr;
         grid-column-gap: 3em;
@@ -118,18 +112,18 @@
         width: 100%;
       }
       body:not(.faqs) main > .activate-tag,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > .activate-tag,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h2,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h3,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h4 {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > .activate-tag,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > h2,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > h3,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > h4 {
         margin: 0;
         grid-column: 1 / 2;
         align-self: start;
         justify-self: end;
         text-align: right;
       }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h2:not(.fancy),
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h3:not(.fancy) {
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > h2,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > h3 {
         font-size: 2em;
         margin-bottom: 0.5em;
         line-height: 1.125;
@@ -138,29 +132,26 @@
         text-align: center;
         justify-self: center;
       }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals).activation-examples > div > h2:not(.fancy) {
+/*      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals).activation-examples > div > h2 {
         grid-column: 2 / 3;
         text-align: left;
         justify-self: start;
-      }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h2.fancy,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > h3.fancy {
-        margin-top: -0.2em;
-      }
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > p,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > p.action,
-      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.styled):not(.goals) > div > ul {
+      }*/
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > p,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > p.action,
+      body:not(.faqs) main > section:not(.timeline):not(.activation-examples):not(.goals) > div > ul {
         margin: 0;
         grid-column: 2 / 3;
       }
 
-
-      body:not(.faqs) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > h2 + p * {
+      /*
+      body:not(.faqs) main > section.activation-examples:not(.timeline):not(.activation-examples) > div > h2 + p * {
         text-align: right !important;
       }
-      body:not(.faqs) main > section.activation-examples:not(.timeline):not(.activation-examples):not(.styled) > div > p {
+      body:not(.faqs) main > section.activation-examples:not(.timeline):not(.activation-examples) > div > p {
         text-align: left;
-      }
+      }*/
+
       body .standard-figure {
         grid-column: 1/4;
       }
