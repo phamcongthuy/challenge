@@ -20,7 +20,7 @@
     font-size: 1.25em;
     font-weight: inherit;
     font-style: italic;
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
   .application-process h4:first-child {
     margin-top: 0;

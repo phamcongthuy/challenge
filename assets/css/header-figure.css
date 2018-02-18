@@ -47,7 +47,7 @@
   .header-figure .action a:active,
   .header-figure .action a:focus {
     background-color: rgb(237, 59, 136); /* @strawberry */
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(6, 179, 188); /* @blueberry */
   }
 
@@ -79,7 +79,7 @@
       }
       .home header h2 a,
       .home header ul a {
-        color: white;
+        color: rgb(254, 254, 254); /* @snow */
         text-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
       }
       .home header h2 a:hover,

@@ -5,7 +5,7 @@
   .action a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     padding: 1em 1.5em;
     display: inline-block;
     text-decoration: none;
@@ -17,7 +17,7 @@
   .action a:hover,
   .action a:active,
   .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(237, 59, 136); /* @strawberry */
   }
 
@@ -49,35 +49,35 @@
   .strawberry .action a:hover,
   .strawberry .action a:active,
   .strawberry .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(237, 59, 136); /* @strawberry */
   }
   .blueberry .action a.active,
   .blueberry .action a:hover,
   .blueberry .action a:active,
   .blueberry .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(6, 179, 188); /* @blueberry */
   }
   .banana .action a.active,
   .banana .action a:hover,
   .banana .action a:active,
   .banana .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 194, 51); /* @banana */
   }
   .tangerine .action a.active,
   .tangerine .action a:hover,
   .tangerine .action a:active,
   .tangerine .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(249, 160, 51); /* @tangerine */
   }
   .lime .action a.active,
   .lime .action a:hover,
   .lime .action a:active,
   .lime .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(141, 208, 59); /* @lime */
   }
 
@@ -131,35 +131,35 @@
   .action .strawberry a:hover,
   .action .strawberry a:active,
   .action .strawberry a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(237, 59, 136); /* @strawberry */
   }
   .action .blueberry a.active,
   .action .blueberry a:hover,
   .action .blueberry a:active,
   .action .blueberry a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(6, 179, 188); /* @blueberry */
   }
   .action .banana a.active,
   .action .banana a:hover,
   .action .banana a:active,
   .action .banana a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(237, 192, 50); /* @dark-banana */
   }
   .action .tangerine a.active,
   .action .tangerine a:hover,
   .action .tangerine a:active,
   .action .tangerine a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(249, 160, 51); /* @tangerine */
   }
   .action .lime a.active,
   .action .lime a:hover,
   .action .lime a:active,
   .action .lime a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(141, 208, 59); /* @lime */
   }
 

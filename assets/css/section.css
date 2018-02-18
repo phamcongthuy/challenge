@@ -34,11 +34,11 @@
 
   .activation-examples {
     background-color: rgb(6, 179, 188); /* @blueberry */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
   .timeline {
     background-color: rgb(255, 194, 51); /* @banana */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
   .timeline p {
     color: rgb(237, 59, 136); /* @strawberry */
@@ -52,7 +52,7 @@
   .timeline p a:active,
   .timeline p a:hover,
   .timeline p a:focus {
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
 
   main > h1 + .timeline {
@@ -85,7 +85,7 @@
     color: rgb(255, 79, 156); /* @bright-strawberry */
     color: rgb(141, 208, 59); /* @lime */
     color: rgb(181, 248, 99); /* @bright-lime */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
 
 
@@ -145,7 +145,7 @@
 
   .timeline dt strong {
     font-weight: inherit;
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
 
   .timeline dd {

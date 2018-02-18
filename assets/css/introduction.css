@@ -32,7 +32,7 @@
   .introduction .action a:hover,
   .introduction .action a:active,
   .introduction .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(237, 59, 136); /* @strawberry */
   }
 
@@ -43,7 +43,7 @@
   .strawberry .introduction .action a:hover,
   .strawberry .introduction .action a:active,
   .strawberry .introduction .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 194, 51); /* @banana */
   }
 
@@ -54,7 +54,7 @@
   .blueberry .introduction .action a:hover,
   .blueberry .introduction .action a:active,
   .blueberry .introduction .action a:focus {
-    background-color: white;
+    background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 194, 51); /* @banana */
   }
 

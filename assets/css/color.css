@@ -74,7 +74,7 @@
   .blueberry header a,
   .blueberry main > h1:first-child em {
     color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
   .blueberry header a:hover,
   .blueberry header a:active,
@@ -95,7 +95,7 @@
     background-color: rgb(141, 208, 59); /* @lime */
   }
   .lime header a {
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
   .lime header a:hover,
   .lime header a:active,
@@ -121,7 +121,7 @@
   .tangerine header a,
   .tangerine main > h1:first-child em {
     color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
   .tangerine header a:hover,
   .tangerine header a:active,
@@ -148,7 +148,7 @@
   .banana header a,
   .banana main > h1:first-child em {
     color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
   }
   .banana header a:hover,
   .banana header a:active,

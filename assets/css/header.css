@@ -5,7 +5,7 @@
   header,
   footer {
     background-color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     margin-left: -1.5em;
     margin-right: -1.5em;
     padding: 3em 1.5em 3em;
@@ -83,11 +83,11 @@
   ----------------------------------------------- */
   header a,
   footer a {
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
@@ -104,7 +104,7 @@
   header a:hover,
   header a:active,
   header a:focus {
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
   }
@@ -139,7 +139,7 @@
     color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     line-height: 1;
     text-align: center;
   }
@@ -172,7 +172,7 @@
   header h2 a:hover,
   header h2 a:active,
   header h2 a:focus {
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 224, 81); /* @bright-banana */
   }
 
@@ -181,7 +181,7 @@
   ----------------------------------------------- */
   main > h1:first-child {
     background-color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
+    color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
     margin-left: -1.5rem;
