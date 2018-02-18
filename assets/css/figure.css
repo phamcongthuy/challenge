@@ -62,20 +62,6 @@
       font-size: 5vw;
     }
   }
-  .standard-figure .caption strong {
-    font-weight: inherit;
-    display: inline-block;
-    color: rgb(255, 194, 51); /* @banana */
-  }
-  .standard-figure .activate-tag {
-    position: absolute;
-    bottom: 1.5em;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: rgb(255, 194, 51); /* @banana */
-    text-shadow: 0 0 2em rgba(0, 0, 0, 1);
-  }
   @media (min-width: 40em) { /* @medium-size-screen */
     .standard-figure {
       margin: 3em -3em;
