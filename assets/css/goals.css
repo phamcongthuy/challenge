@@ -1,82 +1,7 @@
 
 
-  /* =Goals
+  /* =Navigation
   ----------------------------------------------- */
-  .goals > section {
-    margin-top: 0;
-    padding-top: 1.5em;
-    min-height: 0;
-  }
-
-  .goals > section {
-    background: rgb(254, 254, 254); /* @snow */
-    color: rgb(41, 41, 41); /* @midnight */
-  }
-  .goals > section.blueberry h3,
-  .goals > section.blueberry h4 {
-    color: rgb(6, 179, 188); /* @blueberry */
-  }
-  .goals > section.lime h3,
-  .goals > section.lime h4 {
-    color: rgb(141, 208, 59); /* @lime */
-  }
-  .goals > section.banana h3,
-  .goals > section.banana h4 {
-    color: rgb(255, 194, 51); /* @banana */
-  }
-  .goals > section.tangerine h3,
-  .goals > section.tangerine h4 {
-    color: rgb(249, 160, 51); /* @tangerine */
-  }
-  .goals > section.strawberry h3,
-  .goals > section.strawberry h4 {
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  .goals > section h3 {
-    margin-top: 0;
-    text-transform: uppercase;
-    max-width: none;
-    font-size: 2.5em;
-    letter-spacing: 2px;
-    font-weight: 900; /* @black */
-  }
-  @media (min-width: 40em) {
-    .goals > section h3 {
-      font-size: 3em;
-      font-size: 6vw;
-    }
-  }
-  .goals > section > div > div h4 {
-    max-width: none;
-  }
-  .goals > section > div > div p,
-  .goals > section > div > div ul {
-    color: inherit;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .goals > section > div > div ul {
-    max-width: none;
-  }
-
-
-  .goals > section .standard-figure {
-    position: relative;
-  }
-  .goals > section .standard-figure p::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-    z-index: 1;
-  }
-
-
-
-
   .goals .navigation {
     margin-top: 0;
     margin-bottom: 0;
@@ -119,171 +44,6 @@
     border-radius: 0;
   }
 
-
-
-  /* Remove whitespace between goals and .standard-figure */
-  .goals > section {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .goals ~ .standard-figure {
-    margin-top: 0;
-  }
-  @media (min-width: 60em) {
-    .goals > section ul {
-      padding-bottom: 3rem;
-    }
-    .goals ~ .standard-figure {
-      margin-top: -1.5em;
-    }
-  }
-
-
-
-  .goals > section .action {
-    padding-top: 3em;
-    max-width: none;
-    text-align: center;
-    grid-column: 1/4 !important;
-  }
-  .goals > section .action a {
-    margin-left: 0.75em;
-  }
-
-
-  .goals > section ul {
-    width: auto;
-  }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    .goals > section ul {
-      column-count: 2;
-      column-gap: 3em;
-    }
-  }
-  @media (min-width: 60em) {
-    .goals > section ul {
-      font-size: 0.875em;
-      column-count: 3;
-    }
-  }
-  .goals > section ul li {
-    page-break-inside: avoid;
-  }
-  .goals > section .metrics {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    padding: 1.5rem 1.5rem 3rem;
-  }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    .goals > section .metrics {
-      margin-left: -3rem;
-      margin-right: -3rem;
-      padding: 3rem;
-    }
-  }
-  .goals > section .metrics ul,
-  .goals > section .metrics h4 {
-    margin-top: 0;
-    color: inherit !important;
-  }
-  .goals > section .metrics {
-    margin-top: 3em;
-  }
-
-  .goals > section .metrics h4 {
-    margin-top: -3em;
-    position: relative;
-    z-index: 1;
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    line-height: 6em;
-    width: 6em;
-    border-radius: 50%;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 1.5em;
-  }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    .goals > section .metrics h4 {
-      margin-top: -4.5em;
-    }
-  }
-
-  .goals > section .metrics ul {
-    margin-bottom: 0;
-  }
-  .goals > section.tangerine .metrics {
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    background-color: rgb(229, 140, 31); /* @darker-tangerine */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: white !important;
-  }
-  .goals > section.lime .metrics {
-    background-color: rgb(141, 208, 59); /* @lime */
-    background-color: rgb(121, 188, 39); /* @darker-lime */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(41, 41, 41) !important;
-    color: white !important;
-  }
-  .goals > section.blueberry .metrics {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(255, 194, 51); /* @banana */
-    color: white !important;
-  }
-  .goals > section.banana .metrics {
-    background-color: rgb(255, 194, 51); /* @banana */
-    background-color: rgb(235, 174, 31); /* @darker-banana */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(41, 41, 41) !important;
-    color: white !important;
-  }
-  .goals > section.strawberry .metrics {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(255, 194, 51); /* @banana */
-    color: white !important;
-  }
-
-
-  .goals > section.tangerine .metrics h4 {
-    background-color: rgb(255, 180, 71); /* @brighter-tangerine */
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: white !important;
-  }
-  .goals > section.lime .metrics h4 {
-    background-color: rgb(161, 228, 79); /* @brighter-lime */
-    background-color: rgb(141, 208, 59); /* @lime */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(41, 41, 41) !important;
-    color: white !important;
-  }
-  .goals > section.blueberry .metrics h4 {
-    background-color: rgb(26, 189, 208); /* @brighter-blueberry */
-    color: rgb(255, 194, 51); /* @banana */
-    color: white !important;
-  }
-  .goals > section.banana .metrics h4 {
-    background-color: rgb(255, 214, 71); /* @brighter-banana */
-    background-color: rgb(255, 194, 51); /* @banana */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(41, 41, 41) !important;
-    color: white !important;
-  }
-  .goals > section.strawberry .metrics h4 {
-    background-color: rgb(255, 79, 156); /* @brighter-strawberry */
-    color: rgb(255, 194, 51); /* @banana */
-    color: white !important;
-  }
-
-
-
-  .goals > section.hidden {
-    display: none;
-  }
-
-
-
-  /* =Navigation
-  ----------------------------------------------- */
   .goals .navigation ul {
     grid-column: 1/4 !important;
     text-align: center;
@@ -303,8 +63,6 @@
     }
   }
 
-
-
   .goals .navigation h2 {    
     font-size: 1.75em !important;
     line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
@@ -320,28 +78,237 @@
   }
 
 
+  /* =Sections
+  ----------------------------------------------- */
+  .goals > section {
+    margin-top: 0;
+    padding-top: 1.5em;
+    min-height: 0;
+  }
+  .goals > section h3,
+  .goals > section p {
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  /* JavaScript will add this classname */
+  .goals > section.hidden {
+    display: none;
+  }
+
+
+  /* =Headlines
+  ----------------------------------------------- */
+  .goals > section.blueberry h3 {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  .goals > section.lime h3 {
+    color: rgb(141, 208, 59); /* @lime */
+  }
+  .goals > section.banana h3 {
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  .goals > section.tangerine h3 {
+    color: rgb(249, 160, 51); /* @tangerine */
+  }
+  .goals > section.strawberry h3 {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .goals > section h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: 900; /* @black */
+  }
+  @media (min-width: 40em) {
+    .goals > section h3 {
+      font-size: 3em;
+      font-size: 6vw;
+    }
+  }
+
+
+  /* =Image
+  ----------------------------------------------- */
+  .goals .standard-figure {
+    position: relative;
+  }
+  .goals .standard-figure p::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    z-index: 1;
+  }
+
+
+  /* =Metrics
+  ----------------------------------------------- */
+  .goals .metrics ul {
+    max-width: none;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals .metrics ul {
+      column-count: 2;
+      column-gap: 3em;
+    }
+  }
+  @media (min-width: 60em) {
+    .goals .metrics ul {
+      padding-bottom: 3rem;
+    }
+  }
+  @media (min-width: 60em) {
+    .goals .metrics ul {
+      font-size: 0.875em;
+      column-count: 3;
+    }
+  }
+  .goals .metrics ul li {
+    page-break-inside: avoid;
+  }
+  .goals .metrics {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 1.5rem 1.5rem 6rem;
+    margin-top: 3em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals .metrics {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding: 3rem 3rem 6rem;
+    }
+  }
+  .goals .metrics h4,
+  .goals .metrics ul {
+    margin-top: 0;
+    color: inherit !important;
+  }
+  .goals .metrics h4 {
+    margin-top: -3em;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    line-height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .goals .metrics h4 {
+      margin-top: -4.5em;
+    }
+  }
+  .goals .metrics ul {
+    margin-bottom: 0;
+  }
+
+  .goals .tangerine .metrics {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    background-color: rgb(229, 140, 31); /* @darker-tangerine */
+    color: white;
+  }
+  .goals .lime .metrics {
+    background-color: rgb(141, 208, 59); /* @lime */
+    background-color: rgb(121, 188, 39); /* @darker-lime */
+    color: white;
+  }
+  .goals .blueberry .metrics {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white;
+  }
+  .goals .banana .metrics {
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(235, 174, 31); /* @darker-banana */
+    color: white ;
+  }
+  .goals .strawberry .metrics {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+  }
+
+  .goals .tangerine .metrics h4 {
+    background-color: rgb(255, 180, 71); /* @brighter-tangerine */
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    color: white;
+  }
+  .goals .lime .metrics h4 {
+    background-color: rgb(161, 228, 79); /* @brighter-lime */
+    background-color: rgb(141, 208, 59); /* @lime */
+    color: white;
+  }
+  .goals .blueberry .metrics h4 {
+    background-color: rgb(26, 189, 208); /* @brighter-blueberry */
+    color: rgb(255, 194, 51); /* @banana */
+    color: white ;
+  }
+  .goals .banana .metrics h4 {
+    background-color: rgb(255, 214, 71); /* @brighter-banana */
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: white;
+  }
+  .goals .strawberry .metrics h4 {
+    background-color: rgb(255, 79, 156); /* @brighter-strawberry */
+    color: white ;
+  }
+
+
+  /* =Layout
+  ----------------------------------------------- */
+
+  /* Remove whitespace between goals and .standard-figure */
+  .goals > section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .goals ~ .standard-figure {
+    margin-top: 0;
+  }
+  @media (min-width: 60em) {
+    .goals ~ .standard-figure {
+      margin-top: -1.5em;
+    }
+  }
+
+
+  /* =Grid
+  ----------------------------------------------- */
   @supports (display: grid) {
     @media (min-width: 60em) {
       .goals > section > div {
+        align-items: start;
+        display: grid;
+        width: 100%;
         grid-template-columns: 1fr 1fr !important;
         grid-column-gap: 6em !important;
         grid-row-gap: 2.25em !important;
         grid-template-rows: minmax(33.333vw, auto) auto;
       }
-      .goals > section .metrics {
-        margin-top: 0;
-      }
-      .goals > section .standard-figure {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        margin: 0;
-      }
       .goals > section > div > div {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
       }
-      .goals > section .standard-figure {
+      .goals .metrics {
+        margin-top: 0;
+        grid-column: 1 / 3 !important;
+        grid-row: 2 / 3 !important;
+        padding-bottom: 3rem;
+      }
+      .goals .standard-figure {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin: 0;
+      }
+      .goals .standard-figure {
         position: relative;
         justify-self: stretch;
         align-self: stretch;
@@ -349,14 +316,14 @@
         margin-bottom: -2.25em;
         margin-right: -3em;
       }
-      .goals > section .standard-figure p {
+      .goals .standard-figure p {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
       }
-      .goals > section .standard-figure p::before {
+      .goals .standard-figure p::before {
         content: "";
         position: absolute;
         width: 100%;
@@ -366,7 +333,7 @@
         background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
         z-index: 1;
       }
-      .goals > section .standard-figure img {
+      .goals .standard-figure img {
         position: absolute;
         top: 0;
         left: 0;
@@ -374,11 +341,5 @@
         width: 100%;
         max-width: 100%;
       }
-
-      .goals > section .metrics {
-        grid-column: 1 / 3 !important;
-        grid-row: 2 / 3 !important;
-      }
     }
   }
-
