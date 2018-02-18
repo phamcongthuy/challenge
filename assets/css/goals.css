@@ -1,11 +1,10 @@
 
 
+  /* =Goals
+  ----------------------------------------------- */
   .goals ~ section {
-    background: rgb(252, 252, 252);
-    background: rgb(254, 254, 254);
-    color: rgba(82, 82, 82);
-    color: rgba(82, 82, 82, 0.9);
-    color: inherit;
+    background: rgb(254, 254, 254); /* @snow */
+    color: rgb(41, 41, 41); /* @midnight */
   }
   .goals ~ section.blueberry h3,
   .goals ~ section.blueberry h4 {
@@ -27,9 +26,6 @@
   .goals ~ section.strawberry h4 {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .goals ~ section:nth-of-type(2n) {
-    background-color: white;
-  }
   .goals ~ section h3 {
     margin-top: 0;
     text-transform: uppercase;
@@ -43,9 +39,6 @@
       font-size: 3em;
       font-size: 6vw;
     }
-  }
-  .goals ~ section h3 {
-
   }
   .goals ~ section > div > div h4 {
     max-width: none;
@@ -91,7 +84,6 @@
       .goals ~ section > div > div {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
-
       }
       .goals ~ section .standard-figure {
         position: relative;
@@ -165,8 +157,9 @@
   main > .goals > div ul {
     max-width: none;
   }
-  main > .goals ~ section:not(.team) {
-    margin-top: 0em;
+  main > .goals ~ section,
+  body:not(.faqs) main > section.goals ~ section { /* SHIM */
+    margin-top: 0;
     padding-top: 1.5em;
     min-height: 0;
   }
@@ -186,7 +179,7 @@
 
 
   /* Remove whitespace between goals and .standard-figure */
-  .goals ~ section:not(.team) {
+  .goals ~ section {
     margin-bottom: 0;
     padding-bottom: 0;
   }
@@ -194,7 +187,7 @@
     margin-top: 0;
   }
   @media (min-width: 60em) {
-    .goals ~ section:not(.team) ul {
+    .goals ~ section ul {
       padding-bottom: 3rem;
     }
     .goals ~ .standard-figure {
@@ -204,28 +197,28 @@
 
 
 
-  .goals ~ section:not(.team) .action {
+  .goals ~ section .action {
     padding-top: 3em;
     max-width: none;
     text-align: center;
     grid-column: 1/4 !important;
   }
-  .goals ~ section:not(.team) .action a {
+  .goals ~ section .action a {
     margin-left: 0.75em;
   }
 
 
-  .goals ~ section:not(.team) ul {
+  .goals ~ section ul {
     width: auto;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
-    .goals ~ section:not(.team) ul {
+    .goals ~ section ul {
       column-count: 2;
       column-gap: 3em;
     }
   }
   @media (min-width: 60em) {
-    .goals ~ section:not(.team) ul {
+    .goals ~ section ul {
       font-size: 0.875em;
       column-count: 3;
     }
@@ -345,7 +338,7 @@
 
 
 
-  .goals ~ section:not(.team).hidden {
+  .goals ~ section.hidden {
     display: none;
   }
 
@@ -368,23 +361,7 @@
     }
   }
 
-  main > section h1 {
-    color: inherit;
-    max-width: none;
-    text-align: center;
-  }
-  main > section h1 b {
-    color: rgb(237, 59, 136); /* @strawberry */
-    font-weight: inherit;
-  }
-  main > section.strawberry h1 b {
-    color: rgb(6, 179, 188); /* @blueberry */
-  }
-  main > section h1 + .activate-tag {
-    margin-top: 3em;
-    color: white;
-    text-align: center;
-  }
+
 
   .goals h2 {    
     font-size: 1.75em !important;

@@ -4,8 +4,8 @@
   /* =Colors
   ----------------------------------------------- */
   body {
-    background: rgb(254, 254, 254);
-    color: rgb(41, 41, 41);
+    background: rgb(254, 254, 254); /* @snow */
+    color: rgb(41, 41, 41); /* @midnight */
   }
 
   h1, h2, h3, h4, h5, h6, strong, em {
@@ -170,7 +170,6 @@
   .banana main > h2,
   .banana main > h3,
   .banana main > h4,
-  .banana main > ul.team strong,
   .banana main > p strong,
   .banana main > p em {
     color: rgb(237, 192, 50); /* @dark-banana */

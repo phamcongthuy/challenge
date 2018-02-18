@@ -1,37 +1,8 @@
 
 
-  h2 + .action,
-  h3 + .action,
-  p + .action,
-  ul + .action {
-    margin-top: 1.5em;
-  }
-  .action ul,
-  .action li {
-    list-style: none;
-    padding-left: 0;
-  }
-  .action li {
-    margin-bottom: 0.75em;
-  }
-  .action li a {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  @media (min-width: 30em) {
-    .action ul {
-      display: flex;
-      justify-content: center;
-    }
-    .action li {
-      margin: 0 0.5em;
-    }
-  }
+  /* =Action
+  ----------------------------------------------- */
   .action a {
-    background-color: rgb(101, 168, 19); /* @dark-lime */
-    background-color: rgb(239, 150, 41); /* @dark-tangerine */
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    background-color: rgb(255, 194, 51); /* @banana */
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
     color: white;
@@ -45,31 +16,23 @@
   .action a:hover,
   .action a:active,
   .action a:focus {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: white;
-
     background-color: white;
     color: rgb(237, 59, 136); /* @strawberry */
   }
 
 
+  /* =Layout
+  ----------------------------------------------- */
+/*  h2 + .action,
+  h3 + .action,
+  p  + .action,
+  ul + .action {
+    margin-top: 1.5em;
+  }*/
 
 
-  .nav-link.action a:hover,
-  .nav-link.action a:active,
-  .nav-link.action a:focus,
-  footer .action a:hover,
-  footer .action a:active,
-  footer .action a:focus,
-  main > h1:first-child + .action a,
-  main > h1:first-child + .action a,
-  main > h1:first-child + .action a {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    background-color: white;
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-
+  /* =Footer
+  ----------------------------------------------- */
   .strawberry .action a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
@@ -127,39 +90,30 @@
     color: rgb(141, 208, 59); /* @lime */
   }
 
-  .introduction .action a {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
-  }
-  .introduction .action a:hover,
-  .introduction .action a:active,
-  .introduction .action a:focus {
-    background-color: white;
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
 
-  .strawberry .introduction .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
-    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+  /* =Goals
+  ----------------------------------------------- */
+  .action ul,
+  .action li {
+    list-style: none;
+    padding-left: 0;
   }
-  .strawberry .introduction .action a:hover,
-  .strawberry .introduction .action a:active,
-  .strawberry .introduction .action a:focus {
-    background-color: white;
-    color: rgb(255, 194, 51); /* @banana */
+  .action li {
+    margin-bottom: 0.75em;
   }
-
-  .blueberry .introduction .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
-    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+  .action li a {
+    width: 100%;
+    box-sizing: border-box;
   }
-  .blueberry .introduction .action a:hover,
-  .blueberry .introduction .action a:active,
-  .blueberry .introduction .action a:focus {
-    background-color: white;
-    color: rgb(255, 194, 51); /* @banana */
+  @media (min-width: 30em) {
+    .action ul {
+      display: flex;
+      justify-content: center;
+    }
+    .action li {
+      margin: 0 0.5em;
+    }
   }
-
 
   .action .strawberry a {
     background-color: rgb(237, 59, 136); /* @strawberry */
@@ -217,4 +171,41 @@
     background-color: white;
     color: rgb(141, 208, 59); /* @lime */
   }
+
+
+  /* =Introduction
+  ----------------------------------------------- */
+  .introduction .action a {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+  }
+  .introduction .action a:hover,
+  .introduction .action a:active,
+  .introduction .action a:focus {
+    background-color: white;
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+
+  .strawberry .introduction .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+  }
+  .strawberry .introduction .action a:hover,
+  .strawberry .introduction .action a:active,
+  .strawberry .introduction .action a:focus {
+    background-color: white;
+    color: rgb(255, 194, 51); /* @banana */
+  }
+
+  .blueberry .introduction .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+  }
+  .blueberry .introduction .action a:hover,
+  .blueberry .introduction .action a:active,
+  .blueberry .introduction .action a:focus {
+    background-color: white;
+    color: rgb(255, 194, 51); /* @banana */
+  }
+
 

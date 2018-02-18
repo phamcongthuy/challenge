@@ -234,15 +234,9 @@
   .home .nav-link.action a,
   footer .action a,
   main > h1:first-child + .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
-    background-color: rgb(237, 192, 50); /* @dark-banana */
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    border-color: rgb(6, 179, 188); /* @blueberry */
-    color: black;
-    color: rgba(0, 0, 0, 0.65);
-    color: white;
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    color: white;
   }
 
   header,
