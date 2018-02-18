@@ -3,6 +3,27 @@
 
   /* =Colors
   ----------------------------------------------- */
+  :root {
+    --link-color: rgb(237, 59, 136); /* @strawberry */
+  }
+
+  .banana {
+    --link-color: rgb(255, 194, 51); /* @banana */
+  }
+  .blueberry {
+    --link-color: rgb(6, 179, 188); /* @blueberry */
+  }
+  .lime {
+    --link-color: rgb(141, 208, 59); /* @lime */
+  }
+  .strawberry {
+    --link-color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .tangerine {
+    --link-color: rgb(249, 160, 51); /* @tangerine */
+  }
+
+
   body {
     background: rgb(254, 254, 254); /* @snow */
     color: rgb(41, 41, 41); /* @midnight */
