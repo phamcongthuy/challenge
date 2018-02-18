@@ -33,8 +33,8 @@
         var scrollPositionRelativeToImage = images[index].getBoundingClientRect().top;
 
         var scrollPercentage = scrollPositionRelativeToImage / images[index].offsetHeight;
-        images[index].style.objectPosition = (50 + (scrollPercentage * 2)) + '% ' + (50 + (scrollPercentage * 10)) + '%';
-        // images[index].style.objectPosition = '50% ' + (50 + (scrollPercentage * 10)) + '%';
+        images[index].style.setProperty('--scroll-percentage', scrollPercentage + '%');
+        // images[index].style.setProperty('--scroll-percentage-in-seconds', scrollPercentage + 's');
       }
 
     }
