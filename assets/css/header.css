@@ -60,6 +60,10 @@
     list-style: none;
     padding-left: 0;
   }
+  header ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   header li,
   footer li {
     display: inline;
@@ -195,6 +199,7 @@
       margin-left: -3rem;
       margin-right: -3rem;
       padding: 3rem 3rem 6rem;
+      margin-bottom: 4.5rem; /* @headline-bottom-margin */
     }
   }
 

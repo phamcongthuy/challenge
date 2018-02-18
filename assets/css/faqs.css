@@ -1,5 +1,6 @@
 
 
+
   /* SHIM: Make the list look nicer in browsers that don’t understand summary / details */
   /* https://github.com/whatwg/html/issues/722 */
   details > summary {

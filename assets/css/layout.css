@@ -2,15 +2,9 @@
 
   /* =Layout
   ----------------------------------------------- */
-  main {
-    padding-bottom: 0;
-  }
   main > .standard-figure:last-child,
   main > .standard-section:last-child {
     margin-bottom: 0;
-  }
-  .standard-section + .standard-figure {
-    margin-top: -4.5em;
   }
 
 
@@ -89,6 +83,9 @@
       .standard-layout > .standard-section {
         grid-column: span 3;
       }
+      .standard-layout > h1:first-child {
+        margin-bottom: 1.5rem;
+      }
       .standard-layout > h2,
       .standard-layout > h3,
       .standard-layout > h4 {
@@ -111,7 +108,7 @@
       }
 
       .standard-layout > .standard-section + .standard-figure {
-        margin-top: -6em; /* offset the grid row gap */
+        margin-top: -7.5em; /* standard-section.bottom-margin + grid-row-gap = 6em + 1.5em = 7.5em */
       }
 
       .standard-layout > .activate-tag {
@@ -124,6 +121,9 @@
 
       .standard-figure {
         grid-column: 1/4;
+      }
+      .standard-layout > .standard-figure + .standard-section {
+        margin-top: -7.5em; /* standard-figure.bottom-margin + grid-row-gap = 6em + 1.5em = 7.5em */
       }
 
       .application-process {

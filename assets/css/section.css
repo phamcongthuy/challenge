@@ -3,11 +3,8 @@
   /* =Section
   ----------------------------------------------- */
   .standard-section {
-    margin-left: -1.5em;
-    margin-right: -1.5em;
+    margin: 3em -1.5em;
     padding: 3em 1.5em;
-    margin-top: 4.5em;
-    margin-bottom: 4.5em;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -15,8 +12,7 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .standard-section {
-      margin-left: -3em;
-      margin-right: -3em;
+      margin: 6em -3em;
       padding: 4.5em 3em;
     }
   }
@@ -36,18 +32,16 @@
     }
   }
 
-  main > h1 + .standard-section {
-    margin-top: -1.5em;
-  }
 
-
-  main > .standard-figure + .standard-section {
-    margin-top: -1.5em;
+  .standard-section + .standard-figure,
+  .standard-figure + .standard-section {
+    margin-top: -3em;
   }
 
   @media (min-width: 40em) {
-    main > .standard-figure + .standard-section {
-      margin-top: -4.5em;
+    .standard-section + .standard-figure,
+    .standard-figure + .standard-section {
+      margin-top: -6em;
     }
   }
 
@@ -74,14 +68,16 @@
   .timeline p a:focus {
     color: white;
   }
+
   main > h1 + .timeline {
+    margin-top: -4.5rem; /* @headline-bottom-margin */
     padding-top: 0;
   }
+
   .activation-examples h2 + p {
     max-width: none;
     font-weight: bold;
   }
-
   .activation-examples h2 + p strong {
     color: inherit;
     font-weight: inherit;
