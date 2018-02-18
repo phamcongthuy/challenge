@@ -14,7 +14,6 @@
   }
 
 
-
   @supports (display: grid) {
     @media (min-width: 60em) {
       header,
@@ -71,7 +70,7 @@
         justify-self: end;
         text-align: right;
         white-space: nowrap;
-        margin-top: -0.5em;
+        margin-top: -0.15em;
       }
 
       .standard-layout {
