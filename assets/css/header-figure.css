@@ -1,0 +1,145 @@
+
+
+  /* =Home
+  ----------------------------------------------- */
+  .header-figure {
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+  .header-figure .caption {
+    font-size: inherit;
+  }
+  .header-figure .caption h1 {
+    font-size: 2.25em;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+  .header-figure .caption p:not(.action) {
+    font-weight: 500; /* @medium */
+    text-transform: none;
+    text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
+    letter-spacing: normal;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: 40em) {
+    .header-figure .caption p:not(.action) {
+      font-size: 1.5em;
+      /*font-size: 2vmax;*/
+    }
+  }
+
+
+  /* OPTIONAL: Make the button blueberry instead of strawberry */
+  .header-figure .action a {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    border: 0.1875em solid rgb(6, 179, 188); /* @blueberry */
+  }
+  .header-figure .action a:hover,
+  .header-figure .action a:active,
+  .header-figure .action a:focus {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    background-color: white;
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+
+
+
+  @supports (object-fit: cover) and (display: flex) {
+    .header-figure .caption p strong {
+      display: inline-block;
+      font-weight: bold;
+    }
+    @media (min-width: 40em) {
+      .header-figure .caption h1 {
+        font-size: 6vmax;
+      }
+    }
+    @media (min-width: 15em) {
+      .header-figure::before {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
+      }
+      .home header {
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
+        background: transparent;
+        margin: 0;
+        left: 0;
+      }
+      .home header h2 a,
+      .home header ul a {
+        color: rgb(46, 219, 228); /* @bright-blueberry */
+        text-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
+      }
+      .home header h2 a {
+        color: white;
+      }
+      .home header a:hover,
+      .home header a:active,
+      .home header a:focus {
+        color: white;
+      }
+    }
+  }
+
+  .header-figure::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: none;
+  }
+  .header-figure .caption {
+    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 2.25em;
+  }
+  .header-figure img {
+    height: 61.66992188vw; /* The aspect ratio of the LA Más image */
+    height: 50vw;
+  }
+  @media (min-width: 60em) {
+    .header-figure .caption {
+      padding-top: 7.5em;
+      padding-bottom: 0;
+      align-items: center;
+    }
+  }
+  @media (max-width: 80em) {
+    .header-figure img {
+      height: 250vw;
+    }
+  }
+  @media (min-width: 19em) and (max-width: 80em) {
+    .header-figure img {
+      height: 170vw;
+    }
+  }
+  @media (min-width: 21em) and (max-width: 80em) {
+    .header-figure img {
+      height: 150vw;
+    }
+  }
+  @media (min-width: 25em) and (max-width: 80em) {
+    .header-figure img {
+      height: 125vw;
+    }
+  }
+  @media (min-width: 30em) and (max-width: 80em) {
+    .header-figure img {
+      height: 100vw;
+    }
+  }
+  @media (min-width: 40em) and (max-width: 80em) {
+    .header-figure img {
+      height: 80vw;
+    }
+  }
+  @media (min-width: 50em) and (max-width: 80em) {
+    .header-figure img {
+      height: 70vw;
+    }
+  }
+  @media (min-width: 60em) and (max-width: 80em) {
+    .header-figure img {
+      height: 60vw;
+    }
+  }

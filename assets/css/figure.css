@@ -114,15 +114,15 @@
 
   @supports (object-fit: cover) {
     @media (max-width: 19em) {   
-      .change-is-local {
+      .header-figure {
         background: black;
         padding-bottom: 25vw;
       } 
-      .change-is-local img {
+      .header-figure img {
         height: auto;
         object-fit: cover;
       }
-      .change-is-local::after {
+      .header-figure::after {
         content: "";
         position: absolute;
         top: 0;
@@ -132,7 +132,7 @@
         background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 25vw, rgba(0, 0, 0, 0) 50vw, rgba(0, 0, 0, 0));
         z-index: 1;
       }
-      .change-is-local .caption {
+      .header-figure .caption {
         z-index: 2;
       } 
     }

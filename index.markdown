@@ -4,7 +4,7 @@ body_class: home
 main_class: standard-layout
 ---
 
-<div class="standard-figure has-caption change-is-local">
+<div class="standard-figure has-caption header-figure">
   <div class="caption">
     <div>
       <h1><span>Change is&nbsp;Local</span></h1>

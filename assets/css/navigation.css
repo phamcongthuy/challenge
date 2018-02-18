@@ -10,7 +10,7 @@
     z-index: 6;
   }
   main > h1:first-child,
-  .change-is-local {
+  .header-figure {
     position: relative;
     z-index: 5;
   }
