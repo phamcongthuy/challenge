@@ -20,7 +20,7 @@ main_class: standard-layout
       </p>
     </div>
   </div>
-  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="100vw" alt="Women’s March Los Angeles" />
+  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="(max-width: 40em) 250vw, 100vw" alt="Women’s March Los Angeles" />
 </div>
 
 

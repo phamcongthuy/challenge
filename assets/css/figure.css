@@ -40,7 +40,7 @@
     height: 100%;
     font-weight: 900; /* @black */
     text-transform: uppercase;
-    font-size: 2.25em;
+    font-size: 1.5em;
     letter-spacing: 2px;
     text-align: center;
     display: flex;
@@ -97,7 +97,7 @@
       object-fit: cover;
       object-position: center;
 
-      object-position: calc(50% + var(--scroll-percentage, 0) * 2) calc(50% + var(--scroll-percentage, 0) * 10);
+      object-position: calc(50% + var(--scroll-percentage, 0) * 1) calc(50% + var(--scroll-percentage, 0) * 10);
 
       will-change: object-position;
       /*transition: object-position linear 1s;*/
