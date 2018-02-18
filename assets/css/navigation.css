@@ -35,7 +35,7 @@
   }
 
 
-  @keyframes fade-in {
+  @keyframes nav-fade-in {
     0% {
       opacity: 0;
     }
@@ -47,7 +47,7 @@
 
   @supports (position: sticky) or (position: -webkit-sticky) {
     .transition-header-in header {
-      animation: fade-in 0.2s both;
+      animation: nav-fade-in 0.2s both;
     }
     .has-active-nav header,
     .header-not-visible header {

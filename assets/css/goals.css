@@ -191,16 +191,16 @@
     color: inherit !important;
   }
   .goals .metrics h4 {
-    margin-top: -3em;
     position: relative;
     z-index: 1;
     background-color: rgb(249, 160, 51); /* @tangerine */
+    font-size: 1.25em;
     line-height: 6em;
     width: 6em;
     border-radius: 50%;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 1.5em;
+    margin: -3em auto 1.5em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .goals .metrics h4 {

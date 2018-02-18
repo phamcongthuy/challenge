@@ -20,12 +20,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  details h3 {
+  details h2 {
     margin-top: 0;
   }
 
   /* TRICKY: The details text may look super narrow in iOS Safari, if they have a max width. */
-  details h3,
+  details h2,
   details p,
   details ol,
   details ul {
@@ -39,8 +39,8 @@
   .lime summary {
     color: rgb(141, 208, 59); /* @lime */
   }
-  summary h3,
-  .tangerine main > details h3 {
+  summary h2,
+  .tangerine main > details h2 {
     color: inherit;
   }
 
@@ -66,11 +66,11 @@
   details summary {
     margin-left: -1.5rem;
   }
-  details h3 {
+  details h2 {
     margin-top: -1.25em;
     margin-left: 1.5rem;
   }
-  details ~ h3 {
+  details ~ h2 {
     padding-left: 1em;
   }
   details ~ p {
@@ -81,7 +81,7 @@
       margin-left: -0.75rem;
       margin-right: 0.75rem;
     }
-    details ~ h3 {
+    details ~ h2 {
       margin-left: -0.5em;
       margin-right: 0.5em;
     }
@@ -95,7 +95,7 @@
   details ~ p {
     max-width: 33em;
   }
-  details ~ h3 {
+  details ~ h2 {
     margin-top: 2em;
     max-width: 22em;
   }

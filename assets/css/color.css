@@ -11,15 +11,6 @@
   h1, h2, h3, h4, h5, h6, strong, em {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  h2 strong {
-    font-weight: inherit;
-    color: rgb(6, 179, 188); /* @blueberry */
-    display: inline-block;
-  }
-
-  em {
-    font-weight: 600; /* @medium */
-  }
 
   a {
     color: rgb(237, 59, 136); /* @strawberry */
@@ -91,11 +82,10 @@
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(255, 224, 81); /* @bright-banana */
   }
-  .blueberry main > h1:not(:first-child),
-  .blueberry main > h2,
-  .blueberry main > h3,
-  .blueberry main p strong,
-  .blueberry main p em {
+  .blueberry main h2,
+  .blueberry main h3,
+  .blueberry main strong,
+  .blueberry main em {
     color: rgb(6, 179, 188); /* @blueberry */
   }
 
@@ -115,11 +105,10 @@
   .lime main > h1:first-child {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .lime main > h1:not(:first-child),
-  .lime main > h2,
-  .lime main > h3,
-  .lime main p strong,
-  .lime main p em {
+  .lime main h2,
+  .lime main h3,
+  .lime main strong,
+  .lime main em {
     color: rgb(141, 208, 59); /* @lime */
   }
 

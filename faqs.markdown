@@ -7,21 +7,21 @@ body_class: tangerine
 
 <details>
   <summary>
-    <h3 id="100000-is-a-lot-of-people-do-we-have-to-activate-them-all-at-once">100,000 is a lot of people! Do we have to activate them all at once?</h3>
+    <h2 id="100000-is-a-lot-of-people-do-we-have-to-activate-them-all-at-once">100,000 is a lot of people! Do we have to activate them all at once?</h2>
   </summary>
   <p>100,000 is an exciting number of Angelenos to get involved in local issues. And it’ll be no easy feat. We anticipate that the number of people activated will occur over two years and will take many forms. Some people will just visit a website to learn about a new cause. Others will receive and open an email, others will actually click on something and show up to a meeting, and others will become super volunteers or community organizers. We anticipate that successful activations will create a clear ladder of engagement that take people from unengaged to superstar activists, organizers, volunteers, etc.</p>
 </details>
 
 <details>
   <summary>
-    <h3 id="How_will_you_measure_the_number_of_people_activated_0">How will you measure the number of people activated?</h3>
+    <h2 id="How_will_you_measure_the_number_of_people_activated_0">How will you measure the number of people activated?</h2>
   </summary>
   <p>Great question! We’re leaning on applicants to define how they plan to reach Angelenos and the number of people that will be reached via their various engagement strategies.</p>
 </details>
 
 <details>
   <summary>
-    <h3 id="Why_did_you_start_the_My_LA2050_Activation_Challenge_4">Why did you start the My LA2050 Activation Challenge?</h3>
+    <h2 id="Why_did_you_start_the_My_LA2050_Activation_Challenge_4">Why did you start the My LA2050 Activation Challenge?</h2>
   </summary>
   <p>The My LA2050 Activation Challenge represents a pivot from the past four My LA2050 grants challenges. This challenge is focused on building, organizing, and supporting a united LA2050 community to take action and produce the LA we all dream of.</p>
   <p>We’ve been inspired by the sparks of activism we’ve seen, but by traditional measures, LA has lacked civic engagement on a local level. We’re hoping that this activation challenge can help address barriers to civic engagement and create mechanisms to direct energy into local change.
@@ -30,14 +30,14 @@ body_class: tangerine
 
 <details>
   <summary>
-    <h3 id="Are_there_restrictions_on_what_the_activations_can_address_8">Are there restrictions on what the activations can address?</h3>
+    <h2 id="Are_there_restrictions_on_what_the_activations_can_address_8">Are there restrictions on what the activations can address?</h2>
   </summary>
   <p>LA2050 can only fund projects that further charitable and educational purposes within the meaning of IRC section 501(c)(3). Thus, whether your organization is a nonprofit or for-profit entity, all activities for which you seek LA2050 grant funding must comply with section 501(c)(3). Please also carefully review <a href = "http://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf">the detailed rules</a> for the activation challenge.</p>
 </details>
 
 <details>
   <summary>
-    <h3 id="I_have_feedback_on_the_LA2050_goals_How_can_I_share_that_with_you_12">I have feedback on the LA2050 goals. How can I share that with you?</h3>
+    <h2 id="I_have_feedback_on_the_LA2050_goals_How_can_I_share_that_with_you_12">I have feedback on the LA2050 goals. How can I share that with you?</h2>
   </summary>
   <p>We want your feedback! Email us at <a href="mailto:connect@la2050.org">connect@la2050.org</a> with your feedback.</p>
   <p>We want Angelenos to see themselves as part of the solutions we need to improve our region. And we want to tap into the expertise of the organizations, agencies, and companies who have great ideas about how to boost engagement on local issues.</p>
@@ -45,14 +45,14 @@ body_class: tangerine
 
 <details>
   <summary>
-    <h3 id="Can_I_apply_more_than_once_18">Can I apply more than once?</h3>
+    <h2 id="Can_I_apply_more_than_once_18">Can I apply more than once?</h2>
   </summary>
   <p>Technically there can be multiple entries from the same organization, so long as the submissions are unique and in different categories. However, we would recommend consolidating your resources, collaborators, and supporters and submitting one awesome proposal!</p>
 </details>
 
 <details>
   <summary>
-    <h3 id="What_are_the_benefits_of_applying_22">What are the benefits of applying?</h3>
+    <h2 id="What_are_the_benefits_of_applying_22">What are the benefits of applying?</h2>
   </summary>
   <p><em>Beyond the potential to receive funds to address an issue you’re passionate about, we also believe that applying to this challenge will provide additional benefits including:</em></p>
   <ul>
@@ -70,7 +70,7 @@ body_class: tangerine
 
 <details>
   <summary>
-    <h3 id="What_kinds_of_activations_are_you_looking_to_support_36">What kinds of activations are you looking to support?</h3>
+    <h2 id="What_kinds_of_activations_are_you_looking_to_support_36">What kinds of activations are you looking to support?</h2>
   </summary>
   <p><em>We’re open! But here are some ideas about what we’re looking for:</em></p>
   <ul>
@@ -85,7 +85,7 @@ body_class: tangerine
 
 <details>
   <summary>
-    <h3 id="What_are_some_tips_for_submitting_ideas_to_the_My_LA2050_Activation_Challenge_47">What are some tips for submitting ideas to the My LA2050 Activation Challenge?</h3>
+    <h2 id="What_are_some_tips_for_submitting_ideas_to_the_My_LA2050_Activation_Challenge_47">What are some tips for submitting ideas to the My LA2050 Activation Challenge?</h2>
   </summary>
   <p><em>Collaborate.</em> We are eager to see folks working together to improve Los Angeles.</p>
   <p><em>Think about impact.</em> Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your activation is feasible, implementable, and that it could impact the LA2050 goals and metrics outlined by a community of Angelenos.</p>
@@ -99,6 +99,6 @@ body_class: tangerine
   <p>Check out the <a href="https://la2050.org/goals">LA2050 Goals</a>, the <a href="https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432">LA2050 Report</a>, and our most recent <a href="https://la2050.s3-us-west-1.amazonaws.com/reports/13/pdfs/FINALDRAFT_OCT24.pdf?1508955187">metrics update</a> for additional information.</p>
 </details>
 
-### Send us your questions!
+## Send us your questions!
 
 If you have any questions that aren’t answered on this page, please send us an email at [connect@la2050.org](mailto:connect@la2050.org).
