@@ -42,6 +42,14 @@
     margin-top: 3em;
   }
 
+  /* TRICKY: If any elements on the page are styled with rem units,
+             they may render incorrectly in Safari on pages that
+             contain detail/summary elements. */
+  footer p,
+  footer ul {
+    max-width: none;
+  }
+
 
   /* =Lists
   ----------------------------------------------- */
