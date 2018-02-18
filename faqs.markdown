@@ -1,6 +1,6 @@
 ---
 title: FAQs for the 2018 My LA2050 Activation Challenge
-color: tangerine faqs
+body_class: tangerine
 ---
 
 <h1><abbr title="Frequently Asked Questions">FAQs</abbr></h1>

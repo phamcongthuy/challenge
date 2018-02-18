@@ -1,6 +1,7 @@
 ---
 title: Timeline for the 2018 My LA2050 Activation Challenge
-color: banana
+body_class: banana
+main_class: standard-layout
 ---
 
 # Timeline

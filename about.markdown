@@ -1,6 +1,7 @@
 ---
 title: About the 2018 My LA2050 Activation Challenge
-color: strawberry
+body_class: strawberry
+main_class: standard-layout
 ---
 
 # About

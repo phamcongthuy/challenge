@@ -60,7 +60,7 @@
   <link rel="canonical" href="https://activation.la2050.org{{ page.url }}" />
   {% endif %}
 </head>
-<body{% if page.color %} class="{{ page.color }}"{% endif %}>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
   <header id="navigation">
     <h2><a href="/"><span class="year">2018</span> My LA2050<br /><em>Activation</em><br />Challenge</a></h2>
@@ -92,7 +92,7 @@
       </a>
     </p>
   </header>
-  <main>
+  <main{% if page.main_class %} class="{{ page.main_class }}"{% endif %}>
     {{ content }}
     <figure class="standard-figure has-caption">
       <img src="/assets/images/home/384-wide/collaborates.jpg" srcset="/assets/images/home/384-wide/collaborates.jpg 384w, /assets/images/home/512-wide/collaborates.jpg 512w, /assets/images/home/768-wide/collaborates.jpg 768w, /assets/images/home/1024-wide/collaborates.jpg 1024w, /assets/images/home/1536-wide/collaborates.jpg 1536w, /assets/images/home/2048-wide/collaborates.jpg 2048w" sizes="100vw" alt="A room filled with people listening to someone speaking" />

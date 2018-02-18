@@ -281,15 +281,15 @@
     font-weight: inherit;
     color: inherit;
   }
-  body:not(.faqs) main > h1 + p,
-  body:not(.faqs) main > h1 + .introduction p,
-  body:not(.faqs) main > h1 + .introduction h3 {
+  .standard-layout > h1 + p,
+  .standard-layout > h1 + .introduction p,
+  .standard-layout > h1 + .introduction h3 {
     text-align: center;
     max-width: none;
   }
 
 
-  body:not(.faqs) main > section + .standard-figure {
+  .standard-layout > section + .standard-figure {
     margin-top: -4.5em;
   }
 

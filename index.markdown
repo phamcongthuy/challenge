@@ -1,6 +1,7 @@
 ---
 title: 2018 My LA2050 Activation Challenge
-color: home
+body_class: home
+main_class: standard-layout
 ---
 
 <div class="standard-figure has-caption change-is-local">

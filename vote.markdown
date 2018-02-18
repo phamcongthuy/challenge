@@ -1,6 +1,7 @@
 ---
 title: How to vote in the 2018 My LA2050 Activation Challenge
-color: blueberry
+body_class: blueberry
+main_class: standard-layout
 ---
 
 # Public Voting
