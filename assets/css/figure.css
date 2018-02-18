@@ -97,7 +97,7 @@
         height: 75vw;
       }
     }
-    .goals ~ section .standard-figure img {
+    .goals .standard-figure img {
       height: 60vw; /* This happens to work well with the particular images we have */
     }
     @media (min-width: 60em) {
@@ -135,19 +135,5 @@
       .change-is-local .caption {
         z-index: 2;
       } 
-    }
-  }
-
-  main > .standard-figure + section {
-    margin-top: -1.5em;
-  }
-
-  @media (min-width: 40em) {
-    main > .standard-figure + section {
-      margin-top: -4.5em;
-    }
-    h1 {
-      font-size: 3.375em;
-      font-size: 6vmax;
     }
   }

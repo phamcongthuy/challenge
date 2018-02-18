@@ -60,7 +60,7 @@ $200,000
 </figure>
 
 
-<section class="activation-examples"><div markdown="1">
+<section class="standard-section activation-examples"><div markdown="1">
 
 ## What do we mean by activation?
 
@@ -103,7 +103,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 Starting Tuesday, June 19, 2018, you can [vote for a proposal](/vote/) on this website.
 
 
-<section class="timeline" id="dates"><div markdown="1">
+<section class="standard-section timeline" id="dates"><div markdown="1">
 
 ## Key Dates
 

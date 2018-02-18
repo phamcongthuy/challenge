@@ -30,9 +30,11 @@ We want to work together! To partner, we plan to:
 * Design assets for materials
 * Provide technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
 
-<hr id="goals" />
+<hr />
 
-<section class="goals"><div markdown="1">
+<section class="goals" id="goals">
+
+<div class="navigation"><div markdown="1">
 
 ## LA2050 Goals
 
@@ -46,7 +48,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
   <li class="lime"><a href="#live">Live</a></li>
 </ul>
 
-</div></section>
+</div></div>
 
 <section class="blueberry" id="learn"><div markdown="1">
 
@@ -54,7 +56,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
   <img src="/assets/images/goals/384-wide/learn.jpg" srcset="/assets/images/goals/384-wide/learn.jpg 384w, /assets/images/goals/512-wide/learn.jpg 512w, /assets/images/goals/768-wide/learn.jpg 768w, /assets/images/goals/1024-wide/learn.jpg 1024w, /assets/images/goals/1536-wide/learn.jpg 1536w, /assets/images/goals/2048-wide/learn.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Kids smiling" />
 </figure>
 
-<div markdown="1">
+<div class="description" markdown="1">
 
 <h3>Learn</h3>
 
@@ -64,7 +66,7 @@ By the year 2050, all Los Angeles students will have access to early education p
 
 </div>
 
-<div markdown="1">
+<div class="metrics" markdown="1">
 
 #### Metrics
 
@@ -91,7 +93,7 @@ By the year 2050, all Los Angeles students will have access to early education p
   <img src="/assets/images/goals/384-wide/create.jpg" srcset="/assets/images/goals/384-wide/create.jpg 384w, /assets/images/goals/512-wide/create.jpg 512w, /assets/images/goals/768-wide/create.jpg 768w, /assets/images/goals/1024-wide/create.jpg 1024w, /assets/images/goals/1536-wide/create.jpg 1536w, /assets/images/goals/2048-wide/create.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Street art" />
 </figure>
 
-<div markdown="1">
+<div class="description" markdown="1">
 
 <h3>Create</h3>
 
@@ -101,7 +103,7 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 
 </div>
 
-<div markdown="1">
+<div class="metrics" markdown="1">
 
 #### Metrics
 
@@ -130,7 +132,7 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
   <img src="/assets/images/goals/384-wide/play.jpg" srcset="/assets/images/goals/384-wide/play.jpg 384w, /assets/images/goals/512-wide/play.jpg 512w, /assets/images/goals/768-wide/play.jpg 768w, /assets/images/goals/1024-wide/play.jpg 1024w, /assets/images/goals/1536-wide/play.jpg 1536w, /assets/images/goals/2048-wide/play.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Child doing a somersault by a fountain" />
 </figure>
 
-<div markdown="1">
+<div class="description" markdown="1">
 
 <h3>Play</h3>
 
@@ -140,7 +142,7 @@ By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, 
 
 </div>
 
-<div markdown="1">
+<div class="metrics" markdown="1">
 
 #### Metrics
 
@@ -163,7 +165,7 @@ By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, 
   <img src="/assets/images/goals/384-wide/connect.jpg" srcset="/assets/images/goals/384-wide/connect.jpg 384w, /assets/images/goals/512-wide/connect.jpg 512w, /assets/images/goals/768-wide/connect.jpg 768w, /assets/images/goals/1024-wide/connect.jpg 1024w, /assets/images/goals/1536-wide/connect.jpg 1536w, /assets/images/goals/2048-wide/connect.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="People riding bikes together on a street" />
 </figure>
 
-<div markdown="1">
+<div class="description" markdown="1">
 
 <h3>Connect</h3>
 
@@ -173,7 +175,7 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 
 </div>
 
-<div markdown="1">
+<div class="metrics" markdown="1">
 
 #### Metrics
 
@@ -201,7 +203,7 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
   <img src="/assets/images/goals/384-wide/live.jpg" srcset="/assets/images/goals/384-wide/live.jpg 384w, /assets/images/goals/512-wide/live.jpg 512w, /assets/images/goals/768-wide/live.jpg 768w, /assets/images/goals/1024-wide/live.jpg 1024w, /assets/images/goals/1536-wide/live.jpg 1536w, /assets/images/goals/2048-wide/live.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="A garden full of fruits and vegetables" />
 </figure>
 
-<div markdown="1">
+<div class="description" markdown="1">
 
 <h3>Live</h3>
 
@@ -211,7 +213,7 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 </div>
 
-<div markdown="1">
+<div class="metrics" markdown="1">
 
 #### Metrics
 
@@ -234,5 +236,7 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 </div>
 
 </div></section>
+
+</section><!-- /.goals -->
 
 <script></script><!-- SHIM: This is here to prevent negative margin on the following element  -->

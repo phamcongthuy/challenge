@@ -1,12 +1,11 @@
 ---
 title: Timeline for the 2018 My LA2050 Activation Challenge
 body_class: banana
-main_class: standard-layout
 ---
 
 # Timeline
 
-<section class="timeline"><div markdown="1">
+<div class="standard-section timeline"><div markdown="1">
 
 ![](/assets/images/timeline/submission.svg) March 1-30, 2018
 : Submission Period
@@ -31,4 +30,4 @@ main_class: standard-layout
 
 **25 finalists** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span><br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event.
 
-</div></section>
+</div></div>

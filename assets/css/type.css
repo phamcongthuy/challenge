@@ -107,6 +107,12 @@
     letter-spacing: 2px;
     color: rgb(6, 179, 188); /* @blueberry */
   }
+  @media (min-width: 40em) {
+    h1 {
+      font-size: 3.375em;
+      font-size: 6vmax;
+    }
+  }
   h2 {
     margin-top: 3rem;
     font-size: 1.5em;

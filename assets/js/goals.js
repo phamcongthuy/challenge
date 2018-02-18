@@ -5,11 +5,16 @@
   // The about navigation isn’t working in Opera Mini, at present
   if (/Opera/.test (navigator.userAgent)) return;
 
-  var goals = document.querySelectorAll('.goals ~ section');
-  if (goals.length <= 0) return;
 
-  var buttonsContainer = document.querySelector('.goals');
+  var goalsContainer = document.getElementById('goals');
+  if (!goalsContainer) return;
+
+  var buttonsContainer = goalsContainer.querySelector('.navigation');
+
   var buttons = buttonsContainer.querySelectorAll('a');
+
+  var goals = goalsContainer.querySelectorAll('section');
+
 
   function hideAllExcept(id) {
 
@@ -58,7 +63,6 @@
           e.preventDefault();
         // }
       }
-
 
     }, false);
 
@@ -115,7 +119,7 @@
 
         // If the top of the goals area is visible, but the rest of the goals area is barely visible
         // And if the user has not yet interacted with the goals area
-        if (!isVisible(buttonsContainer) || isMostlyVisible(document.querySelector('.goals ~ section:not(.hidden)')) || userInteracted) return;
+        if (!isVisible(buttonsContainer) || isMostlyVisible(goalsContainer.querySelector('section:not(.hidden)')) || userInteracted) return;
 
         var linkItem = closest(currentLink, 'li');
 
@@ -152,7 +156,7 @@
         if (timeout) {
           // If the top of the goals area is visible, but the rest of the goals area is barely visible
           // And if the user has not yet interacted with the goals area
-          if (!isVisible(buttonsContainer) || isMostlyVisible(document.querySelector('.goals ~ section:not(.hidden)')) || userInteracted) {
+          if (!isVisible(buttonsContainer) || isMostlyVisible(goalsContainer.querySelector('section:not(.hidden)')) || userInteracted) {
 
             clearTimeout(timeout);
             timeout = undefined;

@@ -289,7 +289,7 @@
   }
 
 
-  .standard-layout > section + .standard-figure {
+  .standard-section + .standard-figure {
     margin-top: -4.5em;
   }
 

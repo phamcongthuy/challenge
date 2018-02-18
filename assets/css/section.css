@@ -1,8 +1,8 @@
 
 
-  /* =In Depth
+  /* =Section
   ----------------------------------------------- */
-  main > section {
+  .standard-section {
     margin-left: -1.5em;
     margin-right: -1.5em;
     padding: 3em 1.5em;
@@ -14,49 +14,80 @@
     justify-content: center;
     align-items: center;
     min-height: 67.5vmin;
-  }
-  .activation-examples,
-  .timeline {
     text-align: center;
   }
-  main > h1 + section,
-  main > h1 + .action + section,
-  main > section + section {
+  @media (min-width: 40em) { /* @medium-size-screen */
+    .standard-section {
+      margin-left: -3em;
+      margin-right: -3em;
+      padding: 4.5em 3em;
+    }
+  }
+  .standard-section > div > h2 {
+    margin-top: 0;
+    color: inherit;
+    font-size: 1.75em;
+    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
+    font-style: italic;
+    margin-bottom: 1;
+  }
+  @media (min-width: 40em) {
+    .standard-section > div > h2 {
+      font-size: 3.375em;
+      /*font-size: 3.75vw;*/
+      max-width: none;
+    }
+  }
+
+  main > h1 + .standard-section {
     margin-top: -1.5em;
   }
+
+
+  main > .standard-figure + .standard-section {
+    margin-top: -1.5em;
+  }
+
+  @media (min-width: 40em) {
+    main > .standard-figure + .standard-section {
+      margin-top: -4.5em;
+    }
+  }
+
+
   @media (min-width: 40em) { /* @medium-size-screen */
-    main > h1 + section,
+/*    main > h1 + section,
     main > h1 + .action + section,
     main > section + section {
       margin-top: -3em;
-    }
+    }*/
   }
-  main > .goals + section {
+/*  main > .goals + section {
     margin-top: 0;
-  }
-  main > section.activation-examples {
+  }*/
+  .activation-examples {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;
   }
-  main > section.timeline {
+  .timeline {
     background-color: rgb(255, 194, 51); /* @banana */
     color: white;
   }
-  main > section.timeline p {
+  .timeline p {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  main > section.timeline p strong {
+  .timeline p strong {
     color: inherit;
   }
-  main > section.timeline p:not(.action) a {
+  .timeline p:not(.action) a {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  main > section.timeline p a:active,
-  main > section.timeline p a:hover,
-  main > section.timeline p a:focus {
+  .timeline p a:active,
+  .timeline p a:hover,
+  .timeline p a:focus {
     color: white;
   }
-  main > h1 + section.timeline {
+  main > h1 + .timeline {
     padding-top: 0;
   }
   .activation-examples h2 + p {
@@ -79,49 +110,20 @@
   .activation-examples a {
     color: rgb(255, 224, 81); /* @bright-banana */
   }
-  main > section.activation-examples a:hover,
-  main > section.activation-examples a:active,
-  main > section.activation-examples a:focus {
+  .activation-examples a:hover,
+  .activation-examples a:active,
+  .activation-examples a:focus {
     color: rgb(255, 79, 156); /* @bright-strawberry */
     color: rgb(141, 208, 59); /* @lime */
     color: rgb(181, 248, 99); /* @bright-lime */
     color: white;
   }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    .activation-examples h2 + p {
-    }
-  }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    main > section {
-      margin-left: -3em;
-      margin-right: -3em;
-      padding: 4.5em 3em;
-    }
-  }
-  .timeline > div > h2,
-  .activation-examples > div > h2 {
-    margin-top: 0;
-    color: inherit;
-    font-size: 1.75em;
-    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
-    font-style: italic;
-    margin-bottom: 1;
-  }
-  @media (min-width: 40em) {
-    .timeline > div > h2,
-    .activation-examples > div > h2 {
-      font-size: 3.375em;
-      /*font-size: 3.75vw;*/
-      max-width: none;
-    }
-  }
-
-  main > section > div > *:first-child {
+/*  main > section > div > *:first-child {
     margin-top: 0;
   }
   main > section > div > *:last-child {
     margin-bottom: 0;
-  }
+  }*/
 
 
   .timeline dl {
