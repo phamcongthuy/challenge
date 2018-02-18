@@ -67,7 +67,7 @@
       margin: 6em -3em;
     }
   }
-  .standard-figure:first-child {
+  .standard-layout > .standard-figure:first-child {
     margin-top: 0;
   }
 

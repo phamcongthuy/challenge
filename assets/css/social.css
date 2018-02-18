@@ -3,13 +3,11 @@
   ----------------------------------------------- */
   footer .social-links {
     font-size: 3em;
+    margin-top: 0.5625em;
     margin-bottom: 0;
   }
   footer .social-links li {
     margin: -0.125em 0 -0.125em 0;
-  }
-  footer .social-links li:last-child {
-    margin-right: -0.25em;
   }
   footer .social-links li svg {
     width: 1em;
@@ -17,4 +15,16 @@
   }
   footer .social-links li svg path {
     fill: currentColor;
+  }
+
+
+  @supports (display: grid) {
+    @media (min-width: 60em) {
+      footer .social-links {
+        margin-top: 0.75em;
+      }
+      footer .social-links li:last-child {
+        margin-right: -0.25em;
+      }
+    }
   }

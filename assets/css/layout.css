@@ -7,6 +7,24 @@
     margin-bottom: 0;
   }
 
+  .numbers + .standard-figure,
+  .standard-layout .numbers + .standard-figure {
+    margin-top: 1.5em;
+  }
+  .standard-section + .standard-figure,
+  .standard-figure + .standard-section {
+    margin-top: -3em;
+  }
+
+  @media (min-width: 40em) {
+    .standard-section + .standard-figure,
+    .standard-figure + .standard-section {
+      margin-top: -6em;
+    }
+  }
+
+
+
 
   @supports (display: grid) {
     @media (min-width: 60em) {
@@ -83,6 +101,14 @@
       .standard-layout > .standard-section {
         grid-column: span 3;
       }
+
+      /* Reduce the amount of margin around figures and sections, to account for the grid gap */
+      .standard-layout > .standard-figure,
+      .standard-layout > .standard-section {
+        margin-top: 4.5em; /* usual margin - grid row gap = 6em - 1.5em = 4.5em */
+        margin-bottom: 4.5em;
+      }
+
       .standard-layout > h1:first-child {
         margin-bottom: 1.5rem;
       }
@@ -107,8 +133,11 @@
         grid-column: 2 / 3;
       }
 
-      .standard-layout > .standard-section + .standard-figure {
+.disabled .standard-layout > .standard-section + .standard-figure {
         margin-top: -7.5em; /* standard-section.bottom-margin + grid-row-gap = 6em + 1.5em = 7.5em */
+      }
+      .standard-layout > .standard-section + .standard-figure {
+        margin-top: -6em;
       }
 
       .standard-layout > .activate-tag {
@@ -122,8 +151,11 @@
       .standard-figure {
         grid-column: 1/4;
       }
-      .standard-layout > .standard-figure + .standard-section {
+.disabled .standard-layout > .standard-figure + .standard-section {
         margin-top: -7.5em; /* standard-figure.bottom-margin + grid-row-gap = 6em + 1.5em = 7.5em */
+      }
+      .standard-layout > .standard-figure + .standard-section {
+        margin-top: -6em;
       }
 
       .application-process {

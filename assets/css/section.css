@@ -32,20 +32,6 @@
     }
   }
 
-
-  .standard-section + .standard-figure,
-  .standard-figure + .standard-section {
-    margin-top: -3em;
-  }
-
-  @media (min-width: 40em) {
-    .standard-section + .standard-figure,
-    .standard-figure + .standard-section {
-      margin-top: -6em;
-    }
-  }
-
-
   .activation-examples {
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: white;
