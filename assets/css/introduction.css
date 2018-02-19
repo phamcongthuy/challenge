@@ -25,6 +25,9 @@
     } 
   }
 
+  .introduction .action {
+    margin-top: 1.875em;
+  }
   .introduction .action a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
