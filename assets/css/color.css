@@ -38,6 +38,9 @@
     transition: all 0.2s;
     font-weight: 600; /* @semibold */
   }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, strong a, em a {
+    font-weight: inherit;
+  }
   a:hover,
   a:active,
   a:focus {

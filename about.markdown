@@ -2,6 +2,7 @@
 title: About the 2018 My LA2050 Activation Challenge
 body_class: strawberry
 main_class: standard-layout
+footer_image: true
 ---
 
 # About
@@ -16,7 +17,7 @@ And now we want your help to take all of this work to the next level! We want yo
 
 This is an open call for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
 
-The activations should aim to engage Angelenos to make a specific, tangible impact on one of the LA2050 goals and metrics by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, community organizing, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
+The activations should aim to engage Angelenos to make a specific, tangible impact on one of the [LA2050 goals and metrics](/about/#goals) by 2020. The activations can use a variety of engagement strategies to create progress, including but not limited to policy advocacy, community organizing, volunteering, buycotts/boycotts, digital activism, or use of civic tech.
 
 LA2050 will commit to a two-year partnership leveraging its resources, assets, and networks to help the activations succeed. Together, the winning organizations, LA2050, and Angelenos will produce five major wins for the region that will change the course of our future.
 
@@ -50,7 +51,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 
 </div></div>
 
-<section class="blueberry" id="learn"><div markdown="1">
+<section class="item blueberry" id="learn" markdown="1">
 
 <figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/learn.jpg" srcset="/assets/images/goals/384-wide/learn.jpg 384w, /assets/images/goals/512-wide/learn.jpg 512w, /assets/images/goals/768-wide/learn.jpg 768w, /assets/images/goals/1024-wide/learn.jpg 1024w, /assets/images/goals/1536-wide/learn.jpg 1536w, /assets/images/goals/2048-wide/learn.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Kids smiling" />
@@ -84,10 +85,9 @@ By the year 2050, all Los Angeles students will have access to early education p
 
 </div>
 
-</div>
 </section>
 
-<section class="banana" id="create"><div markdown="1">
+<section class="item banana" id="create" markdown="1">
 
 <figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/create.jpg" srcset="/assets/images/goals/384-wide/create.jpg 384w, /assets/images/goals/512-wide/create.jpg 512w, /assets/images/goals/768-wide/create.jpg 768w, /assets/images/goals/1024-wide/create.jpg 1024w, /assets/images/goals/1536-wide/create.jpg 1536w, /assets/images/goals/2048-wide/create.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Street art" />
@@ -124,9 +124,9 @@ By the year 2050, Los Angeles will continue to play host to the largest concentr
 
 </div>
 
-</div></section>
+</section>
 
-<section class="strawberry" id="play"><div markdown="1">
+<section class="item strawberry" id="play" markdown="1">
 
 <figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/play.jpg" srcset="/assets/images/goals/384-wide/play.jpg 384w, /assets/images/goals/512-wide/play.jpg 512w, /assets/images/goals/768-wide/play.jpg 768w, /assets/images/goals/1024-wide/play.jpg 1024w, /assets/images/goals/1536-wide/play.jpg 1536w, /assets/images/goals/2048-wide/play.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Child doing a somersault by a fountain" />
@@ -157,9 +157,9 @@ By the year 2050, people of all ages will enjoy safe homes, safe neighborhoods, 
 
 </div>
 
-</div></section>
+</section>
 
-<section class="tangerine" id="connect"><div markdown="1">
+<section class="item tangerine" id="connect" markdown="1">
 
 <figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/connect.jpg" srcset="/assets/images/goals/384-wide/connect.jpg 384w, /assets/images/goals/512-wide/connect.jpg 512w, /assets/images/goals/768-wide/connect.jpg 768w, /assets/images/goals/1024-wide/connect.jpg 1024w, /assets/images/goals/1536-wide/connect.jpg 1536w, /assets/images/goals/2048-wide/connect.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="People riding bikes together on a street" />
@@ -195,9 +195,9 @@ By the year 2050, Los Angeles will be the most civically engaged region in the U
 
 </div>
 
-</div></section>
+</section>
 
-<section class="lime" id="live"><div markdown="1">
+<section class="item lime" id="live" markdown="1">
 
 <figure class="standard-figure">
   <img src="/assets/images/goals/384-wide/live.jpg" srcset="/assets/images/goals/384-wide/live.jpg 384w, /assets/images/goals/512-wide/live.jpg 512w, /assets/images/goals/768-wide/live.jpg 768w, /assets/images/goals/1024-wide/live.jpg 1024w, /assets/images/goals/1536-wide/live.jpg 1536w, /assets/images/goals/2048-wide/live.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="A garden full of fruits and vegetables" />
@@ -235,7 +235,7 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 </div>
 
-</div></section>
+</section>
 
 </section><!-- /.goals -->
 

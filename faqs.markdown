@@ -1,6 +1,7 @@
 ---
 title: FAQs for the 2018 My LA2050 Activation Challenge
 body_class: tangerine
+footer_image: true
 ---
 
 <h1><abbr title="Frequently Asked Questions">FAQs</abbr></h1>
@@ -132,7 +133,7 @@ _We’re open! But here are some ideas about what we’re looking for:_
 
 _Collaborate._ We are eager to see folks working together to improve Los Angeles.
 
-_Think about impact._ Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your activation is feasible, implementable, and that it could impact the LA2050 goals and metrics outlined by a community of Angelenos.
+_Think about impact._ Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your activation is feasible, implementable, and that it could impact the [LA2050 goals and metrics](/about/#goals) outlined by a community of Angelenos.
 
 Share how your activation will impact the LA2050 goal you are focusing on. For example, if you’ve chosen LA is the best place to learn, you might describe how your activation will improve graduation rates; if you’ve chosen LA is the best place to connect, you might explain how your activation will increase voting rates or volunteerism.
 
@@ -148,7 +149,7 @@ Applicants should not expect to be able to revise their applications after the s
 
 Your application goes through a moderation process, and will show up on the site if it is approved. If we have questions about your application, we will be in touch.
 
-Check out the [LA2050 Goals](https://la2050.org/goals), the [LA2050 Report](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432), and our most recent [metrics update](https://la2050.s3-us-west-1.amazonaws.com/reports/13/pdfs/FINALDRAFT_OCT24.pdf?1508955187) for additional information.
+Check out the [LA2050 Goals](/about/#goals), the [LA2050 Report](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432), and our most recent [metrics update](https://la2050.s3-us-west-1.amazonaws.com/reports/13/pdfs/FINALDRAFT_OCT24.pdf?1508955187) for additional information.
 
 </details>
 

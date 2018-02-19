@@ -3,7 +3,7 @@
   /* =Home
   ----------------------------------------------- */
   .header-figure {
-    margin-top: 0 !important;
+    margin-top: 0;
     margin-bottom: 1.5em !important;
   }
   .header-figure .caption {
@@ -23,6 +23,9 @@
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
     letter-spacing: normal;
   }
+  .header-figure .caption p:not(.action) + p:not(.action) {
+    margin-top: -0.75em;
+  }
   .header-figure p + .action {
     margin-top: 0.75em;
   }
@@ -30,11 +33,30 @@
     display: inline-block;
     color: rgb(255, 194, 51); /* @banana */
   }
+  .standard-figure .caption p:not(.action) a {
+    color: rgb(46, 219, 228); /* @bright-blueberry */
+  }
+  .standard-figure .caption p:not(.action) a:hover,
+  .standard-figure .caption p:not(.action) a:active,
+  .standard-figure .caption p:not(.action) a:focus {
+    color: inherit;
+  }
+  .header-figure .caption p:not(.action) {
+    font-size: 1.25em;
+  }
   @media (min-width: 40em) {
     .header-figure .caption p:not(.action) {
       font-size: 1.5em;
       /*font-size: 2vmax;*/
     }
+  }
+
+
+  .header-figure h1 + .action {
+    margin-top: 1.5em;
+  }
+  .header-figure .action {
+    text-shadow: none;
   }
 
 
@@ -71,10 +93,11 @@
         left: 0;
       }
       .home header h2 a {
-        background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+        display: inline-block;
+        background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
       }
       .home header ul a {
-        background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+        background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
       }
       .home header h2 a,
       .home header ul a {
@@ -170,7 +193,7 @@
     height: auto;
   }
   .header-figure.has-caption::before {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -193,6 +216,12 @@
       left: 0;
       height: 100%;
       width: 100%;
+    }
+  }
+  @media (min-width: 40em) {
+    .header-figure .caption {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
     }
   }
   @media (min-width: 60em) {

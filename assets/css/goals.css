@@ -2,50 +2,52 @@
 
   /* =Sections
   ----------------------------------------------- */
-  .goals > section {
+  .goals .item {
     margin-top: 0;
     padding-top: 1.5em;
     min-height: 0;
   }
-  .goals > section h3,
-  .goals > section p {
+  .goals .item h3,
+  .goals .item h4,
+  .goals .item p {
     max-width: none;
     margin-left: 0;
     margin-right: 0;
   }
 
   /* JavaScript will add this classname */
-  .goals > section.hidden {
+  .goals .item.hidden {
     display: none;
   }
 
 
   /* =Headlines
   ----------------------------------------------- */
-  .goals > section.blueberry h3 {
+  .goals .item.blueberry h3 {
     color: rgb(6, 179, 188); /* @blueberry */
   }
-  .goals > section.lime h3 {
+  .goals .item.lime h3 {
     color: rgb(141, 208, 59); /* @lime */
   }
-  .goals > section.banana h3 {
+  .goals .item.banana h3 {
     color: rgb(255, 194, 51); /* @banana */
   }
-  .goals > section.tangerine h3 {
+  .goals .item.tangerine h3 {
     color: rgb(249, 160, 51); /* @tangerine */
   }
-  .goals > section.strawberry h3 {
+  .goals .item.strawberry h3 {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .goals > section h3 {
+  .goals .item h3 {
     margin-top: 0;
     text-transform: uppercase;
     font-size: 2.5em;
     letter-spacing: 2px;
     font-weight: 900; /* @black */
+    line-height: 1;
   }
   @media (min-width: 40em) {
-    .goals > section h3 {
+    .goals .item h3 {
       font-size: 3em;
       font-size: 6vw;
     }
@@ -112,7 +114,7 @@
   .goals .metrics h4,
   .goals .metrics ul {
     margin-top: 0;
-    color: inherit !important;
+    color: inherit;
   }
   .goals .metrics h4 {
     position: relative;
@@ -190,7 +192,7 @@
   ----------------------------------------------- */
 
   /* Remove whitespace between goals and .standard-figure */
-  .goals > section {
+  .goals .item {
     margin-bottom: 0;
     padding-bottom: 0;
   }
@@ -208,23 +210,23 @@
   ----------------------------------------------- */
   @supports (display: grid) {
     @media (min-width: 60em) {
-      .goals > section > div {
+      .goals .item {
         align-items: start;
         display: grid;
         width: 100%;
-        grid-template-columns: 1fr 1fr !important;
-        grid-column-gap: 6em !important;
-        grid-row-gap: 2.25em !important;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 6em;
+        grid-row-gap: 2.25em;
         grid-template-rows: minmax(33.333vw, auto) auto;
       }
-      .goals > section > div > div {
+      .goals .description {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
       }
       .goals .metrics {
         margin-top: 0;
-        grid-column: 1 / 3 !important;
-        grid-row: 2 / 3 !important;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
         padding-bottom: 3rem;
       }
       .goals .standard-figure {
@@ -267,3 +269,66 @@
       }
     }
   }
+
+
+
+  .goals-proposals ul,
+  .goals-proposals li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .goals-proposals ul {
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .goals-proposals .item h3 {
+  }
+  @media (min-width: 40em) {
+    .goals-proposals .item h3 {
+      font-size: 3em;
+    }
+  }
+
+  .goals-proposals .item figure img {
+    position: static;
+    height: auto;
+  }
+
+  @supports (display: grid) {
+    @media (min-width: 60em) {
+      .goals-proposals .item {
+        grid-template-rows: auto auto;
+        grid-column-gap: 3em;
+        grid-row-gap: 4.5em;
+      }
+      .goals-proposals a.item,
+      .goals-proposals a.item:hover,
+      .goals-proposals a.item:active,
+      .goals-proposals a.item:focus {
+        text-decoration: none;
+        color: inherit;
+      }
+      .goals-proposals a.item {
+        border-width: 0.1875em 0 0 0;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.15);
+        margin-top: 3em;
+        padding-top: 4.5em;
+      }
+      .goals-proposals li:nth-of-type(2n+1) .standard-figure {
+        grid-column: 1 / 2;
+        margin-right: 0em;
+      }
+      .goals-proposals li:nth-of-type(2n) .standard-figure {
+        grid-column: 2 / 3;
+        margin-left: 0em;
+      }
+      .goals-proposals li:nth-of-type(2n) .description {
+        grid-column: 1 / 2;
+      }
+    }
+  }
+

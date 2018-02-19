@@ -2,6 +2,7 @@
 title: How to vote in the 2018 My LA2050 Activation Challenge
 body_class: blueberry
 main_class: standard-layout
+footer_image: true
 ---
 
 # Public Voting
@@ -11,7 +12,7 @@ main_class: standard-layout
 Starting **June 19, 2018**, you can vote for a proposal on this website.
 
 <p class="action" markdown="1">
-[Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+  <a href="{{ site.mailing_list_url }}">Get updates</a>
 </p>
 
 </div>
@@ -22,7 +23,7 @@ The 5 activations that receive the most votes will be announced as the winners.
 
 The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
 
-* Impact on the LA2050 goals and metrics
+* Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application
 * Feasibility
 * Ability to mobilize the LA community

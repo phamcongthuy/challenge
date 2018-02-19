@@ -5,6 +5,9 @@
   .introduction {
     margin-bottom: 4.5em;
   }
+  p + .introduction {
+    margin-top: 4.5em;
+  }
   .introduction p,
   .introduction h3 {
     text-align: center;
@@ -16,8 +19,15 @@
     font-weight: inherit;
     color: inherit;
   }
+  .introduction strong {
+    display: inline-block;
+  }
   .introduction p:first-child {
     margin-top: 0;
+  }
+
+  .introduction p:not(.action) {
+    font-size: 1.25em;
   }
   @media (min-width: 40em) {
     .introduction p:not(.action) {
@@ -29,7 +39,7 @@
     margin-top: 1.875em;
   }
   .introduction .action a {
-    background-color: rgb(237, 59, 136); /* @strawberry */
+    background-color: rgb(237, 59, 136); /* @stroke: awberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
   }
   .introduction .action a:hover,

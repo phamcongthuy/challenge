@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="/assets/css/goals.css?v=1" />
   <link rel="stylesheet" href="/assets/css/goals-navigation.css?v=1" />
   <link rel="stylesheet" href="/assets/css/faqs.css?v=1" />
+  <link rel="stylesheet" href="/assets/css/proposals.css?v=1" />
   <link rel="stylesheet" href="https://fast.fonts.net/t/1.css?apiType=css&projectid=68f50139-da27-4c8c-adaa-c005a8fd2b7a" />
 
   <!-- for general use -->
@@ -67,11 +68,14 @@
   <header id="navigation">
     <h2><a href="/">My LA2050<br /><em>Activation</em><br />Challenge</a></h2>
     <ul>
-      <li><a href="/about">About</a></li>
-      <li><a href="/submit">Submit</a></li>
-      <li><a href="/vote">Vote</a></li>
-      <li><a href="/timeline">Timeline</a></li>
-      <li><a href="/faqs"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/submit/">Submit</a></li>
+      {% if site.phase >= 4 %}
+      <li><a href="/proposals/">Proposals</a></li>
+      {% endif %}
+      <li><a href="/vote/">Vote</a></li>
+      <li><a href="/timeline/">Timeline</a></li>
+      <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
     </ul>
     <p class="nav-link action" style="display: none">
       <a href="#navigation">
@@ -96,19 +100,24 @@
   </header>
   <main{% if page.main_class %} class="{{ page.main_class }}"{% endif %}>
     {{ content }}
+    {% if page.footer_image %}
     <figure class="standard-figure has-caption">
       <img src="/assets/images/home/384-wide/collaborates.jpg" srcset="/assets/images/home/384-wide/collaborates.jpg 384w, /assets/images/home/512-wide/collaborates.jpg 512w, /assets/images/home/768-wide/collaborates.jpg 768w, /assets/images/home/1024-wide/collaborates.jpg 1024w, /assets/images/home/1536-wide/collaborates.jpg 1536w, /assets/images/home/2048-wide/collaborates.jpg 2048w" sizes="100vw" alt="A room filled with people listening to someone speaking" />
       <figcaption class="caption">We believe in the power of Angelenos</figcaption>
     </figure>
+    {% endif %}
   </main>
   <footer>
     <h2><a href="/">My LA2050<br /><em>Activation</em><br />Challenge</a></h2>
     <ul class="navigation">
-      <li><a href="/about">About</a></li>
-      <li><a href="/submit">Submit</a></li>
-      <li><a href="/vote">Vote</a></li>
-      <li><a href="/timeline">Timeline</a></li>
-      <li><a href="/faqs"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/submit/">Submit</a></li>
+      {% if site.phase >= 4 %}
+      <li><a href="/proposals/">Proposals</a></li>
+      {% endif %}
+      <li><a href="/vote/">Vote</a></li>
+      <li><a href="/timeline/">Timeline</a></li>
+      <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
     </ul>
     <ul class="social-links">
       <li>
@@ -165,7 +174,7 @@
       <p><a href="https://la2050.org/">LA2050</a></p>
       <p><small>With support from the <a href="http://www.goldhirshfoundation.org/">Goldhirsh Foundation</a></small></p>
     </div>
-    <p class="action"><a href="https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a">Get updates</a></p>
+    <p class="action"><a href="{{ site.mailing_list_url }}">Get updates</a></p>
   </footer>
 
   <script async src="/assets/js/navigation.js?v=1"></script>

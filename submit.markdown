@@ -2,19 +2,71 @@
 title: Submit Your Proposal for the 2018 My LA2050 Activation Challenge
 body_class: lime
 main_class: standard-layout
+footer_image: true
 ---
 
 # Submit Your Proposal
+
+{% if site.phase == 1 %}
 
 <div class="introduction" markdown="1">
 
 Starting **March 1, 2018**, you can submit your proposal on this website.
 
 <p class="action" markdown="1">
-[Get updates](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+  <a href="{{ site.mailing_list_url }}">Get updates</a>
 </p>
 
 </div>
+
+{% elsif site.phase == 2 %}
+
+<div class="introduction" markdown="1">
+
+Submit your big idea by Friday, **March 30, 2018** <small>(5pm Pacific Time)</small>.
+
+<p class="action" markdown="1">
+  <a href="{{ site.submission_url }}">Submit your proposal</a>
+</p>
+
+</div>
+
+{% elsif site.phase == 3 %}
+
+<div class="introduction" markdown="1">
+
+The submission period has come to a close.
+
+<small>
+Proposals will be showcased here <strong>April 9, 2018</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
+</small>
+
+<p class="action" markdown="1">
+  <a href="{{ site.mailing_list_url }}">Get updates</a>
+</p>
+
+</div>
+
+{% else %}
+
+<div class="introduction" markdown="1">
+
+The submission period has come to a close.
+
+<small>
+Finalists will be announced on <strong>May 21, 2018</strong>. Voting begins on
+c
+  <strong>June 19, 2018</strong>.
+</span>
+</small>
+
+<p class="action" markdown="1">
+  <a href="/proposals/">Check out the proposals</a>
+</p>
+
+</div>
+
+{% endif %}
 
 ### Guidelines
 
@@ -55,7 +107,7 @@ View the [full timeline](/timeline).
 
 ### To apply, organizations will:
 
-* Outline how their activation will make progress on the LA2050 goals and metrics, including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation
+* Outline how their activation will make progress on the [LA2050 goals and metrics](/about/#goals), including clearly defining a core issue, the desired solution to address the issue, intended outcome for the activation
 * Provide a plan that describes how the organization will engage the public to advance the LA2050 goals and metrics
 * Clearly articulate the engagement strategies and tools that will be employed
 * Identify coalition partners involved and their respective roles. Collaboration is highly encouraged!
@@ -85,3 +137,17 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 ### Questions
 
 If you have any questions about the information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
+
+{% if site.phase == 2 %}
+
+<div class="introduction" markdown="1">
+
+Submit your big idea by Friday, **March 30, 2018** <small>(5pm Pacific Time)</small>.
+
+<p class="action" markdown="1">
+  <a href="{{ site.submission_url }}">Submit your proposal</a>
+</p>
+
+</div>
+
+{% endif %}
