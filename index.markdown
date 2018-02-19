@@ -58,14 +58,14 @@ footer_image: true
 
 {% elsif site.phase == 4 %}
 
-      <p class="action" markdown="1">
-        <a href="/proposals/">Check out the proposals</a>
-      </p>
-      <p style="max-width: 20em">
-        <small>Finalists will be announced on <strong>May 21, 2018</strong>. Voting begins on
+      <p style="max-width: 24em">
+        Finalists will be announced on <strong>May 21, 2018</strong>. Voting begins on
                 <span class="avoid-break">
                   <strong>June 19, 2018</strong>.
-                </span></small>
+                </span>
+      </p>
+      <p class="action" markdown="1">
+        <a href="/proposals/">Check out the proposals</a>
       </p>
 
 {% endif %}
