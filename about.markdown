@@ -63,7 +63,9 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 
 Our region will offer opportunities for lifelong learning, allowing all residents to contribute their skills, talents, and abilities to society.
 
-By the year 2050, all Los Angeles students will have access to early education programs, every high school student will graduate and be college and career ready, and all parents will be engaged and empowered to direct their children’s learning. LA will capitalize on its concentration of higher education facilities to foster new businesses, advance research, and spur innovation. See how we've tracked these [metrics](http://la2050.org/metrics?goal=learn).
+By the year 2050, all Los Angeles students will have access to early education programs, every high school student will graduate and be college and career ready, and all parents will be engaged and empowered to direct their children’s learning. LA will capitalize on its concentration of higher education facilities to foster new businesses, advance research, and spur innovation. 
+
+See how we've tracked these [metrics](http://la2050.org/metrics?goal=learn).
 
 </div>
 
