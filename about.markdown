@@ -71,16 +71,16 @@ By the year 2050, all Los Angeles students will have access to early education p
 
 #### Metrics
 
-* [College completion](http://la2050.org/metrics/31)
-* [College matriculation rates](http://la2050.org/metrics/28)
-* [District-wide graduation rates](http://la2050.org/metrics/29)
-* [Proficiency in English & Language Arts and Math](http://la2050.org/metrics/61)
-* [Early education](http://la2050.org/metrics/32)
-* [Student education pipeline](http://la2050.org/metrics/33)
-* [Students' perceived sense of safety at and on the way to school](http://la2050.org/metrics/34)
-* [Suspension and expulsion rates](http://la2050.org/metrics/62)
-* [Truancy rates in elementary and middle schools](http://la2050.org/metrics/36)
-* [Youth unemployment and underemployment](http://la2050.org/metrics/37)
+* College completion
+* College matriculation rates
+* District-wide graduation rates
+* Proficiency in English & Language Arts and Math
+* Early education
+* Student education pipeline
+* Students' perceived sense of safety at and on the way to school
+* Suspension and expulsion rates
+* Truancy rates in elementary and middle schools
+* Youth unemployment and underemployment
 
 </div>
 
