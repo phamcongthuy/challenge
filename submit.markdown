@@ -54,8 +54,8 @@ Proposals will be showcased here <strong>April 9, 2018</strong>. Finalists will 
 The submission period has come to a close.
 
 <small>
-Finalists will be announced on <strong>May 21, 2018</strong>. Voting begins on
-c
+Finalists will be announced on <strong>May 21, 2018</strong>.
+<span class="avoid-break">Voting begins on
   <strong>June 19, 2018</strong>.
 </span>
 </small>

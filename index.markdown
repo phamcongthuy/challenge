@@ -31,26 +31,31 @@ footer_image: true
 
 {% elsif site.phase == 2 %}
 
-      <p style="max-width: 33em">
-        Submit your big idea by Friday, <strong>March 30, 2018</strong> <small>(5pm Pacific Time)</small>.
+      <p style="max-width: 23em;">
+        <strong style="color: inherit;">The submission period has started!</strong>
       </p>
-
+      <p style="max-width: 23em">
+        <a href="/submit/" style="color: inherit;">Submit your big idea</a> by Friday, <strong>March 30, 2018</strong>.
+        Voting begins on
+        <span class="avoid-break">
+          <strong>June 19, 2018</strong>.
+        </span>
+      </p>
       <p class="action" markdown="1">
-        <a href="{{ site.submission_url }}">Submit your proposal</a>
+        <a href="{{ site.mailing_list_url }}">Get updates</a>
       </p>
-
-      <p style="max-width: 15em"><small>Read our <a href="/submit/#guidelines">guidelines for proposals</a>.</small></p>
 
 {% elsif site.phase == 3 %}
 
       <p style="max-width: 22em">
-        The submission period has come to a close.
+        <strong style="color: inherit;">The submission period has come to a close.</strong>
       </p>
-      <p>
-        <small>Proposals will be showcased here on <strong>April 9, 2018</strong>. Finalists will be announced on
-                <span class="avoid-break">
-                  <strong>May 21, 2018</strong>.
-                </span></small>
+      <p style="max-width: 26em">
+        Proposals will be showcased here on <strong>April 9, 2018</strong>.
+        Voting begins on
+        <span class="avoid-break">
+          <strong>June 19, 2018</strong>.
+        </span>
       </p>
       <p class="action" markdown="1">
         <a href="{{ site.mailing_list_url }}">Get updates</a>
@@ -59,10 +64,11 @@ footer_image: true
 {% elsif site.phase == 4 %}
 
       <p style="max-width: 24em">
-        Finalists will be announced on <strong>May 21, 2018</strong>. Voting begins on
-                <span class="avoid-break">
-                  <strong>June 19, 2018</strong>.
-                </span>
+        Finalists will be announced on <strong>May 21, 2018</strong>.
+        Voting begins on
+        <span class="avoid-break">
+          <strong>June 19, 2018</strong>.
+        </span>
       </p>
       <p class="action" markdown="1">
         <a href="/proposals/">Check out the proposals</a>

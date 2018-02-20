@@ -2,6 +2,18 @@
 
   /* =Layout
   ----------------------------------------------- */
+  html, body {
+    height: 100%;
+  }
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+  }
+  footer {
+    align-self: end;
+  }
+
   main > .standard-figure:last-child,
   main > .standard-section:last-child {
     margin-bottom: 0;
