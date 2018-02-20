@@ -54,7 +54,7 @@ With the support of 30,000 Angelenos we’ve outlined an aspirational vision cen
 <section class="item blueberry" id="learn" markdown="1">
 
 <figure class="standard-figure">
-  <img src="/assets/images/goals/384-wide/learn.jpg" srcset="/assets/images/goals/384-wide/learn.jpg 384w, /assets/images/goals/512-wide/learn.jpg 512w, /assets/images/goals/768-wide/learn.jpg 768w, /assets/images/goals/1024-wide/learn.jpg 1024w, /assets/images/goals/1536-wide/learn.jpg 1536w, /assets/images/goals/2048-wide/learn.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Kids smiling" />
+  <a href = "http://la2050.org/metrics?goal=learn"><img src="/assets/images/goals/384-wide/learn.jpg" srcset="/assets/images/goals/384-wide/learn.jpg 384w, /assets/images/goals/512-wide/learn.jpg 512w, /assets/images/goals/768-wide/learn.jpg 768w, /assets/images/goals/1024-wide/learn.jpg 1024w, /assets/images/goals/1536-wide/learn.jpg 1536w, /assets/images/goals/2048-wide/learn.jpg 2048w" sizes="(min-width: 60em) 50vw, 100vw" alt="Kids smiling"/> </a>
 </figure>
 
 <div class="description" markdown="1">
