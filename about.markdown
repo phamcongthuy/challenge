@@ -39,7 +39,7 @@ We want to work together! To partner, we plan to:
 
 ## LA2050 Goals
 
-With the support of 30,000 Angelenos we’ve outlined an aspirational vision centered on five goals(https://la2050.org/metrics): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. 
+With the support of 30,000 Angelenos we’ve outlined an aspirational vision centered on [five goals](https://la2050.org/metrics): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. 
 
 <ul class="action">
   <li class="blueberry"><a href="#learn">Learn</a></li>
