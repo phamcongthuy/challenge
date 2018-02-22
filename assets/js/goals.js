@@ -9,7 +9,7 @@
   var goalsContainer = document.getElementById('goals');
   if (!goalsContainer) return;
 
-  var buttonsContainer = goalsContainer.querySelector('.navigation');
+  var buttonsContainer = goalsContainer.querySelector('.navigation ul');
 
   var buttons = buttonsContainer.querySelectorAll('a');
 
