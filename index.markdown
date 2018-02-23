@@ -20,7 +20,7 @@ footer_image: true
       -->
       <p style="max-width: 27em">
         Starting <strong>March 1, 2018</strong>,
-        you can submit your big idea. Voting begins on
+        you can <a href="/submit/" style="color: inherit;">submit your big idea</a>. Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.
         </span>
@@ -102,6 +102,16 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 Starting Thursday, March 1, 2018 <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
 
 Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
+
+{% if site.registration_url %}
+
+<small style="font-size: 1rem; font-style: italic;">Get a head start by registering ahead of time!</small>
+
+<p class="action" markdown="1">
+  <a href="{{ site.registration_url }}">Register</a>
+</p>
+
+{% endif %}
 
 {% elsif site.phase == 2 %}
 

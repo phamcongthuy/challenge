@@ -13,9 +13,21 @@ footer_image: true
 
 Starting **March 1, 2018**, you can submit your proposal on this website.
 
+{% if site.registration_url %}
+
+<small style="font-size: 1rem; font-style: italic;">Get a head start by registering ahead of time!</small>
+
+<p class="action" markdown="1">
+  <a href="{{ site.registration_url }}">Register</a>
+</p>
+
+{% else %}
+
 <p class="action" markdown="1">
   <a href="{{ site.mailing_list_url }}">Get updates</a>
 </p>
+
+{% endif %}
 
 </div>
 
@@ -138,7 +150,29 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 
 If you have any questions about the information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-{% if site.phase == 2 %}
+{% if site.phase == 1 %}
+
+<div class="introduction" markdown="1">
+
+Starting **March 1, 2018**, you can submit your proposal on this website.
+
+{% if site.registration_url %}
+
+<small style="font-size: 1rem; font-style: italic;">Get a head start by registering ahead of time!</small>
+
+<p class="action" markdown="1">
+  <a href="{{ site.registration_url }}">Register</a>
+</p>
+
+{% else %}
+
+<p class="action" markdown="1">
+  <a href="{{ site.mailing_list_url }}">Get updates</a>
+</p>
+
+{% endif %}
+
+{% elsif site.phase == 2 %}
 
 <div class="introduction" markdown="1">
 
