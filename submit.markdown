@@ -11,11 +11,11 @@ footer_image: true
 
 <div class="introduction" markdown="1">
 
-Starting **March 1, 2018** <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
+<p>Starting <strong>March 1, 2018</strong> <small>(9am Pacific Time)</small>,<br />you can submit your proposal on this website.</p>
 
 {% if site.submission_url %}
 
-<small style="font-size: 1rem; font-style: italic;">Get ahead by registering early!</small>
+<small>Get ahead by registering early!</small>
 
 <p class="action" markdown="1">
   <a href="{{ site.submission_url }}">Register</a>
@@ -156,11 +156,11 @@ If you have any questions about the information on this page, [please review our
 
 <div class="introduction" markdown="1">
 
-Starting **March 1, 2018** <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
+<p>Starting <strong>March 1, 2018</strong> <small>(9am Pacific Time)</small>,<br />you can submit your proposal on this website.</p>
 
 {% if site.submission_url %}
 
-<small style="font-size: 1rem; font-style: italic;">Get ahead by registering early!</small>
+<small>Get ahead by registering early!</small>
 
 <p class="action" markdown="1">
   <a href="{{ site.submission_url }}">Register</a>
