@@ -11,14 +11,14 @@ footer_image: true
 
 <div class="introduction" markdown="1">
 
-Starting **March 1, 2018**, you can submit your proposal on this website.
+Starting **March 1, 2018** <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
 
-{% if site.registration_url %}
+{% if site.submission_url %}
 
-<small style="font-size: 1rem; font-style: italic;">Get a head start by registering early!</small>
+<small style="font-size: 1rem; font-style: italic;">Get ahead by registering early!</small>
 
 <p class="action" markdown="1">
-  <a href="{{ site.registration_url }}">Register</a>
+  <a href="{{ site.submission_url }}">Register</a>
 </p>
 
 {% else %}
@@ -35,10 +35,10 @@ Starting **March 1, 2018**, you can submit your proposal on this website.
 
 <div class="introduction" markdown="1">
 
-Submit your big idea by Friday, **March 30, 2018** <small>(5pm Pacific Time)</small>.
+The submission period has started! Apply by <strong>March 30, 2018</strong> <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your proposal</a>
+  <a href="{{ site.submission_url }}">Submit your big idea</a>
 </p>
 
 </div>
@@ -150,18 +150,20 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 
 If you have any questions about the information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
+* * *
+
 {% if site.phase == 1 %}
 
 <div class="introduction" markdown="1">
 
-Starting **March 1, 2018**, you can submit your proposal on this website.
+Starting **March 1, 2018** <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
 
-{% if site.registration_url %}
+{% if site.submission_url %}
 
-<small style="font-size: 1rem; font-style: italic;">Get a head start by registering early!</small>
+<small style="font-size: 1rem; font-style: italic;">Get ahead by registering early!</small>
 
 <p class="action" markdown="1">
-  <a href="{{ site.registration_url }}">Register</a>
+  <a href="{{ site.submission_url }}">Register</a>
 </p>
 
 {% else %}

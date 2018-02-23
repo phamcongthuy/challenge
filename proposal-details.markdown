@@ -1,25 +1,20 @@
 ---
 title: "AltaSea: Where STEM Meets the Ocean, 2018 My LA2050 Activation Challenge"
-body_class: home lime
+body_class: blueberry
 main_class: standard-layout
 ---
 
-<div class="standard-figure header-figure has-caption">
-  <div class="caption">
-    <div>
-      <h1>AltaSea: Where STEM Meets the Ocean</h1>
-    </div>
-  </div>
-  <img src="https://kii731ytjwt4eu4tb1o9e4qc-wpengine.netdna-ssl.com/wp-content/gallery/media-photos/Students-1.jpg" />
+<section markdown="1" style="grid-column: 1/4">
+
+## AltaSea: Where STEM Meets the Ocean
+
+### Port of Los Angeles
+
+<div class="video" style="padding-bottom: 56.25%;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ym0IsfhUDW8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<!--
-<div style="margin-top: 1.5em"></div>
-
-<h1 style="max-width: none; margin: 0 0 3rem 0">LEARN</h1>
--->
-
-<h2 style="max-width: none; grid-column: 1/4; font-size: 3em; text-align: center; justify-self: center;">AltaSea at the <span style="display: inline-block;">Port of Los Angeles</span></h2>
+</section>
 
 <!--
 <p class="action" markdown="1">
@@ -38,9 +33,8 @@ main_class: standard-layout
 <p><strong>Love this idea?</strong> <a href="https://altasea.org/contribute-to-altasea/">Donate</a></p>
 -->
 
-
 <div class="numbers" markdown="1">
-<a href="/proposals" style="color: inherit; font-weight: inherit; text-decoration: none;">Live</a>
+<a href="/proposals" style="color: inherit; font-weight: inherit; text-decoration: none;">Learn</a>
 : Category
 
 Non-profit
@@ -78,17 +72,12 @@ Non-profit
 <p>$100,000</p>
 -->
 
-<div class="video" style="padding-bottom: 56.25%">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ym0IsfhUDW8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <!--
 <p><strong>Love this idea?</strong><br/>Follow up your vote with a donation.</p>
 
 <p class="action">
   <a href="https://altasea.org/contribute-to-altasea/" style="color: white">Donate</a>
 </p>
-
 -->
 
 <h3>How will your proposal impact the following LEARN metrics? </h3>
@@ -138,36 +127,42 @@ Non-profit
   <li>Network/relationship support</li>
 </ul>
 
-<!--
-<div id="disqus_thread"></div>
+<hr />
+
+<div id="disqus_thread" style="grid-column: 1/4"></div>
 
 <script>
-  var disqus_config = function () { this.page.identifier = 83935; };  (function() { var d = document, s = d.createElement('script'); s.src = '//challenge-la2050-org.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s);  })();
+var disqus_config = function () {
+  this.page.identifier = 83935;
+};  
+(function() {
+  var d = document, s = d.createElement('script');
+  s.src = '//challenge-la2050-org.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
 </script>
 
-<p>Love this idea?<br/>Follow up your vote with a donation.</p><a target="_blank" href="https://altasea.org/contribute-to-altasea/" title="Donate" class="button">Donate</a></div>
-
-<div class="row"><a href="javascript:;" onclick="window.history.back();" title="Back to list of entries">Back to list of entries</a></div>
-</div>
--->
-
+<noscript>
+<p>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></p>
+</noscript>
 
 <style>
 
-header a {
-  color: white !important;
-}
-.home.has-active-nav header, .home.header-not-visible header {
-  background-color: rgb(141, 208, 59);
-}
+  header a {
+    color: white !important;
+  }
+  .home.has-active-nav header, .home.header-not-visible header {
+    background-color: rgb(6, 179, 188);
+  }
 
   .numbers dl {
     margin-top: 3em;
     margin-bottom: 3em;
-    color: rgb(141, 208, 59); /* @strawberry */
+    color: rgb(6, 179, 188); /* @strawberry */
     text-transform: uppercase;
     text-align: center;
-    border: 0.1875rem solid rgba(141, 208, 59, 0.5); /* @strawberry */
+    border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
     border-left-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -177,7 +172,7 @@ header a {
     line-height: 1;
     font-style: italic;
     font-weight: bold;
-    border: 0.1875rem solid rgba(141, 208, 59, 0.5); /* @strawberry */
+    border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
     border-top-width: 0;
     border-bottom-width: 0;
     padding: 0.75em 0.25em 0;
@@ -189,8 +184,8 @@ header a {
     text-transform: uppercase;
     line-height: 1;
     margin-left: 0;
-    color: rgba(141, 208, 59, 0.5); /* @strawberry */
-    border: 0.1875rem solid rgba(141, 208, 59, 0.5); /* @strawberry */
+    color: rgba(6, 179, 188, 0.5); /* @strawberry */
+    border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
     border-top-width: 0;
     padding: 0.375em 0.75em 2em;
   }
@@ -203,24 +198,24 @@ header a {
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 1.5em;
-      border: 0.1875rem solid rgba(141, 208, 59, 0.5); /* @strawberry */
-      border-top-width: 0;
-      border-right-width: 0;
-      border-bottom-width: 0;
+        border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
       }
       .numbers dt {
         grid-row: 1 / 2;
         align-self: end;
-      border: 0.1875rem solid rgba(141, 208, 59, 0.5); /* @strawberry */
-      border-left-width: 0;
-      border-bottom-width: 0;
+        border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+        border-left-width: 0;
+        border-bottom-width: 0;
       }
       .numbers dd {
         grid-row: 2 / 3;
         align-self: start;
-      border: 0.1875rem solid rgba(141, 208, 59, 0.5); /* @strawberry */
-      border-top-width: 0;
-      border-left-width: 0;
+        border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+        border-top-width: 0;
+        border-left-width: 0;
       }
     }
   }
@@ -229,7 +224,6 @@ header a {
 
 
 <style>
-
 
   .proposals,
   .proposals li {
@@ -241,7 +235,7 @@ header a {
     grid-column: 1/4 !important;
     display: grid;
     max-width: none;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
     grid-column-gap: 3em;
     grid-row-gap: 4.5em;
     margin-bottom: 4.5em !important;
@@ -261,17 +255,20 @@ header a {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.05em;
+    max-width: none;
   }
   .proposals h3 {
     margin-top: 0.75em;
-    font-size: inherit;
-    line-height: inherit;
+    font-size: 1.125em;
+    line-height: 1.25;
     color: inherit;
     /*padding: 0 0.75em;*/
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 192, 50); /* @dark-banana */
+    max-width: none;
   }
   .proposals .description {
     font-size: 0.875em;
+    display: none;
     /*padding: 0 0.75rem;*/
   }
   .proposals .organization {
@@ -307,7 +304,7 @@ header a {
     max-width: none;
   }
   .goals-proposals .browse {
-    
+    text-align: center;
   }
   .goals-proposals .count {
     text-align: center;
@@ -331,95 +328,22 @@ header a {
   }*/
 </style>
 
-<div id="goals" style="
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    border-width: 0 0 0.1875em;
-    border-style: solid;
-    border-color: rgb(217, 217, 217);
-    grid-column: 1/4 !important;"></div>
+<hr />
 
-<!--
-<section class="goals goals-proposals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1" style="width: 100%">
+<section class="goals" id="goals">
 
-<h2 style="color: rgb(6, 179, 188); /* @blueberry */">More proposals</h2>
+<div class="navigation"><div markdown="1">
 
-<ul class="action" style="max-width: none;">
-  <li class="blueberry"><a href="#learn" class="active">Learn</a></li>
-  <li class="banana"><a href="#create">Create</a></li>
-  <li class="strawberry"><a href="#play">Play</a></li>
-  <li class="tangerine"><a href="#connect">Connect</a></li>
-  <li class="lime"><a href="#live">Live</a></li>
-</ul>
+## More Proposals for LEARN
 
-<p class="count"><small>23 proposals for Learn category.</small></p>
+</div></div>
 
-</div></section>
+</section>
 
-
-<div id="goals" style="
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    grid-column: 1/4 !important;"></div>
--->
-
-
-<h2 style="font-style: italic; justify-self: center; text-align: center; max-width: none; grid-column: 1/4; font-size: 2.5em; text-align: center; margin-bottom: 3rem; margin-top: 1.5rem">More Proposals</h2>
-
-
-<ul class="proposals">
+<ul class="proposals more-proposals">
     <li>
         <article>
-            <a href="https://challenge.la2050.org/entry/skills-development-creative-expression-and-team-building-through-classic-car-restoration" title="Skills development, creative expression and team building through classic car restoration.">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/3013757055741-team88.JPG" alt="Skills development, creative expression and team building through classic car restoration." width="540" height="428" />
-                <div class="blueberry">
-                    <h4>Learn</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Lost Angels Children's Project</div>
-                    <h3>Skills development, creative expression and team building through classic car restoration.</h3>
-                    <div class="description">Lost Angels Children's Project engages at-risk youth through classic car restoration and customization to learn a trade, gain life skills and become empowered through team building activities.</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/catalyzing-community-partnerships-to-create-economic-mobility-for-las-underserved-entrepreneurs" title="Catalyzing Community Partnerships to create economic mobility for LA’s underserved entrepreneurs">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/7035677564741-team90.jpg" alt="Catalyzing Community Partnerships to create economic mobility for LA’s underserved entrepreneurs" width="540" height="428" />
-                <div class="banana">
-                    <h4>Create</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Opportunity Fund</div>
-                    <h3>Catalyzing Community Partnerships to create economic mobility for LA’s underserved entrepreneurs</h3>
-                    <div class="description">Opportunity Fund will say “Yes!” to 240 underserved LA small business owners in collaboration with 10+ community organizations and invest capital in their enterprises to create self-sufficiency & jobs</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/if-she-can-see-it-she-can-be-it-empowering-girls-creating-a-gender-balanced-media-landscape-" title="If She Can See It, She Can Be It: Empowering Girls &amp; Creating a Gender-Balanced Media Landscape ">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/8697450355741-team90.jpg" alt="If She Can See It, She Can Be It: Empowering Girls &amp; Creating a Gender-Balanced Media Landscape " width="540" height="428" />
-                <div class="banana">
-                    <h4>Create</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Geena Davis Institute on Gender in Media at Mount Saint Mary’s University</div>
-                    <h3>If She Can See It, She Can Be It: Empowering Girls & Creating a Gender-Balanced Media Landscape </h3>
-                    <div class="description">The Geena Davis Institute will invite 50 young women to participate in its See Jane Salons, fostering future female entertainment leaders and empowering girls in LA around issues of gender in media.</div>
-                </div>
-            </a>
-        </article>
-    </li>
-  </ul>
-
-<!--
-<ul class="proposals">
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/altasea-where-stem-meets-the-ocean" title="AltaSea: Where STEM Meets the Ocean">
+            <a href="/proposal-details/" title="AltaSea: Where STEM Meets the Ocean">
                 <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/3892536625741-team89.jpg" alt="AltaSea: Where STEM Meets the Ocean" width="540" height="428" />
                 <div class="blueberry">
                     <h4>Learn</h4>
@@ -434,7 +358,7 @@ header a {
     </li>
     <li>
         <article>
-            <a href="https://challenge.la2050.org/entry/skills-development-creative-expression-and-team-building-through-classic-car-restoration" title="Skills development, creative expression and team building through classic car restoration.">
+            <a href="/proposal-details/" title="Skills development, creative expression and team building through classic car restoration.">
                 <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/3013757055741-team88.JPG" alt="Skills development, creative expression and team building through classic car restoration." width="540" height="428" />
                 <div class="blueberry">
                     <h4>Learn</h4>
@@ -449,7 +373,7 @@ header a {
     </li>
     <li>
         <article>
-            <a href="https://challenge.la2050.org/entry/catalyzing-community-partnerships-to-create-economic-mobility-for-las-underserved-entrepreneurs" title="Catalyzing Community Partnerships to create economic mobility for LA’s underserved entrepreneurs">
+            <a href="/proposal-details/" title="Catalyzing Community Partnerships to create economic mobility for LA’s underserved entrepreneurs">
                 <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/7035677564741-team90.jpg" alt="Catalyzing Community Partnerships to create economic mobility for LA’s underserved entrepreneurs" width="540" height="428" />
                 <div class="banana">
                     <h4>Create</h4>
@@ -464,7 +388,7 @@ header a {
     </li>
     <li>
         <article>
-            <a href="https://challenge.la2050.org/entry/if-she-can-see-it-she-can-be-it-empowering-girls-creating-a-gender-balanced-media-landscape-" title="If She Can See It, She Can Be It: Empowering Girls &amp; Creating a Gender-Balanced Media Landscape ">
+            <a href="/proposal-details/" title="If She Can See It, She Can Be It: Empowering Girls &amp; Creating a Gender-Balanced Media Landscape ">
                 <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/8697450355741-team90.jpg" alt="If She Can See It, She Can Be It: Empowering Girls &amp; Creating a Gender-Balanced Media Landscape " width="540" height="428" />
                 <div class="banana">
                     <h4>Create</h4>
@@ -479,7 +403,7 @@ header a {
     </li>
     <li>
         <article>
-            <a href="https://challenge.la2050.org/entry/cleantech-2-edtech-la-schools-save-energy-as-students-and-startups-implement-cleantech-innovations" title="Cleantech 2 Edtech: LA schools save energy as students and startups implement cleantech innovations">
+            <a href="/proposal-details/" title="Cleantech 2 Edtech: LA schools save energy as students and startups implement cleantech innovations">
                 <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/4863691455741-team91.jpg" alt="Cleantech 2 Edtech: LA schools save energy as students and startups implement cleantech innovations" width="540" height="428" />
                 <div class="banana">
                     <h4>Create</h4>
@@ -492,110 +416,82 @@ header a {
             </a>
         </article>
     </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/restoring-and-reimagining-the-worlds-first-polyphonoptic-sculpture-in-downtown-los-angeles" title="Restoring and reimagining the World&#039;s First &#039;Polyphonoptic&#039; sculpture in downtown Los Angeles">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/7344404654741-team91.jpg" alt="Restoring and reimagining the World&#039;s First &#039;Polyphonoptic&#039; sculpture in downtown Los Angeles" width="540" height="428" />
-                <div class="strawberry">
-                    <h4>Play</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">The Triforium Project</div>
-                    <h3>Restoring and reimagining the World's First 'Polyphonoptic' sculpture in downtown Los Angeles</h3>
-                    <div class="description">The Triforium is a piece of “polyphonoptic” public art in DTLA that was 40 years ahead of its time; we want to restore and retrofit it to achieve the artist's dream of music, community, and wonder.</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/theraputic-ocean-engagement-surfing-toes-as-in-on-the-nose" title="Theraputic Ocean Engagement: Surfing (T.O.E.S. as in, on the nose!)">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/8758171455741-team90.jpg" alt="Theraputic Ocean Engagement: Surfing (T.O.E.S. as in, on the nose!)" width="540" height="428" />
-                <div class="strawberry">
-                    <h4>Play</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Surf Bus Foundation</div>
-                    <h3>Theraputic Ocean Engagement: Surfing (T.O.E.S. as in, on the nose!)</h3>
-                    <div class="description">Therapeutic Ocean Engagement: Surfing (T.O.E.S)</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/the-man2man-project-preventing-boys-from-becoming-dads-too-early-and-helping-teen-dads-to-step-up" title="The Man2Man Project: Preventing boys from becoming dads too early and helping teen dads to step up!">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/1711077255741-team90.JPG" alt="The Man2Man Project: Preventing boys from becoming dads too early and helping teen dads to step up!" width="540" height="428" />
-                <div class="tangerine">
-                    <h4>Connect</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Friends of the Family</div>
-                    <h3>The Man2Man Project: Preventing boys from becoming dads too early and helping teen dads to step up!</h3>
-                    <div class="description">The Man2Man Project will connect multiple generations of men and boys for the dual purpose of helping young dads to become great fathers and preventing at-risk boys from becoming fathers too soon.</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/pathways-to-employment-through-professional-volunteerism" title="Pathways to Employment through Professional Volunteerism">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/4769182815741-team88.png" alt="Pathways to Employment through Professional Volunteerism" width="540" height="428" />
-                <div class="tangerine">
-                    <h4>Connect</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Tierra del Sol Foundation</div>
-                    <h3>Pathways to Employment through Professional Volunteerism</h3>
-                    <div class="description">Tierra del Sol Foundation will empower adults with developmental disabilities to achieve a life of meaning, acceptance, value, and inclusion, via professional volunteerism as a pathway to employment.</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/big-citizen-hub-building-a-pipeline-of-social-change-makers-via-leadership-and-community-service" title="Big Citizen HUB: Building a pipeline of social change makers via leadership and community service">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/9500569955741-team90.jpg" alt="Big Citizen HUB: Building a pipeline of social change makers via leadership and community service" width="540" height="428" />
-                <div class="tangerine">
-                    <h4>Connect</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Big Citizen HUB</div>
-                    <h3>Big Citizen HUB: Building a pipeline of social change makers via leadership and community service</h3>
-                    <div class="description">Big Citizen HUB will connect 236 diverse young people, ages 11-26, from all across Los Angeles for 22 Saturdays to learn about our communities and address local issues through service.</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/the-precise-barber-college" title="The Precise Barber College">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/3954291065741-team90.jpg" alt="The Precise Barber College" width="540" height="428" />
-                <div class="lime">
-                    <h4>Live</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">Covenant House California</div>
-                    <h3>The Precise Barber College</h3>
-                    <div class="description">The Precise Barber College will provide pathways to careers for homeless youth - not just jobs - and combine the best of the for-profit and non-profit worlds for a socially conscious enterprise.</div>
-                </div>
-            </a>
-        </article>
-    </li>
-    <li>
-        <article>
-            <a href="https://challenge.la2050.org/entry/the-future-is-bright-a-clean-energy-future-for-la" title="The Future is Bright! A Clean Energy Future for LA">
-                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/6783094165741-team89.jpg" alt="The Future is Bright! A Clean Energy Future for LA" width="540" height="428" />
-                <div class="lime">
-                    <h4>Live</h4>
-                </div>
-                <div class="content">
-                    <div class="organization">The Sierra Club Foundation</div>
-                    <h3>The Future is Bright! A Clean Energy Future for LA</h3>
-                    <div class="description">We’re fighting for an equitable transition to 100 percent clean energy across Los Angeles and all of California!</div>
-                </div>
-            </a>
-        </article>
-    </li>
 </ul>
--->
+
+<hr />
+
+<section class="goals" id="goals">
+
+<div class="navigation"><div markdown="1">
+
+## Browse by Goal
+
+<ul class="action" style="max-width: none;">
+  <li class="blueberry"><a href="#learn">Learn</a></li>
+  <li class="banana"><a href="#create">Create</a></li>
+  <li class="strawberry"><a href="#play">Play</a></li>
+  <li class="tangerine"><a href="#connect">Connect</a></li>
+  <li class="lime"><a href="#live" class="active">Live</a></li>
+</ul>
+
+</div>
+
+</div></section>
+
+<style>
+/*
+.proposals {
+  max-width: 50em;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.proposals h3 {
+  max-width: none;
+
+}
+.proposals .banana ~ .content h3 {
+  color: rgb(255, 194, 51);
+}
+.proposals.more-proposals {
+  grid-template-columns: 1fr 1fr;
+}
+.proposals.more-proposals li a .image {
+  display: block;
+  position: relative;
+}
+.proposals.more-proposals li a .image::after {
+    font-size: 0.875em;
+    content: "";
+    display: block;
+    border: 2px solid white;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M22,12c0-0.2-0.1-0.4-0.2-0.6l-9.4-8.2C12.2,3.1,12,3,11.8,3c-0.2,0-0.4,0.1-0.6,0.2l-0.5,0.5c-0.2,0.2-0.3,0.4-0.3,0.6 c0,0.2,0.1,0.4,0.3,0.6l7,5.9l-15,0.1c-0.2,0-0.4,0.1-0.5,0.3C2.1,11.3,2,11.5,2,11.7v0.6c0,0.2,0.1,0.4,0.2,0.6s0.3,0.3,0.5,0.3 h15l-7,6.1c-0.2,0.1-0.3,0.3-0.3,0.5s0.1,0.4,0.3,0.6l0.5,0.5c0.2,0.2,0.4,0.3,0.6,0.3c0.2,0,0.4-0.1,0.6-0.3l9.4-8.2 C21.9,12.4,22,12.2,22,12z"></path></svg>');
+    background-size: 1em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -2em;
+    margin-top: -2em;
+}
+.proposals.more-proposals li a .image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+.proposals.more-proposals li:first-child a .image::after {
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}*/
+
+</style>

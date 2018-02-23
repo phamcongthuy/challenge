@@ -26,7 +26,7 @@ main_class: standard-layout
     grid-column: 1/4 !important;
     display: grid;
     max-width: none;
-    grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 3em;
     grid-row-gap: 4.5em;
     margin-bottom: 4.5em !important;
@@ -46,20 +46,17 @@ main_class: standard-layout
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.05em;
-    max-width: none;
   }
   .proposals h3 {
     margin-top: 0.75em;
-    font-size: 1.125em;
-    line-height: 1.25;
+    font-size: inherit;
+    line-height: inherit;
     color: inherit;
     /*padding: 0 0.75em;*/
     color: rgb(237, 192, 50); /* @dark-banana */
-    max-width: none;
   }
   .proposals .description {
     font-size: 0.875em;
-    display: none;
     /*padding: 0 0.75rem;*/
   }
   .proposals .organization {
@@ -131,7 +128,7 @@ main_class: standard-layout
   <button type="submit">Search</button>
 </form>
 
-<p>Select the goal category you want to view:</p>
+Select the goal category you want to view:
 
 <ul class="action" style="max-width: none;">
   <li class="blueberry"><a href="#learn">Learn</a></li>

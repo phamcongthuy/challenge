@@ -20,38 +20,39 @@ footer_image: true
       -->
       <p style="max-width: 27em">
         Starting <strong>March 1, 2018</strong>,
-        you can <a href="/submit/" style="color: inherit;">submit your big idea</a>. Voting begins on
+        you can submit your big idea. Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.
         </span>
       </p>
+      <p class="action"><a href="/submit/">Get ready to submit your proposal</a></p>
+<!--
       <p class="action" markdown="1">
         <a href="{{ site.mailing_list_url }}">Get updates</a>
       </p>
+    -->
 
 {% elsif site.phase == 2 %}
 
-      <p style="max-width: 23em;">
-        <strong style="color: inherit;">The submission period has started!</strong>
+      <p style="max-width: 30em;">
+        The submission period has started! Apply by <strong>March 30, 2018</strong>.
       </p>
       <p style="max-width: 23em">
-        <a href="/submit/" style="color: inherit;">Submit your big idea</a> by Friday, <strong>March 30, 2018</strong>.
         Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.
         </span>
       </p>
       <p class="action" markdown="1">
-        <a href="{{ site.mailing_list_url }}">Get updates</a>
+  <a href="{{ site.submission_url }}">Submit your big idea now</a>  
       </p>
 
 {% elsif site.phase == 3 %}
 
-      <p style="max-width: 22em">
-        <strong style="color: inherit;">The submission period has come to a close.</strong>
+      <p>
+        The submission period has come to a close. Proposals will be showcased here on <strong>April 9, 2018</strong>.
       </p>
       <p style="max-width: 26em">
-        Proposals will be showcased here on <strong>April 9, 2018</strong>.
         Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.
@@ -102,16 +103,6 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 Starting Thursday, March 1, 2018 <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
 
 Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
-
-{% if site.registration_url %}
-
-<small style="font-size: 1rem; font-style: italic;">Get a head start by registering early!</small>
-
-<p class="action" markdown="1">
-  <a href="{{ site.registration_url }}">Register</a>
-</p>
-
-{% endif %}
 
 {% elsif site.phase == 2 %}
 
