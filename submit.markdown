@@ -15,7 +15,7 @@ Starting **March 1, 2018**, you can submit your proposal on this website.
 
 {% if site.registration_url %}
 
-<small style="font-size: 1rem; font-style: italic;">Get a head start by registering ahead of time!</small>
+<small style="font-size: 1rem; font-style: italic;">Get a head start by registering early!</small>
 
 <p class="action" markdown="1">
   <a href="{{ site.registration_url }}">Register</a>
@@ -158,7 +158,7 @@ Starting **March 1, 2018**, you can submit your proposal on this website.
 
 {% if site.registration_url %}
 
-<small style="font-size: 1rem; font-style: italic;">Get a head start by registering ahead of time!</small>
+<small style="font-size: 1rem; font-style: italic;">Get a head start by registering early!</small>
 
 <p class="action" markdown="1">
   <a href="{{ site.registration_url }}">Register</a>
