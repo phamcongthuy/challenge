@@ -65,3 +65,10 @@
     font-style: normal;
     font-weight: 900; /* @black */
   }
+  @font-face{
+    font-family:"Avenir Next";
+    src: url("https://fonts.jimthoburn.com/activation.la2050.org/71b9791b-4350-4b52-8b43-c03b82004511.woff2") format("woff2"),
+         url("https://fonts.jimthoburn.com/activation.la2050.org/8c17992f-c017-49e0-b573-779f62016f06.woff") format("woff");
+    font-style: italic;
+    font-weight: 900; /* @black */
+  }
