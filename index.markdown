@@ -25,7 +25,7 @@ footer_image: true
           <strong>June 19, 2018</strong>.
         </span>
       </p>
-      <p class="action"><a href="/submit/">Get ready to submit your proposal</a></p>
+      <p class="action"><a href="/submit/">Get ready to <span class="avoid-break">submit your proposal</span></a></p>
 <!--
       <p class="action" markdown="1">
         <a href="{{ site.mailing_list_url }}">Get updates</a>

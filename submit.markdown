@@ -11,7 +11,7 @@ footer_image: true
 
 <div class="introduction" markdown="1">
 
-<p>Starting <strong>March 1, 2018</strong> <small>(9am Pacific Time)</small>,<br />you can submit your proposal on this website.</p>
+<p class="max-width: 23em">Starting <strong class="avoid-break">March 1, 2018</strong> <small class="avoid-break">(9am Pacific Time)</small>, <span class="avoid-break">you can submit your proposal on this website.</span></p>
 
 {% if site.submission_url %}
 
@@ -156,7 +156,7 @@ If you have any questions about the information on this page, [please review our
 
 <div class="introduction" markdown="1">
 
-<p>Starting <strong>March 1, 2018</strong> <small>(9am Pacific Time)</small>,<br />you can submit your proposal on this website.</p>
+<p class="max-width: 23em">Starting <strong class="avoid-break">March 1, 2018</strong> <small class="avoid-break">(9am Pacific Time)</small>, <span class="avoid-break">you can submit your proposal on this website.</span></p>
 
 {% if site.submission_url %}
 
