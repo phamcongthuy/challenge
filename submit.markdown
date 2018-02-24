@@ -59,7 +59,7 @@ Proposals will be showcased here <strong>April 9, 2018</strong>. Finalists will 
 
 </div>
 
-{% else %}
+{% elsif site.phase == 4 %}
 
 <div class="introduction" markdown="1">
 
@@ -150,9 +150,9 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 
 If you have any questions about the information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
-* * *
-
 {% if site.phase == 1 %}
+
+* * *
 
 <div class="introduction" markdown="1">
 
@@ -175,6 +175,8 @@ If you have any questions about the information on this page, [please review our
 {% endif %}
 
 {% elsif site.phase == 2 %}
+
+* * *
 
 <div class="introduction" markdown="1">
 
