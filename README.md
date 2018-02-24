@@ -1,3 +1,8 @@
+* [How to make changes](#how-to-make-changes)
+* [How to develop locally](#how-to-develop-locally)
+* [Generating responsive images](#generating-responsive-images)
+* [Handy guides](#handy-guides)
+
 # LA2050 Activation Challenge
 
 A website for the LA2050 Activation Challenge
@@ -25,3 +30,40 @@ And then start running the Jekyll application like this...
 ```
 jekyll serve
 ```
+## Generating responsive images
+
+Some of the images on the website are available in multiple sizes, to save bandwidth. You can regenerate the “goals” images by following these steps…
+
+1) Install [Node.js and NPM](https://nodejs.org/en/download/)
+
+2) Run this command to install the dependencies for this project
+
+```
+npm install
+```
+
+3) Place your images in the [assets/images/goals/original](https://github.com/la2050/activation/tree/master/assets/images/goals/original) folder
+
+```
+/assets/images/goals/original/connect.jpg
+/assets/images/goals/original/create.jpg
+/assets/images/goals/original/learn.jpg
+/assets/images/goals/original/live.jpg
+/assets/images/goals/original/play.jpg
+```
+
+4) Run this command to generate the images
+
+```
+npm start
+```
+
+If you want to generate a different set of images, you can edit the [gulpfile](https://github.com/la2050/activation/blob/master/gulpfile.js) and then repeat the steps above.
+
+## Handy guides
+
+* [Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Liquid](https://shopify.github.io/liquid/)
+* [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+* [Jekyll](https://jekyllrb.com/docs/home/)
+
