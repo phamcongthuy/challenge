@@ -1,11 +1,12 @@
+
+# LA2050 Activation Challenge
+
 * [How to make changes](#how-to-make-changes)
 * [How to develop locally](#how-to-develop-locally)
 * [Generating responsive images](#generating-responsive-images)
 * [Handy guides](#handy-guides)
 
-# LA2050 Activation Challenge
-
-A website for the LA2050 Activation Challenge
+This is website for the LA2050 Activation Challenge
 
 https://activation.la2050.org
 
