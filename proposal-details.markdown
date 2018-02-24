@@ -4,24 +4,94 @@ body_class: blueberry
 main_class: standard-layout
 ---
 
-<section markdown="1" style="grid-column: 1/4">
-
-## AltaSea: Where STEM Meets the Ocean
-
-### Port of Los Angeles
-
-<div class="video" style="padding-bottom: 56.25%;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ym0IsfhUDW8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
-</section>
+<h1><span style="display: block; font-size: 0.5em;">Port of Los Angeles</span> <span style="color: white;">AltaSea: Where STEM Meets the Ocean</span></h1>
 
 <!--
-<p class="action" markdown="1">
-[Vote](https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a)
+<p class="breadcrumbs">
+  <a href="/proposals/">Proposals</a>
+  <a href="/proposals/" class="category">Learn</a>
 </p>
 -->
 
+<style>
+.breadcrumbs {
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  max-width: none;
+  margin: 0 -1.5em !important;
+  grid-column: 1/4 !important;
+  text-transform: uppercase;
+}
+@media (min-width: 40em) {
+  .breadcrumbs {
+    margin: 0 -3em !important;
+  }
+}
+.breadcrumbs a {
+  display: block;
+  padding: 0.75em 3em;
+}
+.breadcrumbs .category {
+  background: rgb(6, 179, 188);
+  color: white;
+}
+</style>
+
+<!--
+<div class="proposal-header" markdown="1">
+  <h1>AltaSea: Where STEM Meets the Ocean</h1>
+  <h2>Port of Los Angeles</h2>
+</div>
+-->
+
+<style>
+.proposal-header {
+  grid-column: 1/4;
+}
+.proposal-header h1 {
+  max-width: none;
+  color: rgb(6, 179, 188);
+}
+.proposal-header h2 {
+  max-width: none;
+  color: rgb(6, 179, 188);
+  margin-top: 0;
+}
+</style>
+
+<section class="proposal-introduction" markdown="1" style="grid-column: 1/4">
+
+<figure class="feature">
+<div data-aspect-ratio="1280/720">
+<a href="https://youtu.be/ym0IsfhUDW8" target="_blank" class="has-icon">
+<img src="https://kii731ytjwt4eu4tb1o9e4qc-wpengine.netdna-ssl.com/wp-content/gallery/media-photos/Students-1.jpg" alt="" width="1000" />
+<span class="icon play">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
+<title>Video of Port of Los Angeles</title>
+<switch>
+<polygon fill="black" points="29.2,16.9 0,0 0,33.7 29.2,16.9 0,0 0,33.7 "></polygon>
+<foreignObject>Video of Port of Los Angeles</foreignObject>
+</switch>
+</svg>
+</span>
+<span class="credit">Port of Los Angeles video on YouTube</span>
+</a>
+</div>
+</figure>
+
+<!--
+<div>
+<div class="video" style="padding-bottom: 56.25%;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ym0IsfhUDW8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+-->
+
+<!--
+<p class="action" markdown="1">
+[Vote]()
+</p>
+-->
 <!--
 <p><strong>Category:</strong> <a href="">Learn</a></p>
 <p><strong>Organization type:</strong> Non-profit</p>
@@ -30,9 +100,396 @@ main_class: standard-layout
 
 <p><strong>Website:</strong> <a href="http://altasea.org" title="AltaSea at the Port of Los Angeles" target="_blank">altasea.org</a></p>
 
-<p><strong>Love this idea?</strong> <a href="https://altasea.org/contribute-to-altasea/">Donate</a></p>
 -->
+<div class="link-container" markdown="1">
 
+<div class="links" markdown="1">
+Category
+: <a href="/proposals" style="color: rgb(6, 179, 188);">Learn</a>
+
+Organization type
+: Non-profit
+
+Websites
+: <a href="http://altasea.org" style="color: rgb(6, 179, 188);">altasea.org</a>
+: <a href="https://www.portoflosangeles.org" style="color: rgb(6, 179, 188);">portoflosangeles.org</a>
+
+Instagram
+: <a href="">@altasea</a>
+
+Twitter
+: <a href="">@altasea</a>
+
+Facebook
+: <a href="">Altasea</a>
+
+Newsletter
+: <a href="">Sign up</a>
+</div>
+
+<div class="links" markdown="1">
+<strong>Love this idea?</strong> Follow up <!--your vote--> with a donation.
+: <p class="action"><a href="https://altasea.org/contribute-to-altasea/">Donate</a></p>
+
+Sign up to volunteer.
+: <p class="action"><a href="">Volunteer</a></p>
+</div>
+
+<style>
+  @media (min-width: 60em) {
+    .link-container {
+      display: grid;
+      grid-template-columns: repeat( auto-fit, minmax(20em, 1fr) );
+      grid-gap: 1.5em;
+    }
+  }
+</style>
+
+<!--
+<ul class="action">
+  <li><a href="https://altasea.org/contribute-to-altasea/">Donate</a></li>
+  <li><a href="https://altasea.org/contribute-to-altasea/">Volunteer</a></li>
+</ul>
+-->
+</div>
+
+
+
+</section>
+
+<style>
+
+  .proposal-introduction .links {
+
+  }
+
+  .proposal-introduction .links dt,
+  .proposal-introduction .links dd {
+    margin-left: 0;
+  }
+  .proposal-introduction .links dt {
+    margin-top: 0.75em;
+  }
+  .proposal-introduction .links dd {
+    font-weight: 600;
+    color: rgb(6, 179, 188);
+  }
+  .proposal-introduction .links dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.75em;
+  }
+  .proposal-introduction .links dt {
+    margin-top: 0;
+    grid-column: 1/2;
+    justify-self: end;
+    text-align: right;
+  }
+  .proposal-introduction .links dd {
+    grid-column: 2/3;
+  }
+
+
+  .proposal-introduction dd .action {
+    margin: 0;
+  }
+  .proposal-introduction dd .action a {
+    display: block;
+    text-align: center;
+  }
+  .proposal-introduction dd > a,
+  .proposal-introduction ul a {
+    color: rgb(6, 179, 188);
+  }
+  .proposal-introduction ul.action,
+  .proposal-introduction ul.action li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  @media (min-width: 60em) {
+    .proposal-introduction h3,
+    .proposal-introduction ul.action {
+      max-width: none;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .proposal-introduction ul.action li {
+    margin: 0.15em;
+    text-align: center;
+  }
+  .proposal-introduction ul.action a {
+    display: block;
+    border-radius: 0;
+  }
+  @supports (display: flex) {
+    .proposal-introduction ul.action {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .proposal-introduction ul.action li {
+      flex-grow: 1;
+      flex-basis: 7em;
+    }
+  }
+  @media (min-width: 60em) {
+    .proposal-introduction {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 3em;
+    }
+    .proposal-introduction figure {
+      grid-row: 1/2;
+      grid-column: 2/4;
+      margin: 0;
+      height: 100%;
+    }
+    .proposal-introduction figure > div {
+      height: 100%;
+      padding-bottom: 0 !important;
+    }
+    .proposal-introduction .link-container {
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+  }
+</style>
+
+<style>
+  /* =Icon Button
+  ----------------------------------------------- */
+  a.has-icon {
+    display: block;
+    position: relative;
+    text-decoration: none
+  }
+  figure > div[data-aspect-ratio] a.has-icon {
+    position: absolute;
+  }
+
+  .has-icon .icon {
+    position: absolute;
+    top: 0.725em;
+    right: 0.725em;
+    background: white;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 0.35em 0.4em 0em 0.4em;
+    border-radius: 0.3125em;
+    color: black;
+    transition: background-color 0.2s;
+    font-size: 1.5em;
+  }
+  .has-icon .icon.play {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    padding: 0.725em 1.45em 0.3625em 1.45em;
+    margin-top: -1.0875em; /* (line height + vertical padding) / 2    (1.45em + 1.45em) / 2  */
+    margin-left: -1.95em; /* (icon width + horizontal padding) / 2    (1em + 2.9em) / 2  */
+  }
+
+  .has-icon:hover .icon,
+  .has-icon:active .icon,
+  .has-icon:focus .icon {
+    background-color: white
+  }
+
+  .has-icon .icon {
+    vertical-align: middle
+  }
+
+  .has-icon svg {
+    width: 1em;
+    height: 1em
+  }
+
+  .has-icon svg polygon {
+    fill: currentColor
+  }
+
+
+  .has-icon .credit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+    font-size: 0.75em;
+    padding: 0.25em 0.5em;
+  }
+</style>
+
+<style>
+
+  /* =Images
+  ----------------------------------------------- */
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 40em) {
+    figure,
+    .video,
+    .map {
+      margin-left: -1.45em;
+      margin-right: -1.45em;
+    }
+  }
+  figure,
+  .map,
+  .video {
+    margin-top: 1.45em;
+    position: relative;
+  }
+  @media (min-width: 45em) {
+    .map,
+    figure,
+    .video {
+      margin-top: 2.9em;
+      margin-bottom: 2.9em;
+    }
+  }
+
+  /* Artist images */
+  h3 + figure {
+    margin-top: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* OPTIONAL: Show a preview image while the real image is loading */
+  figure > div {
+    background: rgb(204, 206, 204);
+    position: relative;
+    text-align: center;
+
+    /* KUDOS: http://stackoverflow.com/questions/12224320/defined-edges-with-css3-filter-blur#answer-23370117 */
+    overflow: hidden;
+
+    /* TRICKY: This causes iOS 7 & 8 to crash.
+    -webkit-transform: translate3d(0, 0, 0);
+    */
+  }
+  figure > div img {
+    display: block;
+    width: 100%;
+  }
+  figure > div[data-aspect-ratio] a,
+  figure > div[data-aspect-ratio] img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    max-width: none;
+  }
+  figure > div[data-aspect-ratio] a {
+    height: 100%;
+  }
+  figure > div img {
+    position: relative;
+  }
+  figure > div img.preview {
+    position: absolute;
+    margin: calc(-3em);
+    width: calc(100% + 6em) !important;
+    -webkit-filter: blur(1.5em);
+            filter: blur(1.5em);
+  }
+
+  figure > div[data-aspect-ratio] iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  figure > div[data-aspect-ratio="1280/720"] {
+    padding-bottom: 56.25%;
+  }
+
+  /* July 4th Map */
+  figure > div[data-aspect-ratio="1687/2587"] {
+    padding-bottom: 153.33333333%; 
+  }
+
+  /* NYELA Map */
+  figure > div[data-aspect-ratio="2048/2506"] {
+    padding-bottom: 122.36328125%; 
+  }
+
+  /* July 4th Road Closures */
+  figure > div[data-aspect-ratio="853/940"] {
+    padding-bottom: 110.1992966%;
+  }
+  @media (min-aspect-ratio: 1/1) {
+    figure > div[data-aspect-ratio-landscape="1678/940"] {
+      padding-bottom: 56.01907032%;
+    }
+  }
+
+  /* NYELA Road Closures */
+  figure > div[data-aspect-ratio="850/942"] {
+    padding-bottom: 110.82352941%;
+  }
+  @media (min-aspect-ratio: 1/1) {
+    figure > div[data-aspect-ratio-landscape="1680/942"] {
+      padding-bottom: 56.07142857%;
+    }
+  }
+
+  figure > div[data-aspect-ratio="600/300"] {
+    padding-bottom: 50%;
+  }
+  @media (min-aspect-ratio: 1/1) {
+    figure > div[data-aspect-ratio-landscape="1920/465"] {
+      padding-bottom: 24.21875%;
+    }
+  }
+
+  figure > div[data-aspect-ratio="1/1"] {
+    padding-bottom: 100%;
+  }
+  @media (min-aspect-ratio: 1/1) {
+    figure > div[data-aspect-ratio-landscape="2/1"] {
+      padding-bottom: 50%;
+    }
+  }
+
+  /* NYELA Artist images */
+  figure > div[data-aspect-ratio="2/3"] {
+    padding-bottom: 150%;
+  }
+  @supports (object-fit: cover) {
+    .featured-artists figure > div[data-aspect-ratio="1/1"] img,
+    .featured-artists figure > div[data-aspect-ratio="3/2"] img,
+    .featured-artists figure > div[data-aspect-ratio="2/3"] img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  figure > div[data-aspect-ratio="5/3"] {
+    padding-bottom: 60%;
+  }
+  figure > div[data-aspect-ratio="3/2"],
+  figure > div[data-aspect-ratio="1000/667"] {
+    padding-bottom: 66.7%;
+  }
+  figure > div[data-aspect-ratio="5312/2988"] {
+    padding-bottom: 56.25%;
+  }
+
+</style>
+
+<!--
 <div class="numbers" markdown="1">
 <a href="/proposals" style="color: inherit; font-weight: inherit; text-decoration: none;">Learn</a>
 : Category
@@ -43,6 +500,8 @@ Non-profit
 <a href="http://altasea.org" title="AltaSea at the Port of Los Angeles" style="color: inherit; font-weight: inherit; text-decoration: none;">altasea.org</a>
 : Website
 </div>
+
+-->
 
 <!--
 <p class="action">
@@ -60,6 +519,8 @@ Non-profit
 <!--
 <h2>About Your Proposal</h2>
 -->
+
+<hr />
 
 <h3>In one sentence, please describe what your organization does. </h3>
 <p>AltaSea accelerates scientific collaboration, facilitates job creation and inspires the next generation for a more sustainable ocean.</p>
@@ -127,6 +588,7 @@ Non-profit
   <li>Network/relationship support</li>
 </ul>
 
+{% comment %}
 <hr />
 
 <div id="disqus_thread" style="grid-column: 1/4"></div>
@@ -142,10 +604,7 @@ var disqus_config = function () {
   (d.head || d.body).appendChild(s);
 })();
 </script>
-
-<noscript>
-<p>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></p>
-</noscript>
+{% endcomment %}
 
 <style>
 
@@ -334,7 +793,7 @@ var disqus_config = function () {
 
 <div class="navigation"><div markdown="1">
 
-## More Proposals for LEARN
+## More Proposals
 
 </div></div>
 
@@ -416,11 +875,26 @@ var disqus_config = function () {
             </a>
         </article>
     </li>
+    <li>
+        <article>
+            <a href="/proposal-details/" title="Restoring and reimagining the World&#039;s First &#039;Polyphonoptic&#039; sculpture in downtown Los Angeles">
+                <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/7344404654741-team91.jpg" alt="Restoring and reimagining the World&#039;s First &#039;Polyphonoptic&#039; sculpture in downtown Los Angeles" width="540" height="428" />
+                <div class="strawberry">
+                    <h4>Play</h4>
+                </div>
+                <div class="content">
+                    <div class="organization">The Triforium Project</div>
+                    <h3>Restoring and reimagining the World's First 'Polyphonoptic' sculpture in downtown Los Angeles</h3>
+                    <div class="description">The Triforium is a piece of “polyphonoptic” public art in DTLA that was 40 years ahead of its time; we want to restore and retrofit it to achieve the artist's dream of music, community, and wonder.</div>
+                </div>
+            </a>
+        </article>
+    </li>
 </ul>
 
 <hr />
 
-<section class="goals" id="goals">
+<section class="goals" id="goals" style="margin-bottom: 6em">
 
 <div class="navigation"><div markdown="1">
 

@@ -10,6 +10,7 @@
   if (!goalsContainer) return;
 
   var buttonsContainer = goalsContainer.querySelector('.navigation ul');
+  if (!buttonsContainer) return;
 
   var buttons = buttonsContainer.querySelectorAll('a');
 

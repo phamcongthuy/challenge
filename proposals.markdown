@@ -7,7 +7,7 @@ main_class: standard-layout
 <div class="standard-figure has-caption header-figure">
   <div class="caption">
     <div>
-      <h1>Proposals<br /><small style="font-size: 0.5em; color: white;">Check out the projects that will shape LA</small></h1>
+      <h1>Proposals<br /><span style="font-size: 0.5em; color: white;">Check out the projects that will shape LA</span></h1>
     </div>
   </div>
   <img src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />
@@ -119,9 +119,10 @@ main_class: standard-layout
   }*/
 </style>
 
-<section class="goals goals-proposals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1" style="width: 100%">
 
-<div class="navigation">
+<section class="goals" id="goals">
+
+<div class="navigation"><div markdown="1">
 
 <form action="/proposals/" method="get">
   <label>
@@ -131,7 +132,7 @@ main_class: standard-layout
   <button type="submit">Search</button>
 </form>
 
-<p>Select the goal category you want to view:</p>
+## Browse by Goal
 
 <ul class="action" style="max-width: none;">
   <li class="blueberry"><a href="#learn">Learn</a></li>
