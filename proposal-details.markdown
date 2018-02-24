@@ -67,14 +67,14 @@ main_class: standard-layout
 <img src="https://kii731ytjwt4eu4tb1o9e4qc-wpengine.netdna-ssl.com/wp-content/gallery/media-photos/Students-1.jpg" alt="" width="1000" />
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
-<title>Video of Port of Los Angeles</title>
+<title>Video of Port of Los Angeles on YouTube</title>
 <switch>
 <polygon fill="black" points="29.2,16.9 0,0 0,33.7 29.2,16.9 0,0 0,33.7 "></polygon>
-<foreignObject>Video of Port of Los Angeles</foreignObject>
+<foreignObject>Video of Port of Los Angeles on YouTube</foreignObject>
 </switch>
 </svg>
 </span>
-<span class="credit">Port of Los Angeles video on YouTube</span>
+<span class="credit">Port of Los Angeles on YouTube</span>
 </a>
 </div>
 </figure>
@@ -105,14 +105,13 @@ main_class: standard-layout
 
 <div class="links" markdown="1">
 Category
-: <a href="/proposals" style="color: rgb(6, 179, 188);">Learn</a>
+: <a href="/proposals" style="color: rgb(6, 179, 188); text-transform: uppercase">Learn</a>
 
 Organization type
 : Non-profit
 
 Websites
-: <a href="http://altasea.org" style="color: rgb(6, 179, 188);">altasea.org</a>
-: <a href="https://www.portoflosangeles.org" style="color: rgb(6, 179, 188);">portoflosangeles.org</a>
+: <a href="http://altasea.org" style="color: rgb(6, 179, 188);">altasea.org</a><br /><a href="https://www.portoflosangeles.org" style="color: rgb(6, 179, 188);">portoflosangeles.org</a>
 
 Instagram
 : <a href="">@altasea</a>
@@ -124,15 +123,26 @@ Facebook
 : <a href="">Altasea</a>
 
 Newsletter
-: <a href="">Sign up</a>
+: <a href="">Sign up for news</a>
 </div>
 
-<div class="links" markdown="1">
-<strong>Love this idea?</strong> Follow up <!--your vote--> with a donation.
+<hr style="margin-top: 1.5em; margin-bottom: 1.5em" />
+
+<div style="grid-column: 1/4;" class="links" markdown="1">
+<h3 style="max-width: none; text-align: center; margin-top: 0">Love this idea?</h3>
+
+<ul class="action" style="max-width: none;">
+  <li><a href="https://altasea.org/contribute-to-altasea/">Donate</a></li>
+  <li><a href="https://altasea.org/contribute-to-altasea/">Volunteer</a></li>
+</ul>
+
+{% comment %}
+Follow up <!--your vote--> with a donation.
 : <p class="action"><a href="https://altasea.org/contribute-to-altasea/">Donate</a></p>
 
 Sign up to volunteer.
 : <p class="action"><a href="">Volunteer</a></p>
+{% endcomment %}
 </div>
 
 <style>
@@ -159,8 +169,16 @@ Sign up to volunteer.
 
 <style>
 
-  .proposal-introduction .links {
-
+  .proposal-introduction .links ul.action {
+    margin-bottom: 0;
+  }
+  .proposal-introduction .links .action a {
+    color: white;
+  }
+  .proposal-introduction .links .action a:hover,
+  .proposal-introduction .links .action a:active,
+  .proposal-introduction .links .action a:focus {
+    color: rgb(6, 179, 188);
   }
 
   .proposal-introduction .links dt,
@@ -250,6 +268,10 @@ Sign up to volunteer.
       height: 100%;
       padding-bottom: 0 !important;
     }
+    .proposal-introduction figure > div img {
+      height: 100%;
+      object-fit: cover;
+    }
     .proposal-introduction .link-container {
       grid-row: 1/2;
       grid-column: 1/2;
@@ -319,6 +341,7 @@ Sign up to volunteer.
     color: black;
     font-size: 0.75em;
     padding: 0.25em 0.5em;
+    font-weight: 400;
   }
 </style>
 
@@ -690,14 +713,42 @@ var disqus_config = function () {
     margin-left: 0;
     padding-left: 0;
   }
+  /*
   .proposals {
-    grid-column: 1/4 !important;
     display: grid;
-    max-width: none;
-    grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
+    grid-template-columns: repeat( auto-fill, minmax(15em, 1fr) );
     grid-column-gap: 3em;
     grid-row-gap: 4.5em;
-    margin-bottom: 4.5em !important;
+  }
+  .proposals li:nth-child(5),
+  .proposals li:nth-child(6) {
+    grid-column: span 2;
+  }
+  */
+  .proposals {
+    grid-column: 1/4 !important;
+    max-width: none;
+    margin: -1.5em -1.5em 0 !important;
+  }
+  .proposals li {
+    margin: 3em 1.5em;
+  }
+  @supports (object-fit: cover) {
+    @media (min-width: 40em) {
+      .proposals {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .proposals li {
+        flex-basis: 20em;
+        flex-grow: 1;
+      }
+      .proposals img {
+        width: 100%;
+        height: 16em;
+        object-fit: cover;
+      }
+    }
   }
   .proposals a,
   .proposals a:hover {
@@ -724,6 +775,7 @@ var disqus_config = function () {
     /*padding: 0 0.75em;*/
     color: rgb(237, 192, 50); /* @dark-banana */
     max-width: none;
+    margin-bottom: 0;
   }
   .proposals .description {
     font-size: 0.875em;
