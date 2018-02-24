@@ -2,7 +2,11 @@
 
   /* =Action
   ----------------------------------------------- */
+  button,
   .action a {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
     color: rgb(254, 254, 254); /* @snow */
@@ -12,7 +16,11 @@
     text-transform: uppercase;
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
+    cursor: pointer;
   }
+  button:hover,
+  button:active,
+  button:focus,
   .action a:hover,
   .action a:active,
   .action a:focus {
@@ -20,6 +28,19 @@
     color: rgb(237, 59, 136); /* @strawberry */
   }
 
+  /* =Form
+  ----------------------------------------------- */
+  input[type="search"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0.75em;
+    border-radius: 0;
+    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+
+    /* Remove Safari’s default styles for search fields */
+    -webkit-appearance: none;
+  }
 
   /* =Footer
   ----------------------------------------------- */
@@ -39,6 +60,7 @@
     background-color: rgb(249, 160, 51); /* @tangerine */
     border: 0.1875em solid rgb(249, 160, 51); /* @tangerine */
   }
+  .lime button,
   .lime .action a {
     background-color: rgb(141, 208, 59); /* @lime */
     border: 0.1875em solid rgb(141, 208, 59); /* @lime */
@@ -72,6 +94,9 @@
     background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(249, 160, 51); /* @tangerine */
   }
+  .lime button:hover,
+  .lime button:active,
+  .lime button:focus
   .lime .action a.active,
   .lime .action a:hover,
   .lime .action a:active,

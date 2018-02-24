@@ -1,5 +1,5 @@
 ---
-title: Proposals for the 2018 My LA2050 Activation Challenge
+title: Finalists for the 2018 My LA2050 Activation Challenge
 body_class: lime
 main_class: standard-layout
 ---
@@ -34,7 +34,7 @@ main_class: standard-layout
 
 -->
 
-<h1>Proposals<br /><small style="font-size: 0.5em; color: white;">Check out the projects that will shape LA</small></h1>
+<h1>Finalists<br /><span style="font-size: 0.5em; color: white;">Check out the projects that will shape LA</span></h1>
 
 <!--
 <h2 style="grid-column: 1/4; margin-top: 3em; margin-bottom: 1.5em; justify-self: center; max-width: none;">Check out the proposals that will shape LA</h2>

@@ -8,6 +8,16 @@ main_class: standard-layout
   <div class="caption">
     <div>
       <h1>Proposals<br /><span style="font-size: 0.5em; color: white;">Check out the projects that will shape LA</span></h1>
+
+      <!--
+      <form action="/proposals/" method="get" style="text-align: center; margin-top: 3em;">
+        <label>
+          <span style="position: absolute; left: -9999px">Keywords</span>
+          <input type="search" name="keywords" style="border-color: transparent;" />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+      -->
     </div>
   </div>
   <img src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />
@@ -124,15 +134,9 @@ main_class: standard-layout
 
 <div class="navigation"><div markdown="1">
 
-<form action="/proposals/" method="get">
-  <label>
-    Keywords
-    <input type="search" />
-  </label>
-  <button type="submit">Search</button>
-</form>
-
+<!--
 ## Browse by Goal
+-->
 
 <ul class="action" style="max-width: none;">
   <li class="blueberry"><a href="#learn">Learn</a></li>
@@ -142,7 +146,7 @@ main_class: standard-layout
   <li class="lime"><a href="#live" class="active">Live</a></li>
 </ul>
 
-<p class="count" style="margin-top: 3em; margin-bottom: -2.25em">There are <strong>23</strong> proposals in the <strong>LIVE</strong> category.</p>
+<p class="count" style="margin-top: 3em;">There are <strong>23</strong> proposals in the <strong>LIVE</strong> category.</p>
 
 </div>
 
@@ -331,17 +335,10 @@ main_class: standard-layout
     </li>
 </ul>
 
+<!--
 <section class="goals goals-proposals" style="margin: 1.5em 0 2.25em; padding: 0;"><div markdown="1" style="width: 100%">
 
 <div class="navigation">
-
-<form action="/proposals/" method="get">
-  <label>
-    Keywords
-    <input type="search" />
-  </label>
-  <button type="submit">Search</button>
-</form>
 
 <ul class="action" style="max-width: none;">
   <li class="blueberry"><a href="#learn">Learn</a></li>
@@ -354,4 +351,5 @@ main_class: standard-layout
 </div>
 
 </div></section>
+-->
 
