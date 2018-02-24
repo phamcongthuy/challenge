@@ -1,20 +1,59 @@
 
 # LA2050 Activation Challenge
 
-* [How to make changes](#how-to-make-changes)
-* [How to develop locally](#how-to-develop-locally)
-* [Generating responsive images](#generating-responsive-images)
-* [Handy guides](#handy-guides)
-
 This is website for the LA2050 Activation Challenge
 
 https://activation.la2050.org
+
+* [How to make changes](#how-to-make-changes)
+* [How to switch between contest phases](#how-to-switch-between-contest-phases)
+* [How to develop locally](#how-to-develop-locally)
+* [Generating responsive images](#generating-responsive-images)
+* [Handy guides](#handy-guides)
 
 ## How to make changes
 
 The website is published with [GitHub Pages](https://pages.github.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
 As you make changes and commit/push them to GitHub, the [website](https://activation.la2050.org) will automatically update.
+
+## How to switch between contest phases
+
+The website is set up to show different content based on the current phase of the contest. To change which phase is active, you can follow these steps…
+
+1) Open the [configuration file](https://github.com/la2050/activation/blob/master/_config.yml)
+
+2) Find the current phase, and comment it out by placing a `#` sign in front of it.
+
+For example, change this…
+```
+# New challenge announced: 
+# February 1
+phase: 1
+```
+
+…into this…
+```
+# New challenge announced: 
+# February 1
+# phase: 1
+```
+
+3) Find the phase you’d like to switch to, and do the opposite (remove the `#` in front of it).
+
+For example, change this…
+```
+# Entries being accepted: 
+# March 1
+# phase: 2
+```
+
+…into this…
+```
+# Entries being accepted: 
+# March 1
+phase: 2
+```
 
 ## How to develop locally
 
