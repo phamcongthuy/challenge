@@ -15,10 +15,8 @@ footer_image: true
 
 {% if site.submission_url %}
 
-<small>Get ahead by registering early!</small>
-
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Register</a>
+  <a href="{{ site.submission_url }}">Register Early</a>
 </p>
 
 {% else %}
@@ -47,7 +45,7 @@ The submission period has started! Apply by <strong>March 30, 2018</strong> <sma
 
 <div class="introduction" markdown="1">
 
-The submission period has come to a close.
+The submission period is complete.
 
 <small>
 Proposals will be showcased here <strong>April 9, 2018</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
@@ -63,7 +61,7 @@ Proposals will be showcased here <strong>April 9, 2018</strong>. Finalists will 
 
 <div class="introduction" markdown="1">
 
-The submission period has come to a close.
+The submission period is complete.
 
 <small>
 Finalists will be announced on <strong>May 21, 2018</strong>.
@@ -82,7 +80,7 @@ Finalists will be announced on <strong>May 21, 2018</strong>.
 
 <div class="introduction" markdown="1">
 
-The submission period has come to a close.
+The submission period is complete.
 
 <small>
 The finalists have been announced!
@@ -102,7 +100,7 @@ Voting begins on
 
 <div class="introduction" markdown="1">
 
-The submission period has come to a close.
+The submission period is complete.
 
 <p style="max-width: 25em">
   <small>
@@ -124,7 +122,7 @@ The submission period has come to a close.
 
 <div class="introduction" markdown="1">
 
-The submission period has come to a close.
+The submission period is complete.
 
 <small>
   The winners will be announced on 
@@ -233,10 +231,8 @@ If you have any questions about the information on this page, [please review our
 
 {% if site.submission_url %}
 
-<small>Get ahead by registering early!</small>
-
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Register</a>
+  <a href="{{ site.submission_url }}">Register Early</a>
 </p>
 
 {% else %}

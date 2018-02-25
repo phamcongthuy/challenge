@@ -25,7 +25,7 @@ footer_image: true
           <strong>June 19, 2018</strong>.
         </span>
       </p>
-      <p class="action"><a href="/submit/">Get ready to <span class="avoid-break">submit your proposal</span></a></p>
+      <p class="action"><a href="/submit/">Prepare your proposal</a></p>
 <!--
       <p class="action" markdown="1">
         <a href="{{ site.mailing_list_url }}">Get updates</a>
@@ -34,23 +34,23 @@ footer_image: true
 
 {% elsif site.phase == 2 %}
 
-      <p style="max-width: 30em;">
-        The submission period has started! Apply by <strong>March 30, 2018</strong>.
+      <p style="max-width: 20em;">
+        The submission period has started! <span class="avoid-break">Apply by <strong>March 30, 2018</strong>.</span>
       </p>
-      <p style="max-width: 23em">
+      <p style="max-width: 18em">
         Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.
         </span>
       </p>
       <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your big idea now</a>  
+  <a href="{{ site.submission_url }}">Submit your big idea</a>  
       </p>
 
 {% elsif site.phase == 3 %}
 
-      <p>
-        The submission period has come to a close. Proposals will be showcased here on <strong>April 9, 2018</strong>.
+      <p style="max-width: 26em">
+        The submission period is complete. <span class="avoid-break">Proposals will be showcased here on <strong>April 9, 2018</strong>.</span>
       </p>
       <p style="max-width: 26em">
         Voting begins on
@@ -64,10 +64,10 @@ footer_image: true
 
 {% elsif site.phase == 4 %}
 
-      <p style="max-width: 37em">
-        The proposals have arrived! Finalists will be announced on <strong>May 21, 2018</strong>.
+      <p style="max-width: 25em">
+        The proposals have arrived! <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
       </p>
-      <p style="max-width: 26em">
+      <p style="max-width: 18em">
         Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.
@@ -79,17 +79,21 @@ footer_image: true
 
 {% elsif site.phase == 5 %}
 
-      <p style="max-width: 33em">
+      <p style="max-width: 19em">
         The finalists have been announced!
-      </p>
-      <p style="max-width: 26em">
-        Voting begins on
         <span class="avoid-break">
-          <strong>June 19, 2018</strong>.
+          Voting begins on
+          <span class="avoid-break">
+            <strong>June 19, 2018</strong>.
+          </span> 
         </span>
-        The winners will be announced on 
+      </p>
+      <p style="max-width: 23em">
         <span class="avoid-break">
-          <strong>July 9, 2018</strong>.
+          The winners will be announced on 
+          <span class="avoid-break">
+            <strong>July 9, 2018</strong>.
+          </span>
         </span>
       </p>
       <p class="action" markdown="1">
@@ -118,7 +122,7 @@ footer_image: true
 {% elsif site.phase == 7 %}
 
       <p style="max-width: 23em">
-        The voting period has come to a close.
+        The voting period is complete.
       </p>
       <p style="max-width: 26em">
         <span class="avoid-break">
@@ -135,7 +139,7 @@ footer_image: true
 {% elsif site.phase == 8 %}
 
       <p style="max-width: 26em">
-        The winners have been announced!
+        The winners have been announced. <small class="avoid-break">A huge thank you to everyone who participated!</small>
       </p>
       <p class="action" markdown="1">
         <a href="/winners/">Check out the winners</a>
@@ -166,7 +170,7 @@ LA2050 is a community-guided initiative driving and tracking progress toward a s
 
 {% if site.phase == 1 %}
 
-Starting Thursday, March 1, 2018 <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
+Starting Thursday, <strong>March 1, 2018</strong> <small>(9am Pacific Time)</small>, you can submit your proposal on this website.
 
 Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
@@ -179,7 +183,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 3 %}
 
 <p>
-  <em>The submission period has come to a close.</em>
+  <em>The submission period is complete.</em>
 </p>
 <p>
   Proposals will be showcased here on <strong>April 9, 2018</strong>. Finalists will be announced on
@@ -191,7 +195,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 4 %}
 
 <p>
-  <em>The submission period has come to a close.</em>
+  <em>The submission period is complete.</em>
 </p>
 <p>
   <a href="/proposals/">Check out the proposals</a>.
@@ -204,7 +208,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 5 %}
 
 <p>
-  <em>The submission period has come to a close.</em>
+  <em>The submission period is complete.</em>
 </p>
 <p>
   <a href="/finalists/">Check out the finalists</a>.
@@ -227,7 +231,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 7 %}
 
 <p>
-  <em>The voting period has come to a close.</em>
+  <em>The voting period is complete.</em>
 </p>
 <p>
   <a href="/finalists/">Check out the finalists</a>.
@@ -305,7 +309,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 
 {% if site.phase <= 5 %}
 
-Starting Tuesday, June 19, 2018, you can [vote for a proposal](/vote/) on this website.
+Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](/vote/) on this website.
 
 {% elsif site.phase == 6 %}
 
@@ -320,7 +324,7 @@ Starting Tuesday, June 19, 2018, you can [vote for a proposal](/vote/) on this w
 {% elsif site.phase == 7 %}
 
 <p>
-  <em>The voting period has come to a close.</em>
+  <em>The voting period is complete.</em>
 </p>
 <p>
   <a href="/finalists/">Check out the finalists</a>.

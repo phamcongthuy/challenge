@@ -17,11 +17,16 @@
   .header-figure .caption p:not(.action) {
     background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
     padding: 0.75em 1.5em;
-    margin: 0 auto;
+    margin: 0 -1.5em;
     font-weight: 500; /* @medium */
     text-transform: none;
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
     letter-spacing: normal;
+  }
+  @media (min-width: 25em) {
+    .header-figure .caption p:not(.action) {
+      margin: 0 auto;
+    }
   }
   .header-figure .caption p:not(.action) + p:not(.action) {
     margin-top: -0.75em;
@@ -84,13 +89,15 @@
       .header-figure.has-caption::before {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
       }
-      .home header {
-        position: absolute;
-        width: 100%;
-        box-sizing: border-box;
-        background: transparent;
-        margin: 0;
-        left: 0;
+      @media (min-width: 19em) {
+        .home header {
+          position: absolute;
+          width: 100%;
+          box-sizing: border-box;
+          background: transparent;
+          margin: 0;
+          left: 0;
+        }
       }
       .home header h2 a {
         display: inline-block;
@@ -186,7 +193,7 @@
     padding: 0.75em;
   }
   .header-figure .caption {
-    padding-top: 15em;
+    padding-top: 3em;
     padding-bottom: 3em;
   }
   .standard-figure img {
@@ -208,7 +215,7 @@
       padding-bottom: 3em;
     }
     .header-figure .caption {
-      padding-top: 15em;
+      padding-top: 18em;
       padding-bottom: 3em;
     }
     .standard-figure.has-caption img {

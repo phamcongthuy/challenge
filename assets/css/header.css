@@ -33,7 +33,13 @@
 
   header h2,
   footer h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (min-width: 40em) {
+    header h2,
+    footer h2 {
+      margin-bottom: 3rem;
+    }
   }
   header h2 {
     margin-top: 0;
@@ -60,14 +66,10 @@
     list-style: none;
     padding-left: 0;
   }
-  header ul {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
   header li,
   footer li {
-    display: inline;
-    margin: 0 0.5em;
+    display: inline-block;
+    margin: 0.25em 0.5em;
   }
   @media (max-width: 30em) {
     header ul,
@@ -76,6 +78,9 @@
       margin-left: auto;
       margin-right: auto;
     }
+  }
+  header ul {
+    max-width: none;
   }
 
 
@@ -120,6 +125,36 @@
   footer small a {
     display: inline-block;
   }
+
+  header ul strong,
+  footer ul strong {
+    color: inherit;
+  }
+  header ul strong a,
+  footer ul strong a {
+    border: 0.1875em solid currentColor;
+    padding: 0.375em 0.75em;
+    display: inline-block;
+  }
+@media (false) {
+  header ul strong a {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .lime      header ul strong a,
+  .banana    header ul strong a,
+  .tangerine header ul strong a {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .strawberry header ul strong a,
+  .blueberry  header ul strong a {
+    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
+  }
+  .home      header ul strong a {
+    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(46, 219, 228); /* @bright-blueberry */
+  }
+}
 
 
   /* =Logotype

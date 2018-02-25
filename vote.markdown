@@ -11,7 +11,7 @@ footer_image: true
 
 {% if site.phase <= 5 %}
 
-Starting **June 19, 2018**, you can vote for a proposal on this website.
+Starting **June 19, 2018** <small class="avoid-break">(9am Pacific Time)</small>, you can vote for a proposal on this website.
 
 <p class="action" markdown="1">
   <a href="{{ site.mailing_list_url }}">Get updates</a>
@@ -27,7 +27,7 @@ Public voting has started! Vote by <strong>June 29, 2018</strong> <small>(5pm Pa
 
 {% elsif site.phase == 7 %}
 
-The voting period has come to a close.
+The voting period is complete.
 
 <small>
   The winners will be announced on 

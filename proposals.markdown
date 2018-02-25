@@ -9,7 +9,7 @@ main_class: standard-layout
     <div>
       <h1>Proposals</h1>
       <p style="max-width: 27em">
-        Check out the projects that will shape LA
+        <strong>Check out the projects that will shape LA</strong>
       </p>
       <form action="/proposals/" method="get" style="text-align: center; margin-top: 3em;">
         <label>
