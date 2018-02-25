@@ -9,11 +9,46 @@ footer_image: true
 
 <div class="introduction" markdown="1">
 
+{% if site.phase <= 5 %}
+
 Starting **June 19, 2018**, you can vote for a proposal on this website.
 
 <p class="action" markdown="1">
   <a href="{{ site.mailing_list_url }}">Get updates</a>
 </p>
+
+{% elsif site.phase == 6 %}
+
+Public voting has started! Vote by <strong>June 29, 2018</strong> <small>(5pm Pacific Time)</small>.
+
+<p class="action" markdown="1">
+  <a href="{{ site.vote_url }}">Vote for a proposal</a>
+</p>
+
+{% elsif site.phase == 7 %}
+
+The voting period has come to a close.
+
+<small>
+  The winners will be announced on 
+  <span class="avoid-break">
+    <strong>July 9, 2018</strong>.
+  </span>
+</small>
+
+<p class="action" markdown="1">
+  <a href="/finalists/">Check out the finalists</a>
+</p>
+
+{% elsif site.phase == 8 %}
+
+The winners have been announced!
+
+<p class="action" markdown="1">
+  <a href="/winners/">Check out the winners</a>
+</p>
+
+{% endif %}
 
 </div>
 

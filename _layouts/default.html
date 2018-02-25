@@ -70,10 +70,16 @@
     <ul>
       <li><a href="/about/">About</a></li>
       <li><a href="/submit/">Submit</a></li>
+      <li><a href="/vote/">Vote</a></li>
       {% if site.phase >= 4 %}
       <li><a href="/proposals/">Proposals</a></li>
       {% endif %}
-      <li><a href="/vote/">Vote</a></li>
+      {% if site.phase >= 5 %}
+      <li><a href="/finalists/">Finalists</a></li>
+      {% endif %}
+      {% if site.phase >=8 %}
+      <li><a href="/winners/">Winners</a></li>
+      {% endif %}
       <li><a href="/timeline/">Timeline</a></li>
       <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
     </ul>
@@ -112,10 +118,16 @@
     <ul class="navigation">
       <li><a href="/about/">About</a></li>
       <li><a href="/submit/">Submit</a></li>
+      <li><a href="/vote/">Vote</a></li>
       {% if site.phase >= 4 %}
       <li><a href="/proposals/">Proposals</a></li>
       {% endif %}
-      <li><a href="/vote/">Vote</a></li>
+      {% if site.phase >= 5 %}
+      <li><a href="/finalists/">Finalists</a></li>
+      {% endif %}
+      {% if site.phase >=8 %}
+      <li><a href="/winners/">Winners</a></li>
+      {% endif %}
       <li><a href="/timeline/">Timeline</a></li>
       <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
     </ul>

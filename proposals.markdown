@@ -7,9 +7,10 @@ main_class: standard-layout
 <div class="standard-figure has-caption header-figure">
   <div class="caption">
     <div>
-      <h1>Proposals<br /><span style="font-size: 0.5em; color: white;">Check out the projects that will shape LA</span></h1>
-
-      <!--
+      <h1>Proposals</h1>
+      <p style="max-width: 27em">
+        Check out the projects that will shape LA
+      </p>
       <form action="/proposals/" method="get" style="text-align: center; margin-top: 3em;">
         <label>
           <span style="position: absolute; left: -9999px">Keywords</span>
@@ -17,7 +18,6 @@ main_class: standard-layout
         </label>
         <button type="submit">Search</button>
       </form>
-      -->
     </div>
   </div>
   <img src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />

@@ -78,6 +78,79 @@ Finalists will be announced on <strong>May 21, 2018</strong>.
 
 </div>
 
+{% elsif site.phase == 5 %}
+
+<div class="introduction" markdown="1">
+
+The submission period has come to a close.
+
+<small>
+The finalists have been announced!
+Voting begins on
+<span class="avoid-break">
+  <strong>June 19, 2018</strong>.
+</span>
+</small>
+
+<p class="action" markdown="1">
+  <a href="/finalists/">Check out the finalists</a>
+</p>
+
+</div>
+
+{% elsif site.phase == 6 %}
+
+<div class="introduction" markdown="1">
+
+The submission period has come to a close.
+
+<p style="max-width: 25em">
+  <small>
+  Public voting has started!
+  Voting ends on
+  <span class="avoid-break">
+    <strong>June 29, 2018</strong>.
+  </span>
+  </small>
+</p>
+
+<p class="action" markdown="1">
+  <a href="{{ site.vote_url }}">Vote for a proposal</a>
+</p>
+
+</div>
+
+{% elsif site.phase == 7 %}
+
+<div class="introduction" markdown="1">
+
+The submission period has come to a close.
+
+<small>
+  The winners will be announced on 
+  <span class="avoid-break">
+    <strong>July 9, 2018</strong>.
+  </span>
+</small>
+
+<p class="action" markdown="1">
+  <a href="/finalists/">Check out the finalists</a>
+</p>
+
+</div>
+
+{% elsif site.phase == 8 %}
+
+<div class="introduction" markdown="1">
+
+The winners have been announced!
+
+<p class="action" markdown="1">
+  <a href="/winners/">Check out the winners</a>
+</p>
+
+</div>
+
 {% endif %}
 
 ### Guidelines

@@ -1,8 +1,27 @@
 ---
 title: Finalists for the 2018 My LA2050 Activation Challenge
-body_class: lime
+body_class: home banana
 main_class: standard-layout
 ---
+
+<div class="standard-figure has-caption header-figure">
+  <div class="caption">
+    <div>
+      <h1>Finalists</h1>
+      <p style="max-width: 27em">
+        Check out the projects that will shape LA
+      </p>
+      <form action="/proposals/" method="get" style="text-align: center; margin-top: 3em;">
+        <label>
+          <span style="position: absolute; left: -9999px">Keywords</span>
+          <input type="search" name="keywords" style="border-color: transparent;" />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  <img src="/assets/images/home/384-wide/collaborates.jpg" srcset="/assets/images/home/384-wide/collaborates.jpg 384w, /assets/images/home/512-wide/collaborates.jpg 512w, /assets/images/home/768-wide/collaborates.jpg 768w, /assets/images/home/1024-wide/collaborates.jpg 1024w, /assets/images/home/1536-wide/collaborates.jpg 1536w, /assets/images/home/2048-wide/collaborates.jpg 2048w" sizes="100vw" alt="A room filled with people listening to someone speaking" />
+</div>
 
 <!--
 <div class="standard-figure has-caption header-figure">
@@ -32,9 +51,9 @@ main_class: standard-layout
 
 </div></div>
 
--->
-
 <h1>Finalists<br /><span style="font-size: 0.5em; color: white;">Check out the projects that will shape LA</span></h1>
+
+-->
 
 <!--
 <h2 style="grid-column: 1/4; margin-top: 3em; margin-bottom: 1.5em; justify-self: center; max-width: none;">Check out the proposals that will shape LA</h2>
