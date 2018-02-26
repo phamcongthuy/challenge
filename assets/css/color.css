@@ -4,23 +4,29 @@
   /* =Colors
   ----------------------------------------------- */
   :root {
-    --link-color: rgb(237, 59, 136); /* @strawberry */
+    --primary-color:   rgb(237, 59, 136); /* @strawberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
   }
 
   .banana {
-    --link-color: rgb(255, 194, 51); /* @banana */
+    --primary-color:   rgb(255, 194, 51); /* @banana */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
   }
   .blueberry {
-    --link-color: rgb(6, 179, 188); /* @blueberry */
+    --primary-color:   rgb(6, 179, 188); /* @blueberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
   }
   .lime {
-    --link-color: rgb(141, 208, 59); /* @lime */
+    --primary-color:   rgb(141, 208, 59); /* @lime */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
   }
   .strawberry {
-    --link-color: rgb(237, 59, 136); /* @strawberry */
+    --primary-color:   rgb(237, 59, 136); /* @strawberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
   }
   .tangerine {
-    --link-color: rgb(249, 160, 51); /* @tangerine */
+    --primary-color:   rgb(249, 160, 51); /* @tangerine */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
   }
 
 
@@ -35,7 +41,7 @@
 
   a {
     color: rgb(237, 59, 136); /* @strawberry */
-    transition: all 0.2s;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
     font-weight: 600; /* @semibold */
   }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, strong a, em a {

@@ -1,10 +1,27 @@
+<div class="navigation">
+
 <ul>
   <li><a href="/about/">About</a></li>
+  <li><a href="/about/#goals">Goals</a></li>
+  {% if site.event_url %}
+  <li><a href="/event/">Event</a></li>
+  {% endif %}
+  <li><a href="/timeline/">Timeline</a></li>
+  <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+</ul>
 
-  {% if site.phase == 2 or site.phase == 3 %}
+<ul class="primary">
+
+  {% if site.phase == 2 %}
   <li><strong><a href="/submit/">Submit</a></strong></li>
   {% else %}
   <li><a href="/submit/">Submit</a></li>
+  {% endif %}
+
+  {% if site.phase == 6 %}
+  <li><strong><a href="/vote/">Vote</a></strong></li>
+  {% else %}
+  <li><a href="/vote/">Vote</a></li>
   {% endif %}
 
   {% if site.phase == 4 %}
@@ -19,16 +36,9 @@
   <li><a href="/finalists/">Finalists</a></li>
   {% endif %}
 
-  {% if site.phase == 6 or site.phase == 7 %}
-  <li><strong><a href="/vote/">Vote</a></strong></li>
-  {% else %}
-  <li><a href="/vote/">Vote</a></li>
-  {% endif %}
-
   {% if site.phase >=8 %}
   <li><strong><a href="/winners/">Winners</a></strong></li>
   {% endif %}
 
-  <li><a href="/timeline/">Timeline</a></li>
-  <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
 </ul>
+</div>

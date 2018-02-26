@@ -1,16 +1,16 @@
 ---
 title: Finalists for the 2018 My LA2050 Activation Challenge
-body_class: home banana
+body_class: strawberry home
 main_class: standard-layout
 ---
 
-<div class="standard-figure has-caption header-figure">
+<div class="standard-figure has-caption header-figure has-caption-details">
+  <img src="/assets/images/home/384-wide/collaborates.jpg" srcset="/assets/images/home/384-wide/collaborates.jpg 384w, /assets/images/home/512-wide/collaborates.jpg 512w, /assets/images/home/768-wide/collaborates.jpg 768w, /assets/images/home/1024-wide/collaborates.jpg 1024w, /assets/images/home/1536-wide/collaborates.jpg 1536w, /assets/images/home/2048-wide/collaborates.jpg 2048w" sizes="100vw" alt="A room filled with people listening to someone speaking" />
   <div class="caption">
     <div>
-      <h1>Finalists</h1>
-      <p style="max-width: 27em">
-        <strong>Check out the projects that will shape LA</strong>
-      </p>
+      <h1>The <strong>finalists</strong><br />that will shape LA</h1>
+      {% if site.phase >= 4 %}
+      <!--
       <form action="/proposals/" method="get" style="text-align: center; margin-top: 3em;">
         <label>
           <span style="position: absolute; left: -9999px">Keywords</span>
@@ -18,10 +18,19 @@ main_class: standard-layout
         </label>
         <button type="submit">Search</button>
       </form>
+      -->
+      {% endif %}
     </div>
   </div>
-  <img src="/assets/images/home/384-wide/collaborates.jpg" srcset="/assets/images/home/384-wide/collaborates.jpg 384w, /assets/images/home/512-wide/collaborates.jpg 512w, /assets/images/home/768-wide/collaborates.jpg 768w, /assets/images/home/1024-wide/collaborates.jpg 1024w, /assets/images/home/1536-wide/collaborates.jpg 1536w, /assets/images/home/2048-wide/collaborates.jpg 2048w" sizes="100vw" alt="A room filled with people listening to someone speaking" />
 </div>
+
+{% if site.phase < 4 %}
+
+<div class="introduction" markdown="1">
+The finalists will appear here on <strong>May 21, 2018</strong>.
+</div>
+
+{% else %}
 
 <!--
 <div class="standard-figure has-caption header-figure">
@@ -106,3 +115,5 @@ main_class: standard-layout
 </ul>
 
 </section><!-- /.goals -->
+
+{% endif %}

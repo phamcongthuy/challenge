@@ -69,7 +69,7 @@
   header li,
   footer li {
     display: inline-block;
-    margin: 0.25em 0.5em;
+    margin: 0.25em 0.75em;
   }
   @media (max-width: 30em) {
     header ul,
@@ -81,6 +81,20 @@
   }
   header ul {
     max-width: none;
+  }
+  header .navigation ul:not(.primary),
+  footer .navigation ul:not(.primary) {
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    margin-right: 0.375em;
+    margin-left: 0.375em;
+  }
+  header .navigation ul.primary,
+  footer .navigation ul.primary {
+    margin-top: 0.625em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: -1.5em; /* SHIM: To offset the bottom margin on the buttons */
   }
 
 
@@ -105,7 +119,7 @@
   footer a:active,
   footer a:focus {
     color: rgb(6, 179, 188); /* @blueberry */
-    color: var(--link-color, rgb(6, 179, 188)); /* @blueberry */
+    color: var(--primary-color, rgb(6, 179, 188)); /* @blueberry */
   }
   header a:hover,
   header a:active,
@@ -126,31 +140,80 @@
     display: inline-block;
   }
 
-  header ul strong,
-  footer ul strong {
-    color: inherit;
+  header .navigation .primary li,
+  footer .navigation .primary li {
+    margin: 0.25em 0.75em 1.5em 0.75em;
   }
-  header ul strong a,
-  footer ul strong a {
+  header .navigation .primary a,
+  footer .navigation .primary a {
     border: 0.1875em solid currentColor;
+    /*
+    border: 0.1875em solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: transparent;
+    */
     padding: 0.375em 0.75em;
     display: inline-block;
   }
-@media (false) {
-  header ul strong a {
+  /*
+  footer .navigation .primary a {
+    background: white;
+    border: 0.1875em solid rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+  }
+  */
+  header .navigation .primary a:hover,
+  header .navigation .primary a:active,
+  header .navigation .primary a:focus,
+  footer .navigation .primary a:hover,
+  footer .navigation .primary a:active,
+  footer .navigation .primary a:focus {
+    border: 0.1875em solid currentColor;
+  }
+  header .navigation strong,
+  footer .navigation strong {
+    color: inherit;
+  }
+  header .navigation .primary strong a {
+    background: rgb(254, 254, 254) /* @snow */;
+    border-color: rgb(254, 254, 254) /* @snow */;
+    color: var(--primary-color, rgb(41, 41, 41) /* @midnight */);
+  }
+  footer .navigation .primary strong a {
+    background: rgb(41, 41, 41) /* @midnight */;
+    border-color: rgb(41, 41, 41) /* @midnight */;
+    color: rgb(254, 254, 254) /* @snow */;
+  }
+  header .navigation .primary strong a:hover,
+  header .navigation .primary strong a:active,
+  header .navigation .primary strong a:focus {
+    color: rgb(41, 41, 41) /* @midnight */;
+    background-color: var(--secondary-color, white);
+    border-color: var(--secondary-color, white);
+    color: var(--primary-color, black);
+  }
+  footer .navigation .primary strong a:hover,
+  footer .navigation .primary strong a:active,
+  footer .navigation .primary strong a:focus {
+    background-color: var(--primary-color, rgb(41, 41, 41) /* @midnight */);
+    border-color: var(--primary-color, rgb(41, 41, 41) /* @midnight */);
+  }
+@supports (false) {
+  header .navigation .primary strong a {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .lime      header ul strong a,
-  .banana    header ul strong a,
-  .tangerine header ul strong a {
+  .lime      header .navigation .primary strong a,
+  .banana    header .navigation .primary strong a,
+  .tangerine header .navigation .primary strong a {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .strawberry header ul strong a,
-  .blueberry  header ul strong a {
+  .strawberry header .navigation .primary strong a,
+  .blueberry  header .navigation .primary strong a {
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
   }
-  .home      header ul strong a {
+  .home      header .navigation .primary strong a {
     color: rgb(6, 179, 188); /* @blueberry */
     color: rgb(46, 219, 228); /* @bright-blueberry */
   }
@@ -224,4 +287,22 @@
     }
   }
 
+
+
+
+  @media (max-width: 40em) {
+    header .navigation ul,
+    footer .navigation ul {
+      margin-left: -0.75em !important;
+      margin-right: -0.75em !important;
+    }
+    header .navigation li,
+    footer .navigation li {
+      margin: 0.375em 0.25em !important;
+    }
+    header .navigation li a,
+    footer .navigation li a {
+
+    }
+  }
 

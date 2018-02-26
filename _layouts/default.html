@@ -62,6 +62,10 @@
   {% else %}
   <link rel="canonical" href="https://activation.la2050.org{{ page.url }}" />
   {% endif %}
+
+  {% if page.redirect %}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
+  {% endif %}
 </head>
 <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
@@ -152,7 +156,7 @@
         </a>
       </li>
     </ul>
-    <div>
+    <div class="la2050">
       <p><a href="https://la2050.org/">LA2050</a></p>
       <p><small>With support from the <a href="http://www.goldhirshfoundation.org/">Goldhirsh Foundation</a></small></p>
     </div>

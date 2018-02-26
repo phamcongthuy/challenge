@@ -4,6 +4,7 @@ title: 2018 My LA2050 Activation Challenge
 mailing_list_url: https://goldhirshfoundation.us6.list-manage.com/subscribe?u=81b6d7b4efb839b992bf7ae72&id=93b6887d2a
 submission_url: https://activationla2050.smapply.io
 vote_url: /finalists/
+# event_url: /event/
 
 # New challenge announced: 
 # February 1
@@ -51,3 +52,13 @@ defaults:
       path: ""
     values:
       layout: default
+  - scope:
+      path: ""
+      type: proposals
+    values:
+      layout: default
+
+collections:
+  proposals:
+    output: true
+    permalink: /proposals/:path/

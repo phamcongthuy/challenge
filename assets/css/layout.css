@@ -17,6 +17,12 @@
   }
   */
 
+  main {
+    min-height: 50vw;
+  }
+  .home main {
+    min-height: 75vw;
+  }
   main > .standard-figure:last-child,
   main > .standard-section:last-child {
     margin-bottom: 0;
@@ -42,7 +48,7 @@
 
 
   @supports (display: grid) {
-    @media (min-width: 60em) {
+    @media (min-width: 70em) { /* @wide-enough-for-header-grid */
       header,
       footer {
         display: grid;
@@ -59,9 +65,14 @@
       footer .action {
         margin: 0;
         justify-self: start;
+        align-self: center;
       }
       footer .action {
-        align-self: end;
+        align-self: center;
+      }
+      header .navigation,
+      footer .navigation {
+        align-self: center;
       }
       header ul,
       footer ul {
@@ -71,27 +82,27 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: flex-end 
+        justify-content: flex-end;
       }
       footer h2 {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
         justify-self: end;
       }
-      footer h2 + ul {
+      footer .navigation {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         text-align: right;
         margin-right: -0.5em;
       }
-      footer > div {
+      footer .la2050 {
         margin: 0;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         justify-self: start;
         align-self: end;
       }
-      footer > div p {
+      footer .la2050 p {
         margin: 0;
       }
       footer .social-links {
@@ -100,7 +111,7 @@
         justify-self: end;
         text-align: right;
         white-space: nowrap;
-        margin-top: -0.15em;
+        margin-top: 0.125em;
       }
 
       .standard-layout {

@@ -6,7 +6,7 @@
   if (/Opera/.test (navigator.userAgent)) return;
 
 
-  var goalsContainer = document.getElementById('goals');
+  var goalsContainer = document.getElementById('goals-container');
   if (!goalsContainer) return;
 
   var buttonsContainer = goalsContainer.querySelector('.navigation ul');

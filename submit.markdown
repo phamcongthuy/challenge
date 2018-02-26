@@ -5,7 +5,7 @@ main_class: standard-layout
 footer_image: true
 ---
 
-# Submit Your Proposal
+# <strong>Submit</strong> Your Proposal
 
 {% if site.phase == 1 %}
 
@@ -125,7 +125,7 @@ The submission period is complete.
 The submission period is complete.
 
 <small>
-  The winners will be announced on 
+  Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
   </span>

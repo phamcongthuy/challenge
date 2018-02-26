@@ -14,25 +14,35 @@
     line-height: 1;
     margin-bottom: 0;
   }
+  .header-figure .caption h1 strong {
+    font-weight: inherit;
+    color: rgb(255, 194, 51); /* @banana */
+  }
   .header-figure .caption p:not(.action) {
-    background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-    padding: 0.75em 1.5em;
-    margin: 0;
+    /*background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));*/
+   /* padding: 0.75em 1.5em;
+    margin: 0 -1.5em;*/
+    margin: 0.75em auto;
     font-weight: 500; /* @medium */
     text-transform: none;
     text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
     letter-spacing: normal;
   }
-  @media (min-width: 25em) {
+/*  @media (min-width: 25em) {
     .header-figure .caption p:not(.action) {
       margin: 0 auto;
     }
   }
+  */
   .header-figure .caption p:not(.action) + p:not(.action) {
     margin-top: -0.75em;
   }
   .header-figure p + .action {
-    margin-top: 0.75em;
+    margin-top: 2.25em;
+  }
+  .header-figure .caption p:not(.action) small {
+    font-style: inherit;
+    font-size: inherit;
   }
   .header-figure .caption p:not(.action) strong {
     display: inline-block;
@@ -40,6 +50,7 @@
   }
   .standard-figure .caption p:not(.action) a {
     color: rgb(46, 219, 228); /* @bright-blueberry */
+    color: inherit;
   }
   .standard-figure .caption p:not(.action) a:hover,
   .standard-figure .caption p:not(.action) a:active,
@@ -78,6 +89,16 @@
     color: rgb(6, 179, 188); /* @blueberry */
   }
 
+  .header-figure .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+  }
+  .header-figure .action a:hover,
+  .header-figure .action a:active,
+  .header-figure .action a:focus {
+    background-color: rgb(254, 254, 254); /* @snow */
+    color: rgb(255, 194, 51); /* @banana */
+  }
 
 
   @supports (object-fit: cover) and (display: flex) {
@@ -86,40 +107,51 @@
         font-size: 6vmax;
       }
     }
-      .header-figure.has-caption::before {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
-      }
-      @media (min-width: 19em) {
-        .home header {
-          position: absolute;
-          width: 100%;
-          box-sizing: border-box;
-          background: transparent;
-          margin: 0;
-          left: 0;
-        }
+
+    .header-figure.has-caption::before {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0));
+    }
+
+
+    @media (min-width: 1040em) { /* @wide-enough-for-positioned-navigation-header-figure */
+      .home header {
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
+        background: transparent;
+        margin: 0;
+        left: 0;
       }
       .home header h2 a {
-        display: inline-block;
-        background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+        /*display: inline-block;*/
+        /*background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));*/
+      }
+      .home header .navigation .primary strong a {
+        color: rgb(102, 102, 102);
+      }
+      .has-active-nav.home header .navigation .primary strong a {
+        color: var(--primary-color, black);
       }
       .home header ul a {
-        background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+        /*background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));*/
       }
-      .home header h2 a,
-      .home header ul a {
-        color: rgb(254, 254, 254); /* @snow */
-        text-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
-      }
-      .home header h2 a:hover,
-      .home header h2 a:active,
-      .home header h2 a:focus,
-      .home header a:hover,
-      .home header a:active,
-      .home header a:focus {
-        color: rgb(46, 219, 228); /* @bright-blueberry */
+      @supports (false) {
+        .home header h2 a,
+        .home header ul a {
+          color: rgb(254, 254, 254); /* @snow */
+          text-shadow: 0 0 2em rgba(0, 0, 0, 0.25);
+        }
+        .home header h2 a:hover,
+        .home header h2 a:active,
+        .home header h2 a:focus,
+        .home header a:hover,
+        .home header a:active,
+        .home header a:focus {
+          color: rgb(46, 219, 228); /* @bright-blueberry */
+        }
       }
     }
+  }
 
   .header-figure.has-caption::before {
     background-color: rgba(0, 0, 0, 0.375);
@@ -209,13 +241,13 @@
       background-image: none;
     }
   }
-  @media (min-width: 19em) {
+  @media (min-width: 19em) { /* @small-screen */
     .standard-figure .caption {
       padding-top: 3em;
       padding-bottom: 3em;
     }
     .header-figure .caption {
-      padding-top: 18em;
+      padding-top: 3em;
       padding-bottom: 3em;
     }
     .standard-figure.has-caption img {
@@ -228,11 +260,12 @@
   }
   @media (min-width: 40em) {
     .header-figure .caption {
+      padding-top: 25em; /* Just enough space to fit all of the buttons in the final “winners” stage of the contest. */
       padding-left: 1.5em;
       padding-right: 1.5em;
     }
   }
-  @media (min-width: 60em) {
+  @media (min-width: 70em) { /* @wide-enough-for-header-grid */
     .header-figure .caption {
       padding-top: 16.5em;
       padding-bottom: 10.5em;
@@ -240,3 +273,253 @@
       padding-bottom: 10vw;
     }
   }
+
+
+  .header-figure.has-caption::before {
+    content: none;
+  }
+
+  .header-figure .caption {
+    font-size: inherit;
+    text-align: left;
+    padding-left: 1.5em;
+  }
+
+  .header-figure.has-caption.has-caption-details .caption,
+  .header-figure.has-caption.has-caption-details .caption .details {
+    position: static;
+  }
+  .header-figure.has-caption.has-caption-details h1 {
+    position: absolute;
+    top: 3rem;
+    z-index: 1;
+  }
+  .header-figure.has-caption.has-caption-details img {
+    object-position: 0 55%;
+    height: 50vw;
+    position: static;
+  }
+  .header-figure.has-caption.emphasis-bottom .caption {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .header-figure .caption {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  .header-figure .caption .details {
+    margin: -3em -0.75em -3em -1.5em;
+    background-color: rgb(255, 194, 51); /* @banana */
+    padding: 1.5em;
+  }
+  @media (min-width: 40em) {
+/*    .header-figure .caption {
+      padding-top: 3em;
+      padding-bottom: 10vw;
+    }*/
+    .header-figure .caption .details {
+      margin: -3em -1.5em -3em -3em;
+      padding: 3em;
+/*      background: transparent;
+      background-image: linear-gradient(to top, rgba(21, 21, 21, 1), rgba(21, 21, 21, 1) 75%, rgba(21, 21, 21, 0));*/
+    }
+  }
+/*  @media (min-width: 50em) {
+    .header-figure.has-caption.has-caption-details img {
+      object-position: bottom;
+      height: calc(100% - 30vw);
+    }
+  }
+  @media (min-width: 55em) {
+    .header-figure.has-caption.has-caption-details img {
+      object-position: bottom;
+      height: calc(100% - 20vw);
+    }
+  }*/
+  .header-figure .caption .details p:not(.action) {
+    text-shadow: none;
+  }
+  @media (min-width: 19em) { /* @small-screen */
+    .header-figure .caption .details {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-column-gap: 1.5em;
+      box-sizing: border-box;
+    }
+    .header-figure .caption .details p:not(.action) {
+      grid-column: 2/3;
+      margin-left: 0;
+      text-align: left;
+      text-shadow: none;
+    }
+    .header-figure .caption .details .icon {
+      grid-column: 1/2;
+      align-self: top;
+      justify-self: end;
+    }
+    .header-figure .caption .details p.action,
+    .header-figure .caption .details p:not(.action) {
+      margin: 0 !important;
+    }
+  }
+  @media (min-width: 70em) {
+    .header-figure .caption .details {
+      padding-bottom: 3em;
+    }
+/*    .header-figure.has-caption.has-caption-details img {
+      object-position: bottom;
+      height: calc(100% - 10vw);
+    }
+    .header-figure.has-caption.has-caption-details img {
+      object-position: 50% 55%;
+    }*/
+    .header-figure .caption .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 3em;
+      box-sizing: border-box;
+    }
+    .header-figure .caption .details p:not(.action) {
+      grid-column: 2/4;
+      margin-left: 0;
+      text-align: left;
+      text-shadow: none;
+    }
+    .header-figure .caption .details .icon {
+      grid-column: 1/2;
+      align-self: top;
+      justify-self: end;
+    }
+    .header-figure .caption .details p.action {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      align-self: top;
+      justify-self: end;
+      margin-top: 1.5em;
+    }
+    .header-figure .caption .details p.action,
+    .header-figure .caption .details p:not(.action) {
+      margin: 0 !important;
+    }
+    .header-figure .caption .details p.action {
+      margin-top: 0.75em !important;
+    }
+  }
+  .header-figure .caption .details .action a {
+    border-color: white;
+  }
+
+  .header-figure .caption h1 {
+    color: rgb(255, 79, 156); /* @bright-strawberry */
+    opacity: 1;
+    text-shadow: none;
+  }
+  .header-figure .caption h1 strong {
+    color: white;
+    text-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
+  }
+  .header-figure .caption p:not(.action) strong {
+    color: rgb(255, 79, 156); /* @bright-strawberry */
+    color: inherit;
+  }
+
+  .header-figure .caption a {
+
+  }
+
+  @media (min-width: 40em) {
+    .header-figure .caption {
+      padding-left: 3em;
+    }
+  }
+
+  main > h1:first-child strong {
+    color: white;
+    color: inherit;
+    font-weight: inherit;
+  }
+  /*
+  @media (min-width: 70em) {
+    main > h1:first-child {
+      text-align: left;
+    }
+  }
+  */
+
+/*  @media (min-width: 40em) {
+    .header-figure.has-caption::before {
+      content: "";
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    }
+    .home:not(.header-not-visible) header {
+      background: transparent;
+      position: relative;
+      z-index: 9999;
+    }
+    .header-figure {
+      margin-top: -18.25em !important;
+    }
+    .header-figure.has-caption.has-caption-details h1 {
+      top: 18.25rem;
+    }
+    .header-figure.has-caption.has-caption-details img {
+      height: 100vw;
+      object-position: bottom;
+    }
+  }*/
+
+  @media (min-width: 70em) {
+    .header-figure.has-caption::before {
+      content: "";
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)),
+                  linear-gradient(to bottom right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0));
+      z-index: 1;
+    }
+    .home:not(.header-not-visible) header {
+      background: transparent;
+      position: relative;
+      z-index: 6;
+    }
+    .header-figure {
+      margin-top: -15em !important;
+      /*padding-top: 15em;*/
+    }
+    .header-figure.has-caption.has-caption-details h1 {
+      top: 15rem;
+    }
+    .header-figure.has-caption.has-caption-details img {
+      object-position: 0 30%;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details {
+      position: relative;
+      z-index: 99999;
+    }
+/*    .header-figure.has-caption .caption,
+    .header-figure.has-caption.emphasis-bottom .caption {
+      padding-top: 0;
+      padding-bottom: 10vw;
+    }*/
+/*    .header-figure.has-caption.has-caption-details img {
+      height: calc(100% - 15vw + 3em);
+      height: 100%;
+      object-position: top;
+    }*/
+/*    .header-figure.has-caption.emphasis-bottom img {
+      object-position: top;
+    }*/
+/*    .header-figure.has-caption.emphasis-bottom .caption {
+      padding-bottom: 30vw;
+    }*/
+  }
+
+  .home:not(.has-active-nav) header .navigation .primary strong a {
+    color: rgb(102, 102, 102);
+  }
+
+  .header-figure.has-caption .icon svg {
+    width: auto;
+    height: 4.5em;
+    display: block;
+  }
+

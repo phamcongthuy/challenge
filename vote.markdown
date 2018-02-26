@@ -27,10 +27,10 @@ Public voting has started! Vote by <strong>June 29, 2018</strong> <small>(5pm Pa
 
 {% elsif site.phase == 7 %}
 
-The voting period is complete.
+Public voting is complete.
 
 <small>
-  The winners will be announced on 
+  Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
   </span>

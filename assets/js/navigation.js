@@ -54,7 +54,7 @@
     /* OPTIONAL: Add a class name of “header-not-visible” to the header,
                  including the navigation, is not visible. */
 
-    if (window.scrollY >= 300 && !document.body.classList.contains('header-not-visible')) {
+    if (window.scrollY >= 350 && !document.body.classList.contains('header-not-visible')) {
       document.body.classList.add('header-not-visible');
 
       clearTimeout(animationTimer);
@@ -62,7 +62,7 @@
         document.body.classList.add('animate-header');
       }, 1);
       // fadeIn();
-    } else if (window.scrollY < 300 && document.body.classList.contains('header-not-visible')) {
+    } else if (window.scrollY < 350 && document.body.classList.contains('header-not-visible')) {
       document.body.classList.remove('header-not-visible');
       document.body.classList.remove('animate-header');
       clearTimeout(animationTimer);
@@ -75,7 +75,7 @@
   updateScrollPosition();
 
   window.addEventListener('scroll', function() {
-    requestAnimationFrame(updateScrollPosition);
+    updateScrollPosition();
   }, false);
 
 })();
