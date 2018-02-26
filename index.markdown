@@ -25,7 +25,7 @@ footer_image: true
           <strong>June 19, 2018</strong>.
         </span>
       </p>
-      <p class="action"><a href="https://activationla2050.smapply.io/">Register early</a></p>
+      <p class="action"><a href="https://activationla2050.smapply.io/">Register</a></p>
 <!--
       <p class="action" markdown="1">
         <a href="{{ site.mailing_list_url }}">Get updates</a>
