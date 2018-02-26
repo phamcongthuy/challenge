@@ -16,7 +16,7 @@ footer_image: true
 {% if site.submission_url %}
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Register Early</a>
+  <a href="{{ site.submission_url }}">Register</a>
 </p>
 
 {% else %}
