@@ -6,8 +6,8 @@ main_class: standard-layout
 
 <div class="standard-figure has-caption header-figure has-caption-details">
   <div class="mask"></div>
-  <img src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />
-  <div class="caption">
+  <img style="object-position: top" src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />
+  <div class="caption" style="padding-top: 0; padding-bottom: 0;">
     <div>
       <h1>The <strong>proposals</strong><br />that will shape LA</h1>
 <!--       <p style="max-width: 27em">

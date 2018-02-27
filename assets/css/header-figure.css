@@ -299,6 +299,24 @@
     height: 50vw;
     position: static;
   }
+  @media (max-width: 30em) {
+    .header-figure.has-caption.has-caption-details img {
+      object-position: 0 55%;
+      height: 100vw;
+    }
+/*    .header-figure.has-caption.has-caption-details .caption .details a {
+      display: inline-block;
+    }*/
+    .header-figure.has-caption.has-caption-details .caption .details {
+      padding-right: 0.75em;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details br {
+      display: none;
+    }/*
+    .header-figure.has-caption.has-caption-details .caption .details .avoid-break {
+      display: inline;
+    }*/
+  }
   .header-figure.has-caption.emphasis-bottom .caption {
     padding-top: 0;
     padding-bottom: 0;
@@ -312,6 +330,17 @@
     background-color: rgb(255, 194, 51); /* @banana */
     padding: 1.5em;
   }
+  .header-figure .caption .details {
+    background-color: rgb(141, 208, 59); /* @lime */
+  }
+@supports (false) {
+  .header-figure .caption .details {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+  }
+  .header-figure .caption .details *[style*="color"] {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+  }
+}
   @media (min-width: 40em) {
 /*    .header-figure .caption {
       padding-top: 3em;

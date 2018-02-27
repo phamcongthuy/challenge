@@ -36,7 +36,7 @@ footer_image: true
         </svg>
       </div>
       <p>
-        Starting <strong>March 1, 2018</strong><!-- <small>(9am Pacific Time)</small> -->, <span class="avoid-break">you can <a  style="color: rgb(237, 59, 136); /* @strawberry */" href="/submit/">submit your big idea.</a></span><br />
+        Starting <strong>March 1, 2018</strong><!-- <small>(9am Pacific Time)</small> -->, <span class="avoid-break">you can <a class="avoid-break" style="color: rgb(237, 59, 136); /* @strawberry */" href="/submit/">submit your big idea.</a></span><br />
         Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.

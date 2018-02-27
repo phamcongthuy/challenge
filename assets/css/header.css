@@ -94,7 +94,13 @@
     margin-top: 0.625em;
     margin-right: 0.25em;
     margin-left: 0.25em;
-    margin-bottom: -1.5em; /* SHIM: To offset the bottom margin on the buttons */
+    margin-bottom: -0.375em; /* SHIM: To offset the bottom margin on the buttons */
+  }
+  @media (min-width: 40em) {
+    header .navigation ul.primary,
+    footer .navigation ul.primary {
+      margin-bottom: -1.5em; /* SHIM: To offset the bottom margin on the buttons */
+    }
   }
 
 
