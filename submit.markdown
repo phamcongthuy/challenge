@@ -16,7 +16,7 @@ footer_image: true
 {% if site.submission_url %}
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Register</a>
+  <a href="https://activationla2050.smapply.io/prog/challenge_info/">Register</a>
 </p>
 
 {% else %}
