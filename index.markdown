@@ -44,7 +44,7 @@ footer_image: true
         </span>
       </p>
       <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your big idea</a>  
+  <a href="{{ site.submission_url }}">Submit your idea</a>  
       </p>
 
 {% elsif site.phase == 3 %}
