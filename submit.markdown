@@ -36,7 +36,7 @@ footer_image: true
 The submission period has started! Apply by <strong>March 30, 2018</strong> <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your big idea</a>
+  <a href="{{ site.submission_url }}">Submit your idea</a>
 </p>
 
 </div>
