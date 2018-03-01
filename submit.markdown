@@ -252,7 +252,7 @@ If you have any questions about the information on this page, [please review our
 Submit your big idea by Friday, **March 30, 2018** <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your proposal</a>
+  <a href="{{ site.submission_url }}">Submit your idea</a>
 </p>
 
 </div>
