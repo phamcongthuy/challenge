@@ -39,7 +39,7 @@ phase: 1
 
 permalink: pretty
 
-version: 1.0.7
+version: 1.0.8
 
 exclude:
   - CNAME
