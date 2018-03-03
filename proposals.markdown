@@ -1,5 +1,5 @@
 ---
-title: Proposals for the 2018 My LA2050 Activation Challenge
+title: Entries for the 2018 My LA2050 Activation Challenge
 body_class: lime
 main_class: standard-layout
 ---

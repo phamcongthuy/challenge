@@ -46,7 +46,7 @@ The finalists will appear here on <strong>May 21, 2018</strong>.
 
 <div class="navigation"><div markdown="1">
 
-## Check out the proposals that will shape LA
+## Check out the entries that will shape LA
 
 <ul class="action">
   <li class="blueberry"><a href="#learn">Learn</a></li>
@@ -65,7 +65,7 @@ The finalists will appear here on <strong>May 21, 2018</strong>.
 -->
 
 <!--
-<h2 style="grid-column: 1/4; margin-top: 3em; margin-bottom: 1.5em; justify-self: center; max-width: none;">Check out the proposals that will shape LA</h2>
+<h2 style="grid-column: 1/4; margin-top: 3em; margin-bottom: 1.5em; justify-self: center; max-width: none;">Check out the entries that will shape LA</h2>
 -->
 
 <section class="goals goals-proposals">

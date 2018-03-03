@@ -118,7 +118,7 @@ footer_image: true
       </div>
       <p>
         The submission period is complete.
-        <span style="color: rgb(237, 59, 136); /* @strawberry */"><span class="avoid-break">Proposals will be showcased here on <strong>April 9, 2018</strong>.</span></span>
+        <span style="color: rgb(237, 59, 136); /* @strawberry */"><span class="avoid-break">Entries will be showcased here on <strong>April 9, 2018</strong>.</span></span>
       </p>
       <p>
         <small>
@@ -157,7 +157,7 @@ footer_image: true
         </svg>
       </div>
       <p>
-        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/proposals/">The proposals have arrived</a>!</strong>
+        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/proposals/">The entries have arrived</a>!</strong>
         <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
       </p>
       <p>
@@ -170,7 +170,7 @@ footer_image: true
       </p>
 
 <!--       <p class="action" markdown="1">
-        <a href="/proposals/">Check out the proposals</a>
+        <a href="/proposals/">Check out the entries</a>
       </p> -->
 
 {% elsif site.phase == 5 %}
@@ -398,7 +398,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   <em>The submission period is complete.</em>
 </p>
 <p>
-  <a href="/proposals/">Check out the proposals</a>.
+  <a href="/proposals/">Check out the entries</a>.
   Finalists will be announced on
   <span class="avoid-break">
     <strong>May 21, 2018</strong>.
