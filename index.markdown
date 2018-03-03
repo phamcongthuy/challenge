@@ -44,7 +44,7 @@ footer_image: true
       </p>
       <!--
       {% if site.submission_url %}
-      <p class="action"><a href="/submit/">Prepare your proposal</a></p>
+      <p class="action"><a href="{{ site.submission_url }}">Register</a></p>
       {% else %}
       <p class="action" markdown="1">
         <a href="{{ site.mailing_list_url }}">Get updates</a>
@@ -86,7 +86,7 @@ footer_image: true
       </p>
       <!--
       <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your big idea</a>  
+  <a href="{{ site.submission_url }}">Submit your idea</a>  
       </p>
       -->
 
@@ -376,7 +376,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
 {% elsif site.phase == 2 %}
 
-<a href="{{ site.submission_url }}">Submit your big idea</a> by Friday, **March 30, 2018** <small>(5pm Pacific Time)</small>.
+<a href="{{ site.submission_url }}">Submit your idea</a> by Friday, **March 30, 2018** <small>(5pm Pacific Time)</small>.
 
 Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 

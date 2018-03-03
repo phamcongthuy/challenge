@@ -16,7 +16,7 @@ footer_image: true
 {% if site.submission_url %}
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Register Early</a>
+  <a href="{{ site.submission_url }}">Register</a>
 </p>
 
 {% else %}
@@ -36,7 +36,7 @@ footer_image: true
 The submission period has started! Apply by <strong>March 30, 2018</strong> <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your big idea</a>
+  <a href="{{ site.submission_url }}">Submit your idea</a>
 </p>
 
 </div>
@@ -232,7 +232,7 @@ If you have any questions about the information on this page, [please review our
 {% if site.submission_url %}
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Register Early</a>
+  <a href="{{ site.submission_url }}">Register</a>
 </p>
 
 {% else %}
@@ -252,7 +252,7 @@ If you have any questions about the information on this page, [please review our
 Submit your big idea by Friday, **March 30, 2018** <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
-  <a href="{{ site.submission_url }}">Submit your proposal</a>
+  <a href="{{ site.submission_url }}">Submit your idea</a>
 </p>
 
 </div>
