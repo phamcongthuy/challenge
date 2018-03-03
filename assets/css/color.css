@@ -134,6 +134,7 @@
   }
   .lime main > h1:first-child {
     color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
   }
   .lime main h2,
   .lime main h3,

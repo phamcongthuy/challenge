@@ -2,6 +2,19 @@
 
 <ul>
   <li><a href="/about/">About</a></li>
+  {% if site.phase <= 3 %}
+  <li><a href="/submit/">Submit</a></li>
+  {% else %}
+  <li><a href="/proposals/">Entries</a></li>
+  {% endif %}
+  <li><a href="/vote/">Vote</a></li>
+  <li><a href="/timeline/">Timeline</a></li>
+  <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+</ul>
+
+{% comment %}
+<ul>
+  <li><a href="/about/">About</a></li>
   <li><a href="/about/#goals">Goals</a></li>
   {% if site.event_url %}
   <li><a href="/event/">Event</a></li>
@@ -25,9 +38,9 @@
   {% endif %}
 
   {% if site.phase == 4 %}
-  <li><strong><a href="/proposals/">Proposals</a></strong></li>
+  <li><strong><a href="/proposals/">Entries</a></strong></li>
   {% elsif site.phase > 4 %}
-  <li><a href="/proposals/">Proposals</a></li>
+  <li><a href="/proposals/">Entries</a></li>
   {% endif %}
 
   {% if site.phase == 5 %}
@@ -41,4 +54,6 @@
   {% endif %}
 
 </ul>
+{% endcomment %}
+
 </div>

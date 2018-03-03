@@ -1,14 +1,14 @@
 ---
 title: "AltaSea: Where STEM Meets the Ocean, 2018 My LA2050 Activation Challenge"
 body_class: blueberry
-main_class: proposal-layout
+main_class: standard-layout
 ---
 
-<div style="margin-top: 3em"></div>
+<h1><span style="display: block; font-size: 0.5em;">Port of Los Angeles</span> <span style="color: white;">AltaSea: Where STEM Meets the Ocean</span></h1>
 
 <!--
-<p class="breadcrumbss" style="max-width: none; margin-bottom: 3em;">
-  <a href="/proposals/">Proposals</a> &gt;
+<p class="breadcrumbs">
+  <a href="/proposals/">Proposals</a>
   <a href="/proposals/" class="category">Learn</a>
 </p>
 -->
@@ -37,136 +37,29 @@ main_class: proposal-layout
 }
 </style>
 
-
-
+<!--
+<div class="proposal-header" markdown="1">
+  <h1>AltaSea: Where STEM Meets the Ocean</h1>
+  <h2>Port of Los Angeles</h2>
+</div>
+-->
 
 <style>
-  .proposal-introduction h1 {
-    max-width: none;
-    margin-top: 0;
-    color: var(--primary-color, inherit);
-  }
-  @media (min-width: 40em) {
-    .proposal-introduction h1 {
-      font-size: 3.75vmax;
-    }
-  }
-
-  .proposal-introduction > div:first-child {
-    grid-column: 1/3;
-      align-self: end;
-  }
-  .proposal-introduction > div:first-child > p:first-child {
-    margin-top: 0;
-    margin-left: 0;
-    max-width: none;
-    color: var(--primary-color, inherit);
-    font-weight: 600;
-  }
-  .proposal-introduction .links-more {
-    margin-top: 3em;
-  }
-  @media (min-width: 75em) {
-    .proposal-introduction {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: min-content auto;
-      grid-column-gap: 6em;
-      grid-row-gap: 0;
-    }
-    .proposal-description {
-      grid-column: 1/3;
-      margin-left: 0;
-    }
-    .links h3 {
-      text-align: left !important;
-    }
-    .links dl {
-      margin-left: 0 !important;
-    }
-    .proposal-introduction figure {
-      grid-row: 1/4;
-      grid-column: 3/5;
-      margin: 0;
-      height: 100%;
-      min-height: 25vw;
-
-/*      margin-top: calc(-3em);
-      margin-right: calc(-3em);
-      height: calc(100% + 3em);*/
-    }
-    .proposal-introduction figure > div {
-      height: 100%;
-      padding-bottom: 0 !important;
-    }
-    .proposal-introduction figure > div img {
-      object-fit: cover;
-      height: 100%;
-    }
-    .proposal-introduction hr {
-      grid-row: 5/6;
-    }
-    .proposal-introduction .proposal-answers {
-      grid-column: 1/4;
-      grid-row: 6/7;
-    }
-    .proposal-introduction .proposal-answers h2:first-child {
-      margin-top: 0;
-    }
-    .proposal-introduction .proposal-answers > * {
-      margin-left: 0;
-    }
-    .proposal-introduction .links-more {
-      margin-top: 0;
-      grid-column: 4/5;
-    }
-    .proposal-introduction .links-more h3:first-child {
-      margin-top: 0;
-    }
-    .proposal-introduction .links h3 {
-      margin-bottom: 0;
-    }
-    .proposal-introduction .links p.action,
-    .proposal-introduction .links ul.action {
-      padding-top: 0.25em;
-    }
-    .proposal-introduction .links p.action a {
-      display: table;
-    }
-    .proposal-answers {
-      margin-left: 4.5vw;
-    }
-    .links-more {
-      margin-left: -3vw;
-    }
-  }
-  @media (min-width: 80em) {
-    .proposal-answers {
-      margin-left: 9vw;
-    }
-    .links-more {
-      margin-left: -6vw;
-    }
-  }
-  @media (min-width: 900em) {
-    .proposal-introduction {
-      margin-top: 4.5em;
-      margin-left: 3em;
-      margin-right: 3em;
-      grid-column-gap: 4.5em;
-    }
-    .proposal-introduction .proposal-answers {
-      grid-column: 2/4;
-    }
-  }
+.proposal-header {
+  grid-column: 1/4;
+}
+.proposal-header h1 {
+  max-width: none;
+  color: rgb(6, 179, 188);
+}
+.proposal-header h2 {
+  max-width: none;
+  color: rgb(6, 179, 188);
+  margin-top: 0;
+}
 </style>
 
-<section class="proposal-introduction" style="grid-column: 1/4">
-
-<div>
-<p>AltaSea at the Port of Los Angeles</p>
-<h1>AltaSea: Where STEM Meets the Ocean</h1>
-</div>
+<section class="proposal-introduction" markdown="1" style="grid-column: 1/4">
 
 <figure class="feature">
 <div data-aspect-ratio="1280/720">
@@ -186,199 +79,202 @@ main_class: proposal-layout
 </div>
 </figure>
 
-<p class="proposal-description">AltaSea accelerates scientific collaboration, facilitates job creation and inspires the next generation for a more sustainable ocean.</p>
-
-<div class="links" markdown="1" style="grid-column: 1/3; align-self: end">
-<h3 style="max-width: none; text-transform: uppercase;">Love this idea?</h3>
+<!--
+<div>
+<div class="video" style="padding-bottom: 56.25%;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ym0IsfhUDW8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
+</div>
+-->
 
-<div class="links" markdown="1" style="grid-column: 1/3">
-<p class="action">
-  <a href="">Stay updated on this activation</a>
+<!--
+<p class="action" markdown="1">
+[Vote]()
 </p>
+-->
+<!--
+<p><strong>Category:</strong> <a href="">Learn</a></p>
+<p><strong>Organization type:</strong> Non-profit</p>
 
+<p><strong>Collaborators:</strong> AltaSea at the Port of Los Angeles, Ocean Exploration Trust, Los Angeles Maritime Institute, Catalina Sea Ranch, Blue Robotics</p>
+
+<p><strong>Website:</strong> <a href="http://altasea.org" title="AltaSea at the Port of Los Angeles" target="_blank">altasea.org</a></p>
+
+-->
+<div class="link-container" markdown="1">
+
+<div class="links" markdown="1">
+Category
+: <a href="/proposals" style="color: rgb(6, 179, 188); text-transform: uppercase">Learn</a>
+
+Organization type
+: Non-profit
+
+Websites
+: <a href="http://altasea.org" style="color: rgb(6, 179, 188);">altasea.org</a><br /><a href="https://www.portoflosangeles.org" style="color: rgb(6, 179, 188);">portoflosangeles.org</a>
+
+Instagram
+: <a href="">@altasea</a>
+
+Twitter
+: <a href="">@altasea</a>
+
+Facebook
+: <a href="">Altasea</a>
+
+Newsletter
+: <a href="">Sign up for news</a>
 </div>
 
-<div class="links" markdown="1" style="grid-column: 3/5">
+<hr style="margin-top: 1.5em; margin-bottom: 1.5em" />
+
+<div style="grid-column: 1/4;" class="links" markdown="1">
+<h3 style="max-width: none; text-align: center; margin-top: 0">Love this idea?</h3>
 
 <ul class="action" style="max-width: none;">
   <li><a href="https://altasea.org/contribute-to-altasea/">Donate</a></li>
   <li><a href="https://altasea.org/contribute-to-altasea/">Volunteer</a></li>
 </ul>
 
+{% comment %}
+Follow up <!--your vote--> with a donation.
+: <p class="action"><a href="https://altasea.org/contribute-to-altasea/">Donate</a></p>
+
+Sign up to volunteer.
+: <p class="action"><a href="">Volunteer</a></p>
+{% endcomment %}
 </div>
 
-<div class="links links-more" markdown="1">
-
-<h3 style="max-width: none; text-transform: uppercase;">Learn More</h3>
+<style>
+  @media (min-width: 70em) {
+    .link-container {
+      display: grid;
+      grid-template-columns: repeat( auto-fit, minmax(20em, 1fr) );
+      grid-gap: 1.5em;
+    }
+  }
+</style>
 
 <!--
-Organization type
-: Non-profit
+<ul class="action">
+  <li><a href="https://altasea.org/contribute-to-altasea/">Donate</a></li>
+  <li><a href="https://altasea.org/contribute-to-altasea/">Volunteer</a></li>
+</ul>
 -->
-
-<dl>
-
-<dt>
-<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <title>Websites</title>
-  <switch>
-    <path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z" class=""></path>
-    <foreignObject>Websites</foreignObject>
-  </switch>
-</svg>
-
-</dt>
-<dd><a href="http://altasea.org">altasea.org</a><br /><a href="https://www.portoflosangeles.org">portoflosangeles.org</a></dd>
-
-<dt>
-  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-    <title>Instagram</title>
-    <switch>
-      <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" class=""></path>
-      <foreignObject>Instagram</foreignObject>
-    </switch>
-  </svg>
-</dt>
-<dd><a href="">@altasea</a></dd>
-
-<dt>
-  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-    <title>Twitter</title>
-    <switch>
-      <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" class=""></path>
-      <foreignObject>Twitter</foreignObject>
-    </switch>
-  </svg>
-</dt>
-<dd><a href="">@altasea</a></dd>
-
-<dt>
-  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
-    <title>Facebook</title>
-    <switch>
-      <path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" class=""></path>
-      <foreignObject>Facebook</foreignObject>
-    </switch>
-  </svg>
-</dt>
-<dd><a href="">Altasea</a></dd>
-</dl>
-
 </div>
 
-<hr />
+
+
+</section>
 
 <style>
 
-  .links p.action,
-  .links ul.action {
-    margin-top: 0;
+  .proposal-introduction .links ul.action {
     margin-bottom: 0;
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
   }
-  .links .action a {
+  .proposal-introduction .links .action a {
     color: white;
   }
-  .links .action a:hover,
-  .links .action a:active,
-  .links .action a:focus {
+  .proposal-introduction .links .action a:hover,
+  .proposal-introduction .links .action a:active,
+  .proposal-introduction .links .action a:focus {
     color: rgb(6, 179, 188);
   }
 
-  .links dt,
-  .links dd {
+  .proposal-introduction .links dt,
+  .proposal-introduction .links dd {
     margin-left: 0;
   }
-  .links dt {
+  .proposal-introduction .links dt {
     margin-top: 0.75em;
   }
-  .links dd {
+  .proposal-introduction .links dd {
     font-weight: 600;
     color: rgb(6, 179, 188);
   }
-  .links dl {
+  .proposal-introduction .links dl {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 0.75em;
   }
-  .links dt {
+  .proposal-introduction .links dt {
     margin-top: 0;
     grid-column: 1/2;
     justify-self: end;
     text-align: right;
   }
-  .links dd {
+  .proposal-introduction .links dd {
     grid-column: 2/3;
   }
 
 
-  .links dd .action {
+  .proposal-introduction dd .action {
     margin: 0;
   }
-  .links dd .action a {
+  .proposal-introduction dd .action a {
     display: block;
     text-align: center;
   }
-  .links svg {
-    width: 1em;
-    height: 1em;
-    vertical-align: middle;
+  .proposal-introduction dd > a,
+  .proposal-introduction ul a {
+    color: rgb(6, 179, 188);
   }
-  .links dl a {
-    color: var(--primary-color, inherit);
-  }
-  .links dl a:hover,
-  .links dl a:active,
-  .links dl a:focus {
-    color: var(--secondary-color, inherit);
-  }
-
-  .links ul a {
-  }
-  .links ul.action,
-  .links ul.action li {
+  .proposal-introduction ul.action,
+  .proposal-introduction ul.action li {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
   }
   @media (min-width: 70em) {
-    .links h3,
-    .links ul.action {
+    .proposal-introduction h3,
+    .proposal-introduction ul.action {
       max-width: none;
       margin-left: 0;
       margin-right: 0;
     }
   }
-  .links p.action,
-  .links ul.action li {
-    margin: 0.25em;
+  .proposal-introduction ul.action li {
+    margin: 0.15em;
     text-align: center;
   }
-  .links p.action {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .links ul.action {
-    margin-left: -0.25em;
-    margin-right: -0.25em;
-  }
-  .links p.action a,
-  .links ul.action a {
+  .proposal-introduction ul.action a {
     display: block;
     border-radius: 0;
   }
   @supports (display: flex) {
-    .links ul.action {
+    .proposal-introduction ul.action {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
-    .links ul.action li {
+    .proposal-introduction ul.action li {
       flex-grow: 1;
       flex-basis: 7em;
+    }
+  }
+  @media (min-width: 70em) {
+    .proposal-introduction {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 3em;
+    }
+    .proposal-introduction figure {
+      grid-row: 1/2;
+      grid-column: 2/4;
+      margin: 0;
+      height: 100%;
+    }
+    .proposal-introduction figure > div {
+      height: 100%;
+      padding-bottom: 0 !important;
+    }
+    .proposal-introduction figure > div img {
+      height: 100%;
+      object-fit: cover;
+    }
+    .proposal-introduction .link-container {
+      grid-row: 1/2;
+      grid-column: 1/2;
     }
   }
 </style>
@@ -439,7 +335,7 @@ Organization type
   .has-icon .credit {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     background: white;
     background: rgba(255, 255, 255, 0.75);
     color: black;
@@ -647,6 +543,14 @@ Non-profit
 <h2>About Your Proposal</h2>
 -->
 
+<hr />
+
+<h3>In one sentence, please describe what your organization does. </h3>
+<p>AltaSea accelerates scientific collaboration, facilitates job creation and inspires the next generation for a more sustainable ocean.</p>
+
+<h3>In one to three sentences, please describe your project proposal. </h3>
+<p>Using cutting-edge blue technology and state of the art ocean research, AltaSea’s STEM network provides ocean-based programs to middle school students at the LA Waterfront. Through hands-on exploration of the ocean, students will be empowered to be part of the solution to the planet’s sustainability challenges and ultimately to see science/STEM careers as an option. Our long term goal is to motivate our youth to be 21st century champions for a sustainable ocean.</p>
+
 <!--
 <h3>How much are you applying for? </h3>
 <p>$100,000</p>
@@ -660,17 +564,7 @@ Non-profit
 </p>
 -->
 
-<!--
-<h3>In one sentence, please describe what your organization does. </h3>
-<p>AltaSea accelerates scientific collaboration, facilitates job creation and inspires the next generation for a more sustainable ocean.</p>
-
-<h3>In one to three sentences, please describe your project proposal. </h3>
-<p>Using cutting-edge blue technology and state of the art ocean research, AltaSea’s STEM network provides ocean-based programs to middle school students at the LA Waterfront. Through hands-on exploration of the ocean, students will be empowered to be part of the solution to the planet’s sustainability challenges and ultimately to see science/STEM careers as an option. Our long term goal is to motivate our youth to be 21st century champions for a sustainable ocean.</p>
--->
-
-<div class="proposal-answers">
-
-<h2>How will your proposal impact the following LEARN metrics? </h2>
+<h3>How will your proposal impact the following LEARN metrics? </h3>
 <ul>
   <li>College matriculation rates</li>
   <li>District-wide graduation rates</li>
@@ -678,10 +572,10 @@ Non-profit
   <li>Student education pipeline</li>
 </ul>
 
-<h2>In what areas of Los Angeles will you be directly working? </h2>
+<h3>In what areas of Los Angeles will you be directly working? </h3>
 <p>South LA, South Bay, Gateway Cities, LAUSD</p>
 
-<h2>Describe in greater detail how your proposal will make LA the best place to LEARN? </h2>
+<h3>Describe in greater detail how your proposal will make LA the best place to LEARN? </h3>
 <p>AltaSea and our partners, Blue Robotics (BR), Catalina Sea Ranch (CSR), Los Angeles Maritime Institute (LAMI) and Ocean Exploration Trust (OET), introduce students to ocean exploration, technologies and sciences. Students have access to cutting-edge science and technology, one-on-one interactions with accomplished scientists, tech innovators and entrepreneurs. AltaSea programs strengthen STEM education, develop career skills, inspire entrepreneurialism and give students opportunities to see firsthand careers in the blue economy sector. </p>
 
 <p>Through a bold plan conceived in concert with the community and stretching decades into the future, AltaSea is making a lasting mark on LA and the planet through leadership, innovation and by inspiring the next generation. The program introduces students to the ocean world by sailing on LAMI’s tall ships, talking with scientists of the Exploration Vessel Nautilus, learning about sustainable aquaculture and new technologies in underwater robots. Our long term goal is to motivate our youth to be 21st century champions for a sustainable ocean.</p>
@@ -696,7 +590,7 @@ Non-profit
 
 <p>The AltaSea network brings STEM ocean experiences to students, inspiring them to pursue an education that will lead to careers in the expanding blue economy sector. These programs target students who might not otherwise become aware of our planet's extraordinary ocean. Visits to AltaSea and the LA Waterfront ignite a lifelong passion and curiosity about the ocean, motivating this generation to be guardians for a sustainable future.</p>
 
-<h2>Please explain how you will define and measure success for your project. </h2>
+<h3>Please explain how you will define and measure success for your project. </h3>
 <p>Our long term measure of defining success will be that students grow into champions for a sustainable ocean and planet. In addition, our goal is that students increase their participation in STEM classes in middle and high school, attending college, and ultimately choose careers in STEM sectors. AltaSea is in the process of developing a tracking system that will allow us to keep students engaged with the network. AltaSea’s 2016 partnership with OET is being independently evaluated. </p>
 
 <p>Currently, the AltaSea network relies on internal evaluations to measure our short term successes. Some indicators of success are:</p>
@@ -705,7 +599,7 @@ Non-profit
   <li>When youth discover abilities they did not know they possess and realize they are capable of achieving anything in life through hard work and determination.</li><li>When at-risk students realize what they are learning in the classroom has 'real world' significance and opportunities for a 'better life' abound at shore and at sea.</li><li>When students make an emotional connection to learning through exploring the ocean and develop a love for the ocean and life-long learning.</li><li>When under-performing students' grades improve and students stay in school and pursue STEM-related careers as a result of their participation in our programs or Youth Crew.</li><li>When our community becomes more aware of the preciousness of our local waters and threats to marine life, and develop daily 'good stewardship' habits to preserve and conserve the oceans entrusted to us.</li>
 </ul>
 
-<h2>How can the LA2050 community and other stakeholders help your proposal succeed? </h2>
+<h3>How can the LA2050 community and other stakeholders help your proposal succeed? </h3>
 <ul>
   <li>Money </li>
   <li>Volunteers</li>
@@ -717,11 +611,7 @@ Non-profit
   <li>Network/relationship support</li>
 </ul>
 
-</div><!-- /.proposal-answers -->
-
-</section><!-- /.proposal-introduction -->
-
-<!--
+{% comment %}
 <hr />
 
 <div id="disqus_thread" style="grid-column: 1/4"></div>
@@ -737,18 +627,214 @@ var disqus_config = function () {
   (d.head || d.body).appendChild(s);
 })();
 </script>
--->
+{% endcomment %}
 
 <style>
 
   .home.has-active-nav header, .home.header-not-visible header {
     background-color: rgb(6, 179, 188);
   }
-  .blueberry main .proposals h3 {
-    color: inherit;
+
+  .numbers dl {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: rgb(6, 179, 188); /* @strawberry */
+    text-transform: uppercase;
+    text-align: center;
+    border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+  }
+  .numbers dt {
+    font-size: 2em;
+    line-height: 1;
+    font-style: italic;
+    font-weight: bold;
+    border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+    border-top-width: 0;
+    border-bottom-width: 0;
+    padding: 0.75em 0.25em 0;
+  }
+  .numbers dd {
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-left: 0;
+    color: rgba(6, 179, 188, 0.5); /* @strawberry */
+    border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+    border-top-width: 0;
+    padding: 0.375em 0.75em 2em;
+  }
+  @supports(display: grid) {
+    @media (min-width: 70em) {
+      .numbers dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1.5em;
+        border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
+      }
+      .numbers dt {
+        grid-row: 1 / 2;
+        align-self: end;
+        border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+        border-left-width: 0;
+        border-bottom-width: 0;
+      }
+      .numbers dd {
+        grid-row: 2 / 3;
+        align-self: start;
+        border: 0.1875rem solid rgba(6, 179, 188, 0.5); /* @strawberry */
+        border-top-width: 0;
+        border-left-width: 0;
+      }
+    }
   }
 </style>
 
+
+
+<style>
+
+  .proposals,
+  .proposals li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  /*
+  .proposals {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(15em, 1fr) );
+    grid-column-gap: 3em;
+    grid-row-gap: 4.5em;
+  }
+  .proposals li:nth-child(5),
+  .proposals li:nth-child(6) {
+    grid-column: span 2;
+  }
+  */
+  .proposals {
+    grid-column: 1/4 !important;
+    max-width: none;
+    margin: -1.5em -1.5em 0 !important;
+  }
+  .proposals li {
+    margin: 3em 1.5em;
+  }
+  @supports (object-fit: cover) {
+    @media (min-width: 40em) {
+      .proposals {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .proposals li {
+        flex-basis: 20em;
+        flex-grow: 1;
+      }
+      .proposals img {
+        width: 100%;
+        height: 16em;
+        object-fit: cover;
+      }
+    }
+  }
+  .proposals a,
+  .proposals a:hover {
+    color: inherit !important;
+    text-decoration: none;
+  }
+  .proposals img {
+    display: block;
+  }
+  .proposals h4 {
+    margin-top: 0;
+    color: inherit;
+    padding: 0.375em 0.75em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    max-width: none;
+  }
+  .proposals h3 {
+    margin-top: 0.75em;
+    font-size: 1.125em;
+    line-height: 1.25;
+    color: inherit;
+    /*padding: 0 0.75em;*/
+    color: rgb(237, 192, 50); /* @dark-banana */
+    max-width: none;
+    margin-bottom: 0;
+  }
+  .proposals .description {
+    font-size: 0.875em;
+    display: none;
+    /*padding: 0 0.75rem;*/
+  }
+  .proposals .organization {
+/*    opacity: 0.5;*/
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875em;
+    /*padding: 0 0.75rem;*/
+  }
+
+  .proposals .strawberry {
+    background-color: rgb(237, 59, 136); /* @strawberry */
+    color: white;
+  }
+  .proposals .blueberry {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+  }
+  .proposals .banana {
+    background-color: rgb(255, 194, 51); /* @banana */
+    color: white;
+  }
+  .proposals .tangerine {
+    background-color: rgb(249, 160, 51); /* @tangerine */
+    color: white;
+  }
+  .proposals .lime {
+    background-color: rgb(141, 208, 59); /* @lime */
+    color: white;
+  }
+
+  .goals-proposals p {
+    max-width: none;
+  }
+  .goals-proposals .browse {
+    text-align: center;
+  }
+  .goals-proposals .count {
+    text-align: center;
+  }
+
+  .proposals img + div {
+    opacity: 0;
+    height: 1.5em;
+  }
+
+
+
+/*  body {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  .proposals li {
+    display: block;
+    background: white;
+    padding-bottom: 0.75em;
+  }*/
+</style>
 
 <hr />
 
@@ -874,3 +960,61 @@ var disqus_config = function () {
 </div>
 
 </div></section>
+
+<style>
+/*
+.proposals {
+  max-width: 50em;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.proposals h3 {
+  max-width: none;
+
+}
+.proposals .banana ~ .content h3 {
+  color: rgb(255, 194, 51);
+}
+.proposals.more-proposals {
+  grid-template-columns: 1fr 1fr;
+}
+.proposals.more-proposals li a .image {
+  display: block;
+  position: relative;
+}
+.proposals.more-proposals li a .image::after {
+    font-size: 0.875em;
+    content: "";
+    display: block;
+    border: 2px solid white;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M22,12c0-0.2-0.1-0.4-0.2-0.6l-9.4-8.2C12.2,3.1,12,3,11.8,3c-0.2,0-0.4,0.1-0.6,0.2l-0.5,0.5c-0.2,0.2-0.3,0.4-0.3,0.6 c0,0.2,0.1,0.4,0.3,0.6l7,5.9l-15,0.1c-0.2,0-0.4,0.1-0.5,0.3C2.1,11.3,2,11.5,2,11.7v0.6c0,0.2,0.1,0.4,0.2,0.6s0.3,0.3,0.5,0.3 h15l-7,6.1c-0.2,0.1-0.3,0.3-0.3,0.5s0.1,0.4,0.3,0.6l0.5,0.5c0.2,0.2,0.4,0.3,0.6,0.3c0.2,0,0.4-0.1,0.6-0.3l9.4-8.2 C21.9,12.4,22,12.2,22,12z"></path></svg>');
+    background-size: 1em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -2em;
+    margin-top: -2em;
+}
+.proposals.more-proposals li a .image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+.proposals.more-proposals li:first-child a .image::after {
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}*/
+
+</style>

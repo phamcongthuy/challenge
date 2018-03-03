@@ -327,11 +327,9 @@
   }
   .header-figure .caption .details {
     margin: -3em -0.75em -3em -1.5em;
+    background-color: rgb(141, 208, 59); /* @lime */
     background-color: rgb(255, 194, 51); /* @banana */
     padding: 1.5em;
-  }
-  .header-figure .caption .details {
-    background-color: rgb(141, 208, 59); /* @lime */
   }
 @supports (false) {
   .header-figure .caption .details {

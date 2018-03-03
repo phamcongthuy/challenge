@@ -6,14 +6,14 @@ main_class: standard-layout
 
 <div class="standard-figure has-caption header-figure has-caption-details">
   <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="(max-width: 40em) 250vw, 100vw" alt="Women’s March Los Angeles" />
-  <div class="caption">
+  <div class="caption" style="padding-top: 0; padding-bottom: 0;">
     <div>
-      <h1>The <strong>winners</strong><br />that will shape LA</h1>
+      <h1><strong>Winners</strong></h1>
     </div>
   </div>
 </div>
 
-{% if site.phase < 4 %}
+{% if site.phase < 8 %}
 
 <div class="introduction" markdown="1">
 The winners will appear here on <strong>July 9, 2018</strong>.
