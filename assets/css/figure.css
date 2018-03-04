@@ -65,7 +65,7 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .standard-figure {
-      margin: 6em -3em;
+      margin: 6em -4.5em;
     }
   }
   .standard-layout > .standard-figure:first-child {

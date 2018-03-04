@@ -21,8 +21,8 @@
   @media (min-width: 40em) { /* @medium-size-screen */
     header,
     footer {
-      margin-left: -3em;
-      margin-right: -3em;
+      margin-left: -4.5em;
+      margin-right: -4.5em;
       padding: 3em 4.5em;
     }
     footer {
@@ -286,8 +286,8 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     main > h1:first-child {
-      margin-left: -3rem;
-      margin-right: -3rem;
+      margin-left: -4.5rem;
+      margin-right: -4.5rem;
       padding: 3rem 3rem 6rem;
       margin-bottom: 4.5rem; /* @headline-bottom-margin */
     }

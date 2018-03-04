@@ -12,7 +12,7 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .standard-section {
-      margin: 6em -3em;
+      margin: 6em -4.5em;
       padding: 4.5em 3em;
     }
   }
