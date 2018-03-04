@@ -4,7 +4,7 @@ layout: default
 
 <div class="standard-figure has-caption header-figure has-caption-details">
   <div class="mask"></div>
-  <img style="filter: grayscale(100%); object-position: center" src="/assets/images/goals/384-wide/{{ page.category }}.jpg" srcset="/assets/images/goals/384-wide/{{ page.category }}.jpg 384w, /assets/images/goals/512-wide/{{ page.category }}.jpg 512w, /assets/images/goals/768-wide/{{ page.category }}.jpg 768w, /assets/images/goals/1024-wide/{{ page.category }}.jpg 1024w, /assets/images/goals/1536-wide/{{ page.category }}.jpg 1536w, /assets/images/goals/2048-wide/{{ page.category }}.jpg 2048w" sizes="100vw" alt="" />
+  <img style="filter: grayscale(100%); object-position: {% if page.category == 'create' or page.category == 'learn' or page.category == 'play' %}center{% else %}bottom{% endif %}" src="/assets/images/goals/384-wide/{{ page.category }}.jpg" srcset="/assets/images/goals/384-wide/{{ page.category }}.jpg 384w, /assets/images/goals/512-wide/{{ page.category }}.jpg 512w, /assets/images/goals/768-wide/{{ page.category }}.jpg 768w, /assets/images/goals/1024-wide/{{ page.category }}.jpg 1024w, /assets/images/goals/1536-wide/{{ page.category }}.jpg 1536w, /assets/images/goals/2048-wide/{{ page.category }}.jpg 2048w" sizes="100vw" alt="" />
   <div class="caption" style="padding-top: 0; padding-bottom: 0;">
     <div>
       <!-- <h1 style="color: var(--primary-color, rgb(237, 59, 136))">The <strong>proposals</strong><br />that will shape LA</h1> -->
@@ -86,13 +86,15 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 ## Browse by Goal
 -->
 
-<ul class="action" style="max-width: none;">
-  <li class="blueberry"><a href="/learn/">Learn</a></li>
-  <li class="banana"><a href="/create/">Create</a></li>
-  <li class="strawberry"><a href="/play/">Play</a></li>
-  <li class="tangerine"><a href="/connect/">Connect</a></li>
-  <li class="lime"><a href="/live/">Live</a></li>
+<div class="action-container">
+<ul class="action">
+  <li class="blueberry"><a href="/learn/"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
+  <li class="banana"><a href="/create/"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
+  <li class="strawberry"><a href="/play/"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
+  <li class="tangerine"><a href="/connect/"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
+  <li class="lime"><a href="/live/"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
 </ul>
+</div>
 
 {% assign data_collection = site.collections | where: "label", page.category | first %}
 {% assign data_list = data_collection.docs %}
@@ -102,6 +104,36 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 </div>
 
 </div></section>
+
+<style>
+@media (min-width: 70em) {
+  .header-figure.has-caption.has-caption-details h1 {
+    top: 24rem;
+    padding-right: 3rem;
+  }
+  #goals .navigation .action-container {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+/*  #goals .navigation .action-container {
+    margin-top: -9em;
+    position: relative;
+    z-index: 9;
+  }*/
+/*  #goals .navigation .action-container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 9em;
+    z-index: 9;
+  }
+  #goals .navigation .action-container ul.action {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em;
+  }*/
+}
+</style>
 
 <ul class="proposals">
 

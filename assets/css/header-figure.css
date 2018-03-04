@@ -327,8 +327,8 @@
   }
   .header-figure .caption .details {
     margin: -3em -0.75em -3em -1.5em;
-    background-color: rgb(141, 208, 59); /* @lime */
     background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(141, 208, 59); /* @lime */
     padding: 1.5em;
   }
 @supports (false) {
@@ -345,8 +345,8 @@
       padding-bottom: 10vw;
     }*/
     .header-figure .caption .details {
-      margin: -3em -1.5em -3em -3em;
-      padding: 3em;
+      margin: -3em -4.5em -3em -4.5em;
+      padding: 2.25em 3em;
 /*      background: transparent;
       background-image: linear-gradient(to top, rgba(21, 21, 21, 1), rgba(21, 21, 21, 1) 75%, rgba(21, 21, 21, 0));*/
     }
@@ -390,9 +390,9 @@
     }
   }
   @media (min-width: 70em) {
-    .header-figure .caption .details {
+/*    .header-figure .caption .details {
       padding-bottom: 3em;
-    }
+    }*/
 /*    .header-figure.has-caption.has-caption-details img {
       object-position: bottom;
       height: calc(100% - 10vw);
@@ -456,7 +456,8 @@
 
   @media (min-width: 40em) {
     .header-figure .caption {
-      padding-left: 3em;
+      padding-left: 4.5em;
+      padding-right: 4.5em;
     }
   }
 
@@ -513,7 +514,7 @@
       /*padding-top: 15em;*/
     }
     .header-figure.has-caption.has-caption-details h1 {
-      top: 15rem;
+      top: 16.5rem;
     }
     .header-figure.has-caption.has-caption-details img {
       object-position: 0 30%;

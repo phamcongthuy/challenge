@@ -138,28 +138,29 @@ footer_image: true
 
       <div class="icon">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 48.8 58.9" style="enable-background:new 0 0 48.8 58.9;" xml:space="preserve">
-        <style type="text/css">
-          .st0{fill:none;stroke:white;stroke-width:0.978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-        </style>
-        <g>
-          <path class="st0" d="M29.4,31.1c6.7-5.8,7.9-15.9,2.5-23.2C26.3,0.2,15.5-1.4,7.8,4.3s-9.3,16.5-3.6,24.1c5.2,7.1,14.9,9,22.4,4.8"
-            />
-          <path class="st0" d="M26.6,33.2c0.6-0.3,1.2-0.7,1.8-1.1c0.4-0.3,0.7-0.6,1.1-0.9"/>
-          <path class="st0" d="M26.7,29.6c6.3-4.7,7.7-13.6,3-19.9C25,3.3,16.1,2,9.8,6.7c-6.3,4.7-7.7,13.6-3,19.9
-            C11.4,32.9,20.3,34.3,26.7,29.6"/>
-          <path class="st0" d="M32.2,40.7c0.2-0.6,0.6-1.1,1.1-1.4c0.5-0.4,1.1-0.6,1.7-0.6"/>
-          <path class="st0" d="M32.2,40.7c-0.5,1.1-0.4,2.4,0.4,3.5l9.1,12.3c1.1,1.6,3.4,1.9,4.9,0.7s1.9-3.4,0.7-4.9L38.2,40
-            c-0.8-1-2-1.5-3.2-1.4"/>
-          <line class="st0" x1="26.6" y1="33.2" x2="32.2" y2="40.7"/>
-          <line class="st0" x1="29.4" y1="31.1" x2="35" y2="38.7"/>
-        </g>
+           viewBox="0 0 33 54.2" style="enable-background:new 0 0 33 54.2;" xml:space="preserve">
+          <style type="text/css">
+            .st0{fill:none;stroke:white;stroke-width:0.978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+          </style>
+          <path class="st0" d="M32.5,15.9c0-8.5-7.2-15.4-16-15.4s-16,6.9-16,15.4c0,5.4,2.9,10.1,7.2,12.9v7.8c0,1.6,1.3,2.9,2.9,2.9h11.7
+            c1.6,0,2.9-1.3,2.9-2.9v-7.8C29.6,26,32.5,21.3,32.5,15.9z"/>
+          <path class="st0" d="M23.3,39.5c1.6,0,2.9,1.3,2.9,2.9v1.2c0,1.6-1.3,2.9-2.9,2.9H9.7c-1.6,0-2.9-1.3-2.9-2.9v-1.2
+            c0-1.6,1.3-2.9,2.9-2.9"/>
+          <path class="st0" d="M23.3,46.6c1.6,0,2.9,1.3,2.9,2.9v1.2c0,1.6-1.3,2.9-2.9,2.9H9.7c-1.6,0-2.9-1.3-2.9-2.9v-1.2
+            c0-1.6,1.3-2.9,2.9-2.9"/>
+          <path class="st0" d="M16.4,36.6V21.4c0,0-5-2.3-5.1-4.2c-0.1-1.7,3.9,0.5,3.9,0.5s-0.7-4.9,0.7-4.9c1.5,0,1.2,2.9,1.2,4.6
+            c0,0,2.8-1.4,4-0.9c1.2,0.5-1,2.4-4.7,4.9"/>
+          <line class="st0" x1="6.7" y1="43" x2="26.3" y2="43"/>
+          <line class="st0" x1="18.5" y1="50.1" x2="26.3" y2="50.1"/>
+          <line class="st0" x1="7.7" y1="36.6" x2="16" y2="36.6"/>
+          <path class="st0" d="M4,12.8c0,0,0.3-3.5,3.7-6.3"/>
         </svg>
       </div>
-      <p>
+      <p style="max-width: 28em">
         <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/proposals/">The entries have arrived</a>!</strong>
         <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
       </p>
+      <!--
       <p>
         <small>
         Voting begins on
@@ -168,6 +169,7 @@ footer_image: true
         </span>
         </small>
       </p>
+      -->
 
 <!--       <p class="action" markdown="1">
         <a href="/proposals/">Check out the entries</a>

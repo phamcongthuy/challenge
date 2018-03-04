@@ -40,9 +40,18 @@ main_class: standard-layout
 
 
 <style>
+  .links h2 {
+    color: var(--primary-color, inherit) !important;
+  }
+  .links-involved h2,
+  .links-action h2 {
+    color: var(--secondary-color, inherit) !important;
+    color: var(--primary-color, inherit) !important;
+  }
   .proposal-introduction h1 {
     margin-top: 0;
     color: var(--primary-color, inherit);
+    color: var(--secondary-color, inherit);
     font-size: 1.5em;
     line-height: 1.25;
     font-weight: bold;
@@ -56,6 +65,7 @@ main_class: standard-layout
     }
   }
   .proposal-introduction h1 + h2 {
+    color: var(--secondary-color, inherit);
     color: inherit;
   }
   .proposal-introduction h1,
@@ -81,14 +91,14 @@ main_class: standard-layout
     .proposal-introduction .links-more {
       margin-top: 3em;
       grid-column: 1/2;
-      grid-row: 2/-1;
+      /*grid-row: 2/-1;*/
     }
-    .proposal-introduction .links-more dl {
+/*    .proposal-introduction .links-more dl {
       position: absolute;
       width: 33.333vw;
       width: calc(33.333vw - 3em);
       margin-top: 0;
-    }
+    }*/
     .proposal-introduction {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -103,10 +113,14 @@ main_class: standard-layout
       grid-row: 2/3;
     }*/
     .links {
-       grid-column: 1/2;
+      grid-column: 1/2;
     }
     .links-action {
-       grid-column: 2/-1;
+      grid-column: 2/-1;
+    }
+    .links-involved {
+      grid-column: 1/2;
+      grid-row: 2/3;
     }
 /*    .links-action ul.action {
       display: grid !important;
@@ -124,6 +138,10 @@ main_class: standard-layout
     .links h2:first-child,
     .links h3:first-child {
       margin-top: 1.5rem;
+    }
+    .links-more h2:first-child {
+      margin-top: 3rem;
+      margin-top: 0;
     }
 /*    .links-action h2:first-child,
     .links-action h3:first-child {
@@ -181,6 +199,7 @@ main_class: standard-layout
     }
     .proposal-introduction .proposal-answers h2:first-child {
       margin-top: 3rem;
+      margin-top: 0;
     }
 /*    .proposal-introduction .proposal-answers h2:first-child {
       margin-top: 0;
@@ -301,7 +320,7 @@ main_class: standard-layout
 
 
 <!-- TODO: Handle empty data or words like “N/A” or “None” -->
-{% if page.link_newsletter or page.link_donate or page.link_volunteer %}
+{% if page.link_newsletter %}
 
 <div class="links links-action">
 <h2>Love this idea?</h2>
@@ -310,7 +329,20 @@ main_class: standard-layout
   {% if page.link_newsletter %}
   <li><a href="{{ page.link_newsletter }}">Stay updated on this activation</a></li>
   {% endif %}
+</ul>
+</div>
 
+{% endif %}
+
+
+
+<!-- TODO: Handle empty data or words like “N/A” or “None” -->
+{% if page.link_donate or page.link_volunteer %}
+
+<div class="links links-involved">
+<h2>Get involved</h2>
+
+<ul class="action" style="max-width: none;">
   {% if page.link_donate %}
   <li><a href="{{ page.link_donate }}">Donate</a></li>
   {% endif %}
@@ -323,8 +355,7 @@ main_class: standard-layout
 
 {% endif %}
 
-<!-- <hr />
- -->
+<hr />
 
 <div class="links links-more">
 
@@ -395,7 +426,7 @@ main_class: standard-layout
     margin-left: 0;
     margin-right: 0;
   }
-  .links .action a {
+/*  .links .action a {
     color: white;
   }
   .links .action a:hover,
@@ -403,6 +434,14 @@ main_class: standard-layout
   .links .action a:focus {
     color: rgb(6, 179, 188);
   }
+*/
+
+
+    .links-involved .action a {
+      background: white;
+      border-color: var(--primary-color, black);
+      color: var(--primary-color, black);
+    }
 
   .links dt,
   .links dd {
@@ -441,8 +480,14 @@ main_class: standard-layout
     height: 1em;
     vertical-align: middle;
   }
+  .links dl,
+  .links dt,
+  .links dd {
+    color: inherit;
+  }
   .links dl a {
     color: var(--primary-color, inherit);
+    color: inherit;
   }
   .links dl a:hover,
   .links dl a:active,
@@ -807,7 +852,7 @@ Non-profit
 <h2>Describe your project</h2>
 {{ page.project_proposal_description | markdownify }}
 
-<h2>How will your proposal impact the {{ page.category }} metrics?</h2>
+<h2>How will your proposal impact the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics?</h2>
 <ul>
   {% for metric in page.project_proposal_impact %}
   <li>{{ metric }}</li>
@@ -821,7 +866,7 @@ Non-profit
   {% endfor %}
 </ul>
 
-<h2>Describe in greater detail how your proposal will make LA the best place to LEARN? </h2>
+<h2>Describe in greater detail how your proposal will make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span>? </h2>
 {{ page.project_proposal_best_place | markdownify }}
 
 <h2>Please explain how you will define and measure success for your project. </h2>
