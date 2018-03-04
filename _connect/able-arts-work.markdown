@@ -54,7 +54,57 @@ project_proposal_impact:
   - Public/open streets gatherings
   - Government responsiveness to residents’ needs
   - Total number of local social media friends and connections Angelenos have
-project_proposal_best_place: "Following 35 years of progress towards inclusion and access for people with intellectual disabilities, Able ARTS Work launched Artbeat Radio, an innovative community project presented through the lens of disability culture. As engagement has increased and content producers are demanding more access to share their voices, Artbeat Radio is prepared to go mobile.  Programming has been hosted and produced by adults with intellectual disabilities since 2013, introducing communities to a population historically sidelined from society. \n•\tBuild new or enhance existing organizational capacity?\nAble ARTS Work aims to continue our role as disability culture advocates by delivering relevant, stimulating and meaningful content after 35 years through the creative arts.  We seek to continue this work by expanding an existing program to address the evolving creative goals of the resident artists who receive our services.  In doing so, we will continue our role as community leaders in the disability and arts community.  \n•\tEngage residents and stakeholders\nOur plan is to add the mobile element to a traditionally structured radio program. Our mobile recording studio will travel to a variety of community spaces, delivering “on the scene” coverage, providing resident artists and the general population an opportunity to engage with Artbeat Radio personalities, creative projects and contribute to themes addressed.  Participants will therefore actively make connections throughout diverse Los Angeles communities, revealing shared cultural, socio-economic and creative voices represented in disability culture.  Including the voices of a general population is relevant and crucial to our advocacy work in presenting inclusive opportunities for people with and without disabilities.\n•\tExpand a program \nExpanding Artbeat Radio from a traditional radio program to a mobile program available to the community at large will bring participants increased opportunities to share their voices, make connections and actively participate in changing perceptions on disability.  Expanding the program will include the addition of community collaborative concerts, interviews and expressive arts therapy podcasts to an already successful music podcast program.  Those participating in the Artbeat Radio project will have the opportunity to share their contributions through social media, which will be further enhanced by broadcasting segments with our partners on KPFK 90.7 FM and KCSN 88.5 FM\n•\tHow to Develop a communication or marketing strategy \nIn partnership with KPFK 90.7 and KCSN 88.5, Able ARTS Work will implement a comprehensive communications and marketing strategy targeting the disability, art, music, clinical arts therapy and education communities in the South Bay and other targeted Los Angeles neighborhoods.  Through social media and leveraging partnerships with ACLB and the LACAC, a communications plan will include the sharing of strategic information to build  engagement."
+project_proposal_best_place: >-
+  Following 35 years of progress towards inclusion and access for people with
+  intellectual disabilities, Able ARTS Work launched Artbeat Radio, an
+  innovative community project presented through the lens of disability culture.
+  As engagement has increased and content producers are demanding more access to
+  share their voices, Artbeat Radio is prepared to go mobile.  Programming has
+  been hosted and produced by adults with intellectual disabilities since 2013,
+  introducing communities to a population historically sidelined from society. 
+
+  * Build new or enhance existing organizational capacity?
+
+  Able ARTS Work aims to continue our role as disability culture advocates by
+  delivering relevant, stimulating and meaningful content after 35 years through
+  the creative arts.  We seek to continue this work by expanding an existing
+  program to address the evolving creative goals of the resident artists who
+  receive our services.  In doing so, we will continue our role as community
+  leaders in the disability and arts community.  
+
+  * Engage residents and stakeholders
+
+  Our plan is to add the mobile element to a traditionally structured radio
+  program. Our mobile recording studio will travel to a variety of community
+  spaces, delivering “on the scene” coverage, providing resident artists and the
+  general population an opportunity to engage with Artbeat Radio personalities,
+  creative projects and contribute to themes addressed.  Participants will
+  therefore actively make connections throughout diverse Los Angeles
+  communities, revealing shared cultural, socio-economic and creative voices
+  represented in disability culture.  Including the voices of a general
+  population is relevant and crucial to our advocacy work in presenting
+  inclusive opportunities for people with and without disabilities.
+
+  * Expand a program 
+
+  Expanding Artbeat Radio from a traditional radio program to a mobile program
+  available to the community at large will bring participants increased
+  opportunities to share their voices, make connections and actively participate
+  in changing perceptions on disability.  Expanding the program will include the
+  addition of community collaborative concerts, interviews and expressive arts
+  therapy podcasts to an already successful music podcast program.  Those
+  participating in the Artbeat Radio project will have the opportunity to share
+  their contributions through social media, which will be further enhanced by
+  broadcasting segments with our partners on KPFK 90.7 FM and KCSN 88.5 FM
+
+  * How to Develop a communication or marketing strategy 
+
+  In partnership with KPFK 90.7 and KCSN 88.5, Able ARTS Work will implement a
+  comprehensive communications and marketing strategy targeting the disability,
+  art, music, clinical arts therapy and education communities in the South Bay
+  and other targeted Los Angeles neighborhoods.  Through social media and
+  leveraging partnerships with ACLB and the LACAC, a communications plan will
+  include the sharing of strategic information to build  engagement.
 link_newsletter: 'https://app.e2ma.net/app2/audience/signup/65374/37877/?v=a'
 link_volunteer: info@ableartswork.org
 link_donate: 'https://npo.justgive.org/ableartswork'

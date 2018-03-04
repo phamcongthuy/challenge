@@ -93,7 +93,90 @@ project_proposal_impact:
   - Resilient communities
   - Tree canopy cover
   - Walk/bike/transit score
-project_proposal_best_place: "It all starts with water. In this fifth year of drought, the urgent need to save water is on everyone’s mind. From local utilities to state government, from brown lawns to dry fountains, it’s impossible to escape signs of the drought. Drought has brought urgency to the task of crafting a more sustainable Los Angeles, and is an exceptional opportunity to make LA more livable for all its residents, human and otherwise. \n\nGrow Local: Plant Native extends our concerns beyond water conservation, to bring sustainable choices, practices, and landscapes to residents of all ages and the staff of LA public housing. \n\nTheodore Payne Foundation and Housing Authority of the City of Los Angeles have been working together to pilot native plant gardens at four public housing sites throughout LA. The Foundation has trained the Authority’s landscape staff and some residents in basic native plant horticulture. Foundation staff is guiding crews through design, installation, establishment, and maintenance of new plantings at San Fernando Gardens in Pacoima, Imperial Courts in Watts, Estrada Courts in Boyle Heights, and Mar Vista Gardens in Del Rey.\n\nWith Grow Local: Plant Native, we seek to extend this project to Rancho San Pedro, and closely engage the Rancho San Pedro youth in shaping the future of their city.\n\nObjective: Train staff and establish 20,000 square feet of native plant landscape \nTraining for public housing staff \n•\tSite assessment, design, and layout\n•\tInstallation and establishment\n•\tMaintenance \nNative plant material\n•\t1,200 1G plants\n•\t16 boxed trees\n\nObjective: engage a cadre of youth through three, ten-week sessions\nDevelop a deeper understanding of where they live\n•\tLearn about native plant and urban ecology\n•\tVisit nearby natural reserves on field trips\n•\tIdentify and report bird and insect colonization of native plant landscapes using iNaturalist.org\nShape their living environment\n•\tPropagate native plants for extending gardens\n•\tDevelop garden designs\n•\tDevelop and launch social media campaign promoting native plant landscapes\nMaterials \n•\tSets up for plant propagation \n•\tTablets for social media campaign and accessing iNaturalist.org\n•\tCamera for creating videos\n\nIt starts with water, but it doesn’t end there. Native plants protect the air, and ground and marine water resources because they require little or no fertilizers or pesticides. No aerial application of pesticides will impact residents and there will be no potential outgassing from artificial grass. Further, when compared to tuft grass, established native gardens use 80% less water yet these lush, habitat-rich environments include shade trees that invite people to go outside or take a walk. In the face of climate change and an uncertain economic outlook, converting turf to resilient native plant landscapes will allow public housing resources to be used on other priorities."
+project_proposal_best_place: >-
+  It all starts with water. In this fifth year of drought, the urgent need to
+  save water is on everyone’s mind. From local utilities to state government,
+  from brown lawns to dry fountains, it’s impossible to escape signs of the
+  drought. Drought has brought urgency to the task of crafting a more
+  sustainable Los Angeles, and is an exceptional opportunity to make LA more
+  livable for all its residents, human and otherwise. 
+
+
+  Grow Local: Plant Native extends our concerns beyond water conservation, to
+  bring sustainable choices, practices, and landscapes to residents of all ages
+  and the staff of LA public housing. 
+
+
+  Theodore Payne Foundation and Housing Authority of the City of Los Angeles
+  have been working together to pilot native plant gardens at four public
+  housing sites throughout LA. The Foundation has trained the Authority’s
+  landscape staff and some residents in basic native plant horticulture.
+  Foundation staff is guiding crews through design, installation, establishment,
+  and maintenance of new plantings at San Fernando Gardens in Pacoima, Imperial
+  Courts in Watts, Estrada Courts in Boyle Heights, and Mar Vista Gardens in Del
+  Rey.
+
+
+  With Grow Local: Plant Native, we seek to extend this project to Rancho San
+  Pedro, and closely engage the Rancho San Pedro youth in shaping the future of
+  their city.
+
+
+  Objective: Train staff and establish 20,000 square feet of native plant
+  landscape 
+
+  Training for public housing staff 
+
+  * Site assessment, design, and layout
+
+  * Installation and establishment
+
+  * Maintenance 
+
+  Native plant material
+
+  * 1,200 1G plants
+
+  * 16 boxed trees
+
+
+  Objective: engage a cadre of youth through three, ten-week sessions
+
+  Develop a deeper understanding of where they live
+
+  * Learn about native plant and urban ecology
+
+  * Visit nearby natural reserves on field trips
+
+  * Identify and report bird and insect colonization of native plant landscapes
+  using iNaturalist.org
+
+  Shape their living environment
+
+  * Propagate native plants for extending gardens
+
+  * Develop garden designs
+
+  * Develop and launch social media campaign promoting native plant landscapes
+
+  Materials 
+
+  * Sets up for plant propagation 
+
+  * Tablets for social media campaign and accessing iNaturalist.org
+
+  * Camera for creating videos
+
+
+  It starts with water, but it doesn’t end there. Native plants protect the air,
+  and ground and marine water resources because they require little or no
+  fertilizers or pesticides. No aerial application of pesticides will impact
+  residents and there will be no potential outgassing from artificial grass.
+  Further, when compared to tuft grass, established native gardens use 80% less
+  water yet these lush, habitat-rich environments include shade trees that
+  invite people to go outside or take a walk. In the face of climate change and
+  an uncertain economic outlook, converting turf to resilient native plant
+  landscapes will allow public housing resources to be used on other priorities.
 link_newsletter: theodorepayne.org
 link_volunteer: theodorepayne.org/support/volunteer/
 link_donate: store.theodorepayne.org/category/DONATE.html

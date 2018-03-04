@@ -51,7 +51,50 @@ project_proposal_description: >-
   benefits from using the family-centered space.
 project_proposal_impact:
   - Number of children enrolled in afterschool programs
-project_proposal_best_place: "Remember when you were a kid – some of your best friends were from your neighborhood. Families today tend to be scattered and busy with life, work, and school, with little time to connect. Our community centers provide a place for resident families to connect, in beautiful settings where gathering, play, and learning becomes a natural course of life.\n\nWe believe that great futures start at home. This collaborative endeavor began nine years ago and serves as a model for other communities to adapt, by creating neighborhoods that inspire family love and pride, where families learn to live, adapt, grow and play together, and have good experiences that create important useful resources, and lifetime memories. \nOur family centers include an array of free services:\n•\tFree, convenient neighborhood youth development center with Boys & Girls Clubs programs, right at home in the heart of the community.\n•\tSafe, secure space at home for youth to learn and play alongside their neighbors in an easily accessible, inspiring, enriching setting. \n•\tFriendships, because some of the best friendships in childhood begin in the neighborhood. These kids and their families are creating friendships that will last a lifetime.\n•\tFamily opportunities to share experiences and grow together. Our centers offer family resource workshops for parents, community celebration events, and after-school programs. \n•\tPride of ownership and community becomes the norm by having a family-centered area to gather right inside the community. Residents become more inclined to invest in maintaining safe, well maintained, and vibrant communities. \n•\tThe Boys & Girls Club members have opportunities to explore the world outside their neighborhood, with full access to the events and activities offered by the Boys & Girls Clubs including college tours, cultural field trips, and interaction with kids from surrounding communities. \n•\tThe community centers are managed by dedicated, caring youth development professionals who serve as positive role models to the Club members, with important information for families at their fingertips as a valuable, accessible resource."
+project_proposal_best_place: >-
+  Remember when you were a kid – some of your best friends were from your
+  neighborhood. Families today tend to be scattered and busy with life, work,
+  and school, with little time to connect. Our community centers provide a place
+  for resident families to connect, in beautiful settings where gathering, play,
+  and learning becomes a natural course of life.
+
+
+  We believe that great futures start at home. This collaborative endeavor began
+  nine years ago and serves as a model for other communities to adapt, by
+  creating neighborhoods that inspire family love and pride, where families
+  learn to live, adapt, grow and play together, and have good experiences that
+  create important useful resources, and lifetime memories. 
+
+  Our family centers include an array of free services:
+
+  * Free, convenient neighborhood youth development center with Boys & Girls
+  Clubs programs, right at home in the heart of the community.
+
+  * Safe, secure space at home for youth to learn and play alongside their
+  neighbors in an easily accessible, inspiring, enriching setting. 
+
+  * Friendships, because some of the best friendships in childhood begin in the
+  neighborhood. These kids and their families are creating friendships that will
+  last a lifetime.
+
+  * Family opportunities to share experiences and grow together. Our centers
+  offer family resource workshops for parents, community celebration events, and
+  after-school programs. 
+
+  * Pride of ownership and community becomes the norm by having a
+  family-centered area to gather right inside the community. Residents become
+  more inclined to invest in maintaining safe, well maintained, and vibrant
+  communities. 
+
+  * The Boys & Girls Club members have opportunities to explore the world
+  outside their neighborhood, with full access to the events and activities
+  offered by the Boys & Girls Clubs including college tours, cultural field
+  trips, and interaction with kids from surrounding communities. 
+
+  * The community centers are managed by dedicated, caring youth development
+  professionals who serve as positive role models to the Club members, with
+  important information for families at their fingertips as a valuable,
+  accessible resource.
 link_newsletter: 'http://www.smbgc.org/'
 link_volunteer: 'http://www.smbgc.org/about/volunteer/'
 link_donate: 'http://www.smbgc.org/give/'

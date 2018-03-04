@@ -874,14 +874,24 @@ var disqus_config = function () {
 
 <div class="navigation"><div>
 
-<h2>More Proposals</h2>
+<h2>More projects</h2>
+
+<ul class="action" style="max-width: none;">
+  <li class="blueberry"><a href="/learn/">Learn</a></li>
+  <li class="banana"><a href="/create/">Create</a></li>
+  <li class="strawberry"><a href="/play/">Play</a></li>
+  <li class="tangerine"><a href="/connect/">Connect</a></li>
+  <li class="lime"><a href="/live/">Live</a></li>
+</ul>
+
+{% assign data_collection = site.collections | where: "label", page.category | first %}
+{% assign data_list = data_collection.docs %}
+
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> projects in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
 
 </div></div>
 
 </section>
-
-{% assign data_collection = site.collections | where: "label", page.category | first %}
-{% assign data_list = data_collection.docs %}
 
 <ul class="proposals more-proposals">
 
@@ -904,6 +914,8 @@ var disqus_config = function () {
 <section class="goals" style="margin-bottom: 4.5em">
 
 <div class="navigation"><div>
+
+<h2>More categories</h2>
 
 <ul class="action" style="max-width: none;">
   <li class="blueberry"><a href="/learn/">Learn</a></li>

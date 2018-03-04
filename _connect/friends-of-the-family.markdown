@@ -24,7 +24,41 @@ project_collaborators: None
 project_applying: '$100,000'
 project_areas:
   - San Fernando Valley
-project_measure: "The proposed activities for the Man2Man Project are designed to give at-risk young males hope, goals, purpose, a positive attitude, and the knowledge and skills to become responsible adults and successful parents.  Objectives include:\n•\tRecruit, train, and involve at least 150 participants (15 Young Dads, 15 Adult Mentors, 120 middle and high school youths) over a one year period\n•\tIncrease social and emotional connections to positive male mentors and peers\n•\tIncrease the rate of volunteerism in our community\n•\tIncrease knowledge of male responsibility in pregnancy prevention\n•\tIncrease respect for importance of parenting responsibilities and skills\n•\tIncrease goal setting skills\n•\tIncrease leadership, organization, and presentation skills\n•\tIncrease respect for women and girls, especially parenting partners\n•\tDecrease incidence of unplanned pregnancies\nFriends of the Family (FOF) will develop and administer validated evaluation surveys to measure progress toward these objectives before, during, and after activities and will gather qualitative data via group and one-to-one discussions throughout the project. The surveys will measure changes in perceptions, attitudes, knowledge, and behavior. The domains of social and emotional competence, connectedness, and rates of volunteerism will be prominent measureable components of the evaluation.\nFOF utilizes a web-based data system called Efforts to Outcomes (ETO) to organize and track program information"
+project_measure: >-
+  The proposed activities for the Man2Man Project are designed to give at-risk
+  young males hope, goals, purpose, a positive attitude, and the knowledge and
+  skills to become responsible adults and successful parents.  Objectives
+  include:
+
+  * Recruit, train, and involve at least 150 participants (15 Young Dads, 15
+  Adult Mentors, 120 middle and high school youths) over a one year period
+
+  * Increase social and emotional connections to positive male mentors and peers
+
+  * Increase the rate of volunteerism in our community
+
+  * Increase knowledge of male responsibility in pregnancy prevention
+
+  * Increase respect for importance of parenting responsibilities and skills
+
+  * Increase goal setting skills
+
+  * Increase leadership, organization, and presentation skills
+
+  * Increase respect for women and girls, especially parenting partners
+
+  * Decrease incidence of unplanned pregnancies
+
+  Friends of the Family (FOF) will develop and administer validated evaluation
+  surveys to measure progress toward these objectives before, during, and after
+  activities and will gather qualitative data via group and one-to-one
+  discussions throughout the project. The surveys will measure changes in
+  perceptions, attitudes, knowledge, and behavior. The domains of social and
+  emotional competence, connectedness, and rates of volunteerism will be
+  prominent measureable components of the evaluation.
+
+  FOF utilizes a web-based data system called Efforts to Outcomes (ETO) to
+  organize and track program information
 project_proposal_help:
   - 'Money '
   - Volunteers

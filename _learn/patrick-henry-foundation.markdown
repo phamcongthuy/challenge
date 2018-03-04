@@ -23,7 +23,30 @@ project_collaborators: "•\tHopscotch & Doodles: http://www.hopscotchanddoodles
 project_applying: '$100,000'
 project_areas:
   - South Bay
-project_measure: "The SEMI program aims to provide 1) a bilingual learning environment for all students to learn STEM in a culturally relevant manner in English and Spanish; 2) train all teachers on best practices for teaching bilingual STEM material, 3) provide technology to enhance student learning and teaching practices; and 4) to provide the next generation of global thinkers by incorporating STEM in a culturally relevant atmosphere beginning in elementary school. \n\nPHF will partner with CSULB to provide formal evaluation of the program.\n\n•\tNumber of students participating in the program.\n•\tStudent gains (i.e., science interest, non-stereotypical images of scientists).\n•\tNumber of teachers trained on culturally-relevant STEM curriculum.\n•\tStudent test scores before and after program participation.\n•\tTeacher and parent qualitative analysis of the program effectiveness.\n•\tSEMI Program Tool Kit (to be replicated at other schools)."
+project_measure: >-
+  The SEMI program aims to provide 1) a bilingual learning environment for all
+  students to learn STEM in a culturally relevant manner in English and Spanish;
+  2) train all teachers on best practices for teaching bilingual STEM material,
+  3) provide technology to enhance student learning and teaching practices; and
+  4) to provide the next generation of global thinkers by incorporating STEM in
+  a culturally relevant atmosphere beginning in elementary school. 
+
+
+  PHF will partner with CSULB to provide formal evaluation of the program.
+
+
+  * Number of students participating in the program.
+
+  * Student gains (i.e., science interest, non-stereotypical images of
+  scientists).
+
+  * Number of teachers trained on culturally-relevant STEM curriculum.
+
+  * Student test scores before and after program participation.
+
+  * Teacher and parent qualitative analysis of the program effectiveness.
+
+  * SEMI Program Tool Kit (to be replicated at other schools).
 project_proposal_help:
   - 'Money '
   - Volunteers

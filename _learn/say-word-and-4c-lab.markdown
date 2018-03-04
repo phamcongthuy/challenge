@@ -32,7 +32,31 @@ project_areas:
   - San Gabriel Valley
   - South LA
   - Gateway Cities
-project_measure: "We are basing our goals on the data in the studies mentioned above, namely: \n•\tAccess: We would like to retain 20 participants in the project and perform to community audiences of at least 200.\n•\tSelf-Discovery and Community/School Engagement: we would like to chart improvement in participant’s sense of self and engagement at school, home and in their community. \n•\tSelf-Identity and Identity as Artist: we would like participants to emerge with an understanding of what it means to be artists, expanding their perceptions of possibly careers in the arts.\n\nWe will measure our progress via pre-, mid-, and post-program surveys, as well as video diaries, where we will include questions and prompts that ask participants to evaluate their willingness to share, both in school and within their community; to challenge their definitions of self; to examine their risk-taking and risk-management behaviors; and to understand art as something that belongs to them, where they are and who they are.  \n\nWe will also gather information through group work, one-on-one discussions with participants, and ongoing informal evaluations."
+project_measure: >-
+  We are basing our goals on the data in the studies mentioned above, namely: 
+
+  * Access: We would like to retain 20 participants in the project and perform
+  to community audiences of at least 200.
+
+  * Self-Discovery and Community/School Engagement: we would like to chart
+  improvement in participant’s sense of self and engagement at school, home and
+  in their community. 
+
+  * Self-Identity and Identity as Artist: we would like participants to emerge
+  with an understanding of what it means to be artists, expanding their
+  perceptions of possibly careers in the arts.
+
+
+  We will measure our progress via pre-, mid-, and post-program surveys, as well
+  as video diaries, where we will include questions and prompts that ask
+  participants to evaluate their willingness to share, both in school and within
+  their community; to challenge their definitions of self; to examine their
+  risk-taking and risk-management behaviors; and to understand art as something
+  that belongs to them, where they are and who they are.  
+
+
+  We will also gather information through group work, one-on-one discussions
+  with participants, and ongoing informal evaluations.
 project_proposal_help:
   - 'Money '
   - Volunteers

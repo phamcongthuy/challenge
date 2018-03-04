@@ -72,7 +72,59 @@ project_proposal_impact:
   - >-
     Percentage of graduates from local higher education institutions that remain
     in LA County 5 years after graduating
-project_proposal_best_place: "Red Hen Press will establish Los Angeles as a creative hub by cultivating a community of readers and writers who are actively engaged in the essential human practice known as literature. Dr. Kate Gale and Mark E. Cull co-founded the press in 1994 with a mission to discover and publish works of literary excellence, support diversity through publications and public events, and promote literacy in our local schools. In the twenty-two years since, the press has published more than 400 books of poetry, fiction, and creative nonfiction by acclaimed and emerging writers. Red Hen has also established itself as a significant cultural presence in Southern California and beyond through its diverse programs: WITS, which provides free books to low-income students and places authors into underserved third through twelfth grade classrooms to conduct writing workshops; an annual series of over thirty reading events on the east and west coasts and internationally; the conferral of three literary awards to emerging writers; and publication of The Los Angeles Review, a nationally distributed literary journal that also confers four awards biannually.\n\nWith support from the LA2050 grant, Red Hen Press will enhance and expand the press’s engagement with the community through its successfully established programs. In 2017, Red Hen Press will publish 26 books of poetry, fiction, and creative nonfiction by a diverse array of both established and emerging authors. Specifically, Red Hen Press will use LA2050 grant funding to:\n•\tCopyedit each manuscript to check for compliance with the Chicago Manual of Style and proofread each book after layout to eliminate formatting errors.\n•\tDesign and lay out original covers and interiors for each book through the press’s in-house design team.\n•\tFulfill larger print runs for books while decreasing prices to increase literary accessibility. \n•\tPublicize individual books via print and online channels by sending press releases, soliciting book reviews, and bringing Red Hen authors to conferences and bookfairs to interact directly with their readers.\n•\tPlan, publicize, and market our unique literary events to cultivate a dialogue between writers and readers, and to reach more diverse audiences in local schools, families, and senior centers.\n•\tMaintain our literary awards program that recognizes emerging writers and expands the field of contemporary literature. \n•\tMaximize the talent and commitment of our dedicated staff by compensating them at a rate competitive to that of positions in similar business sectors, thus keeping publishing jobs in Los Angeles.\n\nWith publications that are both culturally and stylistically unique, and events that are thought-provoking and affordable, Red Hen Press contributes to the diverse literary landscape of Southern California."
+project_proposal_best_place: >-
+  Red Hen Press will establish Los Angeles as a creative hub by cultivating a
+  community of readers and writers who are actively engaged in the essential
+  human practice known as literature. Dr. Kate Gale and Mark E. Cull co-founded
+  the press in 1994 with a mission to discover and publish works of literary
+  excellence, support diversity through publications and public events, and
+  promote literacy in our local schools. In the twenty-two years since, the
+  press has published more than 400 books of poetry, fiction, and creative
+  nonfiction by acclaimed and emerging writers. Red Hen has also established
+  itself as a significant cultural presence in Southern California and beyond
+  through its diverse programs: WITS, which provides free books to low-income
+  students and places authors into underserved third through twelfth grade
+  classrooms to conduct writing workshops; an annual series of over thirty
+  reading events on the east and west coasts and internationally; the conferral
+  of three literary awards to emerging writers; and publication of The Los
+  Angeles Review, a nationally distributed literary journal that also confers
+  four awards biannually.
+
+
+  With support from the LA2050 grant, Red Hen Press will enhance and expand the
+  press’s engagement with the community through its successfully established
+  programs. In 2017, Red Hen Press will publish 26 books of poetry, fiction, and
+  creative nonfiction by a diverse array of both established and emerging
+  authors. Specifically, Red Hen Press will use LA2050 grant funding to:
+
+  * Copyedit each manuscript to check for compliance with the Chicago Manual of
+  Style and proofread each book after layout to eliminate formatting errors.
+
+  * Design and lay out original covers and interiors for each book through the
+  press’s in-house design team.
+
+  * Fulfill larger print runs for books while decreasing prices to increase
+  literary accessibility. 
+
+  * Publicize individual books via print and online channels by sending press
+  releases, soliciting book reviews, and bringing Red Hen authors to conferences
+  and bookfairs to interact directly with their readers.
+
+  * Plan, publicize, and market our unique literary events to cultivate a
+  dialogue between writers and readers, and to reach more diverse audiences in
+  local schools, families, and senior centers.
+
+  * Maintain our literary awards program that recognizes emerging writers and
+  expands the field of contemporary literature. 
+
+  * Maximize the talent and commitment of our dedicated staff by compensating
+  them at a rate competitive to that of positions in similar business sectors,
+  thus keeping publishing jobs in Los Angeles.
+
+
+  With publications that are both culturally and stylistically unique, and
+  events that are thought-provoking and affordable, Red Hen Press contributes to
+  the diverse literary landscape of Southern California.
 link_newsletter: oi.vresp.com/?fid=9df70c5ddd
 link_volunteer: null
 link_donate: redhen.org/red-hen-press-annual-fund/

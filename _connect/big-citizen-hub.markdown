@@ -24,7 +24,48 @@ project_collaborators: none
 project_applying: '$100,000'
 project_areas:
   - County of Los Angeles
-project_measure: "Through a combination of participant surveys (pre, post, and 6-months out), focus groups, and observations, we are looking at the following to determine success:\n\n•Quality of Program Implementation\n -To what extent are the phases of the program being implemented as intended?\n -To what extent is implementation high quality?\n -Are Big Citizens and Team Leaders reaching their intended objectives?\n\n•Program Experience\n -What did Big Citizen participants experience in this program?\n -What did Team Leaders experience in this program?\n -What did that experience mean to them?\n\n•Big Citizen HUB Outcomes\n -How do Big Citizens and Team Leaders think they are different because of their participation?\n -Does participation in Big Citizen HUB increase social capital, character development, civic awareness and leadership skills? \n -Are changes in these outcomes sustained after the program?\n -Does number of hours served make a difference in these outcomes?\n\nNine key constructs are being assessed: Gratitude, Social Capital, Civic Motivation, Curiosity & Exploration, Civic Awareness, Civic Advocacy, Diversity Attitudes, Civic Leadership, Civic Identity.\n\nIn addition, we track:\n•\tParticipant demographics \n•\tParticipant attendance\n•\tHours served\n•\tRetention percentage\n•\tNumber of service projects completed\n•\tNumber of community partners engaged\n•\tSatisfaction of community partners"
+project_measure: >-
+  Through a combination of participant surveys (pre, post, and 6-months out),
+  focus groups, and observations, we are looking at the following to determine
+  success:
+
+
+  •Quality of Program Implementation
+   -To what extent are the phases of the program being implemented as intended?
+   -To what extent is implementation high quality?
+   -Are Big Citizens and Team Leaders reaching their intended objectives?
+
+  •Program Experience
+   -What did Big Citizen participants experience in this program?
+   -What did Team Leaders experience in this program?
+   -What did that experience mean to them?
+
+  •Big Citizen HUB Outcomes
+   -How do Big Citizens and Team Leaders think they are different because of their participation?
+   -Does participation in Big Citizen HUB increase social capital, character development, civic awareness and leadership skills? 
+   -Are changes in these outcomes sustained after the program?
+   -Does number of hours served make a difference in these outcomes?
+
+  Nine key constructs are being assessed: Gratitude, Social Capital, Civic
+  Motivation, Curiosity & Exploration, Civic Awareness, Civic Advocacy,
+  Diversity Attitudes, Civic Leadership, Civic Identity.
+
+
+  In addition, we track:
+
+  * Participant demographics 
+
+  * Participant attendance
+
+  * Hours served
+
+  * Retention percentage
+
+  * Number of service projects completed
+
+  * Number of community partners engaged
+
+  * Satisfaction of community partners
 project_proposal_help:
   - 'Money '
   - Volunteers
@@ -47,7 +88,71 @@ project_proposal_impact:
   - Rates of volunteerism
   - Residential segregation
   - Total number of local social media friends and connections Angelenos have
-project_proposal_best_place: "Big Citizen HUB will help make LA the best place to connect by providing meaningful civic engagement opportunities for diverse youth all across the city.\n\nLos Angeles, like many cities, is divided– racially, socially, economically. Our nation is in a state of civil unrest, as demonstrated by protests and arguments surrounding critical issues such as police relations and LGBTQ+ rights. We need more opportunities for people to connect to better understand each other and the complexities of these issues. Our most precious resource – youth – have the potential to come together to confront these issues but are disconnected and not being activated. \n\nWhy youth? The National Institutes of Health found that between the ages of 12 and 25, people are literally wired for excitement, novelty, risk, and peer authority. These traits make young people uniquely suited to solve problems, if given the opportunity. Excitement and novelty leads to learning new things and creating new solutions. Risk leads to trying things adults might not. Peer authority leads to changing behaviors. \n\nBig Citizen HUB harnesses these youth assets and positive peer networks through dialogue, community immersion, diversity, and teamwork, while activating youth to address the critical issues dividing our cities – ultimately contributing to a more just, open, and connected society.\n\nOver the course of 22 Saturdays between January and July, we focus on increasing Big Citizens’ civic knowledge and personal agency. We:\n•\tPlace youth on diverse teams, utilizing a near-peer mentor structure \n•\tAddress concerns of cultural competency by exposing youth to different groups, perspectives, cultures, and ideas that they may not otherwise have access to\n•\tGive Big Citizens the space to learn and practice civic leadership skills, such as public speaking, mobilization, information literacy, social media usage, conflict resolution, and team leadership\n•\tProvide the resources to explore, serve, and reflect on social justice issues\n•\tProvide a place to implement local solutions to local problems, so that Big Citizens can immediately see how their actions can have a positive impact on the community, setting the stage for future action\n•\tComplete youth-led service projects (middle school) and six-week externships (high school)\n•\tUtilize public transit to learn from and volunteer with agencies across the city, witnessing issues first-hand\n\nPartnering with over 50 community-based organizations, Big Citizens will address the following social issues in 2017: Animal Rights, Environmental Sustainability, Food Justice, Homelessness, Immigration, and LGBTQ+ Equality. \n\nBig Citizen HUB is building a pipeline of social change makers. By engaging young leaders with each other, with LA’s critical issues, and with local agencies working toward solutions, we will help make LA the best place to connect."
+project_proposal_best_place: >-
+  Big Citizen HUB will help make LA the best place to connect by providing
+  meaningful civic engagement opportunities for diverse youth all across the
+  city.
+
+
+  Los Angeles, like many cities, is divided– racially, socially, economically.
+  Our nation is in a state of civil unrest, as demonstrated by protests and
+  arguments surrounding critical issues such as police relations and LGBTQ+
+  rights. We need more opportunities for people to connect to better understand
+  each other and the complexities of these issues. Our most precious resource –
+  youth – have the potential to come together to confront these issues but are
+  disconnected and not being activated. 
+
+
+  Why youth? The National Institutes of Health found that between the ages of 12
+  and 25, people are literally wired for excitement, novelty, risk, and peer
+  authority. These traits make young people uniquely suited to solve problems,
+  if given the opportunity. Excitement and novelty leads to learning new things
+  and creating new solutions. Risk leads to trying things adults might not. Peer
+  authority leads to changing behaviors. 
+
+
+  Big Citizen HUB harnesses these youth assets and positive peer networks
+  through dialogue, community immersion, diversity, and teamwork, while
+  activating youth to address the critical issues dividing our cities –
+  ultimately contributing to a more just, open, and connected society.
+
+
+  Over the course of 22 Saturdays between January and July, we focus on
+  increasing Big Citizens’ civic knowledge and personal agency. We:
+
+  * Place youth on diverse teams, utilizing a near-peer mentor structure 
+
+  * Address concerns of cultural competency by exposing youth to different
+  groups, perspectives, cultures, and ideas that they may not otherwise have
+  access to
+
+  * Give Big Citizens the space to learn and practice civic leadership skills,
+  such as public speaking, mobilization, information literacy, social media
+  usage, conflict resolution, and team leadership
+
+  * Provide the resources to explore, serve, and reflect on social justice
+  issues
+
+  * Provide a place to implement local solutions to local problems, so that Big
+  Citizens can immediately see how their actions can have a positive impact on
+  the community, setting the stage for future action
+
+  * Complete youth-led service projects (middle school) and six-week externships
+  (high school)
+
+  * Utilize public transit to learn from and volunteer with agencies across the
+  city, witnessing issues first-hand
+
+
+  Partnering with over 50 community-based organizations, Big Citizens will
+  address the following social issues in 2017: Animal Rights, Environmental
+  Sustainability, Food Justice, Homelessness, Immigration, and LGBTQ+ Equality. 
+
+
+  Big Citizen HUB is building a pipeline of social change makers. By engaging
+  young leaders with each other, with LA’s critical issues, and with local
+  agencies working toward solutions, we will help make LA the best place to
+  connect.
 link_newsletter: 'http://eepurl.com/_Ykh1'
 link_volunteer: 'http://www.bigcitizenhub.org/ages19-26/'
 link_donate: 'http://www.bigcitizenhub.org/donate/'

@@ -71,6 +71,9 @@ function createMarkdownFile(writePath, data, data_category) {
         values[index] = values[index].replace(' (please select only if your project has a citywide benefit)', '')
       }
       data[prop] = values
+    } else if (typeof data[prop] === 'string') {
+      data[prop] = String(data[prop]).replace(/\n•\t/g, `
+* `)
     }
     console.log(data[prop])
     // data[prop] = removeJsonFromFieldValue(data[prop])

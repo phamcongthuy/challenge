@@ -21,7 +21,35 @@ project_collaborators: None
 project_applying: '$25,000'
 project_areas:
   - LAUSD
-project_measure: "One of the Art & Global Health Center’s key roles at UCLA is to facilitate research concerning arts-based methods for health communication. We strongly believe in evaluating our programmatic efforts to be able to measure reach and impact.\n\nFor evaluating the proposed digital platform and community-level activities we will design an evaluation survey that centers around quantitative evaluation of numbers served, user demographic information, frequency of use, and components used. We will create a targeted qualitative evaluation using surveys and focus groups to explore how the platform impacts, enhances and improves sexual health education information synthesis and retention.\n\nThrough surveys, focus groups and social media-based feedback we will design ways to measure the following indicators of success: \n•\tWe will gauge interest in users to participate in a future  comprehensive training program for AMP! facilitators to prepare them to mentor, lead, and open up vital conversations concerning sexual health. \n•\tWe will seek evidence of a growing recognition for AMP! as a model program for arts-based HIV/AIDS prevention, stigma reduction, and comprehensive sexual health education for youth in Los Angeles, California and beyond. \n•\tWe will work with community-based partners and school clinics to promote HIV/STI testing and reduce number of HIV and other sexually transmitted infections in Los Angeles communities."
+project_measure: >-
+  One of the Art & Global Health Center’s key roles at UCLA is to facilitate
+  research concerning arts-based methods for health communication. We strongly
+  believe in evaluating our programmatic efforts to be able to measure reach and
+  impact.
+
+
+  For evaluating the proposed digital platform and community-level activities we
+  will design an evaluation survey that centers around quantitative evaluation
+  of numbers served, user demographic information, frequency of use, and
+  components used. We will create a targeted qualitative evaluation using
+  surveys and focus groups to explore how the platform impacts, enhances and
+  improves sexual health education information synthesis and retention.
+
+
+  Through surveys, focus groups and social media-based feedback we will design
+  ways to measure the following indicators of success: 
+
+  * We will gauge interest in users to participate in a future  comprehensive
+  training program for AMP! facilitators to prepare them to mentor, lead, and
+  open up vital conversations concerning sexual health. 
+
+  * We will seek evidence of a growing recognition for AMP! as a model program
+  for arts-based HIV/AIDS prevention, stigma reduction, and comprehensive sexual
+  health education for youth in Los Angeles, California and beyond. 
+
+  * We will work with community-based partners and school clinics to promote
+  HIV/STI testing and reduce number of HIV and other sexually transmitted
+  infections in Los Angeles communities.
 project_proposal_help:
   - 'Money '
   - Publicity/awareness

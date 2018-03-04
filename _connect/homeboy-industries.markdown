@@ -23,7 +23,20 @@ project_applying: '$50,000'
 project_areas:
   - County of Los Angeles
   - Our project has worldwide impact.
-project_measure: "We will consider the Global Homeboy Network a success if we:\n•\tConvene at least 200 individuals from Los Angeles and around the world at the 2017 Global Homeboy Network Gathering; \n•\tCreate materials and web content that will help member organizations develop successful reentry programs and businesses, including a brochure for potential participants and an in-depth handbook detailing Homeboy’s strategies; \n•\tHost 15 technical assistance site visits at Homeboy headquarters in L.A.;\n•\tLearn about how other communities are helping marginalized populations, and evolve our own approach accordingly."
+project_measure: >-
+  We will consider the Global Homeboy Network a success if we:
+
+  * Convene at least 200 individuals from Los Angeles and around the world at
+  the 2017 Global Homeboy Network Gathering; 
+
+  * Create materials and web content that will help member organizations develop
+  successful reentry programs and businesses, including a brochure for potential
+  participants and an in-depth handbook detailing Homeboy’s strategies; 
+
+  * Host 15 technical assistance site visits at Homeboy headquarters in L.A.;
+
+  * Learn about how other communities are helping marginalized populations, and
+  evolve our own approach accordingly.
 project_proposal_help:
   - 'Money '
   - Volunteers

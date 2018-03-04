@@ -79,7 +79,66 @@ project_proposal_impact:
   - Residents receiving coordinated healthcare services
   - Homelessness
   - Mental illness
-project_proposal_best_place: "HHCLA is dedicated to responding to the increasingly complicated health care issues of the Los Angeles area homeless and vulnerable populations. HHCLA does whatever is necessary to help unhoused individuals secure housing and to stay housed. All programing is based on the principles of Harm Reduction and creating a Trauma-Informed Care environment, where participants are treated with respect, no judgement, and recognized as the primary leader in improving their quality of life. By providing a full suite of services for participants— such as behavioral healthcare, health services, housing, syringe exchange, overdose prevention, and an array of supportive services, HHCLA seeks to reduce the impact of homelessness in LA County. Since 1985, over 150,000 homeless men, women, and children have received services from HHCLA leading toward an improved quality of life and recovery from health, mental health and substance use issues.\n\nOver 1,000 individuals have been trained with HHCLA’s LA County Certified Overdose Prevention Program. In 2015 alone, an estimated 1,700 naloxone kits were distributed. An opioid overdose is preventable and reversible with the use of this lifesaving drug! Naloxone, an “opioid antagonist” medication is used to counter the effects of an opioid overdose, from morphine, heroin, or various prescription opiate painkillers.\n\nHHCLA’s underlying objectives are to positively impact the communities of Los Angeles, and:\n\n•\tHelp individuals reduce the harm they are causing to themselves in a nonjudgmental approach\n•\tImprove each Angelino’s quality of life\n•\tContribute in making Los Angeles a safer, healthier, and better place to live\n\nHHCLA utilizes best practices to train individuals and agencies in overdose prevention and on how to do this critical lifesaving work. HHCLA is to the go-to group and its collective expertise is highly effective. HHCLA is in need of new funding streams because in order to do this kind of innovation and work, it is still nonetheless hard to find funding. HHCLA has found that offering such an array of services and not focusing on a more specific one-way approach towards helping others can create a challenge to raise funds to operate in this inclusive manner. HHCLA recognizes first and foremost that the most vulnerable people will die if they are unable to receive such comprehensive aid. Individuals are treated in a “whatever it takes” approach towards ensuring they receive the help they need. \n\nIf fully funded, HHCLA will be able to accomplish the following: \n\n•\tProvide at least 5,000 overdose prevention trainings and kits \n•\tDistribute at least 10,000 naloxone doses (provided in the overdose kit)\n\nAccording to LA County, 1 death could be prevented for every 227 naloxone kits distributed. Be part of curbing this epidemic!"
+project_proposal_best_place: >-
+  HHCLA is dedicated to responding to the increasingly complicated health care
+  issues of the Los Angeles area homeless and vulnerable populations. HHCLA does
+  whatever is necessary to help unhoused individuals secure housing and to stay
+  housed. All programing is based on the principles of Harm Reduction and
+  creating a Trauma-Informed Care environment, where participants are treated
+  with respect, no judgement, and recognized as the primary leader in improving
+  their quality of life. By providing a full suite of services for participants—
+  such as behavioral healthcare, health services, housing, syringe exchange,
+  overdose prevention, and an array of supportive services, HHCLA seeks to
+  reduce the impact of homelessness in LA County. Since 1985, over 150,000
+  homeless men, women, and children have received services from HHCLA leading
+  toward an improved quality of life and recovery from health, mental health and
+  substance use issues.
+
+
+  Over 1,000 individuals have been trained with HHCLA’s LA County Certified
+  Overdose Prevention Program. In 2015 alone, an estimated 1,700 naloxone kits
+  were distributed. An opioid overdose is preventable and reversible with the
+  use of this lifesaving drug! Naloxone, an “opioid antagonist” medication is
+  used to counter the effects of an opioid overdose, from morphine, heroin, or
+  various prescription opiate painkillers.
+
+
+  HHCLA’s underlying objectives are to positively impact the communities of Los
+  Angeles, and:
+
+
+  * Help individuals reduce the harm they are causing to themselves in a
+  nonjudgmental approach
+
+  * Improve each Angelino’s quality of life
+
+  * Contribute in making Los Angeles a safer, healthier, and better place to
+  live
+
+
+  HHCLA utilizes best practices to train individuals and agencies in overdose
+  prevention and on how to do this critical lifesaving work. HHCLA is to the
+  go-to group and its collective expertise is highly effective. HHCLA is in need
+  of new funding streams because in order to do this kind of innovation and
+  work, it is still nonetheless hard to find funding. HHCLA has found that
+  offering such an array of services and not focusing on a more specific one-way
+  approach towards helping others can create a challenge to raise funds to
+  operate in this inclusive manner. HHCLA recognizes first and foremost that the
+  most vulnerable people will die if they are unable to receive such
+  comprehensive aid. Individuals are treated in a “whatever it takes” approach
+  towards ensuring they receive the help they need. 
+
+
+  If fully funded, HHCLA will be able to accomplish the following: 
+
+
+  * Provide at least 5,000 overdose prevention trainings and kits 
+
+  * Distribute at least 10,000 naloxone doses (provided in the overdose kit)
+
+
+  According to LA County, 1 death could be prevented for every 227 naloxone kits
+  distributed. Be part of curbing this epidemic!
 link_newsletter: hhcla.org/contact-us.html
 link_volunteer: hhcla.org/contact-us.html
 link_donate: hhcla.org/fund-the-solution.html

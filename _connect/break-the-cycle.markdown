@@ -20,7 +20,42 @@ project_collaborators: None
 project_applying: '$100,000'
 project_areas:
   - East LA
-project_measure: "The benefit of this project for the entire community is threefold:  Young people will have an opportunity to take REALationships to the streets...They can actively participate in the most current dating abuse campaign and work to mobilize and spread the word through their community.  And they can connect for more enhanced dialogs through the Let’s Be Real high school chapters.  Secondarily, families can use the information for youth organizations, local churches, community centers and schools. Collectively Los Angeles will Break the Cycle taking the new mobilized energy to work with community leaders to create additional permanent spaces where youth are empowered to take action and change their norms of relationships.  The following metrics will be used to measure success:\n\n•\t# of visits to the mobile technology hubs\n•\t# of sign ups for Let’s Be Real\n•\t# of sign ups for Love Is Not Abuse\n•\tTime connected to Wi-Fi\n•\t75% of participants will identify healthy relationships behaviors\n•\t75% of care takers will feel comfortable speaking to their teens about  healthy relationships\n•\t80% of young people will feel comfortable speaking to their friends about healthy relationships\n•\t5 community partners will be engaged to take action and prevent dating abuse (host a mobile technology hub, host a Let’s Be Real or Love Is Not Abuse chapter) \n•\t2 stores will be engaged to take action and prevent dating abuse (host a mobile technology hub, host a chapter)"
+project_measure: >-
+  The benefit of this project for the entire community is threefold:  Young
+  people will have an opportunity to take REALationships to the streets...They
+  can actively participate in the most current dating abuse campaign and work to
+  mobilize and spread the word through their community.  And they can connect
+  for more enhanced dialogs through the Let’s Be Real high school chapters. 
+  Secondarily, families can use the information for youth organizations, local
+  churches, community centers and schools. Collectively Los Angeles will Break
+  the Cycle taking the new mobilized energy to work with community leaders to
+  create additional permanent spaces where youth are empowered to take action
+  and change their norms of relationships.  The following metrics will be used
+  to measure success:
+
+
+  * # of visits to the mobile technology hubs
+
+  * # of sign ups for Let’s Be Real
+
+  * # of sign ups for Love Is Not Abuse
+
+  * Time connected to Wi-Fi
+
+  * 75% of participants will identify healthy relationships behaviors
+
+  * 75% of care takers will feel comfortable speaking to their teens about 
+  healthy relationships
+
+  * 80% of young people will feel comfortable speaking to their friends about
+  healthy relationships
+
+  * 5 community partners will be engaged to take action and prevent dating abuse
+  (host a mobile technology hub, host a Let’s Be Real or Love Is Not Abuse
+  chapter) 
+
+  * 2 stores will be engaged to take action and prevent dating abuse (host a
+  mobile technology hub, host a chapter)
 project_proposal_help:
   - 'Money '
   - Volunteers

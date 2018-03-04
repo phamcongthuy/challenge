@@ -28,7 +28,27 @@ project_collaborators: >-
 project_applying: '$25,000'
 project_areas:
   - County of Los Angeles
-project_measure: "It is important to look at the impact of the ads through three different lenses, aligned with FosterMore’s goals.  Each of the three goals has a metric to measure success.\n•\tRecruitment of Foster Parents: The number of referrals made to LA County Foster Family Agencies is a clear metric for success and evaluation.  The cost/referral allows for comparison with the efforts of other organizations to reach the same demographic.\n•\tReintroducing Foster Youth to the Public—The overall number of individuals who see the ads and watched the films is a strong metric for success because the ads are purchased to reach a specific demographic of potential foster parents.\n•\tLong Term Culture Shift: Based on previous research of our partner organizations that states that the average foster parent spends two years in the prospecting pipeline, we may be able to project interest starting in 18-24 months, assuming appropriate follow up is conducted.  It is our belief that a periodic investment of advertising (targeting the same demographic) could yield a conversion rate of 0.005% from those who view the ad."
+project_measure: >-
+  It is important to look at the impact of the ads through three different
+  lenses, aligned with FosterMore’s goals.  Each of the three goals has a metric
+  to measure success.
+
+  * Recruitment of Foster Parents: The number of referrals made to LA County
+  Foster Family Agencies is a clear metric for success and evaluation.  The
+  cost/referral allows for comparison with the efforts of other organizations to
+  reach the same demographic.
+
+  * Reintroducing Foster Youth to the Public—The overall number of individuals
+  who see the ads and watched the films is a strong metric for success because
+  the ads are purchased to reach a specific demographic of potential foster
+  parents.
+
+  * Long Term Culture Shift: Based on previous research of our partner
+  organizations that states that the average foster parent spends two years in
+  the prospecting pipeline, we may be able to project interest starting in 18-24
+  months, assuming appropriate follow up is conducted.  It is our belief that a
+  periodic investment of advertising (targeting the same demographic) could
+  yield a conversion rate of 0.005% from those who view the ad.
 project_proposal_help:
   - Publicity/awareness
   - Community outreach

@@ -83,7 +83,69 @@ project_proposal_impact:
   - District-wide graduation rates
   - Student education pipeline
   - Youth unemployment and underemployment
-project_proposal_best_place: "For the 2015 – 2016 school year:\n•\t95% of BUILD students graduated from high school on time.  In contrast, the national average rate of on-time high school graduation is 81%, and the national average rate of on-time high school graduation for low-income students is 73%.\n•\t98% of our students were accepted to a postsecondary option, and of those, 82% were accepted to four-year colleges.\n•\t69% of BUILD students who graduated in 2015 enrolled in college the Fall immediately following their high school graduation.  In contrast, the national average college enrollment rate is 66%, and the national average rate for BUILD’s target population (low-income students of color from urban high schools) is 52%.\n\nBUILD’s Plan for Los Angeles\nBeginning with the 2017-2018 school year, BUILD Los Angeles will serve 600 students in the 9th grade.  Our initial geographic focus will be on the region centered in Downtown Los Angeles and extending several miles into East Los Angeles.  BUILD Los Angeles will work with traditional comprehensive public high schools, charter schools, and pilot schools.  BUILD’s national Research and Evaluation Team will be able to study and learn how the BUILD model works in each of those three settings.  \n\nIn succeeding years, BUILD Los Angeles will continue to add a new 9th grade cohort of approximately 600 students each year.  By the 2020-2021 school year, BUILD will have grown to serve approximately 2,400 students.  Seed grants invested now will quickly bear fruit in the form of a highly impactful regional team of 30 BUILDers serving 2,400 students, 25 schools and 500 mentors.  \n\nOutcomes in Los Angeles\nMost importantly, BUILD has a demonstrated record of ensuring high school graduation and college enrollment among low-income high school students.  Of BUILD students nationally in 2015-2016, 95% graduated high school on time and 69% of those graduates enrolled in a post-secondary institution.  Both of those figures are much higher than the national cohort’s rates of 73% graduation and 52% enrollment.\n\nAssuming BUILD Los Angeles matches these results, that means over the next five years:\n\nAn additional 528 students who graduate high school instead of dropping out (2,280 of 2,400 BUILD Students graduate vs. 1,752 students nationally graduate)\n\nAn additional 408 students who enroll in post-secondary institutions (1,656 of 2,400 BUILD Students enroll vs. 1,248 students nationally enroll)\n\nWith its first class of 9th graders, BUILD Los Angeles will be responsible for an additional 132 high school graduates and 102 college enrollees in Los Angeles."
+project_proposal_best_place: >-
+  For the 2015 – 2016 school year:
+
+  * 95% of BUILD students graduated from high school on time.  In contrast, the
+  national average rate of on-time high school graduation is 81%, and the
+  national average rate of on-time high school graduation for low-income
+  students is 73%.
+
+  * 98% of our students were accepted to a postsecondary option, and of those,
+  82% were accepted to four-year colleges.
+
+  * 69% of BUILD students who graduated in 2015 enrolled in college the Fall
+  immediately following their high school graduation.  In contrast, the national
+  average college enrollment rate is 66%, and the national average rate for
+  BUILD’s target population (low-income students of color from urban high
+  schools) is 52%.
+
+
+  BUILD’s Plan for Los Angeles
+
+  Beginning with the 2017-2018 school year, BUILD Los Angeles will serve 600
+  students in the 9th grade.  Our initial geographic focus will be on the region
+  centered in Downtown Los Angeles and extending several miles into East Los
+  Angeles.  BUILD Los Angeles will work with traditional comprehensive public
+  high schools, charter schools, and pilot schools.  BUILD’s national Research
+  and Evaluation Team will be able to study and learn how the BUILD model works
+  in each of those three settings.  
+
+
+  In succeeding years, BUILD Los Angeles will continue to add a new 9th grade
+  cohort of approximately 600 students each year.  By the 2020-2021 school year,
+  BUILD will have grown to serve approximately 2,400 students.  Seed grants
+  invested now will quickly bear fruit in the form of a highly impactful
+  regional team of 30 BUILDers serving 2,400 students, 25 schools and 500
+  mentors.  
+
+
+  Outcomes in Los Angeles
+
+  Most importantly, BUILD has a demonstrated record of ensuring high school
+  graduation and college enrollment among low-income high school students.  Of
+  BUILD students nationally in 2015-2016, 95% graduated high school on time and
+  69% of those graduates enrolled in a post-secondary institution.  Both of
+  those figures are much higher than the national cohort’s rates of 73%
+  graduation and 52% enrollment.
+
+
+  Assuming BUILD Los Angeles matches these results, that means over the next
+  five years:
+
+
+  An additional 528 students who graduate high school instead of dropping out
+  (2,280 of 2,400 BUILD Students graduate vs. 1,752 students nationally
+  graduate)
+
+
+  An additional 408 students who enroll in post-secondary institutions (1,656 of
+  2,400 BUILD Students enroll vs. 1,248 students nationally enroll)
+
+
+  With its first class of 9th graders, BUILD Los Angeles will be responsible for
+  an additional 132 high school graduates and 102 college enrollees in Los
+  Angeles.
 link_newsletter: 'http://build.org/join-us/contact-us/'
 link_volunteer: 'http://build.org/join-us/volunteer/'
 link_donate: 'https://build.org/join-us/donate/'

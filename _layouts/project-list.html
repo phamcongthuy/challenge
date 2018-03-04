@@ -8,7 +8,7 @@ layout: default
   <div class="caption" style="padding-top: 0; padding-bottom: 0;">
     <div>
       <!-- <h1 style="color: var(--primary-color, rgb(237, 59, 136))">The <strong>proposals</strong><br />that will shape LA</h1> -->
-      <h1 style="color: var(--primary-color, rgb(237, 59, 136))">The <strong>proposals</strong> that will shape how we <strong>{{ page.category }}</strong></h1>
+      <h1 style="color: var(--primary-color, rgb(237, 59, 136))">The <strong>ideas</strong> that will shape how we <strong>{{ page.category }}</strong></h1>
       {% if site.phase >= 4 %}
       <!--
       <form action="/proposals/" method="get" style="text-align: center; margin-top: 3em;">
@@ -97,7 +97,7 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 {% assign data_collection = site.collections | where: "label", page.category | first %}
 {% assign data_list = data_collection.docs %}
 
-<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> entries in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> projects in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
 
 </div>
 
@@ -123,9 +123,11 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 
 {% endif %}
 
-<section class="goals" id="goals">
+<section class="goals" style="margin-bottom: 4.5em">
 
-<div class="navigation"><div markdown="1">
+<div class="navigation"><div>
+
+<h2>More categories</h2>
 
 <ul class="action" style="max-width: none;">
   <li class="blueberry"><a href="/learn/">Learn</a></li>
@@ -135,4 +137,6 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
   <li class="lime"><a href="/live/">Live</a></li>
 </ul>
 
-</div></section>
+</div></div>
+
+</section>

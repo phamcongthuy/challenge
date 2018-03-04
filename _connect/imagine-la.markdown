@@ -47,7 +47,51 @@ project_proposal_impact:
   - >-
     Transit-accessible housing and employment (the share of housing units and
     percentage of jobs that are located within a half-mile of transit)
-project_proposal_best_place: "According to polls, the largest issue currently plaguing LA is homelessness. Our project answers the question, “How can I personally be involved and help solve this issue?”\n\nOur Family Empowerment and Mentorship model connects volunteers and formerly homeless families to build relationships, and solid foundations of skills and knowledge. Imagine LA’s professional staff of Family Team Managers work with families to set goals, access private and public resources, and guides volunteers to offer one-on-one mentorship to each member of the family.\n\nVolunteer mentors receive training and are coached to provide one-on-one mentorship in areas such as budgeting, tutoring, career development, school support, wellness and more. Our model creates a safe place to connect, engage, and empower people from different ethnic, cultural and socioeconomic backgrounds.\n\nThe connections between the families and volunteer mentors have a profound impact:\n•\t100% of graduated families maintain housing - eliminating the cycle (and costs) of repeat homelessness. One episode of homelessness can the cost of family homelessness on society can range from $49,604 to $169,4311 per year (Berger Institute, 2013).\n•\tParents are on career paths and are able to increase their incomes. On average Imagine LA families increase their earned income by 162%!  \n•\tFamilies learn positive parenting skills and are able to provide stable homes, which reduces the likelihood (and costs) of a child being placed in foster care.  One child in foster care costs nearly $30,000 annually.\n•\t100% of youth participants are on track to finish high school and attend college or trade tech (our first family’s eldest son raised by a single mother graduated from Sacramento State University this past June).\n\nThrough the support of LA2050, Imagine LA will supercharge its volunteer recruitment efforts through the creation of an impelling standalone video, volunteer mobile app, and savvy staff to execute our communications strategy. This will help us achieve our 2017 goal to work with 75-100 families and recruit, train and guide 400+ volunteers."
+project_proposal_best_place: >-
+  According to polls, the largest issue currently plaguing LA is homelessness.
+  Our project answers the question, “How can I personally be involved and help
+  solve this issue?”
+
+
+  Our Family Empowerment and Mentorship model connects volunteers and formerly
+  homeless families to build relationships, and solid foundations of skills and
+  knowledge. Imagine LA’s professional staff of Family Team Managers work with
+  families to set goals, access private and public resources, and guides
+  volunteers to offer one-on-one mentorship to each member of the family.
+
+
+  Volunteer mentors receive training and are coached to provide one-on-one
+  mentorship in areas such as budgeting, tutoring, career development, school
+  support, wellness and more. Our model creates a safe place to connect, engage,
+  and empower people from different ethnic, cultural and socioeconomic
+  backgrounds.
+
+
+  The connections between the families and volunteer mentors have a profound
+  impact:
+
+  * 100% of graduated families maintain housing - eliminating the cycle (and
+  costs) of repeat homelessness. One episode of homelessness can the cost of
+  family homelessness on society can range from $49,604 to $169,4311 per year
+  (Berger Institute, 2013).
+
+  * Parents are on career paths and are able to increase their incomes. On
+  average Imagine LA families increase their earned income by 162%!  
+
+  * Families learn positive parenting skills and are able to provide stable
+  homes, which reduces the likelihood (and costs) of a child being placed in
+  foster care.  One child in foster care costs nearly $30,000 annually.
+
+  * 100% of youth participants are on track to finish high school and attend
+  college or trade tech (our first family’s eldest son raised by a single mother
+  graduated from Sacramento State University this past June).
+
+
+  Through the support of LA2050, Imagine LA will supercharge its volunteer
+  recruitment efforts through the creation of an impelling standalone video,
+  volunteer mobile app, and savvy staff to execute our communications strategy.
+  This will help us achieve our 2017 goal to work with 75-100 families and
+  recruit, train and guide 400+ volunteers.
 link_newsletter: 'http://www.imaginela.org/join-our-mailing-list/'
 link_volunteer: 'http://www.imaginela.org/become-a-volunteer/'
 link_donate: 'http://www.imaginela.org/donate/'

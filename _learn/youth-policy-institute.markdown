@@ -32,7 +32,34 @@ project_areas:
   - Central LA
   - San Fernando Valley
   - LAUSD
-project_measure: "Overall outcomes associated with our project include the following:\n•\t1,000 low-income students utilize the College Choice Tool and receive services from YPI College Ambassadors or Advisors (approximately 50% 11th graders and 50% 12th graders)\n•\t252 students will enroll in college (LA2050 college matriculation metric) \n\nEach College Ambassador works with 40 students to ensure they graduate from high school and develop a path for postsecondary success. Metrics used to ensure that the above outcomes are met include the following:\n\n•\tEach student participates in College Knowledge workshops to understand their post-secondary options;\n•\tEach student utilizes College Choice Tool technology to explore options that are the best fit for their academic achievement and interests;\n•\tEach enrolled student develops a post-secondary plan with goals, timeline, and specific steps, ensuring they are on track to enter into their selected post-secondary option after they graduate from high school; and\n•\tEach student participates in small group and individual advising to complete college and financial aid applications, personal statements, and enrollment paperwork."
+project_measure: >-
+  Overall outcomes associated with our project include the following:
+
+  * 1,000 low-income students utilize the College Choice Tool and receive
+  services from YPI College Ambassadors or Advisors (approximately 50% 11th
+  graders and 50% 12th graders)
+
+  * 252 students will enroll in college (LA2050 college matriculation metric) 
+
+
+  Each College Ambassador works with 40 students to ensure they graduate from
+  high school and develop a path for postsecondary success. Metrics used to
+  ensure that the above outcomes are met include the following:
+
+
+  * Each student participates in College Knowledge workshops to understand their
+  post-secondary options;
+
+  * Each student utilizes College Choice Tool technology to explore options that
+  are the best fit for their academic achievement and interests;
+
+  * Each enrolled student develops a post-secondary plan with goals, timeline,
+  and specific steps, ensuring they are on track to enter into their selected
+  post-secondary option after they graduate from high school; and
+
+  * Each student participates in small group and individual advising to complete
+  college and financial aid applications, personal statements, and enrollment
+  paperwork.
 project_proposal_help:
   - 'Money '
   - Volunteers

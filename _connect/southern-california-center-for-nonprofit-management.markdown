@@ -32,7 +32,40 @@ project_areas:
   - Antelope Valley
   - County of Los Angeles
   - City of Los Angeles
-project_measure: "The Center for Nonprofit Management aims to: 1) provide networking and collaborative opportunities for nonprofit leaders and social innovators across Los Angeles; and 2) provide peer emotional and professional support by incubating new venture partnerships through small group sessions.  \nWe will evaluate the program’s success based on the following:\n1. The number of participants who have not participated in such a convening before and found it valuable to their operations; \n2. The number of new collaborations that emerge after the program is completed, and what those collaborations look like; and, \n3. Qualitative evaluation results that show how the small peer groups helped provide peer support.\nSpecific questions to be asked include:\n•\tDid you develop strategic partnerships to advance the work of your organization?\n•\tDid you obtain support and wisdom from peers or a network?\n•\tNumber of organizations and/or innovators who you plan to work with now or in the future \n•\tNumber of times your small peer group met and schedule of future meetings\n\nWe will conduct pre and post program surveys before and after the program to determine effectiveness of the large scale convenings and the small group incubator component.  We will also measure our success in facilitating new partnerships and collaborations between the participants."
+project_measure: >-
+  The Center for Nonprofit Management aims to: 1) provide networking and
+  collaborative opportunities for nonprofit leaders and social innovators across
+  Los Angeles; and 2) provide peer emotional and professional support by
+  incubating new venture partnerships through small group sessions.  
+
+  We will evaluate the program’s success based on the following:
+
+  1. The number of participants who have not participated in such a convening
+  before and found it valuable to their operations; 
+
+  2. The number of new collaborations that emerge after the program is
+  completed, and what those collaborations look like; and, 
+
+  3. Qualitative evaluation results that show how the small peer groups helped
+  provide peer support.
+
+  Specific questions to be asked include:
+
+  * Did you develop strategic partnerships to advance the work of your
+  organization?
+
+  * Did you obtain support and wisdom from peers or a network?
+
+  * Number of organizations and/or innovators who you plan to work with now or
+  in the future 
+
+  * Number of times your small peer group met and schedule of future meetings
+
+
+  We will conduct pre and post program surveys before and after the program to
+  determine effectiveness of the large scale convenings and the small group
+  incubator component.  We will also measure our success in facilitating new
+  partnerships and collaborations between the participants.
 project_proposal_help:
   - 'Money '
   - Volunteers

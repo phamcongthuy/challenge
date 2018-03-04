@@ -27,7 +27,43 @@ project_areas:
   - Antelope Valley
   - County of Los Angeles
   - City of Los Angeles
-project_measure: "In just two years, ASOH has created 125 homes and has placed 185 youth in beds.  We are currently creating a minimum of two homes per week, 130 homes over the next 12 months.  We are powered by 3,000 volunteers giving over 300,000 hours annually.  \n\nASOH documents the effects of the home creation experience from beginning to end in multiple modalities.  A pre-assessment  is administered & again 6 months and then a year after the home creation. \n\nIn 2 years all youth are still in homes, are on an upward trajectory in terms of career, education & emotional well being.\n\nThere are several formal psychological assessments that ASOH will be integrating into a more elaborate assessment process. These instruments measure areas that are important for these youth for their recovery from trauma and their life-long success in life. These are:\n•\tThe Emotional Quotient Test – measuring all aspects of emotional intelligence\n•\tThe Trauma Symptom Inventory\n•\tThe Tennessee Self-Concept Scale\n•\tThe Behavioral Rating Inventory for Executive Function (BRIEF)\n\nAdditionally ASOH is inviting outside assessments that might affect policy . For example APS Fellow Eldar Shafir of Princeton University published in Vol. 341 of Science, that individuals functioned 10 IQ points higher when they were not living in scarcity. The National Scientific Council Report attributes substandard housing and separation from parent(s), among the main factors that are toxic to the developing brain."
+project_measure: >-
+  In just two years, ASOH has created 125 homes and has placed 185 youth in
+  beds.  We are currently creating a minimum of two homes per week, 130 homes
+  over the next 12 months.  We are powered by 3,000 volunteers giving over
+  300,000 hours annually.  
+
+
+  ASOH documents the effects of the home creation experience from beginning to
+  end in multiple modalities.  A pre-assessment  is administered & again 6
+  months and then a year after the home creation. 
+
+
+  In 2 years all youth are still in homes, are on an upward trajectory in terms
+  of career, education & emotional well being.
+
+
+  There are several formal psychological assessments that ASOH will be
+  integrating into a more elaborate assessment process. These instruments
+  measure areas that are important for these youth for their recovery from
+  trauma and their life-long success in life. These are:
+
+  * The Emotional Quotient Test – measuring all aspects of emotional
+  intelligence
+
+  * The Trauma Symptom Inventory
+
+  * The Tennessee Self-Concept Scale
+
+  * The Behavioral Rating Inventory for Executive Function (BRIEF)
+
+
+  Additionally ASOH is inviting outside assessments that might affect policy .
+  For example APS Fellow Eldar Shafir of Princeton University published in Vol.
+  341 of Science, that individuals functioned 10 IQ points higher when they were
+  not living in scarcity. The National Scientific Council Report attributes
+  substandard housing and separation from parent(s), among the main factors that
+  are toxic to the developing brain.
 project_proposal_help:
   - 'Money '
   - Support of the city

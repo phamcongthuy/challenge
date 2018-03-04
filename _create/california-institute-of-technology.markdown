@@ -29,7 +29,39 @@ project_areas:
   - City of Los Angeles
   - LAUSD
   - LADWP and SCE's rate paying territories
-project_measure: "The goals of the project are to establish a pilot program that supports cleantech startups developing new energy and water efficiency technology, and introduces these new technologies into LAUSD operations faster and more efficiently, to provide strategic funding for these pilot trials to foster successful outcomes, and to develop a learning program for high school students who wish to explore becoming an cleantech entrepreneur.\nTo measure our success Cleantech 2 Edtech will track the following: \n•Number of cleantech companies who engage \n•New technologies tested and their areas of application\n•Percent of tested technologies that could be adopted within the school system\n•\tSchool Engagement: number and staff\n•\tStudent Engagement: number participating, and applicants\n•Company satisfaction with the program and percentage that will continue beyond the pilot phase\n•Educational institution satisfaction\n•Potential to scale the pilot and apply to the rest of the school system\n•\tUtility interest in expanding the program \n•Rocket Fund impact: new funding opportunities for participating companies and engagement with new customers\n•Energy and water savings from piloted technologies"
+project_measure: >-
+  The goals of the project are to establish a pilot program that supports
+  cleantech startups developing new energy and water efficiency technology, and
+  introduces these new technologies into LAUSD operations faster and more
+  efficiently, to provide strategic funding for these pilot trials to foster
+  successful outcomes, and to develop a learning program for high school
+  students who wish to explore becoming an cleantech entrepreneur.
+
+  To measure our success Cleantech 2 Edtech will track the following: 
+
+  •Number of cleantech companies who engage 
+
+  •New technologies tested and their areas of application
+
+  •Percent of tested technologies that could be adopted within the school system
+
+  * School Engagement: number and staff
+
+  * Student Engagement: number participating, and applicants
+
+  •Company satisfaction with the program and percentage that will continue
+  beyond the pilot phase
+
+  •Educational institution satisfaction
+
+  •Potential to scale the pilot and apply to the rest of the school system
+
+  * Utility interest in expanding the program 
+
+  •Rocket Fund impact: new funding opportunities for participating companies and
+  engagement with new customers
+
+  •Energy and water savings from piloted technologies
 project_proposal_help:
   - 'Money '
   - Volunteers

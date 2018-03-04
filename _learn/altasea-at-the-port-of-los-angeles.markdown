@@ -26,7 +26,38 @@ project_areas:
   - South Bay
   - Gateway Cities
   - LAUSD
-project_measure: "Our long term measure of defining success will be that students grow into champions for a sustainable ocean and planet.  In addition, our goal is that students increase their participation in STEM classes in middle and high school, attending college, and ultimately choose careers in STEM sectors. AltaSea is in the process of developing a tracking system that will allow us to keep students engaged with the network.  AltaSea’s 2016 partnership with OET is being independently evaluated.  \n\nCurrently, the AltaSea network relies on internal evaluations to measure our short term successes. Some indicators of success are:\n\n•\tWhen youth discover abilities they did not know they possess and realize they are capable of achieving anything in life through hard work and determination.\n•\tWhen at-risk students realize what they are learning in the classroom has 'real world' significance and opportunities for a 'better life' abound at shore and at sea.\n•\tWhen students make an emotional connection to learning through exploring the ocean and develop a love for the ocean and life-long learning.\n•\tWhen under-performing students' grades improve and students stay in school and pursue STEM-related careers as a result of their participation in our programs or Youth Crew.\n•\tWhen our community becomes more aware of the preciousness of our local waters and threats to marine life, and develop daily 'good stewardship' habits to preserve and conserve the oceans entrusted to us."
+project_measure: >-
+  Our long term measure of defining success will be that students grow into
+  champions for a sustainable ocean and planet.  In addition, our goal is that
+  students increase their participation in STEM classes in middle and high
+  school, attending college, and ultimately choose careers in STEM sectors.
+  AltaSea is in the process of developing a tracking system that will allow us
+  to keep students engaged with the network.  AltaSea’s 2016 partnership with
+  OET is being independently evaluated.  
+
+
+  Currently, the AltaSea network relies on internal evaluations to measure our
+  short term successes. Some indicators of success are:
+
+
+  * When youth discover abilities they did not know they possess and realize
+  they are capable of achieving anything in life through hard work and
+  determination.
+
+  * When at-risk students realize what they are learning in the classroom has
+  'real world' significance and opportunities for a 'better life' abound at
+  shore and at sea.
+
+  * When students make an emotional connection to learning through exploring the
+  ocean and develop a love for the ocean and life-long learning.
+
+  * When under-performing students' grades improve and students stay in school
+  and pursue STEM-related careers as a result of their participation in our
+  programs or Youth Crew.
+
+  * When our community becomes more aware of the preciousness of our local
+  waters and threats to marine life, and develop daily 'good stewardship' habits
+  to preserve and conserve the oceans entrusted to us.
 project_proposal_help:
   - 'Money '
   - Volunteers
