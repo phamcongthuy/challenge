@@ -1,5 +1,6 @@
 ---
 layout: default
+main_class: standard-layout
 ---
 
 <div style="margin-top: 3em"></div>
@@ -12,7 +13,7 @@ layout: default
 -->
 
 <style>
-.breadcrumbs {
+/*.breadcrumbs {
   background: rgba(0, 0, 0, 0.05);
   display: flex;
   max-width: none;
@@ -32,7 +33,7 @@ layout: default
 .breadcrumbs .category {
   background: rgb(6, 179, 188);
   color: white;
-}
+}*/
 </style>
 
 
@@ -61,45 +62,57 @@ layout: default
   .proposal-introduction h2,
   .proposal-introduction h3,
   .proposal-introduction p {
-    max-width: none;
+    /*max-width: none;*/
+    margin-left: 0;
   }
 
   .proposal-introduction > div:first-child {
-    grid-column: 1/3;
-      align-self: end;
+    grid-column: 2/4;
+    grid-row: 1/2;
   }
   .proposal-introduction > div:first-child > p:first-child {
     margin-top: 0;
     margin-left: 0;
-    max-width: none;
+    /*max-width: none;*/
     color: var(--primary-color, inherit);
     font-weight: 600;
   }
   .proposal-introduction .links-more {
     margin-top: 3em;
+    grid-column: 2/4;
+    grid-row: 3/4;
   }
-  @media (min-width: 75em) {
+  @media (min-width: 70em) { /* @wide-enough-for-header-grid */
     .proposal-introduction {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: min-content auto;
-      grid-column-gap: 6em;
+      grid-column-gap: 3em;
       grid-row-gap: 0;
     }
-    .proposal-description {
-      grid-column: 1/3;
+/*    .proposal-description {
+      grid-column: 2/4;
       margin-left: 0;
       margin-top: 0;
+      grid-row: 2/3;
+    }*/
+    .links {
+       grid-column: 1/2;
     }
     .links h3 {
+      margin-top: 0;
       text-align: left !important;
     }
     .links dl {
       margin-left: 0 !important;
     }
+    .proposal-introduction .links-more {
+      margin-top: 0;
+      grid-column: 2/4;
+    }
     .proposal-introduction figure {
-      grid-row: 1/4;
-      grid-column: 3/5;
+      grid-row: 1/2;
+      grid-column: 1/2;
       margin: 0;
       height: 100%;
       min-height: 25vw;
@@ -131,12 +144,16 @@ layout: default
       position: relative !important;
     }
 
+/*    .proposal-introduction hr {
+      margin-top: 2.25em;
+      margin-bottom: 1.5em;
+    }*/
 
-    .proposal-introduction hr {
+/*    .proposal-introduction hr {
       grid-row: 5/6;
-    }
-    .proposal-introduction .proposal-answers {
-      grid-column: 1/4;
+    }*/
+/*    .proposal-introduction .proposal-answers {
+      grid-column: 2/4;
       grid-row: 6/7;
     }
     .proposal-introduction .proposal-answers h2:first-child {
@@ -144,24 +161,20 @@ layout: default
     }
     .proposal-introduction .proposal-answers > * {
       margin-left: 0;
-    }
-    .proposal-introduction .links-more {
+    }*/
+/*    .proposal-introduction .links-more h3:first-child {
       margin-top: 0;
-      grid-column: 4/5;
-    }
-    .proposal-introduction .links-more h3:first-child {
-      margin-top: 0;
-    }
-    .proposal-introduction .links h3 {
+    }*/
+/*    .proposal-introduction .links h3 {
       margin-bottom: 0;
-    }
-    .proposal-introduction .links p.action,
+    }*/
+/*    .proposal-introduction .links p.action,
     .proposal-introduction .links ul.action {
       padding-top: 0.25em;
-    }
-    .proposal-introduction .links p.action a {
+    }*/
+/*    .proposal-introduction .links p.action a {
       display: table;
-    }
+    }*/
 /*    .proposal-answers {
       margin-left: 4.5vw;
     }
@@ -177,7 +190,7 @@ layout: default
       margin-left: -6vw;
     }
   }*/
-  @media (min-width: 900em) {
+/*  @media (min-width: 900em) {
     .proposal-introduction {
       margin-top: 4.5em;
       margin-left: 3em;
@@ -187,7 +200,7 @@ layout: default
     .proposal-introduction .proposal-answers {
       grid-column: 2/4;
     }
-  }
+  }*/
 </style>
 
 <section class="proposal-introduction" style="grid-column: 1/4">
@@ -212,7 +225,9 @@ layout: default
 {% else %}, Collaboration
 {% endif %}{% endif %}</p>
 
-
+<p>
+  {{ page.project_description }}
+</p>
 
 
 <!-- <dl>
@@ -243,45 +258,37 @@ layout: default
 </div>
 </figure>
 
-<p class="proposal-description">
-  {{ page.project_description }}
-</p>
+
+
+<hr />
+
 
 <!-- TODO: Handle empty data or words like “N/A” or “None” -->
 {% if page.link_newsletter or page.link_donate or page.link_volunteer %}
 
-<div class="links" markdown="1" style="grid-column: 1/3; align-self: end">
-<h3 style="max-width: none; text-transform: uppercase;">Love this idea?</h3>
-</div>
+<div class="links">
+<h3>Love this idea?</h3>
 
-{% if page.link_newsletter %}
-<div class="links" markdown="1" style="grid-column: 1/3">
-<p class="action">
-  <a href="{{ page.link_newsletter }}">Stay updated on this activation</a>
-</p>
-</div>
-{% endif %}
-
-<div class="links" markdown="1" style="grid-column: 3/5">
-
-{% if page.link_donate or page.link_volunteer %}
 <ul class="action" style="max-width: none;">
+  {% if page.link_newsletter %}
+  <li><a href="{{ page.link_newsletter }}">Stay updated on this activation</a></li>
+  {% endif %}
+
   {% if page.link_donate %}
   <li><a href="{{ page.link_donate }}">Donate</a></li>
   {% endif %}
+
   {% if page.link_volunteer %}
   <li><a href="{{ page.link_volunteer }}">Volunteer</a></li>
   {% endif %}
 </ul>
-{% endif %}
-
-{% endif %}
-
 </div>
+
+{% endif %}
 
 <div class="links links-more" markdown="1">
 
-<h3 style="max-width: none; text-transform: uppercase;">Learn More</h3>
+<h3>Learn more</h3>
 
 <dl>
 
@@ -370,17 +377,15 @@ layout: default
   }
   .links dl {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr auto 1fr;
     grid-gap: 0.75em;
   }
   .links dt {
     margin-top: 0;
-    grid-column: 1/2;
     justify-self: end;
     text-align: right;
   }
   .links dd {
-    grid-column: 2/3;
   }
 
 
@@ -443,11 +448,10 @@ layout: default
     .links ul.action {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      /*justify-content: center;*/
     }
     .links ul.action li {
       flex-grow: 1;
-      flex-basis: 7em;
     }
   }
 </style>
@@ -508,7 +512,7 @@ layout: default
   .has-icon .credit {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     background: white;
     background: rgba(255, 255, 255, 0.75);
     color: black;
@@ -737,7 +741,7 @@ Non-profit
 <p>Using cutting-edge blue technology and state of the art ocean research, AltaSea’s STEM network provides ocean-based programs to middle school students at the LA Waterfront. Through hands-on exploration of the ocean, students will be empowered to be part of the solution to the planet’s sustainability challenges and ultimately to see science/STEM careers as an option. Our long term goal is to motivate our youth to be 21st century champions for a sustainable ocean.</p>
 -->
 
-<div class="proposal-answers">
+</section><!-- /.proposal-introduction -->
 
 <h2>Describe your organization</h2>
 {{ page.organization_activity | markdownify }}
@@ -771,10 +775,6 @@ Non-profit
   <li>{{ help }}</li>
   {% endfor %}
 </ul>
-
-</div><!-- /.proposal-answers -->
-
-</section><!-- /.proposal-introduction -->
 
 <!--
 <hr />

@@ -157,6 +157,9 @@
       }
       .standard-layout > p,
       .standard-layout > p.action,
+      .standard-layout > dl,
+      .standard-layout > table,
+      .standard-layout > ol,
       .standard-layout > ul {
         margin: 0;
         grid-column: 2 / 3;
