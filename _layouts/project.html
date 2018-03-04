@@ -79,8 +79,7 @@ main_class: standard-layout
   }
   .proposal-introduction .links-more {
     margin-top: 3em;
-    grid-column: 2/4;
-    grid-row: 3/4;
+    grid-column: 1/2;
   }
   @media (min-width: 70em) { /* @wide-enough-for-header-grid */
     .proposal-introduction {
@@ -99,16 +98,30 @@ main_class: standard-layout
     .links {
        grid-column: 1/2;
     }
+    .links-action {
+       grid-column: 1/-1;
+    }
+/*    .links-action ul.action {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 3em;
+    }*/
     .links h3 {
-      margin-top: 0;
+      /*margin-top: 0;*/
       text-align: left !important;
+    }
+    .links h3:first-child {
+      margin-top: 3rem;
+    }
+    .links-action h3:first-child {
+      margin-top: 0;
     }
     .links dl {
       margin-left: 0 !important;
     }
     .proposal-introduction .links-more {
       margin-top: 0;
-      grid-column: 2/4;
+      grid-column: 1/2;
     }
     .proposal-introduction figure {
       grid-row: 1/2;
@@ -143,6 +156,17 @@ main_class: standard-layout
     figure > div[data-aspect-ratio] a.has-icon {
       position: relative !important;
     }
+
+    .proposal-introduction .proposal-answers {
+     /* grid-row: 2/4;*/
+      grid-column: 2/4;
+    }
+/*    .proposal-introduction .proposal-answers h2:first-child {
+      margin-top: 0;
+    }*/
+/*    .proposal-introduction .proposal-answers h2 {
+      margin-top: 0;
+    }*/
 
 /*    .proposal-introduction hr {
       margin-top: 2.25em;
@@ -260,13 +284,10 @@ main_class: standard-layout
 
 
 
-<hr />
-
-
 <!-- TODO: Handle empty data or words like “N/A” or “None” -->
 {% if page.link_newsletter or page.link_donate or page.link_volunteer %}
 
-<div class="links">
+<div class="links links-action">
 <h3>Love this idea?</h3>
 
 <ul class="action" style="max-width: none;">
@@ -286,7 +307,10 @@ main_class: standard-layout
 
 {% endif %}
 
-<div class="links links-more" markdown="1">
+<!-- <hr />
+ -->
+
+<div class="links">
 
 <h3>Learn more</h3>
 
@@ -343,8 +367,8 @@ main_class: standard-layout
 
 </div>
 
-<hr />
-
+<!-- <hr style="opacity: 0; margin-top: 0; margin-bottom: 0;" />
+ -->
 <style>
 
   .links p.action,
@@ -377,7 +401,7 @@ main_class: standard-layout
   }
   .links dl {
     display: grid;
-    grid-template-columns: auto 1fr auto 1fr;
+    grid-template-columns: auto 1fr;
     grid-gap: 0.75em;
   }
   .links dt {
@@ -741,7 +765,8 @@ Non-profit
 <p>Using cutting-edge blue technology and state of the art ocean research, AltaSea’s STEM network provides ocean-based programs to middle school students at the LA Waterfront. Through hands-on exploration of the ocean, students will be empowered to be part of the solution to the planet’s sustainability challenges and ultimately to see science/STEM careers as an option. Our long term goal is to motivate our youth to be 21st century champions for a sustainable ocean.</p>
 -->
 
-</section><!-- /.proposal-introduction -->
+
+<div class="proposal-answers">
 
 <h2>Describe your organization</h2>
 {{ page.organization_activity | markdownify }}
@@ -775,6 +800,11 @@ Non-profit
   <li>{{ help }}</li>
   {% endfor %}
 </ul>
+
+</div>
+
+</section><!-- /.proposal-introduction -->
+
 
 <!--
 <hr />
