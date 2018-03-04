@@ -12,7 +12,7 @@ vote_url: /finalists/
 
 # Entries being accepted: 
 # March 1
-phase: 2
+# phase: 2
 
 # Entry period ended: 
 # March 31
@@ -24,7 +24,7 @@ phase: 2
 
 # 25 finalists announced: 
 # May 21
-# phase: 5
+phase: 5
 
 # Votes being accepted: 
 # June 19
@@ -48,6 +48,7 @@ exclude:
   - node_modules
   - gulpfile.js
   - package.json
+  - package-lock.json
 
 defaults:
   - scope:
@@ -56,11 +57,48 @@ defaults:
       layout: default
   - scope:
       path: ""
-      type: proposals
+      type: learn
     values:
-      layout: default
+      layout: project
+      body_class: blueberry
+  - scope:
+      path: ""
+      type: create
+    values:
+      layout: project
+      body_class: banana
+  - scope:
+      path: ""
+      type: play
+    values:
+      layout: project
+      body_class: strawberry
+  - scope:
+      path: ""
+      type: connect
+    values:
+      layout: project
+      body_class: tangerine
+  - scope:
+      path: ""
+      type: live
+    values:
+      layout: project
+      body_class: lime
 
 collections:
-  proposals:
+  learn:
     output: true
-    permalink: /proposals/:path/
+    permalink: /learn/:path/
+  create:
+    output: true
+    permalink: /create/:path/
+  play:
+    output: true
+    permalink: /play/:path/
+  connect:
+    output: true
+    permalink: /connect/:path/
+  live:
+    output: true
+    permalink: /live/:path/

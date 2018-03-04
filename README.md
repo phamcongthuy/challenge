@@ -95,7 +95,7 @@ npm install
 4) Run this command to generate the images
 
 ```
-npm start
+npm run create-images
 ```
 
 If you want to generate a different set of images, you can edit the [gulpfile](https://github.com/la2050/activation/blob/master/gulpfile.js) and then repeat the steps above.

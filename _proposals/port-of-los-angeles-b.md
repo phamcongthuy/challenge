@@ -818,10 +818,10 @@ var disqus_config = function () {
     text-align: center;
   }
 
-  .proposals img + div {
+/*  .proposals img + div {
     opacity: 0;
     height: 1.5em;
-  }
+  }*/
 
 
 

@@ -6,11 +6,15 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "create-markdown": "node _node/create-markdown.js",
+    "create-images": "gulp"
   },
-  "dependencies": {
+  "devDependencies": {
     "concurrent-transform": "^1.0.0",
     "gulp": "^3.9.1",
-    "gulp-image-resize": "^0.12.0"
+    "gulp-image-resize": "^0.12.0",
+    "js-yaml": "^3.10.0",
+    "mysql": "^2.15.0",
+    "phpunserialize": "^1.0.1"
   }
 }
