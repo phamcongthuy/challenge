@@ -97,6 +97,8 @@
   main > .timeline dl + p:last-child {
     margin-top: 3em;
     margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media (min-width: 40em) { /* @medium-size-screen */

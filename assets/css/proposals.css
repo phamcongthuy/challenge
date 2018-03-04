@@ -10,10 +10,16 @@
     display: grid;
     max-width: none;
     grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
-    grid-column-gap: 3em;
+    grid-column-gap: 1.5em;
     grid-row-gap: 4.5em;
     margin-bottom: 4.5em !important;
   }
+/*  @media (min-width: 100em) {
+    .proposals {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-column-gap: 1.5em;
+    }
+  }*/
   .proposals a,
   .proposals a:hover {
     color: inherit !important;
