@@ -1,6 +1,6 @@
 ---
 title: The Talk Project – Teens leading workshops on sexual violence & culture change
-organization_name: National Council of Jewish Women | Los Angeles
+organization_name: National Council of Jewish Women, Los Angeles
 organization_description: Non-profit organization
 organization_website:
   - Ncjwla.org
@@ -14,7 +14,7 @@ organization_activity: >-
 project_image: 6377992175741-team91.jpg
 project_video: 'https://www.youtube.com/embed/yYikBEjX8p0?rel=0&amp;showinfo=0'
 project_description: >-
-  NCJW|LA's The Talk Project is a peer-to-peer sexual violence awareness program
+  NCJWLA's The Talk Project is a peer-to-peer sexual violence awareness program
   for and by high school students. Teams of trained Peer Educators lead
   interactive workshops to create cultural change.
 project_is_collaboration: 'No'
@@ -30,7 +30,7 @@ project_areas:
   - County of Los Angeles
   - City of Los Angeles
   - LAUSD
-project_measure: "Effectiveness is measured in an ongoing evaluation. In May 2016, NCJW|LA published the first evaluation of The Talk Project which found it to be effective and engaging.\n\n NCJW|LA believes that in order to change behavior students need knowledge and a feeling of empowerment. Therefore, The Talk Project strives to educate students on the causes of sexual violence and the laws of consent, and empower them to speak out against sexual violence, engage in healthy sexual relationships, and make informed decisions about seeking legal justice if necessary.\n \nThe students at each school or group we visit participate in a survey before and after the presentation. Students who see the workshop take a pre- and post-survey, which are then compared. In addition, NCJW|LA conducts interviews with students who have seen the workshop for their feedback.\n  \t\nNCJW|LA's first evaluation found that students from the first three schools who saw The Talk Project reported being significantly less likely to adhere to rape myths, and significantly more likely to practice consent behaviors and intervene as a bystander. Students reported that they found The Talk Project to be understandable and engaging, and said they would recommend The Talk Project to a friend.\n\nThe evaluation can be read in full here:  http://ncjwla.org/wp-content/uploads/2015/12/Evaluation_TheTalkProject.pdf and in summary here: http://ncjwla.org/wp-content/uploads/2015/12/OneSheet_TheTalkProject.pdf."
+project_measure: "Effectiveness is measured in an ongoing evaluation. In May 2016, NCJWLA published the first evaluation of The Talk Project which found it to be effective and engaging.\n\n NCJWLA believes that in order to change behavior students need knowledge and a feeling of empowerment. Therefore, The Talk Project strives to educate students on the causes of sexual violence and the laws of consent, and empower them to speak out against sexual violence, engage in healthy sexual relationships, and make informed decisions about seeking legal justice if necessary.\n \nThe students at each school or group we visit participate in a survey before and after the presentation. Students who see the workshop take a pre- and post-survey, which are then compared. In addition, NCJWLA conducts interviews with students who have seen the workshop for their feedback.\n  \t\nNCJWLA's first evaluation found that students from the first three schools who saw The Talk Project reported being significantly less likely to adhere to rape myths, and significantly more likely to practice consent behaviors and intervene as a bystander. Students reported that they found The Talk Project to be understandable and engaging, and said they would recommend The Talk Project to a friend.\n\nThe evaluation can be read in full here:  http://ncjwla.org/wp-content/uploads/2015/12/Evaluation_TheTalkProject.pdf and in summary here: http://ncjwla.org/wp-content/uploads/2015/12/OneSheet_TheTalkProject.pdf."
 project_proposal_help:
   - 'Money '
   - Volunteers
@@ -60,13 +60,13 @@ project_proposal_best_place: >-
   being sexually assaulted at epidemic proportions.  One in four girls and one
   in six boys will be sexually assaulted before they turn 18. Students who
   experience sexual assault drop out of school at high rates while their
-  perpetrators face no consequence. If the program can grow, NCJW|LA’s The Talk
+  perpetrators face no consequence. If the program can grow, NCJWLA’s The Talk
   Project has the ability to be a major vehicle for improvement to fight this
   gender-related violence epidemic, keep more students in school, and create a
   supportive, progressive culture in Los Angeles. 
 
 
-  The Talk Project is a bold student-driven movement that was created by NCJW|LA
+  The Talk Project is a bold student-driven movement that was created by NCJWLA
   teen volunteers who felt their schools lacked education on sexual violence.
   They noticed harmful ideas perpetuated by their peers stemming from rape
   culture, ideas like “she was asking for it by getting so drunk” and “boys will
@@ -76,7 +76,7 @@ project_proposal_best_place: >-
   issue of sexual violence. 
 
 
-  With the support of NCJW|LA staff, the teens researched and wrote a script for
+  With the support of NCJWLA staff, the teens researched and wrote a script for
   a workshop they call The Talk Project.
 
 
@@ -90,11 +90,11 @@ project_proposal_best_place: >-
   Since its launch February 2016, The Talk Project workshop has been presented
   for six Los Angeles high schools and one youth group for 1100 students so far.
   The workshop includes clips from The Hunting Ground documentary on the campus
-  sexual assault movement, and NCJW|LA gives schools the option to screen the
+  sexual assault movement, and NCJWLA gives schools the option to screen the
   film in full at a discount. 
 
 
-  The issue of sexual violence is heavy and can be taxing to take on. NCJW|LA
+  The issue of sexual violence is heavy and can be taxing to take on. NCJWLA
   staff works very closely with the volunteers to make sure they are comfortable
   talking and thinking about the subject matter, and never feel they are alone
   in this.
@@ -114,6 +114,6 @@ link_newsletter: 'https://multibrain.wufoo.com/forms/sign-up-here/'
 link_volunteer: 'http://ncjwla.org/volunteer/'
 link_donate: 'http://ncjwla.org/donate/talk-project/'
 category: learn
-uri: /learn/national-council-of-jewish-women-|-los-angeles
+uri: /learn/national-council-of-jewish-women-los-angeles
 
 ---

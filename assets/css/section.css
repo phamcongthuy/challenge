@@ -36,22 +36,22 @@
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: rgb(254, 254, 254); /* @snow */
   }
-  .timeline {
+  main > .timeline {
     background-color: rgb(255, 194, 51); /* @banana */
     color: rgb(254, 254, 254); /* @snow */
   }
-  .timeline p {
+  main > .timeline p {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .timeline p strong {
+  main > .timeline p strong {
     color: inherit;
   }
-  .timeline p:not(.action) a {
+  main > .timeline p:not(.action) a {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .timeline p a:active,
-  .timeline p a:hover,
-  .timeline p a:focus {
+  main > .timeline p a:active,
+  main > .timeline p a:hover,
+  main > .timeline p a:focus {
     color: rgb(254, 254, 254); /* @snow */
   }
 
@@ -89,19 +89,19 @@
   }
 
 
-  .timeline dl {
+  main > .timeline dl {
     letter-spacing: 0.1em;
     max-width: none;
   }
   .activation-examples ul + p:last-child,
-  .timeline dl + p:last-child {
+  main > .timeline dl + p:last-child {
     margin-top: 3em;
     margin-bottom: 1.25em;
   }
 
   @media (min-width: 40em) { /* @medium-size-screen */
     .activation-examples ul + p:last-child,
-    .timeline dl + p:last-child {
+    main > .timeline dl + p:last-child {
       margin-top: 4.5em;
       margin-bottom: 1.5em;
     }
@@ -119,22 +119,22 @@
     max-width: none;
   }
   .activation-examples li,  
-  .timeline dt {
+  main > .timeline dt {
     margin-top: 3em;
     font-weight: 600;
     text-transform: uppercase;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .activation-examples li,  
-    .timeline dt {
+    main > .timeline dt {
       font-size: 0.75em;
     }
   }
-  .timeline dt {
+  main > .timeline dt {
     color: rgb(237, 59, 136); /* @strawberry */
   }
   .activation-examples li img,
-  .timeline dt img {
+  main > .timeline dt img {
     width: auto;
     height: 4.5em;
     display: block;
@@ -143,22 +143,22 @@
     margin-bottom: 0.75em;
   }
 
-  .timeline dt strong {
+  main > .timeline dt strong {
     font-weight: inherit;
     color: rgb(254, 254, 254); /* @snow */
   }
 
-  .timeline dd {
+  main > .timeline dd {
     font-weight: 900;
     text-transform: uppercase;
     padding-left: 0;
     margin-left: 0;
   }
 
-  .timeline dd strong {
+  main > .timeline dd strong {
     color: rgb(237, 59, 136); /* @strawberry */
   }
-  .timeline dl {
+  main > .timeline dl {
     margin-bottom: 3em;
   }
 
@@ -173,7 +173,7 @@
     }
     @media (min-width: 60em) {
       .activation-examples ul,
-      .timeline dl {
+      main > .timeline dl {
         display: grid;
         grid-column-gap: 1.5em;
         grid-template-columns: 1fr 1fr 1fr;
@@ -182,36 +182,36 @@
       .activation-examples li:nth-child(3n+1):last-child {
         grid-column: span 3;
       }
-      .timeline dt:nth-of-type(1),
-      .timeline dt:nth-of-type(2),
-      .timeline dt:nth-of-type(3) {
+      main > .timeline dt:nth-of-type(1),
+      main > .timeline dt:nth-of-type(2),
+      main > .timeline dt:nth-of-type(3) {
         grid-row: 1 / 2;
         align-self: end;
       }
-      .timeline dd:nth-of-type(1),
-      .timeline dd:nth-of-type(2),
-      .timeline dd:nth-of-type(3) {
+      main > .timeline dd:nth-of-type(1),
+      main > .timeline dd:nth-of-type(2),
+      main > .timeline dd:nth-of-type(3) {
         grid-row: 2 / 3;
         align-self: start;
       }
-      .timeline dt:nth-of-type(4),
-      .timeline dt:nth-of-type(5),
-      .timeline dt:nth-of-type(6) {
+      main > .timeline dt:nth-of-type(4),
+      main > .timeline dt:nth-of-type(5),
+      main > .timeline dt:nth-of-type(6) {
         grid-row: 3 / 4;
         align-self: end;
       }
-      .timeline dd:nth-of-type(4),
-      .timeline dd:nth-of-type(5),
-      .timeline dd:nth-of-type(6) {
+      main > .timeline dd:nth-of-type(4),
+      main > .timeline dd:nth-of-type(5),
+      main > .timeline dd:nth-of-type(6) {
         grid-row: 4 / 5;
         align-self: start;
       }
-      .timeline dt:nth-of-type(7) {
+      main > .timeline dt:nth-of-type(7) {
         grid-row: 5 / 6;
         grid-column: 2 / 3;
         align-self: end;
       }
-      .timeline dd:nth-of-type(7) {
+      main > .timeline dd:nth-of-type(7) {
         grid-row: 6 / 7;
         grid-column: 2 / 3;
         align-self: end;

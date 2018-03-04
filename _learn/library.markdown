@@ -114,6 +114,6 @@ link_newsletter: 'http://about.hashtaglibrary.com/joinus'
 link_volunteer: null
 link_donate: null
 category: learn
-uri: '/learn/#library'
+uri: /learn/library
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: project-list
-body_class: home blueberry
+body_class: home banana
 title: Create Projects for the 2018 My LA2050 Activation Challenge
 canonical_url: /create/
 category: create

@@ -187,10 +187,11 @@
     color: rgb(237, 59, 136); /* @strawberry */
   }
   .banana main > h1:not(:first-child),
-  .banana main > h2,
-  .banana main > h3,
-  .banana main > h4,
-  .banana main > p strong,
-  .banana main > p em {
+  .banana main h2,
+  .banana main h3,
+  .banana main h4,
+  .banana main p strong,
+  .banana main p em {
     color: rgb(237, 192, 50); /* @dark-banana */
+    color: rgb(255, 194, 51); /* @banana */
   }

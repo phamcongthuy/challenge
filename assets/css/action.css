@@ -138,22 +138,27 @@
   .action .strawberry a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    color: white;
   }
   .action .blueberry a {
     background-color: rgb(6, 179, 188); /* @blueberry */
     border: 0.1875em solid rgb(6, 179, 188); /* @blueberry */
+    color: white;
   }
   .action .banana a {
     background-color: rgb(237, 192, 50); /* @dark-banana */
     border: 0.1875em solid rgb(237, 192, 50); /* @dark-banana */
+    color: white;
   }
   .action .tangerine a {
     background-color: rgb(249, 160, 51); /* @tangerine */
     border: 0.1875em solid rgb(249, 160, 51); /* @tangerine */
+    color: white;
   }
   .action .lime a {
     background-color: rgb(141, 208, 59); /* @lime */
     border: 0.1875em solid rgb(141, 208, 59); /* @lime */
+    color: white;
   }
 
   .action .strawberry a.active,

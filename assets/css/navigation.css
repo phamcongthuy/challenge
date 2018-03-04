@@ -134,32 +134,38 @@
         background-color: rgb(249, 160, 51); /* @tangerine */
         color: rgb(237, 59, 136); /* @strawberry */
       }
-      .banana .nav-link a,
-      .banana.has-active-nav header,
-      .banana.header-not-visible header {
+      .banana .nav-link a:hover,
+      .banana .nav-link a:active,
+      .banana .nav-link a:focus {
+        background-color: rgb(255, 194, 51); /* @banana */
+        color: rgb(237, 59, 136); /* @strawberry */
+      }
+      .timeline.banana .nav-link a,
+      .timeline.banana.has-active-nav header,
+      .timeline.banana.header-not-visible header {
         background: white;
         color: rgb(237, 59, 136); /* @strawberry */
       }
-      .banana .nav-link a {
+      .timeline.banana .nav-link a {
         border-color: rgb(254, 254, 254); /* @snow */
       }
-      .banana.has-active-nav header a,
-      .banana.header-not-visible header a,
-      .banana.has-active-nav header h2,
-      .banana.header-not-visible header h2 {
+      .timeline.banana.has-active-nav header a,
+      .timeline.banana.header-not-visible header a,
+      .timeline.banana.has-active-nav header h2,
+      .timeline.banana.header-not-visible header h2 {
         color: inherit;
       }
-      .banana.has-active-nav header a:hover,
-      .banana.has-active-nav header a:active,
-      .banana.has-active-nav header a:focus,
-      .banana.header-not-visible header a:hover,
-      .banana.header-not-visible header a:active,
-      .banana.header-not-visible header a:focus {
+      .timeline.banana.has-active-nav header a:hover,
+      .timeline.banana.has-active-nav header a:active,
+      .timeline.banana.has-active-nav header a:focus,
+      .timeline.banana.header-not-visible header a:hover,
+      .timeline.banana.header-not-visible header a:active,
+      .timeline.banana.header-not-visible header a:focus {
         background: white;
         color: rgb(255, 194, 51); /* @banana */
       }
-      .banana.has-active-nav header strong a,
-      .banana.header-not-visible header strong a {
+      .timeline.banana.has-active-nav header strong a,
+      .timeline.banana.header-not-visible header strong a {
         background-color: var(--secondary-color, black);
         border-color: var(--secondary-color, black);
         color: white;
