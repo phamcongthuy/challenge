@@ -160,8 +160,8 @@
     color: rgb(237, 59, 136); /* @strawberry */
   }
   .tangerine main > h1:not(:first-child),
-  .tangerine main > h2,
-  .tangerine main > h3,
+  .tangerine main h2,
+  .tangerine main h3,
   .tangerine main > details h3,
   .tangerine main > details p strong,
   .tangerine main > details p em,

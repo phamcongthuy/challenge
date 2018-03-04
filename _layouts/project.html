@@ -77,11 +77,18 @@ main_class: standard-layout
     color: var(--primary-color, inherit);
     font-weight: 600;
   }
-  .proposal-introduction .links-more {
-    margin-top: 3em;
-    grid-column: 1/2;
-  }
   @media (min-width: 70em) { /* @wide-enough-for-header-grid */
+    .proposal-introduction .links-more {
+      margin-top: 3em;
+      grid-column: 1/2;
+      grid-row: 2/-1;
+    }
+    .proposal-introduction .links-more dl {
+      position: absolute;
+      width: 33.333vw;
+      width: calc(33.333vw - 3em);
+      margin-top: 0;
+    }
     .proposal-introduction {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -99,23 +106,29 @@ main_class: standard-layout
        grid-column: 1/2;
     }
     .links-action {
-       grid-column: 1/-1;
+       grid-column: 2/-1;
     }
 /*    .links-action ul.action {
       display: grid !important;
       grid-template-columns: 1fr 1fr 1fr;
       grid-column-gap: 3em;
     }*/
+    .links h2,
     .links h3 {
       /*margin-top: 0;*/
+      font-size: 1em;
       text-align: left !important;
+      font-weight: bold;
+      text-transform: uppercase;
     }
+    .links h2:first-child,
     .links h3:first-child {
-      margin-top: 3rem;
+      margin-top: 1.5rem;
     }
+/*    .links-action h2:first-child,
     .links-action h3:first-child {
-      margin-top: 0;
-    }
+      margin-top: 2.25rem !important;
+    }*/
     .links dl {
       margin-left: 0 !important;
     }
@@ -160,6 +173,14 @@ main_class: standard-layout
     .proposal-introduction .proposal-answers {
      /* grid-row: 2/4;*/
       grid-column: 2/4;
+    }
+    .proposal-introduction .proposal-answers h2 {
+      font-size: 1.25em;
+      line-height: 1.25;
+      margin-top: 3rem;
+    }
+    .proposal-introduction .proposal-answers h2:first-child {
+      margin-top: 3rem;
     }
 /*    .proposal-introduction .proposal-answers h2:first-child {
       margin-top: 0;
@@ -242,12 +263,7 @@ main_class: standard-layout
   /connect/investing-in-place/
   /play/co-led-by-industrial-district-green-and-cal-poly-pomona-department-of-landscape-architecture-/
 -->
-<p style="font-style: italic; font-size: 0.875em;">{{ page.organization_description }}{% if page.project_is_collaboration == 'Yes' %}{% if page.project_collaborators.size > 0 %}, in collaboration with 
-  {% for collaborator in page.project_collaborators %}
-  {{ collaborator }}{% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-{% else %}, Collaboration
-{% endif %}{% endif %}</p>
+<p style="font-style: italic; font-size: 0.875em;">{{ page.organization_description }}</p>
 
 <p>
   {{ page.project_description }}
@@ -276,7 +292,7 @@ main_class: standard-layout
 </switch>
 </svg>
 </span>
-<span class="credit">{{ page.organization_name }} on YouTube</span>
+<span class="credit">YouTube</span>
 </a>
 {% endif %}
 </div>
@@ -288,7 +304,7 @@ main_class: standard-layout
 {% if page.link_newsletter or page.link_donate or page.link_volunteer %}
 
 <div class="links links-action">
-<h3>Love this idea?</h3>
+<h2>Love this idea?</h2>
 
 <ul class="action" style="max-width: none;">
   {% if page.link_newsletter %}
@@ -310,9 +326,9 @@ main_class: standard-layout
 <!-- <hr />
  -->
 
-<div class="links">
+<div class="links links-more">
 
-<h3>Learn more</h3>
+<h2>Learn more</h2>
 
 <dl>
 
@@ -443,6 +459,7 @@ main_class: standard-layout
     padding-left: 0;
   }
   @media (min-width: 70em) {
+    .links h2,
     .links h3,
     .links ul.action {
       max-width: none;
@@ -474,10 +491,17 @@ main_class: standard-layout
       flex-wrap: wrap;
       /*justify-content: center;*/
     }
-    .links ul.action li {
+/*    .links ul.action li {
       flex-grow: 1;
-    }
+    }*/
   }
+/*  @supports (display: grid) {
+    .links ul.action {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 3em auto;
+    }
+  }*/
 </style>
 
 <style>
@@ -502,7 +526,7 @@ main_class: standard-layout
     border-radius: 0.3125em;
     color: black;
     transition: background-color 0.2s;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
   }
   .has-icon .icon.play {
     top: 50%;
@@ -771,6 +795,15 @@ Non-profit
 <h2>Describe your organization</h2>
 {{ page.organization_activity | markdownify }}
 
+{% if page.project_collaborators.size > 0 %}
+<h2>Do you have any collaborators?</h2>
+
+{% for collaborator in page.project_collaborators %}
+<p>{{ collaborator }}</p>
+{% endfor %}
+
+{% endif %}
+
 <h2>Describe your project</h2>
 {{ page.project_proposal_description | markdownify }}
 
@@ -843,14 +876,6 @@ var disqus_config = function () {
 
 <h2>More Proposals</h2>
 
-<ul class="action" style="max-width: none;">
-  <li class="blueberry"><a href="/learn/">Learn</a></li>
-  <li class="banana"><a href="/create/">Create</a></li>
-  <li class="strawberry"><a href="/play/">Play</a></li>
-  <li class="tangerine"><a href="/connect/">Connect</a></li>
-  <li class="lime"><a href="/live/">Live</a></li>
-</ul>
-
 </div></div>
 
 </section>
@@ -876,9 +901,7 @@ var disqus_config = function () {
 
 </ul>
 
-<hr />
-
-<section class="goals" id="goals">
+<section class="goals" style="margin-bottom: 4.5em">
 
 <div class="navigation"><div>
 
