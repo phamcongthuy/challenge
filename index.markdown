@@ -5,11 +5,51 @@ main_class: standard-layout
 footer_image: true
 ---
 
+<style>
+@media (min-width: 70em) {
+  body {
+    padding-top: 12em;
+  }
+  .header-figure.has-caption.has-caption-details .caption {
+    position: absolute;
+    top: -6.75em;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .header-figure.has-caption.has-caption-details h1 {
+    top: 22.5rem;
+    left: calc(33.3333% + 2.25rem);
+  }
+}
+
+@media (min-width: 70em) {
+  .header-figure .caption h1 {
+    font-size: 3vmax;
+  }
+  .header-figure .caption h1 span:first-child {
+    display: block;
+    font-size: 1.3em
+  }
+  .header-figure .caption h1 br {
+    display: none;
+  }
+  .header-figure .caption h1 strong {
+    font-size: 2.1875em;
+    display: block;
+  }
+  .header-figure .caption h1 span:last-child {
+    font-size: 2.1em;
+  }
+}
+</style>
+
 <div class="standard-figure has-caption header-figure has-caption-details">
   <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="100vw" alt="Women’s March Los Angeles" />
   <div class="caption">
     <div>
-      <h1>Los Angeles:<br /><strong>Change</strong> is&nbsp;Local</h1>
+      <!-- <h1>Los Angeles:<br /><strong>Change</strong> is&nbsp;Local</h1> -->
+      <h1><span>Los Angeles:</span><br /><strong>Change</strong><span style="">is&nbsp;Local</span></h1>
 
 <div class="details">
 
@@ -77,12 +117,14 @@ footer_image: true
       <p>
         <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/submit/">The submission period has begun</a>!</strong><br />
         <span class="avoid-break">Apply by <strong>March 30, 2018</strong>.</span><br />
+        <!--
         <small>
           Voting begins on
           <span class="avoid-break">
             <strong>June 19, 2018</strong>.
           </span>
         </small>
+        -->
       </p>
       <!--
       <p class="action" markdown="1">
@@ -120,6 +162,7 @@ footer_image: true
         The submission period is complete.
         <span style="color: rgb(237, 59, 136); /* @strawberry */"><span class="avoid-break">Entries will be showcased here on <strong>April 9, 2018</strong>.</span></span>
       </p>
+      <!--
       <p>
         <small>
           Voting begins on
@@ -128,6 +171,7 @@ footer_image: true
           </span>
         </small>
       </p>
+      -->
       <!--
       <p class="action" markdown="1">
         <a href="{{ site.mailing_list_url }}">Get updates</a>
@@ -138,22 +182,26 @@ footer_image: true
 
       <div class="icon">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 33 54.2" style="enable-background:new 0 0 33 54.2;" xml:space="preserve">
-          <style type="text/css">
-            .st0{fill:none;stroke:white;stroke-width:0.978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-          </style>
-          <path class="st0" d="M32.5,15.9c0-8.5-7.2-15.4-16-15.4s-16,6.9-16,15.4c0,5.4,2.9,10.1,7.2,12.9v7.8c0,1.6,1.3,2.9,2.9,2.9h11.7
-            c1.6,0,2.9-1.3,2.9-2.9v-7.8C29.6,26,32.5,21.3,32.5,15.9z"/>
-          <path class="st0" d="M23.3,39.5c1.6,0,2.9,1.3,2.9,2.9v1.2c0,1.6-1.3,2.9-2.9,2.9H9.7c-1.6,0-2.9-1.3-2.9-2.9v-1.2
-            c0-1.6,1.3-2.9,2.9-2.9"/>
-          <path class="st0" d="M23.3,46.6c1.6,0,2.9,1.3,2.9,2.9v1.2c0,1.6-1.3,2.9-2.9,2.9H9.7c-1.6,0-2.9-1.3-2.9-2.9v-1.2
-            c0-1.6,1.3-2.9,2.9-2.9"/>
-          <path class="st0" d="M16.4,36.6V21.4c0,0-5-2.3-5.1-4.2c-0.1-1.7,3.9,0.5,3.9,0.5s-0.7-4.9,0.7-4.9c1.5,0,1.2,2.9,1.2,4.6
-            c0,0,2.8-1.4,4-0.9c1.2,0.5-1,2.4-4.7,4.9"/>
-          <line class="st0" x1="6.7" y1="43" x2="26.3" y2="43"/>
-          <line class="st0" x1="18.5" y1="50.1" x2="26.3" y2="50.1"/>
-          <line class="st0" x1="7.7" y1="36.6" x2="16" y2="36.6"/>
-          <path class="st0" d="M4,12.8c0,0,0.3-3.5,3.7-6.3"/>
+   viewBox="0 0 49.8 57.5" style="enable-background:new 0 0 49.8 57.5;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:none;stroke:white;stroke-width:0.978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+        </style>
+        <g>
+          <polyline class="st0" points="38.3,28.1 38.3,8.8 5.7,8.8  "/>
+          <line class="st0" x1="38.3" y1="48.7" x2="38.3" y2="44"/>
+          <polyline class="st0" points="5.7,8.8 0.5,8.8 0.5,57 38.3,57 38.3,48.7  "/>
+          <polyline class="st0" points="43.5,28.7 43.5,0.5 5.7,0.5 5.7,8.8  "/>
+          <polyline class="st0" points="43.5,43.5 43.5,48.7 38.3,48.7   "/>
+          <path class="st0" d="M43.5,28.7c1.1,0.5,2,1.2,2.8,2.1"/>
+          <path class="st0" d="M43.5,28.7c-1-0.5-2.2-0.7-3.3-0.7c-0.6,0-1.2,0.1-1.8,0.2"/>
+          <path class="st0" d="M43.5,43.5c-1,0.5-2.2,0.7-3.3,0.7c-0.6,0-1.2-0.1-1.8-0.2"/>
+          <path class="st0" d="M46.3,30.7c1.2,1.4,2,3.3,2,5.3c0,3.3-2,6.1-4.8,7.4"/>
+          <path class="st0" d="M38.3,28.1C34.7,29,32,32.2,32,36.1s2.7,7.1,6.3,7.9"/>
+          <line class="st0" x1="49.3" y1="26.2" x2="46.3" y2="30.7"/>
+          <line class="st0" x1="43.5" y1="34.9" x2="46.3" y2="30.7"/>
+          <polyline class="st0" points="43.5,34.9 40.3,39.7 38.3,37.7   "/>
+          <line class="st0" x1="36.6" y1="35.9" x2="38.3" y2="37.7"/>
+        </g>
         </svg>
       </div>
       <p style="max-width: 28em">

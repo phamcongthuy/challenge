@@ -1,12 +1,15 @@
 <div class="navigation">
 
-{% if site.phase <= 4 %}
+{% if site.phase <= 5 %}
 <ul>
   <li><a href="/about/">About</a></li>
   {% if site.phase <= 3 %}
   <li><a href="/submit/">Submit</a></li>
   {% else %}
   <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
+  {% endif %}
+  {% if site.phase == 5 %}
+  <li><a href="/finalists/">Finalists</a></li>
   {% endif %}
   <li><a href="/vote/">Vote</a></li>
   <li><a href="/timeline/">Timeline</a></li>
