@@ -6,12 +6,27 @@
   {% if site.phase <= 3 %}
   <li><a href="/submit/">Submit</a></li>
   {% else %}
-  <li><a href="/play/">Entries</a></li>
+  <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
   {% endif %}
   <li><a href="/vote/">Vote</a></li>
   <li><a href="/timeline/">Timeline</a></li>
   <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
 </ul>
+<script>
+(function() {
+  var link = document.getElementById('entries-navigation-item');
+  var categories = [
+    'learn',
+    'create',
+    'play',
+    'connect',
+    'live'
+  ];
+  var random = Math.floor(Math.random() * categories.length) + 0;
+  console.log(random);
+  link.setAttribute('href', '/' + categories[random] + '/');
+})();
+</script>
 {% else %}
 
 <ul>
@@ -39,9 +54,9 @@
   {% endif %}
 
   {% if site.phase == 4 %}
-  <li><strong><a href="/play/">Entries</a></strong></li>
+  <li><strong><a href="/entries/">Entries</a></strong></li>
   {% elsif site.phase > 4 %}
-  <li><a href="/play/">Entries</a></li>
+  <li><a href="/entries/">Entries</a></li>
   {% endif %}
 
   {% if site.phase == 5 %}

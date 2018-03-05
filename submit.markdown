@@ -71,7 +71,7 @@ Finalists will be announced on <strong>May 21, 2018</strong>.
 </small>
 
 <p class="action" markdown="1">
-  <a href="/proposals/">Check out the entries</a>
+  <a href="/entries/">Check out the entries</a>
 </p>
 
 </div>

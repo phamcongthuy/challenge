@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<h1><!--<strong style="color: white">{{ page.category }}</strong> / -->Entries</h1>
+
+{% comment %}
 <div class="standard-figure has-caption header-figure has-caption-details">
   <div class="mask"></div>
   <img style="filter: grayscale(100%); object-position: {% if page.category == 'create' or page.category == 'learn' or page.category == 'play' %}center{% else %}bottom{% endif %}" src="/assets/images/goals/384-wide/{{ page.category }}.jpg" srcset="/assets/images/goals/384-wide/{{ page.category }}.jpg 384w, /assets/images/goals/512-wide/{{ page.category }}.jpg 512w, /assets/images/goals/768-wide/{{ page.category }}.jpg 768w, /assets/images/goals/1024-wide/{{ page.category }}.jpg 1024w, /assets/images/goals/1536-wide/{{ page.category }}.jpg 1536w, /assets/images/goals/2048-wide/{{ page.category }}.jpg 2048w" sizes="100vw" alt="" />
@@ -23,6 +26,7 @@ layout: default
     </div>
   </div>
 </div>
+{% endcomment %}
 
 <!--
 <h1 style="color: white">The <strong style="color: var(--secondary-color, inherit)">entries</strong><br />that will shape LA</h1>

@@ -1,7 +1,7 @@
 ---
 title: "This page has moved"
-redirect: /play/
-canonical_url: /play/
+redirect: /entries/
+canonical_url: /entries/
 ---
 
-This page has moved to [/play/](/play/)
+This page has moved to [/entries/](/entries/)
