@@ -102,6 +102,18 @@ main_class: standard-layout
     color: var(--secondary-color, black);
     border-color: var(--secondary-color, black);
   }
+/*  .links-involved .action a {
+    background: white;
+    color: var(--secondary-color, black);
+    border-color: var(--secondary-color, black);
+  }
+  .links-involved .action a:hover,
+  .links-involved .action a:active,
+  .links-involved .action a:focus {
+    background: white;
+    color: var(--secondary-color, black);
+    border-color: var(--secondary-color, black);
+  }*/
   .proposal-introduction .category a {
     color: var(--primary-color, inherit);
     font-weight: bold;
@@ -113,6 +125,9 @@ main_class: standard-layout
   .proposal-introduction .category a:focus {
     color: var(--secondary-color, inherit);
   }
+
+
+
 /*  .proposal-introduction .next-project {
     position: absolute;
     top: 0;
@@ -355,7 +370,7 @@ main_class: standard-layout
   /connect/investing-in-place/
   /play/co-led-by-industrial-district-green-and-cal-poly-pomona-department-of-landscape-architecture-/
 -->
-<p style="font-style: italic; font-size: 0.875em;">{{ page.organization_description }}</p>
+<p style="font-style: italic; font-size: 0.875em; font-weight: 500;">{{ page.organization_description }}</p>
 
 <p>
   {{ page.project_description }}
@@ -692,9 +707,14 @@ main_class: standard-layout
     color: black;
     background: var(--secondary-color, black);
     color: rgb(254, 254, 254); /* @snow */
+    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--secondary-color, black);
+    border-color: var(--secondary-color, black);
+    color: black;
     font-size: 0.75em;
     padding: 0.25em 0.5em;
-    font-weight: bold;
+    font-weight: 500;
   }
 </style>
 
