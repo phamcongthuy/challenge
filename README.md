@@ -1,7 +1,7 @@
 
 # LA2050 Activation Challenge
 
-This is website for the LA2050 Activation Challenge
+This is a website for the LA2050 Activation Challenge.
 
 https://activation.la2050.org
 
@@ -54,6 +54,7 @@ For example, change this…
 # March 1
 phase: 2
 ```
+4) Commit your changes.
 
 ## How to develop locally
 
