@@ -8,18 +8,27 @@ footer_image: true
 <style>
 @media (min-width: 70em) {
   body {
-    padding-top: 12em;
+    padding-top: 10.5em;
   }
-  .header-figure.has-caption.has-caption-details .caption {
+  .header-figure.has-caption.has-caption-details .caption .details {
     position: absolute;
-    top: -6.75em;
-    left: 0;
+    top: -5.25em;
+    left: 0em;
     width: 100%;
+    margin: 0;
     box-sizing: border-box;
   }
   .header-figure.has-caption.has-caption-details h1 {
-    top: 22.5rem;
-    left: calc(33.3333% + 2.25rem);
+    top: 16.5rem;
+    top: calc(16.5vw + 5.25rem);
+    left: calc(33.3333% + 2.25rem)
+  }
+  .standard-figure.has-caption img {
+    position: relative !important;
+    top: 5.25em;
+  }
+  .header-figure .caption {
+    padding-bottom: 2.25em;
   }
 }
 
