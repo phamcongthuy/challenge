@@ -18,17 +18,17 @@ footer_image: true
     margin: 0;
     box-sizing: border-box;
   }
+  .header-figure.has-caption.has-caption-details .caption {
+    padding-bottom: 2.25em;
+  }
   .header-figure.has-caption.has-caption-details h1 {
     top: 16.5rem;
     top: calc(16.5vw + 5.25rem);
     left: calc(33.3333% + 2.25rem)
   }
-  .standard-figure.has-caption img {
+  .header-figure.has-caption.has-caption-details img {
     position: relative !important;
     top: 5.25em;
-  }
-  .header-figure .caption {
-    padding-bottom: 2.25em;
   }
 }
 
@@ -281,24 +281,24 @@ footer_image: true
         The <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/finalists/">finalists</a></strong> have been announced!
         {% if site.event_url %}
         <span class="avoid-break">
-          Hear their stories at our <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/event/">public event</a>.</strong>
+          Vote at the <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/event/">public event</a></strong> on <strong>June 19, 2018</strong>.
         </span>
         {% endif %}
-        <br />
+<!--         <br />
         <small>
           Voting begins on
           <span class="avoid-break">
             <strong>June 19, 2018</strong>.
           </span>
           {% unless site.event_url %}
-          <span class="avoid-break">
+           <span class="avoid-break">
             Winners will be announced on 
             <span class="avoid-break">
               <strong>July 9, 2018</strong>.
             </span>
           </span>
           {% endunless %}
-        </small>
+        </small> -->
       </p>
 <!--       <p class="action" markdown="1">
         <a href="/finalists/">Check out the finalists</a>
