@@ -91,6 +91,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.westsideurbanforum.com/newsletter'
 link_volunteer: null
 link_donate: 'http://www.westsideurbanforum.com/membership'
+order: 42
 category: connect
 uri: /connect/westside-urban-forum
 

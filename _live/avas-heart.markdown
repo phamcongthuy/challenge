@@ -64,6 +64,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://avasheart.org/'
 link_volunteer: 'http://avasheart.org/'
 link_donate: 'http://avasheart.org/get-involved/donate/'
+order: 21
 category: live
 uri: /live/avas-heart
 

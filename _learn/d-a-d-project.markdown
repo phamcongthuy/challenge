@@ -110,6 +110,7 @@ project_proposal_best_place: >-
 link_newsletter: www.dadproject.org
 link_volunteer: www.dadproject.org
 link_donate: www.dadproject.org
+order: 41
 category: learn
 uri: /learn/d-a-d-project
 

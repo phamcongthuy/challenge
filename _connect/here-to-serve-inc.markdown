@@ -140,6 +140,7 @@ link_newsletter: >-
   http://salsa4.salsalabs.com/o/51553/p/salsa/web/common/public/signup?signup_page_KEY=9318&okay=true
 link_volunteer: 'https://salsa4.salsalabs.com/o/51553/signup_page/volunteer?okay=true'
 link_donate: 'https://salsa4.salsalabs.com/o/51553/donate_page/donate?okay=true'
+order: 48
 category: connect
 uri: /connect/here-to-serve-inc
 

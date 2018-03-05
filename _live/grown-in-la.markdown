@@ -116,6 +116,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.growninla.org/news/'
 link_volunteer: 'http://www.growninla.org/donate-time'
 link_donate: 'http://www.growninla.org/donate/'
+order: 59
 category: live
 uri: /live/grown-in-la
 

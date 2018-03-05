@@ -68,6 +68,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.hollywoodfringe.org'
 link_volunteer: 'http://www.hollywoodfringe.org/pages?id=132'
 link_donate: 'http://www.hollywoodfringe.org/donate'
+order: 10
 category: create
 uri: /create/hollywood-fringe-festival-hatchery-arts
 

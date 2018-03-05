@@ -127,6 +127,7 @@ project_proposal_best_place: >-
 link_newsletter: www.lisc.org/los_angeles/
 link_volunteer: N/A
 link_donate: www.lisc.org/los_angeles/
+order: 38
 category: create
 uri: /create/los-angeles-lisc
 

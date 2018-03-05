@@ -121,6 +121,7 @@ link_newsletter: >-
   http://sportup.us10.list-manage1.com/subscribe?u=288f3b85c8532ef1054c529c0&id=8ec94ce6f1
 link_volunteer: null
 link_donate: null
+order: 9
 category: learn
 uri: /learn/sportup
 

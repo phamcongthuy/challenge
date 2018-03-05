@@ -98,6 +98,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/ciuCV5'
 link_volunteer: 'http://eepurl.com/ciuEt9'
 link_donate: 'https://www.generosity.com/accounts/sign_up#/manage'
+order: 60
 category: connect
 uri: /connect/give-today-la
 

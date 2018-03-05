@@ -113,6 +113,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.mujeresdelatierra.org/'
 link_volunteer: 'http://www.mujeresdelatierra.org/volunteer'
 link_donate: 'https://mujeresdelatierra.nationbuilder.com/donate'
+order: 34
 category: live
 uri: /live/mujeres-de-la-tierra
 

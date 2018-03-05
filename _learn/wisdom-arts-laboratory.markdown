@@ -102,6 +102,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.wisdomartslaboratory.com/mailing'
 link_volunteer: null
 link_donate: null
+order: 65
 category: learn
 uri: /learn/wisdom-arts-laboratory
 

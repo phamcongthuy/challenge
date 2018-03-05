@@ -133,6 +133,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.communitypartners.org/join-our-mailing-list'
 link_volunteer: null
 link_donate: 'https://donatenow.networkforgood.org/communitypartners/'
+order: 55
 category: learn
 uri: /learn/the-engineer-factory-a-project-of-community-partners
 

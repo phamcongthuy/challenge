@@ -133,6 +133,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.annenberglab.com/'
 link_volunteer: 'http://www.annenberglab.com/'
 link_donate: 'http://annenberg.usc.edu/giving'
+order: 17
 category: play
 uri: /play/usc-annenberg-innovation-lab
 

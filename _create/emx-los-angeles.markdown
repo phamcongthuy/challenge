@@ -142,6 +142,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.facebook.com/emx.la/'
 link_volunteer: 'https://www.facebook.com/emx.la/'
 link_donate: 'https://venmo.com/emxlosangeles'
+order: 26
 category: create
 uri: /create/emx-los-angeles
 

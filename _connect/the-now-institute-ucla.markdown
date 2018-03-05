@@ -128,6 +128,7 @@ project_proposal_best_place: >-
 link_newsletter: null
 link_volunteer: null
 link_donate: null
+order: 58
 category: connect
 uri: /connect/the-now-institute-ucla
 

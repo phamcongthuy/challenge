@@ -112,6 +112,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://laincubator.org/'
 link_volunteer: 'http://laincubator.org/about/opportunities/'
 link_donate: 'http://www.prototype.la/'
+order: 23
 category: create
 uri: /create/los-angeles-cleantech-incubator
 

@@ -75,6 +75,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://capitalandmain.com/'
 link_volunteer: Not applicable
 link_donate: 'http://capitalandmain.com/about-us'
+order: 60
 category: live
 uri: /live/capital-main
 

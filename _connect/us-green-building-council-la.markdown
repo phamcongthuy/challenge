@@ -106,6 +106,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://usgbc-la.org/newsletter-signup'
 link_volunteer: 'http://usgbc-la.org/volunteer'
 link_donate: 'http://usgbc-la.org/donate'
+order: 21
 category: connect
 uri: /connect/us-green-building-council-la
 

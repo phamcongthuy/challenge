@@ -131,6 +131,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://asenseofhome.org/'
 link_volunteer: 'http://asenseofhome.org/volunteer/'
 link_donate: 'http://asenseofhome.org/donate/'
+order: 52
 category: live
 uri: /live/a-sense-of-home
 

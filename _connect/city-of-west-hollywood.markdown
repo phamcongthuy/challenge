@@ -84,6 +84,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://weho.org/city-hall/how-to-contact-us/email-subscriptions'
 link_volunteer: null
 link_donate: null
+order: 33
 category: connect
 uri: /connect/city-of-west-hollywood
 

@@ -72,6 +72,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://skysource.org/contact'
 link_volunteer: null
 link_donate: null
+order: 18
 category: create
 uri: /create/sky-source
 

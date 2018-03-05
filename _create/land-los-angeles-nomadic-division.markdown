@@ -136,6 +136,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.nomadicdivision.org'
 link_volunteer: null
 link_donate: 'http://nomadicdivision.org/support/membership/'
+order: 37
 category: create
 uri: /create/land-los-angeles-nomadic-division
 

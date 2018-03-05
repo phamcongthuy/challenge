@@ -75,6 +75,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.t4t.org/news/t4t-newsletter/'
 link_volunteer: 'http://www.t4t.org/donate/volunteer/'
 link_donate: 'http://www.t4t.org/donate/'
+order: 24
 category: play
 uri: /play/t4t-org
 

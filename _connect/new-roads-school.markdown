@@ -135,6 +135,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.newroads.org/Page/Engage/News'
 link_volunteer: 'http://www.newroads.org/Page/Engage/Volunteer-Opportunities'
 link_donate: 'https://55159.thankyou4caring.org/sslpage.aspx?pid=298'
+order: 43
 category: connect
 uri: /connect/new-roads-school
 

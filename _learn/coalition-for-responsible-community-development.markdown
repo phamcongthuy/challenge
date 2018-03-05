@@ -123,6 +123,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.coalitionrcd.org/'
 link_volunteer: 'http://www.coalitionrcd.org/get-involved/'
 link_donate: 'http://www.coalitionrcd.org/get-involved/'
+order: 11
 category: learn
 uri: /learn/coalition-for-responsible-community-development
 

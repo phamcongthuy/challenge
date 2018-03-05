@@ -131,6 +131,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.hycinc.org/contact-us'
 link_volunteer: 'http://www.hycinc.org/employment-and-internship-opportunities'
 link_donate: 'http://www.hycinc.org/donations'
+order: 5
 category: play
 uri: /play/helpline-youth-counseling-hyc
 

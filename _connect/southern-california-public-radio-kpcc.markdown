@@ -122,6 +122,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://info.americanpublicmediagroup.org/LP=174'
 link_volunteer: 'http://www.kpcc.org/support/volunteer/'
 link_donate: 'https://scprcontribute.publicradio.org/contribute.php'
+order: 17
 category: connect
 uri: /connect/southern-california-public-radio-kpcc
 

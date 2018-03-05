@@ -105,6 +105,7 @@ link_newsletter: 'http://lani.org/contact-us/'
 link_volunteer: 'http://lani.org/contact-us/'
 link_donate: >-
   https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=uweY9dne7ZNJCrjJAOLlyQhV9nmMigHC97MAuukmm11NQ87PK7gxZg7WKVa&dispatch=5885d80a13c0db1f8e263663d3faee8d4fe1dd75ca3bd4f11d72275b28239088
+order: 52
 category: connect
 uri: /connect/los-angeles-neighborhood-initiative-lani
 

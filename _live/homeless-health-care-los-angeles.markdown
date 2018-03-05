@@ -142,6 +142,7 @@ project_proposal_best_place: >-
 link_newsletter: hhcla.org/contact-us.html
 link_volunteer: hhcla.org/contact-us.html
 link_donate: hhcla.org/fund-the-solution.html
+order: 6
 category: live
 uri: /live/homeless-health-care-los-angeles
 

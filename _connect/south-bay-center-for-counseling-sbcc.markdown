@@ -156,6 +156,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.sbccthrivela.org/copy-of-urbanarts2'
 link_volunteer: 'http://www.sbccthrivela.org/copy-of-urbanarts2'
 link_donate: 'http://bit.ly/2dBjQhL'
+order: 7
 category: connect
 uri: /connect/south-bay-center-for-counseling-sbcc
 

@@ -98,6 +98,7 @@ project_proposal_best_place: >-
 link_newsletter: everyoneon.org
 link_volunteer: everyoneon.org
 link_donate: 'https://everyoneon.org/donate/'
+order: 54
 category: learn
 uri: /learn/everyoneon
 

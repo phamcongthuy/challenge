@@ -150,6 +150,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://losangelesaudubon.org/'
 link_volunteer: 'http://losangelesaudubon.org/index.php/volunteer-opportunities'
 link_donate: 'http://losangelesaudubon.org/index.php/donations'
+order: 3
 category: play
 uri: /play/los-angeles-audubon-society-laas
 

@@ -5,7 +5,7 @@ main_class: standard-layout
 footer_image: true
 ---
 
-# <strong>Submit</strong> Your Proposal
+# Submit Your Proposal
 
 {% if site.phase == 1 %}
 

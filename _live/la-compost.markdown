@@ -122,6 +122,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://lacompost.org/contact-us/'
 link_volunteer: 'https://lacompost.org/volunteer-opportunities/'
 link_donate: 'https://lacompost.org/donation/'
+order: 5
 category: live
 uri: /live/la-compost
 

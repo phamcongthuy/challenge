@@ -104,6 +104,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://laserviceacademy.org/about/contact/'
 link_volunteer: 'http://laserviceacademy.org/about/contact/'
 link_donate: 'http://laserviceacademy.org/about/contact/'
+order: 38
 category: learn
 uri: /learn/los-angeles-service-academy-lasa
 

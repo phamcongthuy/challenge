@@ -131,6 +131,7 @@ link_newsletter: 'http://covenanthousecalifornia.org/index-pg.php'
 link_volunteer: 'http://covenanthousecalifornia.org/volunteer-opportunities-pg.php'
 link_donate: >-
   https://secure3.convio.net/covca/site/Donation2;jsessionid=00000000.app318b?1380.donation=form1&df_id=1380&NONCE_TOKEN=A0C42A5EAB5FB7C737FE979677E14ADB
+order: 31
 category: live
 uri: /live/covenant-house-california
 

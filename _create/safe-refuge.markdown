@@ -65,6 +65,7 @@ project_proposal_best_place: >-
 link_newsletter: N/A
 link_volunteer: null
 link_donate: 'https://secure.processdonation.org/asaferefuge/Donation.aspx'
+order: 49
 category: create
 uri: /create/safe-refuge
 

@@ -143,6 +143,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.youthbizalliance.com/contact'
 link_volunteer: 'https://www.youthbizalliance.com/speakers'
 link_donate: 'https://www.youthbizalliance.com/donate'
+order: 68
 category: learn
 uri: /learn/youth-business-alliance
 

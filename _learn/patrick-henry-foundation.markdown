@@ -114,6 +114,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.patrickhenryfoundation.org/'
 link_volunteer: 'http://www.patrickhenryfoundation.org/'
 link_donate: 'http://www.patrickhenryfoundation.org/donate-now.html'
+order: 5
 category: learn
 uri: /learn/patrick-henry-foundation
 

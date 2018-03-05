@@ -135,6 +135,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/chWci1'
 link_volunteer: 'http://eepurl.com/chWci1'
 link_donate: 'http://www.thejester.org/contribution/index.html'
+order: 14
 category: learn
 uri: /learn/the-jester-pharley-phund
 

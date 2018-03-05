@@ -84,6 +84,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.5050leadership.org/Newsletter.html'
 link_volunteer: 'http://www.5050leadership.org/Volunteer.htm'
 link_donate: 'http://www.5050leadership.org/Donations.htm'
+order: 16
 category: live
 uri: /live/50-50-leadership
 

@@ -148,6 +148,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.peopleforparks.org/'
 link_volunteer: 'http://www.peopleforparks.org/volunteer'
 link_donate: 'https://peopleforparks.nationbuilder.com/donate'
+order: 16
 category: play
 uri: /play/people-for-parks
 

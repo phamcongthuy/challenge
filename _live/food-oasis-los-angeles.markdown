@@ -77,6 +77,7 @@ project_proposal_best_place: >-
 link_newsletter: none
 link_volunteer: null
 link_donate: null
+order: 61
 category: live
 uri: /live/food-oasis-los-angeles
 

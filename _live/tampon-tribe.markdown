@@ -97,6 +97,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.tampontribe.com'
 link_volunteer: 'http://www.tampontribe.com'
 link_donate: 'https://www.indiegogo.com/projects/tampon-tribe'
+order: 41
 category: live
 uri: /live/tampon-tribe
 

@@ -125,6 +125,7 @@ project_proposal_best_place: >-
 link_newsletter: 'perceptoscope.com/#connect'
 link_volunteer: null
 link_donate: null
+order: 2
 category: play
 uri: /play/perceptoscope
 

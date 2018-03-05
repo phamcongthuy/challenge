@@ -157,9 +157,24 @@ footer_image: true
         </svg>
       </div>
       <p style="max-width: 28em">
-        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/entries/">The entries have arrived</a>!</strong>
+        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/entries/" id="home-entries-link">The entries have arrived</a>!</strong>
         <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
       </p>
+      <script>
+      (function() {
+        var link = document.getElementById('home-entries-link');
+        var categories = [
+          'learn',
+          'create',
+          'play',
+          'connect',
+          'live'
+        ];
+        var random = Math.floor(Math.random() * categories.length) + 0;
+        console.log(random);
+        link.setAttribute('href', '/' + categories[random] + '/');
+      })();
+      </script>
       <!--
       <p>
         <small>

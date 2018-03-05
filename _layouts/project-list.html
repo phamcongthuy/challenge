@@ -2,7 +2,38 @@
 layout: default
 ---
 
-<h1><!--<strong style="color: white">{{ page.category }}</strong> / -->Entries</h1>
+<h1>Entries<!-- / <strong style="color: white">{{ page.category }}</strong>--></h1>
+
+{% comment %}
+<style>
+  {% for i in (1..100) %}
+  .proposals li:nth-child({{ i }}), {
+    order: var(--order-{{ i }});
+  }
+  {% endfor %}
+</style>
+<script>
+(function() {
+  function getRandomOrder() {
+    return (Math.floor(Math.random() * 100) + 1) - 50;
+  }
+  {% for i in (1..100) %}
+  document.documentElement.style.setProperty('--order-{{ i }}', getRandomOrder());
+  {% endfor %}
+})();
+</script>
+{% endcomment %}
+
+<script>
+(function() {
+  function getRandomOrder() {
+    return (Math.floor(Math.random() * 100) + 1) - 50;
+  }
+  for (var index = 0; index < 100; index++) {
+    document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
+  }
+})();
+</script>
 
 {% comment %}
 <div class="standard-figure has-caption header-figure has-caption-details">
@@ -139,15 +170,11 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 
   {% for data in data_list %}
   <li>
-    <article>
       <a href="{{ data.uri }}">
-        <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" />
-        <div class="content">
-          <h3>{{ data['title'] }}</h3>
-          <p class="organization">{{ data['organization_name'] }}</p>
-        </div>
+        <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
+        <h3>{{ data['title'] }}</h3>
+        <p class="organization">{{ data['organization_name'] }}</p>
       </a>
-    </article>
   </li>
   {% endfor %}
 
@@ -155,11 +182,11 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 
 {% endif %}
 
-<!-- <section class="goals" style="margin-bottom: 4.5em">
+<section class="goals" style="margin-bottom: 9em">
 
 <div class="navigation"><div>
 
-<h2>More categories</h2>
+<!-- <h2>Browse categories</h2> -->
 
 <ul class="action">
   <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
@@ -171,5 +198,5 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 
 </div></div>
 
-</section> -->
+</section>
 

@@ -120,6 +120,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://lapca.org/content/about-us-0'
 link_volunteer: 'http://lapca.org/content/volunteer-la-plaza-0'
 link_donate: 'http://lapca.org/content/give-la-plazas-annual-fund'
+order: 32
 category: connect
 uri: /connect/la-plaza-de-cultura-y-artes
 

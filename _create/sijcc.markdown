@@ -104,6 +104,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.sijcc.net'
 link_volunteer: 'https://www.sijcc.net/support'
 link_donate: 'https://www.sijcc.net/donate'
+order: 45
 category: create
 uri: /create/sijcc
 

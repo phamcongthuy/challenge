@@ -114,6 +114,7 @@ project_proposal_best_place: >-
 link_newsletter: WWW.WISHacademyhs.org
 link_volunteer: WWW.WISHacademyhs.org
 link_donate: WWW.WISHcharter.org
+order: 24
 category: learn
 uri: /learn/wish-academy-high-school
 

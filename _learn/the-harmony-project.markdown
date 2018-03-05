@@ -96,6 +96,7 @@ project_proposal_best_place: "According to a Los Angeles County Arts Commission 
 link_newsletter: 'https://www.harmony-project.org/join/'
 link_volunteer: 'https://www.harmony-project.org/join/'
 link_donate: 'https://www.harmony-project.org/donate/'
+order: 72
 category: learn
 uri: /learn/the-harmony-project
 

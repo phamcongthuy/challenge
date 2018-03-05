@@ -134,6 +134,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://lareviewofbooks/newsletter'
 link_volunteer: 'http://lareviewofbooks/get-involved'
 link_donate: 'http://lareviewofbooks.org/membership'
+order: 27
 category: learn
 uri: /learn/los-angeles-review-of-books
 

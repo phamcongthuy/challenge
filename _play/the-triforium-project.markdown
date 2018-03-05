@@ -117,6 +117,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/bJuzQP'
 link_volunteer: null
 link_donate: null
+order: 7
 category: play
 uri: /play/the-triforium-project
 

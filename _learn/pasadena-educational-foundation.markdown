@@ -124,6 +124,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.pasedfoundation.org/about/'
 link_volunteer: 'http://www.pasedfoundation.org/support/get-involved/'
 link_donate: 'http://www.pasedfoundation.org/support/donate/'
+order: 29
 category: learn
 uri: /learn/pasadena-educational-foundation
 

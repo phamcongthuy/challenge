@@ -131,6 +131,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.surfbusfoundation.org/contact'
 link_volunteer: 'http://www.surfbusfoundation.org/participate'
 link_donate: 'http://www.surfbusfoundation.org/donate'
+order: 12
 category: play
 uri: /play/surf-bus-foundation
 

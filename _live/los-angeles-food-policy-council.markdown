@@ -137,6 +137,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://goodfoodla.org/about/join-our-mailing-list/'
 link_volunteer: null
 link_donate: 'https://donatenow.networkforgood.org/goodfoodla?code=DonateGoodFoodLA01'
+order: 0
 category: live
 uri: /live/los-angeles-food-policy-council
 

@@ -109,6 +109,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.llcf.org'
 link_volunteer: null
 link_donate: 'http://www.llcf.org/donate'
+order: 10
 category: play
 uri: /play/light-and-life-christian-fellowship-community-center
 

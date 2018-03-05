@@ -105,6 +105,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://andesignlab.com/pdr/'
 link_volunteer: null
 link_donate: null
+order: 24
 category: live
 uri: /live/andesign-lab
 

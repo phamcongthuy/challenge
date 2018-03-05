@@ -121,6 +121,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://boxcarmuse.com/pages/mailinglist'
 link_volunteer: 'https://boxcarmuse.com/pages/volunteer-or-donate'
 link_donate: 'https://boxcarmuse.com/pages/volunteer-or-donate'
+order: 14
 category: create
 uri: /create/boxcar-muse
 

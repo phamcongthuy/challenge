@@ -136,6 +136,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://imamovement.org/#contact'
 link_volunteer: 'http://imamovement.org/volunteer-form/'
 link_donate: 'http://imamovement.org/donate/'
+order: 16
 category: create
 uri: /create/im-a-movement-not-a-monument
 

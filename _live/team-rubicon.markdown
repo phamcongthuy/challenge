@@ -106,6 +106,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://teamrubiconusa.org/blog/'
 link_volunteer: 'http://teamrubiconusa.org/join-the-team/'
 link_donate: 'http://teamrubiconusa.org/donate/'
+order: 4
 category: live
 uri: /live/team-rubicon
 

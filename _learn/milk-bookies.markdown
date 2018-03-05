@@ -95,6 +95,7 @@ link_newsletter: >-
   https://visitor.r20.constantcontact.com/d.jsp?llr=xvpemlwab&p=oi&m=1123515776695&sit=5bx5zsjkb&f=dde3738c-1e79-4060-ad2a-90b6a7ad31e4
 link_volunteer: 'http://www.milkandbookies.org/host-your-own/opportunities/'
 link_donate: 'http://www.milkandbookies.org/shop/'
+order: 0
 category: learn
 uri: /learn/milk-bookies
 

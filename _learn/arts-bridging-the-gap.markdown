@@ -125,6 +125,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.artsbridgingthegap.org/contact-us.html'
 link_volunteer: 'http://www.artsbridgingthegap.org/contact-us.html'
 link_donate: 'http://www.artsbridgingthegap.org/contact-us.html'
+order: 17
 category: learn
 uri: /learn/arts-bridging-the-gap
 

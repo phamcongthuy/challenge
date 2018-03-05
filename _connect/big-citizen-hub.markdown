@@ -156,6 +156,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/_Ykh1'
 link_volunteer: 'http://www.bigcitizenhub.org/ages19-26/'
 link_donate: 'http://www.bigcitizenhub.org/donate/'
+order: 63
 category: connect
 uri: /connect/big-citizen-hub
 

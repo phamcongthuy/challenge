@@ -327,8 +327,8 @@
   }
   .header-figure .caption .details {
     margin: -3em -0.75em -3em -1.5em;
-    background-color: rgb(255, 194, 51); /* @banana */
     background-color: rgb(141, 208, 59); /* @lime */
+    background-color: rgb(255, 194, 51); /* @banana */
     padding: 1.5em;
   }
 @supports (false) {
@@ -346,7 +346,7 @@
     }*/
     .header-figure .caption .details {
       margin: -3em -4.5em -3em -4.5em;
-      padding: 2.25em 3em;
+      padding: 3em;
 /*      background: transparent;
       background-image: linear-gradient(to top, rgba(21, 21, 21, 1), rgba(21, 21, 21, 1) 75%, rgba(21, 21, 21, 0));*/
     }

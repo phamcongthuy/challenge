@@ -119,6 +119,7 @@ link_newsletter: 'http://www.bhclongbeach.org/newsletter'
 link_volunteer: 'http://www.bhclongbeach.org/action/'
 link_donate: >-
   https://donatenow.networkforgood.org/communitypartners/?designation=Building%20Healthy%20Communities%3A%20Long%20Beach
+order: 36
 category: connect
 uri: /connect/building-healthy-communities-long-beach
 

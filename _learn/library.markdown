@@ -113,6 +113,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://about.hashtaglibrary.com/joinus'
 link_volunteer: null
 link_donate: null
+order: 58
 category: learn
 uri: /learn/library
 

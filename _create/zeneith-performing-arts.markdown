@@ -127,6 +127,7 @@ project_proposal_best_place: >-
 link_newsletter: www.zeneithperformingarts.com
 link_volunteer: www.zeneithperformingarts.com
 link_donate: www.zeneithperformingarts.com
+order: 22
 category: create
 uri: /create/zeneith-performing-arts
 

@@ -3,7 +3,21 @@ layout: default
 main_class: standard-layout
 ---
 
+{% assign data_collection = site.collections | where: "label", page.category | first %}
+{% assign data_list = data_collection.docs %}
+
 <div style="margin-top: 3em"></div>
+
+<script>
+(function() {
+  function getRandomOrder() {
+    return (Math.floor(Math.random() * 100) + 1) - 50;
+  }
+  for (var index = 0; index < 100; index++) {
+    document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
+  }
+})();
+</script>
 
 <!--
 <p class="breadcrumbss" style="max-width: none; margin-bottom: 3em;">
@@ -99,6 +113,16 @@ main_class: standard-layout
   .proposal-introduction .category a:focus {
     color: var(--secondary-color, inherit);
   }
+/*  .proposal-introduction .next-project {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+  }*/
+/*  .proposal-introduction .next-project a {
+    display: block;
+    padding: 0.75em 1.5em;
+  }*/
   .proposal-introduction h1 {
     margin-top: 0;
     color: var(--secondary-color, inherit);
@@ -661,14 +685,16 @@ main_class: standard-layout
 
   .has-icon .credit {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     background: white;
     background: rgba(255, 255, 255, 0.75);
     color: black;
+    background: var(--secondary-color, black);
+    color: rgb(254, 254, 254); /* @snow */
     font-size: 0.75em;
     padding: 0.25em 0.5em;
-    font-weight: 500;
+    font-weight: bold;
   }
 </style>
 
@@ -973,25 +999,11 @@ var disqus_config = function () {
 
 <hr />
 
-<section class="goals" id="goals">
+<section class="goals">
 
 <div class="navigation"><div>
 
 <h2>More projects</h2>
-
-<ul class="action">
-  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
-  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
-  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
-  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
-  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
-</ul>
-
-
-{% assign data_collection = site.collections | where: "label", page.category | first %}
-{% assign data_list = data_collection.docs %}
-
-<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> projects in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
 
 </div></div>
 
@@ -999,29 +1011,57 @@ var disqus_config = function () {
 
 <ul class="proposals more-proposals">
 
-  {% for data in data_list %}
+{% assign next_index = page.order | plus: 1 %}
+{% if next_index >= data_list.size %}
+  {% assign next_index = 0 %}
+{% endif %}
+{% assign data = data_list[next_index] %}
+
   <li>
-    <article>
       <a href="{{ data.uri }}">
-        <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" />
-        <div class="content">
-          <h3>{{ data['title'] }}</h3>
-          <p class="organization">{{ data['organization_name'] }}</p>
-        </div>
+        <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
+        <h3>{{ data['title'] }}</h3>
+        <p class="organization">{{ data['organization_name'] }}</p>
       </a>
-    </article>
   </li>
-  {% endfor %}
+
+{% assign next_index = next_index | plus: 1 %}
+{% if next_index >= data_list.size %}
+  {% assign next_index = 0 %}
+{% endif %}
+{% assign data = data_list[next_index] %}
+
+  <li>
+      <a href="{{ data.uri }}">
+        <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
+        <h3>{{ data['title'] }}</h3>
+        <p class="organization">{{ data['organization_name'] }}</p>
+      </a>
+  </li>
+
+{% assign next_index = next_index | plus: 2 %}
+{% if next_index >= data_list.size %}
+  {% assign next_index = 0 %}
+{% endif %}
+{% assign data = data_list[next_index] %}
+
+  <li>
+      <a href="{{ data.uri }}">
+        <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
+        <h3>{{ data['title'] }}</h3>
+        <p class="organization">{{ data['organization_name'] }}</p>
+      </a>
+  </li>
 
 </ul>
 
-{% comment %}
+<!-- <hr /> -->
 
-<!-- <section class="goals" style="margin-bottom: 4.5em">
+<section class="goals" style="margin-bottom: 9em">
 
 <div class="navigation"><div>
 
-<h2>More categories</h2>
+<h2>Choose another category</h2>
 
 <ul class="action">
   <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
@@ -1033,6 +1073,42 @@ var disqus_config = function () {
 
 </div></div>
 
-</section> -->
+</section>
+
+{% comment %}
+
+<ul class="proposals more-proposals">
+
+  {% for data in data_list %}
+  <li>
+    <article>
+      <a href="{{ data.uri }}">
+        <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
+        <h3>{{ data['title'] }}</h3>
+        <p class="organization">{{ data['organization_name'] }}</p>
+      </a>
+    </article>
+  </li>
+  {% endfor %}
+
+</ul>
+
+<section class="goals" style="margin-bottom: 9em">
+
+<div class="navigation"><div>
+
+<h2>Browse categories</h2>
+
+<ul class="action">
+  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
+  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
+  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
+  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
+  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
+</ul>
+
+</div></div>
+
+</section>
 
 {% endcomment %}

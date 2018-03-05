@@ -96,6 +96,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://healthylivingprod.org/aboutus.html'
 link_volunteer: 'http://healthylivingprod.org/aboutus.html'
 link_donate: 'http://healthylivingprod.org/Donate.html'
+order: 23
 category: live
 uri: /live/healthy-living-productions
 

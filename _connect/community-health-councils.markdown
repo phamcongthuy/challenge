@@ -149,6 +149,7 @@ link_newsletter: 'http://org2.salsalabs.com/o/5382/signup_page/sign-up'
 link_volunteer: null
 link_donate: >-
   https://org2.salsalabs.com/o/5382/p/salsa/donation/common/public/?donate_page_KEY=2002
+order: 22
 category: connect
 uri: /connect/community-health-councils
 

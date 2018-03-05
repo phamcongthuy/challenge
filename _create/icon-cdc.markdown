@@ -115,6 +115,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/chb-ar'
 link_volunteer: 'http://www.iconcdc.org/contact/'
 link_donate: 'http://www.iconcdc.org/contact/'
+order: 30
 category: create
 uri: /create/icon-cdc
 

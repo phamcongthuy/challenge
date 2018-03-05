@@ -55,6 +55,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.brailleinstitute.org/braille-challenge-homepage/news-room.html'
 link_volunteer: 'http://www.brailleinstitute.org/volunteer.html'
 link_donate: 'https://donatenow.networkforgood.org/brailleinstitute'
+order: 22
 category: learn
 uri: /learn/braille-institute-of-america
 

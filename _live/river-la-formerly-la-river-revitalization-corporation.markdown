@@ -107,6 +107,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.riverla.org/contact'
 link_volunteer: 'http://www.riverla.org/volunteer'
 link_donate: 'https://larivercorp.nationbuilder.com/donate'
+order: 46
 category: live
 uri: /live/river-la-formerly-la-river-revitalization-corporation
 

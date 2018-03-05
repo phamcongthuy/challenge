@@ -103,6 +103,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://labiketrains.com/1467-2/'
 link_volunteer: 'http://labiketrains.com/participate/'
 link_donate: 'http://labiketrains.com/donate/'
+order: 65
 category: connect
 uri: /connect/bicycle-culture-institute
 

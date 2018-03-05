@@ -116,6 +116,7 @@ project_proposal_best_place: >-
 link_newsletter: ask@habidatum.com
 link_volunteer: null
 link_donate: null
+order: 66
 category: connect
 uri: /connect/habidatum
 

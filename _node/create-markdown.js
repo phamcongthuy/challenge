@@ -53,7 +53,7 @@ function stringToURI(str) {
 //     .replace(/";}/, '')
 // }
 
-function createMarkdownFile(writePath, data, data_category) {
+function createMarkdownFile(writePath, data, data_category, order) {
 
   console.log('writePath: ' + writePath)
   console.log('data_category: ' + data_category)
@@ -83,6 +83,7 @@ function createMarkdownFile(writePath, data, data_category) {
 
   filename = stringToURI(filename)
 
+  data.order = order
   data.category = data_category
   data.uri = `/${data.category}/${filename}`
   delete data.is_finalist
@@ -144,7 +145,7 @@ function generateCollection(data_category) {
 
       // For each entry
       for (let index = 0; index < records.length; index++) {
-        createMarkdownFile(writePath, records[index], data_category)
+        createMarkdownFile(writePath, records[index], data_category, index)
       }
 
       resolve(records)

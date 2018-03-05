@@ -123,6 +123,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://fallenfruit.org/volunteer'
 link_volunteer: 'http://fallenfruit.org/volunteer'
 link_donate: 'http://fallenfruit.org/friends/'
+order: 53
 category: live
 uri: /live/fallen-fruit
 

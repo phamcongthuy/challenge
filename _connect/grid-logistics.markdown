@@ -102,6 +102,7 @@ project_proposal_best_place: >-
 link_newsletter: N/A
 link_volunteer: 'http://www.gridinc.biz/contact/'
 link_donate: N/A
+order: 51
 category: connect
 uri: /connect/grid-logistics
 

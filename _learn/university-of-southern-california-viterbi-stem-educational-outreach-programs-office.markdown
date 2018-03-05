@@ -143,6 +143,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.livingadvantageinc.org/Join-Mailing-List.cfm'
 link_volunteer: null
 link_donate: null
+order: 15
 category: learn
 uri: >-
   /learn/university-of-southern-california-viterbi-stem-educational-outreach-programs-office

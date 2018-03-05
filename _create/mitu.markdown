@@ -132,6 +132,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://mitunetwork.com/contact/'
 link_volunteer: 'https://mitunetwork.com/contact/'
 link_donate: 'https://mitunetwork.com/contact/'
+order: 50
 category: create
 uri: /create/mitu
 

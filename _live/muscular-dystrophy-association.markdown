@@ -115,6 +115,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.mda.org/get-involved/become-a-volunteer'
 link_volunteer: 'https://www.mda.org/get-involved/become-a-volunteer'
 link_donate: null
+order: 3
 category: live
 uri: /live/muscular-dystrophy-association
 

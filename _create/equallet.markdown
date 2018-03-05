@@ -119,6 +119,7 @@ project_proposal_best_place: >-
 link_newsletter: equallet.com
 link_volunteer: 'https://www.equallet.com/contactus'
 link_donate: 'https://www.equallet.com/contactus'
+order: 24
 category: create
 uri: /create/equallet
 

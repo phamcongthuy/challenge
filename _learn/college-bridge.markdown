@@ -123,6 +123,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://college-bridge.org/business-contact/'
 link_volunteer: 'http://college-bridge.org/business-contact/'
 link_donate: 'http://college-bridge.org/donate/'
+order: 39
 category: learn
 uri: /learn/college-bridge
 

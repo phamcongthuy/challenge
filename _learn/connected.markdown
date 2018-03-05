@@ -111,6 +111,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.connectedcalifornia.org/blog'
 link_volunteer: null
 link_donate: 'http://www.connectedcalifornia.org'
+order: 4
 category: learn
 uri: /learn/connected
 

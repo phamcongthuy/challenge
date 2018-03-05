@@ -85,6 +85,7 @@ project_proposal_best_place: >-
 link_newsletter: www.unifiedeverythingproject.com
 link_volunteer: null
 link_donate: 'https://www.crowdrise.com/science-and-art-da-vinci-fying'
+order: 20
 category: play
 uri: /play/unified-everything-project
 

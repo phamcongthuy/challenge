@@ -115,6 +115,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://clockshop.nationbuilder.com/sign_up'
 link_volunteer: 'https://clockshop.org/volunteer/'
 link_donate: 'https://clockshop.nationbuilder.com/donate'
+order: 6
 category: play
 uri: /play/clockshop-california-state-parks
 

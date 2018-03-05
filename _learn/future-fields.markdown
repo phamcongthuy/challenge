@@ -173,6 +173,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://futurescouts.co/#contact'
 link_volunteer: 'http://futurescouts.co/#contact'
 link_donate: 'http://futurescouts.co/#contact'
+order: 49
 category: learn
 uri: /learn/future-fields
 

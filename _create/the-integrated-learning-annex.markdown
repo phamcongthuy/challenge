@@ -84,6 +84,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.integratedannex.com'
 link_volunteer: null
 link_donate: null
+order: 3
 category: create
 uri: /create/the-integrated-learning-annex
 

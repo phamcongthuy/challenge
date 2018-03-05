@@ -110,6 +110,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/ciDrmj'
 link_volunteer: null
 link_donate: null
+order: 41
 category: connect
 uri: /connect/valley-relics
 

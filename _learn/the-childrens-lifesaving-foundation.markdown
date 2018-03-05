@@ -105,6 +105,7 @@ link_newsletter: 'http://childrenslifesaving.org/wordpress/signmeup/'
 link_volunteer: 'http://childrenslifesaving.org/wordpress/get-involved/volunteer/'
 link_donate: >-
   https://www.crowdrise.com/help-us-raise-25000-for-at-risk-youth-in-la-by-october-1st/fundraiser/childrenslifesavingfoundation
+order: 69
 category: learn
 uri: /learn/the-childrens-lifesaving-foundation
 

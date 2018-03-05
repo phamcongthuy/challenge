@@ -144,6 +144,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://breastfeedla.org/'
 link_volunteer: 'http://breastfeedla.org/volunteer/'
 link_donate: 'http://breastfeedla.org/donate-now/'
+order: 9
 category: live
 uri: /live/breastfeedla
 

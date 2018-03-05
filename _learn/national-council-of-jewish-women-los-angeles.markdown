@@ -113,6 +113,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://multibrain.wufoo.com/forms/sign-up-here/'
 link_volunteer: 'http://ncjwla.org/volunteer/'
 link_donate: 'http://ncjwla.org/donate/talk-project/'
+order: 71
 category: learn
 uri: /learn/national-council-of-jewish-women-los-angeles
 

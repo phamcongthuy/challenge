@@ -119,6 +119,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.letsplayascape.com/contact/'
 link_volunteer: 'http://www.letsplayascape.com/get-involved/'
 link_donate: 'http://www.letsplayascape.com/donate/'
+order: 1
 category: create
 uri: /create/make-music-los-angeles
 

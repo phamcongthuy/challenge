@@ -80,6 +80,7 @@ project_proposal_best_place: "Richstone is seeking support to create an integrat
 link_newsletter: 'https://www.richstonefamily.org/index.cfm?fuseaction=donorDrive.contactUs'
 link_volunteer: 'http://www.richstonefamily.org/index.cfm?fuseaction=cms.page&id=1021'
 link_donate: 'https://www.richstonefamily.org/index.cfm?fuseaction=donate.general'
+order: 25
 category: live
 uri: /live/richstone-family-center
 

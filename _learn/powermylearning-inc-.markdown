@@ -55,6 +55,7 @@ project_proposal_best_place: "We believe students thrive in school when they are
 link_newsletter: N/A
 link_volunteer: powermylearning.org/learn/get-involved/volunteer
 link_donate: powermylearning.org/learn/get-involved/donate
+order: 37
 category: learn
 uri: /learn/powermylearning-inc-
 

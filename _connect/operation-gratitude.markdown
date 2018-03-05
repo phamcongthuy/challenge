@@ -133,6 +133,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://signup.operationgratitude.com/subscribe'
 link_volunteer: 'https://www.operationgratitude.com/volunteer/volunteer-info-schedule/'
 link_donate: 'https://www.operationgratitude.com/make-donation'
+order: 19
 category: connect
 uri: /connect/operation-gratitude
 

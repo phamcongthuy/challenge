@@ -67,6 +67,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.monthofphotography.com/newsletter'
 link_volunteer: null
 link_donate: 'http://www.luciefoundation.org/donate/'
+order: 67
 category: connect
 uri: /connect/lucie-foundation
 

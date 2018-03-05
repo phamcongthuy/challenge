@@ -98,6 +98,7 @@ project_proposal_best_place: >-
 link_newsletter: www.encorps.org
 link_volunteer: 'http://encorps.org/educators/application/'
 link_donate: 'http://encorps.org/support/'
+order: 57
 category: learn
 uri: /learn/encorps-inc-
 

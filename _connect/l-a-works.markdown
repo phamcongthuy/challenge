@@ -133,6 +133,7 @@ link_newsletter: >-
   https://visitor.r20.constantcontact.com/d.jsp?llr=wd54vasab&p=oi&m=1118862047350&sit=zglwjqejb&f=23d41f38-8b5d-4b00-8c5f-ea7f2192a42a
 link_volunteer: laworks.com
 link_donate: 'http://www.laworks.com/donate'
+order: 0
 category: connect
 uri: /connect/l-a-works
 

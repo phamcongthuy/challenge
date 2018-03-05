@@ -89,6 +89,7 @@ project_proposal_best_place: "Entrepreneurship provides a path to employment for
 link_newsletter: 'http://www.opportunityfund.org/newsletter/'
 link_volunteer: null
 link_donate: 'https://secure.opportunityfund.org/'
+order: 7
 category: create
 uri: /create/opportunity-fund
 

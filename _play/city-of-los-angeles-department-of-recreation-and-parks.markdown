@@ -107,6 +107,7 @@ project_proposal_best_place: >-
 link_newsletter: No Link
 link_volunteer: www.laparks.org/info/volunteers
 link_donate: 'https://secure.laparksfoundation.org//EN/donation1.html'
+order: 8
 category: play
 uri: /play/city-of-los-angeles-department-of-recreation-and-parks
 

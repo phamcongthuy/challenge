@@ -108,6 +108,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.kcrw.com/newsletters'
 link_volunteer: 'http://www.kcrw.com/volunteer'
 link_donate: 'http://www.kcrw.com/join'
+order: 47
 category: connect
 uri: /connect/kcrw
 

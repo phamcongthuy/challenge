@@ -116,6 +116,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://relationalmedicinefoundation.org'
 link_volunteer: 'http://relationalmedicinefoundation.org'
 link_donate: 'http://www.relationalmedicinefoundation.org/donate'
+order: 47
 category: create
 uri: /create/relational-medicine-foundation
 

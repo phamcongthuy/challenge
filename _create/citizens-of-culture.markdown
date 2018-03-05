@@ -94,6 +94,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://citizensofculture.com/signup/'
 link_volunteer: 'http://citizensofculture.com/join/'
 link_donate: 'http://citizensofculture.com/correspondence/'
+order: 39
 category: create
 uri: /create/citizens-of-culture
 

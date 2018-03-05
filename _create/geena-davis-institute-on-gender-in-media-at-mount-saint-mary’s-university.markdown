@@ -138,6 +138,7 @@ link_newsletter: >-
   https://www2.smartbrief.com/signupSystem/subscribe.action?pageSequence=1&briefName=gdigm&campaign=gdigmsite
 link_volunteer: 'http://seejane.org/get-involved-3/'
 link_donate: 'http://seejane.org/about-us/donate-to-the-institute/'
+order: 8
 category: create
 uri: >-
   /create/geena-davis-institute-on-gender-in-media-at-mount-saint-mary’s-university

@@ -92,6 +92,7 @@ project_proposal_best_place: >-
 link_newsletter: n/a
 link_volunteer: null
 link_donate: null
+order: 18
 category: live
 uri: /live/grassroots-training-for-health
 

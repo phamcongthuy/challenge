@@ -109,6 +109,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://bit.ly/2dqCyJo'
 link_volunteer: www.itepinc.org
 link_donate: www.itepinc.org
+order: 36
 category: live
 uri: /live/international-trade-education-programs-itep
 

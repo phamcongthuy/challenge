@@ -107,6 +107,7 @@ project_proposal_best_place: >-
 link_newsletter: N/A
 link_volunteer: N/A
 link_donate: N/A
+order: 50
 category: connect
 uri: /connect/university-of-southern-california
 

@@ -82,6 +82,7 @@ project_proposal_best_place: "Urban air quality is one of the most alarming prob
 link_newsletter: 'https://cinema.usc.edu/contact/'
 link_volunteer: null
 link_donate: null
+order: 29
 category: live
 uri: >-
   /live/university-of-southern-california-mobile-environmental-media-lab-in-the-school-of-cinematic-arts

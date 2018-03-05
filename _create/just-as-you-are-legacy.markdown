@@ -55,6 +55,7 @@ project_proposal_best_place: "J.A.Y.A. Legacy is staffed with a collection of fe
 link_newsletter: n/a
 link_volunteer: N/A
 link_donate: 'https://www.gofundme.com/2sq657w'
+order: 46
 category: create
 uri: /create/just-as-you-are-legacy
 

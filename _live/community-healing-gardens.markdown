@@ -131,6 +131,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.communityhealinggardens.org/get-involved-3/#get-involved-2'
 link_volunteer: 'http://www.communityhealinggardens.org/get-involved-3/#get-involved-2'
 link_donate: 'http://www.communityhealinggardens.org/donate/'
+order: 11
 category: live
 uri: /live/community-healing-gardens
 

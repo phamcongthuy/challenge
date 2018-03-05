@@ -138,6 +138,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.werepresent.org/contact/'
 link_volunteer: 'http://www.werepresent.org/contact/'
 link_donate: 'http://www.werepresent.org/donate/'
+order: 13
 category: create
 uri: /create/represent
 

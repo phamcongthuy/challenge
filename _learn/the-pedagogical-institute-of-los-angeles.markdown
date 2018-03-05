@@ -114,6 +114,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.thinkwithus.org/contact'
 link_volunteer: 'http://www.thinkwithus.org/wish-list'
 link_donate: 'https://www.crowdrise.com/thinkwithus-collaborate'
+order: 23
 category: learn
 uri: /learn/the-pedagogical-institute-of-los-angeles
 

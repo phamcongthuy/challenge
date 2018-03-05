@@ -113,6 +113,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://civicnation.org/get-involved/'
 link_volunteer: null
 link_donate: 'https://civicnation.org/contribute/'
+order: 44
 category: connect
 uri: /connect/civic-nation
 

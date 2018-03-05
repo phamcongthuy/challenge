@@ -72,6 +72,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.ihadla.org'
 link_volunteer: 'http://www.ihadla.org'
 link_donate: 'http://www.ihadla.org'
+order: 75
 category: learn
 uri: /learn/i-have-a-dream-foundation
 

@@ -134,6 +134,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.comealivelb.com/contact/'
 link_volunteer: 'http://www.comealivelb.com/contact/'
 link_donate: 'http://www.comealivelb.com/contact/'
+order: 13
 category: connect
 uri: /connect/come-alive-long-beach
 

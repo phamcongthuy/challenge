@@ -138,6 +138,7 @@ link_newsletter: >-
   http://investinginplace.us9.list-manage.com/subscribe?u=dae0d00828934ac68d5436772&id=1f9f385def
 link_volunteer: null
 link_donate: 'https://donatenow.networkforgood.org/investinginplace'
+order: 59
 category: connect
 uri: /connect/investing-in-place
 

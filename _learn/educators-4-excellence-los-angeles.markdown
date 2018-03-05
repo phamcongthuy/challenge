@@ -137,6 +137,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://educators4excellence.zissousecure.com/register'
 link_volunteer: 'http://educators4excellence.zissousecure.com/register'
 link_donate: 'https://www.classy.org/checkout/donation?eid=64295'
+order: 73
 category: learn
 uri: /learn/educators-4-excellence-los-angeles
 

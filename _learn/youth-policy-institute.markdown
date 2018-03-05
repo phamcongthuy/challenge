@@ -130,6 +130,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.ypiusa.org/blog'
 link_volunteer: 'http://www.ypiusa.org/volunteer'
 link_donate: 'https://ypiusa.nationbuilder.com/donate'
+order: 30
 category: learn
 uri: /learn/youth-policy-institute
 

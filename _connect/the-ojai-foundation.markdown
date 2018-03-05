@@ -131,6 +131,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.ojaifoundation.org/news'
 link_volunteer: 'http://www.ojaifoundation.org/volunteer'
 link_donate: 'https://app.etapestry.com/onlineforms/theojaifoundation/donate-cis.html'
+order: 15
 category: connect
 uri: /connect/the-ojai-foundation
 

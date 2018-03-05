@@ -138,6 +138,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://blog.getdrizzle.com/contact/'
 link_volunteer: null
 link_donate: null
+order: 11
 category: connect
 uri: /connect/drizzle-connect
 

@@ -100,6 +100,7 @@ link_newsletter: 'http://teamwethrive.org/contact-us/'
 link_volunteer: 'http://teamwethrive.org/contact-us/'
 link_donate: >-
   https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8DS2ULSLPQCDY
+order: 62
 category: learn
 uri: /learn/wethrive
 

@@ -115,6 +115,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://latchcollective.com/advocacy/'
 link_volunteer: 'http://latchcollective.com/getinvolved/'
 link_donate: 'https://www.youcaring.com/patrick-mccaffrey-foundation-623332'
+order: 33
 category: live
 uri: /live/patrick-mccaffrey-foundation
 

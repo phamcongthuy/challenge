@@ -101,6 +101,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.coparenter.com'
 link_volunteer: www.itepinc.org
 link_donate: www.itepinc.org
+order: 38
 category: live
 uri: /live/hyphenus-inc-
 

@@ -125,6 +125,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://thinktank.gallery'
 link_volunteer: 'http://traphouse.la'
 link_donate: 'http://traphouse.la'
+order: 40
 category: create
 uri: /create/think-tank-productions
 

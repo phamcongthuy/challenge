@@ -132,6 +132,7 @@ link_newsletter: 'http://www.metrocharter.org'
 link_volunteer: 'http://www.metrocharter.org'
 link_donate: >-
   http://www.metrocharter.org/apps/pages/index.jsp?uREC_ID=238506&type=d&pREC_ID=551007
+order: 29
 category: connect
 uri: /connect/metro-charter-elementary-school
 

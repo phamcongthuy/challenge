@@ -70,6 +70,7 @@ project_proposal_best_place: "Across the country, and no less in Compton, the re
 link_newsletter: 'http://www.lavoicepico.org/LA_Voice_PICO/Participate.html'
 link_volunteer: 'http://www.lavoicepico.org/LA_Voice_PICO/Participate.html'
 link_donate: 'http://www.lavoicepico.org/LA_Voice_PICO/Give.html'
+order: 34
 category: connect
 uri: /connect/la-voice
 

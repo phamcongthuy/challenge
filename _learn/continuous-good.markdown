@@ -137,6 +137,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/b7SzBH'
 link_volunteer: null
 link_donate: null
+order: 28
 category: learn
 uri: /learn/continuous-good
 

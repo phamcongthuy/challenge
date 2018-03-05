@@ -157,6 +157,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://act.drsforamerica.org/signup/join_us/'
 link_volunteer: 'http://act.drsforamerica.org/signup/join_us/'
 link_donate: 'https://dr4a.actionkit.com/donate/general_donation/'
+order: 42
 category: live
 uri: /live/doctors-for-america
 

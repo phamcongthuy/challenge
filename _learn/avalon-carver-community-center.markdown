@@ -116,6 +116,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://avalon-carver.org'
 link_volunteer: 'http://avalon-carver.org'
 link_donate: 'http://avalon-carver.org/donate/'
+order: 44
 category: learn
 uri: /learn/avalon-carver-community-center
 

@@ -142,6 +142,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://getlit.org/contact-us'
 link_volunteer: 'http://getlit.org'
 link_donate: 'http://getlit.org/support-teen-literacy'
+order: 23
 category: connect
 uri: /connect/get-lit-words-ignite
 

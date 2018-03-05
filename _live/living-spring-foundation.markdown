@@ -65,6 +65,7 @@ project_proposal_best_place: "Los Angeles (L.A.) is the second largest city in t
 link_newsletter: www.livingspringfoundation.org
 link_volunteer: www.livingspringfoundation.org
 link_donate: www.livingspringfoundation.org
+order: 63
 category: live
 uri: /live/living-spring-foundation
 

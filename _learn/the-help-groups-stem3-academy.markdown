@@ -127,6 +127,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://stem3academy.org/mailing-list/'
 link_volunteer: 'http://www.thehelpgroup.org/how-to-help/volunteer/'
 link_donate: 'https://thehelpgroup.webconnex.com/STEM3'
+order: 53
 category: learn
 uri: /learn/the-help-groups-stem3-academy
 

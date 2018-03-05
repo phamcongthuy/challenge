@@ -105,6 +105,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/bi24Nj'
 link_volunteer: null
 link_donate: null
+order: 25
 category: connect
 uri: /connect/historic-core-bid
 

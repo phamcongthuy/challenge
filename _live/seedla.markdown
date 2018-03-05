@@ -126,6 +126,7 @@ project_proposal_best_place: >-
 link_newsletter: www.seedcg.org
 link_volunteer: null
 link_donate: null
+order: 43
 category: live
 uri: /live/seedla
 
