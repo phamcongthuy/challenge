@@ -57,7 +57,7 @@
     margin-top: 0;
     font-size: 0.875em;
     line-height: 1.25;
-    font-style: italic;
+    /*font-style: italic;*/
     color: inherit;
     /*padding: 0 0.75em;*/
     color: rgb(237, 192, 50); /* @dark-banana */
@@ -79,7 +79,8 @@
     font-size: 1em;
     line-height: 1.25;
     /*padding: 0 0.75rem;*/
-    color: var(--primary-color, black);
+    color: var(--secondary-color, black) !important;
+    color: var(--primary-color, black) !important;
     font-weight: bold;
     margin-bottom: 0.375em;
   }

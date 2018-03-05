@@ -42,16 +42,67 @@ main_class: standard-layout
 <style>
   .links h2 {
     color: var(--primary-color, inherit) !important;
+    color: inherit !important;
   }
-  .links-involved h2,
-  .links-action h2 {
+  .links h2,
+  .links h3 {
+    /*margin-top: 0;*/
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 1.7142857143;
+    /*text-transform: uppercase;*/
+    font-style: italic;
+    /*letter-spacing: 0.05em;*/
     color: var(--secondary-color, inherit) !important;
     color: var(--primary-color, inherit) !important;
+    color: inherit !important;
+    margin-bottom: 0;
+  }
+  @media (min-width: 40em) {
+    .links h2,
+    .links h3 {
+      /*font-size: 0.75em;*/
+    }
+  }
+
+/*    .links-involved .action a {
+      background: white;
+      border-color: var(--primary-color, black);
+      color: var(--primary-color, black);
+    }*/
+
+  @media (min-width: 40em) {
+    .links .action {
+      font-size: 0.875em;
+    }
+  }
+  .links .action a {
+    background: var(--secondary-color, black);
+    border-color: var(--secondary-color, black);
+    color: white;
+  }
+  .links .action a:hover,
+  .links .action a:active,
+  .links .action a:focus {
+    background: white;
+    color: var(--secondary-color, black);
+    border-color: var(--secondary-color, black);
+  }
+  .proposal-introduction .category a {
+    color: var(--primary-color, inherit);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .proposal-introduction .category a:hover,
+  .proposal-introduction .category a:active,
+  .proposal-introduction .category a:focus {
+    color: var(--secondary-color, inherit);
   }
   .proposal-introduction h1 {
     margin-top: 0;
-    color: var(--primary-color, inherit);
     color: var(--secondary-color, inherit);
+    color: var(--primary-color, inherit);
     font-size: 1.5em;
     line-height: 1.25;
     font-weight: bold;
@@ -67,6 +118,7 @@ main_class: standard-layout
   .proposal-introduction h1 + h2 {
     color: var(--secondary-color, inherit);
     color: inherit;
+    font-weight: 600;
   }
   .proposal-introduction h1,
   .proposal-introduction h2,
@@ -130,10 +182,7 @@ main_class: standard-layout
     .links h2,
     .links h3 {
       /*margin-top: 0;*/
-      font-size: 1em;
       text-align: left !important;
-      font-weight: bold;
-      text-transform: uppercase;
     }
     .links h2:first-child,
     .links h3:first-child {
@@ -270,8 +319,8 @@ main_class: standard-layout
 <section class="proposal-introduction" style="grid-column: 1/4">
 
 <div>
-<p>
-  <a href="/{{ page.category }}/"  style="color: var(--primary-color, inherit); font-weight: bold; text-transform: uppercase">{{ page.category }}</a>
+<p class="category">
+  <a href="/{{ page.category }}/#projects">{{ page.category }}</a>
 </p>
 <h1 style="margin-bottom: 0">{{ page.title }}</h1>
 <h2 style="margin-top: 0.75rem;">{{ page.organization_name }}</h2>
@@ -436,13 +485,6 @@ main_class: standard-layout
   }
 */
 
-
-    .links-involved .action a {
-      background: white;
-      border-color: var(--primary-color, black);
-      color: var(--primary-color, black);
-    }
-
   .links dt,
   .links dd {
     margin-left: 0;
@@ -567,25 +609,39 @@ main_class: standard-layout
     right: 0.725em;
     background: white;
     background: rgba(255, 255, 255, 0.75);
-    padding: 0.35em 0.4em 0em 0.4em;
-    border-radius: 0.3125em;
     color: black;
+    background: rgba(254, 254, 254, 0.75); /* @snow */
+    background: var(--secondary-color, black);
+    border: 0.1875em solid var(--secondary-color, black);
+    color: rgb(41, 41, 41); /* @midnight */
+    color: rgb(254, 254, 254); /* @snow */
+    padding: 0;
+    width: 5em;
+    line-height: 5em;
+    border-radius: 50%;
     transition: background-color 0.2s;
     /*font-size: 1.5em;*/
-  }
-  .has-icon .icon.play {
+    text-align: center;
+    display: flex;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
     top: 50%;
     left: 50%;
     right: auto;
-    padding: 0.725em 1.45em 0.3625em 1.45em;
-    margin-top: -1.0875em; /* (line height + vertical padding) / 2    (1.45em + 1.45em) / 2  */
-    margin-left: -1.95em; /* (icon width + horizontal padding) / 2    (1em + 2.9em) / 2  */
+    padding: 0;
+    transform: translate(-50%, -50%);
+
   }
 
   .has-icon:hover .icon,
   .has-icon:active .icon,
   .has-icon:focus .icon {
-    background-color: white
+    background: rgb(254, 254, 254); /* @snow */
+    border-color: var(--secondary-color, black);
+    color: var(--secondary-color, black);
   }
 
   .has-icon .icon {
@@ -594,7 +650,8 @@ main_class: standard-layout
 
   .has-icon svg {
     width: 1em;
-    height: 1em
+    height: 1em;
+    margin-left: 0.25em;
   }
 
   .has-icon svg polygon {
@@ -611,7 +668,7 @@ main_class: standard-layout
     color: black;
     font-size: 0.75em;
     padding: 0.25em 0.5em;
-    font-weight: 400;
+    font-weight: 500;
   }
 </style>
 
@@ -885,6 +942,8 @@ Non-profit
 
 
 <!--
+<div style="margin-top: 4.5em"></div>
+
 <hr />
 
 <div id="disqus_thread" style="grid-column: 1/4"></div>
@@ -912,7 +971,6 @@ var disqus_config = function () {
   }*/
 </style>
 
-
 <hr />
 
 <section class="goals" id="goals">
@@ -921,13 +979,14 @@ var disqus_config = function () {
 
 <h2>More projects</h2>
 
-<ul class="action" style="max-width: none;">
-  <li class="blueberry"><a href="/learn/">Learn</a></li>
-  <li class="banana"><a href="/create/">Create</a></li>
-  <li class="strawberry"><a href="/play/">Play</a></li>
-  <li class="tangerine"><a href="/connect/">Connect</a></li>
-  <li class="lime"><a href="/live/">Live</a></li>
+<ul class="action">
+  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
+  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
+  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
+  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
+  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
 </ul>
+
 
 {% assign data_collection = site.collections | where: "label", page.category | first %}
 {% assign data_list = data_collection.docs %}
@@ -956,20 +1015,24 @@ var disqus_config = function () {
 
 </ul>
 
-<section class="goals" style="margin-bottom: 4.5em">
+{% comment %}
+
+<!-- <section class="goals" style="margin-bottom: 4.5em">
 
 <div class="navigation"><div>
 
 <h2>More categories</h2>
 
-<ul class="action" style="max-width: none;">
-  <li class="blueberry"><a href="/learn/">Learn</a></li>
-  <li class="banana"><a href="/create/">Create</a></li>
-  <li class="strawberry"><a href="/play/">Play</a></li>
-  <li class="tangerine"><a href="/connect/">Connect</a></li>
-  <li class="lime"><a href="/live/">Live</a></li>
+<ul class="action">
+  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
+  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
+  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
+  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
+  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
 </ul>
 
 </div></div>
 
-</section>
+</section> -->
+
+{% endcomment %}
