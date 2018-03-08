@@ -93,6 +93,8 @@ main_class: standard-layout
   .links .action a {
     background: var(--secondary-color, black);
     border-color: var(--secondary-color, black);
+    background: var(--primary-color, black);
+    border-color: var(--primary-color, black);
     color: white;
   }
   .links .action a:hover,
@@ -101,6 +103,8 @@ main_class: standard-layout
     background: white;
     color: var(--secondary-color, black);
     border-color: var(--secondary-color, black);
+    color: var(--primary-color, black);
+    border-color: var(--primary-color, black);
   }
 /*  .links-involved .action a {
     background: white;
@@ -383,7 +387,7 @@ main_class: standard-layout
 </dl> -->
 </div>
 
-<figure class="feature">
+<figure class="feature" {% if page.project_video %} id="video-figure"{% endif %}>
 <div data-aspect-ratio="1280/720">
 {% if page.project_video %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
@@ -402,9 +406,36 @@ main_class: standard-layout
 <span class="credit">YouTube</span>
 </a>
 {% endif %}
+
+{% if page.project_video %}
+<script type="text/template" id="video-template">
+  <div style="padding-bottom: 56.25%">
+    <iframe src="{{ page.project_video }}&modestbranding=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+</script>
+{% endif %}
 </div>
 </figure>
 
+<script type="text/javascript">
+  // Replace the image with a video element, if the link to the video has been pressed
+  (function() {
+
+    // Do we have the features we need?
+    if (!document.body.querySelector ||
+        !document.body.addEventListener) return;
+
+    var button   = document.getElementById('video-figure');
+    var template = document.getElementById('video-template');
+
+    if (button && template) {
+      button.addEventListener('click', function(e) {
+        template.parentNode.innerHTML = template.innerHTML;
+        e.preventDefault();
+      }, false);
+    }
+  })();
+</script>
 
 
 <!-- TODO: Handle empty data or words like “N/A” or “None” -->
@@ -652,6 +683,8 @@ main_class: standard-layout
     background: rgba(254, 254, 254, 0.75); /* @snow */
     background: var(--secondary-color, black);
     border: 0.1875em solid var(--secondary-color, black);
+    background: var(--primary-color, black);
+    border: 0.1875em solid var(--primary-color, black);
     color: rgb(41, 41, 41); /* @midnight */
     color: rgb(254, 254, 254); /* @snow */
     padding: 0;
@@ -681,6 +714,8 @@ main_class: standard-layout
     background: rgb(254, 254, 254); /* @snow */
     border-color: var(--secondary-color, black);
     color: var(--secondary-color, black);
+    border-color: var(--primary-color, black);
+    color: var(--primary-color, black);
   }
 
   .has-icon .icon {
