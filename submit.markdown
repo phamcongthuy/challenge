@@ -160,6 +160,16 @@ _Applicants are encouraged to:_
 * Consider the varied methods of engaging communities. Engagement opportunities may include, but are not limited to: policy advocacy, volunteering, participating in political processes, trainings, consumer-driven efforts like buycotts and boycotts, digital activism, creation or implementation of new technology to drive engagement. 
 * If your organization plans to engage in any activities that would constitute lobbying for tax law purposes, please be sure to provide an allocated budget with your application. LA2050 can only fund the non-lobbying portion of your project budgets.
 
+### Resources
+
+* The activation challenge is all about making progress on our shared goals and metrics. Read about them [here](http://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432). 
+* Ready to submit? Check out the [entry forms](https://drive.google.com/drive/folders/1gV-2RxzQrpUtkxas1qVsBtQswrb_ZwZg) by goal category 
+* Review the [scorecard](https://drive.google.com/file/d/1fu8ZgcMTKj53pJNK5S1ECb1mxKi3vgLN/view) to see how your proposal will be evaluated
+* Check out our FAQs and [these questions](https://docs.google.com/document/d/1rS7M0RKiQOvUqISa2kBGxYm64DQDT5mR72q2fDywJWU/edit) from our office hours in February. 
+* Need inspiration? See how groups and leaders in LA are approaching civic participation in these [two](http://la2050.s3-us-west-1.amazonaws.com/reports/12/pdfs/Braintrust_final_oct9.pdf?1508800325) [reports](http://la2050.s3-us-west-1.amazonaws.com/reports/10/pdfs/partyatthepollsreport_july18.pdf?1500421763). 
+* How have Angelenos activated in the past? Check out [these videos](https://www.facebook.com/LA2050/videos/vl.1855009431227001/1798255590244812/?type=1) on movements shaping LA. 
+
+
 ### Dates
 
 Apply between Thursday, March 1, 2018 (9am Pacific Time) and Friday, March 30, 2018 (5pm Pacific Time) on this website. 
