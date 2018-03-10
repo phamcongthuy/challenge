@@ -106,6 +106,18 @@ main_class: standard-layout
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
   }
+  .links-involved .action a {
+    background: white;
+    color: var(--primary-color, black);
+    border-color: var(--primary-color, black);
+  }
+  .links-involved .action a:hover,
+  .links-involved .action a:active,
+  .links-involved .action a:focus {
+    background: var(--primary-color, black);
+    border-color: var(--primary-color, black);
+    color: white;
+  }
 /*  .links-involved .action a {
     background: white;
     color: var(--secondary-color, black);
@@ -182,6 +194,17 @@ main_class: standard-layout
     color: var(--primary-color, inherit);
     font-weight: 600;
   }
+
+
+  @media (min-width: 60em) {
+    .proposal-answers {
+      font-size: 0.875em;
+    }
+/*    .proposal-answers h2 {
+      font-size: 1em;
+    }*/
+  }
+
   @media (min-width: 70em) { /* @wide-enough-for-header-grid */
     .proposal-introduction .links-more {
       margin-top: 3em;
