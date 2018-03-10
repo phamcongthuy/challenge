@@ -5,7 +5,7 @@ main_class: standard-layout
 footer_image: true
 ---
 
-<style media="false">
+<style>
 @media (min-width: 70em) {
   body {
     padding-top: 10.5em;
@@ -21,18 +21,23 @@ footer_image: true
   .header-figure.has-caption.has-caption-details .caption {
     padding-bottom: 2.25em;
   }
-  .header-figure.has-caption.has-caption-details h1 {
+/*  .header-figure.has-caption.has-caption-details h1 {
     top: 16.5rem;
     top: calc(16.5vw + 5.25rem);
     left: calc(33.3333% + 2.25rem)
-  }
+  }*/
   .header-figure.has-caption.has-caption-details img {
     position: relative !important;
     top: 5.25em;
   }
 }
+@media (min-width: 100em) {
+  .header-figure.has-caption.has-caption-details img {
+    height: 45vw;
+  }
+}
 
-@media (min-width: 70em) {
+/*@media (min-width: 70em) {
   .header-figure .caption h1 {
     font-size: 3vmax;
   }
@@ -50,7 +55,7 @@ footer_image: true
   .header-figure .caption h1 span:last-child {
     font-size: 2.1em;
   }
-}
+}*/
 </style>
 
 <div class="standard-figure has-caption header-figure has-caption-details">
