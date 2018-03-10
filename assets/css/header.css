@@ -8,7 +8,7 @@
     color: rgb(254, 254, 254); /* @snow */
     margin-left: -1.5em;
     margin-right: -1.5em;
-    padding: 3em 1.5em 3em;
+    padding: 3em 1.5em 1.5em;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
@@ -71,17 +71,9 @@
     display: inline-block;
     margin: 0.25em 0.75em;
   }
-  @media (max-width: 30em) {
-    header ul,
-    footer ul {
-      max-width: 20em;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  header ul {
+/*  header ul {
     max-width: none;
-  }
+  }*/
   header .navigation ul:not(.primary),
   footer .navigation ul:not(.primary) {
     margin-right: 0.25em;
@@ -100,6 +92,14 @@
     header .navigation ul.primary,
     footer .navigation ul.primary {
       margin-bottom: -1.5em; /* SHIM: To offset the bottom margin on the buttons */
+    }
+  }
+  @media (max-width: 30em) {
+    header ul,
+    footer ul {
+      max-width: 15em;
+      margin-left: auto !important;
+      margin-right: auto !important;
     }
   }
 
@@ -297,11 +297,11 @@
 
 
   @media (max-width: 40em) {
-    header .navigation ul,
+/*    header .navigation ul,
     footer .navigation ul {
       margin-left: -0.75em !important;
       margin-right: -0.75em !important;
-    }
+    }*/
     header .navigation li,
     footer .navigation li {
       margin: 0.375em 0.25em !important;

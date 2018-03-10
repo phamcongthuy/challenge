@@ -58,7 +58,7 @@ footer_image: true
   <div class="caption">
     <div>
       <!-- <h1>Los Angeles:<br /><strong>Change</strong> is&nbsp;Local</h1> -->
-      <h1><span>Los Angeles:</span><br /><strong>Change</strong><span style="">is&nbsp;Local</span></h1>
+      <h1><span>Los Angeles:</span><br /><strong>Change</strong> <span>is&nbsp;Local</span></h1>
 
 <div class="details">
 
@@ -124,13 +124,13 @@ footer_image: true
         </svg>
       </div>
       <p>
-        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/submit/">The submission period has begun</a>!</strong><br />
-        <span class="avoid-break">Apply by <strong>March 30, 2018</strong>.</span><br />
+        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/submit/">The submission period <Span class="avoid-break">has started</span></a>!</strong><br />
+        <span class="avoid-break">Apply by <strong>March 30, 2018.</strong></span><br />
         <!--
         <small>
           Voting begins on
           <span class="avoid-break">
-            <strong>June 19, 2018</strong>.
+            <strong>June 19, 2018.</strong>
           </span>
         </small>
         -->
