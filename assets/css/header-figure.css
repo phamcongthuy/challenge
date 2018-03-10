@@ -16,7 +16,7 @@
   }
   .header-figure .caption p:not(.action) {
     background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-    padding: 0.75em 1.5em;
+    padding: 0.75em;
     margin: 0;
     font-weight: 500; /* @medium */
     text-transform: none;
@@ -215,7 +215,7 @@
       padding-bottom: 3em;
     }
     .header-figure .caption {
-      padding-top: 18em;
+      padding-top: 15em;
       padding-bottom: 3em;
     }
     .standard-figure.has-caption img {
