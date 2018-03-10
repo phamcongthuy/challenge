@@ -35,7 +35,7 @@ footer_image: true
 {% elsif site.phase == 2 %}
 
       <p style="max-width: 20em;">
-        The submission period <span class="avoid-break">has started!</span> <span>Apply by <strong class="avoid-break">March 30, 2018</strong>.</span>
+        The submission period <span class="avoid-break">has started!</span> <span class="avoid-break">Apply by <strong class="avoid-break">March 30, 2018</strong>.</span>
       </p>
       <p style="max-width: 18em">
         Voting begins on
