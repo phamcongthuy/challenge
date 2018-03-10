@@ -293,11 +293,19 @@
     position: absolute;
     top: 3rem;
     z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .header-figure.has-caption.has-caption-details img {
     object-position: 0 55%;
     height: 50vw;
     position: static;
+  }
+  @media (max-width: 100em) {
+    .header-figure.has-caption.has-caption-details img {
+      object-position: 0 55%;
+      height: 55vw;
+    }
   }
   @media (max-width: 30em) {
     .header-figure.has-caption.has-caption-details img {
@@ -329,7 +337,7 @@
     margin: -3em -0.75em -3em -1.5em;
     background-color: rgb(141, 208, 59); /* @lime */
     background-color: rgb(255, 194, 51); /* @banana */
-    padding: 1.5em;
+    padding: 2.25em 1.5em;
   }
 @supports (false) {
   .header-figure .caption .details {

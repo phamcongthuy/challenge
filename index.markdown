@@ -5,7 +5,7 @@ main_class: standard-layout
 footer_image: true
 ---
 
-<style>
+<style media="false">
 @media (min-width: 70em) {
   body {
     padding-top: 10.5em;
