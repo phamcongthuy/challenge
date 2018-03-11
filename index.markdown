@@ -13,7 +13,7 @@ footer_image: true
 
 
 @media (min-width: 70em) {
-  body {
+/*  body {
     padding-top: 10.5em;
   }
   .header-figure.has-caption.has-caption-details .caption .details {
@@ -23,7 +23,7 @@ footer_image: true
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-  }
+  }*/
   .header-figure.has-caption.has-caption-details .caption {
     padding-bottom: 2.25em;
   }
@@ -34,14 +34,14 @@ footer_image: true
   }*/
   .header-figure.has-caption.has-caption-details img {
     position: relative !important;
-    top: 5.25em;
+    /*top: 5.25em;*/
   }
 }
-@media (min-width: 100em) {
+/*@media (min-width: 100em) {
   .header-figure.has-caption.has-caption-details img {
     height: 45vw;
   }
-}
+}*/
 
 /*@media (min-width: 70em) {
   .header-figure .caption h1 {
