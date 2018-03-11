@@ -1045,22 +1045,25 @@ Non-profit
 
 </section><!-- /.proposal-introduction -->
 
-<div style="margin-top: 4.5em"></div>
-
 <hr />
 
-<div id="disqus_thread" style="grid-column: 1/-1"></div>
+<h2><small>Comments:</small><br /><br />{{ page.title }}</h2>
+
+<div id="disqus_thread" style="grid-column: 2/-1; max-width: 40em"></div>
 <script>
-  var disqus_config = function () {
-      this.page.identifier = {{ page['plan_id'] }}
-  };
-  
-  (function() {
-      var d = document, s = d.createElement('script');
-      s.src = '//challenge-la2050-org.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-  })();
+    // https://disqus.com/admin/universalcode/#configuration-variables
+    var disqus_config = function () {
+        // this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = {{ page['plan_id'] }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        s.src = 'https://challenge-la2050-org.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
 
 
