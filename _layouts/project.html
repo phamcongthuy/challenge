@@ -1045,26 +1045,24 @@ Non-profit
 
 </section><!-- /.proposal-introduction -->
 
-
-<!--
 <div style="margin-top: 4.5em"></div>
 
 <hr />
 
-<div id="disqus_thread" style="grid-column: 1/4"></div>
-
+<div id="disqus_thread" style="grid-column: 1/-1"></div>
 <script>
-var disqus_config = function () {
-  this.page.identifier = 83935;
-};  
-(function() {
-  var d = document, s = d.createElement('script');
-  s.src = '//challenge-la2050-org.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-})();
+  var disqus_config = function () {
+      this.page.identifier = {{ page['plan_id'] }}
+  };
+  
+  (function() {
+      var d = document, s = d.createElement('script');
+      s.src = '//challenge-la2050-org.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+  })();
 </script>
--->
+
 
 <style>
 
