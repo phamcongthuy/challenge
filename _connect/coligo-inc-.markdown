@@ -121,6 +121,7 @@ project_proposal_best_place: >-
 link_newsletter: www.coligo.co
 link_volunteer: null
 link_donate: null
+plan_id: 82589
 order: 5
 category: connect
 uri: /connect/coligo-inc-

@@ -126,6 +126,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.groceryships.org/newsletter'
 link_volunteer: 'http://www.netiya.org/internvolunteer-with-netiya/'
 link_donate: 'https://donatenow.networkforgood.org/communitypartners/'
+plan_id: 82931
 order: 10
 category: live
 uri: /live/groceryships-and-netiya

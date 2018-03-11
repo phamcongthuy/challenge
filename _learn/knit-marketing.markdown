@@ -91,6 +91,7 @@ project_proposal_best_place: >-
 link_newsletter: Knitmarketing.com
 link_volunteer: null
 link_donate: null
+plan_id: 84276
 order: 51
 category: learn
 uri: /learn/knit-marketing

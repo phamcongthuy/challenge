@@ -116,6 +116,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://girlsintech.org'
 link_volunteer: 'http://girlsintech.org'
 link_donate: 'http://girlsintech.org'
+plan_id: 84115
 order: 31
 category: create
 uri: /create/girls-in-tech

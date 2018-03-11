@@ -153,6 +153,7 @@ project_proposal_best_place: >-
 link_newsletter: concernedcapital.info
 link_volunteer: null
 link_donate: null
+plan_id: 84036
 order: 36
 category: create
 uri: /create/concerned-capital-crowdfund-better

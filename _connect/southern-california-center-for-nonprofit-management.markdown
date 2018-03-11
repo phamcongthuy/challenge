@@ -132,6 +132,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://cnmsocal.org/'
 link_volunteer: 'https://cnmsocal.org/'
 link_donate: 'https://cnmsocal.org/'
+plan_id: 82721
 order: 6
 category: connect
 uri: /connect/southern-california-center-for-nonprofit-management

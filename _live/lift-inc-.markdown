@@ -117,6 +117,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.liftcommunities.org/get-involved/'
 link_volunteer: 'http://www.liftcommunities.org/get-involved/volunteer/'
 link_donate: 'https://donatenow.networkforgood.org/donatetolift'
+plan_id: 84193
 order: 37
 category: live
 uri: /live/lift-inc-

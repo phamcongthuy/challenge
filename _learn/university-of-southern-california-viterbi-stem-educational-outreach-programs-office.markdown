@@ -143,6 +143,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.livingadvantageinc.org/Join-Mailing-List.cfm'
 link_volunteer: null
 link_donate: null
+plan_id: 83850
 order: 15
 category: learn
 uri: >-

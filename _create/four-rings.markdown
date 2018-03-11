@@ -118,6 +118,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://fourrings.co/contact/'
 link_volunteer: 'http://fourrings.co/contact/'
 link_donate: 'http://fourrings.co/donate/'
+plan_id: 82377
 order: 2
 category: create
 uri: /create/four-rings

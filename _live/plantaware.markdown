@@ -153,6 +153,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.plantaware.com/contact/'
 link_volunteer: 'http://www.plantaware.com/contact/'
 link_donate: 'http://www.plantaware.com/contact/'
+plan_id: 84293
 order: 44
 category: live
 uri: /live/plantaware

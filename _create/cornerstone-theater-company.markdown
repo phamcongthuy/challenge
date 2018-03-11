@@ -127,6 +127,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://cornerstone.secure.force.com/signup'
 link_volunteer: 'https://cornerstone.secure.force.com/signup'
 link_donate: 'https://cornerstone.secure.force.com/donate?dfId=a17F0000003vSU6IAM'
+plan_id: 83845
 order: 17
 category: create
 uri: /create/cornerstone-theater-company

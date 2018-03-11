@@ -136,6 +136,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.theicala.org/#popup1'
 link_volunteer: null
 link_donate: null
+plan_id: 83887
 order: 20
 category: create
 uri: /create/institute-of-contemporary-art-los-angeles-ica-la

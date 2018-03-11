@@ -84,6 +84,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://jenesse.org/mailinglist'
 link_volunteer: 'http://jenesse.org/contact/'
 link_donate: 'http://jenesse.org/donate/index.hmtl'
+plan_id: 84311
 order: 55
 category: connect
 uri: /connect/jenesse-center-inc-

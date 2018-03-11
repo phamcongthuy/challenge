@@ -103,6 +103,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.nfyi.org/take-action/'
 link_volunteer: 'https://www.nfyi.org/take-action/'
 link_donate: 'https://www.nfyi.org/donate/'
+plan_id: 82391
 order: 2
 category: connect
 uri: /connect/national-foster-youth-institute

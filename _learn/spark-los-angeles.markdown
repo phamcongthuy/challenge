@@ -134,6 +134,7 @@ project_proposal_best_place: >-
 link_newsletter: www.sparkprogram.org/index.php/locations/los_angeles
 link_volunteer: 'http://sparkprogram.tfaforms.net/326721'
 link_donate: 'https://www.sparkprogram.org/index.php/get_involved/donate'
+plan_id: 84270
 order: 50
 category: learn
 uri: /learn/spark-los-angeles

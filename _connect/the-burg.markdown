@@ -129,6 +129,7 @@ project_proposal_best_place: >-
 link_newsletter: burg.io/signup
 link_volunteer: null
 link_donate: null
+plan_id: 83846
 order: 18
 category: connect
 uri: /connect/the-burg

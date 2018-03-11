@@ -80,6 +80,7 @@ link_newsletter: 'https://www.facebook.com/BicycleCulture/'
 link_volunteer: 'http://bicycleculture.org/join-us/volunteer/'
 link_donate: >-
   https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=X3a61qBxMCfogN5XRxVkAp2vyPHASfmaBJfPmsZNgykU6d_E37CFmm9JIIy&dispatch=5885d80a13c0db1f8e263663d3faee8d4fe1dd75ca3bd4f11d72275b28239088
+plan_id: 84398
 order: 22
 category: play
 uri: /play/bicycle-culture-institute

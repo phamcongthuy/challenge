@@ -155,6 +155,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.mas.la/contact'
 link_volunteer: 'http://www.mas.la/contact'
 link_donate: 'http://www.mas.la/contact'
+plan_id: 84447
 order: 57
 category: live
 uri: /live/evolve-la-project-of-la-más

@@ -82,6 +82,7 @@ link_newsletter: >-
   http://wpdi.us8.list-manage.com/subscribe?u=43769bbeb5f5ddf6251ac4ef4&id=fe76e61f14
 link_volunteer: null
 link_donate: 'http://wpdi.org/donate'
+plan_id: 84095
 order: 40
 category: learn
 uri: /learn/whitaker-peace-development-initiative-wpdi

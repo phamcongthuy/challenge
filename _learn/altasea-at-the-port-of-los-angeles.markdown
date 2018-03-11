@@ -140,6 +140,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://altasea.org/our-newsletters/'
 link_volunteer: null
 link_donate: 'https://altasea.org/contribute-to-altasea/'
+plan_id: 83935
 order: 20
 category: learn
 uri: /learn/altasea-at-the-port-of-los-angeles

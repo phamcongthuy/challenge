@@ -111,6 +111,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.environment.ucla.edu/newsroom/category/newsletter/'
 link_volunteer: 'http://www.ioes.ucla.edu/events/'
 link_donate: 'http://www.environment.ucla.edu/giving/'
+plan_id: 84336
 order: 50
 category: live
 uri: /live/ucla-institute-of-the-environment-and-sustainability-ioes

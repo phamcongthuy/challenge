@@ -136,6 +136,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.nhslacounty.org/contact'
 link_volunteer: 'http://www.nhslacounty.org/get-involved'
 link_donate: 'https://www.nhslacounty.org/donate-online'
+plan_id: 84114
 order: 32
 category: live
 uri: /live/neighborhood-housing-services-of-los-angeles-county

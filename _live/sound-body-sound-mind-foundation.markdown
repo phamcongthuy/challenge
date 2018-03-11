@@ -152,6 +152,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.uclahealth.org/publications'
 link_volunteer: null
 link_donate: 'https://giving.ucla.edu/Standard/NetDonate.aspx?SiteNum=1188'
+plan_id: 83047
 order: 12
 category: live
 uri: /live/sound-body-sound-mind-foundation

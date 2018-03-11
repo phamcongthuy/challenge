@@ -164,6 +164,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://podshare.co/#contact'
 link_volunteer: null
 link_donate: null
+plan_id: 84227
 order: 39
 category: live
 uri: /live/podshare

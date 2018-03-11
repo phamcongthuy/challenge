@@ -65,6 +65,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.theedibleapartment.org/'
 link_volunteer: 'mailto:jill.volat@gmail.com'
 link_donate: 'mailto:jill.volat@gmail.com'
+plan_id: 84409
 order: 54
 category: live
 uri: /live/the-edible-apartment

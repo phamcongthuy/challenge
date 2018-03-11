@@ -102,6 +102,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://impacthubla.com/'
 link_volunteer: null
 link_donate: null
+plan_id: 84348
 order: 44
 category: create
 uri: /create/impact-hub-los-angeles

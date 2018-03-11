@@ -108,6 +108,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://ronfinley.com/contact/'
 link_volunteer: 'http://ronfinley.com/contact/'
 link_donate: 'http://ronfinley.com/contact/'
+plan_id: 84154
 order: 15
 category: play
 uri: /play/the-ron-finley-project

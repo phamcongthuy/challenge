@@ -119,6 +119,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.facebook.com/uclaaghc/app/100265896690345/'
 link_volunteer: 'http://artglobalhealth.org/contact/'
 link_donate: 'http://giveto.ucla.edu/fund/art-global-health-center/'
+plan_id: 83870
 order: 19
 category: live
 uri: /live/regents-of-the-university-of-california

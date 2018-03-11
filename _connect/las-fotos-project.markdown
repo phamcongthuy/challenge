@@ -108,6 +108,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.momentumsolutionsteam.com/'
 link_volunteer: null
 link_donate: www.bitly.com/supportLFP
+plan_id: 84242
 order: 46
 category: connect
 uri: /connect/las-fotos-project

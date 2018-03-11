@@ -90,6 +90,7 @@ project_proposal_best_place: >-
 link_newsletter: www.caloinc.org
 link_volunteer: www.caloinc.org
 link_donate: www.caloinc.org
+plan_id: 84401
 order: 23
 category: play
 uri: /play/calo-youthbuild

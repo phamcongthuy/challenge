@@ -95,6 +95,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.imaginela.org/join-our-mailing-list/'
 link_volunteer: 'http://www.imaginela.org/become-a-volunteer/'
 link_donate: 'http://www.imaginela.org/donate/'
+plan_id: 84315
 order: 56
 category: connect
 uri: /connect/imagine-la

@@ -100,6 +100,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://csuntoday.csun.edu'
 link_volunteer: 'http://www.csun.edu/alumni/volunteer'
 link_donate: givenow.csun.edu
+plan_id: 84222
 order: 47
 category: learn
 uri: /learn/california-state-university-northridge-csun

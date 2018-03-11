@@ -146,6 +146,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://news.janegoodall.org/'
 link_volunteer: 'https://www.surveymonkey.com/r/JZTPZM9'
 link_donate: www.jgi.convio.net/donate
+plan_id: 84330
 order: 57
 category: connect
 uri: /connect/the-jane-goodall-institute

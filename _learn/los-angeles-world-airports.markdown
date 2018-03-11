@@ -68,6 +68,7 @@ project_proposal_best_place: >-
 link_newsletter: N/A
 link_volunteer: 'http://www.lawa.org/BJRC'
 link_donate: null
+plan_id: 83814
 order: 12
 category: learn
 uri: /learn/los-angeles-world-airports

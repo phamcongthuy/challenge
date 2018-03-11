@@ -79,6 +79,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.homeboyindustries.org/'
 link_volunteer: 'http://www.homeboyindustries.org/how-you-can-help/'
 link_donate: 'http://www.homeboyindustries.org/how-you-can-help/'
+plan_id: 84470
 order: 68
 category: connect
 uri: /connect/homeboy-industries

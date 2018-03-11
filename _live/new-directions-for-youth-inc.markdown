@@ -90,6 +90,7 @@ link_newsletter: >-
   http://ndfy.us13.list-manage1.com/subscribe?u=504c6911d143b119434e47d8f&id=94769e1359
 link_volunteer: 'http://www.volunteermatch.org/results/opp_detail.jsp?oppid=2286777'
 link_donate: 'https://interland3.donorperfect.net/weblink/weblink.aspx?name=E192522&id=8'
+plan_id: 84002
 order: 26
 category: live
 uri: /live/new-directions-for-youth-inc

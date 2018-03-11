@@ -93,7 +93,7 @@ function createMarkdownFile(writePath, data, data_category, order) {
   delete data.date_created
   delete data.id
   delete data.status
-  delete data.plan_id
+  // delete data.plan_id
   delete data.updated
   delete data.slug
 

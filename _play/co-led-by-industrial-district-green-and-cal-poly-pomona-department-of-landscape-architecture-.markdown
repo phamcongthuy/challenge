@@ -133,6 +133,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.industrialdistrictgreen.org'
 link_volunteer: 'http://www.industrialdistrictgreen.org/volunteer'
 link_donate: 'https://industrialdistrictgreen.nationbuilder.com/support_us'
+plan_id: 82920
 order: 4
 category: play
 uri: >-

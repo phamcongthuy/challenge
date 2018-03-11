@@ -59,6 +59,7 @@ link_newsletter: >-
   http://solafoodcoop.us2.list-manage1.com/subscribe?u=87110e68e7253442d74dd134b&id=181afeb792
 link_volunteer: 'http://www.solafoodcoop.com/volunteer/'
 link_donate: 'http://www.solafoodcoop.com/online-store/donate-to-help-sola-operate/'
+plan_id: 84060
 order: 30
 category: live
 uri: /live/sola-food-co-op

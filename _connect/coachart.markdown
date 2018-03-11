@@ -113,6 +113,7 @@ project_proposal_best_place: >-
 link_newsletter: www.coachart.org/newsletter
 link_volunteer: www.coachart.org/volunteer
 link_donate: www.coachart.org/donate
+plan_id: 84045
 order: 31
 category: connect
 uri: /connect/coachart

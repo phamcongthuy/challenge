@@ -133,6 +133,7 @@ project_proposal_best_place: >-
 link_newsletter: N/A
 link_volunteer: 'http://www.theriverproject.org/get-involved-help-out'
 link_donate: 'http://www.theriverproject.org/get-involved-help-out'
+plan_id: 84318
 order: 62
 category: live
 uri: /live/the-river-project

@@ -141,6 +141,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.theacademyproject.org/join-us'
 link_volunteer: 'http://www.theacademyproject.org/contact-us'
 link_donate: 'https://www.crowdrise.com/the-academy-project#projects'
+plan_id: 82434
 order: 3
 category: learn
 uri: /learn/the-academy-project

@@ -116,6 +116,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://proyectopastoral.org/getinformed.php'
 link_volunteer: 'http://proyectopastoral.org/volunteeropportunities.php'
 link_donate: 'http://proyectopastoral.org/donate.php'
+plan_id: 84300
 order: 56
 category: learn
 uri: /learn/proyecto-pastoral

@@ -91,6 +91,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.facebook.com/StreetsAreForEveryone/app/141428856257/'
 link_volunteer: 'http://www.streetsare4everyone.org/how-to-help/volunteer/'
 link_donate: 'http://www.streetsare4everyone.org/how-to-help/donate/'
+plan_id: 84173
 order: 38
 category: connect
 uri: /connect/safe-streets-are-for-everyone

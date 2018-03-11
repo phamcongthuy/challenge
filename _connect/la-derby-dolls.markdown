@@ -118,6 +118,7 @@ link_newsletter: 'http://eepurl.com/MK8yj'
 link_volunteer: 'http://www.derbydolls.com/join/'
 link_donate: >-
   https://www.google.com/url?hl=en&q=https://www.paypal.com/cgi-bin/webscr?cmd%3D_s-xclick%26hosted_button_id%3DJ2QHNGY865MHJ&source=gmail&ust=1477178998392000&usg=AFQjCNEfeadJAWqSy1h2XeY8luHiUAhdxA
+plan_id: 84375
 order: 61
 category: connect
 uri: /connect/la-derby-dolls

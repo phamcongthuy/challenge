@@ -117,6 +117,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.dataroads.org/blog/feed/'
 link_volunteer: null
 link_donate: 'https://www.dwolla.com/Payment/Register/5ce9c38c-9022-41fe-b389-472f391733d7'
+plan_id: 84014
 order: 28
 category: connect
 uri: /connect/data-roads-foundation

@@ -111,6 +111,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.melroseelementarypto.org'
 link_volunteer: 'http://melrose-lausd-ca.schoolloop.com/volunteers'
 link_donate: 'http://www.melroseelementarypto.org/Donate'
+plan_id: 82733
 order: 6
 category: learn
 uri: /learn/melrose-elementary-pto

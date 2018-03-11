@@ -134,6 +134,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://bigsunday.org/get-involved/sign-up-for-our-email-list/'
 link_volunteer: 'http://bigsunday.org/about-us/what-is-big-sunday/'
 link_donate: 'http://bigsunday.org/get-involved/donate-now/'
+plan_id: 84175
 order: 40
 category: connect
 uri: /connect/big-sunday

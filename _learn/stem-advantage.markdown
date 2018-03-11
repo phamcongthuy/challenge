@@ -147,6 +147,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://stemadvantage.org/newsletters/'
 link_volunteer: 'http://stemadvantage.org/contact/'
 link_donate: 'https://secure.actblue.com/contribute/page/stemadvantage'
+plan_id: 84366
 order: 60
 category: learn
 uri: /learn/stem-advantage

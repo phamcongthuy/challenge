@@ -109,6 +109,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.metro.net/projects/oei/newsletter-sign-up/'
 link_volunteer: www.coachart.org/volunteer
 link_donate: www.coachart.org/donate
+plan_id: 84389
 order: 62
 category: connect
 uri: /connect/la-metro

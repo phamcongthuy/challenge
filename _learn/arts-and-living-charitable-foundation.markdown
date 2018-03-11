@@ -118,6 +118,7 @@ project_proposal_best_place: >-
 link_newsletter: www.artandliving.com
 link_volunteer: null
 link_donate: null
+plan_id: 83969
 order: 26
 category: learn
 uri: /learn/arts-and-living-charitable-foundation

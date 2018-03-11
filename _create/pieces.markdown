@@ -71,6 +71,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/bmVxkv'
 link_volunteer: 'http://www.piecesarts.org/ways-to-help-sewqh'
 link_donate: 'http://www.piecesarts.org/ways-to-help-sewqh'
+plan_id: 82431
 order: 5
 category: create
 uri: /create/pieces

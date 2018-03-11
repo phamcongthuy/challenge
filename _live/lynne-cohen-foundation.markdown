@@ -116,6 +116,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://lynnecohenfoundation.org'
 link_volunteer: null
 link_donate: null
+plan_id: 84040
 order: 28
 category: live
 uri: /live/lynne-cohen-foundation

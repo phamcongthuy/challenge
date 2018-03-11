@@ -88,6 +88,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.facebook.com/SCALARC/?pnref=story'
 link_volunteer: null
 link_donate: null
+plan_id: 82385
 order: 1
 category: connect
 uri: /connect/sca-larc

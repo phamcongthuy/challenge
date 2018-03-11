@@ -111,6 +111,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.connectedcalifornia.org/blog'
 link_volunteer: null
 link_donate: 'http://www.connectedcalifornia.org'
+plan_id: 82728
 order: 4
 category: learn
 uri: /learn/connected

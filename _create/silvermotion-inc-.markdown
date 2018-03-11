@@ -73,6 +73,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://www.equiz.com/signup.html?type=android'
 link_volunteer: null
 link_donate: null
+plan_id: 82367
 order: 0
 category: create
 uri: /create/silvermotion-inc-

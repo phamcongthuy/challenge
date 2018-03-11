@@ -129,6 +129,7 @@ project_proposal_best_place: >-
 link_newsletter: www.girlsincla.org
 link_volunteer: www.girlsincla.org
 link_donate: www.girlsincla.org
+plan_id: 84230
 order: 48
 category: learn
 uri: /learn/girls-inc-of-greater-los-angeles

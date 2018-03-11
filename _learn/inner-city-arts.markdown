@@ -145,6 +145,7 @@ project_proposal_best_place: >-
 link_newsletter: 'https://interland3.donorperfect.net/weblink/weblink.aspx?name=E9886&id=15'
 link_volunteer: 'http://www.inner-cityarts.org/volunteer'
 link_donate: 'https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E9886&id=16'
+plan_id: 84004
 order: 31
 category: learn
 uri: /learn/inner-city-arts

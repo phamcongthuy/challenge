@@ -127,6 +127,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.cityx1.com/contact.html'
 link_volunteer: 'http://www.cityx1.com/volunteer.html'
 link_donate: 'http://www.cityx1.com/donate.html'
+plan_id: 84234
 order: 45
 category: connect
 uri: /connect/the-c-i-t-y-x1-youth-group

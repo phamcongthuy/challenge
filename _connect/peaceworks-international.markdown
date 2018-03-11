@@ -114,6 +114,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.iamla2017.com/p/contact.html'
 link_volunteer: null
 link_donate: null
+plan_id: 84264
 order: 49
 category: connect
 uri: /connect/peaceworks-international

@@ -110,6 +110,7 @@ link_newsletter: 'https://www.plannedparenthood.org/planned-parenthood-los-angel
 link_volunteer: >-
   https://www.plannedparenthood.org/files/2114/0181/7981/2010_Updated_Volunteer_Application.pdf
 link_donate: www.supportpp-la.org
+plan_id: 84443
 order: 56
 category: live
 uri: /live/planned-parenthood-los-angeles-ppla

@@ -138,6 +138,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.calstatela.edu/abacc/parent-resources-and-information#newsletter'
 link_volunteer: null
 link_donate: null
+plan_id: 84195
 order: 45
 category: learn
 uri: /learn/anna-bing-arnold-childrens-center

@@ -144,6 +144,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.california-partnership.org/'
 link_volunteer: null
 link_donate: null
+plan_id: 83811
 order: 16
 category: connect
 uri: /connect/california-partnership

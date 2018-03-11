@@ -130,6 +130,7 @@ link_newsletter: N/A
 link_volunteer: null
 link_donate: >-
   https://www.teachforamerica.org/get-involved/ways-to-give/donate-now?transProgramName=Los+Angeles
+plan_id: 83874
 order: 16
 category: learn
 uri: /learn/teach-for-america-los-angeles

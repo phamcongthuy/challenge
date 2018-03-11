@@ -109,6 +109,7 @@ link_newsletter: 'http://eepurl.com/chP-PL'
 link_volunteer: >-
   https://docs.google.com/forms/d/e/1FAIpQLSfWA-uhXuPpSoAJ8PUEtFg6ynw2YB6RRlUB2adtd-dlSit1jQ/viewform
 link_donate: 'https://www.crowdrise.com/action-ambassadors-for-la'
+plan_id: 83816
 order: 13
 category: learn
 uri: /learn/united-nations-association-usa-pasadena-chapter-inc-

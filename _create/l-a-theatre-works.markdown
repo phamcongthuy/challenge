@@ -115,6 +115,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.latw.org/Contact%20Us/index.html'
 link_volunteer: null
 link_donate: 'https://web.ovationtix.com/trs/store/1551/alldonations/20585'
+plan_id: 84110
 order: 29
 category: create
 uri: /create/l-a-theatre-works

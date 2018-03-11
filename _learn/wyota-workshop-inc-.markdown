@@ -130,6 +130,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.wyotaworkshop.com/www.wyotaworkshop.com/Contact.html'
 link_volunteer: null
 link_donate: null
+plan_id: 83060
 order: 10
 category: learn
 uri: /learn/wyota-workshop-inc-

@@ -119,6 +119,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://oi.vresp.com/?fid=be572f862e'
 link_volunteer: null
 link_donate: 'http://www.rymanarts.org/donate'
+plan_id: 84291
 order: 53
 category: connect
 uri: /connect/ryman-arts

@@ -126,6 +126,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://eepurl.com/X4PDz'
 link_volunteer: 'http://www.lasbest.org/involved/volunteer'
 link_donate: 'http://www.lasbest.org/donate'
+plan_id: 84462
 order: 70
 category: learn
 uri: /learn/las-best

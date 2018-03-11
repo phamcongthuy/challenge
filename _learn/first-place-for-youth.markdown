@@ -130,6 +130,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.firstplaceforyouth.org/'
 link_volunteer: 'http://www.firstplaceforyouth.org/how-you-can-help/volunteer/'
 link_donate: 'https://www.firstplaceforyouth.org/how-you-can-help/donate/'
+plan_id: 83924
 order: 18
 category: learn
 uri: /learn/first-place-for-youth

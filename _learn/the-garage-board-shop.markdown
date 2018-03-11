@@ -75,6 +75,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://thegarageboardshops.com/'
 link_volunteer: null
 link_donate: null
+plan_id: 84400
 order: 66
 category: learn
 uri: /learn/the-garage-board-shop

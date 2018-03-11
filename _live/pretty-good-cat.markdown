@@ -79,6 +79,7 @@ project_proposal_best_place: >-
 link_newsletter: PrettyGoodCat.com
 link_volunteer: Tina@prettygoodcat.com
 link_donate: PrettyGoodCat.com
+plan_id: 83947
 order: 20
 category: live
 uri: /live/pretty-good-cat

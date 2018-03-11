@@ -124,6 +124,7 @@ link_newsletter: >-
   https://visitor.r20.constantcontact.com/manage/optin?v=001K_4EBhhTrxSLPgNPVbwpKU4JggNFC_SEG2p9T7JtGkXcYh4ilVgbnaIOF1OvqPj9jxFl_2kn9TsTtrh1aglEPiiVTypuy0LiomF86ialLoR1Z6SBbYVa8z15AnNYbX1i2T6O4EeHY-ePQD
 link_volunteer: 'http://friendsofking.org/volunteer/'
 link_donate: 'http://friendsofking.org/pledge-now/'
+plan_id: 83987
 order: 11
 category: play
 uri: /play/friends-of-king

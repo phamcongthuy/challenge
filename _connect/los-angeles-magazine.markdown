@@ -109,6 +109,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.lamag.com/newsletters/'
 link_volunteer: null
 link_donate: 'https://www.crowdrise.com/GIVELosAngelesChallenge'
+plan_id: 84010
 order: 27
 category: connect
 uri: /connect/los-angeles-magazine

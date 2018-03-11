@@ -114,6 +114,7 @@ project_proposal_best_place: >-
 link_newsletter: www.lblreaders.org
 link_volunteer: www.lblreaders.org
 link_donate: www.lblreaders.org
+plan_id: 84153
 order: 7
 category: learn
 uri: /learn/public-health-foundation-enterprises

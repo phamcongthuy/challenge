@@ -117,6 +117,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://getgaggle.com/newsletter/'
 link_volunteer: null
 link_donate: null
+plan_id: 84118
 order: 14
 category: play
 uri: /play/epage

@@ -128,6 +128,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://bit.ly/1y9j6GR'
 link_volunteer: 'http://bit.ly/2dzf5Yg'
 link_donate: 'https://www.fofca.org/donatenew.php'
+plan_id: 83044
 order: 14
 category: connect
 uri: /connect/friends-of-the-family

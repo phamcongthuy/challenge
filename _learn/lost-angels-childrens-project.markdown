@@ -96,6 +96,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.lostangelscp.org'
 link_volunteer: 'http://www.lostangelscp.org/contact'
 link_donate: 'http://www.lostangelscp.org/donate'
+plan_id: 84283
 order: 52
 category: learn
 uri: /learn/lost-angels-childrens-project

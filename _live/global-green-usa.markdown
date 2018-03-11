@@ -114,6 +114,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.globalgreen.org/newsletter/'
 link_volunteer: 'http://www.globalgreen.org/getinvolved/'
 link_donate: 'http://www.globalgreen.org/donate/'
+plan_id: 83108
 order: 13
 category: live
 uri: /live/global-green-usa

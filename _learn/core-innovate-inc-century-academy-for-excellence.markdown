@@ -132,6 +132,7 @@ project_proposal_best_place: >-
 link_newsletter: 'http://www.coreinnovate.com/contact'
 link_volunteer: null
 link_donate: null
+plan_id: 84391
 order: 63
 category: learn
 uri: /learn/core-innovate-inc-century-academy-for-excellence
