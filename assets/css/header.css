@@ -17,6 +17,7 @@
     background: rgb(245, 245, 245);
     background: rgb(235, 235, 235);
     color: inherit;
+    padding: 3em 1.5em 3em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     header,
@@ -25,10 +26,10 @@
       margin-right: -4.5em;
       padding: 3em 4.5em;
     }
-    footer {
+/*    footer {
       padding-top: 2.25em;
       padding-bottom: 3em;
-    }
+    }*/
   }
 
   header h2,
@@ -66,6 +67,15 @@
     list-style: none;
     padding-left: 0;
   }
+  header ul,
+  footer ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*  header ul {
+    margin-top: -0.625em;
+    margin-bottom: -0.625em;
+  }*/
   header li,
   footer li {
     display: inline-block;
@@ -74,13 +84,13 @@
 /*  header ul {
     max-width: none;
   }*/
-  header .navigation ul:not(.primary),
+/*  header .navigation ul:not(.primary),
   footer .navigation ul:not(.primary) {
     margin-right: 0.25em;
     margin-left: 0.25em;
     margin-right: 0.375em;
     margin-left: 0.375em;
-  }
+  }*/
   header .navigation ul.primary,
   footer .navigation ul.primary {
     margin-top: 0.625em;
@@ -95,13 +105,22 @@
     }
   }
   @media (max-width: 30em) {
-    header ul,
-    footer ul {
+    header ul.has-5-items,
+    footer ul.has-5-items {
       max-width: 15em;
       margin-left: auto !important;
       margin-right: auto !important;
     }
   }
+  @media (max-width: 55em) {
+    header ul.has-6-items,
+    footer ul.has-6-items {
+      max-width: 20em;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+
 
 
   /* =Links

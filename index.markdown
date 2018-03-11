@@ -6,6 +6,12 @@ footer_image: true
 ---
 
 <style>
+.header-figure.has-caption.has-caption-details .caption .details a,
+.header-figure.has-caption.has-caption-details .caption .details a strong {
+  font-weight: 600;
+}
+
+
 @media (min-width: 70em) {
   body {
     padding-top: 10.5em;
@@ -58,8 +64,82 @@ footer_image: true
 }*/
 </style>
 
+{% if site.phase == 2 %}
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(141, 208, 59); /* @lime */
+    background: rgb(237, 59, 136); /* @strawberry */
+    background: rgb(255, 194, 51); /* @banana */
+  }
+  .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: white !important;
+  }
+</style>
+{% elsif site.phase == 3 %}
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(141, 208, 59); /* @lime */
+    background: rgb(237, 59, 136); /* @strawberry */
+  }
+  .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details span,
+  .header-figure.has-caption.has-caption-details .caption .details strong {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: white !important;
+  }
+</style>
+{% elsif site.phase == 4 %}
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(141, 208, 59); /* @lime */
+  }
+  .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: white !important;
+  }
+</style>
+{% elsif site.phase == 5 %}
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(141, 208, 59); /* @lime */
+    background: rgb(249, 160, 51); /* @tangerine */
+  }
+  .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: white !important;
+  }
+</style>
+{% elsif site.phase == 6 %}
+<style>
+  @media (min-width: 70em) {
+    body {
+      padding-top: 12.75em;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details {
+      top: -7.5em;
+    }
+  }
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+  }
+  .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: white !important;
+  }
+</style>
+{% endif %}
+
 <div class="standard-figure has-caption header-figure has-caption-details">
-  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="100vw" alt="Women’s March Los Angeles" />
+  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="200vw" alt="Women’s March Los Angeles" />
   <div class="caption">
     <div>
       <!-- <h1>Los Angeles:<br /><strong>Change</strong> is&nbsp;Local</h1> -->
@@ -129,7 +209,7 @@ footer_image: true
         </svg>
       </div>
       <p>
-        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/submit/">The submission period <Span class="avoid-break">has started</span></a>!</strong><br />
+        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/submit/">The submission period has started</a>!</strong><br />
         <span class="avoid-break">Apply by <strong>March 30, 2018.</strong></span><br />
         <!--
         <small>
@@ -288,6 +368,13 @@ footer_image: true
         <span class="avoid-break">
           Vote at the <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/event/">public event</a></strong> on <strong>June 19, 2018</strong>.
         </span>
+        {% else %}
+        <span class="avoid-break">
+          Voting begins on
+          <span class="avoid-break">
+            <strong>June 19, 2018</strong>.
+          </span>
+        </span>
         {% endif %}
 <!--         <br />
         <small>
@@ -335,8 +422,8 @@ footer_image: true
         <span class="avoid-break">
           <strong>June 29, 2018</strong>.
         </span>
-        </span>
-        <small class="avoid-break">
+        </span><br />
+        <small class="avoid-break" style="font-size: 0.75em; ">
           {% if site.event_url %}
           <span class="avoid-break">
             Hear from the finalists at our <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/event/">public event</a>.</strong>

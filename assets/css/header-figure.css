@@ -292,9 +292,11 @@
   .header-figure.has-caption.has-caption-details h1 {
     position: absolute;
     top: 3rem;
+    top: 18vw;
     z-index: 1;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 0);
+    text-align: center;
   }
   .header-figure.has-caption.has-caption-details img {
     object-position: 0 55%;
@@ -307,10 +309,10 @@
       height: 55vw;
     }
   }
-  @media (max-width: 30em) {
+  @media (max-width: 55em) {
     .header-figure.has-caption.has-caption-details img {
-      object-position: 0 55%;
-      height: 100vw;
+      object-position: 45% 50%;
+      height: 150vw;
     }
 /*    .header-figure.has-caption.has-caption-details .caption .details a {
       display: inline-block;
@@ -320,7 +322,14 @@
     }
     .header-figure.has-caption.has-caption-details .caption .details br {
       display: none;
-    }/*
+    }
+    .header-figure.has-caption.has-caption-details .caption h1 {
+      text-align: left !important;
+      transform: none;
+      left: 3rem;
+      font-size: 12vw;
+    }
+    /*
     .header-figure.has-caption.has-caption-details .caption .details .avoid-break {
       display: inline;
     }*/
@@ -445,7 +454,11 @@
   }
 
   .header-figure .caption h1 {
+    color: white;
+    color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(46, 219, 228); /* @bright-blueberry */
     color: rgb(255, 79, 156); /* @bright-strawberry */
+
     opacity: 1;
     text-shadow: none;
   }
@@ -517,12 +530,23 @@
       position: relative;
       z-index: 6;
     }
+    .home:not(.header-not-visible) header ul a {
+      text-shadow: 0 0 2em rgba(0, 0, 0, 1);
+    }
     .header-figure {
       margin-top: -15em !important;
       /*padding-top: 15em;*/
     }
     .header-figure.has-caption.has-caption-details h1 {
-      top: 16.5rem;
+/*      top: 16.5rem;
+      top: 19.5vw;
+      top: 2.5em;
+      top: 50%;*/
+      top: 50%;
+      top: calc(50% + 2.25rem);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
     .header-figure.has-caption.has-caption-details img {
       object-position: 0 30%;

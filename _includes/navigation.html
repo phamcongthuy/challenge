@@ -1,14 +1,18 @@
 <div class="navigation">
 
-{% if site.phase <= 5 %}
-<ul>
+{% if site.phase <= 6 %}
+{% assign navigation_items_count = 5 %}
+{% if site.phase >= 6 %}
+  {% assign navigation_items_count = 6 %}
+{% endif %}
+<ul class="has-{{ navigation_items_count }}-items">
   <li><a href="/about/">About</a></li>
   {% if site.phase <= 3 %}
   <li><a href="/submit/">Submit</a></li>
   {% else %}
   <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
   {% endif %}
-  {% if site.phase == 5 %}
+  {% if site.phase >= 5 %}
   <li><a href="/finalists/">Finalists</a></li>
   {% endif %}
   <li><a href="/vote/">Vote</a></li>
