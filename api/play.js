@@ -1,4 +1,4 @@
 ---
 layout: api
-category: create
+category: play
 ---

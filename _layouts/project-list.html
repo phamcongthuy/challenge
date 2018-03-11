@@ -24,6 +24,7 @@ layout: default
 </script>
 {% endcomment %}
 
+{% unless page.is_search_results %}
 <script>
 (function() {
   function getRandomOrder() {
@@ -34,6 +35,7 @@ layout: default
   }
 })();
 </script>
+{% endunless %}
 
 {% comment %}
 <div class="standard-figure has-caption header-figure has-caption-details">
@@ -65,81 +67,84 @@ layout: default
 
 <!-- <h1 style="margin-bottom: 0">Entries for <strong style="color: white">{{ page.category }}</strong></h1>
 
-<form class="proposals-search" action="/proposals/" method="get">
+
+ -->
+
+{% if site.phase >= 4 %}
+<form class="search" action="/search/" method="get" id="search">
   <label>
     <span style="position: absolute; left: -9999px">Keywords</span>
     <input type="search" name="keywords" style="border-color: transparent;  background-color: rgba(255, 255, 255, 0.5);" />
   </label>
   <button type="submit" style="background-color: white; border-color: transparent; color: black;">Search</button>
 </form>
- -->
+{% endif %}
+
+
+<script>
+/*(function() {
+  if (!document.body.querySelector) return;
+
+  var form = document.getElementById('search');
+  var field = form.querySelector('input[name="keywords"]');
+
+  if (form && field) {
+    form.addEventListener('submit', function(e) {
+
+      console.log('searching…');
+
+      // var results = window._activation_la2050.search(field.value);
+      // console.dir(results);
+
+      e.preventDefault();
+    });
+
+    form.style.display = "block";
+  }
+
+})();*/
+</script>
 
 <style>
-.proposals-search {
+.search {
   text-align: center;
   grid-column: 1 / -1;
   background: var(--primary-color, black);
   color: white;
-  margin: 0 -1.5em 0;
+  margin: -1.5em -1.5em 0;
   padding: 0 1.5em 3em;
   display: flex;
   justify-content: center;
 }
-.proposals-search label {
+@media (max-width: 50em) {
+  .search input {
+    width: 100% !important;
+    max-width: none;
+  }
+  .search button {
+    margin-top: 0.375em;
+    width: 100%;
+  } 
+}
+.search label {
   margin-right: 0.25em;
 }
 @media (min-width: 40em) {
-  .proposals-search {
-    margin: 0 -3em 0;
-    padding: 0 3em 6em;
+  .search {
+    margin: -4.5em -4.5em 0;
+    padding: 0 4.5em 6em;
   }
-  .proposals-search input[type="search"] {
+  .search input[type="search"] {
     width: 25em;
   }
 }
 @media (min-width: 70em) { /* @wide-enough-for-header-grid */
-  .proposals-search {
+  .search {
     /*margin-top: -1.5em;*/
   }
 }
 
 </style>
-
-{% if site.phase < 4 %}
-
-<div class="introduction" markdown="1">
-The proposals will appear here on <strong>April 9, 2018</strong>.
-</div>
-
-{% else %}
-
-<section class="goals" id="projects">
-
-<div class="navigation"><div markdown="1">
-
-<!--
-## Browse by Goal
--->
-
-<div class="action-container">
-<ul class="action">
-  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
-  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
-  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
-  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
-  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
-</ul>
-</div>
-
-{% assign data_collection = site.collections | where: "label", page.category | first %}
-{% assign data_list = data_collection.docs %}
-
-<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> projects in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
-
-</div>
-
-</div></section>
-
 <style>
 @media (min-width: 70em) {
   .header-figure.has-caption.has-caption-details h1 {
@@ -166,20 +171,233 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 }
 </style>
 
-<ul class="proposals">
+{% if site.phase < 4 %}
+
+<div class="introduction" markdown="1">
+The proposals will appear here on <strong>April 9, 2018</strong>.
+</div>
+
+{% else %}
+
+<section class="goals" id="projects">
+
+<div class="navigation"><div markdown="1">
+
+<!--
+## Browse by Goal
+-->
+
+{% unless page.is_search_results %}
+<div class="action-container">
+<ul class="action">
+  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
+  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
+  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
+  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
+  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
+</ul>
+</div>
+{% endunless %}
+
+{% if page.category %}
+{% assign data_collection = site.collections | where: "label", page.category | first %}
+{% assign data_list = data_collection.docs %}
+
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> projects in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
+
+
+{% else %}
+
+{% comment %}
+https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
+{% endcomment %}
+
+{% assign data_collection = site.collections | where: "label", "create" | first %}
+{% assign data_list = data_collection.docs %}
+
+{% assign data_collection = site.collections | where: "label", "connect" | first %}
+{% for item in data_collection.docs %}
+  {% assign data_list = data_list | push: item %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "learn" | first %}
+{% for item in data_collection.docs %}
+  {% assign data_list = data_list | push: item %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "live" | first %}
+{% for item in data_collection.docs %}
+  {% assign data_list = data_list | push: item %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "play" | first %}
+{% for item in data_collection.docs %}
+  {% assign data_list = data_list | push: item %}
+{% endfor %}
+
+
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There <span id="project-count-are-is">are</span> <strong style="color: var(--primary-color, inherit)" id="project-count">{{ data_list.size }}</strong> matching <span id="project-count-projects">projects</span> in all categories.</p>
+
+
+{% endif %}
+
+</div>
+
+</div></section>
+
+
+<ul class="proposals" id="project-list">
 
   {% for data in data_list %}
-  <li>
-      <a href="{{ data.uri }}">
-        <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
-        <p class="organization">{{ data['organization_name'] }}</p>
-        <h3>{{ data['title'] }}</h3>
-        <p class="description">{{ data['project_description'] }}</p>
-      </a>
+  {% if page.is_search_results %}<script type="text/template">{% endif %}
+  <li class="{{ data.category }}">
+    <a href="{{ data.uri }}">
+      <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
+      <p class="organization">{{ data['organization_name'] }}</p>
+      <h3>{{ data['title'] }}</h3>
+      <p class="description">{{ data['project_description'] }}</p>
+    </a>
   </li>
+  {% if page.is_search_results %}</script>{% endif %}
   {% endfor %}
 
 </ul>
+
+
+<script>
+(function() {
+  if (!document.body.querySelector || !document.createDocumentFragment) return;
+
+  var form = document.getElementById('search');
+  var field = form.querySelector('input[name="keywords"]');
+  var projectList = document.getElementById('project-list');
+
+  // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    var name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+  var keywords = getParameterByName('keywords');
+  if (!keywords || !form || !field || !projectList) return; // TODO: Show an error message?
+
+  field.value = keywords;
+
+
+  function containsKeyword(keyword, string) {
+    if (!keyword || keyword == '' || keyword.length < 2) return;
+
+    keyword = keyword.toLowerCase();
+
+    var rank = 0;
+
+    // Keyword as part of another word gets one point
+    if (string.indexOf(keyword) >= 0) rank++;
+
+    // Keyword used as a word by itself gets one point
+    // TODO: Handle punctuation or HTML elements, before or after the keyword
+    if (string.indexOf(' ' + keyword + ' ') >= 0) rank++;
+    if (string.startsWith(keyword + ' ')) rank++;
+    if (string.endsWith(' ' + keyword)) rank++;
+
+    // Multiple instances of keyword add additional points
+    // KUDOS: https://stackoverflow.com/questions/881085/count-the-number-of-occurrences-of-a-character-in-a-string-in-javascript
+    var numberOfMatches = (string.match(new RegExp(keyword, "g")) || []).length;
+    if (numberOfMatches > 2) rank += (numberOfMatches - 1);
+
+    return rank;
+  }
+
+  function containsAnyKeyword(keywordList, string) {
+    string = string.toLowerCase();
+    var rank = 0;
+    for (var index = 0; index < keywordList.length; index++) {
+      rank += containsKeyword(keywordList[index], string);
+    }
+    return rank;
+  }
+
+  // function containsAllKeywords(keywordList, string) {
+  //   for (var index = 0; index < keywordList.length; index++) {
+  //     if (!containsKeyword(keywordList[index], string)) {
+  //       return false;
+  //     }
+  //   }
+  //   return true;
+  // }
+
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array#2450976
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+
+  // var fragment = document.createDocumentFragment();
+  var items = projectList.getElementsByTagName('script');
+  var matches = [];
+  for (var index = 0; index < items.length; index++) {
+    var keywordList = keywords.replace(/\s/, ',').split(',');
+    var rank = containsAnyKeyword(keywordList, items[index].innerHTML);
+    if (rank > 0) {
+      matches.push({
+        item: items[index],
+        rank: rank
+      });
+    }
+  }
+
+  matches = shuffle(matches);
+
+  matches.sort(function (a, b) {
+    // a is less than b by some ordering criterion
+    if (a.rank < b.rank) {
+      return -1;
+    }
+    // a is greater than b by the ordering criterion
+    if (a.rank > b.rank) {
+      return 1;
+    }
+    // a must be equal to b
+    return 0;
+  });
+
+  matches = matches.reverse();
+
+  for (var index = 0; index < matches.length; index++) {
+     projectList.insertAdjacentHTML('beforeend', matches[index].item.innerHTML);
+  }
+
+  var projectCount = document.getElementById('project-count');
+  var projectCountAreIs = document.getElementById('project-count-are-is');
+  var projectCountProjects = document.getElementById('project-count-projects');
+  if (projectCount) projectCount.innerText = projectList.getElementsByTagName('li').length;
+  if (projectCountAreIs) projectCountAreIs.innerText = projectList.getElementsByTagName('li').length === 1 ? 'is' : 'are';
+  if (projectCountProjects) projectCountProjects.innerText = projectList.getElementsByTagName('li').length === 1 ? 'project' : 'projects';
+
+  //projectList.appendChild(fragment);
+
+})();
+</script>
 
 {% endif %}
 
@@ -201,3 +419,10 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 
 </section>
 
+<!-- <script async src="/api/connect.js"></script>
+<script async src="/api/create.js"></script>
+<script async src="/api/learn.js"></script>
+<script async src="/api/live.js"></script>
+<script async src="/api/play.js"></script>
+
+<script async src="/assets/js/search.js"></script> -->

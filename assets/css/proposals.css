@@ -475,12 +475,27 @@
   .proposals h3 {
     font-size: inherit;
     line-height: inherit;
-    color: var(--secondary-color, black) !important;
-    color: var(--primary-color, black) !important;
     font-weight: bold;
     margin-top: 0.375em;
     margin-bottom: 0.375em;
   }
+
+  .proposals .play h3 {
+    color: rgb(237, 59, 136); /* @strawberry */
+  }
+  .proposals .learn h3 {
+    color: rgb(6, 179, 188); /* @blueberry */
+  }
+  .proposals .create h3 {
+    color: rgb(255, 194, 51); /* @banana */
+  }
+  .proposals .connect h3 {
+    color: rgb(249, 160, 51); /* @tangerine */
+  }
+  .proposals .live h3 {
+    color: rgb(141, 208, 59); /* @lime */
+  }
+
   .proposals .organization {
     margin-top: 0;
     margin-bottom: 0;
