@@ -97,11 +97,26 @@ footer_image: true
   .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(6, 179, 188); /* @blueberry */
     background: rgb(141, 208, 59); /* @lime */
+    background: rgb(237, 59, 136); /* @strawberry */
+    background: white;
   }
+  .header-figure.has-caption.has-caption-details .caption .details svg,
+  .header-figure.has-caption.has-caption-details .caption .details,
   .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details strong,
   .header-figure.has-caption.has-caption-details .caption .details strong[style] {
     color: rgb(255, 224, 81) !important; /* @bright-banana */
     color: white !important;
+    color: rgb(237, 59, 136) !important; /* @strawberry */
+    color: rgb(6, 179, 188) !important; /* @blueberry */
+  }
+  .header-figure.has-caption.has-caption-details .caption .details {
+    color: rgb(41, 41, 41) !important; /* @midnight */;
+  }
+  .header-figure.has-caption.has-caption-details .caption .details svg path,
+  .header-figure.has-caption.has-caption-details .caption .details svg line,
+  .header-figure.has-caption.has-caption-details .caption .details svg polyline {
+    stroke: currentColor;
   }
 </style>
 {% elsif site.phase == 5 %}
@@ -317,7 +332,6 @@ footer_image: true
         link.setAttribute('href', '/' + categories[random] + '/');
       })();
       </script>
-      <!--
       <p>
         <small>
         Voting begins on
@@ -326,7 +340,6 @@ footer_image: true
         </span>
         </small>
       </p>
-      -->
 
 <!--       <p class="action" markdown="1">
         <a href="/entries/">Check out the entries</a>
@@ -518,6 +531,8 @@ footer_image: true
   </div>
 </div>
 
+
+<hr style="margin-top: -1.5em" />
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
