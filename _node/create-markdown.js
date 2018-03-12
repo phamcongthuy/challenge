@@ -102,6 +102,13 @@ function createMarkdownFile(writePath, data, data_category, order) {
   delete data.updated
   delete data.slug
 
+  if (order < 1) {
+    data.is_winner = true;
+  }
+  if (order < 5) {
+    data.is_finalist = true;
+  }
+
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
   let output =
 `---

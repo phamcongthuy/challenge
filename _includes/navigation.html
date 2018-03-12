@@ -1,6 +1,7 @@
 <div class="navigation">
 
-{% if site.phase <= 6 %}
+{% if site.phase <= 8 %}
+
 {% assign navigation_items_count = 5 %}
 {% if site.phase >= 6 %}
   {% assign navigation_items_count = 6 %}
@@ -13,15 +14,21 @@
   <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
   {% endif %}
   {% if site.phase >= 5 %}
-  <li><a href="/finalists/">Finalists</a></li>
+  <li><a href="/finalists/" id="finalists-navigation-item">Finalists</a></li>
   {% endif %}
+  {% if site.phase <= 7 %}
   <li><a href="/vote/">Vote</a></li>
+  {% endif %}
+  {% if site.phase >= 8 %}
+  <li><a href="/winners/">Winners</a></li>
+  {% endif %}
   <li><a href="/timeline/">Timeline</a></li>
   <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
 </ul>
 <script>
 (function() {
-  var link = document.getElementById('entries-navigation-item');
+  var link, random;
+
   var categories = [
     'learn',
     'create',
@@ -29,9 +36,14 @@
     'connect',
     'live'
   ];
-  var random = Math.floor(Math.random() * categories.length) + 0;
-  console.log(random);
+
+  link = document.getElementById('entries-navigation-item');
+  random = Math.floor(Math.random() * categories.length) + 0;
   link.setAttribute('href', '/' + categories[random] + '/');
+
+  link = document.getElementById('finalists-navigation-item');
+  random = Math.floor(Math.random() * categories.length) + 0;
+  link.setAttribute('href', '/' + categories[random] + '/finalists/');
 })();
 </script>
 {% else %}
