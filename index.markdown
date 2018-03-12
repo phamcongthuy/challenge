@@ -71,6 +71,9 @@ footer_image: true
     background: rgb(141, 208, 59); /* @lime */
     background: rgb(237, 59, 136); /* @strawberry */
     background: rgb(255, 194, 51); /* @banana */
+    margin-top: -6.75em !important;
+    padding-top: 2.25em;
+    padding-bottom: 2.25em;
   }
   .header-figure.has-caption.has-caption-details .caption .details a,
   .header-figure.has-caption.has-caption-details .caption .details strong[style] {
@@ -92,7 +95,7 @@ footer_image: true
     color: white !important;
   }
 </style>
-{% elsif site.phase == 4 %}
+{% elsif site.phase >= 4 %}
 <style>
   .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(141, 208, 59); /* @lime */
@@ -114,6 +117,12 @@ footer_image: true
   @media (min-width: 27.5em) {
     .header-figure.has-caption.has-caption-details {
       margin-bottom: -1.5em !important;
+    }
+    .header-figure.has-caption.has-caption-details + .activate-tag,
+    .header-figure.has-caption.has-caption-details + .activate-tag + h2,
+    .header-figure.has-caption.has-caption-details + .activate-tag + h2 + p {
+      position: relative;
+      z-index: 5;
     }
     .header-figure.has-caption.has-caption-details .caption .details {
       background: transparent;
