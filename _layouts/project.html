@@ -525,7 +525,7 @@ main_class: standard-layout
 <dd><a href="{{ website_url }}">{{ website | replace: "https://", "" | replace: "http://", "" }}</a></dd>
 {% endfor %}
 
-{% if page.organization_instagram and page.organization_instagram != "" and page.organization_instagram != "N/A" and page.organization_instagram != "none" %}
+{% if page.organization_instagram and page.organization_instagram != "" and page.organization_instagram != "n/a" and page.organization_instagram != "N/A" and page.organization_instagram != "none" %}
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
     <title>Instagram</title>
@@ -538,7 +538,7 @@ main_class: standard-layout
 <dd><a href="https://instagram.com/{{ page.organization_instagram | replace: "@", ""  }}">@{{ page.organization_instagram | replace: "@", ""  }}</a></dd>
 {% endif %}
 
-{% if page.organization_twitter and page.organization_twitter != "" and page.organization_twitter != "N/A" and page.organization_twitter != "none" %}
+{% if page.organization_twitter and page.organization_twitter != "" and page.organization_twitter != "n/a" and page.organization_twitter != "N/A" and page.organization_twitter != "none" %}
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
     <title>Twitter</title>
@@ -551,7 +551,7 @@ main_class: standard-layout
 <dd><a href="https://twitter.com/{{ page.organization_twitter | replace: "@", "" }}">@{{ page.organization_twitter | replace: "@", "" }}</a></dd>
 {% endif %}
 
-{% if page.organization_facebook and page.organization_facebook != "" and page.organization_facebook != "N/A" and page.organization_facebook != "none" %}
+{% if page.organization_facebook and page.organization_facebook != "" and page.organization_facebook != "n/a" and page.organization_facebook != "N/A" and page.organization_facebook != "none" %}
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
     <title>Facebook</title>

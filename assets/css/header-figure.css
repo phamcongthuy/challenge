@@ -419,7 +419,7 @@
     }*/
     .header-figure .caption .details {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: auto 1.5fr 1fr;
       grid-column-gap: 3em;
       box-sizing: border-box;
     }
@@ -428,10 +428,11 @@
       margin-left: 0;
       text-align: left;
       text-shadow: none;
+      align-self: center;
     }
     .header-figure .caption .details .icon {
       grid-column: 1/2;
-      align-self: top;
+      align-self: center;
       justify-self: end;
     }
     .header-figure .caption .details p.action {

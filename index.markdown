@@ -64,7 +64,7 @@ footer_image: true
 }*/
 </style>
 
-{% if site.phase == 2 %}
+{% if site.phase == 'false2' %}
 <style>
   .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(6, 179, 188); /* @blueberry */
@@ -81,7 +81,7 @@ footer_image: true
     color: white !important;
   }
 </style>
-{% elsif site.phase == 3 %}
+{% elsif site.phase == 'false3' %}
 <style>
   .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(6, 179, 188); /* @blueberry */
@@ -95,7 +95,7 @@ footer_image: true
     color: white !important;
   }
 </style>
-{% elsif site.phase >= 4 %}
+{% elsif site.phase >= 1 %}
 <style>
   .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(141, 208, 59); /* @lime */
@@ -168,13 +168,14 @@ footer_image: true
     .header-figure.has-caption.has-caption-details .caption .details a,
     .header-figure.has-caption.has-caption-details .caption .details strong[style] {
       color: rgb(6, 179, 188) !important; /* @blueberry */
-      color: white !important;
       color: rgb(46, 219, 228) !important; /* @bright-blueberry */
+      color: white !important;
     }
     .header-figure.has-caption.has-caption-details .caption .details a:hover,
     .header-figure.has-caption.has-caption-details .caption .details a:active,
     .header-figure.has-caption.has-caption-details .caption .details a:focus {
       color: white !important;
+      color: rgb(46, 219, 228) !important; /* @bright-blueberry */
     }
     @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
 
@@ -197,7 +198,7 @@ footer_image: true
   @media (min-width: 70em) {
     .header-figure.has-caption.has-caption-details .caption .details {
       background: transparent;
-      font-size: 1.25vmax;
+      font-size: 1.5vmax;
     }
   }
 </style>
@@ -306,16 +307,14 @@ footer_image: true
         </svg>
       </div>
       <p>
-        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/submit/">The submission period has started</a>!</strong><br />
+        <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/submit/">The submission period has started</a>!</strong>
         <span class="avoid-break">Apply by <strong>March 30, 2018.</strong></span><br />
-        <!--
         <small>
           Voting begins on
           <span class="avoid-break">
             <strong>June 19, 2018.</strong>
           </span>
         </small>
-        -->
       </p>
       <!--
       <p class="action" markdown="1">
@@ -395,13 +394,18 @@ footer_image: true
         </g>
         </svg>
       </div>
-      <p style="max-width: 28em">
+      <p>
         <span class="wrap">
         <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/entries/" id="home-entries-link">The entries have arrived</a>!</strong>
-        </span>
-        <span class="wrap">
+
         <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
         </span>
+        <small>
+        Voting begins on
+        <span class="avoid-break">
+          <strong>June 19, 2018</strong>.
+        </span>
+        </small>
       </p>
       <script>
       (function() {
@@ -418,16 +422,6 @@ footer_image: true
         link.setAttribute('href', '/' + categories[random] + '/');
       })();
       </script>
-      <p>
-        <span class="wrap">
-        <small>
-        Voting begins on
-        <span class="avoid-break">
-          <strong>June 19, 2018</strong>.
-        </span>
-        </small>
-        </span>
-      </p>
 
 <!--       <p class="action" markdown="1">
         <a href="/entries/">Check out the entries</a>
