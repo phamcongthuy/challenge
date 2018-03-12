@@ -517,9 +517,15 @@ main_class: standard-layout
 </dt>
 
 {% for website in page.organization_website %}
-<dd><a href="{{ website }}">{{ website }}</a></dd>
+{% if website contains "http" %}
+{% assign website_url = website %}
+{% else %}
+{% capture website_url %}http://{{ website }}{% endcapture %}
+{% endif %}
+<dd><a href="{{ website_url }}">{{ website | replace: "https://", "" | replace: "http://", "" }}</a></dd>
 {% endfor %}
 
+{% if page.organization_instagram and page.organization_instagram != "" and page.organization_instagram != "N/A" and page.organization_instagram != "none" %}
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
     <title>Instagram</title>
@@ -529,8 +535,10 @@ main_class: standard-layout
     </switch>
   </svg>
 </dt>
-<dd><a href="">@{{ page.organization_instagram }}</a></dd>
+<dd><a href="https://instagram.com/{{ page.organization_instagram | replace: "@", ""  }}">@{{ page.organization_instagram | replace: "@", ""  }}</a></dd>
+{% endif %}
 
+{% if page.organization_twitter and page.organization_twitter != "" and page.organization_twitter != "N/A" and page.organization_twitter != "none" %}
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
     <title>Twitter</title>
@@ -540,8 +548,10 @@ main_class: standard-layout
     </switch>
   </svg>
 </dt>
-<dd><a href="">@{{ page.organization_twitter }}</a></dd>
+<dd><a href="https://twitter.com/{{ page.organization_twitter | replace: "@", "" }}">@{{ page.organization_twitter | replace: "@", "" }}</a></dd>
+{% endif %}
 
+{% if page.organization_facebook and page.organization_facebook != "" and page.organization_facebook != "N/A" and page.organization_facebook != "none" %}
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
     <title>Facebook</title>
@@ -551,7 +561,9 @@ main_class: standard-layout
     </switch>
   </svg>
 </dt>
-<dd><a href="">{{ page.organization_facebook }}</a></dd>
+<dd><a href="https://facebook.com/{{ page.organization_facebook }}">{{ page.organization_facebook }}</a></dd>
+{% endif %}
+
 </dl>
 
 </div>
@@ -999,11 +1011,11 @@ Non-profit
 
 <div class="proposal-answers">
 
-<h2>Describe your organization</h2>
+<h2>What does your organization do?</h2>
 {{ page.organization_activity | markdownify }}
 
-{% if page.project_collaborators.size > 0 %}
-<h2>Do you have any collaborators?</h2>
+{% if page.project_is_collaboration != "No" and page.project_collaborators.size > 0 %}
+<h2>Are any other organizations collaborating on this proposal?</h2>
 
 {% for collaborator in page.project_collaborators %}
 <p>{{ collaborator }}</p>
@@ -1011,15 +1023,23 @@ Non-profit
 
 {% endif %}
 
-<h2>Describe your project</h2>
+<h2>Please describe the activation your organization seeks to launch.</h2>
 {{ page.project_proposal_description | markdownify }}
 
-<h2>How will your proposal impact the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics?</h2>
+<h2>Which of the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics will your activation impact?​</h2>
 <ul>
   {% for metric in page.project_proposal_impact %}
   <li>{{ metric }}</li>
   {% endfor %}
 </ul>
+
+{% comment %}
+<h2>Will your proposal impact any other LA2050 goal categories?</h2>
+<ul>
+  <li>LA is the best place to <span style="text-transform: uppercase;">learn</span></li>
+  <li>LA is the best place to <span style="text-transform: uppercase;">connect</span></li>
+</ul>
+{% endcomment %}
 
 <h2>In what areas of Los Angeles will you be directly working?</h2>
 <ul>
@@ -1028,18 +1048,22 @@ Non-profit
   {% endfor %}
 </ul>
 
-<h2>Describe in greater detail how your proposal will make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span>? </h2>
+<h2>Describe in greater detail how your activation will make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span>? </h2>
 {{ page.project_proposal_best_place | markdownify }}
 
-<h2>Please explain how you will define and measure success for your project. </h2>
+<h2>Please explain how you will define and measure success for your activation.​</h2>
 {{ page.project_measure | markdownify }}
 
-<h2>How can the LA2050 community and other stakeholders help your proposal succeed? </h2>
+<h2>LA2050 will serve as a partner on this activation. Which of LA2050’s resources will be of the most value to you?</h2>
 <ul>
   {% for help in page.project_proposal_help %}
   <li>{{ help }}</li>
   {% endfor %}
 </ul>
+
+{% comment %}
+<h2>Where do you hope this activation or your organization will be in five years?</h2>
+{% endcomment %}
 
 </div>
 

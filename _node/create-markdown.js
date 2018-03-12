@@ -42,6 +42,11 @@ function stringToURI(str) {
     .replace(' ', '');
 }
 
+function hasValue(value) {
+  value = value.toLowerCase()
+  return value != 'n/a' && value != 'none' && value != ''
+}
+
 // function removeJsonFromFieldValue(value) {
 //   return String(value)
 //     .replace(/a:2:{s:10:"section_id";s:5:"[0-9]*";s:6:"answer";s:[0-9]*:"/, '')

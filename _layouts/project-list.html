@@ -71,7 +71,7 @@ layout: default
  -->
 
 {% if site.phase >= 4 %}
-<form class="search" action="/search/" method="get" id="search">
+<form class="search" action="/search/#projects" method="get" id="search">
   <label>
     <span style="position: absolute; left: -9999px">Keywords</span>
     <input type="search" name="keywords" />
@@ -113,8 +113,6 @@ layout: default
   color: white;
   margin: -1.5em -1.5em 0;
   padding: 0 1.5em 3em;
-  display: flex;
-  justify-content: center;
 }
 .search label,
 .search button {
@@ -144,6 +142,7 @@ layout: default
     max-width: none;
   }
   .search button {
+    display: block;
     margin-top: 0.375em;
     width: 100%;
   } 
@@ -209,7 +208,6 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
 ## Browse by Goal
 -->
 
-{% unless page.is_search_results %}
 <div class="action-container">
 <ul class="action">
   <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
@@ -219,6 +217,7 @@ The proposals will appear here on <strong>April 9, 2018</strong>.
   <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
 </ul>
 </div>
+{% unless page.is_search_results %}
 {% endunless %}
 
 {% if page.category %}
@@ -258,7 +257,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endfor %}
 
 
-<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There <span id="project-count-are-is">are</span> <strong style="color: var(--primary-color, inherit)" id="project-count">{{ data_list.size }}</strong> matching <span id="project-count-projects">projects</span> in all categories.</p>
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">You searched for <strong style="color: var(--primary-color, inherit)" id="keywords"></strong>. There <span id="project-count-are-is">are</span> <strong style="color: var(--primary-color, inherit)" id="project-count">{{ data_list.size }}</strong> matching <span id="project-count-projects">projects</span> in all categories.</p>
 
 
 {% endif %}
@@ -309,7 +308,8 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   if (!keywords || !form || !field || !projectList) return; // TODO: Show an error message?
 
   field.value = keywords;
-
+  var keywordsIndicator = document.getElementById('keywords');
+  if (keywordsIndicator) keywordsIndicator.textContent = keywords;
 
   function containsKeyword(keyword, string) {
     if (!keyword || keyword == '' || keyword.length < 2) return;

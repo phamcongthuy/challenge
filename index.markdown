@@ -156,11 +156,16 @@ footer_image: true
     .header-figure.has-caption.has-caption-details .caption .details a {
       font-weight: bold;
     }
-    .header-figure.has-caption.has-caption-details .caption .details svg,
-    .header-figure.has-caption.has-caption-details .caption .details strong,
-    .header-figure.has-caption.has-caption-details .caption .details {
+    .header-figure.has-caption.has-caption-details .caption .details a,
+    .header-figure.has-caption.has-caption-details .caption .details strong[style] {
       color: rgb(6, 179, 188) !important; /* @blueberry */
-      color: rgb(46, 219, 228); /* @bright-blueberry */
+      color: white !important;
+      color: rgb(46, 219, 228) !important; /* @bright-blueberry */
+    }
+    .header-figure.has-caption.has-caption-details .caption .details a:hover,
+    .header-figure.has-caption.has-caption-details .caption .details a:active,
+    .header-figure.has-caption.has-caption-details .caption .details a:focus {
+      color: white !important;
     }
     @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
 

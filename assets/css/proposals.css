@@ -415,6 +415,9 @@
     grid-row-gap: 7.5em;
     margin-bottom: 7.5em !important;
   }
+  .proposals li {
+    max-width: 25em;
+  }
 /*  @media (min-width: 100em) {
     .proposals {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
