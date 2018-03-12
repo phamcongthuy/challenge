@@ -95,10 +95,11 @@ footer_image: true
 {% elsif site.phase == 4 %}
 <style>
   .header-figure.has-caption.has-caption-details .caption .details {
-    background: rgb(6, 179, 188); /* @blueberry */
     background: rgb(141, 208, 59); /* @lime */
     background: rgb(237, 59, 136); /* @strawberry */
     background: white;
+    background: transparent;
+    background: rgb(6, 179, 188); /* @blueberry */
   }
   .header-figure.has-caption.has-caption-details .caption .details svg,
   .header-figure.has-caption.has-caption-details .caption .details,
@@ -106,17 +107,51 @@ footer_image: true
   .header-figure.has-caption.has-caption-details .caption .details strong,
   .header-figure.has-caption.has-caption-details .caption .details strong[style] {
     color: rgb(255, 224, 81) !important; /* @bright-banana */
-    color: white !important;
     color: rgb(237, 59, 136) !important; /* @strawberry */
     color: rgb(6, 179, 188) !important; /* @blueberry */
+    color: white !important;
   }
-  .header-figure.has-caption.has-caption-details .caption .details {
-    color: rgb(41, 41, 41) !important; /* @midnight */;
+  @media (min-width: 27.5em) {
+    .header-figure.has-caption.has-caption-details {
+      margin-bottom: -1.5em !important;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details {
+      background: transparent;
+      font-size: 2vmax;
+    }
+    .header-figure.has-caption.has-caption-details .caption {
+      padding: 0;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details {
+      color: rgb(41, 41, 41) !important; /* @midnight */;
+      color: white !important;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      width: 100vw;
+      padding-bottom: 3em !important;
+      border-bottom: 3em solid white;
+    }
+    .disabled .header-figure.has-caption.has-caption-details .caption .details .wrap {
+      background-color: rgb(255, 194, 51); /* @banana */
+      background-color: rgb(6, 179, 188); /* @blueberry */
+      padding: 0.375em 0.75em;
+      display: inline-block;
+      line-height: 1;
+    }
+
   }
   .header-figure.has-caption.has-caption-details .caption .details svg path,
   .header-figure.has-caption.has-caption-details .caption .details svg line,
   .header-figure.has-caption.has-caption-details .caption .details svg polyline {
     stroke: currentColor;
+  }
+  @media (min-width: 70em) {
+    .header-figure.has-caption.has-caption-details .caption .details {
+      background: transparent;
+      font-size: 1.25vmax;
+    }
   }
 </style>
 {% elsif site.phase == 5 %}
@@ -314,8 +349,12 @@ footer_image: true
         </svg>
       </div>
       <p style="max-width: 28em">
+        <span class="wrap">
         <strong style="color: rgb(237, 59, 136); /* @strawberry */"><a href="/entries/" id="home-entries-link">The entries have arrived</a>!</strong>
+        </span>
+        <span class="wrap">
         <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
+        </span>
       </p>
       <script>
       (function() {
@@ -333,12 +372,14 @@ footer_image: true
       })();
       </script>
       <p>
+        <span class="wrap">
         <small>
         Voting begins on
         <span class="avoid-break">
           <strong>June 19, 2018</strong>.
         </span>
         </small>
+        </span>
       </p>
 
 <!--       <p class="action" markdown="1">
@@ -532,7 +573,7 @@ footer_image: true
 </div>
 
 
-<hr style="margin-top: -1.5em" />
+<!-- <hr style="margin-top: -1.5em" /> -->
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
