@@ -130,5 +130,7 @@ plan_id: 82193
 order: 0
 category: play
 uri: /play/santa-clarita-valley-adventure-play
+is_winner: true
+is_finalist: true
 
 ---

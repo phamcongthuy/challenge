@@ -137,5 +137,7 @@ plan_id: 82365
 order: 0
 category: connect
 uri: /connect/l-a-works
+is_winner: true
+is_finalist: true
 
 ---

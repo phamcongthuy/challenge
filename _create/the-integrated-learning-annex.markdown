@@ -88,5 +88,6 @@ plan_id: 82381
 order: 3
 category: create
 uri: /create/the-integrated-learning-annex
+is_finalist: true
 
 ---

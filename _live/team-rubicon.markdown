@@ -110,5 +110,6 @@ plan_id: 82437
 order: 4
 category: live
 uri: /live/team-rubicon
+is_finalist: true
 
 ---

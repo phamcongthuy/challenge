@@ -107,5 +107,6 @@ plan_id: 82391
 order: 2
 category: connect
 uri: /connect/national-foster-youth-institute
+is_finalist: true
 
 ---

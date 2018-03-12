@@ -115,5 +115,6 @@ plan_id: 82728
 order: 4
 category: learn
 uri: /learn/connected
+is_finalist: true
 
 ---

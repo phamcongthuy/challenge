@@ -130,5 +130,6 @@ plan_id: 82399
 order: 3
 category: connect
 uri: /connect/nation-of-vibration
+is_finalist: true
 
 ---

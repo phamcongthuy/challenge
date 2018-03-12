@@ -118,5 +118,6 @@ plan_id: 82353
 order: 1
 category: play
 uri: /play/america-scores-la
+is_finalist: true
 
 ---
