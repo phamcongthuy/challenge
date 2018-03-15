@@ -39,11 +39,11 @@
 
   link = document.getElementById('entries-navigation-item');
   random = Math.floor(Math.random() * categories.length) + 0;
-  link.setAttribute('href', '/' + categories[random] + '/');
+  if (link) link.setAttribute('href', '/' + categories[random] + '/');
 
   link = document.getElementById('finalists-navigation-item');
   random = Math.floor(Math.random() * categories.length) + 0;
-  link.setAttribute('href', '/' + categories[random] + '/finalists/');
+  if (link) link.setAttribute('href', '/' + categories[random] + '/finalists/');
 })();
 </script>
 {% else %}

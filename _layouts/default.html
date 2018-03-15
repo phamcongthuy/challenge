@@ -49,12 +49,14 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1209628-2"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    if (window.location.href.indexOf('activation.la2050.org') >= 0) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'UA-1209628-2');
-    gtag('anonymizeIp', true); // https://support.google.com/analytics/answer/2763052
+      gtag('config', 'UA-1209628-2');
+      gtag('anonymizeIp', true); // https://support.google.com/analytics/answer/2763052
+    }
   </script>
 
   {% if page.canonical_url %}

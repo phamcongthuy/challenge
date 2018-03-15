@@ -459,6 +459,9 @@
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(46, 219, 228); /* @bright-blueberry */
     color: rgb(255, 79, 156); /* @bright-strawberry */
+    color: rgb(237, 59, 136); /* @strawberry */
+
+    color: rgb(255, 59, 118); /* @strawberry-orange */
 
     opacity: 1;
     text-shadow: none;
