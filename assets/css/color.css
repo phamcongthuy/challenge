@@ -94,6 +94,7 @@
     background-color: rgb(6, 179, 188); /* @blueberry */
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
+    color: rgb(254, 254, 254); /* @snow */
   }
   .blueberry header a,
   .blueberry main > h1:first-child em {
@@ -117,6 +118,7 @@
   .lime header,
   .lime main > h1:first-child {
     background-color: rgb(141, 208, 59); /* @lime */
+    color: rgb(254, 254, 254); /* @snow */
   }
   .lime header a {
     color: rgb(254, 254, 254); /* @snow */
@@ -125,10 +127,6 @@
   .lime header a:active,
   .lime header a:focus  {
     color: rgb(237, 59, 136); /* @strawberry */
-  }
-  .lime main > h1:first-child {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: white;
   }
   .lime main h2,
   .lime main h3,
@@ -142,6 +140,7 @@
   .tangerine main > h1:first-child {
     background-color: rgb(249, 160, 51); /* @tangerine */
     color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(254, 254, 254); /* @snow */
   }
   .tangerine header a,
   .tangerine main > h1:first-child em {
@@ -169,6 +168,7 @@
   .banana main > h1:first-child {
     background-color: rgb(255, 194, 51); /* @banana */
     color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(254, 254, 254); /* @snow */
   }
   .banana header a,
   .banana main > h1:first-child em {
