@@ -76,14 +76,14 @@ footer_image: true
     padding-top: 2.25em;
     padding-bottom: 2.25em;
   }
-  .header-figure.has-caption.has-caption-details .caption .details a,
+/*  .header-figure.has-caption.has-caption-details .caption .details a,
   .header-figure.has-caption.has-caption-details .caption .details strong[style] {
-    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: rgb(255, 224, 81) !important;  @bright-banana 
     color: white !important;
-  }
+  }*/
 </style>
 {% elsif site.phase == 'false3' %}
-<style>
+<style media="false">
   .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(6, 179, 188); /* @blueberry */
     background: rgb(141, 208, 59); /* @lime */
@@ -98,18 +98,18 @@ footer_image: true
 </style>
 {% elsif site.phase >= 1 %}
 <style>
-  .header-figure.has-caption.has-caption-details .caption .details {
+  .disabled .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(141, 208, 59); /* @lime */
     background: rgb(237, 59, 136); /* @strawberry */
     background: white;
     background: transparent;
     background: rgb(6, 179, 188); /* @blueberry */
   }
-  .header-figure.has-caption.has-caption-details .caption .details svg,
-  .header-figure.has-caption.has-caption-details .caption .details,
-  .header-figure.has-caption.has-caption-details .caption .details a,
-  .header-figure.has-caption.has-caption-details .caption .details strong,
-  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
+  .disabled .header-figure.has-caption.has-caption-details .caption .details svg,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details a,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details strong,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details strong[style] {
     color: rgb(255, 224, 81) !important; /* @bright-banana */
     color: rgb(237, 59, 136) !important; /* @strawberry */
     color: rgb(6, 179, 188) !important; /* @blueberry */
@@ -166,18 +166,8 @@ footer_image: true
     .header-figure.has-caption.has-caption-details .caption .details a {
       font-weight: bold;
     }
-    .header-figure.has-caption.has-caption-details .caption .details a,
-    .header-figure.has-caption.has-caption-details .caption .details strong[style] {
-      color: rgb(6, 179, 188) !important; /* @blueberry */
-      color: rgb(46, 219, 228) !important; /* @bright-blueberry */
-      color: white !important;
-    }
-    .header-figure.has-caption.has-caption-details .caption .details a:hover,
-    .header-figure.has-caption.has-caption-details .caption .details a:active,
-    .header-figure.has-caption.has-caption-details .caption .details a:focus {
-      color: white !important;
-      color: rgb(46, 219, 228) !important; /* @bright-blueberry */
-    }
+
+
     @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
 
       .disabled .header-figure.has-caption.has-caption-details .caption .details .wrap {
@@ -210,11 +200,7 @@ footer_image: true
     background: rgb(141, 208, 59); /* @lime */
     background: rgb(249, 160, 51); /* @tangerine */
   }
-  .header-figure.has-caption.has-caption-details .caption .details a,
-  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
-    color: rgb(255, 224, 81) !important; /* @bright-banana */
-    color: white !important;
-  }
+
 </style>
 {% elsif site.phase == 6 %}
 <style>
@@ -229,13 +215,27 @@ footer_image: true
   .header-figure.has-caption.has-caption-details .caption .details {
     background: rgb(6, 179, 188); /* @blueberry */
   }
-  .header-figure.has-caption.has-caption-details .caption .details a,
-  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
-    color: rgb(255, 224, 81) !important; /* @bright-banana */
-    color: white !important;
-  }
+
 </style>
 {% endif %}
+
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    font-size: 1em;
+    text-align: center;
+    display: block;
+  }
+  @media (min-width: 40em) {
+    .header-figure.has-caption.has-caption-details .caption .details {
+      padding-bottom: 6em !important;
+    }
+  }
+  .header-figure .caption .details p.action {
+    margin: 0 !important;
+    display: inline;
+  }
+</style>
+
 
 <div class="standard-figure has-caption header-figure has-caption-details">
   <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="200vw" alt="Women’s March Los Angeles" />
@@ -246,13 +246,60 @@ footer_image: true
 
 <div class="details">
 
-{% include timeline-message.html %}
+{% if site.phase == 4 %}
+<p class="action">
+  <a href="/entries/" id="home-details-entries-link">View Entries</a>
+</p>
+<script>
+(function() {
+  var link = document.getElementById('home-details-entries-link');
+  var categories = [
+    'learn',
+    'create',
+    'play',
+    'connect',
+    'live'
+  ];
+  var random = Math.floor(Math.random() * categories.length) + 0;
+  console.log(random);
+  link.setAttribute('href', '/' + categories[random] + '/');
+})();
+</script>
+{% elsif site.phase == 5 or site.phase == 7 %}
+<p class="action">
+  <a href="/finalists/" id="home-details-entries-link">Check out the Finalists</a>
+</p>
+<script>
+(function() {
+  var link = document.getElementById('home-details-entries-link');
+  var categories = [
+    'learn',
+    'create',
+    'play',
+    'connect',
+    'live'
+  ];
+  var random = Math.floor(Math.random() * categories.length) + 0;
+  console.log(random);
+  link.setAttribute('href', '/' + categories[random] + '/');
+})();
+</script>
+{% elsif site.phase == 6 %}
+<p class="action">
+  <a href="{{ site.vote_url }}">Help us choose the winners</a>
+</p>
+{% else %}
+<p class="action">
+  <a href="{{ site.mailing_list_url }}">Get updates</a>
+</p>
+{% endif %}
 
 </div><!-- /.details -->
 
     </div>
   </div>
 </div>
+
 
 
 <!-- <hr style="margin-top: -1.5em" /> -->

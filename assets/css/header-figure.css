@@ -77,6 +77,17 @@
 
 
   /* OPTIONAL: Make the button blueberry instead of strawberry */
+
+  .header-figure .action a {
+    background-color: rgb(255, 194, 51); /* @banana */
+    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+  }
+  .header-figure .action a:hover,
+  .header-figure .action a:active,
+  .header-figure .action a:focus {
+    background-color: rgb(254, 254, 254); /* @snow */
+    color: rgb(255, 194, 51); /* @banana */
+  }
   .header-figure .action a {
     background-color: rgb(6, 179, 188); /* @blueberry */
     border: 0.1875em solid rgb(6, 179, 188); /* @blueberry */
@@ -90,14 +101,14 @@
   }
 
   .header-figure .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
-    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+    background-color: var(--primary-color);
+    border: 0.1875em solid var(--primary-color);
   }
   .header-figure .action a:hover,
   .header-figure .action a:active,
   .header-figure .action a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 194, 51); /* @banana */
+    color: var(--primary-color) !important;
   }
 
 
@@ -317,9 +328,9 @@
 /*    .header-figure.has-caption.has-caption-details .caption .details a {
       display: inline-block;
     }*/
-    .header-figure.has-caption.has-caption-details .caption .details {
+/*    .header-figure.has-caption.has-caption-details .caption .details {
       padding-right: 0.75em;
-    }
+    }*/
     .header-figure.has-caption.has-caption-details .caption .details br {
       display: none;
     }
@@ -447,12 +458,13 @@
       margin: 0 !important;
     }
     .header-figure .caption .details p.action {
-      margin-top: 0.75em !important;
+      margin: 0.75em auto 0 !important;
+      text-align: center;
     }
   }
-  .header-figure .caption .details .action a {
+/*  .header-figure .caption .details .action a {
     border-color: white;
-  }
+  }*/
 
   .header-figure .caption h1 {
     color: white;

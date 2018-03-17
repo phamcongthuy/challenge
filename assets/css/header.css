@@ -32,6 +32,8 @@
   .promotion strong,
   .promotion a {
     color: var(--primary-color);
+    color: inherit;
+    font-weight: 600;
   }
   .promotion h1,
   .promotion p {
@@ -54,9 +56,9 @@
   .home .promotion {
     position: relative;
     z-index: 999999999999;
-  }
-  .home .promotion {
     background: white;
+  }
+  .promotion {
     margin-left: -1.5em;
     margin-right: -1.5em;
     padding-left: 1.5em;
@@ -67,7 +69,7 @@
     color: white !important;
   }*/
   @media (min-width: 40em) {
-    .home .promotion {
+    .promotion {
       margin-left: -4.5em;
       margin-right: -4.5em;
       padding-left: 4.5em;
@@ -75,36 +77,78 @@
     }
   }
 
-
-  .home .promotion {
+/*  .promotion {
+    position: relative;
+  }
+  .promotion::before {
+    content: "";
     background-color: var(--primary-color);
-    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+  }*/
+
+
+  @media (min-width: 70em) {
+    .home .promotion {
+      background-color: var(--primary-color);
+      color: white;
+    }
+    .home .promotion .icon,
+    .home .promotion strong,
+    .home .promotion a {
+      color: inherit !important;
+    } 
   }
-  .home .promotion .icon,
-  .home .promotion strong,
-  .home .promotion a {
-    color: inherit !important;
+
+  .promotion .action {
+    display: inline-block;
+    font-size: 0.75em;
+    margin-left: 1.5em;
+    margin-top: -1.25em;
+    margin-bottom: -1em;
+    vertical-align: middle;
+  }
+  .promotion .action a {
+    background: white;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
   }
 
 
-  .header-figure.has-caption.has-caption-details h1 {
-    font-size: 6vmax !important;
+
+  body .header-figure.has-caption.has-caption-details .caption h1 {
     color: var(--primary-color);
     text-align: center !important;
-    max-width: none;
-  }
-  @media (min-width: 60em) {
-    .header-figure.has-caption.has-caption-details h1 {
-      top: 20.25rem !important;
-      width: calc(100% - 9rem);
-    }
+    max-width: none !important;
+    width: calc(100% - 6rem) !important;
+    font-size: 2em !important;
   }
   .header-figure.has-caption.has-caption-details img {
-    height: 65vw !important;
+    height: 75vw !important;
   }
-  .header-figure.has-caption.has-caption-details .caption .details > * {
+  @media (min-width: 40em) {
+    body .header-figure.has-caption.has-caption-details .caption h1 {
+      font-size: 6vmax !important;
+      width: calc(100% - 6rem) !important;
+      font-size: 6vmax !important;
+    }
+    .header-figure.has-caption.has-caption-details img {
+      height: 65vw !important;
+    }
+  }
+  @media (min-width: 70em) {
+    body .header-figure.has-caption.has-caption-details .caption h1 {
+      top: 20.25rem !important;
+    }
+  }
+/*  .header-figure.has-caption.has-caption-details .caption .details > * {
     opacity: 0;
-  }
+  }*/
 
 
   /* =Header / Footer
