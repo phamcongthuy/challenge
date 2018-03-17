@@ -83,17 +83,7 @@ layout: default
 
  -->
 
-{% if site.phase >= 4 %}
-{% unless page.winners %}
-<form class="search" action="/search/{{ conditional_finalists_url }}#projects" method="get" id="search">
-  <label>
-    <span style="position: absolute; left: -9999px">Keywords</span>
-    <input type="search" name="keywords" />
-  </label>
-  <button type="submit">Search</button>
-</form>
-{% endunless %}
-{% endif %}
+
 
 
 <script>
@@ -124,32 +114,48 @@ layout: default
 .search {
   text-align: center;
   grid-column: 1 / -1;
-  background: var(--primary-color, black);
-  color: white;
-  margin: -1.5em -1.5em 0;
-  padding: 0 1.5em 3em;
+/*  background: var(--primary-color, black);
+  color: white;*/
+  margin: 0em -1.5em 0;
+  padding: 0 1.5em 1.5em;
+
 }
-.search label,
+/*.search label,
 .search button {
   font-size: 0.875em;
-}
+}*/
 .search input,
 .search button {
-  border-color: transparent;
-  background-color: rgba(255, 255, 255, 0.3);
+/*  border-color: transparent;
+  background-color: rgba(255, 255, 255, 0.3);*/
 }
 .search input {
-  color: black;
+/*  color: black;*/
+  border-color: rgba(0, 0, 0, 0.25);
+  margin: 0.15em;
+/*  border-color: var(--primary-color);*/
 }
 .search button {
-  color: var(--primary-color, inherit);
-  background-color: rgba(255, 255, 255, 0.9);
+/*  color: var(--primary-color, inherit);
+  background-color: rgba(255, 255, 255, 0.9);*/
+  margin: 0.15em;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+/*  background-color: var(--primary-color);*/
 }
-.search input:focus,
+
+.search input:focus {
+  border-color: rgba(0, 0, 0, 0.5);
+}
 .search button:hover,
 .search button:active,
 .search button:focus {
+/*  background-color: white;*/
   background-color: white;
+/*  border-color: var(--primary-color);
+  color: var(--primary-color);*/
+  border-color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 50em) {
   .search input {
@@ -158,17 +164,17 @@ layout: default
   }
   .search button {
     display: block;
-    margin-top: 0.375em;
+    margin-top: 0.1875em;
     width: 100%;
   } 
 }
 .search label {
-  margin-right: 0.25em;
+  margin-right: 0;
 }
 @media (min-width: 40em) {
   .search {
-    margin: -4.5em -4.5em 0;
-    padding: 0 4.5em 6em;
+    margin: 0em -4.5em 0;
+    padding: 0 4.5em 3em;
   }
   .search input[type="search"] {
     width: 25em;
@@ -252,16 +258,142 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endif %}
 
 
+
+<style>
+details > summary {
+  color: inherit !important;
+}
+details > summary p {
+  margin-top: 0;
+  font-style: italic;
+  text-align: center;
+  max-width: none;
+}
+details > summary {
+  display: list-item;
+  list-style: none;
+}
+details > summary strong {
+  color: inherit !important;
+}
+details:not([open]) > summary {
+  cursor: pointer;
+}
+details:not([open]) > summary strong {
+  text-decoration: underline;
+}
+/*details:not([open]) {
+  display: inline;
+}
+details:not([open]) + p {
+  display: inline;
+}*/
+</style>
+
+<style>
+.goals .navigation .options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+}
+.goals .navigation .options p {
+  margin-top: 0 !important;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: left !important;
+}
+.goals .navigation .options p:last-child {
+  justify-self: end;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  justify-self: start;
+  align-self: end;
+  padding-left: 1.5em;
+}
+.goals .navigation .options details {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  justify-self: end;
+  align-self: end;
+}
+.goals .navigation .options details[open] {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+.goals .navigation .options details[open] ~ p:last-child {
+  grid-row: 2 / 3;
+}
+.goals .navigation .options details p {
+  text-align: right !important;
+  padding-right: 1.5em;
+}
+.goals .navigation .options details[open] p {
+  text-align: left !important;
+}
+.goals .navigation .options form {
+  display: flex;
+}
+.goals .navigation .options form label {
+  flex-grow: 1;
+  margin-right: 0.3em;
+}
+.goals .navigation .options form button {
+  flex-grow: -1;
+}
+.goals .navigation .options form input {
+  width: 100%;
+  max-width: none;
+}
+</style>
+
+
 {% unless page.winners %}
 
 <section class="goals" id="projects">
 
 <div class="navigation"><div markdown="1">
 
-<!--
-## Browse by Goal
--->
+<div class="options">
 
+{% if site.phase >= 4 %}
+{% unless page.winners %}
+
+<details{% if page.is_search_results %} open{% endif %}>
+<summary>
+<p>
+  <svg class="icon" viewBox="0 0 512 512" width="24" height="24" style="width: 1.25em; height: 1em; vertical-align: middle; margin-right: 0; display: inline-block;">
+    <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+  </svg>
+  <strong>Search</strong> by keyword
+</p>
+</summary>
+
+<form class="search" action="/search/{{ conditional_finalists_url }}#projects" method="get" id="search">
+  <label>
+    <span style="position: absolute; left: -9999px">Keywords</span>
+    <input type="search" name="keywords" id="search-field" />
+  </label>
+  <button type="submit">Search</button>
+</form>
+</details>
+
+<script>
+// TODO: Focus search box
+(function() {
+  document.querySelector('summary').addEventListener('click', function(e) {
+    setTimeout(function() {
+      document.getElementById('search-field').focus()
+    }, 1);
+  });
+})();
+</script>
+
+{% endunless %}
+{% endif %}
+
+<p style="font-style: italic"><strong style="color: inherit">Browse</strong> <!--{% if page.finalists %}finalists{% else %}entries{% endif %} in each--> by goal category</p>
+
+</div>
 
 <div class="action-container">
 
@@ -282,13 +414,13 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
 {% else %}
 
-<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> projects in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> entries in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
 
 {% endif %}
 
 {% elsif page.is_search_results %}
 
-<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">You searched for <strong style="color: var(--primary-color, inherit)" id="keywords"></strong>. There <span id="project-count-are-is">are</span> <strong style="color: var(--primary-color, inherit)" id="project-count">{{ data_list.size }}</strong> matching <span id="project-count-projects">projects</span> in all categories.</p>
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">You searched for <strong style="color: var(--primary-color, inherit)" id="keywords"></strong>. There <span id="project-count-are-is">are</span> <strong style="color: var(--primary-color, inherit)" id="project-count">{{ data_list.size }}</strong> matching <span id="project-count-projects">entries</span> in all categories.</p>
 
 {% endif %}
 
@@ -334,6 +466,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 </ul>
 
 
+{% if page.is_search_results %}
 <script>
 (function() {
   if (!document.body.querySelector || !document.createDocumentFragment) return;
@@ -469,6 +602,8 @@ function shuffle(array) {
 
 })();
 </script>
+{% endif %}
+
 
 {% endif %}
 

@@ -1071,15 +1071,39 @@ Non-profit
 
 <hr />
 
-<h2 class="comments-header">Comments</h2>
-
 <style>
-  .comments-header {    
+  body main h2.comments-header {    
+    grid-column: 1/-1;
+    text-align: center;
+  }
+
+  body main h2.comments-header {    
+    font-size: 1.75em;
+    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
     font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+  @media (min-width: 40em) {
+    body main h2.comments-header {
+      font-size: 2.5em;
+      max-width: none;
+    }
+  }
+  .comments {
+     grid-column: 1 / -1;
+  }
+  .comments > div {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>
 
-<div id="disqus_thread" style="grid-column: 2/-1; max-width: 40em"></div>
+<div class="comments">
+  <h2 class="comments-header">Comments</h2>
+  <div id="disqus_thread"></div>
+</div>
 <script>
     // https://disqus.com/admin/universalcode/#configuration-variables
     var disqus_config = function () {
@@ -1170,7 +1194,7 @@ Non-profit
 
 <!-- <hr /> -->
 
-<section class="goals" style="margin-bottom: 9em">
+<section class="goals" style="margin-top: -3em; margin-bottom: 4.5em">
 
 <div class="navigation"><div>
 

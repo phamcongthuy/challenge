@@ -1,5 +1,112 @@
 
 
+  /* =Promotion
+  ----------------------------------------------- */
+  .promotion {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+  }
+  .promotion .icon {
+    display: inline-block;
+    margin-right: 0.75em;
+    vertical-align: middle;
+    display: none;
+  }
+  .promotion .icon svg {
+    width: auto;
+    height: 2em;
+    display: block;
+    margin-top: -0.25em;
+    margin-bottom: -0.25em;
+  }
+  .promotion .icon svg circle,
+  .promotion .icon svg path,
+  .promotion .icon svg line,
+  .promotion .icon svg polygon,
+  .promotion .icon svg polyline {
+    stroke: currentColor;
+    stroke-width: 2px;
+  }
+  .promotion .icon,
+  .promotion strong,
+  .promotion a {
+    color: var(--primary-color);
+  }
+  .promotion h1,
+  .promotion p {
+    display: inline;
+  }
+  .promotion h1 {
+    max-width: none;
+    font-size: inherit;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: inherit;
+  }
+  .promotion p {
+    font-size: inherit;
+  }
+  .promotion small {
+    font-size: inherit;
+    font-style: inherit;
+  }
+  .home .promotion {
+    position: relative;
+    z-index: 999999999999;
+  }
+  .home .promotion {
+    background: white;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+/*  .home .promotion h1,
+  .home .promotion strong {
+    color: white !important;
+  }*/
+  @media (min-width: 40em) {
+    .home .promotion {
+      margin-left: -4.5em;
+      margin-right: -4.5em;
+      padding-left: 4.5em;
+      padding-right: 4.5em;
+    }
+  }
+
+
+  .home .promotion {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .home .promotion .icon,
+  .home .promotion strong,
+  .home .promotion a {
+    color: inherit !important;
+  }
+
+
+  .header-figure.has-caption.has-caption-details h1 {
+    font-size: 6vmax !important;
+    color: var(--primary-color);
+    text-align: center !important;
+    max-width: none;
+  }
+  @media (min-width: 60em) {
+    .header-figure.has-caption.has-caption-details h1 {
+      top: 20.25rem !important;
+      width: calc(100% - 9rem);
+    }
+  }
+  .header-figure.has-caption.has-caption-details img {
+    height: 65vw !important;
+  }
+  .header-figure.has-caption.has-caption-details .caption .details > * {
+    opacity: 0;
+  }
+
+
   /* =Header / Footer
   ----------------------------------------------- */
   header,
