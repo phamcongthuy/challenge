@@ -282,6 +282,11 @@ details:not([open]) > summary {
 details:not([open]) > summary strong {
   text-decoration: underline;
 }
+
+details summary::-webkit-details-marker,
+details summary:focus::-webkit-details-marker {
+  color: transparent;
+}
 /*details:not([open]) {
   display: inline;
 }
