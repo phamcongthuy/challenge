@@ -201,6 +201,16 @@ main_class: standard-layout
   .proposal-introduction figure {
     max-width: 40em;
   }
+  .proposal-introduction h1 {
+    max-width: none;
+  }
+
+  @media (min-width: 70em) {
+    .proposal-introduction + hr {
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+    }
+  }
 
 
   @media (min-width: 60em) {
@@ -397,7 +407,7 @@ main_class: standard-layout
       grid-column: 1/-1;
     }
     .proposal-header h1 {
-      margin-bottom: 3rem !important;
+      margin-bottom: 2.625rem !important;
     }
     .proposal-introduction figure {
       grid-row: 2/3;
@@ -436,27 +446,6 @@ main_class: standard-layout
   <a href="/{{ page.category }}/#projects">{{ page.category }}</a>
 </p>
 <h1 style="margin-bottom: 0">{{ page.title }}</h1>
-</div>
-
-<div class="proposal-description">
-<h2 style="margin-top: 0.75rem;" class="organization">{{ page.organization_name }}</h2>
-<!-- TODO: Handle long lists of collaborators:
-  /learn/wish-academy-high-school/
-  /connect/data-roads-foundation/
-  /connect/investing-in-place/
-  /play/co-led-by-industrial-district-green-and-cal-poly-pomona-department-of-landscape-architecture-/
--->
-<p style="font-style: italic; font-size: 0.875em; font-weight: 500;">{{ page.organization_description }}</p>
-
-<p>
-  {{ page.project_description }}
-</p>
-
-
-<!-- <dl>
-<dt>Organization type</dt>
-<dd>{{ page.organization_description }}</dd>
-</dl> -->
 </div>
 
 <figure class="feature" {% if page.project_video %} id="video-figure"{% endif %}>
@@ -509,6 +498,26 @@ main_class: standard-layout
   })();
 </script>
 
+<div class="proposal-description">
+<h2 style="margin-top: 0.75rem;" class="organization">{{ page.organization_name }}</h2>
+<!-- TODO: Handle long lists of collaborators:
+  /learn/wish-academy-high-school/
+  /connect/data-roads-foundation/
+  /connect/investing-in-place/
+  /play/co-led-by-industrial-district-green-and-cal-poly-pomona-department-of-landscape-architecture-/
+-->
+<p style="font-style: italic; font-size: 0.875em; font-weight: 500;">{{ page.organization_description }}</p>
+
+<p>
+  {{ page.project_description }}
+</p>
+
+
+<!-- <dl>
+<dt>Organization type</dt>
+<dd>{{ page.organization_description }}</dd>
+</dl> -->
+</div>
 
 <!-- TODO: Handle empty data or words like “N/A” or “None” -->
 {% if page.link_newsletter %}
@@ -605,6 +614,15 @@ main_class: standard-layout
 {% endif %}
 
 {% if page.organization_facebook and page.organization_facebook != "" and page.organization_facebook != "n/a" and page.organization_facebook != "N/A" and page.organization_facebook != "none" %}
+
+{% if page.organization_facebook contains "http" %}
+{% assign facebook_url = page.organization_facebook %}
+{% elsif page.organization_facebook contains "facebook.com/" %}
+{% capture facebook_url %}https://{{ page.organization_facebook }}{% endcapture %}
+{% else %}
+{% capture facebook_url %}https://facebook.com/{{ page.organization_facebook }}{% endcapture %}
+{% endif %}
+
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
     <title>Facebook</title>
@@ -614,7 +632,7 @@ main_class: standard-layout
     </switch>
   </svg>
 </dt>
-<dd><a href="https://facebook.com/{{ page.organization_facebook }}">{{ page.organization_facebook }}</a></dd>
+<dd><a href="{{ facebook_url }}">{{ page.organization_facebook | replace: "https://facebook.com/", "" | replace: "facebook.com/", "" }}</a></dd>
 {% endif %}
 
 </dl>
@@ -853,22 +871,23 @@ main_class: standard-layout
     figure,
     .video,
     .map {
-      margin-left: -1.45em;
-      margin-right: -1.45em;
+      margin-left: -1.5em;
+      margin-right: -1.5em;
     }
   }
   figure,
   .map,
   .video {
-    margin-top: 1.45em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     position: relative;
   }
-  @media (min-width: 45em) {
+  @media (min-width: 40em) {
     .map,
     figure,
     .video {
-      margin-top: 2.9em;
-      margin-bottom: 2.9em;
+      margin-top: 3em;
+      margin-bottom: 3em;
     }
   }
 
