@@ -473,13 +473,17 @@ body main .header-figure.has-caption.has-caption-details .caption .details {
 @media (min-width: 70em) {
   .header-figure .caption .details .action a {
     border-color: rgb(46, 219, 228); /* @bright-blueberry */
+
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
   }
   .header-figure .caption .details .action a:hover,
   .header-figure .caption .details .action a:active,
   .header-figure .caption .details .action a:focus {
     border-color: var(--primary-color);
-    background-color: var(--primary-color);
-    color: white !important;
+    background-color: white;
+    color: var(--primary-color);
   }
 }
 /*@media (min-width: 70em) {
