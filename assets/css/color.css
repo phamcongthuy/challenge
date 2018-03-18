@@ -22,6 +22,7 @@
   }
   .strawberry {
     --primary-color:   rgb(237, 59, 136); /* @strawberry */
+    /*--primary-color: rgb(255, 59, 118);*/ /* @strawberry-orange */
     --secondary-color: rgb(255, 194, 51); /* @banana */
   }
   .tangerine {

@@ -5,11 +5,64 @@ main_class: standard-layout
 footer_image: true
 ---
 
+<script>
+// (function() {
+//   var figure = document.document.querySelector('.header-figure');
+//   var categories = [
+//     'banana',
+//     'blueberry',
+//     'lime',
+//     'strawberry',
+//     'live'
+//   ];
+//   var random = Math.floor(Math.random() * categories.length) + 0;
+//   console.log(random);
+//   link.setAttribute('href', '/' + categories[random] + '/');
+// })();
+</script>
+
 
 <style>
-.header-figure.has-caption.has-caption-details .caption .details a,
+/*.header-figure.has-caption.has-caption-details .caption .details a,
 .header-figure.has-caption.has-caption-details .caption .details a strong {
   font-weight: 600;
+}*/
+
+.header-figure {
+    --primary-color:   rgb(249, 160, 51); /* @tangerine */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(255, 194, 51); /* @banana */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(141, 208, 59); /* @lime */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(237, 59, 136); /* @strawberry */
+    /*--primary-color: rgb(255, 59, 118);*/ /* @strawberry-orange */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+
+    --primary-color:   rgb(6, 179, 188); /* @blueberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+}
+.header-figure h1 {
+
+    --primary-color:   rgb(249, 160, 51); /* @tangerine */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(255, 194, 51); /* @banana */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(6, 179, 188); /* @blueberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+
+    --primary-color:   rgb(141, 208, 59); /* @lime */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(237, 59, 136); /* @strawberry */
+    --primary-color:   rgb(255, 77, 154); /* @strawberry */
+    /*--primary-color: rgb(255, 59, 118);*/ /* @strawberry-orange */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
 }
 
 
@@ -115,7 +168,7 @@ footer_image: true
     color: rgb(6, 179, 188) !important; /* @blueberry */
     color: white !important;
   }
-  @media (min-width: 27.5em) {
+  @media (min-width: 70em) {
     .header-figure.has-caption.has-caption-details {
       margin-bottom: -1.5em !important;
     }
@@ -163,9 +216,10 @@ footer_image: true
       text-decoration: none;
       background-image: linear-gradient(to top, transparent, transparent 5%, rgb(6, 179, 188) 5%, rgb(6, 179, 188) 65%, transparent 65%, transparent); /* @blueberry */
     }
-    .header-figure.has-caption.has-caption-details .caption .details a {
+/*    .header-figure.has-caption.has-caption-details .caption .details a {
       font-weight: bold;
-    }
+    }*/
+
 
 
     @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
@@ -189,7 +243,7 @@ footer_image: true
   @media (min-width: 70em) {
     .header-figure.has-caption.has-caption-details .caption .details {
       background: transparent;
-      font-size: 1.5vmax;
+      font-size: 1em;
     }
   }
 </style>
@@ -221,18 +275,33 @@ footer_image: true
 
 <style>
   .header-figure.has-caption.has-caption-details .caption .details {
-    font-size: 1em;
-    text-align: center;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .header-figure.has-caption.has-caption-details .caption .details {
+    /*font-size: 1em;*/
+/*    text-align: center;
+    display: block;*/
   }
   @media (min-width: 40em) {
-    .header-figure.has-caption.has-caption-details .caption .details {
+/*    .header-figure.has-caption.has-caption-details .caption .details {
       padding-bottom: 6em !important;
-    }
+    }*/
   }
-  .header-figure .caption .details p.action {
+/*  body main .header-figure .caption .details p.action,
+  body main .header-figure .caption .details p:not(.action) {
     margin: 0 !important;
-    display: inline;
+  }*/
+  .header-figure .caption .details p.action {
+    justify-self: end;
+    align-self: center;
+  }
+  .header-figure .caption .details p.action a {
+    margin-right: 0 !important;
+  }
+  .header-figure .caption .details p:not(.action) {
+    justify-self: start;
+    grid-column: 2 / -1;
   }
 </style>
 
@@ -246,10 +315,16 @@ footer_image: true
 
 <div class="details">
 
-{% if site.phase == 4 %}
+{% if site.phase == 2 %}
 <p class="action">
-  <a href="/entries/" id="home-details-entries-link">View Entries</a>
+  <a href="{{ site.submission_url }}">Submit your idea</a>
 </p>
+
+{% elsif site.phase == 4 %}
+<p class="action">
+  <a href="/entries/" id="home-details-entries-link">Check out the entries!</a>
+</p>
+
 <script>
 (function() {
   var link = document.getElementById('home-details-entries-link');
@@ -267,7 +342,7 @@ footer_image: true
 </script>
 {% elsif site.phase == 5 or site.phase == 7 %}
 <p class="action">
-  <a href="/finalists/" id="home-details-entries-link">Check out the Finalists</a>
+  <a href="/finalists/" id="home-details-entries-link">Check out the finalists!</a>
 </p>
 <script>
 (function() {
@@ -286,7 +361,12 @@ footer_image: true
 </script>
 {% elsif site.phase == 6 %}
 <p class="action">
-  <a href="{{ site.vote_url }}">Help us choose the winners</a>
+  <a href="{{ site.vote_url }}">Public voting has begun!</a>
+</p>
+
+{% elsif site.phase == 8 %}
+<p class="action">
+  <a href="/winners/">Check out the winners</a>
 </p>
 {% else %}
 <p class="action">
@@ -294,11 +374,129 @@ footer_image: true
 </p>
 {% endif %}
 
+{% include timeline-message.html %}
+
+{% comment %}
+<p>
+  The <strong style=""><a href="/finalists/">finalists</a></strong> have been announced!
+  {% if site.event_url %}
+  <span class="avoid-break">
+    Vote at the <strong style=""><a href="/event/">public event</a></strong> on <strong>June 19, 2018</strong>.
+  </span>
+  {% else %}
+  <span class="avoid-break">
+    Voting begins on
+    <span class="avoid-break">
+      <strong>June 19, 2018</strong>.
+    </span>
+  </span>
+  {% endif %}
+</p>
+{% endcomment %}
+
 </div><!-- /.details -->
 
     </div>
   </div>
 </div>
+
+<style>
+body main .header-figure.has-caption.has-caption-details .caption .details {
+  display: block;
+  text-align: center !important;
+}
+.header-figure .caption .details p.action,
+.header-figure .caption .details p:not(.action) {
+  font-size: 1.25em;
+  text-align: center !important;
+  display: inline-block;
+  /*text-align: left !important;*/
+  margin: 0.1875em 0.375em !important;
+}
+.header-figure .caption .details p.action {
+}
+/*body main .header-figure .caption .details p:not(.action) {
+  margin-top: 0.75em !important;
+  margin-left: 0em !important;
+}*/
+
+@media (min-width: 70em) {
+  body main .header-figure.has-caption.has-caption-details .caption .details {
+    padding-bottom: 3.75em !important;
+    padding-bottom: 3.75vmax !important;
+  }
+  .header-figure .caption .details p.action,
+  body main .header-figure .caption .details p:not(.action) {
+    font-size: 1.75vmax;
+  }
+}
+/*@media (min-width: 70em) {
+  body main .header-figure.has-caption.has-caption-details .caption .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    padding-bottom: 3.75em !important;
+    padding-bottom: 6vmax !important;
+  }
+  .header-figure .caption .details p.action,
+  body main .header-figure .caption .details p:not(.action) {
+    margin: 0 !important;
+    font-size: 1.75vmax;
+  }
+  .header-figure .caption .details p.action {
+    text-align: right !important;
+  }
+  .header-figure .caption .details p:not(.action) {
+    text-align: left !important;
+  }
+}*/
+.header-figure .caption .details {
+  background-color: rgb(6, 179, 188); /* @blueberry */
+  color: white;
+}
+.header-figure .caption .details .action a {
+  background-color: transparent;
+  border-color: white;
+    border-color: rgb(46, 219, 228); /* @bright-blueberry */
+  padding: 0.375em 0.75em;
+  text-transform: none;
+  margin-right: 1.5em;
+  letter-spacing: 0;
+}
+.header-figure .caption .details .action a:hover,
+.header-figure .caption .details .action a:active,
+.header-figure .caption .details .action a:focus {
+  background: white;
+  border-color: rgb(46, 219, 228); /* @bright-blueberry */
+  color: rgb(46, 219, 228); /* @bright-blueberry */
+}
+@media (min-width: 70em) {
+  .header-figure .caption .details .action a {
+    border-color: rgb(46, 219, 228); /* @bright-blueberry */
+  }
+  .header-figure .caption .details .action a:hover,
+  .header-figure .caption .details .action a:active,
+  .header-figure .caption .details .action a:focus {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white !important;
+  }
+}
+/*@media (min-width: 70em) {
+  .header-figure .caption .details .action a {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .header-figure .caption .details .action a:hover,
+  .header-figure .caption .details .action a:active,
+  .header-figure .caption .details .action a:focus {
+    border-color: var(--primary-color);
+    background-color: white;
+    color: var(--primary-color)
+  }
+}*/
+</style>
 
 
 
@@ -344,6 +542,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 </p>
 
 {% elsif site.phase == 4 %}
+
 
 <p>
   <em>The submission period is complete.</em>

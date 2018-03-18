@@ -121,6 +121,7 @@
     font-size: 0.75em;
     letter-spacing: 0.2em;
     color: rgb(237, 59, 136); /* @strawberry */
+    color: var(--primary-color);
   }
   .activate-tag + h2 {
     margin-top: 1.5rem;
