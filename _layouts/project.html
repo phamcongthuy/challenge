@@ -170,7 +170,7 @@ main_class: standard-layout
       line-height: 1.25;
     }
   }
-  .proposal-introduction h1 + h2 {
+  .proposal-introduction h2.organization {
     color: var(--secondary-color, inherit);
     color: inherit;
     font-weight: 600;
@@ -183,16 +183,23 @@ main_class: standard-layout
     margin-left: 0;
   }
 
-  .proposal-introduction > div:first-child {
-    grid-column: 2/4;
+  .proposal-header {
+    grid-column: 2/-1;
     grid-row: 1/2;
   }
-  .proposal-introduction > div:first-child > p:first-child {
+  .proposal-header > p:first-child {
     margin-top: 0;
     margin-left: 0;
     /*max-width: none;*/
     color: var(--primary-color, inherit);
     font-weight: 600;
+  }
+  .proposal-description {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .proposal-introduction figure {
+    max-width: 40em;
   }
 
 
@@ -205,7 +212,7 @@ main_class: standard-layout
     }*/
   }
 
-  @media (min-width: 70em) { /* @wide-enough-for-header-grid */
+  @media (min-width: 70em) { /* Just wide enough to avoid wrapping the donate / volunteer buttons */
     .proposal-introduction .links-more {
       margin-top: 3em;
       grid-column: 1/2;
@@ -219,8 +226,8 @@ main_class: standard-layout
     }*/
     .proposal-introduction {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: min-content auto;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-rows: auto 1fr; /* Shrink-wrap the first row */
       grid-column-gap: 3em;
       grid-row-gap: 0;
     }
@@ -238,7 +245,7 @@ main_class: standard-layout
     }
     .links-involved {
       grid-column: 1/2;
-      grid-row: 2/3;
+      grid-row: 3/4;
     }
 /*    .links-action ul.action {
       display: grid !important;
@@ -270,7 +277,7 @@ main_class: standard-layout
       grid-column: 1/2;
     }
     .proposal-introduction figure {
-      grid-row: 1/2;
+      grid-row: 1/3;
       grid-column: 1/2;
       margin: 0;
       height: 100%;
@@ -280,6 +287,7 @@ main_class: standard-layout
       margin-right: calc(-3em);
       height: calc(100% + 3em);*/
     }
+
 
 
     /*
@@ -316,6 +324,7 @@ main_class: standard-layout
       margin-top: 3rem;
       margin-top: 0;
     }
+
 /*    .proposal-introduction .proposal-answers h2:first-child {
       margin-top: 0;
     }*/
@@ -380,17 +389,57 @@ main_class: standard-layout
       grid-column: 2/4;
     }
   }*/
+
+
+  @media (min-width: 70em) and (max-width: 80em) {
+    .proposal-header {
+      grid-row: 1/2;
+      grid-column: 1/-1;
+    }
+    .proposal-header h1 {
+      margin-bottom: 3rem !important;
+    }
+    .proposal-introduction figure {
+      grid-row: 2/3;
+      grid-column: 1/2;
+    }
+  }
+
+</style>
+
+<style>
+  .proposal-in-depth {
+    grid-column: 1/-1;
+  }
+  @media (min-width: 70em) {
+    .proposal-in-depth {
+      display: grid;
+      grid-template-columns: 1fr minmax(auto, 40em) 1fr;
+      grid-gap: 3em;
+    }
+    .links-more {
+      grid-column: 1/2;
+    }
+    .proposal-answers {
+      grid-column: 2/3;
+    }
+    .proposal-answers h2:first-child {
+      margin-top: 0;
+    }
+  }
 </style>
 
 <section class="proposal-introduction" style="grid-column: 1/4">
 
-<div>
+<div class="proposal-header">
 <p class="category">
   <a href="/{{ page.category }}/#projects">{{ page.category }}</a>
 </p>
 <h1 style="margin-bottom: 0">{{ page.title }}</h1>
-<h2 style="margin-top: 0.75rem;">{{ page.organization_name }}</h2>
+</div>
 
+<div class="proposal-description">
+<h2 style="margin-top: 0.75rem;" class="organization">{{ page.organization_name }}</h2>
 <!-- TODO: Handle long lists of collaborators:
   /learn/wish-academy-high-school/
   /connect/data-roads-foundation/
@@ -497,7 +546,11 @@ main_class: standard-layout
 
 {% endif %}
 
+</section><!-- /.proposal-introduction -->
+
 <hr />
+
+<div class="proposal-in-depth">
 
 <div class="links links-more">
 
@@ -1067,8 +1120,6 @@ Non-profit
 
 </div>
 
-</section><!-- /.proposal-introduction -->
-
 <hr />
 
 <style>
@@ -1130,6 +1181,8 @@ Non-profit
     color: inherit;
   }*/
 </style>
+
+</div><!-- /.proposal-in-depth -->
 
 <hr />
 
