@@ -1,5 +1,7 @@
 ---
 layout: default
+stylesheets:
+  - "/assets/css/project-list.css"
 ---
 
 {% if page.winners == true %}
@@ -7,7 +9,7 @@ layout: default
 {% elsif page.finalists == true %}
 <h1 style="color: white">Finalists</h1>
 {% else %}
-<h1 style="color: white">Entries<!-- / <strong style="color: white">{{ page.category }}</strong>--></h1>
+<h1 style="color: white">Entries</h1>
 {% endif %}
 
 {% assign conditional_finalists_url = "" %}
@@ -17,25 +19,6 @@ layout: default
 {% endif %}
 
 
-{% comment %}
-<style>
-  {% for i in (1..100) %}
-  .proposals li:nth-child({{ i }}), {
-    order: var(--order-{{ i }});
-  }
-  {% endfor %}
-</style>
-<script>
-(function() {
-  function getRandomOrder() {
-    return (Math.floor(Math.random() * 100) + 1) - 50;
-  }
-  {% for i in (1..100) %}
-  document.documentElement.style.setProperty('--order-{{ i }}', getRandomOrder());
-  {% endfor %}
-})();
-</script>
-{% endcomment %}
 
 {% unless page.is_search_results %}
 <script>
@@ -50,168 +33,7 @@ layout: default
 </script>
 {% endunless %}
 
-{% comment %}
-<div class="standard-figure has-caption header-figure has-caption-details">
-  <div class="mask"></div>
-  <img style="filter: grayscale(100%); object-position: {% if page.category == 'create' or page.category == 'learn' or page.category == 'play' %}center{% else %}bottom{% endif %}" src="/assets/images/goals/384-wide/{{ page.category }}.jpg" srcset="/assets/images/goals/384-wide/{{ page.category }}.jpg 384w, /assets/images/goals/512-wide/{{ page.category }}.jpg 512w, /assets/images/goals/768-wide/{{ page.category }}.jpg 768w, /assets/images/goals/1024-wide/{{ page.category }}.jpg 1024w, /assets/images/goals/1536-wide/{{ page.category }}.jpg 1536w, /assets/images/goals/2048-wide/{{ page.category }}.jpg 2048w" sizes="100vw" alt="" />
-  <div class="caption" style="padding-top: 0; padding-bottom: 0;">
-    <div>
-      <!-- <h1 style="color: var(--primary-color, rgb(237, 59, 136))">The <strong>proposals</strong><br />that will shape LA</h1> -->
-      <h1 style="color: var(--primary-color, rgb(237, 59, 136))">The <strong>ideas</strong> that will shape how we <strong>{{ page.category }}</strong></h1>
-      {% if site.phase >= 4 %}
-      <!--
-      <form action="/proposals/" method="get" style="text-align: center; margin-top: 3em;">
-        <label>
-          <span style="position: absolute; left: -9999px">Keywords</span>
-          <input type="search" name="keywords" style="border-color: transparent;" />
-        </label>
-        <button type="submit">Search</button>
-      </form>
-      -->
-      {% endif %}
-    </div>
-  </div>
-</div>
-{% endcomment %}
 
-<!--
-<h1 style="color: white">The <strong style="color: var(--secondary-color, inherit)">entries</strong><br />that will shape LA</h1>
--->
-
-<!-- <h1 style="margin-bottom: 0">Entries for <strong style="color: white">{{ page.category }}</strong></h1>
-
-
- -->
-
-
-
-
-<script>
-/*(function() {
-  if (!document.body.querySelector) return;
-
-  var form = document.getElementById('search');
-  var field = form.querySelector('input[name="keywords"]');
-
-  if (form && field) {
-    form.addEventListener('submit', function(e) {
-
-      console.log('searching…');
-
-      // var results = window._activation_la2050.search(field.value);
-      // console.dir(results);
-
-      e.preventDefault();
-    });
-
-    form.style.display = "block";
-  }
-
-})();*/
-</script>
-
-<style>
-.search {
-  text-align: center;
-  grid-column: 1 / -1;
-/*  background: var(--primary-color, black);
-  color: white;*/
-  margin: 0em -1.5em 0;
-  padding: 0 1.5em 1.5em;
-
-}
-/*.search label,
-.search button {
-  font-size: 0.875em;
-}*/
-.search input,
-.search button {
-/*  border-color: transparent;
-  background-color: rgba(255, 255, 255, 0.3);*/
-}
-.search input {
-/*  color: black;*/
-  border-color: rgba(0, 0, 0, 0.25);
-  margin: 0.15em;
-/*  border-color: var(--primary-color);*/
-}
-.search button {
-/*  color: var(--primary-color, inherit);
-  background-color: rgba(255, 255, 255, 0.9);*/
-  margin: 0.15em;
-  background-color: rgba(0, 0, 0, 0.25);
-  border-color: transparent;
-/*  background-color: var(--primary-color);*/
-}
-
-.search input:focus {
-  border-color: rgba(0, 0, 0, 0.5);
-}
-.search button:hover,
-.search button:active,
-.search button:focus {
-/*  background-color: white;*/
-  background-color: white;
-/*  border-color: var(--primary-color);
-  color: var(--primary-color);*/
-  border-color: rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.5);
-}
-@media (max-width: 50em) {
-  .search input {
-    width: 100% !important;
-    max-width: none;
-  }
-  .search button {
-    display: block;
-    margin-top: 0.1875em;
-    width: 100%;
-  } 
-}
-.search label {
-  margin-right: 0;
-}
-@media (min-width: 40em) {
-  .search {
-    margin: 0em -4.5em 0;
-    padding: 0 4.5em 3em;
-  }
-  .search input[type="search"] {
-    width: 25em;
-  }
-}
-@media (min-width: 70em) { /* @wide-enough-for-header-grid */
-  .search {
-    /*margin-top: -1.5em;*/
-  }
-}
-
-</style>
-<style>
-@media (min-width: 70em) {
-  .header-figure.has-caption.has-caption-details h1 {
-    top: 24rem;
-    padding-right: 3rem;
-  }
-/*  #goals .navigation .action-container {
-    margin-top: -9em;
-    position: relative;
-    z-index: 9;
-  }*/
-/*  #goals .navigation .action-container {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 9em;
-    z-index: 9;
-  }
-  #goals .navigation .action-container ul.action {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 40em;
-  }*/
-}
-</style>
 
 {% if site.phase < 4 %}
 
@@ -258,98 +80,6 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endif %}
 
 
-
-<style>
-details > summary {
-  color: inherit !important;
-}
-details > summary p {
-  margin-top: 0;
-  font-style: italic;
-  text-align: center;
-  max-width: none;
-}
-details > summary {
-  display: list-item;
-  list-style: none;
-}
-details > summary strong {
-  color: inherit !important;
-}
-details:not([open]) > summary {
-  cursor: pointer;
-}
-details:not([open]) > summary strong {
-  text-decoration: underline;
-}
-
-details summary::-webkit-details-marker,
-details summary:focus::-webkit-details-marker {
-  color: transparent;
-}
-/*details:not([open]) {
-  display: inline;
-}
-details:not([open]) + p {
-  display: inline;
-}*/
-</style>
-
-<style>
-.goals .navigation .options {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 3em;
-}
-.goals .navigation .options p {
-  margin-top: 0 !important;
-  margin-right: 0;
-  margin-left: 0;
-  text-align: left !important;
-}
-.goals .navigation .options p:last-child {
-  justify-self: end;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  justify-self: start;
-  align-self: end;
-  padding-left: 1.5em;
-}
-.goals .navigation .options details {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  justify-self: end;
-  align-self: end;
-}
-.goals .navigation .options details[open] {
-  grid-column: 1 / -1;
-  width: 100%;
-}
-.goals .navigation .options details[open] ~ p:last-child {
-  grid-row: 2 / 3;
-}
-.goals .navigation .options details p {
-  text-align: right !important;
-  padding-right: 1.5em;
-}
-.goals .navigation .options details[open] p {
-  text-align: left !important;
-}
-.goals .navigation .options form {
-  display: flex;
-}
-.goals .navigation .options form label {
-  flex-grow: 1;
-  margin-right: 0.3em;
-}
-.goals .navigation .options form button {
-  flex-grow: -1;
-}
-.goals .navigation .options form input {
-  width: 100%;
-  max-width: none;
-}
-</style>
 
 
 {% unless page.winners %}

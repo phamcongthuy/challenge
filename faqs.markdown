@@ -2,6 +2,8 @@
 title: FAQs for the 2018 My LA2050 Activation Challenge
 body_class: tangerine
 footer_image: true
+stylesheets:
+  - "/assets/css/faqs.css"
 ---
 
 <h1><abbr title="Frequently Asked Questions">FAQs</abbr></h1>

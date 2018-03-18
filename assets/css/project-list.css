@@ -579,3 +579,167 @@
       padding: 1.5em;
     }
   }*/
+
+
+.search {
+  text-align: center;
+  grid-column: 1 / -1;
+/*  background: var(--primary-color, black);
+  color: white;*/
+  margin: 0em -1.5em 0;
+  padding: 0 1.5em 1.5em;
+
+}
+/*.search label,
+.search button {
+  font-size: 0.875em;
+}*/
+.search input,
+.search button {
+/*  border-color: transparent;
+  background-color: rgba(255, 255, 255, 0.3);*/
+}
+.search input {
+/*  color: black;*/
+  border-color: rgba(0, 0, 0, 0.25);
+  margin: 0.15em;
+/*  border-color: var(--primary-color);*/
+}
+.search button {
+/*  color: var(--primary-color, inherit);
+  background-color: rgba(255, 255, 255, 0.9);*/
+  margin: 0.15em;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+/*  background-color: var(--primary-color);*/
+}
+
+.search input:focus {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.search button:hover,
+.search button:active,
+.search button:focus {
+/*  background-color: white;*/
+  background-color: white;
+/*  border-color: var(--primary-color);
+  color: var(--primary-color);*/
+  border-color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 50em) {
+  .search input {
+    width: 100% !important;
+    max-width: none;
+  }
+  .search button {
+    display: block;
+    margin-top: 0.1875em;
+    width: 100%;
+  } 
+}
+.search label {
+  margin-right: 0;
+}
+@media (min-width: 40em) {
+  .search {
+    margin: 0em -4.5em 0;
+    padding: 0 4.5em 3em;
+  }
+  .search input[type="search"] {
+    width: 25em;
+  }
+}
+@media (min-width: 70em) { /* @wide-enough-for-header-grid */
+  .search {
+    /*margin-top: -1.5em;*/
+  }
+}
+
+
+
+details > summary {
+  color: inherit !important;
+}
+details > summary p {
+  margin-top: 0;
+  font-style: italic;
+  text-align: center;
+  max-width: none;
+}
+details > summary {
+  display: list-item;
+  list-style: none;
+}
+details > summary strong {
+  color: inherit !important;
+}
+details:not([open]) > summary {
+  cursor: pointer;
+}
+details:not([open]) > summary strong {
+  text-decoration: underline;
+}
+
+details summary::-webkit-details-marker,
+details summary:focus::-webkit-details-marker {
+  color: transparent;
+}
+
+
+
+
+.goals .navigation .options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+}
+.goals .navigation .options p {
+  margin-top: 0 !important;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: left !important;
+}
+.goals .navigation .options p:last-child {
+  justify-self: end;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  justify-self: start;
+  align-self: end;
+  padding-left: 1.5em;
+}
+.goals .navigation .options details {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  justify-self: end;
+  align-self: end;
+}
+.goals .navigation .options details[open] {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+.goals .navigation .options details[open] ~ p:last-child {
+  grid-row: 2 / 3;
+}
+.goals .navigation .options details p {
+  text-align: right !important;
+  padding-right: 1.5em;
+}
+.goals .navigation .options details[open] p {
+  text-align: left !important;
+}
+.goals .navigation .options form {
+  display: flex;
+}
+.goals .navigation .options form label {
+  flex-grow: 1;
+  margin-right: 0.3em;
+}
+.goals .navigation .options form button {
+  flex-grow: -1;
+}
+.goals .navigation .options form input {
+  width: 100%;
+  max-width: none;
+}
+
