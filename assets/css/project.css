@@ -319,10 +319,7 @@
 /*      display: flex;*/
       flex-grow: 0;
       max-width: none;
-      margin-top: 0.375em;
-      margin-bottom: 0.375em;
-      margin-left: 1.5em;
-      margin-right: 1.5em;
+      margin: 0.75em 1.5em;
       display: inline-block;
     }
 /*    .links dt {
@@ -344,20 +341,20 @@
       display: inline-block;
       vertical-align: middle;
     }*/
-    .proposal-introduction ~ hr {
-      margin-bottom: 1.5em;
+    .proposal-introduction + hr {
+      margin-bottom: 0.75em;
     }
     .links-more + hr {
-      margin-top: 1.5em;
+      margin-top: 0.75em;
     }
   }
   @media (min-width: 70em) {
-    .proposal-introduction ~ hr {
+    .proposal-introduction + hr {
       margin-top: 3em;
-      margin-bottom: 0;
+      margin-bottom: -0.75em;
     }
     .links-more + hr {
-      margin-top: 0;
+      margin-top: -0.5em;
       margin-bottom: 3em;
     }
   }
