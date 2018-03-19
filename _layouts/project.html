@@ -92,7 +92,7 @@ stylesheets:
 -->
 <p style="font-style: italic; font-size: 0.875em; font-weight: 500;">{{ page.organization_description }}</p>
 
-<p>
+<p style="margin-bottom: 0">
   {{ page.project_description }}
 </p>
 
@@ -143,18 +143,21 @@ stylesheets:
 
 <hr />
 
-<div class="proposal-in-depth">
-
 {% include project-links.html %}
 
+<hr />
+
+<div class="proposal-in-depth">
 
 <div class="proposal-answers">
 
-<h2>What does your organization do?</h2>
+<h2 class="answers-header"><abbr title="Questions and Answers">Q &amp; A</abbr></h2>
+
+<h3>What does your organization do?</h3>
 {{ page.organization_activity | markdownify }}
 
 {% if page.project_is_collaboration != "No" and page.project_collaborators.size > 0 %}
-<h2>Are any other organizations collaborating on this proposal?</h2>
+<h3>Are any other organizations collaborating on this proposal?</h3>
 
 {% for collaborator in page.project_collaborators %}
 <p>{{ collaborator }}</p>
@@ -162,10 +165,10 @@ stylesheets:
 
 {% endif %}
 
-<h2>Please describe the activation your organization seeks to launch.</h2>
+<h3>Please describe the activation your organization seeks to launch.</h3>
 {{ page.project_proposal_description | markdownify }}
 
-<h2>Which of the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics will your activation impact?​</h2>
+<h3>Which of the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics will your activation impact?​</h3>
 <ul>
   {% for metric in page.project_proposal_impact %}
   <li>{{ metric }}</li>
@@ -173,27 +176,27 @@ stylesheets:
 </ul>
 
 {% comment %}
-<h2>Will your proposal impact any other LA2050 goal categories?</h2>
+<h3>Will your proposal impact any other LA2050 goal categories?</h3>
 <ul>
   <li>LA is the best place to <span style="text-transform: uppercase;">learn</span></li>
   <li>LA is the best place to <span style="text-transform: uppercase;">connect</span></li>
 </ul>
 {% endcomment %}
 
-<h2>In what areas of Los Angeles will you be directly working?</h2>
+<h3>In what areas of Los Angeles will you be directly working?</h3>
 <ul>
   {% for area in page.project_areas %}
   <li>{{ area }}</li>
   {% endfor %}
 </ul>
 
-<h2>Describe in greater detail how your activation will make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span>? </h2>
+<h3>Describe in greater detail how your activation will make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span>? </h3>
 {{ page.project_proposal_best_place | markdownify }}
 
-<h2>Please explain how you will define and measure success for your activation.​</h2>
+<h3>Please explain how you will define and measure success for your activation.​</h3>
 {{ page.project_measure | markdownify }}
 
-<h2>LA2050 will serve as a partner on this activation. Which of LA2050’s resources will be of the most value to you?</h2>
+<h3>LA2050 will serve as a partner on this activation. Which of LA2050’s resources will be of the most value to you?</h3>
 <ul>
   {% for help in page.project_proposal_help %}
   <li>{{ help }}</li>
@@ -201,7 +204,7 @@ stylesheets:
 </ul>
 
 {% comment %}
-<h2>Where do you hope this activation or your organization will be in five years?</h2>
+<h3>Where do you hope this activation or your organization will be in five years?</h3>
 {% endcomment %}
 
 </div>
@@ -312,42 +315,3 @@ stylesheets:
 </div></div>
 
 </section>
-
-{% comment %}
-
-<ul class="proposals more-proposals">
-
-  {% for data in data_list %}
-  <li>
-    <article>
-      <a href="{{ data.uri }}">
-        <span class="image"><img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
-        <p class="organization">{{ data['organization_name'] }}</p>
-        <h3>{{ data['title'] }}</h3>
-        <p class="description">{{ data['project_description'] }}</p>
-      </a>
-    </article>
-  </li>
-  {% endfor %}
-
-</ul>
-
-<section class="goals" style="margin-bottom: 9em">
-
-<div class="navigation"><div>
-
-<h2>Browse categories</h2>
-
-<ul class="action">
-  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
-  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
-  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
-  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
-  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
-</ul>
-
-</div></div>
-
-</section>
-
-{% endcomment %}

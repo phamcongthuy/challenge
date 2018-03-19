@@ -116,7 +116,7 @@
   }
 
   @media (min-width: 70em) {
-    .proposal-introduction + hr {
+    hr {
       margin-top: 1.5em;
       margin-bottom: 1.5em;
     }
@@ -124,32 +124,39 @@
 
 
   @media (min-width: 60em) {
-    .proposal-answers {
+    .proposal-answers p,
+    .proposal-answers ul {
       font-size: 0.875em;
     }
   }
 
   @media (min-width: 70em) { /* Just wide enough to avoid wrapping the donate / volunteer buttons */
-    .proposal-introduction .links-more {
-      margin-top: 3em;
-      grid-column: 1/2;
-    }
     .proposal-introduction {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-columns: calc(50% - 1.5em) calc(25% - 1.5em) 25%;
       grid-template-rows: auto 1fr; /* Shrink-wrap the first row */
       grid-column-gap: 3em;
       grid-row-gap: 0;
     }
+
     .links {
       grid-column: 1/2;
     }
     .links-action {
       grid-column: 2/-1;
+      grid-row: 4/5;
+      margin-bottom: -0.25em; /* SHIM: Compensate for list item margin */
     }
     .links-involved {
+      grid-row: 4/5;
       grid-column: 1/2;
-      grid-row: 3/4;
+      justify-self: end;
+    }
+/*    .links.links-involved h2 {
+      text-align: right !important;
+    }*/
+    .links-more {
+      grid-column: 1/-1;
     }
     .links h2,
     .links h3 {
@@ -157,21 +164,10 @@
     }
     .links h2:first-child,
     .links h3:first-child {
-      margin-top: 1.5rem;
-    }
-    .links-more h2:first-child {
       margin-top: 3rem;
-      margin-top: 0;
-    }
-    .links dl {
-      margin-left: 0 !important;
-    }
-    .proposal-introduction .links-more {
-      margin-top: 0;
-      grid-column: 1/2;
     }
     .proposal-introduction figure {
-      grid-row: 1/3;
+      grid-row: 1/4;
       grid-column: 1/2;
       margin: 0;
       height: 100%;
@@ -189,10 +185,24 @@
       position: relative !important;
     }
 
+
+/*    figure > div {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+    figure > div[data-aspect-ratio] a,
+    figure > div[data-aspect-ratio] img {
+      height: 100%;
+    }
+    figure > div[data-aspect-ratio] img {
+      object-fit: cover;
+    }*/
+
     .proposal-introduction .proposal-answers {
       grid-column: 2/4;
     }
-    .proposal-introduction .proposal-answers h2 {
+/*    .proposal-introduction .proposal-answers h2 {
       font-size: 1.25em;
       line-height: 1.25;
       margin-top: 3rem;
@@ -200,7 +210,7 @@
     .proposal-introduction .proposal-answers h2:first-child {
       margin-top: 3rem;
       margin-top: 0;
-    }
+    }*/
   }
 
   @media (min-width: 70em) and (max-width: 80em) {
@@ -212,7 +222,7 @@
       margin-bottom: 2.625rem !important;
     }
     .proposal-introduction figure {
-      grid-row: 2/3;
+      grid-row: 2/4;
       grid-column: 1/2;
     }
   }
@@ -235,9 +245,6 @@
       grid-template-columns: 1fr minmax(auto, 40em) 1fr;
       grid-gap: 3em;
     }
-    .links-more {
-      grid-column: 1/2;
-    }
     .proposal-answers {
       grid-column: 2/3;
     }
@@ -245,12 +252,7 @@
       margin-top: 0;
     }
   }
-</style>
 
-
-<!-- <hr style="opacity: 0; margin-top: 0; margin-bottom: 0;" />
- -->
-<style>
 
   .links p.action,
   .links ul.action {
@@ -281,17 +283,103 @@
     font-weight: 600;
     color: rgb(6, 179, 188);
   }
-  .links dl {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 0.75em;
+  .links-more h2 {
+    margin-top: 0 !important;
+    display: none;
   }
+  .links-more {
+
+    /* OPTIONAL: Wrap long URLs to the next line */
+    word-break: break-word; /* Non standard for WebKit */
+    word-break: break-all;
+  }
+  .links-more dt,
+  .links-more dd {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .links-more dt {
+    margin-right: 0.5em;
+  }
+/*  .proposal-introduction ~ hr {
+    opacity: 0;
+  }*/
+  @media (min-width: 50em) {
+    .links-more {
+      display: block;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .links dl {
+/*      display: block;
+      text-align: center;*/
+/*      display: flex;*/
+      flex-grow: 0;
+      max-width: none;
+      margin-top: 0.375em;
+      margin-bottom: 0.375em;
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+      display: inline-block;
+    }
+/*    .links dt {
+      flex-grow: 0;
+      margin-right: 0.5em;
+    }*/
+/*    .links dd {
+      flex-grow: 0;
+    }*/
+/*    .links dt {
+      margin-right: 0.375em;
+      margin-left: 1.5em;
+    }*/
+/*    .links dd {
+      margin-right: 1.5em;
+    }
+    .links dt,
+    .links dd {
+      display: inline-block;
+      vertical-align: middle;
+    }*/
+    .proposal-introduction ~ hr {
+      margin-bottom: 1.5em;
+    }
+    .links-more + hr {
+      margin-top: 1.5em;
+    }
+  }
+  @media (min-width: 70em) {
+    .proposal-introduction ~ hr {
+      margin-top: 3em;
+      margin-bottom: 0;
+    }
+    .links-more + hr {
+      margin-top: 0;
+      margin-bottom: 3em;
+    }
+  }
+/*  @media (min-width: 40em) {
+    .links dl {
+      grid-template-columns: 1em minmax(10em, auto) 1em minmax(10em, auto);
+    }
+  }*/
+/*  @media (min-width: 80em) {
+    .links dl {
+      grid-template-columns: 1em 1fr 1em 1fr 1em 1fr 1em 1fr;
+    }
+  }*/
   .links dt {
     margin-top: 0;
     justify-self: end;
+    align-self: center;
     text-align: right;
   }
   .links dd {
+    align-self: center;
+  }
+  .links dd a {
+    /*color: var(--primary-color) !important;*/
   }
 
 
@@ -305,7 +393,7 @@
   .links svg {
     width: 1em;
     height: 1em;
-    vertical-align: middle;
+    display: block;
   }
   .links dl,
   .links dt,
@@ -549,6 +637,7 @@
     min-height: 0;
     max-width: none;
   }
+
   figure > div[data-aspect-ratio] a {
     height: 100%;
   }
@@ -655,11 +744,13 @@
 
 
 
+  body main h2.answers-header,
   body main h2.comments-header {    
     grid-column: 1/-1;
     text-align: center;
   }
 
+  body main h2.answers-header,
   body main h2.comments-header {    
     font-size: 1.75em;
     line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
@@ -668,6 +759,7 @@
     margin-bottom: 1.5em;
   }
   @media (min-width: 40em) {
+    body main h2.answers-header,
     body main h2.comments-header {
       font-size: 2.5em;
       max-width: none;
