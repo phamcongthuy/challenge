@@ -40,7 +40,7 @@
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
   }
-  .links-involved .action a {
+/*  .links-involved .action a {
     background: white;
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
@@ -51,7 +51,7 @@
     background: var(--primary-color, black);
     border-color: var(--primary-color, black);
     color: white;
-  }
+  }*/
 
   .proposal-introduction .category a {
     color: var(--primary-color, inherit);
@@ -133,7 +133,7 @@
   @media (min-width: 70em) { /* Just wide enough to avoid wrapping the donate / volunteer buttons */
     .proposal-introduction {
       display: grid;
-      grid-template-columns: calc(50% - 1.5em) calc(25% - 1.5em) 25%;
+      grid-template-columns: calc(50% - 1.5em) calc(25% - 3em) calc(25% - 1.5em);
       grid-template-rows: auto 1fr; /* Shrink-wrap the first row */
       grid-column-gap: 3em;
       grid-row-gap: 0;
@@ -143,14 +143,14 @@
       grid-column: 1/2;
     }
     .links-action {
-      grid-column: 2/-1;
+      grid-column: 1/2;
       grid-row: 4/5;
       margin-bottom: -0.25em; /* SHIM: Compensate for list item margin */
+      justify-self: end;
     }
     .links-involved {
       grid-row: 4/5;
-      grid-column: 1/2;
-      justify-self: end;
+      grid-column: 2/-1;
     }
 /*    .links.links-involved h2 {
       text-align: right !important;
@@ -164,11 +164,13 @@
     }
     .links h2:first-child,
     .links h3:first-child {
-      margin-top: 3rem;
+      margin-top: 3.75rem;
     }
     .proposal-introduction figure {
       grid-row: 1/4;
       grid-column: 1/2;
+      justify-self: end;
+      width: 100%;
       margin: 0;
       height: 100%;
       min-height: 25vw;
