@@ -400,6 +400,14 @@
     order: var(--order-100);
   }
 
+  .proposals li.next {
+    order: 1;
+  }
+
+  .proposals li.previous {
+    order: -1;
+  }
+
   .proposals,
   .proposals li {
     list-style: none;

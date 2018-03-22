@@ -409,7 +409,7 @@ body main .header-figure.has-caption.has-caption-details .caption .details {
 .header-figure .caption .details p:not(.action) {
   font-size: 1.25em;
   text-align: center !important;
-  display: inline-block;
+  /*display: inline-block;*/
   /*text-align: left !important;*/
   margin: 0.1875em 0.375em !important;
 }

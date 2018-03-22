@@ -13,7 +13,7 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .application-process {
-      margin: 3em -3em 0;
+      margin: 3em -4.5em 0;
     }
   }
   .application-process h4 {

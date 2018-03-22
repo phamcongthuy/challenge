@@ -40,7 +40,7 @@
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
   }
-/*  .links-involved .action a {
+  .links-involved .action a {
     background: white;
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
@@ -51,7 +51,7 @@
     background: var(--primary-color, black);
     border-color: var(--primary-color, black);
     color: white;
-  }*/
+  }
 
   .proposal-introduction .category a {
     color: var(--primary-color, inherit);
@@ -212,6 +212,29 @@
     .proposal-introduction .proposal-answers h2:first-child {
       margin-top: 3rem;
       margin-top: 0;
+    }*/
+    .proposal-video-figure {
+      max-width: none;
+      margin-top: 0;
+      margin-bottom: 3em;
+      margin-left: -4.5em;
+      margin-right: -4.5em;
+    }
+    .proposal-video-figure .proposal-video {
+      padding-bottom: 56.25%;
+    }
+/*  
+    .has-active-video .proposal-introduction figure {
+      grid-column: 1/-1;
+      grid-row: 1/2;
+    }
+    .has-active-video .proposal-header {
+      grid-column: 1/-1;
+      grid-row: 2/3;
+    }
+    .has-active-video .proposal-description {
+      grid-column: 1/-1;
+      grid-row: 3/4;
     }*/
   }
 
@@ -513,17 +536,25 @@
     right: auto;
     padding: 0;
     transform: translate(-50%, -50%);
-
+    opacity: 0.75;
+    background: rgb(254, 254, 254); /* @snow */
+    border-color: var(--secondary-color, black);
+    color: var(--secondary-color, black);
+    border-color: var(--primary-color, black);
+    border-color: white;
+    color: var(--primary-color, black);
+    color: black;
+    background: black;
+    color: white;
+    border-color: transparent;
+    transition: all 0.2s;
   }
 
   .has-icon:hover .icon,
   .has-icon:active .icon,
   .has-icon:focus .icon {
-    background: rgb(254, 254, 254); /* @snow */
-    border-color: var(--secondary-color, black);
-    color: var(--secondary-color, black);
-    border-color: var(--primary-color, black);
-    color: var(--primary-color, black);
+    background-color: var(--primary-color);
+    opacity: 1;
   }
 
   .has-icon .icon {
@@ -577,23 +608,20 @@
   }
   @media (max-width: 40em) {
     figure,
-    .video,
     .map {
       margin-left: -1.5em;
       margin-right: -1.5em;
     }
   }
   figure,
-  .map,
-  .video {
+  .map {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     position: relative;
   }
   @media (min-width: 40em) {
     .map,
-    figure,
-    .video {
+    figure {
       margin-top: 3em;
       margin-bottom: 3em;
     }
@@ -772,3 +800,82 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+
+
+
+/***********************************/
+
+
+
+
+  .more-proposals .image {
+    position: relative;
+  }
+/*  .more-proposals .image::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+  }
+  .more-proposals .image::after {
+    content: "";
+    display: block;
+    font-size: 0.875em;
+    border: 2px solid white;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M22,12c0-0.2-0.1-0.4-0.2-0.6l-9.4-8.2C12.2,3.1,12,3,11.8,3c-0.2,0-0.4,0.1-0.6,0.2l-0.5,0.5c-0.2,0.2-0.3,0.4-0.3,0.6 c0,0.2,0.1,0.4,0.3,0.6l7,5.9l-15,0.1c-0.2,0-0.4,0.1-0.5,0.3C2.1,11.3,2,11.5,2,11.7v0.6c0,0.2,0.1,0.4,0.2,0.6s0.3,0.3,0.5,0.3 h15l-7,6.1c-0.2,0.1-0.3,0.3-0.3,0.5s0.1,0.4,0.3,0.6l0.5,0.5c0.2,0.2,0.4,0.3,0.6,0.3c0.2,0,0.4-0.1,0.6-0.3l9.4-8.2 C21.9,12.4,22,12.2,22,12z"></path></svg>');
+    background-size: 1em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin-left: -2em;
+    margin-top: -2em;
+  }
+  .more-proposals .previous .image::after {
+    transform: scale(-1, 1);
+  }*/
+
+  .more-proposals {
+    grid-column-gap: 4.5em;
+  }
+  .more-proposals h2 {
+    font-size: 1.75em;
+    line-height: 1.2857142857;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+  @media (min-width: 40em) {
+    .more-proposals h2 {
+      font-size: 2.5em;
+      max-width: none;
+    }
+  }
+  .more-proposals .indicator svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+  }
+  .more-proposals .indicator svg path {
+    fill: currentColor;
+  }
+  .more-proposals .previous .indicator svg {
+    transform: scale(-1, 1);
+  }
+  .more-proposals .previous {
+    justify-self: end;
+  }
+  .proposals li.next .indicator {
+    text-align: right;
+  }
+
