@@ -259,8 +259,9 @@ stylesheets:
 {% if next_index >= data_list.size %}
   {% assign next_index = 0 %}
 {% endif %}
-{% assign data = data_list[next_index] %}
 
+  {% for data in data_list %}
+  {% if data.order == next_index %}
   <li class="next">
     <a href="{{ data.uri }}">
       <h2 class="indicator">
@@ -275,6 +276,8 @@ stylesheets:
       <p class="description">{{ data['project_description'] }}</p>
     </a>
   </li>
+  {% endif %}
+  {% endfor %}
 
 {% assign previous_index = page.order | minus: 1 %}
 {% if previous_index < 0 %}
@@ -282,6 +285,8 @@ stylesheets:
 {% endif %}
 {% assign data = data_list[previous_index] %}
 
+  {% for data in data_list %}
+  {% if data.order == previous_index %}
   <li class="previous">
     <a href="{{ data.uri }}">
       <h2 class="indicator">
@@ -296,6 +301,8 @@ stylesheets:
       <p class="description">{{ data['project_description'] }}</p>
     </a>
   </li>
+  {% endif %}
+  {% endfor %}
 
 </ul>
 

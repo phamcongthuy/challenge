@@ -94,7 +94,7 @@ function createMarkdownFile(writePath, data, data_category, order) {
 
   data.order = order
   data.category = data_category
-  data.uri = `/${data.category}/${filename}`
+  data.uri = `/${data.category}/${filename}/`
   delete data.is_finalist
   delete data.is_winner
   delete data.bracket_id
