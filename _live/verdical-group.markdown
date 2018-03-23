@@ -117,6 +117,6 @@ link_donate: null
 plan_id: 84039
 order: 27
 category: live
-uri: /live/verdical-group
+uri: /live/verdical-group/
 
 ---

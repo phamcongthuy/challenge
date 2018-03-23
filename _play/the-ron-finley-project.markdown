@@ -111,6 +111,6 @@ link_donate: 'http://ronfinley.com/contact/'
 plan_id: 84154
 order: 15
 category: play
-uri: /play/the-ron-finley-project
+uri: /play/the-ron-finley-project/
 
 ---

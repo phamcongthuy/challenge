@@ -116,6 +116,6 @@ link_donate: 'https://civicnation.org/contribute/'
 plan_id: 84232
 order: 44
 category: connect
-uri: /connect/civic-nation
+uri: /connect/civic-nation/
 
 ---

@@ -107,6 +107,6 @@ link_donate: 'http://laserviceacademy.org/about/contact/'
 plan_id: 84078
 order: 38
 category: learn
-uri: /learn/los-angeles-service-academy-lasa
+uri: /learn/los-angeles-service-academy-lasa/
 
 ---

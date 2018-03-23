@@ -124,6 +124,6 @@ link_donate: 'https://boxcarmuse.com/pages/volunteer-or-donate'
 plan_id: 83819
 order: 14
 category: create
-uri: /create/boxcar-muse
+uri: /create/boxcar-muse/
 
 ---

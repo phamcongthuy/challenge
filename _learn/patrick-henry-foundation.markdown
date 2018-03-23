@@ -117,6 +117,6 @@ link_donate: 'http://www.patrickhenryfoundation.org/donate-now.html'
 plan_id: 82730
 order: 5
 category: learn
-uri: /learn/patrick-henry-foundation
+uri: /learn/patrick-henry-foundation/
 
 ---

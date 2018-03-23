@@ -136,7 +136,7 @@ link_donate: 'http://www.laworks.com/donate'
 plan_id: 82365
 order: 0
 category: connect
-uri: /connect/l-a-works
+uri: /connect/l-a-works/
 is_winner: true
 is_finalist: true
 

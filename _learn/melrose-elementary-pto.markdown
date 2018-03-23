@@ -114,6 +114,6 @@ link_donate: 'http://www.melroseelementarypto.org/Donate'
 plan_id: 82733
 order: 6
 category: learn
-uri: /learn/melrose-elementary-pto
+uri: /learn/melrose-elementary-pto/
 
 ---

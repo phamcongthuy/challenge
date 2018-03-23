@@ -128,7 +128,7 @@ link_donate: null
 plan_id: 82362
 order: 2
 category: play
-uri: /play/perceptoscope
+uri: /play/perceptoscope/
 is_finalist: true
 
 ---

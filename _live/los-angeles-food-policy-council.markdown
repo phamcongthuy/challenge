@@ -140,7 +140,7 @@ link_donate: 'https://donatenow.networkforgood.org/goodfoodla?code=DonateGoodFoo
 plan_id: 82357
 order: 0
 category: live
-uri: /live/los-angeles-food-policy-council
+uri: /live/los-angeles-food-policy-council/
 is_winner: true
 is_finalist: true
 

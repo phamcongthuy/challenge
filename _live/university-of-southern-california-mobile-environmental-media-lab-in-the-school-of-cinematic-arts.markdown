@@ -86,6 +86,6 @@ plan_id: 84047
 order: 29
 category: live
 uri: >-
-  /live/university-of-southern-california-mobile-environmental-media-lab-in-the-school-of-cinematic-arts
+  /live/university-of-southern-california-mobile-environmental-media-lab-in-the-school-of-cinematic-arts/
 
 ---

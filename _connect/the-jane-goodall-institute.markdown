@@ -149,6 +149,6 @@ link_donate: www.jgi.convio.net/donate
 plan_id: 84330
 order: 57
 category: connect
-uri: /connect/the-jane-goodall-institute
+uri: /connect/the-jane-goodall-institute/
 
 ---

@@ -112,6 +112,6 @@ link_donate: www.coachart.org/donate
 plan_id: 84389
 order: 62
 category: connect
-uri: /connect/la-metro
+uri: /connect/la-metro/
 
 ---

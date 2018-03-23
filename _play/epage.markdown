@@ -120,6 +120,6 @@ link_donate: null
 plan_id: 84118
 order: 14
 category: play
-uri: /play/epage
+uri: /play/epage/
 
 ---

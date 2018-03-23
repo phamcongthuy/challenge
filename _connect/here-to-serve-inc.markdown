@@ -143,6 +143,6 @@ link_donate: 'https://salsa4.salsalabs.com/o/51553/donate_page/donate?okay=true'
 plan_id: 84252
 order: 48
 category: connect
-uri: /connect/here-to-serve-inc
+uri: /connect/here-to-serve-inc/
 
 ---

@@ -100,6 +100,6 @@ link_donate: 'https://www.indiegogo.com/projects/tampon-tribe'
 plan_id: 84250
 order: 41
 category: live
-uri: /live/tampon-tribe
+uri: /live/tampon-tribe/
 
 ---

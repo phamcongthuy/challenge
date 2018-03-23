@@ -113,6 +113,6 @@ link_donate: www.supportpp-la.org
 plan_id: 84443
 order: 56
 category: live
-uri: /live/planned-parenthood-los-angeles-ppla
+uri: /live/planned-parenthood-los-angeles-ppla/
 
 ---

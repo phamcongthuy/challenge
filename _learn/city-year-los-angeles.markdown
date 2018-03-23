@@ -125,6 +125,6 @@ link_donate: 'https://ssl.charityweb.net/cityyear/'
 plan_id: 84221
 order: 46
 category: learn
-uri: /learn/city-year-los-angeles
+uri: /learn/city-year-los-angeles/
 
 ---

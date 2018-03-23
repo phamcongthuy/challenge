@@ -126,6 +126,6 @@ link_donate: 'http://college-bridge.org/donate/'
 plan_id: 84087
 order: 39
 category: learn
-uri: /learn/college-bridge
+uri: /learn/college-bridge/
 
 ---

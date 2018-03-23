@@ -104,6 +104,6 @@ link_donate: www.itepinc.org
 plan_id: 84205
 order: 38
 category: live
-uri: /live/hyphenus-inc-
+uri: /live/hyphenus-inc-/
 
 ---

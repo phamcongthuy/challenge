@@ -146,6 +146,6 @@ link_donate: 'https://www.youthbizalliance.com/donate'
 plan_id: 84419
 order: 68
 category: learn
-uri: /learn/youth-business-alliance
+uri: /learn/youth-business-alliance/
 
 ---

@@ -127,6 +127,6 @@ link_donate: 'http://www.pasedfoundation.org/support/donate/'
 plan_id: 83990
 order: 29
 category: learn
-uri: /learn/pasadena-educational-foundation
+uri: /learn/pasadena-educational-foundation/
 
 ---

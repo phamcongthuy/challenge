@@ -129,6 +129,6 @@ link_donate: >-
 plan_id: 84342
 order: 51
 category: live
-uri: /live/planned-parenthood-pasadena-and-san-gabriel-valley-pppsgv
+uri: /live/planned-parenthood-pasadena-and-san-gabriel-valley-pppsgv/
 
 ---

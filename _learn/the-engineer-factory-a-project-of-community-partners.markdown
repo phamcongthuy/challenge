@@ -136,6 +136,6 @@ link_donate: 'https://donatenow.networkforgood.org/communitypartners/'
 plan_id: 84288
 order: 55
 category: learn
-uri: /learn/the-engineer-factory-a-project-of-community-partners
+uri: /learn/the-engineer-factory-a-project-of-community-partners/
 
 ---

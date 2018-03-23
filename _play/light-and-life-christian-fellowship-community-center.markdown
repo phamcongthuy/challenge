@@ -112,6 +112,6 @@ link_donate: 'http://www.llcf.org/donate'
 plan_id: 83970
 order: 10
 category: play
-uri: /play/light-and-life-christian-fellowship-community-center
+uri: /play/light-and-life-christian-fellowship-community-center/
 
 ---

@@ -147,6 +147,6 @@ link_donate: 'http://breastfeedla.org/donate-now/'
 plan_id: 82754
 order: 9
 category: live
-uri: /live/breastfeedla
+uri: /live/breastfeedla/
 
 ---

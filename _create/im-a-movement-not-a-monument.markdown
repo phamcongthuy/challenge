@@ -139,6 +139,6 @@ link_donate: 'http://imamovement.org/donate/'
 plan_id: 83840
 order: 16
 category: create
-uri: /create/im-a-movement-not-a-monument
+uri: /create/im-a-movement-not-a-monument/
 
 ---

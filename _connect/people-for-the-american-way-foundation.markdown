@@ -129,6 +129,6 @@ link_donate: 'http://www.pfaw.org/donate'
 plan_id: 84392
 order: 64
 category: connect
-uri: /connect/people-for-the-american-way-foundation
+uri: /connect/people-for-the-american-way-foundation/
 
 ---

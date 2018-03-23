@@ -161,6 +161,6 @@ plan_id: 83905
 order: 20
 category: connect
 uri: >-
-  /connect/dstl-arts-the-partnership-for-los-angeles-creative-education-the-place
+  /connect/dstl-arts-the-partnership-for-los-angeles-creative-education-the-place/
 
 ---

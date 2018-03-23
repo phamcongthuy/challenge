@@ -114,7 +114,7 @@ link_donate: 'http://www.connectedcalifornia.org'
 plan_id: 82728
 order: 4
 category: learn
-uri: /learn/connected
+uri: /learn/connected/
 is_finalist: true
 
 ---

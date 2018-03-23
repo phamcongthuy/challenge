@@ -67,6 +67,6 @@ link_donate: 'https://tierradelsol.thankyou4caring.org/'
 plan_id: 84163
 order: 37
 category: connect
-uri: /connect/tierra-del-sol-foundation
+uri: /connect/tierra-del-sol-foundation/
 
 ---

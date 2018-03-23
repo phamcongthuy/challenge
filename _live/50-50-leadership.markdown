@@ -87,6 +87,6 @@ link_donate: 'http://www.5050leadership.org/Donations.htm'
 plan_id: 83115
 order: 16
 category: live
-uri: /live/50-50-leadership
+uri: /live/50-50-leadership/
 
 ---

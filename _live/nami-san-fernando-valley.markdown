@@ -110,6 +110,6 @@ link_donate: 'https://namisfv.nationbuilder.com/donate'
 plan_id: 84426
 order: 55
 category: live
-uri: /live/nami-san-fernando-valley
+uri: /live/nami-san-fernando-valley/
 
 ---

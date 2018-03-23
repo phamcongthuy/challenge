@@ -120,6 +120,6 @@ link_donate: 'http://casala.org/donate-money/'
 plan_id: 83936
 order: 21
 category: learn
-uri: /learn/casa-of-los-angeles
+uri: /learn/casa-of-los-angeles/
 
 ---

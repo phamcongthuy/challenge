@@ -144,6 +144,6 @@ link_donate: brianne.gilbert@lmu.edu
 plan_id: 83006
 order: 12
 category: connect
-uri: /connect/center-for-the-study-of-los-angeles
+uri: /connect/center-for-the-study-of-los-angeles/
 
 ---

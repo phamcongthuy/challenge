@@ -128,6 +128,6 @@ link_donate: 'http://www.sundance.org/support/donate'
 plan_id: 84141
 order: 35
 category: connect
-uri: /connect/sundance-institute
+uri: /connect/sundance-institute/
 
 ---

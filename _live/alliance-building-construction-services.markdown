@@ -64,6 +64,6 @@ link_donate: 'https://igg.me/at/FTLtFg-FBp8'
 plan_id: 84334
 order: 49
 category: live
-uri: /live/alliance-building-construction-services
+uri: /live/alliance-building-construction-services/
 
 ---

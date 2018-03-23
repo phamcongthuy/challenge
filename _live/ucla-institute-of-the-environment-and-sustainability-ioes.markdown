@@ -114,6 +114,6 @@ link_donate: 'http://www.environment.ucla.edu/giving/'
 plan_id: 84336
 order: 50
 category: live
-uri: /live/ucla-institute-of-the-environment-and-sustainability-ioes
+uri: /live/ucla-institute-of-the-environment-and-sustainability-ioes/
 
 ---

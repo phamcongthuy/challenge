@@ -117,6 +117,6 @@ link_donate: 'https://www.crowdrise.com/thinkwithus-collaborate'
 plan_id: 83949
 order: 23
 category: learn
-uri: /learn/the-pedagogical-institute-of-los-angeles
+uri: /learn/the-pedagogical-institute-of-los-angeles/
 
 ---

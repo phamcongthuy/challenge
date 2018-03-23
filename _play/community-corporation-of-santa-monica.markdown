@@ -101,6 +101,6 @@ link_donate: 'http://www.smbgc.org/give/'
 plan_id: 84085
 order: 13
 category: play
-uri: /play/community-corporation-of-santa-monica
+uri: /play/community-corporation-of-santa-monica/
 
 ---

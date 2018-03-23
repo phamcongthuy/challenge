@@ -82,6 +82,6 @@ link_donate: PrettyGoodCat.com
 plan_id: 83947
 order: 20
 category: live
-uri: /live/pretty-good-cat
+uri: /live/pretty-good-cat/
 
 ---

@@ -116,6 +116,6 @@ link_donate: 'https://www.pinterest.com/compassionSaMo/'
 plan_id: 84388
 order: 21
 category: play
-uri: /play/compassionate-santa-monica
+uri: /play/compassionate-santa-monica/
 
 ---

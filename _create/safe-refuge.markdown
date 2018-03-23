@@ -68,6 +68,6 @@ link_donate: 'https://secure.processdonation.org/asaferefuge/Donation.aspx'
 plan_id: 84445
 order: 49
 category: create
-uri: /create/safe-refuge
+uri: /create/safe-refuge/
 
 ---

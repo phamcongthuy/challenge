@@ -127,7 +127,7 @@ link_donate: 'https://www.breakthecycle.org/donate'
 plan_id: 82463
 order: 4
 category: connect
-uri: /connect/break-the-cycle
+uri: /connect/break-the-cycle/
 is_finalist: true
 
 ---

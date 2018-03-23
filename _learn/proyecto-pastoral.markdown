@@ -119,6 +119,6 @@ link_donate: 'http://proyectopastoral.org/donate.php'
 plan_id: 84300
 order: 56
 category: learn
-uri: /learn/proyecto-pastoral
+uri: /learn/proyecto-pastoral/
 
 ---

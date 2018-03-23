@@ -83,6 +83,6 @@ link_donate: 'https://www.richstonefamily.org/index.cfm?fuseaction=donate.genera
 plan_id: 83996
 order: 25
 category: live
-uri: /live/richstone-family-center
+uri: /live/richstone-family-center/
 
 ---

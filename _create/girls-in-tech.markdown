@@ -119,6 +119,6 @@ link_donate: 'http://girlsintech.org'
 plan_id: 84115
 order: 31
 category: create
-uri: /create/girls-in-tech
+uri: /create/girls-in-tech/
 
 ---

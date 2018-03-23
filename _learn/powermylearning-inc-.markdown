@@ -58,6 +58,6 @@ link_donate: powermylearning.org/learn/get-involved/donate
 plan_id: 84075
 order: 37
 category: learn
-uri: /learn/powermylearning-inc-
+uri: /learn/powermylearning-inc-/
 
 ---

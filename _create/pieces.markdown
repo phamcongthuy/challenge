@@ -74,6 +74,6 @@ link_donate: 'http://www.piecesarts.org/ways-to-help-sewqh'
 plan_id: 82431
 order: 5
 category: create
-uri: /create/pieces
+uri: /create/pieces/
 
 ---

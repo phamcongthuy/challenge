@@ -112,6 +112,6 @@ link_donate: 'https://www.crowdrise.com/GIVELosAngelesChallenge'
 plan_id: 84010
 order: 27
 category: connect
-uri: /connect/los-angeles-magazine
+uri: /connect/los-angeles-magazine/
 
 ---

@@ -108,6 +108,6 @@ link_donate: >-
 plan_id: 84441
 order: 69
 category: learn
-uri: /learn/the-childrens-lifesaving-foundation
+uri: /learn/the-childrens-lifesaving-foundation/
 
 ---

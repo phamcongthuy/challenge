@@ -120,6 +120,6 @@ link_donate: null
 plan_id: 83868
 order: 7
 category: play
-uri: /play/the-triforium-project
+uri: /play/the-triforium-project/
 
 ---

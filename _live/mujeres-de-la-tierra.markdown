@@ -116,6 +116,6 @@ link_donate: 'https://mujeresdelatierra.nationbuilder.com/donate'
 plan_id: 84138
 order: 34
 category: live
-uri: /live/mujeres-de-la-tierra
+uri: /live/mujeres-de-la-tierra/
 
 ---

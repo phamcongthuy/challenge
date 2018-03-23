@@ -182,7 +182,7 @@ link_donate: 'http://techlacares.com'
 plan_id: 82378
 order: 1
 category: learn
-uri: /learn/tech-la-cares
+uri: /learn/tech-la-cares/
 is_finalist: true
 
 ---

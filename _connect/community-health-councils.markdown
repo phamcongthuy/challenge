@@ -152,6 +152,6 @@ link_donate: >-
 plan_id: 83953
 order: 22
 category: connect
-uri: /connect/community-health-councils
+uri: /connect/community-health-councils/
 
 ---

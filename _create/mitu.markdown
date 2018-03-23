@@ -135,6 +135,6 @@ link_donate: 'https://mitunetwork.com/contact/'
 plan_id: 84465
 order: 50
 category: create
-uri: /create/mitu
+uri: /create/mitu/
 
 ---

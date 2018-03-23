@@ -126,6 +126,6 @@ link_donate: 'http://annenberg.usc.edu/giving'
 plan_id: 84065
 order: 27
 category: create
-uri: /create/annenberg-innovation-lab
+uri: /create/annenberg-innovation-lab/
 
 ---

@@ -159,6 +159,6 @@ link_donate: 'http://www.bigcitizenhub.org/donate/'
 plan_id: 84390
 order: 63
 category: connect
-uri: /connect/big-citizen-hub
+uri: /connect/big-citizen-hub/
 
 ---

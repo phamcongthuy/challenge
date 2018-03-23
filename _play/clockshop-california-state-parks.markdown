@@ -118,6 +118,6 @@ link_donate: 'https://clockshop.nationbuilder.com/donate'
 plan_id: 83841
 order: 6
 category: play
-uri: /play/clockshop-california-state-parks
+uri: /play/clockshop-california-state-parks/
 
 ---

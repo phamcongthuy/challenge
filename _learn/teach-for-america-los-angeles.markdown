@@ -133,6 +133,6 @@ link_donate: >-
 plan_id: 83874
 order: 16
 category: learn
-uri: /learn/teach-for-america-los-angeles
+uri: /learn/teach-for-america-los-angeles/
 
 ---

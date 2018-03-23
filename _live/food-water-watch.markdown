@@ -94,6 +94,6 @@ link_donate: >-
 plan_id: 83986
 order: 22
 category: live
-uri: /live/food-water-watch
+uri: /live/food-water-watch/
 
 ---

@@ -124,6 +124,6 @@ link_donate: >-
 plan_id: 82561
 order: 64
 category: live
-uri: /live/light-sprout
+uri: /live/light-sprout/
 
 ---

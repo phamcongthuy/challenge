@@ -113,6 +113,6 @@ link_donate: null
 plan_id: 84188
 order: 41
 category: connect
-uri: /connect/valley-relics
+uri: /connect/valley-relics/
 
 ---

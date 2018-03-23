@@ -101,6 +101,6 @@ link_donate: 'https://www.generosity.com/accounts/sign_up#/manage'
 plan_id: 84367
 order: 60
 category: connect
-uri: /connect/give-today-la
+uri: /connect/give-today-la/
 
 ---

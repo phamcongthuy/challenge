@@ -72,6 +72,6 @@ link_donate: 'http://www.hollywoodartscouncil.org/support/'
 plan_id: 84147
 order: 43
 category: learn
-uri: /learn/hollywood-arts-council
+uri: /learn/hollywood-arts-council/
 
 ---

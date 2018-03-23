@@ -119,6 +119,6 @@ link_donate: 'http://www.growninla.org/donate/'
 plan_id: 84452
 order: 59
 category: live
-uri: /live/grown-in-la
+uri: /live/grown-in-la/
 
 ---

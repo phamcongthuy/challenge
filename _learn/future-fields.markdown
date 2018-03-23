@@ -176,6 +176,6 @@ link_donate: 'http://futurescouts.co/#contact'
 plan_id: 84244
 order: 49
 category: learn
-uri: /learn/future-fields
+uri: /learn/future-fields/
 
 ---

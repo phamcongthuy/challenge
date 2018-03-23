@@ -143,6 +143,6 @@ link_donate: 'http://www.maiden.la/donate/'
 plan_id: 84215
 order: 35
 category: create
-uri: /create/maiden-la
+uri: /create/maiden-la/
 
 ---

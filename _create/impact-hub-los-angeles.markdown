@@ -105,6 +105,6 @@ link_donate: null
 plan_id: 84348
 order: 44
 category: create
-uri: /create/impact-hub-los-angeles
+uri: /create/impact-hub-los-angeles/
 
 ---

@@ -80,6 +80,6 @@ link_donate: 'https://www.tpl.org/donate'
 plan_id: 83111
 order: 14
 category: live
-uri: /live/the-trust-for-public-land
+uri: /live/the-trust-for-public-land/
 
 ---

@@ -130,6 +130,6 @@ link_donate: www.zeneithperformingarts.com
 plan_id: 83974
 order: 22
 category: create
-uri: /create/zeneith-performing-arts
+uri: /create/zeneith-performing-arts/
 
 ---

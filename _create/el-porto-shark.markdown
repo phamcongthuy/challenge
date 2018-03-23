@@ -114,6 +114,6 @@ link_donate: >-
 plan_id: 82740
 order: 9
 category: create
-uri: /create/el-porto-shark
+uri: /create/el-porto-shark/
 
 ---

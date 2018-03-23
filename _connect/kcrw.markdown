@@ -111,6 +111,6 @@ link_donate: 'http://www.kcrw.com/join'
 plan_id: 84247
 order: 47
 category: connect
-uri: /connect/kcrw
+uri: /connect/kcrw/
 
 ---

@@ -78,6 +78,6 @@ link_donate: null
 plan_id: 84400
 order: 66
 category: learn
-uri: /learn/the-garage-board-shop
+uri: /learn/the-garage-board-shop/
 
 ---

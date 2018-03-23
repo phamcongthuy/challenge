@@ -70,6 +70,6 @@ link_donate: 'http://www.luciefoundation.org/donate/'
 plan_id: 84468
 order: 67
 category: connect
-uri: /connect/lucie-foundation
+uri: /connect/lucie-foundation/
 
 ---

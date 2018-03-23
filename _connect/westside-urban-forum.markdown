@@ -94,6 +94,6 @@ link_donate: 'http://www.westsideurbanforum.com/membership'
 plan_id: 84218
 order: 42
 category: connect
-uri: /connect/westside-urban-forum
+uri: /connect/westside-urban-forum/
 
 ---

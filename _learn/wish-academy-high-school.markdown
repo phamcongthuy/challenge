@@ -117,6 +117,6 @@ link_donate: WWW.WISHcharter.org
 plan_id: 83960
 order: 24
 category: learn
-uri: /learn/wish-academy-high-school
+uri: /learn/wish-academy-high-school/
 
 ---

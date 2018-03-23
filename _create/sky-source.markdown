@@ -75,6 +75,6 @@ link_donate: null
 plan_id: 83878
 order: 18
 category: create
-uri: /create/sky-source
+uri: /create/sky-source/
 
 ---

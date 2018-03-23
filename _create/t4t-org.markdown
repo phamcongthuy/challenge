@@ -79,6 +79,6 @@ link_donate: 'http://www.t4t.org/donate/'
 plan_id: 84467
 order: 51
 category: create
-uri: /create/t4t-org
+uri: /create/t4t-org/
 
 ---

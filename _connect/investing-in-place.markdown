@@ -141,6 +141,6 @@ link_donate: 'https://donatenow.networkforgood.org/investinginplace'
 plan_id: 84341
 order: 59
 category: connect
-uri: /connect/investing-in-place
+uri: /connect/investing-in-place/
 
 ---

@@ -162,6 +162,6 @@ link_donate: null
 plan_id: 83997
 order: 26
 category: connect
-uri: /connect/office-of-exposition-park-management
+uri: /connect/office-of-exposition-park-management/
 
 ---

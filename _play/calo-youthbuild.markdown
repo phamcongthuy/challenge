@@ -93,6 +93,6 @@ link_donate: www.caloinc.org
 plan_id: 84401
 order: 23
 category: play
-uri: /play/calo-youthbuild
+uri: /play/calo-youthbuild/
 
 ---

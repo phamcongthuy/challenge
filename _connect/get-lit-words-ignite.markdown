@@ -145,6 +145,6 @@ link_donate: 'http://getlit.org/support-teen-literacy'
 plan_id: 83954
 order: 23
 category: connect
-uri: /connect/get-lit-words-ignite
+uri: /connect/get-lit-words-ignite/
 
 ---

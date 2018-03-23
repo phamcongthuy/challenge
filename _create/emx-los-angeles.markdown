@@ -145,6 +145,6 @@ link_donate: 'https://venmo.com/emxlosangeles'
 plan_id: 84062
 order: 26
 category: create
-uri: /create/emx-los-angeles
+uri: /create/emx-los-angeles/
 
 ---

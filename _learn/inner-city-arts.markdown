@@ -148,6 +148,6 @@ link_donate: 'https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E988
 plan_id: 84004
 order: 31
 category: learn
-uri: /learn/inner-city-arts
+uri: /learn/inner-city-arts/
 
 ---

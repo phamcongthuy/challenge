@@ -112,6 +112,6 @@ link_donate: 'http://www.pacoimabeautiful.org/donate'
 plan_id: 84054
 order: 25
 category: create
-uri: /create/pacoima-beautiful
+uri: /create/pacoima-beautiful/
 
 ---

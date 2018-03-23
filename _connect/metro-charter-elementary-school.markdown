@@ -135,6 +135,6 @@ link_donate: >-
 plan_id: 84037
 order: 29
 category: connect
-uri: /connect/metro-charter-elementary-school
+uri: /connect/metro-charter-elementary-school/
 
 ---

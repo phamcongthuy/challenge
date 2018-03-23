@@ -139,6 +139,6 @@ link_donate: null
 plan_id: 83887
 order: 20
 category: create
-uri: /create/institute-of-contemporary-art-los-angeles-ica-la
+uri: /create/institute-of-contemporary-art-los-angeles-ica-la/
 
 ---

@@ -141,6 +141,6 @@ link_donate: null
 plan_id: 84195
 order: 45
 category: learn
-uri: /learn/anna-bing-arnold-childrens-center
+uri: /learn/anna-bing-arnold-childrens-center/
 
 ---

@@ -136,6 +136,6 @@ link_donate: 'https://www.operationgratitude.com/make-donation'
 plan_id: 83849
 order: 19
 category: connect
-uri: /connect/operation-gratitude
+uri: /connect/operation-gratitude/
 
 ---

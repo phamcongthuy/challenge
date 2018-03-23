@@ -123,6 +123,6 @@ link_donate: >-
 plan_id: 82718
 order: 8
 category: live
-uri: /live/friends-of-glenfeliz
+uri: /live/friends-of-glenfeliz/
 
 ---

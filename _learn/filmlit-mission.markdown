@@ -68,6 +68,6 @@ link_donate: 'http://filmlit.org/the-script-lifeline/'
 plan_id: 82352
 order: 74
 category: learn
-uri: /learn/filmlit-mission
+uri: /learn/filmlit-mission/
 
 ---

@@ -134,6 +134,6 @@ link_donate: 'http://www.hycinc.org/donations'
 plan_id: 83062
 order: 5
 category: play
-uri: /play/helpline-youth-counseling-hyc
+uri: /play/helpline-youth-counseling-hyc/
 
 ---

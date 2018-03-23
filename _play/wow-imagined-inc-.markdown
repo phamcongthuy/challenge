@@ -78,6 +78,6 @@ link_donate: null
 plan_id: 83914
 order: 9
 category: play
-uri: /play/wow-imagined-inc-
+uri: /play/wow-imagined-inc-/
 
 ---

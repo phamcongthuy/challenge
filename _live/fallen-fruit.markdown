@@ -126,6 +126,6 @@ link_donate: 'http://fallenfruit.org/friends/'
 plan_id: 84406
 order: 53
 category: live
-uri: /live/fallen-fruit
+uri: /live/fallen-fruit/
 
 ---

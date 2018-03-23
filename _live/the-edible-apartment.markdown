@@ -68,6 +68,6 @@ link_donate: 'mailto:jill.volat@gmail.com'
 plan_id: 84409
 order: 54
 category: live
-uri: /live/the-edible-apartment
+uri: /live/the-edible-apartment/
 
 ---

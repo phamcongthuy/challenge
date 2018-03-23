@@ -112,6 +112,6 @@ link_donate: >-
 plan_id: 83105
 order: 12
 category: create
-uri: /create/jobs-to-move-america
+uri: /create/jobs-to-move-america/
 
 ---

@@ -127,6 +127,6 @@ link_donate: 'http://thecool.la'
 plan_id: 82452
 order: 6
 category: create
-uri: /create/thecool
+uri: /create/thecool/
 
 ---

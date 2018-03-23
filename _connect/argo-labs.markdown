@@ -138,6 +138,6 @@ link_donate: 'http://www.argolabs.org/support'
 plan_id: 84364
 order: 69
 category: connect
-uri: /connect/argo-labs
+uri: /connect/argo-labs/
 
 ---

@@ -108,6 +108,6 @@ link_donate: 'http://www.i3artsfest.com/donate/'
 plan_id: 82869
 order: 10
 category: connect
-uri: /connect/i3-arts-fest
+uri: /connect/i3-arts-fest/
 
 ---

@@ -151,6 +151,6 @@ link_donate: 'https://peopleforparks.nationbuilder.com/donate'
 plan_id: 84158
 order: 16
 category: play
-uri: /play/people-for-parks
+uri: /play/people-for-parks/
 
 ---

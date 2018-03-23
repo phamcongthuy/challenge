@@ -118,6 +118,6 @@ link_donate: 'http://www.iconcdc.org/contact/'
 plan_id: 84113
 order: 30
 category: create
-uri: /create/icon-cdc
+uri: /create/icon-cdc/
 
 ---

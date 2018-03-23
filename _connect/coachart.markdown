@@ -116,6 +116,6 @@ link_donate: www.coachart.org/donate
 plan_id: 84045
 order: 31
 category: connect
-uri: /connect/coachart
+uri: /connect/coachart/
 
 ---

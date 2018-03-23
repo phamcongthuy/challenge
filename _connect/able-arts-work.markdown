@@ -111,6 +111,6 @@ link_donate: 'https://npo.justgive.org/ableartswork'
 plan_id: 84174
 order: 39
 category: connect
-uri: /connect/able-arts-work
+uri: /connect/able-arts-work/
 
 ---

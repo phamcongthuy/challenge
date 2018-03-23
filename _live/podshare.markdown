@@ -167,6 +167,6 @@ link_donate: null
 plan_id: 84227
 order: 39
 category: live
-uri: /live/podshare
+uri: /live/podshare/
 
 ---

@@ -116,6 +116,6 @@ link_donate: null
 plan_id: 84328
 order: 58
 category: learn
-uri: /learn/library
+uri: /learn/library/
 
 ---

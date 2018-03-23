@@ -108,6 +108,6 @@ link_donate: null
 plan_id: 83992
 order: 24
 category: live
-uri: /live/andesign-lab
+uri: /live/andesign-lab/
 
 ---

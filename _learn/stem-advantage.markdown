@@ -150,6 +150,6 @@ link_donate: 'https://secure.actblue.com/contribute/page/stemadvantage'
 plan_id: 84366
 order: 60
 category: learn
-uri: /learn/stem-advantage
+uri: /learn/stem-advantage/
 
 ---

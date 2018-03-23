@@ -133,6 +133,6 @@ link_donate: null
 plan_id: 83060
 order: 10
 category: learn
-uri: /learn/wyota-workshop-inc-
+uri: /learn/wyota-workshop-inc-/
 
 ---

@@ -85,6 +85,6 @@ link_donate: 'http://www.thebillboardcreative.com/support/'
 plan_id: 84329
 order: 43
 category: create
-uri: /create/the-billboard-creative-tbc
+uri: /create/the-billboard-creative-tbc/
 
 ---

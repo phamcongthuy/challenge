@@ -134,6 +134,6 @@ link_donate: 'https://app.etapestry.com/onlineforms/theojaifoundation/donate-cis
 plan_id: 83113
 order: 15
 category: connect
-uri: /connect/the-ojai-foundation
+uri: /connect/the-ojai-foundation/
 
 ---

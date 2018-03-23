@@ -134,6 +134,6 @@ link_donate: >-
 plan_id: 83112
 order: 15
 category: live
-uri: /live/common-threads
+uri: /live/common-threads/
 
 ---

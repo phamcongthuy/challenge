@@ -99,6 +99,6 @@ link_donate: 'https://www.harmony-project.org/donate/'
 plan_id: 84482
 order: 72
 category: learn
-uri: /learn/the-harmony-project
+uri: /learn/the-harmony-project/
 
 ---

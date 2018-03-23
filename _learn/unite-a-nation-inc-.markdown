@@ -154,6 +154,6 @@ link_donate: >-
 plan_id: 84056
 order: 36
 category: learn
-uri: /learn/unite-a-nation-inc-
+uri: /learn/unite-a-nation-inc-/
 
 ---

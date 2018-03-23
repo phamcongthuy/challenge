@@ -108,6 +108,6 @@ link_donate: >-
 plan_id: 84286
 order: 52
 category: connect
-uri: /connect/los-angeles-neighborhood-initiative-lani
+uri: /connect/los-angeles-neighborhood-initiative-lani/
 
 ---

@@ -121,7 +121,7 @@ link_donate: 'http://fourrings.co/donate/'
 plan_id: 82377
 order: 2
 category: create
-uri: /create/four-rings
+uri: /create/four-rings/
 is_finalist: true
 
 ---

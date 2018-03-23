@@ -117,6 +117,6 @@ link_donate: www.lblreaders.org
 plan_id: 84153
 order: 7
 category: learn
-uri: /learn/public-health-foundation-enterprises
+uri: /learn/public-health-foundation-enterprises/
 
 ---

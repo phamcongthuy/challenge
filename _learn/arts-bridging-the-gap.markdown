@@ -128,6 +128,6 @@ link_donate: 'http://www.artsbridgingthegap.org/contact-us.html'
 plan_id: 83886
 order: 17
 category: learn
-uri: /learn/arts-bridging-the-gap
+uri: /learn/arts-bridging-the-gap/
 
 ---

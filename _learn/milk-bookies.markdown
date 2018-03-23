@@ -98,7 +98,7 @@ link_donate: 'http://www.milkandbookies.org/shop/'
 plan_id: 82359
 order: 0
 category: learn
-uri: /learn/milk-bookies
+uri: /learn/milk-bookies/
 is_winner: true
 is_finalist: true
 

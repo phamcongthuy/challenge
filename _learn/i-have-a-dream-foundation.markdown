@@ -75,6 +75,6 @@ link_donate: 'http://www.ihadla.org'
 plan_id: 84316
 order: 75
 category: learn
-uri: /learn/i-have-a-dream-foundation
+uri: /learn/i-have-a-dream-foundation/
 
 ---

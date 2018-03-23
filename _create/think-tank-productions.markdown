@@ -128,6 +128,6 @@ link_donate: 'http://traphouse.la'
 plan_id: 84258
 order: 40
 category: create
-uri: /create/think-tank-productions
+uri: /create/think-tank-productions/
 
 ---

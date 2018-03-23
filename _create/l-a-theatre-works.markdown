@@ -118,6 +118,6 @@ link_donate: 'https://web.ovationtix.com/trs/store/1551/alldonations/20585'
 plan_id: 84110
 order: 29
 category: create
-uri: /create/l-a-theatre-works
+uri: /create/l-a-theatre-works/
 
 ---

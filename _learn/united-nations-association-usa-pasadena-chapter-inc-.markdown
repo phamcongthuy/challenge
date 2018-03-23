@@ -112,6 +112,6 @@ link_donate: 'https://www.crowdrise.com/action-ambassadors-for-la'
 plan_id: 83816
 order: 13
 category: learn
-uri: /learn/united-nations-association-usa-pasadena-chapter-inc-
+uri: /learn/united-nations-association-usa-pasadena-chapter-inc-/
 
 ---

@@ -94,6 +94,6 @@ link_donate: null
 plan_id: 84276
 order: 51
 category: learn
-uri: /learn/knit-marketing
+uri: /learn/knit-marketing/
 
 ---

@@ -94,6 +94,6 @@ link_donate: 'http://www.streetsare4everyone.org/how-to-help/donate/'
 plan_id: 84173
 order: 38
 category: connect
-uri: /connect/safe-streets-are-for-everyone
+uri: /connect/safe-streets-are-for-everyone/
 
 ---

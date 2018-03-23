@@ -143,6 +143,6 @@ link_donate: 'https://altasea.org/contribute-to-altasea/'
 plan_id: 83935
 order: 20
 category: learn
-uri: /learn/altasea-at-the-port-of-los-angeles
+uri: /learn/altasea-at-the-port-of-los-angeles/
 
 ---

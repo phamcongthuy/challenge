@@ -114,6 +114,6 @@ link_donate: 'http://www.parentseducationleague.org/donate/'
 plan_id: 84019
 order: 33
 category: learn
-uri: /learn/parents-education-league
+uri: /learn/parents-education-league/
 
 ---

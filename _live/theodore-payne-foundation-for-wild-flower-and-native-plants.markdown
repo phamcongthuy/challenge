@@ -183,6 +183,6 @@ link_donate: store.theodorepayne.org/category/DONATE.html
 plan_id: 82638
 order: 7
 category: live
-uri: /live/theodore-payne-foundation-for-wild-flower-and-native-plants
+uri: /live/theodore-payne-foundation-for-wild-flower-and-native-plants/
 
 ---

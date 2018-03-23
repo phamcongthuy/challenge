@@ -122,6 +122,6 @@ link_donate: 'http://giveto.ucla.edu/fund/art-global-health-center/'
 plan_id: 83870
 order: 19
 category: live
-uri: /live/regents-of-the-university-of-california
+uri: /live/regents-of-the-university-of-california/
 
 ---

@@ -121,6 +121,6 @@ link_donate: >-
 plan_id: 84375
 order: 61
 category: connect
-uri: /connect/la-derby-dolls
+uri: /connect/la-derby-dolls/
 
 ---

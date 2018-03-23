@@ -141,6 +141,6 @@ link_donate: 'http://www.werepresent.org/donate/'
 plan_id: 83817
 order: 13
 category: create
-uri: /create/represent
+uri: /create/represent/
 
 ---

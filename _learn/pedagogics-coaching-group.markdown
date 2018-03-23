@@ -128,6 +128,6 @@ link_donate: null
 plan_id: 83965
 order: 25
 category: learn
-uri: /learn/pedagogics-coaching-group
+uri: /learn/pedagogics-coaching-group/
 
 ---

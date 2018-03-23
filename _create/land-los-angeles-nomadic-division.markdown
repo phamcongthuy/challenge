@@ -139,6 +139,6 @@ link_donate: 'http://nomadicdivision.org/support/membership/'
 plan_id: 84220
 order: 37
 category: create
-uri: /create/land-los-angeles-nomadic-division
+uri: /create/land-los-angeles-nomadic-division/
 
 ---

@@ -139,6 +139,6 @@ link_donate: 'http://www.synaccord.com/contact.html'
 plan_id: 82861
 order: 9
 category: connect
-uri: /connect/synaccord-llc
+uri: /connect/synaccord-llc/
 
 ---

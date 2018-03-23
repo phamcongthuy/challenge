@@ -76,7 +76,7 @@ link_donate: null
 plan_id: 82367
 order: 0
 category: create
-uri: /create/silvermotion-inc-
+uri: /create/silvermotion-inc-/
 is_winner: true
 is_finalist: true
 

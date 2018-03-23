@@ -118,6 +118,6 @@ link_donate: 'https://www.caaquatictherapy.com/donate.php'
 plan_id: 84415
 order: 67
 category: learn
-uri: /learn/california-aquatic-therapy-wellness-center-dba-pools-of-hope
+uri: /learn/california-aquatic-therapy-wellness-center-dba-pools-of-hope/
 
 ---

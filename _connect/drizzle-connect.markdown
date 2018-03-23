@@ -141,6 +141,6 @@ link_donate: null
 plan_id: 82922
 order: 11
 category: connect
-uri: /connect/drizzle-connect
+uri: /connect/drizzle-connect/
 
 ---

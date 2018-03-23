@@ -137,6 +137,6 @@ link_donate: 'http://bigsunday.org/get-involved/donate-now/'
 plan_id: 84175
 order: 40
 category: connect
-uri: /connect/big-sunday
+uri: /connect/big-sunday/
 
 ---

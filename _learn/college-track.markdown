@@ -125,6 +125,6 @@ link_donate: 'https://collegetrack.org/donate/'
 plan_id: 84332
 order: 59
 category: learn
-uri: /learn/college-track
+uri: /learn/college-track/
 
 ---

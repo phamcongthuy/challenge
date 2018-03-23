@@ -138,6 +138,6 @@ link_donate: 'http://www.thejester.org/contribution/index.html'
 plan_id: 83848
 order: 14
 category: learn
-uri: /learn/the-jester-pharley-phund
+uri: /learn/the-jester-pharley-phund/
 
 ---

@@ -75,6 +75,6 @@ link_donate: null
 plan_id: 84450
 order: 58
 category: live
-uri: /live/launchcode
+uri: /live/launchcode/
 
 ---

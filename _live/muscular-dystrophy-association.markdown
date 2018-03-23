@@ -118,7 +118,7 @@ link_donate: null
 plan_id: 82435
 order: 3
 category: live
-uri: /live/muscular-dystrophy-association
+uri: /live/muscular-dystrophy-association/
 is_finalist: true
 
 ---

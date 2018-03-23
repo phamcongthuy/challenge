@@ -107,6 +107,6 @@ link_donate: 'https://www.sijcc.net/donate'
 plan_id: 84369
 order: 45
 category: create
-uri: /create/sijcc
+uri: /create/sijcc/
 
 ---

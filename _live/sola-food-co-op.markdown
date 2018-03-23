@@ -62,6 +62,6 @@ link_donate: 'http://www.solafoodcoop.com/online-store/donate-to-help-sola-opera
 plan_id: 84060
 order: 30
 category: live
-uri: /live/sola-food-co-op
+uri: /live/sola-food-co-op/
 
 ---

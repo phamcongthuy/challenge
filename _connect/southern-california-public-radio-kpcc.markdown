@@ -125,6 +125,6 @@ link_donate: 'https://scprcontribute.publicradio.org/contribute.php'
 plan_id: 83843
 order: 17
 category: connect
-uri: /connect/southern-california-public-radio-kpcc
+uri: /connect/southern-california-public-radio-kpcc/
 
 ---

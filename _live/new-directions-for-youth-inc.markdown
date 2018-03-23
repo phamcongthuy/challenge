@@ -93,6 +93,6 @@ link_donate: 'https://interland3.donorperfect.net/weblink/weblink.aspx?name=E192
 plan_id: 84002
 order: 26
 category: live
-uri: /live/new-directions-for-youth-inc
+uri: /live/new-directions-for-youth-inc/
 
 ---

@@ -87,6 +87,6 @@ link_donate: 'https://donatenow.networkforgood.org/1389562?code=Invest+in+L.A.+p
 plan_id: 84379
 order: 61
 category: learn
-uri: /learn/la-promise-fund
+uri: /learn/la-promise-fund/
 
 ---

@@ -99,6 +99,6 @@ link_donate: 'http://healthylivingprod.org/Donate.html'
 plan_id: 83988
 order: 23
 category: live
-uri: /live/healthy-living-productions
+uri: /live/healthy-living-productions/
 
 ---

@@ -101,6 +101,6 @@ link_donate: 'http://encorps.org/support/'
 plan_id: 84317
 order: 57
 category: learn
-uri: /learn/encorps-inc-
+uri: /learn/encorps-inc-/
 
 ---

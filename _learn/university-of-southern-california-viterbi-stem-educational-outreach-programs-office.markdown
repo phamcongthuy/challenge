@@ -147,6 +147,6 @@ plan_id: 83850
 order: 15
 category: learn
 uri: >-
-  /learn/university-of-southern-california-viterbi-stem-educational-outreach-programs-office
+  /learn/university-of-southern-california-viterbi-stem-educational-outreach-programs-office/
 
 ---

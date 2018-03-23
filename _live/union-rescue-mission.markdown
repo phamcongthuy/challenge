@@ -106,6 +106,6 @@ link_donate: 'https://secure3.convio.net/urm/site/Donation2?df_id=1300&1300.dona
 plan_id: 84152
 order: 35
 category: live
-uri: /live/union-rescue-mission
+uri: /live/union-rescue-mission/
 
 ---

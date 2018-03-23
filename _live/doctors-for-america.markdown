@@ -160,6 +160,6 @@ link_donate: 'https://dr4a.actionkit.com/donate/general_donation/'
 plan_id: 84262
 order: 42
 category: live
-uri: /live/doctors-for-america
+uri: /live/doctors-for-america/
 
 ---

@@ -114,7 +114,7 @@ link_donate: >-
 plan_id: 82363
 order: 1
 category: live
-uri: /live/joyful-heart-foundation
+uri: /live/joyful-heart-foundation/
 is_finalist: true
 
 ---

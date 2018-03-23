@@ -143,6 +143,6 @@ link_donate: 'https://donatenow.networkforgood.org/communitypartners/?designatio
 plan_id: 84006
 order: 32
 category: learn
-uri: /learn/say-word-and-4c-lab
+uri: /learn/say-word-and-4c-lab/
 
 ---

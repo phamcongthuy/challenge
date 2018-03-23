@@ -78,6 +78,6 @@ link_donate: 'http://capitalandmain.com/about-us'
 plan_id: 84476
 order: 60
 category: live
-uri: /live/capital-main
+uri: /live/capital-main/
 
 ---

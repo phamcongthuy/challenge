@@ -115,6 +115,6 @@ link_donate: 'http://www.prototype.la/'
 plan_id: 83976
 order: 23
 category: create
-uri: /create/los-angeles-cleantech-incubator
+uri: /create/los-angeles-cleantech-incubator/
 
 ---

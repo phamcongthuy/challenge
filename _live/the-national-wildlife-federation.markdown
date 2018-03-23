@@ -118,7 +118,7 @@ link_donate: >-
 plan_id: 82421
 order: 2
 category: live
-uri: /live/the-national-wildlife-federation
+uri: /live/the-national-wildlife-federation/
 is_finalist: true
 
 ---

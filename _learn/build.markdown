@@ -152,6 +152,6 @@ link_donate: 'https://build.org/join-us/donate/'
 plan_id: 83035
 order: 8
 category: learn
-uri: /learn/build
+uri: /learn/build/
 
 ---

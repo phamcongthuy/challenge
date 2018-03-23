@@ -92,6 +92,6 @@ link_donate: 'https://secure.opportunityfund.org/'
 plan_id: 82523
 order: 7
 category: create
-uri: /create/opportunity-fund
+uri: /create/opportunity-fund/
 
 ---

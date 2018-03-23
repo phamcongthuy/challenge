@@ -112,6 +112,6 @@ link_donate: www.itepinc.org
 plan_id: 84157
 order: 36
 category: live
-uri: /live/international-trade-education-programs-itep
+uri: /live/international-trade-education-programs-itep/
 
 ---

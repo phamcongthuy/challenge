@@ -132,6 +132,6 @@ link_donate: 'http://tickleberryplace.com/'
 plan_id: 84356
 order: 18
 category: play
-uri: /play/tickleberry-place
+uri: /play/tickleberry-place/
 
 ---

@@ -134,6 +134,6 @@ link_donate: 'http://www.surfbusfoundation.org/donate'
 plan_id: 84003
 order: 12
 category: play
-uri: /play/surf-bus-foundation
+uri: /play/surf-bus-foundation/
 
 ---

@@ -126,6 +126,6 @@ link_donate: n/a
 plan_id: 83822
 order: 17
 category: live
-uri: /live/landscape-integrity-films-and-education-life
+uri: /live/landscape-integrity-films-and-education-life/
 
 ---

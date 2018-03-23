@@ -127,6 +127,6 @@ link_donate: 'http://friendsofking.org/pledge-now/'
 plan_id: 83987
 order: 11
 category: play
-uri: /play/friends-of-king
+uri: /play/friends-of-king/
 
 ---

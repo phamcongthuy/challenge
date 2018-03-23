@@ -103,6 +103,6 @@ link_donate: >-
 plan_id: 84384
 order: 62
 category: learn
-uri: /learn/wethrive
+uri: /learn/wethrive/
 
 ---

@@ -124,6 +124,6 @@ link_donate: 'https://www.childrennow.org/#donate'
 plan_id: 84301
 order: 45
 category: live
-uri: /live/children-now
+uri: /live/children-now/
 
 ---

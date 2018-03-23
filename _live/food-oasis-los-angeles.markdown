@@ -80,6 +80,6 @@ link_donate: null
 plan_id: 84478
 order: 61
 category: live
-uri: /live/food-oasis-los-angeles
+uri: /live/food-oasis-los-angeles/
 
 ---

@@ -79,6 +79,6 @@ link_donate: 'http://worthyoflove.net/donate/'
 plan_id: 83963
 order: 24
 category: connect
-uri: /connect/worthy-of-love
+uri: /connect/worthy-of-love/
 
 ---

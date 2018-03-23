@@ -130,6 +130,6 @@ link_donate: 'http://www.cityx1.com/donate.html'
 plan_id: 84234
 order: 45
 category: connect
-uri: /connect/the-c-i-t-y-x1-youth-group
+uri: /connect/the-c-i-t-y-x1-youth-group/
 
 ---

@@ -117,6 +117,6 @@ link_donate: null
 plan_id: 84264
 order: 49
 category: connect
-uri: /connect/peaceworks-international
+uri: /connect/peaceworks-international/
 
 ---

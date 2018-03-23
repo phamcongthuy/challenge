@@ -119,6 +119,6 @@ link_donate: 'http://avalon-carver.org/donate/'
 plan_id: 84159
 order: 44
 category: learn
-uri: /learn/avalon-carver-community-center
+uri: /learn/avalon-carver-community-center/
 
 ---

@@ -129,6 +129,6 @@ link_donate: null
 plan_id: 84272
 order: 43
 category: live
-uri: /live/seedla
+uri: /live/seedla/
 
 ---

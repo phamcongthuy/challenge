@@ -122,6 +122,6 @@ link_donate: >-
 plan_id: 84145
 order: 36
 category: connect
-uri: /connect/building-healthy-communities-long-beach
+uri: /connect/building-healthy-communities-long-beach/
 
 ---

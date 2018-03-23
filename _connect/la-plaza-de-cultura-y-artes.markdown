@@ -123,6 +123,6 @@ link_donate: 'http://lapca.org/content/give-la-plazas-annual-fund'
 plan_id: 84057
 order: 32
 category: connect
-uri: /connect/la-plaza-de-cultura-y-artes
+uri: /connect/la-plaza-de-cultura-y-artes/
 
 ---

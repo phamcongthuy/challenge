@@ -71,6 +71,6 @@ link_donate: null
 plan_id: 83814
 order: 12
 category: learn
-uri: /learn/los-angeles-world-airports
+uri: /learn/los-angeles-world-airports/
 
 ---

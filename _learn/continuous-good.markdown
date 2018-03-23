@@ -140,6 +140,6 @@ link_donate: null
 plan_id: 83979
 order: 28
 category: learn
-uri: /learn/continuous-good
+uri: /learn/continuous-good/
 
 ---

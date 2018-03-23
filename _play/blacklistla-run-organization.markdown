@@ -142,6 +142,6 @@ link_donate: 'http://blacklistla.city/'
 plan_id: 84362
 order: 19
 category: play
-uri: /play/blacklistla-run-organization
+uri: /play/blacklistla-run-organization/
 
 ---

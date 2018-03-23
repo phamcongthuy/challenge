@@ -159,6 +159,6 @@ link_donate: 'http://bit.ly/2dBjQhL'
 plan_id: 82734
 order: 7
 category: connect
-uri: /connect/south-bay-center-for-counseling-sbcc
+uri: /connect/south-bay-center-for-counseling-sbcc/
 
 ---

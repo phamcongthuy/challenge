@@ -129,6 +129,6 @@ link_donate: 'https://donatenow.networkforgood.org/communitypartners/'
 plan_id: 82931
 order: 10
 category: live
-uri: /live/groceryships-and-netiya
+uri: /live/groceryships-and-netiya/
 
 ---

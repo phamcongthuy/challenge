@@ -109,6 +109,6 @@ link_donate: 'http://usgbc-la.org/donate'
 plan_id: 83945
 order: 21
 category: connect
-uri: /connect/us-green-building-council-la
+uri: /connect/us-green-building-council-la/
 
 ---

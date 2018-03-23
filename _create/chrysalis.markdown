@@ -122,6 +122,6 @@ link_donate: 'http://www.changelives.org/donate-now/'
 plan_id: 84308
 order: 42
 category: create
-uri: /create/chrysalis
+uri: /create/chrysalis/
 
 ---

@@ -158,7 +158,7 @@ link_donate: 'http://www.polahs.net/supporters'
 plan_id: 82382
 order: 2
 category: learn
-uri: /learn/port-of-los-angeles-high-school
+uri: /learn/port-of-los-angeles-high-school/
 is_finalist: true
 
 ---

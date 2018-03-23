@@ -129,6 +129,6 @@ link_donate: 'http://www.lasbest.org/donate'
 plan_id: 84462
 order: 70
 category: learn
-uri: /learn/las-best
+uri: /learn/las-best/
 
 ---

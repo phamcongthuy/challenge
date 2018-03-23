@@ -140,6 +140,6 @@ link_donate: 'http://www.produceathon.org/sponsors/#sponsors-1'
 plan_id: 84431
 order: 48
 category: create
-uri: /create/produceathon
+uri: /create/produceathon/
 
 ---

@@ -87,6 +87,6 @@ link_donate: null
 plan_id: 84082
 order: 33
 category: connect
-uri: /connect/city-of-west-hollywood
+uri: /connect/city-of-west-hollywood/
 
 ---

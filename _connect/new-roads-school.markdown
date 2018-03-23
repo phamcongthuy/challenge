@@ -138,6 +138,6 @@ link_donate: 'https://55159.thankyou4caring.org/sslpage.aspx?pid=298'
 plan_id: 84229
 order: 43
 category: connect
-uri: /connect/new-roads-school
+uri: /connect/new-roads-school/
 
 ---

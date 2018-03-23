@@ -68,6 +68,6 @@ link_donate: www.livingspringfoundation.org
 plan_id: 82372
 order: 63
 category: live
-uri: /live/living-spring-foundation
+uri: /live/living-spring-foundation/
 
 ---

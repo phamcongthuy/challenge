@@ -137,6 +137,6 @@ link_donate: 'http://lareviewofbooks.org/membership'
 plan_id: 83973
 order: 27
 category: learn
-uri: /learn/los-angeles-review-of-books
+uri: /learn/los-angeles-review-of-books/
 
 ---

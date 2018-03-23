@@ -111,6 +111,6 @@ link_donate: www.bitly.com/supportLFP
 plan_id: 84242
 order: 46
 category: connect
-uri: /connect/las-fotos-project
+uri: /connect/las-fotos-project/
 
 ---

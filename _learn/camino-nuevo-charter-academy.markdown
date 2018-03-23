@@ -127,6 +127,6 @@ link_donate: 'https://donatenow.networkforgood.org/caminonuevo'
 plan_id: 84049
 order: 35
 category: learn
-uri: /learn/camino-nuevo-charter-academy
+uri: /learn/camino-nuevo-charter-academy/
 
 ---

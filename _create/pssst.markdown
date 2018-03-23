@@ -144,6 +144,6 @@ link_donate: 'http://www.pssst.xyz/join/'
 plan_id: 84121
 order: 32
 category: create
-uri: /create/pssst
+uri: /create/pssst/
 
 ---

@@ -124,6 +124,6 @@ link_donate: null
 plan_id: 82589
 order: 5
 category: connect
-uri: /connect/coligo-inc-
+uri: /connect/coligo-inc-/
 
 ---

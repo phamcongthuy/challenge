@@ -87,6 +87,6 @@ link_donate: 'http://jenesse.org/donate/index.hmtl'
 plan_id: 84311
 order: 55
 category: connect
-uri: /connect/jenesse-center-inc-
+uri: /connect/jenesse-center-inc-/
 
 ---

@@ -105,6 +105,6 @@ link_donate: N/A
 plan_id: 84280
 order: 51
 category: connect
-uri: /connect/grid-logistics
+uri: /connect/grid-logistics/
 
 ---

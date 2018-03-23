@@ -117,6 +117,6 @@ link_donate: 'http://www.globalgreen.org/donate/'
 plan_id: 83108
 order: 13
 category: live
-uri: /live/global-green-usa
+uri: /live/global-green-usa/
 
 ---

@@ -156,6 +156,6 @@ link_donate: null
 plan_id: 84036
 order: 36
 category: create
-uri: /create/concerned-capital-crowdfund-better
+uri: /create/concerned-capital-crowdfund-better/
 
 ---

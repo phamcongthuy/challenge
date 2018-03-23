@@ -120,6 +120,6 @@ link_donate: 'https://donatenow.networkforgood.org/donatetolift'
 plan_id: 84193
 order: 37
 category: live
-uri: /live/lift-inc-
+uri: /live/lift-inc-/
 
 ---

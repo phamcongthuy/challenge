@@ -126,6 +126,6 @@ link_donate: 'http://www.coalitionrcd.org/get-involved/'
 plan_id: 83813
 order: 11
 category: learn
-uri: /learn/coalition-for-responsible-community-development
+uri: /learn/coalition-for-responsible-community-development/
 
 ---

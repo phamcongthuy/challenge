@@ -134,6 +134,6 @@ link_donate: 'http://www.communityhealinggardens.org/donate/'
 plan_id: 83026
 order: 11
 category: live
-uri: /live/community-healing-gardens
+uri: /live/community-healing-gardens/
 
 ---

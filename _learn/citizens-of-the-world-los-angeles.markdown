@@ -124,6 +124,6 @@ link_donate: 'https://cwclosangeles.nationbuilder.com/'
 plan_id: 83934
 order: 19
 category: learn
-uri: /learn/citizens-of-the-world-los-angeles
+uri: /learn/citizens-of-the-world-los-angeles/
 
 ---

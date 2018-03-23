@@ -105,6 +105,6 @@ link_donate: null
 plan_id: 84396
 order: 65
 category: learn
-uri: /learn/wisdom-arts-laboratory
+uri: /learn/wisdom-arts-laboratory/
 
 ---

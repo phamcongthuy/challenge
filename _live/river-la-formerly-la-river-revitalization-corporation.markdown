@@ -110,6 +110,6 @@ link_donate: 'https://larivercorp.nationbuilder.com/donate'
 plan_id: 84306
 order: 46
 category: live
-uri: /live/river-la-formerly-la-river-revitalization-corporation
+uri: /live/river-la-formerly-la-river-revitalization-corporation/
 
 ---

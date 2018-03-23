@@ -131,6 +131,6 @@ link_donate: 'https://www.fofca.org/donatenew.php'
 plan_id: 83044
 order: 14
 category: connect
-uri: /connect/friends-of-the-family
+uri: /connect/friends-of-the-family/
 
 ---

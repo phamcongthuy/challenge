@@ -95,6 +95,6 @@ link_donate: null
 plan_id: 83856
 order: 18
 category: live
-uri: /live/grassroots-training-for-health
+uri: /live/grassroots-training-for-health/
 
 ---

@@ -139,6 +139,6 @@ link_donate: 'https://www.nhslacounty.org/donate-online'
 plan_id: 84114
 order: 32
 category: live
-uri: /live/neighborhood-housing-services-of-los-angeles-county
+uri: /live/neighborhood-housing-services-of-los-angeles-county/
 
 ---

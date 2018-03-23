@@ -58,6 +58,6 @@ link_donate: 'https://donatenow.networkforgood.org/brailleinstitute'
 plan_id: 83937
 order: 22
 category: learn
-uri: /learn/braille-institute-of-america
+uri: /learn/braille-institute-of-america/
 
 ---

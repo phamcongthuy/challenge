@@ -134,6 +134,6 @@ link_donate: >-
 plan_id: 84083
 order: 31
 category: live
-uri: /live/covenant-house-california
+uri: /live/covenant-house-california/
 
 ---

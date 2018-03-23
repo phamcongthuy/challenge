@@ -110,7 +110,7 @@ link_donate: >-
 plan_id: 82387
 order: 4
 category: create
-uri: /create/arts-for-incarcerated-youth-network
+uri: /create/arts-for-incarcerated-youth-network/
 is_finalist: true
 
 ---

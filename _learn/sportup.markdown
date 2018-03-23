@@ -124,6 +124,6 @@ link_donate: null
 plan_id: 83041
 order: 9
 category: learn
-uri: /learn/sportup
+uri: /learn/sportup/
 
 ---

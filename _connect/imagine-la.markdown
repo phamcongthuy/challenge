@@ -98,6 +98,6 @@ link_donate: 'http://www.imaginela.org/donate/'
 plan_id: 84315
 order: 56
 category: connect
-uri: /connect/imagine-la
+uri: /connect/imagine-la/
 
 ---

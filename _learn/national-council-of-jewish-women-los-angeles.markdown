@@ -116,6 +116,6 @@ link_donate: 'http://ncjwla.org/donate/talk-project/'
 plan_id: 84481
 order: 71
 category: learn
-uri: /learn/national-council-of-jewish-women-los-angeles
+uri: /learn/national-council-of-jewish-women-los-angeles/
 
 ---

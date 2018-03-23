@@ -132,6 +132,6 @@ link_donate: null
 plan_id: 83846
 order: 18
 category: connect
-uri: /connect/the-burg
+uri: /connect/the-burg/
 
 ---

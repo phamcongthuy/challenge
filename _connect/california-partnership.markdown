@@ -147,6 +147,6 @@ link_donate: null
 plan_id: 83811
 order: 16
 category: connect
-uri: /connect/california-partnership
+uri: /connect/california-partnership/
 
 ---

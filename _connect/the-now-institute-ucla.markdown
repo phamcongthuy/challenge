@@ -131,6 +131,6 @@ link_donate: null
 plan_id: 84335
 order: 58
 category: connect
-uri: /connect/the-now-institute-ucla
+uri: /connect/the-now-institute-ucla/
 
 ---

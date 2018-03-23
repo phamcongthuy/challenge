@@ -137,6 +137,6 @@ link_donate: 'https://www.sparkprogram.org/index.php/get_involved/donate'
 plan_id: 84270
 order: 50
 category: learn
-uri: /learn/spark-los-angeles
+uri: /learn/spark-los-angeles/
 
 ---

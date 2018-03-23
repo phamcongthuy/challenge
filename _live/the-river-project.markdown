@@ -136,6 +136,6 @@ link_donate: 'http://www.theriverproject.org/get-involved-help-out'
 plan_id: 84318
 order: 62
 category: live
-uri: /live/the-river-project
+uri: /live/the-river-project/
 
 ---

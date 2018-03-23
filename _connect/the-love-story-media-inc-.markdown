@@ -109,6 +109,6 @@ link_donate: 'https://thelovestory.org/tlsorg-mission/'
 plan_id: 82762
 order: 8
 category: connect
-uri: /connect/the-love-story-media-inc-
+uri: /connect/the-love-story-media-inc-/
 
 ---

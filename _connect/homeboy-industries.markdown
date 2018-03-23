@@ -82,6 +82,6 @@ link_donate: 'http://www.homeboyindustries.org/how-you-can-help/'
 plan_id: 84470
 order: 68
 category: connect
-uri: /connect/homeboy-industries
+uri: /connect/homeboy-industries/
 
 ---

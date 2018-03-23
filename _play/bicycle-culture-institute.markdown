@@ -83,6 +83,6 @@ link_donate: >-
 plan_id: 84398
 order: 22
 category: play
-uri: /play/bicycle-culture-institute
+uri: /play/bicycle-culture-institute/
 
 ---

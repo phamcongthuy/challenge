@@ -120,6 +120,6 @@ link_donate: 'http://dublab.com/donate/'
 plan_id: 84296
 order: 54
 category: connect
-uri: /connect/future-roots-inc-
+uri: /connect/future-roots-inc-/
 
 ---

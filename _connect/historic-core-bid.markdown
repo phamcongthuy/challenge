@@ -108,6 +108,6 @@ link_donate: null
 plan_id: 83991
 order: 25
 category: connect
-uri: /connect/historic-core-bid
+uri: /connect/historic-core-bid/
 
 ---

@@ -130,6 +130,6 @@ link_donate: 'https://thehelpgroup.webconnex.com/STEM3'
 plan_id: 84284
 order: 53
 category: learn
-uri: /learn/the-help-groups-stem3-academy
+uri: /learn/the-help-groups-stem3-academy/
 
 ---

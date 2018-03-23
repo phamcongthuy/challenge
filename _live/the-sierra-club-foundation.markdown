@@ -135,6 +135,6 @@ link_donate: >-
 plan_id: 84321
 order: 47
 category: live
-uri: /live/the-sierra-club-foundation
+uri: /live/the-sierra-club-foundation/
 
 ---

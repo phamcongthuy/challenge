@@ -137,6 +137,6 @@ plan_id: 83966
 order: 21
 category: create
 uri: >-
-  /create/3-d-space-the-center-for-stereoscopic-photography-art-cinema-and-education
+  /create/3-d-space-the-center-for-stereoscopic-photography-art-cinema-and-education/
 
 ---

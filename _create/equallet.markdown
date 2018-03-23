@@ -122,6 +122,6 @@ link_donate: 'https://www.equallet.com/contactus'
 plan_id: 84052
 order: 24
 category: create
-uri: /create/equallet
+uri: /create/equallet/
 
 ---

@@ -130,6 +130,6 @@ link_donate: www.lisc.org/los_angeles/
 plan_id: 84224
 order: 38
 category: create
-uri: /create/los-angeles-lisc
+uri: /create/los-angeles-lisc/
 
 ---

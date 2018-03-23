@@ -119,6 +119,6 @@ link_donate: null
 plan_id: 84040
 order: 28
 category: live
-uri: /live/lynne-cohen-foundation
+uri: /live/lynne-cohen-foundation/
 
 ---

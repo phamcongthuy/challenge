@@ -103,6 +103,6 @@ link_donate: givenow.csun.edu
 plan_id: 84222
 order: 47
 category: learn
-uri: /learn/california-state-university-northridge-csun
+uri: /learn/california-state-university-northridge-csun/
 
 ---

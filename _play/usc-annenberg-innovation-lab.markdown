@@ -136,6 +136,6 @@ link_donate: 'http://annenberg.usc.edu/giving'
 plan_id: 84206
 order: 17
 category: play
-uri: /play/usc-annenberg-innovation-lab
+uri: /play/usc-annenberg-innovation-lab/
 
 ---

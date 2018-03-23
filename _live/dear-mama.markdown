@@ -145,6 +145,6 @@ link_donate: null
 plan_id: 84246
 order: 40
 category: live
-uri: /live/dear-mama
+uri: /live/dear-mama/
 
 ---

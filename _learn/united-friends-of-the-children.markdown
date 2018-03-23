@@ -115,6 +115,6 @@ link_donate: 'https://www.unitedfriends.org/donate/'
 plan_id: 84043
 order: 34
 category: learn
-uri: /learn/united-friends-of-the-children
+uri: /learn/united-friends-of-the-children/
 
 ---

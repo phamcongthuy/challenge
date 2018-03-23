@@ -101,6 +101,6 @@ link_donate: 'https://everyoneon.org/donate/'
 plan_id: 84285
 order: 54
 category: learn
-uri: /learn/everyoneon
+uri: /learn/everyoneon/
 
 ---

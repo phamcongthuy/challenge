@@ -91,7 +91,7 @@ link_donate: null
 plan_id: 82385
 order: 1
 category: connect
-uri: /connect/sca-larc
+uri: /connect/sca-larc/
 is_finalist: true
 
 ---

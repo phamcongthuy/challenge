@@ -145,6 +145,6 @@ link_donate: hhcla.org/fund-the-solution.html
 plan_id: 82521
 order: 6
 category: live
-uri: /live/homeless-health-care-los-angeles
+uri: /live/homeless-health-care-los-angeles/
 
 ---

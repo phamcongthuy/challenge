@@ -120,6 +120,6 @@ link_donate: 'https://www.dwolla.com/Payment/Register/5ce9c38c-9022-41fe-b389-47
 plan_id: 84014
 order: 28
 category: connect
-uri: /connect/data-roads-foundation
+uri: /connect/data-roads-foundation/
 
 ---

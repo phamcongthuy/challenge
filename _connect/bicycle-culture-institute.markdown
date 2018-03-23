@@ -106,6 +106,6 @@ link_donate: 'http://labiketrains.com/donate/'
 plan_id: 84420
 order: 65
 category: connect
-uri: /connect/bicycle-culture-institute
+uri: /connect/bicycle-culture-institute/
 
 ---

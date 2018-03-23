@@ -52,6 +52,6 @@ link_donate: null
 plan_id: 84091
 order: 28
 category: create
-uri: /create/county-of-los-angeles-public-library
+uri: /create/county-of-los-angeles-public-library/
 
 ---

@@ -125,6 +125,6 @@ link_donate: 'https://lacompost.org/donation/'
 plan_id: 82468
 order: 5
 category: live
-uri: /live/la-compost
+uri: /live/la-compost/
 
 ---

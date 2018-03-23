@@ -134,6 +134,6 @@ link_donate: 'http://asenseofhome.org/donate/'
 plan_id: 84402
 order: 52
 category: live
-uri: /live/a-sense-of-home
+uri: /live/a-sense-of-home/
 
 ---

@@ -73,6 +73,6 @@ link_donate: 'http://www.lavoicepico.org/LA_Voice_PICO/Give.html'
 plan_id: 84112
 order: 34
 category: connect
-uri: /connect/la-voice
+uri: /connect/la-voice/
 
 ---

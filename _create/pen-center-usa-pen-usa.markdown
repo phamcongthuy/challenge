@@ -87,6 +87,6 @@ link_donate: 'https://penusa.org/donate'
 plan_id: 83836
 order: 15
 category: create
-uri: /create/pen-center-usa-pen-usa
+uri: /create/pen-center-usa-pen-usa/
 
 ---

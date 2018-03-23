@@ -71,6 +71,6 @@ link_donate: 'http://www.hollywoodfringe.org/donate'
 plan_id: 82760
 order: 10
 category: create
-uri: /create/hollywood-fringe-festival-hatchery-arts
+uri: /create/hollywood-fringe-festival-hatchery-arts/
 
 ---
