@@ -698,40 +698,6 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 
 {% endif %}
 
-<section class="standard-section timeline" id="dates"><div markdown="1">
-
-## Key Dates
-
-{% if site.phase == 2 %}
-**![](/assets/images/timeline/strawberry/submission.svg) March 1-30, 2018**
-: **Submission Period**
-{% else %}
-![](/assets/images/timeline/submission.svg) March 1-30, 2018
-: Submission Period
-{% endif %}
-
-{% if site.phase == 6 %}
-**![](/assets/images/timeline/strawberry/voting.svg) June 19-29, 2018**
-: **Public Voting**
-{% else %}
-![](/assets/images/timeline/voting.svg) June 19-29, 2018
-: Public Voting
-{% endif %}
-
-{% if site.phase == 8 %}
-**![](/assets/images/timeline/strawberry/winners.svg) July 9, 2018**
-: **Winners Announced**
-{% else %}
-![](/assets/images/timeline/winners.svg) July 9, 2018
-: Winners Announced
-{% endif %}
-
-
-View the full [timeline](/timeline).
-
-</div></section>
-
-
 <style>
   @media (min-width: 70em) {
     .header-figure.has-caption.has-caption-details {
@@ -770,4 +736,38 @@ View the full [timeline](/timeline).
     }
   }
 </style>
+
+<section class="standard-section timeline" id="dates"><div markdown="1">
+
+## Key Dates
+
+{% if site.phase == 2 %}
+**![](/assets/images/timeline/strawberry/submission.svg) March 1-30, 2018**
+: **Submission Period**
+{% else %}
+![](/assets/images/timeline/submission.svg) March 1-30, 2018
+: Submission Period
+{% endif %}
+
+{% if site.phase == 6 %}
+**![](/assets/images/timeline/strawberry/voting.svg) June 19-29, 2018**
+: **Public Voting**
+{% else %}
+![](/assets/images/timeline/voting.svg) June 19-29, 2018
+: Public Voting
+{% endif %}
+
+{% if site.phase == 8 %}
+**![](/assets/images/timeline/strawberry/winners.svg) July 9, 2018**
+: **Winners Announced**
+{% else %}
+![](/assets/images/timeline/winners.svg) July 9, 2018
+: Winners Announced
+{% endif %}
+
+
+View the full [timeline](/timeline).
+
+</div></section>
+
 

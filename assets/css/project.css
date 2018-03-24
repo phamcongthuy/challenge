@@ -203,6 +203,9 @@
     .proposal-introduction .proposal-answers {
       grid-column: 2/4;
     }
+    .proposal-answers h3:first-child {
+      margin-top: 0;
+    }
 /*    .proposal-introduction .proposal-answers h2 {
       font-size: 1.25em;
       line-height: 1.25;

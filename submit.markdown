@@ -48,7 +48,7 @@ The submission period has started! Apply by <strong>March 30, 2018</strong> <sma
 The submission period is complete.
 
 <small>
-Proposals will be showcased here <strong>April 9, 2018</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
+Entries will be showcased here <strong>April 9, 2018</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
 </small>
 
 <p class="action" markdown="1">

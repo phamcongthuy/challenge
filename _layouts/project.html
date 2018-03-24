@@ -39,8 +39,36 @@ stylesheets:
 <span class="credit">YouTube</span>
 </a>
 {% endif %}
+
+{% if page.project_video %}
+<script type="text/template" id="video-template">
+  <div style="padding-bottom: 56.25%">
+    <iframe src="{{ page.project_video }}&modestbranding=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+</script>
+{% endif %}
 </div>
 </figure>
+
+<script type="text/javascript">
+  // Replace the image with a video element, if the link to the video has been pressed
+  (function() {
+
+    // Do we have the features we need?
+    if (!document.body.querySelector ||
+        !document.body.addEventListener) return;
+
+    var button   = document.getElementById('video-figure');
+    var template = document.getElementById('video-template');
+
+    if (button && template) {
+      button.addEventListener('click', function(e) {
+        template.parentNode.innerHTML = template.innerHTML;
+        e.preventDefault();
+      }, false);
+    }
+  })();
+</script>
 
 <div class="proposal-description">
 <h2 style="margin-top: 0.75rem;" class="organization">{{ page.organization_name }}</h2>
