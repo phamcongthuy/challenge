@@ -3,6 +3,7 @@ title: 2018 My LA2050 Activation Challenge
 body_class: strawberry home
 main_class: standard-layout
 footer_image: true
+show_promotion: true
 ---
 
 <script>
@@ -374,7 +375,9 @@ footer_image: true
 </p>
 {% endif %}
 
+{% comment %}
 {% include timeline-message.html %}
+{% endcomment %}
 
 {% comment %}
 <p>
@@ -727,4 +730,44 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 View the full [timeline](/timeline).
 
 </div></section>
+
+
+<style>
+  @media (min-width: 70em) {
+    .header-figure.has-caption.has-caption-details {
+      margin-bottom: 1.5em !important;
+      display: grid;
+      margin-top: -9.75em !important;
+    }
+    .header-figure.has-caption.has-caption-details img,
+    .header-figure.has-caption.has-caption-details .caption {
+      grid-column: 1 / -1;
+      grid-row: 1 / -1;
+    }
+    body main .header-figure.has-caption.has-caption-details .caption {
+      padding-top: 12em;
+    }
+    body main .header-figure.has-caption.has-caption-details .caption h1 {
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      width: auto !important;
+    }
+    body main .header-figure.has-caption.has-caption-details .caption .details {
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      border-bottom-width: 0 !important;
+    }
+    .header-figure.has-caption.has-caption-details img {
+      top: 0 !important;
+      height: 55vw !important;
+      object-position: top !important;
+    }
+    .header-figure.has-caption::before {
+      background:
+        linear-gradient(195deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0)), linear-gradient(to bottom right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0));
+    }
+  }
+</style>
 

@@ -79,15 +79,15 @@
 </head>
 <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
-  {% comment %}
+  {% if page.show_promotion %}
   <section class="promotion">
 <!--     <h1>The submission period is complete.</h1>
     <p>
       <span class="avoid-break">Entries will be showcased here on <strong>April 9, 2018</strong>.</span>
     </p> -->
-    {% include timeline-message.html %}
+    {% include promotion.html %}
   </section>
-  {% endcomment %}
+  {% endif %}
 
   <header id="navigation">
     <h2><a href="/">My LA2050<br /><em>Activation</em><br />Challenge</a></h2>

@@ -652,7 +652,7 @@
 @media (min-width: 40em) {
   .search {
     margin: 0em -4.5em 0;
-    padding: 0 4.5em 3em;
+    padding: 0 4.5em 1.5em;
   }
   .search input[type="search"] {
     width: 25em;
@@ -722,22 +722,27 @@ details summary:focus::-webkit-details-marker {
   justify-self: end;
   align-self: end;
 }
-.goals .navigation .options details[open] {
+/*.goals .navigation .options details[open] {
   grid-column: 1 / -1;
   width: 100%;
 }
 .goals .navigation .options details[open] ~ p:last-child {
   grid-row: 2 / 3;
+}*/
+.goals .navigation .options  form {
+  padding-bottom: 4.5em;
 }
 .goals .navigation .options details p {
   text-align: right !important;
   padding-right: 1.5em;
 }
-.goals .navigation .options details[open] p {
+/*.goals .navigation .options details[open] p {
   text-align: left !important;
-}
+}*/
 .goals .navigation .options form {
   display: flex;
+  max-width: 33em;
+  width: calc(50vw - 4.5em);
 }
 .goals .navigation .options form label {
   flex-grow: 1;

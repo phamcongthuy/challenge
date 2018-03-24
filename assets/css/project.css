@@ -124,8 +124,7 @@
 
 
   @media (min-width: 60em) {
-    .proposal-answers p,
-    .proposal-answers ul {
+    .proposal-answers {
       font-size: 0.875em;
     }
   }
@@ -849,7 +848,7 @@
     grid-column-gap: 4.5em;
   }
   .more-proposals h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.2857142857;
     font-style: italic;
     margin-top: 0;
