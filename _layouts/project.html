@@ -20,55 +20,17 @@ stylesheets:
 <h1 style="margin-bottom: 0">{{ page.title }}</h1>
 </div>
 
-<figure class="feature" {% if page.project_video %} id="video-figure"{% endif %}>
+<figure class="feature">
 <div data-aspect-ratio="1280/720">
 {% if page.project_video %}
-<a href="{{ page.project_video }}" target="_blank" class="has-icon">
-{% endif %}
+<div style="padding-bottom: 56.25%">
+  <iframe src="{{ page.project_video }}&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+</div>
+{% else %}
 <img src="https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{{ page.project_image }}" alt="Image of {{ page.title }}" width="1000" />
-{% if page.project_video %}
-<span class="icon play">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
-<title>Play Video</title>
-<switch>
-<polygon fill="black" points="29.2,16.9 0,0 0,33.7 29.2,16.9 0,0 0,33.7 "></polygon>
-<foreignObject>Play Video</foreignObject>
-</switch>
-</svg>
-</span>
-<span class="credit">YouTube</span>
-</a>
-{% endif %}
-
-{% if page.project_video %}
-<script type="text/template" id="video-template">
-  <div style="padding-bottom: 56.25%">
-    <iframe src="{{ page.project_video }}&modestbranding=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
-  </div>
-</script>
 {% endif %}
 </div>
 </figure>
-
-<script type="text/javascript">
-  // Replace the image with a video element, if the link to the video has been pressed
-  (function() {
-
-    // Do we have the features we need?
-    if (!document.body.querySelector ||
-        !document.body.addEventListener) return;
-
-    var button   = document.getElementById('video-figure');
-    var template = document.getElementById('video-template');
-
-    if (button && template) {
-      button.addEventListener('click', function(e) {
-        template.parentNode.innerHTML = template.innerHTML;
-        e.preventDefault();
-      }, false);
-    }
-  })();
-</script>
 
 <div class="proposal-description">
 <h2 style="margin-top: 0.75rem;" class="organization">{{ page.organization_name }}</h2>
