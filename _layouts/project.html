@@ -296,7 +296,19 @@ stylesheets:
 
 </ul>
 
-<!-- <hr /> -->
+{% comment %}
+<hr style="margin-top: 0" />
+
+<h2 class="comments-header" style="justify-self: center;">Choose another category</h2>
+
+{% include project-navigation.html %}
+
+<style>
+.goals .navigation > div .count {
+  opacity: 0; 
+}
+</style>
+{% endcomment %}
 
 <section class="goals" style="margin-top: -3em; margin-bottom: 4.5em">
 
@@ -304,7 +316,7 @@ stylesheets:
 
 <h2>Choose another category</h2>
 
-<ul class="action">
+<ul class="action" style="margin-right: 0; margin-top: 1.5em;">
   <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
   <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
   <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
