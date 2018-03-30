@@ -85,7 +85,7 @@ link_newsletter: 'http://weho.org/city-hall/how-to-contact-us/email-subscription
 link_volunteer: null
 link_donate: null
 plan_id: 84082
-order: 33
+order: 47
 category: connect
 uri: /connect/city-of-west-hollywood/
 

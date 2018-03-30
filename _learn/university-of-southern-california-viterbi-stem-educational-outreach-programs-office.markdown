@@ -144,7 +144,7 @@ link_newsletter: 'http://www.livingadvantageinc.org/Join-Mailing-List.cfm'
 link_volunteer: null
 link_donate: null
 plan_id: 83850
-order: 15
+order: 59
 category: learn
 uri: >-
   /learn/university-of-southern-california-viterbi-stem-educational-outreach-programs-office/

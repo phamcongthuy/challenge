@@ -122,7 +122,7 @@ link_newsletter: www.coligo.co
 link_volunteer: null
 link_donate: null
 plan_id: 82589
-order: 5
+order: 60
 category: connect
 uri: /connect/coligo-inc-/
 

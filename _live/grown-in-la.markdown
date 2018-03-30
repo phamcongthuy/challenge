@@ -117,7 +117,7 @@ link_newsletter: 'http://www.growninla.org/news/'
 link_volunteer: 'http://www.growninla.org/donate-time'
 link_donate: 'http://www.growninla.org/donate/'
 plan_id: 84452
-order: 59
+order: 14
 category: live
 uri: /live/grown-in-la/
 

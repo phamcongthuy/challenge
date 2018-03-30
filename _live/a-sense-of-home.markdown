@@ -132,7 +132,7 @@ link_newsletter: 'http://asenseofhome.org/'
 link_volunteer: 'http://asenseofhome.org/volunteer/'
 link_donate: 'http://asenseofhome.org/donate/'
 plan_id: 84402
-order: 52
+order: 13
 category: live
 uri: /live/a-sense-of-home/
 

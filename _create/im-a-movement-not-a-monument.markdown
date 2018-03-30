@@ -137,7 +137,7 @@ link_newsletter: 'http://imamovement.org/#contact'
 link_volunteer: 'http://imamovement.org/volunteer-form/'
 link_donate: 'http://imamovement.org/donate/'
 plan_id: 83840
-order: 16
+order: 31
 category: create
 uri: /create/im-a-movement-not-a-monument/
 

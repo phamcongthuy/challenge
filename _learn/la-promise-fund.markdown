@@ -85,7 +85,7 @@ link_newsletter: 'http://www.lapromisefund.org/#press'
 link_volunteer: null
 link_donate: 'https://donatenow.networkforgood.org/1389562?code=Invest+in+L.A.+page'
 plan_id: 84379
-order: 61
+order: 68
 category: learn
 uri: /learn/la-promise-fund/
 

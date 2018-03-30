@@ -106,7 +106,7 @@ link_newsletter: www.i3artsfest.com/contact/
 link_volunteer: 'http://www.i3artsfest.com/get-involved/'
 link_donate: 'http://www.i3artsfest.com/donate/'
 plan_id: 82869
-order: 10
+order: 27
 category: connect
 uri: /connect/i3-arts-fest/
 

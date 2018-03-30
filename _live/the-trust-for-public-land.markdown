@@ -78,7 +78,7 @@ link_newsletter: 'https://www.tpl.org/'
 link_volunteer: 'https://www.tpl.org/'
 link_donate: 'https://www.tpl.org/donate'
 plan_id: 83111
-order: 14
+order: 26
 category: live
 uri: /live/the-trust-for-public-land/
 

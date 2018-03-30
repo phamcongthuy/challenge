@@ -128,7 +128,7 @@ link_newsletter: www.zeneithperformingarts.com
 link_volunteer: www.zeneithperformingarts.com
 link_donate: www.zeneithperformingarts.com
 plan_id: 83974
-order: 22
+order: 47
 category: create
 uri: /create/zeneith-performing-arts/
 

@@ -85,9 +85,8 @@ link_newsletter: 'https://www.integratedannex.com'
 link_volunteer: null
 link_donate: null
 plan_id: 82381
-order: 3
+order: 36
 category: create
 uri: /create/the-integrated-learning-annex/
-is_finalist: true
 
 ---

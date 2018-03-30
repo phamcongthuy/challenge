@@ -132,7 +132,7 @@ link_newsletter: 'http://www.communityhealinggardens.org/get-involved-3/#get-inv
 link_volunteer: 'http://www.communityhealinggardens.org/get-involved-3/#get-involved-2'
 link_donate: 'http://www.communityhealinggardens.org/donate/'
 plan_id: 83026
-order: 11
+order: 7
 category: live
 uri: /live/community-healing-gardens/
 

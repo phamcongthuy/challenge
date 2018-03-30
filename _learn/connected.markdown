@@ -112,9 +112,8 @@ link_newsletter: 'http://www.connectedcalifornia.org/blog'
 link_volunteer: null
 link_donate: 'http://www.connectedcalifornia.org'
 plan_id: 82728
-order: 4
+order: 9
 category: learn
 uri: /learn/connected/
-is_finalist: true
 
 ---

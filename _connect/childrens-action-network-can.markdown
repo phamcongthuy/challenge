@@ -116,7 +116,7 @@ link_newsletter: 'http://fostermore.org/take-action/'
 link_volunteer: 'http://fostermore.org/take-action/'
 link_donate: 'https://secure.blueutopia.com/fc2success/fostermore/contribute/'
 plan_id: 84042
-order: 30
+order: 18
 category: connect
 uri: /connect/childrens-action-network-can/
 

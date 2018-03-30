@@ -154,8 +154,9 @@ link_newsletter: 'http://www.plantaware.com/contact/'
 link_volunteer: 'http://www.plantaware.com/contact/'
 link_donate: 'http://www.plantaware.com/contact/'
 plan_id: 84293
-order: 44
+order: 1
 category: live
 uri: /live/plantaware/
+is_finalist: true
 
 ---

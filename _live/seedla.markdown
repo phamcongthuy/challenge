@@ -127,7 +127,7 @@ link_newsletter: www.seedcg.org
 link_volunteer: null
 link_donate: null
 plan_id: 84272
-order: 43
+order: 50
 category: live
 uri: /live/seedla/
 

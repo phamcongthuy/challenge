@@ -143,7 +143,7 @@ link_newsletter: 'http://getlit.org/contact-us'
 link_volunteer: 'http://getlit.org'
 link_donate: 'http://getlit.org/support-teen-literacy'
 plan_id: 83954
-order: 23
+order: 20
 category: connect
 uri: /connect/get-lit-words-ignite/
 

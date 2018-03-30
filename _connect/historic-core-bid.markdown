@@ -106,7 +106,7 @@ link_newsletter: 'http://eepurl.com/bi24Nj'
 link_volunteer: null
 link_donate: null
 plan_id: 83991
-order: 25
+order: 56
 category: connect
 uri: /connect/historic-core-bid/
 

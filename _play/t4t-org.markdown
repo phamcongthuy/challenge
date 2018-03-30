@@ -76,7 +76,7 @@ link_newsletter: 'http://www.t4t.org/news/t4t-newsletter/'
 link_volunteer: 'http://www.t4t.org/donate/volunteer/'
 link_donate: 'http://www.t4t.org/donate/'
 plan_id: 84485
-order: 24
+order: 17
 category: play
 uri: /play/t4t-org/
 

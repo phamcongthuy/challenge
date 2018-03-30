@@ -136,7 +136,7 @@ link_newsletter: 'http://eepurl.com/chWci1'
 link_volunteer: 'http://eepurl.com/chWci1'
 link_donate: 'http://www.thejester.org/contribution/index.html'
 plan_id: 83848
-order: 14
+order: 53
 category: learn
 uri: /learn/the-jester-pharley-phund/
 

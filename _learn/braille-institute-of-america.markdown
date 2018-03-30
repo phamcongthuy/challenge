@@ -56,7 +56,7 @@ link_newsletter: 'http://www.brailleinstitute.org/braille-challenge-homepage/new
 link_volunteer: 'http://www.brailleinstitute.org/volunteer.html'
 link_donate: 'https://donatenow.networkforgood.org/brailleinstitute'
 plan_id: 83937
-order: 22
+order: 20
 category: learn
 uri: /learn/braille-institute-of-america/
 

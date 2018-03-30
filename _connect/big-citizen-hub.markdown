@@ -157,8 +157,9 @@ link_newsletter: 'http://eepurl.com/_Ykh1'
 link_volunteer: 'http://www.bigcitizenhub.org/ages19-26/'
 link_donate: 'http://www.bigcitizenhub.org/donate/'
 plan_id: 84390
-order: 63
+order: 1
 category: connect
 uri: /connect/big-citizen-hub/
+is_finalist: true
 
 ---

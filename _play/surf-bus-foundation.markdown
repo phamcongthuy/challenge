@@ -132,7 +132,7 @@ link_newsletter: 'http://www.surfbusfoundation.org/contact'
 link_volunteer: 'http://www.surfbusfoundation.org/participate'
 link_donate: 'http://www.surfbusfoundation.org/donate'
 plan_id: 84003
-order: 12
+order: 21
 category: play
 uri: /play/surf-bus-foundation/
 

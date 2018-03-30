@@ -107,7 +107,7 @@ link_newsletter: 'https://thelovestory.org/'
 link_volunteer: 'https://thelovestory.org/volunteer/'
 link_donate: 'https://thelovestory.org/tlsorg-mission/'
 plan_id: 82762
-order: 8
+order: 62
 category: connect
 uri: /connect/the-love-story-media-inc-/
 

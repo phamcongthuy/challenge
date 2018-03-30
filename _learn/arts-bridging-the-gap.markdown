@@ -126,7 +126,7 @@ link_newsletter: 'http://www.artsbridgingthegap.org/contact-us.html'
 link_volunteer: 'http://www.artsbridgingthegap.org/contact-us.html'
 link_donate: 'http://www.artsbridgingthegap.org/contact-us.html'
 plan_id: 83886
-order: 17
+order: 35
 category: learn
 uri: /learn/arts-bridging-the-gap/
 

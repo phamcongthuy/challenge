@@ -117,7 +117,7 @@ link_newsletter: 'http://lynnecohenfoundation.org'
 link_volunteer: null
 link_donate: null
 plan_id: 84040
-order: 28
+order: 41
 category: live
 uri: /live/lynne-cohen-foundation/
 

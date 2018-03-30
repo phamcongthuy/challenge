@@ -143,7 +143,7 @@ link_newsletter: dearmamala
 link_volunteer: null
 link_donate: null
 plan_id: 84246
-order: 40
+order: 30
 category: live
 uri: /live/dear-mama/
 

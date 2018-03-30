@@ -114,7 +114,7 @@ link_newsletter: www.coachart.org/newsletter
 link_volunteer: www.coachart.org/volunteer
 link_donate: www.coachart.org/donate
 plan_id: 84045
-order: 31
+order: 5
 category: connect
 uri: /connect/coachart/
 

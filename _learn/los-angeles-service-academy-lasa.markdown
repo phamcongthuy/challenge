@@ -105,7 +105,7 @@ link_newsletter: 'http://laserviceacademy.org/about/contact/'
 link_volunteer: 'http://laserviceacademy.org/about/contact/'
 link_donate: 'http://laserviceacademy.org/about/contact/'
 plan_id: 84078
-order: 38
+order: 44
 category: learn
 uri: /learn/los-angeles-service-academy-lasa/
 

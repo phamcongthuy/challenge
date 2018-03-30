@@ -128,7 +128,7 @@ link_newsletter: 'http://stem3academy.org/mailing-list/'
 link_volunteer: 'http://www.thehelpgroup.org/how-to-help/volunteer/'
 link_donate: 'https://thehelpgroup.webconnex.com/STEM3'
 plan_id: 84284
-order: 53
+order: 67
 category: learn
 uri: /learn/the-help-groups-stem3-academy/
 

@@ -114,7 +114,7 @@ link_newsletter: 'https://civicnation.org/get-involved/'
 link_volunteer: null
 link_donate: 'https://civicnation.org/contribute/'
 plan_id: 84232
-order: 44
+order: 68
 category: connect
 uri: /connect/civic-nation/
 

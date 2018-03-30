@@ -81,7 +81,7 @@ link_newsletter: 'https://www.richstonefamily.org/index.cfm?fuseaction=donorDriv
 link_volunteer: 'http://www.richstonefamily.org/index.cfm?fuseaction=cms.page&id=1021'
 link_donate: 'https://www.richstonefamily.org/index.cfm?fuseaction=donate.general'
 plan_id: 83996
-order: 25
+order: 32
 category: live
 uri: /live/richstone-family-center/
 

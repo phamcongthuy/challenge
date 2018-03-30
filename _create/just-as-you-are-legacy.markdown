@@ -56,7 +56,7 @@ link_newsletter: n/a
 link_volunteer: N/A
 link_donate: 'https://www.gofundme.com/2sq657w'
 plan_id: 84377
-order: 46
+order: 19
 category: create
 uri: /create/just-as-you-are-legacy/
 

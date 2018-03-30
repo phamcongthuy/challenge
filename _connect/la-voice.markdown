@@ -71,8 +71,9 @@ link_newsletter: 'http://www.lavoicepico.org/LA_Voice_PICO/Participate.html'
 link_volunteer: 'http://www.lavoicepico.org/LA_Voice_PICO/Participate.html'
 link_donate: 'http://www.lavoicepico.org/LA_Voice_PICO/Give.html'
 plan_id: 84112
-order: 34
+order: 3
 category: connect
 uri: /connect/la-voice/
+is_finalist: true
 
 ---

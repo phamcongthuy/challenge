@@ -117,7 +117,7 @@ link_newsletter: 'http://avalon-carver.org'
 link_volunteer: 'http://avalon-carver.org'
 link_donate: 'http://avalon-carver.org/donate/'
 plan_id: 84159
-order: 44
+order: 49
 category: learn
 uri: /learn/avalon-carver-community-center/
 

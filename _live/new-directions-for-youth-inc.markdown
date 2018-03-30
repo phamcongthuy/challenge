@@ -91,7 +91,7 @@ link_newsletter: >-
 link_volunteer: 'http://www.volunteermatch.org/results/opp_detail.jsp?oppid=2286777'
 link_donate: 'https://interland3.donorperfect.net/weblink/weblink.aspx?name=E192522&id=8'
 plan_id: 84002
-order: 26
+order: 43
 category: live
 uri: /live/new-directions-for-youth-inc/
 

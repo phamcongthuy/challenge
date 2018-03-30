@@ -134,7 +134,7 @@ link_newsletter: 'http://www.communitypartners.org/join-our-mailing-list'
 link_volunteer: null
 link_donate: 'https://donatenow.networkforgood.org/communitypartners/'
 plan_id: 84288
-order: 55
+order: 66
 category: learn
 uri: /learn/the-engineer-factory-a-project-of-community-partners/
 

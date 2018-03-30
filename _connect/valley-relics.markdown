@@ -111,7 +111,7 @@ link_newsletter: 'http://eepurl.com/ciDrmj'
 link_volunteer: null
 link_donate: null
 plan_id: 84188
-order: 41
+order: 38
 category: connect
 uri: /connect/valley-relics/
 

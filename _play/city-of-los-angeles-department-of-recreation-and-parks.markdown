@@ -108,7 +108,7 @@ link_newsletter: No Link
 link_volunteer: www.laparks.org/info/volunteers
 link_donate: 'https://secure.laparksfoundation.org//EN/donation1.html'
 plan_id: 83881
-order: 8
+order: 14
 category: play
 uri: /play/city-of-los-angeles-department-of-recreation-and-parks/
 

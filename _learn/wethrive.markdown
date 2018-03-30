@@ -101,7 +101,7 @@ link_volunteer: 'http://teamwethrive.org/contact-us/'
 link_donate: >-
   https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8DS2ULSLPQCDY
 plan_id: 84384
-order: 62
+order: 75
 category: learn
 uri: /learn/wethrive/
 

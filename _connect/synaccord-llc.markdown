@@ -137,7 +137,7 @@ link_newsletter: 'http://www.synaccord.com/contact.html'
 link_volunteer: 'http://www.synaccord.com/contact.html'
 link_donate: 'http://www.synaccord.com/contact.html'
 plan_id: 82861
-order: 9
+order: 14
 category: connect
 uri: /connect/synaccord-llc/
 

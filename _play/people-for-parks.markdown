@@ -149,7 +149,7 @@ link_newsletter: 'http://www.peopleforparks.org/'
 link_volunteer: 'http://www.peopleforparks.org/volunteer'
 link_donate: 'https://peopleforparks.nationbuilder.com/donate'
 plan_id: 84158
-order: 16
+order: 15
 category: play
 uri: /play/people-for-parks/
 

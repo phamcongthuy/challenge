@@ -127,7 +127,7 @@ link_newsletter: >-
 link_volunteer: 'http://www.pfaw.org/get-involved/the-right-to-vote'
 link_donate: 'http://www.pfaw.org/donate'
 plan_id: 84392
-order: 64
+order: 19
 category: connect
 uri: /connect/people-for-the-american-way-foundation/
 

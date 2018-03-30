@@ -120,7 +120,7 @@ link_newsletter: 'http://www.changelives.org/youvegotmail/'
 link_volunteer: 'http://www.changelives.org/volunteer/'
 link_donate: 'http://www.changelives.org/donate-now/'
 plan_id: 84308
-order: 42
+order: 11
 category: create
 uri: /create/chrysalis/
 

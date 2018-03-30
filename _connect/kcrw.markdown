@@ -109,7 +109,7 @@ link_newsletter: 'http://www.kcrw.com/newsletters'
 link_volunteer: 'http://www.kcrw.com/volunteer'
 link_donate: 'http://www.kcrw.com/join'
 plan_id: 84247
-order: 47
+order: 24
 category: connect
 uri: /connect/kcrw/
 

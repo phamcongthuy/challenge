@@ -122,7 +122,7 @@ link_newsletter: >-
 link_volunteer: null
 link_donate: null
 plan_id: 83041
-order: 9
+order: 27
 category: learn
 uri: /learn/sportup/
 

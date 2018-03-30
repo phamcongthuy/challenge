@@ -126,9 +126,8 @@ link_newsletter: 'perceptoscope.com/#connect'
 link_volunteer: null
 link_donate: null
 plan_id: 82362
-order: 2
+order: 5
 category: play
 uri: /play/perceptoscope/
-is_finalist: true
 
 ---

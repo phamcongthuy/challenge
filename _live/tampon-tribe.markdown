@@ -98,7 +98,7 @@ link_newsletter: 'http://www.tampontribe.com'
 link_volunteer: 'http://www.tampontribe.com'
 link_donate: 'https://www.indiegogo.com/projects/tampon-tribe'
 plan_id: 84250
-order: 41
+order: 57
 category: live
 uri: /live/tampon-tribe/
 

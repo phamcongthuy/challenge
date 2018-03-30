@@ -111,7 +111,7 @@ link_newsletter: www.dadproject.org
 link_volunteer: www.dadproject.org
 link_donate: www.dadproject.org
 plan_id: 84097
-order: 41
+order: 65
 category: learn
 uri: /learn/d-a-d-project/
 

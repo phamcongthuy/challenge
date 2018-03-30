@@ -134,7 +134,7 @@ link_newsletter: 'http://signup.operationgratitude.com/subscribe'
 link_volunteer: 'https://www.operationgratitude.com/volunteer/volunteer-info-schedule/'
 link_donate: 'https://www.operationgratitude.com/make-donation'
 plan_id: 83849
-order: 19
+order: 48
 category: connect
 uri: /connect/operation-gratitude/
 

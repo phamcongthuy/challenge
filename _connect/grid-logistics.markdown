@@ -103,7 +103,7 @@ link_newsletter: N/A
 link_volunteer: 'http://www.gridinc.biz/contact/'
 link_donate: N/A
 plan_id: 84280
-order: 51
+order: 61
 category: connect
 uri: /connect/grid-logistics/
 

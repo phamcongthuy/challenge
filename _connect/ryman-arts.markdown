@@ -120,7 +120,7 @@ link_newsletter: 'http://oi.vresp.com/?fid=be572f862e'
 link_volunteer: null
 link_donate: 'http://www.rymanarts.org/donate'
 plan_id: 84291
-order: 53
+order: 59
 category: connect
 uri: /connect/ryman-arts/
 

@@ -141,7 +141,7 @@ link_newsletter: 'http://www.saywordla.org/contact'
 link_volunteer: 'http://www.saywordla.org/contact'
 link_donate: 'https://donatenow.networkforgood.org/communitypartners/?designation=Say%20Word'
 plan_id: 84006
-order: 32
+order: 47
 category: learn
 uri: /learn/say-word-and-4c-lab/
 

@@ -110,7 +110,7 @@ link_newsletter: 'http://bit.ly/2dqCyJo'
 link_volunteer: www.itepinc.org
 link_donate: www.itepinc.org
 plan_id: 84157
-order: 36
+order: 16
 category: live
 uri: /live/international-trade-education-programs-itep/
 

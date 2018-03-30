@@ -142,7 +142,7 @@ link_newsletter: studyla@lmu.edu
 link_volunteer: studyla@lmu.edu
 link_donate: brianne.gilbert@lmu.edu
 plan_id: 83006
-order: 12
+order: 36
 category: connect
 uri: /connect/center-for-the-study-of-los-angeles/
 

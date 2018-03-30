@@ -158,7 +158,7 @@ link_newsletter: >-
 link_volunteer: 'http://DSTLArts.org/Contact'
 link_donate: 'https://mkt.com/dstl-arts/'
 plan_id: 83905
-order: 20
+order: 64
 category: connect
 uri: >-
   /connect/dstl-arts-the-partnership-for-los-angeles-creative-education-the-place/

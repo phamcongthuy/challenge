@@ -80,7 +80,7 @@ link_newsletter: PrettyGoodCat.com
 link_volunteer: Tina@prettygoodcat.com
 link_donate: PrettyGoodCat.com
 plan_id: 83947
-order: 20
+order: 44
 category: live
 uri: /live/pretty-good-cat/
 

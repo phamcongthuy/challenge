@@ -157,8 +157,9 @@ link_newsletter: 'http://www.sbccthrivela.org/copy-of-urbanarts2'
 link_volunteer: 'http://www.sbccthrivela.org/copy-of-urbanarts2'
 link_donate: 'http://bit.ly/2dBjQhL'
 plan_id: 82734
-order: 7
+order: 4
 category: connect
 uri: /connect/south-bay-center-for-counseling-sbcc/
+is_finalist: true
 
 ---

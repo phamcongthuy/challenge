@@ -140,8 +140,10 @@ link_newsletter: 'http://blacklistla.city/contact-us/'
 link_volunteer: null
 link_donate: 'http://blacklistla.city/'
 plan_id: 84362
-order: 19
+order: 0
 category: play
 uri: /play/blacklistla-run-organization/
+is_winner: true
+is_finalist: true
 
 ---

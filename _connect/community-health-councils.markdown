@@ -150,7 +150,7 @@ link_volunteer: null
 link_donate: >-
   https://org2.salsalabs.com/o/5382/p/salsa/donation/common/public/?donate_page_KEY=2002
 plan_id: 83953
-order: 22
+order: 53
 category: connect
 uri: /connect/community-health-councils/
 

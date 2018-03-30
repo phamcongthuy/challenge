@@ -112,9 +112,8 @@ link_volunteer: 'http://joyfulheartfoundation.org/get-involved/volunteer'
 link_donate: >-
   secure.joyfulheartfoundation.org/page/contribute/give-joy?source=websiteheader-button
 plan_id: 82363
-order: 1
+order: 34
 category: live
 uri: /live/joyful-heart-foundation/
-is_finalist: true
 
 ---

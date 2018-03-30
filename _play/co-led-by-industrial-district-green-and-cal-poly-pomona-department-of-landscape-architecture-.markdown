@@ -134,10 +134,9 @@ link_newsletter: 'http://www.industrialdistrictgreen.org'
 link_volunteer: 'http://www.industrialdistrictgreen.org/volunteer'
 link_donate: 'https://industrialdistrictgreen.nationbuilder.com/support_us'
 plan_id: 82920
-order: 4
+order: 19
 category: play
 uri: >-
   /play/co-led-by-industrial-district-green-and-cal-poly-pomona-department-of-landscape-architecture-/
-is_finalist: true
 
 ---

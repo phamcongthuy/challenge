@@ -65,7 +65,7 @@ link_newsletter: 'http://avasheart.org/'
 link_volunteer: 'http://avasheart.org/'
 link_donate: 'http://avasheart.org/get-involved/donate/'
 plan_id: 83952
-order: 21
+order: 59
 category: live
 uri: /live/avas-heart/
 

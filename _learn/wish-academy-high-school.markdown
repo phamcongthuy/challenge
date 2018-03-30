@@ -115,7 +115,7 @@ link_newsletter: WWW.WISHacademyhs.org
 link_volunteer: WWW.WISHacademyhs.org
 link_donate: WWW.WISHcharter.org
 plan_id: 83960
-order: 24
+order: 74
 category: learn
 uri: /learn/wish-academy-high-school/
 

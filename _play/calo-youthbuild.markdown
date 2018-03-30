@@ -91,8 +91,9 @@ link_newsletter: www.caloinc.org
 link_volunteer: www.caloinc.org
 link_donate: www.caloinc.org
 plan_id: 84401
-order: 23
+order: 1
 category: play
 uri: /play/calo-youthbuild/
+is_finalist: true
 
 ---

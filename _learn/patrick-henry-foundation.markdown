@@ -115,7 +115,7 @@ link_newsletter: 'http://www.patrickhenryfoundation.org/'
 link_volunteer: 'http://www.patrickhenryfoundation.org/'
 link_donate: 'http://www.patrickhenryfoundation.org/donate-now.html'
 plan_id: 82730
-order: 5
+order: 64
 category: learn
 uri: /learn/patrick-henry-foundation/
 

@@ -141,7 +141,7 @@ link_newsletter: >-
 link_volunteer: 'https://salsa4.salsalabs.com/o/51553/signup_page/volunteer?okay=true'
 link_donate: 'https://salsa4.salsalabs.com/o/51553/donate_page/donate?okay=true'
 plan_id: 84252
-order: 48
+order: 8
 category: connect
 uri: /connect/here-to-serve-inc/
 

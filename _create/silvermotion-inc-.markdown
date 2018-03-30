@@ -74,10 +74,8 @@ link_newsletter: 'https://www.equiz.com/signup.html?type=android'
 link_volunteer: null
 link_donate: null
 plan_id: 82367
-order: 0
+order: 21
 category: create
 uri: /create/silvermotion-inc-/
-is_winner: true
-is_finalist: true
 
 ---

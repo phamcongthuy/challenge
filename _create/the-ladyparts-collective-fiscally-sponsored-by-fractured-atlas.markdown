@@ -110,7 +110,7 @@ link_newsletter: 'http://www.ladypartscollective.com/get-involved'
 link_volunteer: 'http://www.ladypartscollective.com/get-involved'
 link_donate: 'https://www.fracturedatlas.org/site/fiscal/profile?id=14903'
 plan_id: 84290
-order: 41
+order: 17
 category: create
 uri: /create/the-ladyparts-collective-fiscally-sponsored-by-fractured-atlas/
 

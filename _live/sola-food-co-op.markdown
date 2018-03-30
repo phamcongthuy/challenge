@@ -60,7 +60,7 @@ link_newsletter: >-
 link_volunteer: 'http://www.solafoodcoop.com/volunteer/'
 link_donate: 'http://www.solafoodcoop.com/online-store/donate-to-help-sola-operate/'
 plan_id: 84060
-order: 30
+order: 52
 category: live
 uri: /live/sola-food-co-op/
 

@@ -104,8 +104,9 @@ link_newsletter: 'http://urm.org/email-signup/'
 link_volunteer: 'http://urm.org/get-involved/volunteer/'
 link_donate: 'https://secure3.convio.net/urm/site/Donation2?df_id=1300&1300.donation=form1'
 plan_id: 84152
-order: 35
+order: 2
 category: live
 uri: /live/union-rescue-mission/
+is_finalist: true
 
 ---

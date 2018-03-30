@@ -99,7 +99,7 @@ link_newsletter: www.encorps.org
 link_volunteer: 'http://encorps.org/educators/application/'
 link_donate: 'http://encorps.org/support/'
 plan_id: 84317
-order: 57
+order: 60
 category: learn
 uri: /learn/encorps-inc-/
 

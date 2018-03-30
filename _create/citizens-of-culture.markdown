@@ -95,7 +95,7 @@ link_newsletter: 'http://citizensofculture.com/signup/'
 link_volunteer: 'http://citizensofculture.com/join/'
 link_donate: 'http://citizensofculture.com/correspondence/'
 plan_id: 84255
-order: 39
+order: 32
 category: create
 uri: /create/citizens-of-culture/
 

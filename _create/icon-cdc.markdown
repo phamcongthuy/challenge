@@ -116,7 +116,7 @@ link_newsletter: 'http://eepurl.com/chb-ar'
 link_volunteer: 'http://www.iconcdc.org/contact/'
 link_donate: 'http://www.iconcdc.org/contact/'
 plan_id: 84113
-order: 30
+order: 50
 category: create
 uri: /create/icon-cdc/
 

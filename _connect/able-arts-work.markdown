@@ -109,8 +109,10 @@ link_newsletter: 'https://app.e2ma.net/app2/audience/signup/65374/37877/?v=a'
 link_volunteer: info@ableartswork.org
 link_donate: 'https://npo.justgive.org/ableartswork'
 plan_id: 84174
-order: 39
+order: 0
 category: connect
 uri: /connect/able-arts-work/
+is_winner: true
+is_finalist: true
 
 ---

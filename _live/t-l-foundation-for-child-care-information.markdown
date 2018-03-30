@@ -118,7 +118,7 @@ link_newsletter: 'http://www.tlfcci.org/stay-informed.html'
 link_volunteer: null
 link_donate: 'https://www.paypal.com/fundraiser/charity/189390'
 plan_id: 84327
-order: 48
+order: 15
 category: live
 uri: /live/t-l-foundation-for-child-care-information/
 

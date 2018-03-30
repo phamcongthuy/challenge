@@ -116,9 +116,8 @@ link_newsletter: 'https://www.mda.org/get-involved/become-a-volunteer'
 link_volunteer: 'https://www.mda.org/get-involved/become-a-volunteer'
 link_donate: null
 plan_id: 82435
-order: 3
+order: 38
 category: live
 uri: /live/muscular-dystrophy-association/
-is_finalist: true
 
 ---

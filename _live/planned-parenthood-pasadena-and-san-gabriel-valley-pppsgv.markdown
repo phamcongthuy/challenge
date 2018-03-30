@@ -127,7 +127,7 @@ link_volunteer: >-
 link_donate: >-
   https://secure.ppaction.org/site/Donation2?df_id=12833&12833.donation=form1&s_src=Evergreen_c3_PPDirected_banner&s_designeeid=1083&_ga=1.97325851.56550533.1472791199
 plan_id: 84342
-order: 51
+order: 45
 category: live
 uri: /live/planned-parenthood-pasadena-and-san-gabriel-valley-pppsgv/
 

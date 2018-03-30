@@ -70,7 +70,7 @@ link_newsletter: 'http://bit.ly/2dhkdhJ'
 link_volunteer: null
 link_donate: 'http://www.hollywoodartscouncil.org/support/'
 plan_id: 84147
-order: 43
+order: 54
 category: learn
 uri: /learn/hollywood-arts-council/
 

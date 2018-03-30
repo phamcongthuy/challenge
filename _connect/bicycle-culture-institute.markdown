@@ -104,7 +104,7 @@ link_newsletter: 'http://labiketrains.com/1467-2/'
 link_volunteer: 'http://labiketrains.com/participate/'
 link_donate: 'http://labiketrains.com/donate/'
 plan_id: 84420
-order: 65
+order: 30
 category: connect
 uri: /connect/bicycle-culture-institute/
 

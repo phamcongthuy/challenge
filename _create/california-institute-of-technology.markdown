@@ -140,7 +140,7 @@ link_volunteer: 'http://www.flow.caltech.edu/'
 link_donate: >-
   https://securelb.imodules.com/s/1709/devassoc/index.aspx?sid=1709&gid=3&pgid=498
 plan_id: 84149
-order: 33
+order: 13
 category: create
 uri: /create/california-institute-of-technology/
 

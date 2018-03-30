@@ -77,7 +77,7 @@ link_newsletter: 'http://worthyflove.net/contact/'
 link_volunteer: 'http://worthyoflove.net/contact/'
 link_donate: 'http://worthyoflove.net/donate/'
 plan_id: 83963
-order: 24
+order: 11
 category: connect
 uri: /connect/worthy-of-love/
 

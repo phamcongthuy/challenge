@@ -138,7 +138,7 @@ link_newsletter: 'http://www.braidtheory.com'
 link_volunteer: 'http://www.braidtheory.com'
 link_donate: null
 plan_id: 84155
-order: 34
+order: 26
 category: create
 uri: /create/braid-theory-inc-/
 

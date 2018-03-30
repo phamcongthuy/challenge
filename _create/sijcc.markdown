@@ -105,7 +105,7 @@ link_newsletter: 'https://www.sijcc.net'
 link_volunteer: 'https://www.sijcc.net/support'
 link_donate: 'https://www.sijcc.net/donate'
 plan_id: 84369
-order: 45
+order: 28
 category: create
 uri: /create/sijcc/
 

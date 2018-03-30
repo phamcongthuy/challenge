@@ -99,7 +99,7 @@ link_newsletter: everyoneon.org
 link_volunteer: everyoneon.org
 link_donate: 'https://everyoneon.org/donate/'
 plan_id: 84285
-order: 54
+order: 17
 category: learn
 uri: /learn/everyoneon/
 

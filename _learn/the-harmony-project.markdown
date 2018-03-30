@@ -97,7 +97,7 @@ link_newsletter: 'https://www.harmony-project.org/join/'
 link_volunteer: 'https://www.harmony-project.org/join/'
 link_donate: 'https://www.harmony-project.org/donate/'
 plan_id: 84482
-order: 72
+order: 36
 category: learn
 uri: /learn/the-harmony-project/
 

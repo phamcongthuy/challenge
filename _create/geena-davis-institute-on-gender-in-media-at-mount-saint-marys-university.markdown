@@ -139,7 +139,7 @@ link_newsletter: >-
 link_volunteer: 'http://seejane.org/get-involved-3/'
 link_donate: 'http://seejane.org/about-us/donate-to-the-institute/'
 plan_id: 82643
-order: 8
+order: 25
 category: create
 uri: >-
   /create/geena-davis-institute-on-gender-in-media-at-mount-saint-marys-university/

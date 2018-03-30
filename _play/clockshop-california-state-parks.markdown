@@ -116,7 +116,7 @@ link_newsletter: 'http://clockshop.nationbuilder.com/sign_up'
 link_volunteer: 'https://clockshop.org/volunteer/'
 link_donate: 'https://clockshop.nationbuilder.com/donate'
 plan_id: 83841
-order: 6
+order: 12
 category: play
 uri: /play/clockshop-california-state-parks/
 

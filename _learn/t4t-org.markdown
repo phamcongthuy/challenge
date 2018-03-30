@@ -91,7 +91,7 @@ link_newsletter: 'http://www.t4t.org/newsletter/'
 link_volunteer: 'http://www.t4t.org/donate/volunteer/'
 link_donate: 'http://www.t4t.org/donate/'
 plan_id: 84393
-order: 64
+order: 69
 category: learn
 uri: /learn/t4t-org/
 

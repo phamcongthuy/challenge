@@ -133,7 +133,7 @@ link_volunteer: None
 link_donate: >-
   https://sierra.secure.force.com/donate/rc_connect__campaign_designform?id=70131000001hPsPAAU&formcampaignid=701310000008koOAAQ#!form=00P3100000SKFsyEAH
 plan_id: 84321
-order: 47
+order: 56
 category: live
 uri: /live/the-sierra-club-foundation/
 

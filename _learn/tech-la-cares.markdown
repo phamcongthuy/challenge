@@ -180,9 +180,8 @@ link_newsletter: 'http://techlacares.com'
 link_volunteer: 'http://techlacares.com'
 link_donate: 'http://techlacares.com'
 plan_id: 82378
-order: 1
+order: 19
 category: learn
 uri: /learn/tech-la-cares/
-is_finalist: true
 
 ---

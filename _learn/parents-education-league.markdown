@@ -112,7 +112,7 @@ link_volunteer: >-
   https://docs.google.com/a/parentseducationleague.org/forms/d/e/1FAIpQLSdK16BKb3-lY6VmL0zcQIjgwwEWG338NrKHW8rrVwiTBhstKw/viewform
 link_donate: 'http://www.parentseducationleague.org/donate/'
 plan_id: 84019
-order: 33
+order: 25
 category: learn
 uri: /learn/parents-education-league/
 

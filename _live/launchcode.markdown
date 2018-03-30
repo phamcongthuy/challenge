@@ -73,7 +73,7 @@ link_newsletter: 'http://www.launchcode.org'
 link_volunteer: null
 link_donate: null
 plan_id: 84450
-order: 58
+order: 23
 category: live
 uri: /live/launchcode/
 

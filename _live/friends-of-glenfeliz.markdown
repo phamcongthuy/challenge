@@ -121,7 +121,7 @@ link_volunteer: info@friendsofglenfeliz.org
 link_donate: >-
   https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=JHDroRFQdIjO6SShckN-xWdBrZbW3T_tP3--3EYPC7ErBfiOid8omlZBfiS&dispatch=5885d80a13c0db1f8e263663d3faee8d4fe1dd75ca3bd4f11d72275b28239088
 plan_id: 82718
-order: 8
+order: 24
 category: live
 uri: /live/friends-of-glenfeliz/
 

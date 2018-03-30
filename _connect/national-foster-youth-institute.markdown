@@ -104,9 +104,8 @@ link_newsletter: 'https://www.nfyi.org/take-action/'
 link_volunteer: 'https://www.nfyi.org/take-action/'
 link_donate: 'https://www.nfyi.org/donate/'
 plan_id: 82391
-order: 2
+order: 17
 category: connect
 uri: /connect/national-foster-youth-institute/
-is_finalist: true
 
 ---

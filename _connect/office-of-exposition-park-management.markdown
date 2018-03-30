@@ -160,7 +160,7 @@ link_newsletter: expositionpark.ca.gov/contact-us/
 link_volunteer: expositionpark.ca.gov/contact-us/
 link_donate: null
 plan_id: 83997
-order: 26
+order: 15
 category: connect
 uri: /connect/office-of-exposition-park-management/
 

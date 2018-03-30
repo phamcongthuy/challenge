@@ -108,7 +108,7 @@ link_newsletter: N/A
 link_volunteer: N/A
 link_donate: N/A
 plan_id: 84265
-order: 50
+order: 46
 category: connect
 uri: /connect/university-of-southern-california/
 

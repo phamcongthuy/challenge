@@ -62,7 +62,7 @@ link_newsletter: 'http://www.thealliancechoice.com/synergy_village'
 link_volunteer: 'http://www.thealliancechoice.com/volunteer_for_synergy_village'
 link_donate: 'https://igg.me/at/FTLtFg-FBp8'
 plan_id: 84334
-order: 49
+order: 33
 category: live
 uri: /live/alliance-building-construction-services/
 

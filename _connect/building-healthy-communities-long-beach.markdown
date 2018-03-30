@@ -120,7 +120,7 @@ link_volunteer: 'http://www.bhclongbeach.org/action/'
 link_donate: >-
   https://donatenow.networkforgood.org/communitypartners/?designation=Building%20Healthy%20Communities%3A%20Long%20Beach
 plan_id: 84145
-order: 36
+order: 51
 category: connect
 uri: /connect/building-healthy-communities-long-beach/
 

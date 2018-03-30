@@ -126,7 +126,7 @@ link_newsletter: 'http://www.sundance.org/about/contact#getupdates'
 link_volunteer: 'http://www.sundance.org/festivals/sundance-film-festival/volunteer'
 link_donate: 'http://www.sundance.org/support/donate'
 plan_id: 84141
-order: 35
+order: 44
 category: connect
 uri: /connect/sundance-institute/
 

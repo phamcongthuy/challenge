@@ -113,7 +113,7 @@ link_newsletter: 'http://laincubator.org/'
 link_volunteer: 'http://laincubator.org/about/opportunities/'
 link_donate: 'http://www.prototype.la/'
 plan_id: 83976
-order: 23
+order: 51
 category: create
 uri: /create/los-angeles-cleantech-incubator/
 

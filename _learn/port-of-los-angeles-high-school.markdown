@@ -156,9 +156,8 @@ link_newsletter: 'https://app.e2ma.net/app2/audience/signup/1752496/1731656/'
 link_volunteer: 'http://www.polahs.net/supporters/fundraisers-and-events'
 link_donate: 'http://www.polahs.net/supporters'
 plan_id: 82382
-order: 2
+order: 11
 category: learn
 uri: /learn/port-of-los-angeles-high-school/
-is_finalist: true
 
 ---

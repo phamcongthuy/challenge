@@ -96,10 +96,8 @@ link_newsletter: >-
 link_volunteer: 'http://www.milkandbookies.org/host-your-own/opportunities/'
 link_donate: 'http://www.milkandbookies.org/shop/'
 plan_id: 82359
-order: 0
+order: 41
 category: learn
 uri: /learn/milk-bookies/
-is_winner: true
-is_finalist: true
 
 ---

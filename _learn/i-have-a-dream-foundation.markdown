@@ -73,8 +73,9 @@ link_newsletter: 'http://www.ihadla.org'
 link_volunteer: 'http://www.ihadla.org'
 link_donate: 'http://www.ihadla.org'
 plan_id: 84316
-order: 75
+order: 4
 category: learn
 uri: /learn/i-have-a-dream-foundation/
+is_finalist: true
 
 ---

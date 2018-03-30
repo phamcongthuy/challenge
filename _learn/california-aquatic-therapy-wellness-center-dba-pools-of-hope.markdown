@@ -116,7 +116,7 @@ link_newsletter: 'https://www.caaquatictherapy.com/pool-therapy-news.php'
 link_volunteer: 'https://www.caaquatictherapy.com/contact.php'
 link_donate: 'https://www.caaquatictherapy.com/donate.php'
 plan_id: 84415
-order: 67
+order: 50
 category: learn
 uri: /learn/california-aquatic-therapy-wellness-center-dba-pools-of-hope/
 

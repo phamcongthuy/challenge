@@ -68,7 +68,7 @@ link_newsletter: 'http://www.monthofphotography.com/newsletter'
 link_volunteer: null
 link_donate: 'http://www.luciefoundation.org/donate/'
 plan_id: 84468
-order: 67
+order: 41
 category: connect
 uri: /connect/lucie-foundation/
 

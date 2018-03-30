@@ -89,9 +89,8 @@ link_newsletter: 'https://www.facebook.com/SCALARC/?pnref=story'
 link_volunteer: null
 link_donate: null
 plan_id: 82385
-order: 1
+order: 29
 category: connect
 uri: /connect/sca-larc/
-is_finalist: true
 
 ---

@@ -118,7 +118,7 @@ link_newsletter: 'http://casala.org/category/e-newsletters/'
 link_volunteer: 'http://casala.org/volunteer/'
 link_donate: 'http://casala.org/donate-money/'
 plan_id: 83936
-order: 21
+order: 12
 category: learn
 uri: /learn/casa-of-los-angeles/
 

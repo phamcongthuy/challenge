@@ -110,7 +110,7 @@ link_newsletter: 'http://www.pacoimabeautiful.org/contact-us'
 link_volunteer: 'http://www.pacoimabeautiful.org/volunteer'
 link_donate: 'http://www.pacoimabeautiful.org/donate'
 plan_id: 84054
-order: 25
+order: 10
 category: create
 uri: /create/pacoima-beautiful/
 

@@ -120,9 +120,8 @@ link_newsletter: 'http://www.letsplayascape.com/contact/'
 link_volunteer: 'http://www.letsplayascape.com/get-involved/'
 link_donate: 'http://www.letsplayascape.com/donate/'
 plan_id: 82368
-order: 1
+order: 33
 category: create
 uri: /create/make-music-los-angeles/
-is_finalist: true
 
 ---

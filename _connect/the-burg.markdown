@@ -130,7 +130,7 @@ link_newsletter: burg.io/signup
 link_volunteer: null
 link_donate: null
 plan_id: 83846
-order: 18
+order: 39
 category: connect
 uri: /connect/the-burg/
 

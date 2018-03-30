@@ -108,7 +108,7 @@ link_newsletter: 'http://www.riverla.org/contact'
 link_volunteer: 'http://www.riverla.org/volunteer'
 link_donate: 'https://larivercorp.nationbuilder.com/donate'
 plan_id: 84306
-order: 46
+order: 36
 category: live
 uri: /live/river-la-formerly-la-river-revitalization-corporation/
 

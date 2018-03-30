@@ -99,7 +99,7 @@ link_newsletter: 'http://eepurl.com/ciuCV5'
 link_volunteer: 'http://eepurl.com/ciuEt9'
 link_donate: 'https://www.generosity.com/accounts/sign_up#/manage'
 plan_id: 84367
-order: 60
+order: 22
 category: connect
 uri: /connect/give-today-la/
 

@@ -128,7 +128,7 @@ link_newsletter: www.lisc.org/los_angeles/
 link_volunteer: N/A
 link_donate: www.lisc.org/los_angeles/
 plan_id: 84224
-order: 38
+order: 34
 category: create
 uri: /create/los-angeles-lisc/
 

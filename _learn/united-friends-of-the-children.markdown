@@ -113,7 +113,7 @@ link_newsletter: 'http://www.unitedfriends.org'
 link_volunteer: 'https://www.unitedfriends.org/get-involved/'
 link_donate: 'https://www.unitedfriends.org/donate/'
 plan_id: 84043
-order: 34
+order: 13
 category: learn
 uri: /learn/united-friends-of-the-children/
 

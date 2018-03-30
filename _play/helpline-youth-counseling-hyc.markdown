@@ -132,8 +132,9 @@ link_newsletter: 'http://www.hycinc.org/contact-us'
 link_volunteer: 'http://www.hycinc.org/employment-and-internship-opportunities'
 link_donate: 'http://www.hycinc.org/donations'
 plan_id: 83062
-order: 5
+order: 4
 category: play
 uri: /play/helpline-youth-counseling-hyc/
+is_finalist: true
 
 ---

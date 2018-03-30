@@ -125,9 +125,8 @@ link_newsletter: 'https://www.breakthecycle.org/about-us'
 link_volunteer: 'https://www.breakthecycle.org/volunteer'
 link_donate: 'https://www.breakthecycle.org/donate'
 plan_id: 82463
-order: 4
+order: 65
 category: connect
 uri: /connect/break-the-cycle/
-is_finalist: true
 
 ---

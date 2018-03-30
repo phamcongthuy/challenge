@@ -99,7 +99,7 @@ link_newsletter: 'http://www.smbgc.org/'
 link_volunteer: 'http://www.smbgc.org/about/volunteer/'
 link_donate: 'http://www.smbgc.org/give/'
 plan_id: 84085
-order: 13
+order: 7
 category: play
 uri: /play/community-corporation-of-santa-monica/
 

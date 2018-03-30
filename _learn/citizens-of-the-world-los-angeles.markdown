@@ -122,7 +122,7 @@ link_newsletter: 'http://www.cwclosangeles.org/'
 link_volunteer: 'http://www.cwclosangeles.org/'
 link_donate: 'https://cwclosangeles.nationbuilder.com/'
 plan_id: 83934
-order: 19
+order: 23
 category: learn
 uri: /learn/citizens-of-the-world-los-angeles/
 

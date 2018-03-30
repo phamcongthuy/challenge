@@ -138,7 +138,7 @@ link_newsletter: 'http://educators4excellence.zissousecure.com/register'
 link_volunteer: 'http://educators4excellence.zissousecure.com/register'
 link_donate: 'https://www.classy.org/checkout/donation?eid=64295'
 plan_id: 84487
-order: 73
+order: 71
 category: learn
 uri: /learn/educators-4-excellence-los-angeles/
 

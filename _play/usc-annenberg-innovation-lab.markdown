@@ -134,8 +134,9 @@ link_newsletter: 'http://www.annenberglab.com/'
 link_volunteer: 'http://www.annenberglab.com/'
 link_donate: 'http://annenberg.usc.edu/giving'
 plan_id: 84206
-order: 17
+order: 2
 category: play
 uri: /play/usc-annenberg-innovation-lab/
+is_finalist: true
 
 ---

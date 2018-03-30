@@ -96,7 +96,7 @@ link_newsletter: 'http://www.imaginela.org/join-our-mailing-list/'
 link_volunteer: 'http://www.imaginela.org/become-a-volunteer/'
 link_donate: 'http://www.imaginela.org/donate/'
 plan_id: 84315
-order: 56
+order: 67
 category: connect
 uri: /connect/imagine-la/
 

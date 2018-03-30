@@ -143,7 +143,7 @@ link_newsletter: 'https://www.facebook.com/emx.la/'
 link_volunteer: 'https://www.facebook.com/emx.la/'
 link_donate: 'https://venmo.com/emxlosangeles'
 plan_id: 84062
-order: 26
+order: 20
 category: create
 uri: /create/emx-los-angeles/
 

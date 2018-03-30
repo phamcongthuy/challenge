@@ -125,7 +125,7 @@ link_volunteer: >-
   http://www.caminonuevo.org/apps/pages/index.jsp?uREC_ID=457485&type=d&pREC_ID=993077
 link_donate: 'https://donatenow.networkforgood.org/caminonuevo'
 plan_id: 84049
-order: 35
+order: 8
 category: learn
 uri: /learn/camino-nuevo-charter-academy/
 

@@ -76,7 +76,7 @@ link_newsletter: 'http://capitalandmain.com/'
 link_volunteer: Not applicable
 link_donate: 'http://capitalandmain.com/about-us'
 plan_id: 84476
-order: 60
+order: 61
 category: live
 uri: /live/capital-main/
 

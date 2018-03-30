@@ -125,7 +125,7 @@ link_newsletter: 'mailto:createoutoflove@thecool.la'
 link_volunteer: 'http://thecool.la'
 link_donate: 'http://thecool.la'
 plan_id: 82452
-order: 6
+order: 8
 category: create
 uri: /create/thecool/
 

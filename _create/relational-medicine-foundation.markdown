@@ -117,8 +117,9 @@ link_newsletter: 'http://relationalmedicinefoundation.org'
 link_volunteer: 'http://relationalmedicinefoundation.org'
 link_donate: 'http://www.relationalmedicinefoundation.org/donate'
 plan_id: 84381
-order: 47
+order: 4
 category: create
 uri: /create/relational-medicine-foundation/
+is_finalist: true
 
 ---

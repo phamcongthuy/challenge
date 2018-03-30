@@ -83,7 +83,7 @@ link_newsletter: 'https://cinema.usc.edu/contact/'
 link_volunteer: null
 link_donate: null
 plan_id: 84047
-order: 29
+order: 35
 category: live
 uri: >-
   /live/university-of-southern-california-mobile-environmental-media-lab-in-the-school-of-cinematic-arts/

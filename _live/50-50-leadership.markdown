@@ -85,7 +85,7 @@ link_newsletter: 'http://www.5050leadership.org/Newsletter.html'
 link_volunteer: 'http://www.5050leadership.org/Volunteer.htm'
 link_donate: 'http://www.5050leadership.org/Donations.htm'
 plan_id: 83115
-order: 16
+order: 21
 category: live
 uri: /live/50-50-leadership/
 

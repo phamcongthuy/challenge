@@ -145,7 +145,7 @@ link_newsletter: 'http://www.california-partnership.org/'
 link_volunteer: null
 link_donate: null
 plan_id: 83811
-order: 16
+order: 31
 category: connect
 uri: /connect/california-partnership/
 

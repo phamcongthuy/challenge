@@ -66,7 +66,7 @@ link_newsletter: www.livingspringfoundation.org
 link_volunteer: www.livingspringfoundation.org
 link_donate: www.livingspringfoundation.org
 plan_id: 82372
-order: 63
+order: 22
 category: live
 uri: /live/living-spring-foundation/
 

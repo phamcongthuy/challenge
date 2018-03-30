@@ -122,7 +122,7 @@ link_newsletter: 'http://prokid.info/cn-join'
 link_volunteer: 'http://prokid.info/jobs-cn'
 link_donate: 'https://www.childrennow.org/#donate'
 plan_id: 84301
-order: 45
+order: 37
 category: live
 uri: /live/children-now/
 

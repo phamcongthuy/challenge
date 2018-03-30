@@ -139,7 +139,7 @@ link_newsletter: >-
 link_volunteer: null
 link_donate: 'https://donatenow.networkforgood.org/investinginplace'
 plan_id: 84341
-order: 59
+order: 69
 category: connect
 uri: /connect/investing-in-place/
 

@@ -135,7 +135,7 @@ link_newsletter: 'http://lareviewofbooks/newsletter'
 link_volunteer: 'http://lareviewofbooks/get-involved'
 link_donate: 'http://lareviewofbooks.org/membership'
 plan_id: 83973
-order: 27
+order: 39
 category: learn
 uri: /learn/los-angeles-review-of-books/
 

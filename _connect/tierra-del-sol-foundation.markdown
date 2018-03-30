@@ -65,7 +65,7 @@ link_newsletter: 'http://bit.ly/1NZd5EB'
 link_volunteer: 'https://www.tierradelsol.org/get-involved/volunteer/'
 link_donate: 'https://tierradelsol.thankyou4caring.org/'
 plan_id: 84163
-order: 37
+order: 49
 category: connect
 uri: /connect/tierra-del-sol-foundation/
 

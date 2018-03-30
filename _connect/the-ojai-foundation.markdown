@@ -132,7 +132,7 @@ link_newsletter: 'http://www.ojaifoundation.org/news'
 link_volunteer: 'http://www.ojaifoundation.org/volunteer'
 link_donate: 'https://app.etapestry.com/onlineforms/theojaifoundation/donate-cis.html'
 plan_id: 83113
-order: 15
+order: 6
 category: connect
 uri: /connect/the-ojai-foundation/
 

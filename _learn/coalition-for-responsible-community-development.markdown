@@ -124,7 +124,7 @@ link_newsletter: 'http://www.coalitionrcd.org/'
 link_volunteer: 'http://www.coalitionrcd.org/get-involved/'
 link_donate: 'http://www.coalitionrcd.org/get-involved/'
 plan_id: 83813
-order: 11
+order: 16
 category: learn
 uri: /learn/coalition-for-responsible-community-development/
 

@@ -85,7 +85,7 @@ link_newsletter: 'https://penusa.org/membership'
 link_volunteer: www.zeneithperformingarts.com
 link_donate: 'https://penusa.org/donate'
 plan_id: 83836
-order: 15
+order: 18
 category: create
 uri: /create/pen-center-usa-pen-usa/
 

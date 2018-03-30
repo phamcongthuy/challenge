@@ -107,7 +107,7 @@ link_newsletter: 'http://usgbc-la.org/newsletter-signup'
 link_volunteer: 'http://usgbc-la.org/volunteer'
 link_donate: 'http://usgbc-la.org/donate'
 plan_id: 83945
-order: 21
+order: 13
 category: connect
 uri: /connect/us-green-building-council-la/
 

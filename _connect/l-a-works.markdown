@@ -134,10 +134,8 @@ link_newsletter: >-
 link_volunteer: laworks.com
 link_donate: 'http://www.laworks.com/donate'
 plan_id: 82365
-order: 0
+order: 42
 category: connect
 uri: /connect/l-a-works/
-is_winner: true
-is_finalist: true
 
 ---

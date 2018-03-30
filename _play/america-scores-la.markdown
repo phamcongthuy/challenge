@@ -115,9 +115,8 @@ link_newsletter: 'http://www.americascoresla.org'
 link_volunteer: 'http://www.americascoresla.org'
 link_donate: 'https://onetoday.google.com/p/wy_kuk57?c=5668554279747584'
 plan_id: 82353
-order: 1
+order: 10
 category: play
 uri: /play/america-scores-la/
-is_finalist: true
 
 ---

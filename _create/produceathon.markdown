@@ -138,7 +138,7 @@ link_newsletter: 'http://www.produceathon.org/contact/#join-us'
 link_volunteer: 'http://www.produceathon.org/contact/#join-us'
 link_donate: 'http://www.produceathon.org/sponsors/#sponsors-1'
 plan_id: 84431
-order: 48
+order: 42
 category: create
 uri: /create/produceathon/
 

@@ -123,7 +123,7 @@ link_volunteer: >-
   https://joincityyear.force.com/TX_CommunitiesSelfReg?startURL=%2FTargetX_Portal__PB
 link_donate: 'https://ssl.charityweb.net/cityyear/'
 plan_id: 84221
-order: 46
+order: 6
 category: learn
 uri: /learn/city-year-los-angeles/
 

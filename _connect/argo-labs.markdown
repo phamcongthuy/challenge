@@ -136,7 +136,7 @@ link_newsletter: none
 link_volunteer: 'http://www.argolabs.org/about'
 link_donate: 'http://www.argolabs.org/support'
 plan_id: 84364
-order: 69
+order: 57
 category: connect
 uri: /connect/argo-labs/
 

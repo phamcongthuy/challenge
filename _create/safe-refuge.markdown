@@ -66,7 +66,7 @@ link_newsletter: N/A
 link_volunteer: null
 link_donate: 'https://secure.processdonation.org/asaferefuge/Donation.aspx'
 plan_id: 84445
-order: 49
+order: 22
 category: create
 uri: /create/safe-refuge/
 

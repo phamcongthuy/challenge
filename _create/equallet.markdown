@@ -120,8 +120,9 @@ link_newsletter: equallet.com
 link_volunteer: 'https://www.equallet.com/contactus'
 link_donate: 'https://www.equallet.com/contactus'
 plan_id: 84052
-order: 24
+order: 1
 category: create
 uri: /create/equallet/
+is_finalist: true
 
 ---

@@ -144,7 +144,7 @@ link_newsletter: 'https://www.youthbizalliance.com/contact'
 link_volunteer: 'https://www.youthbizalliance.com/speakers'
 link_donate: 'https://www.youthbizalliance.com/donate'
 plan_id: 84419
-order: 68
+order: 26
 category: learn
 uri: /learn/youth-business-alliance/
 

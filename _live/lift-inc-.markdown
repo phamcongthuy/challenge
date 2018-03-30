@@ -118,8 +118,9 @@ link_newsletter: 'http://www.liftcommunities.org/get-involved/'
 link_volunteer: 'http://www.liftcommunities.org/get-involved/volunteer/'
 link_donate: 'https://donatenow.networkforgood.org/donatetolift'
 plan_id: 84193
-order: 37
+order: 4
 category: live
 uri: /live/lift-inc-/
+is_finalist: true
 
 ---

@@ -90,7 +90,7 @@ link_newsletter: 'http://www.opportunityfund.org/newsletter/'
 link_volunteer: null
 link_donate: 'https://secure.opportunityfund.org/'
 plan_id: 82523
-order: 7
+order: 9
 category: create
 uri: /create/opportunity-fund/
 

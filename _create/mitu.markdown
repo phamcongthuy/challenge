@@ -133,7 +133,7 @@ link_newsletter: 'https://mitunetwork.com/contact/'
 link_volunteer: 'https://mitunetwork.com/contact/'
 link_donate: 'https://mitunetwork.com/contact/'
 plan_id: 84465
-order: 50
+order: 30
 category: create
 uri: /create/mitu/
 

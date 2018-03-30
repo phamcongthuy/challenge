@@ -139,8 +139,9 @@ link_newsletter: 'http://blog.getdrizzle.com/contact/'
 link_volunteer: null
 link_donate: null
 plan_id: 82922
-order: 11
+order: 2
 category: connect
 uri: /connect/drizzle-connect/
+is_finalist: true
 
 ---

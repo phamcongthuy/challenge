@@ -127,9 +127,8 @@ link_volunteer: n/a
 link_donate: >-
   https://secure.squarespace.com/commerce/donate?donatePageId=57b36d602e69cffdddff5a20
 plan_id: 82399
-order: 3
+order: 43
 category: connect
 uri: /connect/nation-of-vibration/
-is_finalist: true
 
 ---

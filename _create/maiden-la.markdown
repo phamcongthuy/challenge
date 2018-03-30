@@ -141,7 +141,7 @@ link_newsletter: 'http://www.maiden.la/contact/'
 link_volunteer: 'https://youtu.be/Qy7qio56M78'
 link_donate: 'http://www.maiden.la/donate/'
 plan_id: 84215
-order: 35
+order: 29
 category: create
 uri: /create/maiden-la/
 

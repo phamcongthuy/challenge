@@ -106,7 +106,7 @@ link_newsletter: 'http://andesignlab.com/pdr/'
 link_volunteer: null
 link_donate: null
 plan_id: 83992
-order: 24
+order: 51
 category: live
 uri: /live/andesign-lab/
 

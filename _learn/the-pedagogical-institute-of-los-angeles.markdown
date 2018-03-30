@@ -115,7 +115,7 @@ link_newsletter: 'http://www.thinkwithus.org/contact'
 link_volunteer: 'http://www.thinkwithus.org/wish-list'
 link_donate: 'https://www.crowdrise.com/thinkwithus-collaborate'
 plan_id: 83949
-order: 23
+order: 10
 category: learn
 uri: /learn/the-pedagogical-institute-of-los-angeles/
 

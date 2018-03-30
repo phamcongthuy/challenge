@@ -115,8 +115,10 @@ link_newsletter: 'https://www.facebook.com/VerdicalGroup/app/100265896690345/'
 link_volunteer: null
 link_donate: null
 plan_id: 84039
-order: 27
+order: 0
 category: live
 uri: /live/verdical-group/
+is_winner: true
+is_finalist: true
 
 ---

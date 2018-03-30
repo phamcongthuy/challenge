@@ -108,7 +108,7 @@ link_newsletter: 'http://www.namisfv.org/newsletter_and_e_news'
 link_volunteer: 'http://www.namisfv.org/volunteer'
 link_donate: 'https://namisfv.nationbuilder.com/donate'
 plan_id: 84426
-order: 55
+order: 42
 category: live
 uri: /live/nami-san-fernando-valley/
 

@@ -138,10 +138,8 @@ link_newsletter: 'http://goodfoodla.org/about/join-our-mailing-list/'
 link_volunteer: null
 link_donate: 'https://donatenow.networkforgood.org/goodfoodla?code=DonateGoodFoodLA01'
 plan_id: 82357
-order: 0
+order: 20
 category: live
 uri: /live/los-angeles-food-policy-council/
-is_winner: true
-is_finalist: true
 
 ---

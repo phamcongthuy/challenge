@@ -135,7 +135,7 @@ link_newsletter: 'http://www.comealivelb.com/contact/'
 link_volunteer: 'http://www.comealivelb.com/contact/'
 link_donate: 'http://www.comealivelb.com/contact/'
 plan_id: 83032
-order: 13
+order: 7
 category: connect
 uri: /connect/come-alive-long-beach/
 

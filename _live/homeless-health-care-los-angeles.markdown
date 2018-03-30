@@ -143,7 +143,7 @@ link_newsletter: hhcla.org/contact-us.html
 link_volunteer: hhcla.org/contact-us.html
 link_donate: hhcla.org/fund-the-solution.html
 plan_id: 82521
-order: 6
+order: 49
 category: live
 uri: /live/homeless-health-care-los-angeles/
 

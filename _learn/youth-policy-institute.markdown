@@ -131,7 +131,7 @@ link_newsletter: 'http://www.ypiusa.org/blog'
 link_volunteer: 'http://www.ypiusa.org/volunteer'
 link_donate: 'https://ypiusa.nationbuilder.com/donate'
 plan_id: 84000
-order: 30
+order: 73
 category: learn
 uri: /learn/youth-policy-institute/
 

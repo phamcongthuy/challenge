@@ -103,7 +103,7 @@ link_newsletter: 'http://www.wisdomartslaboratory.com/mailing'
 link_volunteer: null
 link_donate: null
 plan_id: 84396
-order: 65
+order: 22
 category: learn
 uri: /learn/wisdom-arts-laboratory/
 

@@ -127,10 +127,8 @@ link_volunteer: >-
   http://eekart.us3.list-manage.com/subscribe?u=76cf2ad3d80074fd24adbbec0&id=72119dd1ed
 link_donate: 'https://scvadventureplay.com/support/'
 plan_id: 82193
-order: 0
+order: 18
 category: play
 uri: /play/santa-clarita-valley-adventure-play/
-is_winner: true
-is_finalist: true
 
 ---
