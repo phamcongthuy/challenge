@@ -151,13 +151,27 @@ function generateCollection(data_category) {
     const BRACKET_ID = BRACKETS[data_category]
 
     // Select all of the records
-    const query = `SELECT * FROM entries WHERE bracket_id = ${BRACKET_ID}`
+    const query = `SELECT * FROM entries WHERE bracket_id = ${BRACKET_ID} ORDER BY title`
     console.log(query)
     connection.query(query, (err, records, fields) => {
       if (err) {
         console.error('error querying mysql: ' + err)
         reject(err); return;
       }
+
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+      records = records.sort((a, b) => {
+        // a is less than b by some ordering criterion
+        if (stringToURI(a.title) < stringToURI(b.title)) {
+          return -1;
+        }
+        // a is greater than b by the ordering criterion
+        if (stringToURI(a.title) > stringToURI(b.title)) {
+          return 1;
+        }
+        // a must be equal to b
+        return 0;
+      });
 
       // For each entry
       for (let index = 0; index < records.length; index++) {

@@ -87,6 +87,8 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
 <ul class="proposals" id="project-list">
 
+  {% assign data_list = data_list | sort: "order" %}
+
   {% for data in data_list %}
 
   {% assign do_show_item = false %}
