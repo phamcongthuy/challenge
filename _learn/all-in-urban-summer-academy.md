@@ -10,8 +10,8 @@ organization_description: For-profit organization
 project_video: ''
 link_newsletter: 'https://urbansummeracademy.org/contact/'
 organization_website: urbansummeracademy.org
-organization_twitter: none
-organization_facebook: All-In Urban Summer Academy
+organization_twitter: ''
+organization_facebook: urbansummeracademy
 organization_instagram: urbansummeracademy
 link_donate: >-
   https://allinurbansummeracademy.givingfuel.com/2018-all-in-urban-summer-academy-fundraising
@@ -61,13 +61,13 @@ project_proposal_engage: >-
   will foster homeless youth's curiosity beyond the reality they face.
 project_measure: |-
   The following will be measured:
-   
+
    Student attendance
-   
+
    Intake Assessment
-   
+
    End of Summer Assessment
-   
+
    Weekly Assignments/Progress Reports
 project_five_years: >-
   In five years, I hope that All-In will be able to partner with the other SOW
