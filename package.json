@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "author": "jim@jimthoburn.com",
-  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-markdown": "node _node/create-markdown.js",
