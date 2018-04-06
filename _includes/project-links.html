@@ -23,6 +23,14 @@
 {% endfor %}
 
 {% if page.organization_instagram and page.organization_instagram != "" and page.organization_instagram != "n/a" and page.organization_instagram != "N/A" and page.organization_instagram != "none" %}
+
+{% if page.organization_instagram contains "http" %}
+{% assign instagram_url = page.organization_instagram %}
+{% elsif page.organization_instagram contains "instagram.com/" %}
+{% capture instagram_url %}https://{{ page.organization_instagram }}{% endcapture %}
+{% else %}
+{% capture instagram_url %}https://instagram.com/{{ page.organization_instagram }}{% endcapture %}
+{% endif %}
 <dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -33,11 +41,19 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="https://instagram.com/{{ page.organization_instagram | replace: "@", ""  }}">@{{ page.organization_instagram | replace: "@", ""  }}</a></dd>
+<dd><a href="{{ instagram_url }}">@{{ page.organization_instagram | replace: "https://www.instagram.com/", "" | replace: "https://instagram.com/", "" | replace: "www.instagram.com/", "" | replace: "instagram.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
 </dl>
 {% endif %}
 
 {% if page.organization_twitter and page.organization_twitter != "" and page.organization_twitter != "n/a" and page.organization_twitter != "N/A" and page.organization_twitter != "none" %}
+
+{% if page.organization_twitter contains "http" %}
+{% assign twitter_url = page.organization_twitter %}
+{% elsif page.organization_twitter contains "twitter.com/" %}
+{% capture twitter_url %}https://{{ page.organization_twitter }}{% endcapture %}
+{% else %}
+{% capture twitter_url %}https://twitter.com/{{ page.organization_twitter }}{% endcapture %}
+{% endif %}
 <dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -48,7 +64,7 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="https://twitter.com/{{ page.organization_twitter | replace: "@", "" }}">@{{ page.organization_twitter | replace: "@", "" }}</a></dd>
+<dd><a href="{{ twitter_url }}">@{{ page.organization_twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
 </dl>
 {% endif %}
 
@@ -71,7 +87,7 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="{{ facebook_url }}">{{ page.organization_facebook | replace: "https://www.facebook.com/", "" | replace: "https://facebook.com/", "" | replace: "www.facebook.com/", "" | replace: "facebook.com/", "" }}</a></dd>
+<dd><a href="{{ facebook_url }}">{{ page.organization_facebook | replace: "https://www.facebook.com/", "" | replace: "https://facebook.com/", "" | replace: "www.facebook.com/", "" | replace: "facebook.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
 </dl>
 {% endif %}
 

@@ -1,20 +1,11 @@
-'use strict'
 
-let { MYSQL_HOST, MYSQL_DATABASE, MYSQL_USERNAME, MYSQL_PASSWORD } = require('./mysql-config.js')
+'use strict';
 
-let mysql      = require('mysql')
-let connection = mysql.createConnection({
-  host     : MYSQL_HOST,
-  database : MYSQL_DATABASE,
-  user     : MYSQL_USERNAME,
-  password : MYSQL_PASSWORD
-})
-
-let fs = require('fs')
-let mkdirp = require('mkdirp')
-let yaml = require('js-yaml')
-
-let phpUnserialize = require('phpunserialize')
+let fs = require('fs');
+let mkdirp = require('mkdirp');
+let parse = require('csv-parse/lib/sync');
+let yaml = require('js-yaml');
+// let request = require("request");
 
 function stringToURI(str) {
   return String(str).toLowerCase()
@@ -43,75 +34,85 @@ function stringToURI(str) {
     .replace(/\-\-\-\-/g, '-')
     .replace(/\-\-\-/g, '-')
     .replace(/\-\-/g, '-')
+    .replace(/^\-/g, '') // Remove starting dash
+    .replace(/\-$/g, '') // Remove trailing dash
     .replace(' ', '');
 }
 
-function hasValue(value) {
-  value = value.toLowerCase()
-  return value != 'n/a' && value != 'none' && value != ''
+function getArrayFromString(string) {
+  if (!string) return []
+
+  string = string
+    .replace('undefined:1', '')
+    .replace("\"open spaces\"", "“open spaces”")
+    .replace(/^"/g, '')  // Remove leading quote
+    .replace(/"$/g, '')  // Remove trailing quote
+    .replace(/', '/g, '", "') // Change single quotes into double quotes (since that’s require for valid JSON)
+    .replace(/', "/g, '", "')
+    .replace(/", '/g, '", "')
+    .replace(/\['/g, '["')
+    .replace(/'\]/g, '"]');
+  //string = `${string}`.replace(/'/g, '"');
+  console.log('parsing JSON string: ' + string);
+  console.log('');
+  console.log('');
+  console.log('');
+  return JSON.parse(string);
 }
 
-// function removeJsonFromFieldValue(value) {
-//   return String(value)
-//     .replace(/a:2:{s:10:"section_id";s:5:"[0-9]*";s:6:"answer";s:[0-9]*:"/, '')
-//     .replace(/a:2:{s:10:"section_id";s:5:"[0-9]*";s:6:"answer";a:[0-9]*:{i:[0-9]*;s:[0-9]*:"/, '')
-//     .replace(/";i:1;s:8:"/, ',')
-//     .replace(/";i:2;s:83:"/, ',')
-//     .replace('County of Los Angeles (please select only if your project has a countywide benefit)', 'County of Los Angeles')
-//     .replace('City of Los Angeles (please select only if your project has a citywide benefit)', 'City of Los Angeles')
-//     .replace(/";}/, '')
-// }
+/**
+ * Returns a random integer between min (inclusive) and max (inclusive)
+ * Using Math.round() will give you a non-uniform distribution!
+ */
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
-function createMarkdownFile(writePath, data, data_category, order) {
+function createMarkdownFile(data, category) {
+  console.log('createMarkdownFile for ' + data.organization_name);
+  if (!category) category = data.category.toLowerCase();
+  let writePath = './_' + category; // Example: _/connect
 
-  console.log('writePath: ' + writePath)
-  console.log('data_category: ' + data_category)
-  console.log('data: ' + data)
-  // console.dir(data)
+  let filename = stringToURI(data.organization_name);
 
-  for (let prop in data) {
-    if (typeof data[prop] === 'string' && data[prop].indexOf('a:2:') === 0) {
-      data[prop] = phpUnserialize(data[prop]).answer
-    }
-    if (prop === 'project_areas') {
-      let values = data[prop]
-      for (let index = 0; index < values.length; index++) {
-        values[index] = values[index].replace(' (please select only if your project has a countywide benefit)', '')
-        values[index] = values[index].replace(' (please select only if your project has a citywide benefit)', '')
-      }
-      data[prop] = values
-    } else if (typeof data[prop] === 'string') {
-      data[prop] = String(data[prop]).replace(/\n•\t/g, `
-* `)
-    }
-    console.log(data[prop])
-    // data[prop] = removeJsonFromFieldValue(data[prop])
-  }
+  // Page title
+  //data.title = data.title + ' — My LA2050 Activation Challenge';
 
-  let filename = data.organization_name
+  // https://stackoverflow.com/questions/1117584/generating-guids-in-ruby#answer-1126031
+  // https://gist.github.com/emacip/b28ba7e9203a38d440e23c38586c303d
+  // >> rand(36**8).to_s(36)
+  // => "uur0cj2h"
+  data.unique_identifier = getRandomInt(0, Math.pow(36, 8)).toString(36);
 
-  filename = stringToURI(filename)
+  data.category = category;
+  data.uri = '/' + category + '/' + filename + '/';
+  data.order = orderCursors[category]++;
+  if (!data.project_image) data.project_image = '/assets/images/' + category + '/' + filename + '.jpg';
 
-  data.order = order
-  data.category = data_category
-  data.uri = `/${data.category}/${filename}/`
-  delete data.is_finalist
-  delete data.is_winner
-  delete data.bracket_id
-  delete data.votes
-  delete data.date_created
-  delete data.id
-  delete data.status
-  // delete data.plan_id
-  delete data.updated
-  delete data.slug
-
-  if (order < 1) {
+  if (data.order < 1) {
     data.is_winner = true;
   }
-  if (order < 5) {
+  if (data.order < 5) {
     data.is_finalist = true;
   }
+
+  // data.organization_website = data.organization_website.split('; ');
+  // data.organization_twitter = data.organization_twitter.split('; ');
+  // data.organization_facebook = data.organization_facebook.split('; ');
+  // data.organization_instagram = data.organization_instagram.split('; ');
+  data.project_proposal_mobilize = getArrayFromString(data.project_proposal_mobilize);
+  data.project_areas = getArrayFromString(data.project_areas);
+  data.project_video = data.project_video.replace('watch', 'embed');
+
+  let metrics = getArrayFromString(data.create_metrics)
+        .concat(getArrayFromString(data.connect_metrics))
+        .concat(getArrayFromString(data.learn_metrics))
+        .concat(getArrayFromString(data.live_metrics))
+        .concat(getArrayFromString(data.play_metrics))
+
+  data.project_proposal_impact = metrics;
+
+  console.dir(data);
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
   let output =
@@ -119,11 +120,12 @@ function createMarkdownFile(writePath, data, data_category, order) {
 ${yaml.safeDump(data)}
 ---
 `
+
   mkdirp(writePath, function (err) {
     if (err) {
       console.error(err);
     } else {
-      fs.writeFileSync(writePath + '/' +  filename + '.markdown', output, 'utf8', (err) => {
+      fs.writeFileSync(writePath + '/' +  filename + '.md', output, 'utf8', (err) => {
         if (err) {
           console.log(err);
         }
@@ -132,102 +134,50 @@ ${yaml.safeDump(data)}
   });
 }
 
-const BRACKETS = {
-  'learn':   '973',
-  'create':  '974',
-  'play':    '975',
-  'connect': '976',
-  'live':    '977'
+let orderCursors = {
+  learn: 0,
+  create: 0,
+  play: 0,
+  connect: 0,
+  live: 0
 }
 
-function generateCollection(data_category) {
-
-  console.log('data_category: ' + data_category)
-
-  let writePath = './_' + data_category // Example: _/learn
-
-  return new Promise((resolve, reject) => {
-
-    const BRACKET_ID = BRACKETS[data_category]
-
-    // Select all of the records
-    const query = `SELECT * FROM entries WHERE bracket_id = ${BRACKET_ID} ORDER BY title`
-    console.log(query)
-    connection.query(query, (err, records, fields) => {
-      if (err) {
-        console.error('error querying mysql: ' + err)
-        reject(err); return;
-      }
-
-      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-      records = records.sort((a, b) => {
-        // a is less than b by some ordering criterion
-        if (stringToURI(a.title) < stringToURI(b.title)) {
-          return -1;
-        }
-        // a is greater than b by the ordering criterion
-        if (stringToURI(a.title) > stringToURI(b.title)) {
-          return 1;
-        }
-        // a must be equal to b
-        return 0;
-      });
-
-      // For each entry
-      for (let index = 0; index < records.length; index++) {
-        createMarkdownFile(writePath, records[index], data_category, index)
-      }
-
-      resolve(records)
-
-    })
-
-  })
-
-
-}
-
-let projects = {}
-
-const categories = [
-  'learn',
-  'create',
-  'play',
-  'connect',
-  'live'
-]
-
-let categoriesCursor = 0
-
-function generateNext() {
-  let category = categories[categoriesCursor]
-
-  console.log(`**************generateNext: ${category}`)
-
-  generateCollection(category)
-    .then(records => {
-      projects[category] = records
-
-      categoriesCursor++
-      if (categoriesCursor < categories.length) {
-        generateNext()
-      } else {
-        connection.end(function(err) {})
-      }
-    })
-    .catch(reason => console.error(reason))
-}
-
-
-connection.connect(function(err) {
-  if (err) {
-    console.error('error connecting to mysql: ' + err.stack)
-    reject(err); return;
+function fixDataCharacters(data) {
+  for (let prop in data) {
+    if (typeof(data[prop]) === 'string') {
+      data[prop] = data[prop]
+        .replace('â€“', '—')
+        .replace('â€˜', '‘')
+        .replace('â€™', '’')
+        .replace('â€¯', '') // ?
+        .replace('â€”', '—') // ?
+        .replace('â€‹', '') // ?
+        .replace('â€œ', '“') // ?
+        .replace('â€', '”') // ?
+      console.log()
+    }
   }
 
-  console.log('connected to mysql as id ' + connection.threadId)
+  return data;
+}
 
-  generateNext()
-})
+function generateCollections(file_name, category) {
+
+  console.log('generateCollections: ' + file_name);
+
+  let input = fs.readFileSync('./_spreadsheets/' + file_name, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
+  let records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
+
+  for (let index = 0; index < records.length; index++) {
+    let data = fixDataCharacters(records[index]);
+    createMarkdownFile(data, category);
+  }
+  return records;
+}
 
 
+generateCollections('learn.csv', 'learn');
+generateCollections('create.csv', 'create');
+generateCollections('play.csv', 'play');
+generateCollections('connect.csv', 'connect');
+generateCollections('live.csv', 'live');

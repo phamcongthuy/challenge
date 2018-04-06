@@ -727,7 +727,7 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
     }
     .header-figure.has-caption.has-caption-details img {
       top: 0 !important;
-      height: 55vw !important;
+      height: 60vw !important;
       object-position: top !important;
     }
     .header-figure.has-caption::before {
