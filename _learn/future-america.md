@@ -10,7 +10,7 @@ project_description: >-
 organization_name: Future America
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/bbNl_ikc93g'
-link_newsletter: '#LatinJazzLosAngeles'
+link_newsletter: ''
 organization_website: www.futureamerica.com
 organization_twitter: misterlatinjazz
 organization_facebook: >-
