@@ -10,7 +10,7 @@ organization_description: Non-profit organization
 project_video: ''
 organization_website: 'http://www.grid110.org'
 organization_twitter: grid110
-organization_facebook: 'http://www.facebook.com/grid110'
+organization_facebook: 'https://facebook.com/grid110'
 organization_instagram: grid110
 link_newsletter: 'http://eepurl.com/blZr8L'
 link_volunteer: 'https://www.grid110.org/mentors/'
