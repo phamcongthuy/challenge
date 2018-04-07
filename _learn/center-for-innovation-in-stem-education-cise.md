@@ -9,19 +9,14 @@ project_description: >-
   recognized Next Generation Science Standards.
 organization_name: Center for Innovation in STEM Education (CISE)
 organization_description: Government
-project_video: Insert
-link_newsletter: |-
-  http://www.csi3.org
-   
-   (CSI3 is a division within CISE that oversees all K-12 activities, such as teacher pathways, professional development for teachers)
+project_video: ''
+link_newsletter: http://www.csi3.org
+link_newsletter_note: 'CSI3 is a division within CISE that oversees all K-12 activities, such as teacher pathways, professional development for teachers'
 organization_website: 'https://www.csudh.edu/cise/'
 organization_twitter: '@DominguezHills'
 organization_facebook: 'https://www.facebook.com/CSUDH/'
 organization_instagram: csudominguezhills
-link_donate: |-
-  https://www.csudh.edu/development/give-now/
-   
-   If we are awarded the LA2050 grant, a donation link will be added to the CISE website.
+link_donate: https://www.csudh.edu/development/give-now/
 link_volunteer: 'http://www.csi3.org/volunteer'
 organization_activity: >-
   CISE brings STEM to the forefront of K-16 education by partnering with
