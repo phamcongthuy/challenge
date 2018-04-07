@@ -36,15 +36,15 @@ stylesheets:
     {% assign video_embed_url = video_embed_url | replace: 'embed?v=', 'embed/' %}
 
     {% assign video_embed_url = video_embed_url | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' %}
+  {% endif %}
 
+  {% comment %}
     {% assign video_embed_url_array = video_embed_url | split: "?" %}
     {% assign video_embed_url = video_embed_url_array.first %}
     {% assign video_embed_url_array = video_embed_url | split: "&" %}
     {% assign video_embed_url = video_embed_url_array.first %}
-  {% endif %}
 
-  {% comment %}
-  {% capture video_embed_url %}{{ video_embed_url }}?rel=0&showinfo=0&modestbranding=1{% endcapture %}
+    {% capture video_embed_url %}{{ video_embed_url }}?rel=0&showinfo=0&modestbranding=1{% endcapture %}
   {% endcomment %}
 
   {% assign video_embed_url = video_embed_url | replace: 'https://vimeo.com/', 'https://player.vimeo.com/video/' %}

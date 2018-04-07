@@ -6,7 +6,7 @@ project_description: >-
   through a program of research, analysis, public information and education.
 organization_name: CalEITC4Me
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?time_continue=6&v=55FW0fd5Mh4'
+project_video: 'https://www.youtube.com/embed?v=55FW0fd5Mh4'
 link_newsletter: www.caleitc4me.org
 organization_website: www.caleitc4me.org
 organization_twitter: '@CalEITC4Me'

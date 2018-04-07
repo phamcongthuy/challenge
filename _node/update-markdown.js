@@ -140,11 +140,26 @@ function processFile(filename) {
   let data = loadMarkdown(filename);
   if (!data) return;
 
+  // saveMarkdown(filename, data);
+
+
+
+
+
+
+
+
+
   // Simplify image URL
   // let project_image_paths = data.yaml.project_image.split('/');
   // data.yaml.project_image = project_image_paths[project_image_paths.length - 1];
 
-  if (data.yaml.project_video !== '' && data.yaml.project_video.indexOf('youtu') < 0 && data.yaml.project_video.indexOf('vimeo') < 0) {
+  // if (data.yaml.project_video !== '' && data.yaml.project_video.indexOf('youtu') < 0 && data.yaml.project_video.indexOf('vimeo') < 0) {
+  //   console.log(filename)
+  //   console.log(data.yaml.project_video)
+  // }
+
+  if (data.yaml.project_video.indexOf('https://www.youtube.com/embed?') >= 0 && data.yaml.project_video.indexOf('https://www.youtube.com/embed?v=') < 0) {
     console.log(filename)
     console.log(data.yaml.project_video)
   }
@@ -197,8 +212,6 @@ function processFile(filename) {
   // delete data.yaml.unique_identifier;
 
   // data.yaml = convertStringsToJSON(data.yaml)
-
-  saveMarkdown(filename, data);
 
 }
 
