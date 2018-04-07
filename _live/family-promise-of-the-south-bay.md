@@ -13,9 +13,7 @@ organization_website: www.TinyCitiesLA.com
 organization_twitter: TinyCitiesLA
 organization_instagram: TinyCitiesLA
 organization_facebook: Tiny Cities LA
-link_volunteer: >-
-  Website is under construction. Please Email us at
-  HomelessSolutions@TinyCitiesLA.com.
+link_volunteer: mailto:HomelessSolutions@TinyCitiesLA.com
 link_donate: >-
   Donations will not be accepted until we receive the IRS Determination Letter
   for this specific project (Tiny Cities LA), which is a collaboration with
