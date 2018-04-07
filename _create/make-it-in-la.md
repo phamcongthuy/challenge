@@ -9,7 +9,7 @@ project_description: >-
   mobilize the creative community to MAKE IT IN LA!
 organization_name: MAKE IT IN LA
 organization_description: Non-profit organization
-project_video: 'http://makeitinla.org/makerwalkvideo'
+project_video: 'https://www.youtube.com/watch?v=x2Ty5rjHVyE'
 organization_website:
   - 'http://makeitinla.org'
   - 'http://lafoodfest.com'
