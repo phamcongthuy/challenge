@@ -144,6 +144,11 @@ function processFile(filename) {
   // let project_image_paths = data.yaml.project_image.split('/');
   // data.yaml.project_image = project_image_paths[project_image_paths.length - 1];
 
+  if (data.yaml.project_video !== '' && data.yaml.project_video.indexOf('youtu') < 0 && data.yaml.project_video.indexOf('vimeo') < 0) {
+    console.log(filename)
+    console.log(data.yaml.project_video)
+  }
+
   /*
   if (data.yaml.organization_website.indexOf(' ') >= 0 ||
       data.yaml.organization_twitter.indexOf(' ') >= 0 ||
@@ -152,32 +157,38 @@ function processFile(filename) {
       data.yaml.link_newsletter.indexOf(' ') >= 0 ||
       data.yaml.link_donate.indexOf(' ') >= 0 ||
       data.yaml.link_volunteer.indexOf(' ') >= 0) {
-    console.log('***');
-    console.log(filename);
+
+    // console.log('uri, organization_name, problem detected with');
+
+    let problemList = []
+
     if (data.yaml.organization_website.indexOf(' ') >= 0) {
-      console.log(data.yaml.organization_website);
+      problemList.push('organization_website');
     }
     if (data.yaml.organization_twitter.indexOf(' ') >= 0) {
-      console.log(data.yaml.organization_twitter);
+      problemList.push('organization_twitter');
     }
     if (data.yaml.organization_facebook.indexOf(' ') >= 0) {
-      console.log(data.yaml.organization_facebook);
+      problemList.push('organization_facebook');
     }
     if (data.yaml.organization_instagram.indexOf(' ') >= 0) {
-      console.log(data.yaml.organization_instagram);
+      problemList.push('organization_instagram');
     }
     if (data.yaml.link_newsletter.indexOf(' ') >= 0) {
-      console.log(data.yaml.link_newsletter);
+      problemList.push('link_newsletter');
     }
     if (data.yaml.link_donate.indexOf(' ') >= 0) {
-      console.log(data.yaml.link_donate);
+      problemList.push('link_donate');
     }
     if (data.yaml.link_volunteer.indexOf(' ') >= 0) {
-      console.log(data.yaml.link_volunteer);
+      problemList.push('link_volunteer');
     }
-    console.log('***');
+
+    // console.log(`https://staging-activation.la2050.org${data.yaml.uri}, https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
+    // console.log(`https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename.split('/')[filename.split('/').length - 1]}`);
   }
   */
+  
 
   // data.yaml = changeNAtoEmpty(data.yaml);
   // data.yaml = addMailTo(data.yaml);
