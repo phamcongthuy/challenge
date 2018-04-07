@@ -105,11 +105,28 @@ function convertStringsToJSON(data) {
   return data;
 }
 
+// https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript#46181
+function isEmailAddress(email) {
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}
+
+function addMailTo(data) {
+  for (var prop in data) {
+    if (isEmailAddress(data[prop])) {
+      data[prop] = `mailto:${data[prop]}`
+    }
+  }
+  return data;
+}
+
 function processFile(filename) {
 
   // Load the contents of the file
   let data = loadMarkdown(filename);
   if (!data) return;
+
+  data.yaml = addMailTo(data.yaml);
 
   // delete data.yaml.project_proposal_impact;
   // delete data.yaml.unique_identifier;

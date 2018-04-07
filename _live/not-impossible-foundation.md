@@ -13,7 +13,7 @@ organization_website: www.notimpossible.com
 organization_twitter: '@NotImpossible'
 organization_instagram: Not Impossible
 organization_facebook: Not Impossible
-link_volunteer: info@notimpossiblelabs.com
+link_volunteer: 'mailto:info@notimpossiblelabs.com'
 link_donate: ''
 organization_activity: >-
   NIF recognizes global, human-centered absurdities deemed insolvable, then

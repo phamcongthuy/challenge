@@ -15,7 +15,7 @@ organization_website: 'https://hcsyucla.wixsite.com/health'
 organization_twitter: '@hcsy_ucla'
 organization_instagram: '@hcsy.ucla'
 organization_facebook: 'https://www.facebook.com/HCSYatUCLA/'
-link_volunteer: hcsy.ucla@gmail.com
+link_volunteer: 'mailto:hcsy.ucla@gmail.com'
 link_donate: 'https://hcsyucla.wixsite.com/health'
 organization_activity: >-
   The HCSY program provides an opportunity for students to receive mentorship

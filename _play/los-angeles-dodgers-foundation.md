@@ -17,7 +17,7 @@ organization_facebook: /LosAngelesDodgersFoundation/
 organization_instagram: '@DodgersFoundation'
 link_newsletter: Dodgers.com/LADF
 link_donate: Dodgers.com/LADF
-link_volunteer: Info@dodgersfoundation.org
+link_volunteer: 'mailto:Info@dodgersfoundation.org'
 organization_activity: >-
   LADF works to significantly impact underserved youth in economically
   challenged areas of Los Angeles through pillars of Sports+Recreation,

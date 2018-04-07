@@ -10,13 +10,13 @@ project_description: >-
 organization_name: Larchmont Charter School
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=GjY2oTPnxak'
-link_newsletter: development@larchmontcharter.org
+link_newsletter: 'mailto:development@larchmontcharter.org'
 organization_website: www.larchmontcharter.org
 organization_twitter: '@larchmontschool'
 organization_facebook: 'https://www.facebook.com/LarchmontSchool/posts/10160153595750361'
 organization_instagram: 'https://www.instagram.com/larchmontschool/'
 link_donate: 'http://www.larchmontcharter.org/support_lcs'
-link_volunteer: development@larchmontcharter.org
+link_volunteer: 'mailto:development@larchmontcharter.org'
 organization_activity: >-
   The Larchmont Social Justice Alliance gives kids a platform to speak up for
   social justice and learn about the spoken word, activism, connections, youth

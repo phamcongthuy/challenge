@@ -8,7 +8,7 @@ project_description: >-
 organization_name: 'Connect to Compete, Inc (EveryoneOn)'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=-aFvxFfQick'
-link_newsletter: info@everyoneon.org
+link_newsletter: 'mailto:info@everyoneon.org'
 organization_website: www.everyoneon.org
 organization_twitter: '@Everyone_On'
 organization_facebook: 'https://www.facebook.com/EveryoneOn/'

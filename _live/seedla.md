@@ -13,7 +13,7 @@ organization_website: 'http://seedcg.org/'
 organization_twitter: seedcg
 organization_instagram: N/A
 organization_facebook: 'https://www.facebook.com/seedusa/?fref=ts'
-link_volunteer: join@seedcg.org
+link_volunteer: 'mailto:join@seedcg.org'
 link_donate: 'http://seedcg.org/donate.html'
 organization_activity: >-
   SeedLA brings together highly skilled young Angelenos and provides pro-bono

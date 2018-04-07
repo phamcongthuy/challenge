@@ -16,7 +16,7 @@ organization_facebook: 'https://www.facebook.com/getlitpoet'
 organization_instagram: getlitpoet
 link_newsletter: >-
   http://getlit.us14.list-manage.com/subscribe?u=34c3d6a6d4a53dc48145d88b5&id=a92bfa8739
-link_volunteer: info@getlit.org
+link_volunteer: 'mailto:info@getlit.org'
 link_donate: getlit.org/donate/
 organization_activity: >-
   Get Lit fuses classic and spoken word poetry to increase teen literacy and
