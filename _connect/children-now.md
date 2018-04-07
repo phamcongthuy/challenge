@@ -2,7 +2,7 @@
 application_id: '2495556897'
 title: >-
   Making LA the Best Place to Connect Angelenos to Support a Strong Start for
-  NiÃ±itos
+  Niñitos
 project_description: >-
   Children Now will support thousands of Angelenos to voice their support for
   quality care and education for LA’s babies.

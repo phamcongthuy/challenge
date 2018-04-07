@@ -162,6 +162,8 @@ function fixDataCharacters(data) {
         .replace('â„¢', '™')
         .replace('Â·', '* ')
         .replace('Â½', '½')
+        .replace('Ãœ', 'Ü')
+        .replace('Ã±', 'ñ')
     }
   }
 

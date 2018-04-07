@@ -1,11 +1,11 @@
 ---
 application_id: '7631391794'
-title: Bring Fresh Food Where it's Needed with Education + Access via SÃœPRMARKT
+title: Bring Fresh Food Where it's Needed with Education + Access via SÜPRMARKT
 project_description: >-
   We'll deliver 1 million pounds of organic produce, 2,000 hours of workshops,
   and 1000 free deliveries to LA's food deserts to make fresh food affordable
   for all and create a healthy future for us all.
-organization_name: 'SÃœPRSEED, Inc.'
+organization_name: 'SÜPRSEED, Inc.'
 organization_description: Non-profit organization
 project_video: >-
   https://www.youtube.com/embed?v=KcRryxjBr-8&list=PL2jawcpDGeAUE6c6eKsDT7ovql42Eub5Q&index=2
@@ -17,11 +17,11 @@ organization_facebook: www.facebook.com/suprmarkt
 link_volunteer: www.suprmarkt.la/give
 link_donate: www.suprmarkt.la/give
 organization_activity: >-
-  SÃœPRMARKT brings affordable organic produce to the people and places that
+  SÜPRMARKT brings affordable organic produce to the people and places that
   need it most in a weekly pop-up grocery + subscription service which accepts
   EBT and educates to create a culture of health.
 project_proposal_description: >-
-  SÃœPRMARKT has served up 1200+ cases of food since starting in 2016 and seeks
+  SÜPRMARKT has served up 1200+ cases of food since starting in 2016 and seeks
   to expand its operations by opening a 6 day a week location, serving organics
   to 1000 customers per week, and providing the community with engaging
   screenings, workshops, events, and giveaways which make transitioning to
@@ -64,7 +64,7 @@ project_proposal_best_place: >-
    
    
    
-   SÃœPRMARKT will:
+   SÜPRMARKT will:
    
    
    
@@ -178,8 +178,8 @@ category_metrics:
 category_other:
   - LA is the best place to LEARN
 category: live
-uri: /live/sãœprseed-inc/
+uri: /live/sÜprseed-inc/
 order: 8
-project_image: /assets/images/live/sãœprseed-inc.jpg
+project_image: /assets/images/live/sÜprseed-inc.jpg
 
 ---
