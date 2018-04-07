@@ -13,7 +13,7 @@ project_video: 'https://youtu.be/p_JwubxZcKA'
 link_newsletter: 'http://justicelanow.org/join/'
 organization_website: www.JusticeLA.org
 organization_twitter: www.twitter.com/JusticeLANow
-organization_facebook: /www.facebook.com/JusticeLANow
+organization_facebook: www.facebook.com/JusticeLANow
 organization_instagram: www.instagram.com/JusticeLANow
 link_donate: 'https://goo.gl/Dqqi2F'
 link_volunteer: 'http://justicelanow.org/join/'
