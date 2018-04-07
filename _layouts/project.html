@@ -84,7 +84,7 @@ stylesheets:
 <h2>Love this idea?</h2>
 
 <ul class="action" style="max-width: none;">
-  {% if page.link_newsletter %}
+  {% if page.link_newsletter and page.link_newsletter != '' %}
   <li><a href="{{ page.link_newsletter }}">Stay updated on this activation</a></li>
   {% endif %}
 </ul>
@@ -95,17 +95,23 @@ stylesheets:
 
 
 <!-- TODO: Handle empty data or words like “N/A” or “None” -->
-{% if page.link_donate or page.link_volunteer %}
+{% if page.link_donate and page.link_donate != '' %}
+  {% assign link_donate = page.link_donate %}
+{% endif %}
+{% if page.link_volunteer and page.link_volunteer != '' %}
+  {% assign link_volunteer = page.link_volunteer %}
+{% endif %}
 
+{% if link_donate or link_volunteer %}
 <div class="links links-involved">
 <h2>Get involved</h2>
 
 <ul class="action" style="max-width: none;">
-  {% if page.link_donate %}
+  {% if link_donate %}
   <li><a href="{{ page.link_donate }}">Donate</a></li>
   {% endif %}
 
-  {% if page.link_volunteer %}
+  {% if link_volunteer %}
   <li><a href="{{ page.link_volunteer }}">Volunteer</a></li>
   {% endif %}
 </ul>
