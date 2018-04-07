@@ -13,7 +13,7 @@ link_newsletter: 'http://bit.ly/prokidca'
 organization_website: www.childrennow.org
 organization_twitter: '@ChildrenNow'
 organization_facebook: Children-Now-224016820554/
-organization_instagram: N/A
+organization_instagram: ''
 link_donate: 'http://bit.ly/supportcn'
 link_volunteer: 'http://bit.ly/prokidcajobs'
 organization_activity: >-

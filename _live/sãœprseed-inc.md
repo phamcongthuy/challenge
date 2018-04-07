@@ -11,7 +11,7 @@ project_video: >-
   https://www.youtube.com/embed?v=KcRryxjBr-8&list=PL2jawcpDGeAUE6c6eKsDT7ovql42Eub5Q&index=2
 link_newsletter: 'http://eepurl.com/b5eqrX'
 organization_website: www.suprmarkt.la
-organization_twitter: N/A
+organization_twitter: ''
 organization_instagram: www.instagram.com/supr.mrkt
 organization_facebook: www.facebook.com/suprmarkt
 link_volunteer: www.suprmarkt.la/give

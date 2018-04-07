@@ -120,13 +120,25 @@ function addMailTo(data) {
   return data;
 }
 
+function changeNAtoEmpty(data) {
+  for (var prop in data) {
+    if (typeof(data[prop]) === 'string' && (data[prop].toLowerCase() === 'n/a' || data[prop].toLowerCase() === 'none')) {
+      data[prop] = ''
+    }
+  }
+
+  return data;
+}
+
 function processFile(filename) {
 
   // Load the contents of the file
   let data = loadMarkdown(filename);
   if (!data) return;
 
-  data.yaml = addMailTo(data.yaml);
+  data.yaml = changeNAtoEmpty(data.yaml);
+
+  // data.yaml = addMailTo(data.yaml);
 
   // delete data.yaml.project_proposal_impact;
   // delete data.yaml.unique_identifier;

@@ -11,7 +11,7 @@ project_video: 'https://www.youtube.com/embed?v=p0Ag2WK9kaw'
 link_newsletter: 'https://www.facebook.com/seedusa/?fref=ts'
 organization_website: 'http://seedcg.org/'
 organization_twitter: seedcg
-organization_instagram: N/A
+organization_instagram: ''
 organization_facebook: 'https://www.facebook.com/seedusa/?fref=ts'
 link_volunteer: 'mailto:join@seedcg.org'
 link_donate: 'http://seedcg.org/donate.html'

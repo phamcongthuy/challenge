@@ -10,7 +10,7 @@ project_video: 'https://www.youtube.com/embed?time_continue=6&v=55FW0fd5Mh4'
 link_newsletter: www.caleitc4me.org
 organization_website: www.caleitc4me.org
 organization_twitter: '@CalEITC4Me'
-organization_instagram: N/A
+organization_instagram: ''
 organization_facebook: 'https://www.facebook.com/CalEITC4Me/'
 link_volunteer: 'http://caleitc4me.nationbuilder.com/cash_walk'
 link_donate: 'https://secure.actblue.com/contribute/page/caleitc4me-1'

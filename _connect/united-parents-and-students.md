@@ -12,9 +12,9 @@ organization_description: Non-profit organization
 project_video: 'https://vimeo.com/205438757'
 link_newsletter: 'http://unitedparentsandstudents.org/'
 organization_website: 'http://unitedparentsandstudents.org/'
-organization_twitter: N/A
+organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/UnitedParentsandStudents/'
-organization_instagram: N/A
+organization_instagram: ''
 link_donate: 'http://unitedparentsandstudents.org/give'
 link_volunteer: 'http://unitedparentsandstudents.org/action-and-advocacy/'
 organization_activity: >-

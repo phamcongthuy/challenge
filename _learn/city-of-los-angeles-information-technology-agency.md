@@ -12,7 +12,7 @@ link_newsletter: 'http://ita.lacity.org/news'
 organization_website: 'http://ita.lacity.org/'
 organization_twitter: '@LACity'
 organization_facebook: 'https://www.facebook.com/CityofLosAngelesTruePage/'
-organization_instagram: n/a
+organization_instagram: ''
 link_donate: ''
 link_volunteer: ''
 organization_activity: >-

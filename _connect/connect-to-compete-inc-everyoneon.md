@@ -12,7 +12,7 @@ link_newsletter: 'mailto:info@everyoneon.org'
 organization_website: www.everyoneon.org
 organization_twitter: '@Everyone_On'
 organization_facebook: 'https://www.facebook.com/EveryoneOn/'
-organization_instagram: N/A
+organization_instagram: ''
 link_donate: 'https://everyoneon.org/donate/'
 link_volunteer: ''
 organization_activity: >-

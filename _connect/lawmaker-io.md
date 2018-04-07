@@ -15,7 +15,7 @@ organization_website: 'https://lawmaker.io/'
 organization_twitter: '@WeAreLawMaker'
 organization_facebook: 'https://www.facebook.com/WeAreLawMaker/'
 organization_instagram: '@WeAreLawMaker'
-link_donate: N/A
+link_donate: ''
 link_volunteer: 'https://lawmaker.io/sign_up/individual'
 organization_activity: >-
   LawMaker.io gives voters the power to crowdsource new policies that are

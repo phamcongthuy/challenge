@@ -33,7 +33,7 @@ organization_instagram: >-
   https://www.instagram.com/smlbizmajority/;
   https://www.instagram.com/gofundera/?hl=en
 link_newsletter: 'http://www.borrowersbillofrights.org/blog; info@borrowersbillofrights.org'
-link_volunteer: n/a
+link_volunteer: ''
 link_donate: |-
   www.opportunityfund.org/donate;
    

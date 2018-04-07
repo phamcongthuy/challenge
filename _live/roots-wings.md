@@ -9,7 +9,7 @@ organization_description: For-profit organization
 project_video: 'https://www.youtube.com/embed?v=nNWKz4hwzOc&t=1s'
 link_newsletter: 'https://www.rootsnwings.org/wwwactivated-potentialcom.html'
 organization_website: rootsnwings.org
-organization_twitter: N/A
+organization_twitter: ''
 organization_instagram: rootsnwings_malibu
 organization_facebook: >-
   https://www.facebook.com/Roots-Wings-Counseling-Classes-Coaching-for-a-Meaningful-Life-1952358844987700/

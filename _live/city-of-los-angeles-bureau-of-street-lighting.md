@@ -11,10 +11,10 @@ project_video: 'https://youtu.be/tVCxc_xD6Xo'
 link_newsletter: 'Twitter - @LA_Streetlights #ActivateforLA'
 organization_website: 'http://bsl.lacity.org/'
 organization_twitter: '@LA_Streetlights'
-organization_instagram: N/A
-organization_facebook: N/A
-link_volunteer: N/A
-link_donate: N/A
+organization_instagram: ''
+organization_facebook: ''
+link_volunteer: ''
+link_donate: ''
 organization_activity: >-
   The City of Los Angeles, Bureau of Street Lighting provides illumination for
   the safety of vehicular/pedestrian traffic, and is a key vertical

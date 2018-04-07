@@ -10,8 +10,8 @@ project_description: >-
 organization_name: The People of Change
 organization_description: Non-profit organization
 project_video: ''
-link_newsletter: N/A
-organization_website: N/A
+link_newsletter: ''
+organization_website: ''
 organization_twitter: '@thepplofchange'
 organization_facebook: 'https://www.facebook.com/thepeopleofchange/?ref=settings'
 organization_instagram: '@thepplofchange'

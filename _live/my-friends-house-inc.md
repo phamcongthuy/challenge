@@ -11,7 +11,7 @@ project_video: 'https://youtu.be/Bt5RMStlQxI?t=90'
 link_newsletter: 'http://myfriendshouseinc.org/contact/'
 organization_website: 'http://myfriendshouseinc.org/'
 organization_twitter: '@MyFriendsHse'
-organization_instagram: none
+organization_instagram: ''
 organization_facebook: 'https://www.facebook.com/My-Friends-House-Inc-436222196498017/'
 link_volunteer: 'http://myfriendshouseinc.org/volunteer-opportunities/'
 link_donate: 'http://myfriendshouseinc.org/donations/'

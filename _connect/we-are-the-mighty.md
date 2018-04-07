@@ -13,7 +13,7 @@ organization_website: 'https://www.wearethemighty.com'
 organization_twitter: '@wearethemighty'
 organization_facebook: '@wearethemighty'
 organization_instagram: '@wearethemighty'
-link_donate: N/A
+link_donate: ''
 link_volunteer: 'http://losangelesveterans.org'
 organization_activity: >-
   The Los Angeles Veterans Orientation is a fun and friendly way to welcome

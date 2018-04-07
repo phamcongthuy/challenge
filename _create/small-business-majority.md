@@ -13,7 +13,7 @@ organization_twitter: '@SmlBizMajority'
 organization_facebook: 'https://www.facebook.com/SmallBusinessMajority'
 organization_instagram: smlbizmajority
 link_newsletter: 'http://smallbusinessmajority.org/about-us/media-kit'
-link_volunteer: n/a
+link_volunteer: ''
 link_donate: 'http://www.smallbusinessmajority.org/donate'
 organization_activity: >-
   Small Business Majority empowers America's entrepreneurs to build an

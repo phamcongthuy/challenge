@@ -12,7 +12,7 @@ link_newsletter: 'https://socialinnovation.usc.edu/contact-us/'
 organization_website: la.myneighborhooddata.org; socialinnovation.usc.edu
 organization_twitter: '@NDSC_LA; @USCPriceCSI'
 organization_facebook: 'https://www.facebook.com/PriceSocialInnovation'
-organization_instagram: n/a
+organization_instagram: ''
 link_donate: 'https://socialinnovation.usc.edu/contact-us/'
 link_volunteer: 'https://socialinnovation.usc.edu/contact-us/'
 organization_activity: >-

@@ -13,7 +13,7 @@ organization_website: www.stratiscope.com www.cityimpactlab.com
 organization_twitter: '@Stratiscope @CityImpactLab'
 organization_facebook: facebook.com/Stratiscope facebook.com/CityImpactLabLA
 organization_instagram: '@Stratiscope @CityImpactLab'
-link_donate: N/A
+link_donate: ''
 link_volunteer: To be established.
 organization_activity: >-
   Powered by Stratiscope, the City Impact Lab empowers individuals, businesses,
