@@ -8,7 +8,7 @@ project_description: >-
 organization_name: 'City of Los Angeles, Bureau of Street Lighting'
 organization_description: Government
 project_video: 'https://youtu.be/tVCxc_xD6Xo'
-link_newsletter: @LA_Streetlights
+link_newsletter: https://twitter.com/@LA_Streetlights
 organization_website: 'http://bsl.lacity.org/'
 organization_twitter: '@LA_Streetlights'
 organization_instagram: ''
