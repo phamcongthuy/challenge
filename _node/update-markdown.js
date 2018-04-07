@@ -136,8 +136,7 @@ function processFile(filename) {
   let data = loadMarkdown(filename);
   if (!data) return;
 
-  data.yaml = changeNAtoEmpty(data.yaml);
-
+  // data.yaml = changeNAtoEmpty(data.yaml);
   // data.yaml = addMailTo(data.yaml);
 
   // delete data.yaml.project_proposal_impact;

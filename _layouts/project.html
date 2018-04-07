@@ -77,30 +77,41 @@ stylesheets:
 </dl> -->
 </div>
 
-<!-- TODO: Handle empty data or words like “N/A” or “None” -->
-{% if page.link_newsletter %}
+{% if page.link_newsletter and page.link_newsletter != '' %}
+
+{% if page.link_newsletter contains "http" %}
+{% assign link_newsletter = page.link_newsletter %}
+{% else %}
+{% capture link_newsletter %}http://{{ page.link_newsletter }}{% endcapture %}
+{% endif %}
 
 <div class="links links-action">
 <h2>Love this idea?</h2>
 
 <ul class="action" style="max-width: none;">
-  {% if page.link_newsletter and page.link_newsletter != '' %}
-  <li><a href="{{ page.link_newsletter }}">Stay updated on this activation</a></li>
-  {% endif %}
+  <li><a href="{{ link_newsletter }}">Stay updated on this activation</a></li>
 </ul>
 </div>
 
 {% endif %}
 
 
-
-<!-- TODO: Handle email addresses and words like “N/A” or “None” -->
 {% if page.link_donate and page.link_donate != '' %}
+  {% if page.link_donate contains "http" or page.link_donate contains "mailto" %}
   {% assign link_donate = page.link_donate %}
+  {% else %}
+  {% capture link_donate %}http://{{ page.link_donate }}{% endcapture %}
+  {% endif %}
 {% endif %}
+
 {% if page.link_volunteer and page.link_volunteer != '' %}
+  {% if page.link_volunteer contains "http" or page.link_volunteer contains "mailto" %}
   {% assign link_volunteer = page.link_volunteer %}
+  {% else %}
+  {% capture link_volunteer %}http://{{ page.link_volunteer }}{% endcapture %}
+  {% endif %}
 {% endif %}
+
 
 {% if link_donate or link_volunteer %}
 <div class="links links-involved">
@@ -108,15 +119,14 @@ stylesheets:
 
 <ul class="action" style="max-width: none;">
   {% if link_donate %}
-  <li><a href="{{ page.link_donate }}">Donate</a></li>
+  <li><a href="{{ link_donate }}">Donate</a></li>
   {% endif %}
 
   {% if link_volunteer %}
-  <li><a href="{{ page.link_volunteer }}">Volunteer</a></li>
+  <li><a href="{{ link_volunteer }}">Volunteer</a></li>
   {% endif %}
 </ul>
 </div>
-
 {% endif %}
 
 </section><!-- /.proposal-introduction -->

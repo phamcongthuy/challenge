@@ -18,7 +18,17 @@
   </switch>
 </svg>
 </dt>
-<dd><a href="{{ website_url }}">{{ website | replace: "https://", "" | replace: "http://", "" }}</a></dd>
+<dd>
+  <a href="{{ website_url }}">
+    {{
+      website 
+      | replace: "https://", ""
+      | replace: "http://", ""
+      | replace: "www.", ""
+      | split: "/" | first
+    }}
+  </a>
+</dd>
 </dl>
 {% endfor %}
 
