@@ -87,7 +87,7 @@ project_proposal_best_place: >-
    
    
    
-   For exampleâ€¦
+   For example…
    
    
    

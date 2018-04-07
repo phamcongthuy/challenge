@@ -74,7 +74,7 @@ project_proposal_best_place: >-
    
    
    
-   1. Number and quality of informal spaces for play: Where do water lovers hang out between sessions, how come, what is happening there? Beach parking lots, pool decks, port hangarsâ€¦
+   1. Number and quality of informal spaces for play: Where do water lovers hang out between sessions, how come, what is happening there? Beach parking lots, pool decks, port hangars…
    
    2. Number of parks with intergenerational play opportunities: pools and beaches provide open and creative play opportunities for all generations. Our program integrates entire families into various levels of "play" and we have a plan to encourage and measure family involvement.
    

@@ -155,7 +155,7 @@ function fixDataCharacters(data) {
         .replace('â€œ', '“') // ?
         .replace('â€', '”') // ?
         .replace('â€¢', "*")
-      console.log()
+        .replace('â€¦', "…")
     }
   }
 

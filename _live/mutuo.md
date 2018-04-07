@@ -3,11 +3,11 @@ application_id: '7385401104'
 title: |-
   A house for Tommy in my backyard! 
    
-   If only LA knew the opportunity that lies in our backyardsâ€¦
+   If only LA knew the opportunity that lies in our backyards…
 project_description: >-
   There is no room for Tommy, the spaceman, and many more people in LA. But in
   our backyards may lie a great opportunity to make an extra rental income while
-  increasing housing in LA. If only LA knewâ€¦
+  increasing housing in LA. If only LA knew…
 organization_name: Mutuo
 organization_description: For-profit organization
 project_video: 'https://www.youtube.com/embed?v=Xr8XGS427jo'

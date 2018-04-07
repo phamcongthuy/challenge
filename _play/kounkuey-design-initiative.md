@@ -125,7 +125,7 @@ project_proposal_engage: >-
    
    
    
-   Then, we bring our PARK-IN-A-BOXâ€¦ and the play begins!
+   Then, we bring our PARK-IN-A-BOX… and the play begins!
    
    
    

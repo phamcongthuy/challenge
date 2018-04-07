@@ -15,7 +15,7 @@ organization_instagram: '@eayikes'
 link_donate: 'http://eayikes.org/donate'
 link_volunteer: 'http://eepurl.com/dpRV0z'
 organization_activity: >-
-  Engage, empower, inform, inspire, citizens of a communityâ€¦ EEIICC + a whole
+  Engage, empower, inform, inspire, citizens of a community… EEIICC + a whole
   lotta wonder = EAYIKES!
 project_proposal_description: >-
   By 2020 Eayikes brings empowerment to thousands of LA youth and adults through

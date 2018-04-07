@@ -66,7 +66,7 @@ project_proposal_best_place: >-
    
     
    
-   The app will influence individual behavior by incentivizing use of public transportation. Angelinos know that public transportation is better for the environment, but they aren’t rewarded for using it. Our app will give riders points in three ways: for ‘checking in’ to a bus (or train), for submitting ridership density data and for distance travelled. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etcâ€¦). This will be measured by rider check-ins and density reporting.
+   The app will influence individual behavior by incentivizing use of public transportation. Angelinos know that public transportation is better for the environment, but they aren’t rewarded for using it. Our app will give riders points in three ways: for ‘checking in’ to a bus (or train), for submitting ridership density data and for distance travelled. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etc…). This will be measured by rider check-ins and density reporting.
    
     
    
@@ -101,7 +101,7 @@ project_measure: >-
    
     
    
-   The app will influence individual behavior by incentivizing use of public transportation. Our app will give riders points in two ways: for ‘checking in’ to a bus (or train) and for submitting ridership density data. Points will be shown via game leaderboards. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etcâ€¦). This will be measured by rider check-ins and density reporting.
+   The app will influence individual behavior by incentivizing use of public transportation. Our app will give riders points in two ways: for ‘checking in’ to a bus (or train) and for submitting ridership density data. Points will be shown via game leaderboards. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etc…). This will be measured by rider check-ins and density reporting.
    
     
    
