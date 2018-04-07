@@ -10,9 +10,7 @@ project_description: >-
 organization_name: Coro Southern California
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=Du3r0rMVl4Q&feature=youtu.be'
-link_newsletter: >-
-  To stay updated on our activation, please visit
-  https://www.corola.org/subscribe/ and subscribe to our newsletter.
+link_newsletter: https://www.corola.org/subscribe/
 organization_website: www.corola.org
 organization_twitter: '@CoroSoCal'
 organization_facebook: 'https://www.facebook.com/corosoutherncalifornia'
