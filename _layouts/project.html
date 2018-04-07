@@ -200,18 +200,21 @@ stylesheets:
 
 <h3>Which of the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics will your activation impact?​</h3>
 <ul>
-  {% for metric in page.project_proposal_impact %}
+  {% for metric in page.category_metrics %}
   <li>{{ metric }}</li>
   {% endfor %}
 </ul>
 
-{% comment %}
 <h3>Will your proposal impact any other LA2050 goal categories?</h3>
 <ul>
+  <!--
   <li>LA is the best place to <span style="text-transform: uppercase;">learn</span></li>
   <li>LA is the best place to <span style="text-transform: uppercase;">connect</span></li>
+  -->
+  {% for metric in page.category_other %}
+  <li>{{ metric }}</li>
+  {% endfor %}
 </ul>
-{% endcomment %}
 
 <h3>In what areas of Los Angeles will you be directly working?</h3>
 <ul>
