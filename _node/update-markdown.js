@@ -148,8 +148,6 @@ function processFile(filename) {
 
 
 
-
-
   // Simplify image URL
   // let project_image_paths = data.yaml.project_image.split('/');
   // data.yaml.project_image = project_image_paths[project_image_paths.length - 1];
@@ -159,9 +157,20 @@ function processFile(filename) {
   //   console.log(data.yaml.project_video)
   // }
 
-  if (data.yaml.project_video.indexOf('https://www.youtube.com/embed?') >= 0 && data.yaml.project_video.indexOf('https://www.youtube.com/embed?v=') < 0) {
+  // if (data.yaml.project_video.indexOf('https://www.youtube.com/embed?') >= 0 && data.yaml.project_video.indexOf('https://www.youtube.com/embed?v=') < 0) {
+  //   console.log(filename)
+  //   console.log(data.yaml.project_video)
+  // }
+
+
+  if (data.yaml.organization_website.indexOf('/') === 0 ||
+      data.yaml.organization_twitter.indexOf('/') === 0 ||
+      data.yaml.organization_facebook.indexOf('/') === 0 ||
+      data.yaml.organization_instagram.indexOf('/') === 0 ||
+      data.yaml.link_newsletter.indexOf('/') === 0 ||
+      data.yaml.link_donate.indexOf('/') === 0 ||
+      data.yaml.link_volunteer.indexOf('/') === 0) {
     console.log(filename)
-    console.log(data.yaml.project_video)
   }
 
   /*

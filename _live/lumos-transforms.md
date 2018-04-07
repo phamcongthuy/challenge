@@ -116,6 +116,5 @@ category: live
 uri: /live/lumos-transforms/
 order: 2
 project_image: lumos-transforms.jpg
-is_finalist: true
 
 ---

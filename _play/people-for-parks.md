@@ -181,6 +181,5 @@ category: play
 uri: /play/people-for-parks/
 order: 3
 project_image: people-for-parks.jpg
-is_finalist: true
 
 ---

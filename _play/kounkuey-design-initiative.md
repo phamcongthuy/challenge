@@ -211,6 +211,5 @@ category: play
 uri: /play/kounkuey-design-initiative/
 order: 1
 project_image: kounkuey-design-initiative.jpg
-is_finalist: true
 
 ---
