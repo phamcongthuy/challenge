@@ -57,7 +57,7 @@ project_proposal_best_place: >-
    
    
    
-   * Trainings for local trainers on the Center for the Study of Social Policy’s Strengthening Familiesâ„¢ Protective Factors (SFPF) Framework, which focuses on five factors of parental resilience, social connections, concrete support in times of need, knowledge of parenting and child development, and socioemotional competence of children
+   * Trainings for local trainers on the Center for the Study of Social Policy’s Strengthening Families™ Protective Factors (SFPF) Framework, which focuses on five factors of parental resilience, social connections, concrete support in times of need, knowledge of parenting and child development, and socioemotional competence of children
    
    * Trainings on advocacy strategies and tactics and provision of tools to increase constituents’ capacity to improve government responsiveness (past examples include a Community Ambassador Toolkit and an online Voter Voice platform that helps local constituents understand and flex their power in local, state, and national politics)
    
@@ -80,7 +80,7 @@ project_proposal_engage: >-
   participate in collective community driven implementation. Child360 will build
   on its successful framework to support resident/stakeholder engagement and
   advocacy through community partnership. Successful stakeholder engagement and
-  advocacy activities include: Parent Cafes, Strengthening Familiesâ„¢
+  advocacy activities include: Parent Cafes, Strengthening Families™
   trainings, Advocacy workshops, and Train-the-Trainers. A trained delegate from
   each community will facilitate train-the-trainer advocacy trainings. Delegates
   will be trained on how to develop outreach strategies to engage schools,

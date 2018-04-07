@@ -56,7 +56,7 @@ project_proposal_best_place: |-
    
    Our homeless agency partner will be instrumental in helping to determine the homeless needs in each community: chronic? drug, alcohol, other mental illness? temporarily homeless families? need education or employment skills? skilled but without employment?
    
-   LATTC design students have drawn the ideal TC space, with the number of residents on approximately Â½ block equaling 96. Resources will fit the population, with nutritional food being primary in every community.
+   LATTC design students have drawn the ideal TC space, with the number of residents on approximately ½ block equaling 96. Resources will fit the population, with nutritional food being primary in every community.
    
    For the chronically homeless, access to mental health and basic medical services are likely important. Families may need educational and vocational counseling, access to computers, and creative “maker-spaces.” All of these would be undertaken with experts in the field and with engaged community volunteers.
    

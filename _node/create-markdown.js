@@ -156,6 +156,12 @@ function fixDataCharacters(data) {
         .replace('â€', '”') // ?
         .replace('â€¢', "*")
         .replace('â€¦', "…")
+        .replace('âˆš', '√')
+        .replace('â–ª', '*')
+        .replace('â—\x8F', '*')
+        .replace('â„¢', '™')
+        .replace('Â·', '* ')
+        .replace('Â½', '½')
     }
   }
 

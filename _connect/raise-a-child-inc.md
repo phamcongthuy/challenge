@@ -18,7 +18,7 @@ organization_instagram: RaiseAChild
 link_donate: 'https://raiseachild.org/donations/'
 link_volunteer: 'https://raiseachild.org/take-the-next-step/'
 organization_activity: >-
-  RaiseAChild leads the nation in building loving families for foster childrenÂ®
+  RaiseAChild leads the nation in building loving families for foster children
   by recruiting, retaining & supporting foster/adoptive parents to address the
   needs of 437,000 children in foster care.
 project_proposal_description: >-

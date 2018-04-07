@@ -91,13 +91,13 @@ project_proposal_best_place: >-
    
    Past projects include:
    
-   Â·South Central HS students advocated for the rights of undocumented immigrants and DREAMers in their school and community bringing in the assistance of immigration lawyers and representatives from Congresswoman Karen Bass’ office; Hancock Park Elementary students researched homelessness rates in their neighborhood and presented their findings to Councilmember Ryu in City Hall; Boyle Heights 9th graders started a school-wide “Unplug Monday” during free periods where students detach from all electronics and focus on interpersonal connections and mental health care. 
+   * South Central HS students advocated for the rights of undocumented immigrants and DREAMers in their school and community bringing in the assistance of immigration lawyers and representatives from Congresswoman Karen Bass’ office; Hancock Park Elementary students researched homelessness rates in their neighborhood and presented their findings to Councilmember Ryu in City Hall; Boyle Heights 9th graders started a school-wide “Unplug Monday” during free periods where students detach from all electronics and focus on interpersonal connections and mental health care. 
    
    2. Public events:
    
-   Â·2 showcase events where students will present their Action Civics projects and receive feedback from community leaders.
+   * 2 showcase events where students will present their Action Civics projects and receive feedback from community leaders.
    
-   Â·6-8 large open community events hosted by Pro/Con where local issues are debated (proposed locations include the Santa Monica Pier, USC, and others). Student projects will be featured and event participants will be asked to take action to support them. 
+   * 6-8 large open community events hosted by Pro/Con where local issues are debated (proposed locations include the Santa Monica Pier, USC, and others). Student projects will be featured and event participants will be asked to take action to support them. 
    
    3. Digital amplification and action:
    

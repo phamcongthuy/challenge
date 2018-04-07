@@ -127,17 +127,17 @@ project_measure: >-
    
    Digital key performance indicators of our digital content (core strategy component):
    
-   â–ª Impressions, shares, clicks, likes
+   * Impressions, shares, clicks, likes
    
    
    
    Human beings engaged
    
-   â–ª People who attend community pop ups
+   * People who attend community pop ups
    
-   â–ª People who attend organizer trainings
+   * People who attend organizer trainings
    
-   â–ª People who attend community events or participate in 
+   * People who attend community events or participate in 
    
     legislative activities
    
@@ -145,17 +145,17 @@ project_measure: >-
    
    Jurisdictions targeted
    
-   â–ª Number of jurisdictions in LA County in which have we taken a digital or in person action 
+   * Number of jurisdictions in LA County in which have we taken a digital or in person action 
    
    
    
    Policy ideas proposed or refined
    
-   â–ª tenants rights policy reforms
+   * tenants rights policy reforms
    
-   â–ª prevention programs
+   * prevention programs
    
-   â–ª affordable housing development reforms
+   * affordable housing development reforms
    
    
    

@@ -76,9 +76,9 @@ project_proposal_best_place: >-
    
    o Influencing individual behavior in the community around health and social connectedness through:
    
-   â–ª Resident outreach
+   * Resident outreach
    
-   â–ª Wellness referrals 
+   * Wellness referrals 
    
    o Conducting in-person engagements with community members through presentations and workshops 
    
