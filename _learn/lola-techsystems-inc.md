@@ -12,7 +12,7 @@ link_newsletter: www.lolatechsystems.com/blog
 organization_website: www.lolatechsystems.com
 organization_twitter: '@lolahelps'
 organization_facebook: '@lolahelpsme'
-organization_instagram: none at this time
+organization_instagram: ''
 link_donate: www.lolatechsystems.com
 link_volunteer: www.lolatechsystems.com
 organization_activity: >-

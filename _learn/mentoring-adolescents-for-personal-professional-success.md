@@ -12,9 +12,9 @@ organization_description: For-profit organization
 project_video: 'https://youtu.be/hVF2r_6Q-Vw'
 link_newsletter: 'http://mappsprogram.org'
 organization_website: www.mappsprogram.org
-organization_twitter: not yet available
-organization_facebook: not yet available
-organization_instagram: not yet available
+organization_twitter: ''
+organization_facebook: ''
+organization_instagram: ''
 link_donate: 'http://mappsprogram.org/donate'
 link_volunteer: 'http://mappsprogram.org'
 organization_activity: >-
