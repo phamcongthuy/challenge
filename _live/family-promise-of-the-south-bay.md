@@ -8,9 +8,7 @@ project_description: >-
 organization_name: Family Promise of the South Bay
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=5y2nTF_hrSE&feature=youtu.be'
-link_newsletter: >-
-  Website is under construction. Please Email us at
-  HomelessSolutions@TinyCitiesLA.com.
+link_newsletter: mailto:HomelessSolutions@TinyCitiesLA.com
 organization_website: www.TinyCitiesLA.com
 organization_twitter: TinyCitiesLA
 organization_instagram: TinyCitiesLA
