@@ -5,7 +5,7 @@ title: >-
   LA
 project_description: >-
   We’re expanding Maker Walk around the city—and partnering with Artisanal LA &
-  LA Food Festâ€”to raise awareness for local brands and manufacturers, and
+  LA Food Fest—to raise awareness for local brands and manufacturers, and
   mobilize the creative community to MAKE IT IN LA!
 organization_name: MAKE IT IN LA
 organization_description: Non-profit organization
@@ -57,7 +57,7 @@ project_proposal_mobilize:
 project_proposal_best_place: >-
   Los Angeles is the largest center for manufacturing in the country, with half
   a million jobs—that’s nearly four times as many jobs as film and
-  televisionâ€”yet most Angelenos don’t fully appreciate its importance to our
+  television—yet most Angelenos don’t fully appreciate its importance to our
   economy. More important than jobs, manufacturing is a critical piece of
   innovation infrastructure that, if activated, could better unleash Los
   Angeles’ creative potential. 

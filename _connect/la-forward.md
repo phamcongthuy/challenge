@@ -23,9 +23,9 @@ organization_activity: >-
   a just, democratic, and sustainable Los Angeles.
 project_proposal_description: >-
   LA Forward will expand its civic education programs—ballot guides, the LA
-  Forwards & Backwards podcast, collateral like civic trading cardsâ€”to reach
+  Forwards & Backwards podcast, collateral like civic trading cards—to reach
   more than 100,000 Angelenos. These media will draw thousands to live
-  actionsâ€”election parties, podcast events, classes, and trainings. Hundreds
+  actions—election parties, podcast events, classes, and trainings. Hundreds
   will grow as leaders through our campaign taskforces, policy research
   committee, and teams that use art, events, video, and media to raise
   consciousness of our region’s challenges and coalition efforts.
@@ -65,19 +65,19 @@ project_proposal_best_place: >-
    
    
    
-   Second, the path to deeper and enduring involvement requires a transition from the less active form of engagement with media and digital actions like petition-signing to participating in the interactive experiences of events, especially connecting with other people face-to-face. On its own, media can increase government responsiveness by letting officials know their actions are being tracked, but media’s greatest power can be as a funnel to draw people into hands-on work. That’s the purpose of our growing number of live actionsâ€”election parties, podcast events, classes, trainings, “take action” fairs, and neighborhood hangouts in places like parks, bars, cafes, & co-working spaces.
+   Second, the path to deeper and enduring involvement requires a transition from the less active form of engagement with media and digital actions like petition-signing to participating in the interactive experiences of events, especially connecting with other people face-to-face. On its own, media can increase government responsiveness by letting officials know their actions are being tracked, but media’s greatest power can be as a funnel to draw people into hands-on work. That’s the purpose of our growing number of live actions—election parties, podcast events, classes, trainings, “take action” fairs, and neighborhood hangouts in places like parks, bars, cafes, & co-working spaces.
    
    
    
-   Third, as community organizing experts like Marshall Ganz have shown, the only way to sustain mass involvement is by building organizations that enable individuals to take on increasing leadership responsibilities toward common purposes. We know that people are satisfied by participating in different ways and that the best way to be involved is with a group small enough that they can form meaningful relationships with each other. LA Forward is cultivating volunteer-led teams specific to various issues and methods of engagement. The main job of LA Forward’s staff and top leadership will be to act as organizersâ€”coaching volunteers to step up into leadership roles, providing guidance, and facilitating connections and trainings as necessary.
+   Third, as community organizing experts like Marshall Ganz have shown, the only way to sustain mass involvement is by building organizations that enable individuals to take on increasing leadership responsibilities toward common purposes. We know that people are satisfied by participating in different ways and that the best way to be involved is with a group small enough that they can form meaningful relationships with each other. LA Forward is cultivating volunteer-led teams specific to various issues and methods of engagement. The main job of LA Forward’s staff and top leadership will be to act as organizers—coaching volunteers to step up into leadership roles, providing guidance, and facilitating connections and trainings as necessary.
 project_proposal_engage: >-
   LA Forward engages our young, educated, and multiracial constituency with
   high-quality media, events, and digital activation of our 7,000 person email
   list. We empower newcomers to get involved in this work directly. Our
   Investing in Our Communities Taskforce is working to increase school funding
   through canvassing for signatures. Another group—Equitable
-  Urbanistsâ€”represents us in housing and transit-related coalitions such as
-  ACT-LA and speaking up in public forums of all kindsâ€”social media,
+  Urbanists—represents us in housing and transit-related coalitions such as
+  ACT-LA and speaking up in public forums of all kinds—social media,
   periodicals, government hearings. We’re working with Metro to achieve impact
   at the County scale and pushing for the spread of affordable housing,
   especially for the homeless. We have small groups actively participating in

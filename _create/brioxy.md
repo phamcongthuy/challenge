@@ -94,7 +94,7 @@ project_measure: >-
    
    Regionally we are looking to see: 
    
-   Support for and increase in the number of minority- and women-owned firms in LA—our programs are culturally based, draw from some of the country’s best trainers and thought leadersâ€”with hard skills that will build resilient organizations and companies. 
+   Support for and increase in the number of minority- and women-owned firms in LA—our programs are culturally based, draw from some of the country’s best trainers and thought leaders—with hard skills that will build resilient organizations and companies. 
    
    
    
@@ -102,7 +102,7 @@ project_measure: >-
    
    
    
-   Growth in the number of arts establishments per capita in Los Angles by 2050: Creative hives are crucial to artistic and cultural vitality of LA. Artists are being displaced at an alarming rate. Increasing the number of arts establishments per capita is essentialâ€”ensuring that those at the margins, people of color, women and LGBTQ creatives are placed at the center. 
+   Growth in the number of arts establishments per capita in Los Angles by 2050: Creative hives are crucial to artistic and cultural vitality of LA. Artists are being displaced at an alarming rate. Increasing the number of arts establishments per capita is essential—ensuring that those at the margins, people of color, women and LGBTQ creatives are placed at the center. 
    
    
    

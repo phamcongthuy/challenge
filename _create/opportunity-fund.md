@@ -97,7 +97,7 @@ project_proposal_best_place: >-
    
    
    
-   To address this issue, the RBLC formed in 2015 to support responsible practices in the small business lending sector. We have created the Small Business Borrowers’ Bill of Rights (the Rights)—a set of practices lenders and brokers adhere to when financing small business ownersâ€”and are now planning an intensive LA-focused campaign to activate Angelenos around responsible lending through education and policy advocacy. By creating momentum among the county’s small business and entrepreneurial community, we can push for stronger protections against predatory lending and better support those most affected by discriminatory and predatory lending practices, in particular, women and minority entrepreneurs working to start and grow their firms.
+   To address this issue, the RBLC formed in 2015 to support responsible practices in the small business lending sector. We have created the Small Business Borrowers’ Bill of Rights (the Rights)—a set of practices lenders and brokers adhere to when financing small business owners—and are now planning an intensive LA-focused campaign to activate Angelenos around responsible lending through education and policy advocacy. By creating momentum among the county’s small business and entrepreneurial community, we can push for stronger protections against predatory lending and better support those most affected by discriminatory and predatory lending practices, in particular, women and minority entrepreneurs working to start and grow their firms.
    
    
    

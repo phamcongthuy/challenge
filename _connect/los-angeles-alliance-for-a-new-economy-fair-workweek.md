@@ -73,12 +73,12 @@ project_proposal_best_place: >-
 project_proposal_engage: >-
   The Fair Workweek (FWWLA) activation engages non-food retail workers and
   customers. Retail workers look like LA: they are all ages—from teens to
-  seniorsâ€”and all ethnicitiesâ€”primarily Latinx like the city, and a majority
+  seniors—and all ethnicities—primarily Latinx like the city, and a majority
   are women.. 
    
    Strategies and tools employed:
    
-   Engage workers in using social media tools and the FWWLA app to connect with each other across the city. Use Twitter and “we are retail”â€”a private national Facebook group for retail workersâ€”to promote actions, inform workers and build solidarity. 
+   Engage workers in using social media tools and the FWWLA app to connect with each other across the city. Use Twitter and “we are retail”—a private national Facebook group for retail workers—to promote actions, inform workers and build solidarity. 
    
    Register retail workers to vote and use social media to increase turnout.
    

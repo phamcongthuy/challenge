@@ -85,7 +85,7 @@ project_proposal_best_place: >-
   dirty energy we don’t need. It shouldn’t be this way. Through intentional
   policies, we have the power to end this problem and create a more livable,
   breathable, and greener city for all—most importantly for our youngest
-  residentsâ€”while creating pathways into good, clean manufacturing jobs for
+  residents—while creating pathways into good, clean manufacturing jobs for
   youth and underserved communities. 
    
    

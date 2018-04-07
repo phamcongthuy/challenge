@@ -25,7 +25,7 @@ project_proposal_description: >-
   local residents and artists to design and paint murals. A summer youth program
   will work with local businesses to revitalize storefronts, while motivating
   the next generation of leaders. These works—designed and painted by
-  localsâ€”will connect the community in a collective process and reclaim
+  locals—will connect the community in a collective process and reclaim
   streets as a collaborative public space.
 project_areas:
   - Central LA
@@ -59,7 +59,7 @@ project_proposal_best_place: >-
    
    Nuestros Murales Unidos will also create a summer program for local students to participate in beautification. The program will be run by the Community Engagement Coordinator and held each weekday for an hour. Students will work with local businesses to talk about the appearance of their storefront, offering to repaint shabby exterior walls with simple designs or place decorated potted plants outside. The summer program will activate the next generation of community leaders, empowering students with a sense of responsibility to their community and the tools to take action. Parents and community members will be encouraged to help with designing and creating these smaller works.
    
-   Throughout the process, we will work with community members and partner organizations to kick off a social media campaign using the artworks as a focal point for community pride. #MuralesUnidos and #OurMurals will give this project a unified online presence, and carry connections created through the design process online. Angelenos across the city will be connected to the art through Facebook, Instagram, and Twitter, and encouraged to start similar projects in their own communities. By offering meaningful volunteer opportunities and cultural events in community spaces, YPI hopes to provide resources for these communities to come together and create something that truly represents them. The collaborative murals will serve as a visual representation of the community’s pride and resilience, as well as the power of collective action. These works—chosen, designed, and painted by localsâ€”will reclaim streets as a collaborative public space, a canvas for public engagement led by a new generation of community leaders.
+   Throughout the process, we will work with community members and partner organizations to kick off a social media campaign using the artworks as a focal point for community pride. #MuralesUnidos and #OurMurals will give this project a unified online presence, and carry connections created through the design process online. Angelenos across the city will be connected to the art through Facebook, Instagram, and Twitter, and encouraged to start similar projects in their own communities. By offering meaningful volunteer opportunities and cultural events in community spaces, YPI hopes to provide resources for these communities to come together and create something that truly represents them. The collaborative murals will serve as a visual representation of the community’s pride and resilience, as well as the power of collective action. These works—chosen, designed, and painted by locals—will reclaim streets as a collaborative public space, a canvas for public engagement led by a new generation of community leaders.
 project_proposal_engage: >-
   Nuestros Murales Unidos will create a clear path of engagement, moving from
   social media interaction to campaigning for change at neighborhood council

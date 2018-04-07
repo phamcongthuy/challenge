@@ -3,7 +3,7 @@ application_id: '2272860841'
 title: '51%: Our Reality'
 project_description: >-
   51%: Our Reality is a traveling virtual reality exhibit—free and open to the
-  publicâ€”based on the real perspectives, experiences and trials of women in
+  public—based on the real perspectives, experiences and trials of women in
   LA, who make up 51% of our city’s population.
 organization_name: TWIGG How-To
 organization_description: For-profit organization
@@ -59,7 +59,7 @@ project_proposal_best_place: >-
    
    
    
-   2) The National Endowment for the Arts has cited location as a major barrier to arts attendance. (When Going Gets Tough: Barriers and Motivations Affecting Arts Attendance) The 51% exhibit will capitalize on VR’s transportability, hosting traveling exhibits throughout the LA metropolitan area in order to provide more communities with access to cultural eventsâ€”particularly focusing on transportation-deserts and low-mobility populations such as retirement homes. The exhibit will also be free to all and a shortened experience will be available online.
+   2) The National Endowment for the Arts has cited location as a major barrier to arts attendance. (When Going Gets Tough: Barriers and Motivations Affecting Arts Attendance) The 51% exhibit will capitalize on VR’s transportability, hosting traveling exhibits throughout the LA metropolitan area in order to provide more communities with access to cultural events—particularly focusing on transportation-deserts and low-mobility populations such as retirement homes. The exhibit will also be free to all and a shortened experience will be available online.
    
    
    

@@ -116,7 +116,7 @@ project_five_years: >-
   anti-poverty field. Our movement towards this goal is evident in our
   invitation to participate in a Health and Human Services Department evaluation
   that will help the HHS Administration for Children and Families assess if and
-  how coaching can better support parents—particularly those receiving TANFâ€”in
+  how coaching can better support parents—particularly those receiving TANF—in
   reaching their economic security goals. This is an exciting opportunity for
   LIFT to have broad sector influence by elevating coaching as a meaningful
   investment, alongside the biggest social service provider in the US, the

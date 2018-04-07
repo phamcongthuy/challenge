@@ -1,7 +1,7 @@
 ---
 application_id: '3096471160'
 title: >-
-  Create Above the Radar Program —Â Think Tank Gallery Spotlight on Creative
+  Create Above the Radar Program – Think Tank Gallery Spotlight on Creative
   Opportunity
 project_description: |-
   Your art is better when you don't have to hide it. 

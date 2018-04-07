@@ -60,7 +60,7 @@ project_proposal_best_place: >-
    
    
    
-   The City of Los Angeles should recognize how critical young people are to its economy, culture, and civic discourse — both today and in the future. Nonetheless, the City minimally invests in programs that benefit youth. The future of our City depends on the next generation of young Angelenos becoming ready for the transition into the workforce and/or higher education. It is time to ensure that all youth have access to high-quality programs—no matter where they liveâ€”with public investment to support a Youth Development Department.
+   The City of Los Angeles should recognize how critical young people are to its economy, culture, and civic discourse — both today and in the future. Nonetheless, the City minimally invests in programs that benefit youth. The future of our City depends on the next generation of young Angelenos becoming ready for the transition into the workforce and/or higher education. It is time to ensure that all youth have access to high-quality programs—no matter where they live—with public investment to support a Youth Development Department.
    
    
    
