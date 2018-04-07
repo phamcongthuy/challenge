@@ -9,22 +9,28 @@ organization_name: United Way of Greater Los Angeles
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/omjbiTiHXxU'
 link_newsletter: 'http://everyoneinla.org/join-us/'
-organization_website: >-
-  http://everyoneinla.org/; http://www.abundanthousingla.org/;
-  http://www.innercitylaw.org/
-organization_twitter: '@EveryoneIn_LA; @InnerCityLaw; @AbundantHousing'
-organization_instagram: '@everyonein_la; @abundanthousing'
-organization_facebook: '@EveryoneInLA; @InnerCityLawCenter; @abundanthousingla'
-link_volunteer: |-
-  http://everyoneinla.org/training-sign-up/ 
-   
-   http://www.innercitylaw.org/volunteer/
-   
-   http://www.abundanthousingla.org/sign-up/
-link_donate: |-
-  http://everyoneinla.org/donate/
-   
-   https://donatenow.networkforgood.org/1436044
+organization_website:
+  - 'http://everyoneinla.org/'
+  - 'http://www.abundanthousingla.org/'
+  - 'http://www.innercitylaw.org/'
+organization_twitter:
+  - '@EveryoneIn_LA'
+  - '@InnerCityLaw'
+  - '@AbundantHousing'
+organization_instagram:
+  - '@everyonein_la'
+  - '@abundanthousing'
+organization_facebook:
+  - '@EveryoneInLA'
+  - '@InnerCityLawCenter'
+  - '@abundanthousingla'
+link_volunteer:
+  - 'http://everyoneinla.org/training-sign-up/'
+  - 'http://www.innercitylaw.org/volunteer/'
+  - 'http://www.abundanthousingla.org/sign-up/'
+link_donate:
+  - 'http://everyoneinla.org/donate/'
+  - 'https://donatenow.networkforgood.org/1436044'
 organization_activity: >-
   EVERYONE IN, powered by United Way, is a coalition that is keeping the focus
   on permanent solutions to homelessness.
