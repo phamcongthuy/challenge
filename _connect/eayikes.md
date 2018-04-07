@@ -9,7 +9,7 @@ organization_description: Non-profit organization
 project_video: 'https://youtu.be/PtA8wOP6XuM'
 link_newsletter: 'http://eepurl.com/dpRUwj'
 organization_website: eayikes.org
-organization_twitter: '-'
+organization_twitter: ''
 organization_facebook: facebook.com/eayikes
 organization_instagram: '@eayikes'
 link_donate: 'http://eayikes.org/donate'
