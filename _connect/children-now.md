@@ -57,15 +57,15 @@ project_proposal_best_place: >-
    
    
    
-   â€¢ Infographics highlighting key data and statistics on the need for strong supports for early brain development and social emotional development; 
+   * Infographics highlighting key data and statistics on the need for strong supports for early brain development and social emotional development; 
    
-   â€¢ Video blog posts on early brain development and social emotional development for young children;
+   * Video blog posts on early brain development and social emotional development for young children;
    
-   â€¢ Shareable memes and photos with data points highlighting the need for better supports for infants and toddlers; 
+   * Shareable memes and photos with data points highlighting the need for better supports for infants and toddlers; 
    
-   â€¢ Links to partners’ and researchers’ reports and materials that highlight infant and toddler issues; and
+   * Links to partners’ and researchers’ reports and materials that highlight infant and toddler issues; and
    
-   â€¢ Social media posts targeted at key state and LA County candidates of the 2018 election.
+   * Social media posts targeted at key state and LA County candidates of the 2018 election.
    
    
    

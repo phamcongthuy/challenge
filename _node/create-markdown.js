@@ -150,10 +150,11 @@ function fixDataCharacters(data) {
         .replace('â€˜', '‘')
         .replace('â€™', '’')
         .replace('â€¯', '') // ?
-        .replace('â€”', '—') // ?
+        .replace('â€”', '—')
         .replace('â€‹', '') // ?
         .replace('â€œ', '“') // ?
         .replace('â€', '”') // ?
+        .replace('â€¢', "*")
       console.log()
     }
   }

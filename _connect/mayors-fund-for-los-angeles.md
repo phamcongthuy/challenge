@@ -95,19 +95,19 @@ project_measure: >-
    
    The key performance indicators we will use to evaluate our progress and track our success, include: 
    
-   â€¢ Total number of volunteering opportunities available per week
+   * Total number of volunteering opportunities available per week
    
-   â€¢ Total number of open volunteering slots per week
+   * Total number of open volunteering slots per week
    
-   â€¢ % of open volunteering slots filled
+   * % of open volunteering slots filled
    
-   â€¢ Total volunteers per month
+   * Total volunteers per month
    
-   â€¢ Total unique volunteers per month
+   * Total unique volunteers per month
    
-   â€¢ Retention rate
+   * Retention rate
    
-   â€¢ Virality - how many volunteers each volunteer invites to join them
+   * Virality - how many volunteers each volunteer invites to join them
    
    
    

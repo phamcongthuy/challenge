@@ -58,11 +58,11 @@ project_measure: >-
   different lenses, aligned with FosterMore’s goals. Each of the three goals has
   a metric to measure success.
    
-   â€¢ Recruitment of Foster Parents: The number of referrals made to LA County Foster Family Agencies is a clear metric for success and evaluation. The cost/referral allows for comparison with the efforts of other organizations to reach the same demographic.
+   * Recruitment of Foster Parents: The number of referrals made to LA County Foster Family Agencies is a clear metric for success and evaluation. The cost/referral allows for comparison with the efforts of other organizations to reach the same demographic.
    
-   â€¢ Reintroducing Foster Youth to the Public—The overall number of individuals who see the ads and watched the films is a strong metric for success because the ads are purchased to reach a specific demographic of potential foster parents.
+   * Reintroducing Foster Youth to the Public—The overall number of individuals who see the ads and watched the films is a strong metric for success because the ads are purchased to reach a specific demographic of potential foster parents.
    
-   â€¢ Long Term Culture Shift: Based on previous research of our partner organizations that states that the average foster parent spends two years in the prospecting pipeline, we may be able to project interest starting in 18-24 months, assuming appropriate follow up is conducted. It is our belief that a periodic investment of advertising (targeting the same demographic) could yield a conversion rate of 0.005% from those who view the ad.
+   * Long Term Culture Shift: Based on previous research of our partner organizations that states that the average foster parent spends two years in the prospecting pipeline, we may be able to project interest starting in 18-24 months, assuming appropriate follow up is conducted. It is our belief that a periodic investment of advertising (targeting the same demographic) could yield a conversion rate of 0.005% from those who view the ad.
 project_five_years: >-
   We will have provided a significant resource to Los Angeles County to address
   the needs of foster youth and we hope that they will adopt and utilize the

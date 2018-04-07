@@ -104,21 +104,21 @@ project_measure: >-
    
    Success for the three-day Play LA! event will be determined by:
    
-   â€¢ Number of community members who participate in the Park Equity Summit 
+   * Number of community members who participate in the Park Equity Summit 
    
-   â€¢ Number of partners involved in the policy and design workshop 
+   * Number of partners involved in the policy and design workshop 
    
-   â€¢ Shared understanding of the problem and policy solutions as demonstrated by the 2050 Play! Vision for LA County developed as part of the Equity Summit and policy and design workshop
+   * Shared understanding of the problem and policy solutions as demonstrated by the 2050 Play! Vision for LA County developed as part of the Equity Summit and policy and design workshop
    
-   â€¢ Identification of critical policy elements to be included in both LA City and LA County planning efforts, including those currently being developed in the LA County Sustainability Plan
+   * Identification of critical policy elements to be included in both LA City and LA County planning efforts, including those currently being developed in the LA County Sustainability Plan
    
-   â€¢ Number of community-focused events during Play LA!
+   * Number of community-focused events during Play LA!
    
-   â€¢ Number of partners hosting events during Play LA!
+   * Number of partners hosting events during Play LA!
    
-   â€¢ Number of participants in the county-wide day of play
+   * Number of participants in the county-wide day of play
    
-   â€¢ Buy-in from cities and agencies as demonstrated by their participation and sponsorship of events within their communities
+   * Buy-in from cities and agencies as demonstrated by their participation and sponsorship of events within their communities
 project_five_years: >-
   Over 50% of residents in LA County don’t have a park or open space within a
   10-minute walk of home. Without an adequate investment in parks, many of our

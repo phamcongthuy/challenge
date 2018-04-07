@@ -57,19 +57,19 @@ project_proposal_best_place: >-
    
    
    
-   â€¢ Trainings for local trainers on the Center for the Study of Social Policy’s Strengthening Familiesâ„¢ Protective Factors (SFPF) Framework, which focuses on five factors of parental resilience, social connections, concrete support in times of need, knowledge of parenting and child development, and socioemotional competence of children
+   * Trainings for local trainers on the Center for the Study of Social Policy’s Strengthening Familiesâ„¢ Protective Factors (SFPF) Framework, which focuses on five factors of parental resilience, social connections, concrete support in times of need, knowledge of parenting and child development, and socioemotional competence of children
    
-   â€¢ Trainings on advocacy strategies and tactics and provision of tools to increase constituents’ capacity to improve government responsiveness (past examples include a Community Ambassador Toolkit and an online Voter Voice platform that helps local constituents understand and flex their power in local, state, and national politics)
+   * Trainings on advocacy strategies and tactics and provision of tools to increase constituents’ capacity to improve government responsiveness (past examples include a Community Ambassador Toolkit and an online Voter Voice platform that helps local constituents understand and flex their power in local, state, and national politics)
    
-   â€¢ Trainings to help community partnerships develop skills to identify and apply for funding at the local level
+   * Trainings to help community partnerships develop skills to identify and apply for funding at the local level
    
-   â€¢ Organizing of annual community festivals that convene local service providers, families, residents, and volunteers
+   * Organizing of annual community festivals that convene local service providers, families, residents, and volunteers
    
-   â€¢ Volunteer mobilization community partnership activities
+   * Volunteer mobilization community partnership activities
    
-   â€¢ Media engagement and promotion of community partnerships
+   * Media engagement and promotion of community partnerships
    
-   â€¢ Other support activities identified by the local community partnerships
+   * Other support activities identified by the local community partnerships
    
    
    

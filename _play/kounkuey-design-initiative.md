@@ -92,15 +92,15 @@ project_proposal_best_place: >-
    
    
    
-   â€¢ There will be more spaces for play. You’ll enjoy the benefits of open space in your neighborhood, almost immediately, without having to wait for permanent parks to arrive.
+   * There will be more spaces for play. You’ll enjoy the benefits of open space in your neighborhood, almost immediately, without having to wait for permanent parks to arrive.
    
-   â€¢ You’ll have access to unique, vibrant and intergenerational play spaces to suit everyone — because YOU made it happen!
+   * You’ll have access to unique, vibrant and intergenerational play spaces to suit everyone — because YOU made it happen!
    
-   â€¢ You’ll feel safer and more connected to your neighborhood.
+   * You’ll feel safer and more connected to your neighborhood.
    
-   â€¢ You’ll create visual data and community interest to show the City where permanent parks are needed and desired.
+   * You’ll create visual data and community interest to show the City where permanent parks are needed and desired.
    
-   â€¢ You’ll pave the way for permanent improvements and be able to get involved in making them happen.
+   * You’ll pave the way for permanent improvements and be able to get involved in making them happen.
    
    
    

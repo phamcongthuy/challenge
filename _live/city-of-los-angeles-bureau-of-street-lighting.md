@@ -73,11 +73,11 @@ project_measure: |-
    
    
    
-   â€¢ The completed deployment of the air quality sensors and transmission of data. 
+   * The completed deployment of the air quality sensors and transmission of data. 
    
     
    
-   â€¢ The establishment of a public education program based on the air quality data which is accumulated 
+   * The establishment of a public education program based on the air quality data which is accumulated 
    
    and the development of new community-based programs with the goal of mitigating the harmful effects of air pollution.
 project_five_years: >-

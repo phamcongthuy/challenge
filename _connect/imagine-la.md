@@ -99,21 +99,21 @@ project_measure: >-
    
    We will measure success by assessing:
    
-   â€¢ Analytics about impressions, views and engagement on social media platforms
+   * Analytics about impressions, views and engagement on social media platforms
    
-   â€¢ Web site traffic 
+   * Web site traffic 
    
-   â€¢ Media impressions
+   * Media impressions
    
-   â€¢ Community engagement metrics
+   * Community engagement metrics
    
-   â€¢ Event attendance
+   * Event attendance
    
-   â€¢ Volunteer sign ups
+   * Volunteer sign ups
    
-   â€¢ Imagine LA mentor applications submitted
+   * Imagine LA mentor applications submitted
    
-   â€¢ Mentors matched with families and in the pipeline to be matched
+   * Mentors matched with families and in the pipeline to be matched
    
    
    

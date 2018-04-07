@@ -118,15 +118,15 @@ project_measure: >-
    
    The success of the promotores (3) community-level work will be defined by the increase in families’ awareness of health and wellness resources, and families’ increased connectedness to those resources. This will be measured by the following indicators:
    
-   â€¢ Number of resident contacts made by promotores
+   * Number of resident contacts made by promotores
    
-   â€¢ Number of referrals made by promotores and percentage of referrals completed
+   * Number of referrals made by promotores and percentage of referrals completed
    
-   â€¢ Number of residents who receive a referral and percentage who follow through on the referral and connect to health services
+   * Number of residents who receive a referral and percentage who follow through on the referral and connect to health services
    
-   â€¢ Number of presentations and workshops given by promotores and number of residents attending 
+   * Number of presentations and workshops given by promotores and number of residents attending 
    
-   â€¢ Percentage of presentation/workshop participants reporting increased knowledge.
+   * Percentage of presentation/workshop participants reporting increased knowledge.
 project_five_years: >-
   Within Boyle Heights, we plan to scale up the number of promotores
   year-on-year in order to expand reach to residents over time. Moreover, we see

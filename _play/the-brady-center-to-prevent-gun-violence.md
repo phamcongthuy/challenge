@@ -123,15 +123,15 @@ project_five_years: >-
    
    
    
-   â€¢ Identify California “bad apple” gun dealers through greater collection, publication and sharing of crime trace data and other key investigative information; 
+   * Identify California “bad apple” gun dealers through greater collection, publication and sharing of crime trace data and other key investigative information; 
    
    
    
-   â€¢ Shut down or meaningfully reform at least 10 of the “bad apple” gun dealers affecting California; and 
+   * Shut down or meaningfully reform at least 10 of the “bad apple” gun dealers affecting California; and 
    
    
    
-   â€¢ Reduce gun crime by at least 20% in three California cities.
+   * Reduce gun crime by at least 20% in three California cities.
    
    
    
