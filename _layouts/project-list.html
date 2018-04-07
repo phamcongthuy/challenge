@@ -43,6 +43,18 @@ stylesheets:
 The proposals will appear here on <strong>April 9, 2018</strong>.
 </div>
 
+{% elsif page.finalists == true and site.phase < 5 %}
+
+<div class="introduction" markdown="1">
+The finalists will appear here on <strong>May 21, 2018</strong>.
+</div>
+
+{% elsif page.winners == true and site.phase < 8 %}
+
+<div class="introduction" markdown="1">
+The winners will appear here on <strong>July 9, 2018</strong>.
+</div>
+
 {% else %}
 
 {% if page.category %}

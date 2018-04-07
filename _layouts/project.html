@@ -61,7 +61,6 @@ stylesheets:
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
 {% endif %}
 <img src="/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" alt="Image of {{ page.title }}" width="1000" />
-{% endif %}
 {% if page.project_video %}
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
@@ -80,6 +79,7 @@ stylesheets:
       | split: "/" | first
     }}</span>
 </a>
+{% endif %}
 {% endif %}
 </div>
 </figure>
