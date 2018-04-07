@@ -79,7 +79,7 @@ stylesheets:
 
 {% if page.link_newsletter and page.link_newsletter != '' %}
 
-{% if page.link_newsletter contains "http" %}
+{% if page.link_newsletter contains "http" or page.link_newsletter contains "mailto" %}
 {% assign link_newsletter = page.link_newsletter %}
 {% else %}
 {% capture link_newsletter %}http://{{ page.link_newsletter }}{% endcapture %}

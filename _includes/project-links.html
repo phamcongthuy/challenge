@@ -3,7 +3,7 @@
 <h2>Learn more</h2>
 
 {% for website in page.organization_website %}
-{% if website contains "http" %}
+{% if website contains "http" or website contains "mailto" %}
 {% assign website_url = website %}
 {% else %}
 {% capture website_url %}http://{{ website }}{% endcapture %}
