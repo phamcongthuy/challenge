@@ -65,7 +65,7 @@
 
 {% if page.organization_twitter and page.organization_twitter != "" and page.organization_twitter != "n/a" and page.organization_twitter != "N/A" and page.organization_twitter != "none" %}
 
-{% for twitter in page.organization_instagram limit:1 %}
+{% for twitter in page.organization_twitter limit:1 %}
 
 {% if twitter contains "http" %}
 {% assign twitter_url = twitter %}
