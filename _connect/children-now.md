@@ -22,8 +22,8 @@ organization_activity: >-
   health, early development, education, and welfare.
 project_proposal_description: >-
   Too often in LA, children—especially children of color, children in foster
-  care, and those growing up in poverty—face many systemic barriers to a
-  healthy early start. In order to build the public pressure necessary to push
+  care, and those growing up in poverty—face many systemic barriers to a healthy
+  early start. In order to build the public pressure necessary to push
   policymakers to ensure all young kids have the supports they need to thrive in
   their first years, Children Now will execute a communications campaign to
   educate, connect, and mobilize Angelenos behind a strong vision for LA’s

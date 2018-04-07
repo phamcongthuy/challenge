@@ -80,21 +80,21 @@ project_proposal_engage: >-
   participate in collective community driven implementation. Child360 will build
   on its successful framework to support resident/stakeholder engagement and
   advocacy through community partnership. Successful stakeholder engagement and
-  advocacy activities include: Parent Cafes, Strengthening Families™
-  trainings, Advocacy workshops, and Train-the-Trainers. A trained delegate from
-  each community will facilitate train-the-trainer advocacy trainings. Delegates
-  will be trained on how to develop outreach strategies to engage schools,
-  residents, and other stakeholders. Delegates will also be invited to
-  participate in visits with elected officials. Civic engagement trainings will
-  build on these efforts by offering information topics requested by the
-  communities. These may include: public transportation, immigration, education,
-  and access to healthy food. In addition, Community Partnerships may use one of
-  their meetings to invite elected officials to attend and address community
-  issues. This model is based on the success of Senator Hertzberg collaborating
-  with Child360 and the Northeast Valley Partnership to host a community
-  breakfast to connect with and hear from community members. Finally, Child360
-  will design feedback mechanisms to ensure efforts are conducted in accordance
-  with community partners’ intentions and goals.
+  advocacy activities include: Parent Cafes, Strengthening Families™ trainings,
+  Advocacy workshops, and Train-the-Trainers. A trained delegate from each
+  community will facilitate train-the-trainer advocacy trainings. Delegates will
+  be trained on how to develop outreach strategies to engage schools, residents,
+  and other stakeholders. Delegates will also be invited to participate in
+  visits with elected officials. Civic engagement trainings will build on these
+  efforts by offering information topics requested by the communities. These may
+  include: public transportation, immigration, education, and access to healthy
+  food. In addition, Community Partnerships may use one of their meetings to
+  invite elected officials to attend and address community issues. This model is
+  based on the success of Senator Hertzberg collaborating with Child360 and the
+  Northeast Valley Partnership to host a community breakfast to connect with and
+  hear from community members. Finally, Child360 will design feedback mechanisms
+  to ensure efforts are conducted in accordance with community partners’
+  intentions and goals.
 project_measure: >-
   The community partnerships will develop goals to define their success as well
   as work plans with measurable objectives and implementation timelines, which

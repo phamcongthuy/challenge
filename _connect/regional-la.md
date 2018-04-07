@@ -121,7 +121,7 @@ project_proposal_engage: >-
    
    
    Finally, Ambassadors will also reach out online to the residents themselves via online forums in order to monitor and understand how the tool is being adopted by individuals, and make recommendations back to Management towards improving end-user experiences.
-project_measure: >-
+project_measure: |-
 
   #### GENERAL GOAL: ACTIVATION OF 100,000 ANGELENOS
 
@@ -154,7 +154,6 @@ project_measure: >-
 
     Measurement
     : Via periodic automated tallying of user social linkages.
-
 project_five_years: >-
   Our goal for this activation is to use Los Angeles County as a laboratory and
   ultimately a template for replicating our success here into other places. 

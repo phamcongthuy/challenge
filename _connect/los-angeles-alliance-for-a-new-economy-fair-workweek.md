@@ -73,8 +73,8 @@ project_proposal_best_place: >-
 project_proposal_engage: >-
   The Fair Workweek (FWWLA) activation engages non-food retail workers and
   customers. Retail workers look like LA: they are all ages—from teens to
-  seniors—and all ethnicities—primarily Latinx like the city, and a majority
-  are women.. 
+  seniors—and all ethnicities—primarily Latinx like the city, and a majority are
+  women.. 
    
    Strategies and tools employed:
    

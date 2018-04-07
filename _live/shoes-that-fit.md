@@ -50,9 +50,9 @@ project_proposal_best_place: >-
   The children in our community need to know that they are important and we
   believe in them. For too long in LA, we have ignored these children’s needs
   and neglected to send this message. Funding from LA2050 will provide a direct
-  investment in the children of Los Angeles—the future of LA—and make the city
-  a better place to LIVE by dramatically improve the lives of these children,
-  many of whom have never owned a new pair of shoes. 
+  investment in the children of Los Angeles—the future of LA—and make the city a
+  better place to LIVE by dramatically improve the lives of these children, many
+  of whom have never owned a new pair of shoes. 
    
    
    

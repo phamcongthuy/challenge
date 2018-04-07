@@ -3,8 +3,8 @@ application_id: '2272860841'
 title: '51%: Our Reality'
 project_description: >-
   51%: Our Reality is a traveling virtual reality exhibit—free and open to the
-  public—based on the real perspectives, experiences and trials of women in
-  LA, who make up 51% of our city’s population.
+  public—based on the real perspectives, experiences and trials of women in LA,
+  who make up 51% of our city’s population.
 organization_name: TWIGG How-To
 organization_description: For-profit organization
 project_video: ''

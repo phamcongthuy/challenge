@@ -25,8 +25,8 @@ project_proposal_description: >-
   local residents and artists to design and paint murals. A summer youth program
   will work with local businesses to revitalize storefronts, while motivating
   the next generation of leaders. These works—designed and painted by
-  locals—will connect the community in a collective process and reclaim
-  streets as a collaborative public space.
+  locals—will connect the community in a collective process and reclaim streets
+  as a collaborative public space.
 project_areas:
   - Central LA
 project_proposal_mobilize:
