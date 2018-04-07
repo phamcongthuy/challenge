@@ -207,10 +207,6 @@ stylesheets:
 
 <h3>Will your proposal impact any other LA2050 goal categories?</h3>
 <ul>
-  <!--
-  <li>LA is the best place to <span style="text-transform: uppercase;">learn</span></li>
-  <li>LA is the best place to <span style="text-transform: uppercase;">connect</span></li>
-  -->
   {% for metric in page.category_other %}
   <li>{{ metric }}</li>
   {% endfor %}
@@ -219,14 +215,31 @@ stylesheets:
 <h3>In what areas of Los Angeles will you be directly working?</h3>
 <ul>
   {% for area in page.project_areas %}
-  <li>{{ area }}</li>
+  <li>
+    {{
+      area
+        | replace: "(please select only if your project has a countywide", ""
+        | replace: "(please select only if your project has a citywide", ""
+        | replace: "benefit)", ""
+    }}
+  </li>
   {% endfor %}
 </ul>
 
 <h3>How will your activation mobilize Angelenos?</h3>
 <ul>
   {% for item in page.project_proposal_mobilize %}
-  <li>{{ item }}</li>
+  <li>
+    {{
+      item
+        | replace: "(e.g. voting, running for", ""
+        | replace: "office, community problem solving)", ""
+        | replace: "(e.g. buycott, boycott, promote", ""
+        | replace: "corporate social responsibility)", ""
+        | replace: "(e.g. change consumer spending or increase", ""
+        | replace: "conservation activity)", ""
+    }}
+  </li>
   {% endfor %}
 </ul>
 
@@ -238,15 +251,6 @@ stylesheets:
 
 <h3>Please explain how you will define and measure success for your activation.​</h3>
 {{ page.project_measure | markdownify }}
-
-{% comment %}
-<h3>LA2050 will serve as a partner on this activation. Which of LA2050’s resources will be of the most value to you?</h3>
-<ul>
-  {% for help in page.project_proposal_help %}
-  <li>{{ help }}</li>
-  {% endfor %}
-</ul>
-{% endcomment %}
 
 <h3>Where do you hope this activation or your organization will be in five years?</h3>
 {{ page.project_five_years | markdownify }}
