@@ -79,51 +79,71 @@ stylesheets:
 
 {% if page.link_newsletter and page.link_newsletter != '' %}
 
-{% if page.link_newsletter contains "http" or page.link_newsletter contains "mailto" %}
-{% assign link_newsletter = page.link_newsletter %}
+{% for link_newsletter in page.link_newsletter limit:1 %}
+
+{% if link_newsletter contains "http" or link_newsletter contains "mailto" %}
+{% assign link_newsletter_url = link_newsletter %}
 {% else %}
-{% capture link_newsletter %}http://{{ page.link_newsletter }}{% endcapture %}
+{% capture link_newsletter_url %}http://{{ link_newsletter }}{% endcapture %}
 {% endif %}
 
 <div class="links links-action">
 <h2>Love this idea?</h2>
 
 <ul class="action" style="max-width: none;">
-  <li><a href="{{ link_newsletter }}">Stay updated on this activation</a></li>
+  <li><a href="{{ link_newsletter_url }}">Stay updated on this activation</a></li>
 </ul>
 </div>
+
+{% endfor %}
 
 {% endif %}
 
 
 {% if page.link_donate and page.link_donate != '' %}
-  {% if page.link_donate contains "http" or page.link_donate contains "mailto" %}
-  {% assign link_donate = page.link_donate %}
-  {% else %}
-  {% capture link_donate %}http://{{ page.link_donate }}{% endcapture %}
-  {% endif %}
+{% assign link_donate_exists = true %}
 {% endif %}
 
 {% if page.link_volunteer and page.link_volunteer != '' %}
-  {% if page.link_volunteer contains "http" or page.link_volunteer contains "mailto" %}
-  {% assign link_volunteer = page.link_volunteer %}
-  {% else %}
-  {% capture link_volunteer %}http://{{ page.link_volunteer }}{% endcapture %}
-  {% endif %}
+{% assign link_volunteer_exists = true %}
 {% endif %}
 
 
-{% if link_donate or link_volunteer %}
+{% if link_donate_exists or link_volunteer_exists %}
 <div class="links links-involved">
 <h2>Get involved</h2>
 
 <ul class="action" style="max-width: none;">
-  {% if link_donate %}
-  <li><a href="{{ link_donate }}">Donate</a></li>
+  {% if link_donate_exists %}
+
+    {% for link_donate in page.link_donate limit:1 %}
+
+    {% if link_donate contains "http" or link_donate contains "mailto" %}
+    {% assign link_donate_url = link_donate %}
+    {% else %}
+    {% capture link_donate_url %}http://{{ link_donate }}{% endcapture %}
+    {% endif %}
+
+    <li><a href="{{ link_donate_url }}">Donate</a></li>
+
+    {% endfor %}
+
   {% endif %}
 
-  {% if link_volunteer %}
-  <li><a href="{{ link_volunteer }}">Volunteer</a></li>
+  {% if link_volunteer_exists %}
+
+    {% for link_volunteer in page.link_volunteer limit:1 %}
+
+    {% if link_volunteer contains "http" or link_volunteer contains "mailto" %}
+    {% assign link_volunteer_url = link_volunteer %}
+    {% else %}
+    {% capture link_volunteer_url %}http://{{ link_volunteer }}{% endcapture %}
+    {% endif %}
+
+    <li><a href="{{ link_volunteer_url }}">Volunteer</a></li>
+
+    {% endfor %}
+
   {% endif %}
 </ul>
 </div>
