@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-markdown": "node _node/create-markdown.js",
+    "update-markdown": "node _node/update-markdown.js",
     "copy-images": "node _node/copy-images.js",
     "read-pdf": "node _node/read-pdf.js",
     "create-images": "gulp"
