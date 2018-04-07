@@ -13,15 +13,12 @@ project_video: ''
 link_newsletter: ''
 organization_website: ''
 organization_twitter: '@thepplofchange'
-organization_facebook: 'https://www.facebook.com/thepeopleofchange/?ref=settings'
+organization_facebook: 'https://www.facebook.com/thepeopleofchange/'
 organization_instagram: '@thepplofchange'
-link_donate: 'https://www.facebook.com/thepeopleofchange/?ref=settings'
-link_volunteer: |-
-  https://www.instagram.com/thepplofchange/
-   
-   
-   
-   https://www.facebook.com/thepeopleofchange/?ref=settings
+link_donate: 'https://www.facebook.com/thepeopleofchange/'
+link_volunteer:
+  - https://www.instagram.com/thepplofchange/
+  - https://www.facebook.com/thepeopleofchange/
 organization_activity: >-
   The People of Change programs promote advancement opportunities through
   community based initiatives in the fields of education, income, cultural

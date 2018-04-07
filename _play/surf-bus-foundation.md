@@ -11,12 +11,17 @@ organization_name: Surf Bus Foundation
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/262573193'
 organization_website: www.surfbusfoundation.org
-organization_twitter: '@altaseaorg, @lamitopsail, @marionc82937170'
+organization_twitter:
+  - '@altaseaorg'
+  - '@lamitopsail'
+  - '@marionc82937170'
 organization_facebook: Surf Bus Foundation
-organization_instagram: '@surfbusfoundation, @altasea, @tallshipschool, @surf_academy,'
-link_newsletter: >-
-  Please email: info@surfbusfoundation.org, use subject heading: ActivateforLA
-  so we know what brought you to us!
+organization_instagram: 
+  - '@surfbusfoundation'
+  - '@altasea'
+  - '@tallshipschool'
+  - '@surf_academy,'
+link_newsletter: mailto:info@surfbusfoundation.org?subject=ActivateforLA
 link_donate: www.surfbusfoundation.org/donate
 link_volunteer: www.surfbusfoundation.org/volunteer
 organization_activity: >-

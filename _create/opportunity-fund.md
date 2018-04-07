@@ -10,38 +10,49 @@ project_description: >-
 organization_name: Opportunity Fund
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/KrGSS4OtP50'
-organization_website: >-
-  http://www.borrowersbillofrights.org; Opportunityfund.org;
-  Smallbusinessmajority.org; https://us.accion.org/about-us/;
-  http://fieldus.org/index.html; http://cim-llc.com/;
-  https://www.lendingclub.com/; https://www.fundingcircle.com/us/;
-  www.fundera.com
-organization_twitter: >-
-  @opportunityfund @OFSmallBusiness @AspenMicro @AccionUs @SmlBizMajority
-  @LendingClub @FundingCircleUS @Fundera @VenturizeOrg
-organization_facebook: >-
-  https://www.facebook.com/opportunityfund;
-  https://www.facebook.com/ofsmallbusiness/;
-  https://www.facebook.com/FIELDatAspen/;
-  https://www.facebook.com/SmallBusinessMajority/;
-  https://www.facebook.com/VenturizeOrg/;
-  https://www.facebook.com/LendingClubTeam/;
-  https://www.facebook.com/FundingCircleUS/; https://www.facebook.com/fundera/
-organization_instagram: >-
-  https://www.instagram.com/opportunityfund/;
-  https://www.instagram.com/accion_us/;
-  https://www.instagram.com/smlbizmajority/;
-  https://www.instagram.com/gofundera/?hl=en
-link_newsletter: 'http://www.borrowersbillofrights.org/blog; info@borrowersbillofrights.org'
+organization_website:
+  - http://www.borrowersbillofrights.org
+  - http://Opportunityfund.org
+  - http://Smallbusinessmajority.org
+  - https://us.accion.org/about-us/
+  - http://fieldus.org/index.html
+  - http://cim-llc.com/
+  - https://www.lendingclub.com/
+  - https://www.fundingcircle.com/us/
+  - http://www.fundera.com
+organization_twitter:
+  - '@opportunityfund'
+  - '@OFSmallBusiness'
+  - '@AspenMicro'
+  - '@AccionUs'
+  - '@SmlBizMajority'
+  - '@LendingClub'
+  - '@FundingCircleUS'
+  - '@Fundera'
+  - '@VenturizeOrg'
+organization_facebook:
+  - https://www.facebook.com/opportunityfund
+  - https://www.facebook.com/ofsmallbusiness/
+  - https://www.facebook.com/FIELDatAspen/
+  - https://www.facebook.com/SmallBusinessMajority/
+  - https://www.facebook.com/VenturizeOrg/
+  - https://www.facebook.com/LendingClubTeam/
+  - https://www.facebook.com/FundingCircleUS/
+  - https://www.facebook.com/fundera/
+organization_instagram:
+  - https://www.instagram.com/opportunityfund/
+  - https://www.instagram.com/accion_us/
+  - https://www.instagram.com/smlbizmajority/
+  - https://www.instagram.com/gofundera/?hl=en
+link_newsletter:
+  - 'http://www.borrowersbillofrights.org/blog'
+  - 'mailto:info@borrowersbillofrights.org'
 link_volunteer: ''
-link_donate: |-
-  www.opportunityfund.org/donate;
-   
-   https://us.accion.org/partner-with-us/donate/;
-   
-   http://www.smallbusinessmajority.org/donate;
-   
-   https://www.aspeninstitute.org/contribute/
+link_donate:
+  - http://www.opportunityfund.org/donate
+  - https://us.accion.org/partner-with-us/donate/
+  - http://www.smallbusinessmajority.org/donate
+  - https://www.aspeninstitute.org/contribute/
 organization_activity: >-
   RBLC is a network of lenders and small business advocates in Los Angeles
   committed to advancing policies that combat predatory lending, promote

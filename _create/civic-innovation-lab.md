@@ -12,11 +12,11 @@ organization_description: Non-profit organization
 project_video: ''
 organization_website: civicinnovationlab.la
 organization_twitter: '@civicinnlab'
-organization_facebook: /civicinnlab
-organization_instagram: /civicinnovationlab
+organization_facebook: civicinnlab
+organization_instagram: civicinnovationlab
 link_newsletter: 'http://www.civicinnovationlab.la/get_updates'
 link_volunteer: 'http://www.civicinnovationlab.la/volunteer'
-link_donate: coming soon!
+link_donate: ''
 organization_activity: >-
   Civic Innovation Lab facilitates cross-sector collaboration and the creation
   of civic solutions through design challenges, structured programming, and

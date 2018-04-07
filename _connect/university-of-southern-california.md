@@ -9,8 +9,12 @@ organization_name: University of Southern California
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=6iKW4H-17BA&feature=youtu.be'
 link_newsletter: 'https://socialinnovation.usc.edu/contact-us/'
-organization_website: la.myneighborhooddata.org; socialinnovation.usc.edu
-organization_twitter: '@NDSC_LA; @USCPriceCSI'
+organization_website:
+  - la.myneighborhooddata.org
+  - socialinnovation.usc.edu
+organization_twitter:
+  - '@NDSC_LA'
+  - '@USCPriceCSI'
 organization_facebook: 'https://www.facebook.com/PriceSocialInnovation'
 organization_instagram: ''
 link_donate: 'https://socialinnovation.usc.edu/contact-us/'

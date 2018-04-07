@@ -8,7 +8,9 @@ project_description: >-
 organization_name: Roadtrip Nation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=jT5D2oFUbpQ'
-organization_website: www.roadtripnation.com; roadtripnation.org
+organization_website:
+  - www.roadtripnation.com
+  - roadtripnation.org
 organization_twitter: '@RoadtripNation'
 organization_facebook: '@RoadtripNation'
 organization_instagram: '@RoadtripNation'

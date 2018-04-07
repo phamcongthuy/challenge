@@ -5,16 +5,16 @@ project_description: >-
   Robots, fire and next-gen inventions - STEAM Carnival - a Trojan horse to
   interest kids in Science, Tech, Engineering, Art & Math careers. Young
   inventors in South Los Angeles step right up!
-organization_name: TWo Bit Circus Foundation
+organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=6ZaOSqWls54'
-link_newsletter: 'Newsletter = http://twobitcircus.org/newsletter/'
+link_newsletter: http://twobitcircus.org/newsletter/
 organization_website: TwoBitCircus.org
 organization_twitter: '@TwoBitCircusorg'
 organization_facebook: '@TwoBitCircusorg'
 organization_instagram: '@TwoBitCircusorg'
-link_donate: 'Donate = http://twobitcircus.org/how-you-can-help/donate-now/'
-link_volunteer: 'Volunteer = http://twobitcircus.org/volunteer/'
+link_donate: http://twobitcircus.org/how-you-can-help/donate-now/
+link_volunteer: http://twobitcircus.org/volunteer/
 organization_activity: >-
   We inspire the next generation of inventors, creators, and entrepreneurs while
   inspiring environmental stewardship by using manufacturers cast-offs.

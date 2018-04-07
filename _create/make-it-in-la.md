@@ -10,15 +10,25 @@ project_description: >-
 organization_name: MAKE IT IN LA
 organization_description: Non-profit organization
 project_video: 'http://makeitinla.org/makerwalkvideo'
-organization_website: 'http://makeitinla.org, http://lafoodfest.com, http://artisanalla.com'
-organization_twitter: '@wemakeitinla @LAFoodFest @ArtisanalLA'
-organization_facebook: >-
-  http://makeitinla.org/makeitinla, http://facebook.com/LAFoodfest,
-  http://facebook.com/ArtisanalLA
-organization_instagram: '@wemakeitinla @lafoodfest @artisanalla'
+organization_website:
+  - 'http://makeitinla.org'
+  - 'http://lafoodfest.com'
+  - 'http://artisanalla.com'
+organization_twitter:
+  - '@wemakeitinla'
+  - '@LAFoodFest'
+  - '@ArtisanalLA'
+organization_facebook:
+  - https://facebook.com/makeitinla
+  - https://facebook.com/LAFoodfest
+  - https://facebook.com/ArtisanalLA
+organization_instagram:
+  - '@wemakeitinla'
+  - '@lafoodfest'
+  - '@artisanalla'
 link_newsletter: 'http://makeitinla.org/activateforla'
-link_volunteer: N/A (we curate our volunteers at this time)
-link_donate: N/A (we are supported by sponsors and grants at the timebeing)
+link_volunteer: ''
+link_donate: ''
 organization_activity: >-
   MAKE IT IN LA is a community of diverse creators who turn their passions into
   products in L.A.; our content, connections and programming help entrepreneurs

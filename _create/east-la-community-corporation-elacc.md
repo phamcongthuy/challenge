@@ -8,12 +8,25 @@ project_description: >-
 organization_name: East LA Community Corporation (ELACC)
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/xpzFikU5XZ0'
-organization_website: 'www.elacc.org, www.lurnetwork.org, www.goodfoodla.org, www.publiccounsel.org'
-organization_twitter: '@elaccorg, @lurnetwork, @goodfoodla, @publiccounsel'
-organization_facebook: >-
-  www.facebook.com/ELACCorg, www.facebook.com/LURNetwork,
-  www.facebook.com/losangelesfoodpolicycouncil, ww.facebook.com/publiccounsel
-organization_instagram: '@elaccorg, @lurnetwork, @lagoodfood'
+organization_website:
+  - www.elacc.org
+  - www.lurnetwork.org
+  - www.goodfoodla.org
+  - www.publiccounsel.org
+organization_twitter:
+  - '@elaccorg'
+  - '@lurnetwork'
+  - '@goodfoodla'
+  - '@publiccounsel'
+organization_facebook:
+  - www.facebook.com/ELACCorg
+  - www.facebook.com/LURNetwork
+  - www.facebook.com/losangelesfoodpolicycouncil
+  - www.facebook.com/publiccounsel
+organization_instagram:
+  - '@elaccorg'
+  - '@lurnetwork'
+  - '@lagoodfood'
 link_newsletter: 'http://www.streetvendorsforla.org'
 link_volunteer: 'http://www.streetvendorsforla.org'
 link_donate: 'http://www.streetvendorsforla.org'

@@ -10,7 +10,7 @@ project_description: >-
 organization_name: Lava Mae
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=Uxp2LencnXs'
-link_newsletter: 'Please email: infola@lavamae.org with the subject line: LA mailing list'
+link_newsletter: 'mailto:infola@lavamae.org?subject=LA mailing list'
 organization_website: www.lavamae.org
 organization_twitter: '@lavamaela'
 organization_facebook: lavamae_la

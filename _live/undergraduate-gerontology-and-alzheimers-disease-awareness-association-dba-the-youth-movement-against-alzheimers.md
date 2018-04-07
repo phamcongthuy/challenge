@@ -11,7 +11,9 @@ organization_name: >-
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/5fwflSIChBM'
 link_newsletter: 'http://bit.ly/ymaaNewsletter'
-organization_website: 'http://www.theyouthmovement.org/#/; https://youthcaregiving.org/'
+organization_website:
+  - 'http://www.theyouthmovement.org/'
+  - 'https://youthcaregiving.org/'
 organization_twitter: '@YouthAgainstAlz'
 organization_instagram: theyouthmovement_org
 organization_facebook: '@theyouthmovementagainstalzheimers'

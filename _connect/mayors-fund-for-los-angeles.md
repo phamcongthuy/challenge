@@ -11,9 +11,15 @@ organization_name: Mayor’s Fund for Los Angeles
 organization_description: Non-profit organization
 project_video: ''
 link_newsletter: lamayor.org/activateLA
-organization_website: 'https://mayorsfundla.org/; https://www.lamayor.org/'
-organization_twitter: '@MayorsFundLA; @MayorOfLA'
-organization_facebook: 'https://www.facebook.com/mayorsfundla/; https://www.facebook.com/MayorOfLA/'
+organization_website:
+  - 'https://mayorsfundla.org/'
+  - 'https://www.lamayor.org/'
+organization_twitter:
+  - '@MayorsFundLA'
+  - '@MayorOfLA'
+organization_facebook:
+  - 'https://www.facebook.com/mayorsfundla/'
+  - 'https://www.facebook.com/MayorOfLA/'
 organization_instagram: 'https://www.instagram.com/mayorofla/'
 link_donate: 'https://mayorsfundla.org/donate-now/'
 link_volunteer: lamayor.org/activateLA

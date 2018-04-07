@@ -9,12 +9,20 @@ organization_name: 'City Impact Lab, powered by Stratiscope'
 organization_description: For-profit organization
 project_video: ''
 link_newsletter: 'http://www.cityimpactlab.com/contact/'
-organization_website: www.stratiscope.com www.cityimpactlab.com
-organization_twitter: '@Stratiscope @CityImpactLab'
-organization_facebook: facebook.com/Stratiscope facebook.com/CityImpactLabLA
-organization_instagram: '@Stratiscope @CityImpactLab'
+organization_website:
+  - www.stratiscope.com
+  - www.cityimpactlab.com
+organization_twitter:
+  - '@Stratiscope'
+  - '@CityImpactLab'
+organization_facebook:
+  - facebook.com/Stratiscope
+  - facebook.com/CityImpactLabLA
+organization_instagram:
+  - '@Stratiscope'
+  - '@CityImpactLab'
 link_donate: ''
-link_volunteer: To be established.
+link_volunteer: ''
 organization_activity: >-
   Powered by Stratiscope, the City Impact Lab empowers individuals, businesses,
   & organizations to make an impact in their community. CIL serves as a hub for

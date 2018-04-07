@@ -8,10 +8,16 @@ project_description: >-
 organization_name: Kounkuey Design Initiative
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=50O1szspYcg&feature=youtu.be'
-organization_website: 'http://kounkuey.org, lurnetwork.org'
-organization_twitter: '@Kounkuey, @LURNetwork'
+organization_website:
+  - 'http://kounkuey.org'
+  - 'http://lurnetwork.org'
+organization_twitter: 
+  - '@Kounkuey'
+  - '@LURNetwork'
 organization_facebook: www.facebook.com/Kounkuey/
-organization_instagram: '@kounkuey, @lurnetwork'
+organization_instagram:
+  - '@kounkuey'
+  - '@lurnetwork'
 link_newsletter: 'http://eepurl.com/dpOxHr'
 link_donate: 'http://kounkuey.org/donate.html'
 link_volunteer: 'http://kounkuey.org/volunteer.html'

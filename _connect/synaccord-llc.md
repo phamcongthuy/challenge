@@ -9,7 +9,9 @@ organization_name: 'Synaccord, LLC'
 organization_description: For-profit organization
 project_video: ''
 link_newsletter: 'http://www.synaccord.com/contact.html'
-organization_website: synaccord.com synaccord.com/citydemo
+organization_website:
+  - synaccord.com
+  - synaccord.com/citydemo
 organization_twitter: '@synaccord'
 organization_facebook: 'https://www.facebook.com/synaccord'
 organization_instagram: engageyourneighborhood

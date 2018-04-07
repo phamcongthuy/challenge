@@ -130,11 +130,48 @@ function changeNAtoEmpty(data) {
   return data;
 }
 
+function is_valid_url(url) {
+  return url.match(/^(ht|f)tps?:\/\/[a-z0-9-\.]+\.[a-z]{2,4}\/?([^\s<>\#%"\,\{\}\\|\\\^\[\]`]+)?$/);
+}
+
 function processFile(filename) {
 
   // Load the contents of the file
   let data = loadMarkdown(filename);
   if (!data) return;
+
+  if (data.yaml.organization_website.indexOf(' ') >= 0 ||
+      data.yaml.organization_twitter.indexOf(' ') >= 0 ||
+      data.yaml.organization_facebook.indexOf(' ') >= 0 ||
+      data.yaml.organization_instagram.indexOf(' ') >= 0 ||
+      data.yaml.link_newsletter.indexOf(' ') >= 0 ||
+      data.yaml.link_donate.indexOf(' ') >= 0 ||
+      data.yaml.link_volunteer.indexOf(' ') >= 0) {
+    console.log('***');
+    console.log(filename);
+    if (data.yaml.organization_website.indexOf(' ') >= 0) {
+      console.log(data.yaml.organization_website);
+    }
+    if (data.yaml.organization_twitter.indexOf(' ') >= 0) {
+      console.log(data.yaml.organization_twitter);
+    }
+    if (data.yaml.organization_facebook.indexOf(' ') >= 0) {
+      console.log(data.yaml.organization_facebook);
+    }
+    if (data.yaml.organization_instagram.indexOf(' ') >= 0) {
+      console.log(data.yaml.organization_instagram);
+    }
+    if (data.yaml.link_newsletter.indexOf(' ') >= 0) {
+      console.log(data.yaml.link_newsletter);
+    }
+    if (data.yaml.link_donate.indexOf(' ') >= 0) {
+      console.log(data.yaml.link_donate);
+    }
+    if (data.yaml.link_volunteer.indexOf(' ') >= 0) {
+      console.log(data.yaml.link_volunteer);
+    }
+    console.log('***');
+  }
 
   // data.yaml = changeNAtoEmpty(data.yaml);
   // data.yaml = addMailTo(data.yaml);

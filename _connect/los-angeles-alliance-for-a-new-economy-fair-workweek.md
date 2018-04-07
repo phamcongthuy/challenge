@@ -14,7 +14,7 @@ organization_twitter: '@FairWorkweekLA'
 organization_facebook: facebook.com/fairworkweekla
 organization_instagram: '@FairWorkweekLA'
 link_donate: 'http://laane.org/donate/'
-link_volunteer: email fairworkweekla@gmail.com
+link_volunteer: mailto:fairworkweekla@gmail.com
 organization_activity: >-
   Retail Workers R LA will enable LA’s 150,000 retail workers to connect with
   each other across LA’s vast size, learn their rights, register to vote, and

@@ -9,32 +9,40 @@ organization_name: Environment California Research & Policy Center
 organization_description: Non-profit organization
 project_video: ''
 link_newsletter: 'https://bit.ly/2pOceyx'
-organization_website: >-
-  www.environmentcaliforniacenter.org, www.sierraclubfoundation.org
-  www.earthjustice.org, www.jobstomoveamerica.org, www.foodandwaterwatch.org,
-  www.ibew11.org
-organization_twitter: >-
-  @LAElectricBus, @EnvCalifornia, @sierraclub, @Earthjustice, @foodandwater,
-  @JobsMoveAmerica, @IBEWlocal11
-organization_instagram: >-
-  @environment_california @sierraclub @jobstomoveamerica @Earthjustice
-  @FoodandWaterWatch @IBEW11
-organization_facebook: >-
-  https://www.facebook.com/EnvironmentCalifornia/?ref=br_rshttps://www.facebook.com/SierraClub/
-  https://www.facebook.com/JobstoMoveAmerica/
-  https://www.facebook.com/FoodWaterWatchCalifornia/
-  https://www.facebook.com/Earthjustice/
+organization_website:
+  - www.environmentcaliforniacenter.org
+  - www.sierraclubfoundation.org
+  - www.earthjustice.org
+  - www.jobstomoveamerica.org
+  - www.foodandwaterwatch.org
+  - www.ibew11.org
+organization_twitter:
+  - '@LAElectricBus'
+  - '@EnvCalifornia'
+  - '@sierraclub'
+  - '@Earthjustice'
+  - '@foodandwater'
+  - '@JobsMoveAmerica'
+  - '@IBEWlocal11'
+organization_instagram:
+  - '@environment_california'
+  - '@sierraclub'
+  - '@jobstomoveamerica'
+  - '@Earthjustice'
+  - '@FoodandWaterWatch'
+  - '@IBEW11'
+organization_facebook:
+  - https://www.facebook.com/EnvironmentCalifornia/
+  - https://www.facebook.com/JobstoMoveAmerica/
+  - https://www.facebook.com/FoodWaterWatchCalifornia/
+  - https://www.facebook.com/Earthjustice/
 link_volunteer: 'https://bit.ly/2pOceyx'
-link_donate: |-
-  https://bit.ly/2GY4sdz
-   
-   https://bit.ly/2Gqacf8
-   
-   https://bit.ly/2E85hxo
-   
-   http://jobstomoveamerica.org/connect/
-   
-   https://bit.ly/2GmH4FE
+link_donate:
+  - https://bit.ly/2GY4sdz
+  - https://bit.ly/2Gqacf8
+  - https://bit.ly/2E85hxo
+  - http://jobstomoveamerica.org/connect/
+  - https://bit.ly/2GmH4FE
 organization_activity: >-
   Environment California Research & Policy Center is dedicated to protecting the
   places we love, advancing the environmental values we share, and winning real
