@@ -174,15 +174,15 @@ project_five_years: >-
    
    
    We also plan to see more communities across California and the US using these tools to engage with each other, and their governments to make our country awesome!
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Voting rates']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: ws9yzyln
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Voting rates
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/synaccord-llc/
 order: 30
 project_image: /assets/images/connect/synaccord-llc.jpg
-project_proposal_impact: []
 
 ---

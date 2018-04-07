@@ -140,13 +140,14 @@ project_five_years: >-
   Angeles is a city in which ALL residents are empowered to work with schools,
   elected officials, and business leaders in order to collectively shape the
   future of the city.
-category_metrics: '[''Adults getting sufficient social & emotional support'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: p9qgwjjr
+category_metrics:
+  - Adults getting sufficient social & emotional support
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/promesa-boyle-heights-at-proyecto-pastoral/
 order: 31
 project_image: /assets/images/connect/promesa-boyle-heights-at-proyecto-pastoral.jpg
-project_proposal_impact: []
 
 ---

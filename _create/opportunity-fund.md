@@ -152,13 +152,15 @@ project_five_years: >-
    
    
    We believe Los Angeles will be leading the way nationwide in demonstrating why and how a healthy financial ecosystem for entrepreneurs creates good jobs and thriving communities. The Small Business Borrowers Bill of Rights will be well known and used by business owners, their advocates, lenders, and policymakers across the nation.
-category_metrics: '[''Gini coefficient'', ''Jobs per capita'', ''Minority- and women-owned firms'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: zcymlzjk
+category_metrics:
+  - Gini coefficient
+  - Jobs per capita
+  - Minority- and women-owned firms
+category_other:
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/opportunity-fund/
 order: 5
 project_image: /assets/images/create/opportunity-fund.jpg
-project_proposal_impact: []
 
 ---

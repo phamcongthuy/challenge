@@ -123,16 +123,15 @@ project_five_years: >-
    
    
    I want people to experience a community get-together through Kitchen Table, but not just one community get-together. My hope is that Kitchen Table App is a part of people’s everyday live -- including their zeitgeist. For example, if two colleagues meet in the break room at their office and one of them says, “What are you doing after work tonight? Would you like to join a ‘Kitchen Table’ dinner in Echo Park before heading home? I’ve been checking it over the past few weeks and there are some really great gatherings happening every night. We have this amazing opportunity to meet new people, try a homemade cuisine, laugh, share stories, and make connections with an interesting group of people that we may have never had the opportunity to meet before Kitchen Table App brought us together.” “Of course! I’d love to try it!”
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Rates of
-  volunteerism', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: 98vcouzu
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Rates of volunteerism
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/kitchen-table-app/
 order: 21
 project_image: /assets/images/connect/kitchen-table-app.jpg
-project_proposal_impact: []
 
 ---

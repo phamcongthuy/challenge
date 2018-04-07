@@ -99,18 +99,17 @@ project_five_years: >-
   their local parks in Los Angeles, which is aligned with the metric of
   increasing the number of parks with inter-generational play opportunities and
   increase attendance at cultural events.
-category_metrics: >-
-  ['Attendance at cultural events', 'Attendance at public/open streets
-  gatherings', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: >-
-  ['LA is the best place to CREATE', 'LA is the best place to PLAY', 'LA is the
-  healthiest place to LIVE']
-unique_identifier: otpooz0i
+category_metrics:
+  - Attendance at cultural events
+  - Attendance at public/open streets gatherings
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/los-angeles-master-chorale/
 order: 5
 project_image: /assets/images/connect/los-angeles-master-chorale.jpg
-project_proposal_impact: []
 
 ---

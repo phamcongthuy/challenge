@@ -122,15 +122,16 @@ project_five_years: >-
   juniors to engage with Los Angeles as it grows and changes. And LASA believes
   it will be introducing those students to LASA-graduates as experts whose work
   is transforming learning, connecting, and creating in LA.
-category_metrics: '[''College matriculation rates'', ''District-wide graduation rates'']'
-category_other: >-
-  ['LA is the best place to CREATE', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT']
-unique_identifier: u0lhw63r
+category_metrics:
+  - College matriculation rates
+  - District-wide graduation rates
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
 category: learn
 uri: /learn/los-angeles-service-academy-lasa/
 order: 14
 project_image: /assets/images/learn/los-angeles-service-academy-lasa.jpg
-project_proposal_impact: []
 
 ---

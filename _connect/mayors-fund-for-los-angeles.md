@@ -124,14 +124,14 @@ project_five_years: >-
    
    
    As we grow the ActivateLA platform, we can establish Los Angeles as the model of how government, nonprofits, foundations, and companies can partner to productively address our local issues together using technology and collaboration.
-category_metrics: '[''Rates of volunteerism'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: lke9ks0y
+category_metrics:
+  - Rates of volunteerism
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/mayors-fund-for-los-angeles/
 order: 1
 project_image: /assets/images/connect/mayors-fund-for-los-angeles.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

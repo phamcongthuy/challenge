@@ -141,19 +141,20 @@ project_five_years: >-
    
    
    We believe the impact of our program is much greater than the individual students. We hope to affect all humans in one way or another. We believe we are creating a healthier environment and planet.
-category_metrics: >-
-  ['District-wide graduation rates', 'Suspension and expulsion rates', 'Youth
-  unemployment and underemployment']
-category_other: >-
-  ['LA is the best place to CREATE', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT', 'LA is the healthiest place to LIVE']
-unique_identifier: 8xijrrwj
+category_metrics:
+  - District-wide graduation rates
+  - Suspension and expulsion rates
+  - Youth unemployment and underemployment
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/mentoring-adolescents-for-personal-professional-success/
 order: 3
 project_image: >-
   /assets/images/learn/mentoring-adolescents-for-personal-professional-success.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

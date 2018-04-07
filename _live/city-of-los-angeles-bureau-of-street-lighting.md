@@ -86,13 +86,14 @@ project_five_years: >-
   This will provide real time data to the community and public officials,
   enabling policy direction and the enhancements to improve the livability for
   all residents in the City of Los Angeles.
-category_metrics: '[''Exposure to air toxins'', ''Prevalence of adverse childhood experiences'']'
-category_other: '[''LA is the best place to PLAY'']'
-unique_identifier: y5fc9ytu
+category_metrics:
+  - Exposure to air toxins
+  - Prevalence of adverse childhood experiences
+category_other:
+  - LA is the best place to PLAY
 category: live
 uri: /live/city-of-los-angeles-bureau-of-street-lighting/
 order: 6
 project_image: /assets/images/live/city-of-los-angeles-bureau-of-street-lighting.jpg
-project_proposal_impact: []
 
 ---

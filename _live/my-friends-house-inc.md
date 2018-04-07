@@ -67,13 +67,15 @@ project_five_years: |-
    --Expansive network of collaborators: restaurants, supermarkets, farms, food manufacturers
    
    --Numerous gardens throughout Los Angeles
-category_metrics: '[''Access to healthy food'', ''Obesity rates'']'
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: khfynma3
+category_metrics:
+  - Access to healthy food
+  - Obesity rates
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/my-friends-house-inc/
 order: 18
 project_image: /assets/images/live/my-friends-house-inc.jpg
-project_proposal_impact: []
 
 ---

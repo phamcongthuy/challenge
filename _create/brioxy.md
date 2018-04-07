@@ -112,16 +112,17 @@ project_five_years: >-
   of nonprofit social change, technology, media, philanthropy, entertainment,
   and finance, building inclusive sectors where young people of color thrive as
   the demographics of this country shift over the next two decades.
-category_metrics: >-
-  ['Employment in the creative industries', 'Minority- and women-owned firms',
-  'Arts establishments per capita']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: quiq7ysz
+category_metrics:
+  - Employment in the creative industries
+  - Minority- and women-owned firms
+  - Arts establishments per capita
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/brioxy/
 order: 2
 project_image: /assets/images/create/brioxy.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

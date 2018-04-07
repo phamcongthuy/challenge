@@ -137,16 +137,15 @@ project_five_years: >-
   policies that work for both. In order for communities to come together
   cohesively to create a prosperous Los Angeles by 2050, we must invest in these
   children now.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Attendance at
-  public/open streets gatherings', 'Government responsiveness to residents’
-  needs']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: j0q501d5
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Attendance at public/open streets gatherings
+  - Government responsiveness to residents’ needs
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/raise-a-child-inc/
 order: 11
 project_image: /assets/images/connect/raise-a-child-inc.jpg
-project_proposal_impact: []
 
 ---

@@ -117,15 +117,16 @@ project_five_years: >-
   coordination. Child360 hopes to study its success and pass on this information
   to other organizers and other communities so that young children’s status and
   well-being will be elevated everywhere in Los Angeles.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Government
-  responsiveness to residents’ needs', 'Rates of volunteerism']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: pmjbcbh3
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/child360-formerly-los-angeles-universal-preschool/
 order: 7
 project_image: /assets/images/connect/child360-formerly-los-angeles-universal-preschool.jpg
-project_proposal_impact: []
 
 ---

@@ -117,13 +117,13 @@ project_five_years: >-
    
    
    At The Glue we hope to continue to build products that keep us and our planet healthy and connected, and fun while doing it.
-category_metrics: '[''Walk/bike/transit score'']'
-category_other: '[''LA is the best place to PLAY'']'
-unique_identifier: f1r2l2sg
+category_metrics:
+  - Walk/bike/transit score
+category_other:
+  - LA is the best place to PLAY
 category: live
 uri: /live/the-glue/
 order: 12
 project_image: /assets/images/live/the-glue.jpg
-project_proposal_impact: []
 
 ---

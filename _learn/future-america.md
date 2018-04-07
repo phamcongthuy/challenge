@@ -78,15 +78,15 @@ project_five_years: >-
   A world-class performance ensemble performing at the major events and
   festivals of LA county free to its members and representing the diversity of
   Los Angeles.
-category_metrics: >-
-  ['District-wide graduation rates', 'Suspension and expulsion rates', 'Truancy
-  rates in elementary and middle schools']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: al46ftas
+category_metrics:
+  - District-wide graduation rates
+  - Suspension and expulsion rates
+  - Truancy rates in elementary and middle schools
+category_other:
+  - LA is the best place to CREATE
 category: learn
 uri: /learn/future-america/
 order: 17
 project_image: /assets/images/learn/future-america.jpg
-project_proposal_impact: []
 
 ---

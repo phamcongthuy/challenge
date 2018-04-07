@@ -110,17 +110,17 @@ project_five_years: >-
   the region and beyond to celebrate manufacturing and locally made. We hope it
   becomes successful enough that we can replicate this in other cities to help
   them celebrate their ecosystems
-category_metrics: >-
-  ['Employment in the creative industries', 'Manufacturing activity', 'Minority-
-  and women-owned firms']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT']
-unique_identifier: m1zx05xu
+category_metrics:
+  - Employment in the creative industries
+  - Manufacturing activity
+  - Minority- and women-owned firms
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
 category: create
 uri: /create/make-it-in-la/
 order: 11
 project_image: /assets/images/create/make-it-in-la.jpg
-project_proposal_impact: []
 
 ---

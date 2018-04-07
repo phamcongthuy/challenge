@@ -109,13 +109,15 @@ project_five_years: >-
    
    
    In five years, we hope to have established World Harvest as a thought leader in ending homelessness and hunger. We hope to see the all-inclusive, wraparound service, authentic community village model become the norm rather than the exception in Los Angeles. Once the project plan is complete, we will work with the residents we have activated to identify organizations and neighborhoods that will replicate the Dream Village, personalizing the model for the individual needs of each neighborhood.
-category_metrics: '[''Access to healthy food'', ''Healthcare access'', ''Housing affordability'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: u341fu83
+category_metrics:
+  - Access to healthy food
+  - Healthcare access
+  - Housing affordability
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/world-harvest-charities-family-services/
 order: 40
 project_image: /assets/images/live/world-harvest-charities-family-services.jpg
-project_proposal_impact: []
 
 ---

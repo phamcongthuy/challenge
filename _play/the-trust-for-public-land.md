@@ -134,15 +134,16 @@ project_five_years: >-
   to advocacy, policy and design. The Play LA! team hopes it will become an
   annual event supported in future years by businesses, schools, CBOs and others
   to celebrate LA by getting outside.
-category_metrics: >-
-  ['Access to open space and park facilities', 'Number (and quality) of informal
-  spaces for play', 'Number of residents with easy access to a “vibrant” park']
-category_other: '[''LA is the best place to CONNECT'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: wi7uvf8x
+category_metrics:
+  - Access to open space and park facilities
+  - Number (and quality) of informal spaces for play
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: play
 uri: /play/the-trust-for-public-land/
 order: 7
 project_image: /assets/images/play/the-trust-for-public-land.jpg
-project_proposal_impact: []
 
 ---

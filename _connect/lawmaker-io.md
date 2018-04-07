@@ -115,15 +115,14 @@ project_five_years: >-
   state and federal levels. It is our hope that 1% of all policy discussed on
   the floors of government originate with a civilian authored proposals on
   LawMaker.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: u2zkzdq
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/lawmaker-io/
 order: 23
 project_image: /assets/images/connect/lawmaker-io.jpg
-project_proposal_impact: []
 
 ---

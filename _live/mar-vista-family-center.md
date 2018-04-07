@@ -124,17 +124,17 @@ project_five_years: >-
    
    
    In five years time, our efforts would shift to focus on advocating for a policy that requires environmental education in LAUSD public schools with preference for elementary and middle school.
-category_metrics: >-
-  ['Acres and miles of polluted waterways', 'Prevalence of adverse childhood
-  experiences', 'Resilient communities']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to PLAY', 'LA is the
-  healthiest place to CONNECT']
-unique_identifier: 79z704wt
+category_metrics:
+  - Acres and miles of polluted waterways
+  - Prevalence of adverse childhood experiences
+  - Resilient communities
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/mar-vista-family-center/
 order: 35
 project_image: /assets/images/live/mar-vista-family-center.jpg
-project_proposal_impact: []
 
 ---

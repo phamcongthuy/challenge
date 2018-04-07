@@ -107,13 +107,15 @@ project_five_years: >-
    
    
    City Fabrick is among an emerging field of nonprofit design studios dedicated to improving communities in need, by providing creative and professional services. As an active participant in this space, we will share those lessons learned throughout the process, with those in design as well as other affordable housing developers. This will further extend the reach of the IN House initiative beyond what City Fabrick and our partners can do alone.
-category_metrics: '[''Housing affordability'', ''Rates of homelessness'', ''Resilient communities'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: nwoo9yef
+category_metrics:
+  - Housing affordability
+  - Rates of homelessness
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/city-fabrick/
 order: 19
 project_image: /assets/images/live/city-fabrick.jpg
-project_proposal_impact: []
 
 ---

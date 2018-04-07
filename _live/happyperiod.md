@@ -95,13 +95,15 @@ project_measure: >-
 project_five_years: >-
   After going global, I hope to turn my organization into a B corporation or
   social enterprise.
-category_metrics: '[''Healthcare access'', ''Rates of homelessness'', ''Rates of mental illness'']'
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: c9mw0x5m
+category_metrics:
+  - Healthcare access
+  - Rates of homelessness
+  - Rates of mental illness
+category_other:
+  - LA is the best place to CREATE
 category: live
 uri: /live/happyperiod/
 order: 26
 project_image: /assets/images/live/happyperiod.jpg
-project_proposal_impact: []
 
 ---

@@ -130,16 +130,15 @@ project_five_years: |-
     
    
    Lastly, we aim to operate and be recognized as the most effective and successful STEM/Health Care career program in the County of Los Angeles.
-category_metrics: >-
-  ['College matriculation rates', 'Proficiency in English and Language Arts and
-  Math', 'Students’ immersion in Science, Technology, Engineering, and Math
-  content']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: 4w8pyfhk
+category_metrics:
+  - College matriculation rates
+  - Proficiency in English and Language Arts and Math
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CONNECT
 category: learn
 uri: /learn/charles-r-drew-university-of-medicine-and-science/
 order: 12
 project_image: /assets/images/learn/charles-r-drew-university-of-medicine-and-science.jpg
-project_proposal_impact: []
 
 ---

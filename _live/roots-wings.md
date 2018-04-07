@@ -115,13 +115,13 @@ project_measure: >-
    
    - Managing Emotions: Others & Self
 project_five_years: In several Los Angeles school districts & communities nationwide.
-category_metrics: '[''Prevalence of adverse childhood experiences'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: e101bjor
+category_metrics:
+  - Prevalence of adverse childhood experiences
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/roots-wings/
 order: 34
 project_image: /assets/images/live/roots-wings.jpg
-project_proposal_impact: []
 
 ---

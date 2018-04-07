@@ -135,17 +135,18 @@ project_five_years: >-
    
    
    We envision the LA River Public Art Project actively engaged in cultural development, and funded and staffed with paid employees and enthusiastic volunteers. We hope to have an established mentoring program to expand cultural and art awareness as we reach across local, regional, and global audiences.
-category_metrics: >-
-  ['Attendance at cultural events', 'Attendance at public/open streets
-  gatherings', 'Rates of volunteerism']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to LIVE']
-unique_identifier: dqmr1fv6
+category_metrics:
+  - Attendance at cultural events
+  - Attendance at public/open streets gatherings
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/la-river-public-art-project-c-o-erw-design/
 order: 40
 project_image: /assets/images/connect/la-river-public-art-project-c-o-erw-design.jpg
-project_proposal_impact: []
 
 ---

@@ -202,15 +202,15 @@ project_five_years: >-
    
    
    As we continue to develop our advocacy work, we intend to create spaces for organizing work for the clients in our programs, as they continue building their businesses, their financial stability and a sense of well-being for themselves and their children. It is our goal to redirect the current movement to ultimately be led and shaped by survivors and their voices.
-category_metrics: >-
-  ['Number of households below the self-sufficiency standard', 'Rates of
-  homelessness', 'Resilient communities']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: 6c5gbsgp
+category_metrics:
+  - Number of households below the self-sufficiency standard
+  - Rates of homelessness
+  - Resilient communities
+category_other:
+  - LA is the best place to CREATE
 category: live
 uri: /live/freefrom/
 order: 23
 project_image: /assets/images/live/freefrom.jpg
-project_proposal_impact: []
 
 ---

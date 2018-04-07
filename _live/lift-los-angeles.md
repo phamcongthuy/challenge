@@ -123,15 +123,15 @@ project_five_years: >-
   federal government. 
    
    However, we know that data and research alone do not bring about systems change. It is the voices, faces and stories of individuals and families that bring clarity and authenticity to the issues that shape our city. Through our Member2Member network, LIFT is a trust broker executing on not just successful moments of bridged social capital, but putting people in relationship with one another who would otherwise never meet. People who come from wholly different backgrounds and life experiences. Acts of generosity and connection do more than just mitigate homelessness. It allowed that member to persist in the pursuit of their long-term goals to self-sufficiency. LIFT is in the unique position of offering an effective researched-based model to combat poverty, while also offering compelling, real stories of our hard-working members and our empathetic and committed donor network. As an organization, we can demonstrate how an agency can facilitate relationships between people who are different from one another and we know that in order to move the needle on poverty, bridged social capital is integral. These stories are not just a feel-good blog post, but rather a key component to our systems change strategy in the sector. By lifting up the voices of these people, LIFT has the ability to shape culture and perception, creating compassionate, resilient communities, and making Los Angeles the best place to live.
-category_metrics: >-
-  ['Healthcare access', 'Number of households below the self-sufficiency
-  standard', 'Prevalence of adverse childhood experiences']
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: owujkco8
+category_metrics:
+  - Healthcare access
+  - Number of households below the self-sufficiency standard
+  - Prevalence of adverse childhood experiences
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/lift-los-angeles/
 order: 20
 project_image: /assets/images/live/lift-los-angeles.jpg
-project_proposal_impact: []
 
 ---

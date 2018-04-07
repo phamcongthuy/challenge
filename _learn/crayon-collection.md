@@ -81,17 +81,17 @@ project_five_years: >-
   standard-compliant curricula for underserved schools; we want to involve more
   kids in our Color Kindness project to increase a sense of empathy and exercise
   social responsibility.
-category_metrics: >-
-  ['Proficiency in English and Language Arts and Math', 'Enrollment in early
-  care and education programs', 'Students’ immersion in Science, Technology,
-  Engineering, and Math content']
-category_other: '[''LA is the best place to CREATE'', ''LA is the best place to CONNECT'']'
-unique_identifier: qkymzqq7
+category_metrics:
+  - Proficiency in English and Language Arts and Math
+  - Enrollment in early care and education programs
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to CONNECT
 category: learn
 uri: /learn/crayon-collection/
 order: 2
 project_image: /assets/images/learn/crayon-collection.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

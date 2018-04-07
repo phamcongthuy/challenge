@@ -92,15 +92,14 @@ project_five_years: >-
   Last year we were able to provide over 21,500 shoes, socks and other
   necessities for 15,000 children in Los Angeles County. Last year, we adopted a
   strategic plan to double our yearly impact over the next five years.
-category_metrics: >-
-  ['Number of households below the self-sufficiency standard', 'Prevalence of
-  adverse childhood experiences']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: jykyshjd
+category_metrics:
+  - Number of households below the self-sufficiency standard
+  - Prevalence of adverse childhood experiences
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/shoes-that-fit/
 order: 14
 project_image: /assets/images/live/shoes-that-fit.jpg
-project_proposal_impact: []
 
 ---

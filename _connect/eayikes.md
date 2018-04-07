@@ -83,17 +83,16 @@ project_five_years: >-
   businesses, organizations, and schools, and bridging relationships into
   higher-socioeconomic areas by facilitating programs for all people in the
   space.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Rates of
-  volunteerism', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: 84vo4gcx
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Rates of volunteerism
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/eayikes/
 order: 4
 project_image: /assets/images/connect/eayikes.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

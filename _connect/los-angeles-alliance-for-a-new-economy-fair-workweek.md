@@ -155,16 +155,16 @@ project_five_years: |-
    LAANE has developed a multi-purpose app as a means of education, communication and connection within campaigns.
    
    Has tested techniques to engage workers and residents to vote in elections
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Total number of local
-  social media friends and connections Angelenos have', 'Voting rates']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: m27p9t28
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Total number of local social media friends and connections Angelenos have
+  - Voting rates
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/los-angeles-alliance-for-a-new-economy-fair-workweek/
 order: 35
 project_image: >-
   /assets/images/connect/los-angeles-alliance-for-a-new-economy-fair-workweek.jpg
-project_proposal_impact: []
 
 ---

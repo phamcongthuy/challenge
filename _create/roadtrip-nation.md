@@ -134,17 +134,17 @@ project_five_years: >-
   sustained pipeline of skilled, qualified, diverse job applicants for companies
   of all sizes in these industries, and 3) these industries will continue to
   flourish and make LA the best place to CREATE.
-category_metrics: >-
-  ['Employment in the creative industries', 'Manufacturing activity', 'Number of
-  high-growth startups']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: hsozb92g
+category_metrics:
+  - Employment in the creative industries
+  - Manufacturing activity
+  - Number of high-growth startups
+category_other:
+  - LA is the best place to LEARN
 category: create
 uri: /create/roadtrip-nation/
 order: 0
 project_image: /assets/images/create/roadtrip-nation.jpg
 is_winner: true
 is_finalist: true
-project_proposal_impact: []
 
 ---

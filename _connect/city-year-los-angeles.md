@@ -108,13 +108,13 @@ project_five_years: >-
   five years we hope to be deploying even more AmeriCorps members, who will help
   us serve in more of Los Angeles’ schools, and we hope to continue engaging
   even more partners and volunteers in our Civic Engagement work.
-category_metrics: '[''Rates of volunteerism'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: sroke4h4
+category_metrics:
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/city-year-los-angeles/
 order: 18
 project_image: /assets/images/connect/city-year-los-angeles.jpg
-project_proposal_impact: []
 
 ---

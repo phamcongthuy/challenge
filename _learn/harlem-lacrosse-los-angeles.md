@@ -98,16 +98,16 @@ project_five_years: >-
    Over five years as the students progress through the HL-LA program, there will be more comprehensive high school programming, including boarding school and college application assistance, academic help in the form of tutoring and test prep, career planning and advice and the continuation of the personal pathway development that began in fifth grade. 
    
    A central goal of HL-LA is to develop a strong sense of community, and to encourage each alumni to become an active and productive member of their community who will work to make LA a better place to learn and play. As they advance through high school, students will start planning for their future, maybe as a teacher at an area school, a local business owner or community leader, with a desire to give back and create a culture of positive change.
-category_metrics: >-
-  ['Proficiency in English and Language Arts and Math', 'Suspension and
-  expulsion rates', 'Truancy rates in elementary and middle schools']
-category_other: '[''LA is the best place to PLAY'']'
-unique_identifier: jesbg19v
+category_metrics:
+  - Proficiency in English and Language Arts and Math
+  - Suspension and expulsion rates
+  - Truancy rates in elementary and middle schools
+category_other:
+  - LA is the best place to PLAY
 category: learn
 uri: /learn/harlem-lacrosse-los-angeles/
 order: 4
 project_image: /assets/images/learn/harlem-lacrosse-los-angeles.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

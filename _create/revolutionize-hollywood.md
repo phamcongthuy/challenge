@@ -139,15 +139,15 @@ project_five_years: >-
   will have significant break out artists from the Watts and Compton Community.
   We hope that are platform will be a go to platform when global organizations
   are looking for creators.
-category_metrics: >-
-  ['Minority- and women-owned firms', 'Arts establishments per capita', 'Venture
-  capital investment']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: y6uodork
+category_metrics:
+  - Minority- and women-owned firms
+  - Arts establishments per capita
+  - Venture capital investment
+category_other:
+  - LA is the best place to LEARN
 category: create
 uri: /create/revolutionize-hollywood/
 order: 13
 project_image: /assets/images/create/revolutionize-hollywood.jpg
-project_proposal_impact: []
 
 ---

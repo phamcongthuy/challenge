@@ -96,18 +96,18 @@ project_five_years: >-
    
    
    We’d love to revisit this project in 5 years to explore what shifts have occurred that would change our city’s gender narratives.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Attendance at
-  cultural events', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: ub065dm0
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Attendance at cultural events
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/twigg-how-to/
 order: 0
 project_image: /assets/images/connect/twigg-how-to.jpg
 is_winner: true
 is_finalist: true
-project_proposal_impact: []
 
 ---

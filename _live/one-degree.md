@@ -158,15 +158,15 @@ project_five_years: >-
   impact on over a million people in L.A. County. We also believe Los Angeles
   County can serve as a model for expanding One Degree across the country and
   impact millions of low-income people.
-category_metrics: >-
-  ['Number of households below the self-sufficiency standard', 'Resilient
-  communities', 'Residents receiving coordinated healthcare services']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: x8949tgu
+category_metrics:
+  - Number of households below the self-sufficiency standard
+  - Resilient communities
+  - Residents receiving coordinated healthcare services
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/one-degree/
 order: 13
 project_image: /assets/images/live/one-degree.jpg
-project_proposal_impact: []
 
 ---

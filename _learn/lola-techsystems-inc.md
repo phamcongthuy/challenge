@@ -125,15 +125,16 @@ project_five_years: >-
    
    
    As mentioned, broader societal needs will be met when Lola is customized for use by parents (already in pilot), Teacher Ed Institutions (of which UCLA has rolled out 2017) and therapists working with Brain Trauma ( a pilot in the works).
-category_metrics: >-
-  ['College and community college completion rates', 'District-wide graduation
-  rates', 'Proficiency in English and Language Arts and Math']
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: luhgohff
+category_metrics:
+  - College and community college completion rates
+  - District-wide graduation rates
+  - Proficiency in English and Language Arts and Math
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/lola-techsystems-inc/
 order: 9
 project_image: /assets/images/learn/lola-techsystems-inc.jpg
-project_proposal_impact: []
 
 ---

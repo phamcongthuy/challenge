@@ -106,13 +106,13 @@ project_five_years: >-
   learning experiences in the STEM field, that more young women will go into
   four year colleges and prestigious universities where women are
   underrepresented STEM fields, finish and become the innovators of tomorrow.
-category_metrics: '[''Students’ immersion in Science, Technology, Engineering, and Math content'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: 80lvabib
+category_metrics:
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/girls-acedemic-leadership-academy-gala/
 order: 8
 project_image: /assets/images/learn/girls-acedemic-leadership-academy-gala.jpg
-project_proposal_impact: []
 
 ---

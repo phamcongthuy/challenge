@@ -101,13 +101,13 @@ project_five_years: >-
    
    
    If HNI can partner with organizations around the country, it will revolutionize the ability of NGOs and their communities to dramatically escalate and accelerate the work of each organization.
-category_metrics: '[''Access to healthy food'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: uvy7trni
+category_metrics:
+  - Access to healthy food
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/not-impossible-foundation/
 order: 11
 project_image: /assets/images/live/not-impossible-foundation.jpg
-project_proposal_impact: []
 
 ---

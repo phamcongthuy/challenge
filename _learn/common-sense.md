@@ -145,17 +145,17 @@ project_five_years: >-
   who help us create culturally-relevant, research-based content that is
   disseminated to trusted partners (schools and nonprofits) through ongoing
   in-person trainings and consultations.
-category_metrics: >-
-  ['Proficiency in English and Language Arts and Math', 'Students’ perceived
-  sense of safety at and on the way to school', 'Students’ immersion in Science,
-  Technology, Engineering, and Math content']
-category_other: '[''LA is the best place to CONNECT'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: iirnytxo
+category_metrics:
+  - Proficiency in English and Language Arts and Math
+  - Students’ perceived sense of safety at and on the way to school
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/common-sense/
 order: 1
 project_image: /assets/images/learn/common-sense.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

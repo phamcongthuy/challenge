@@ -171,16 +171,16 @@ project_five_years: >-
    
    
    Community Health and Development — for CSPs to serve as vibrant neighborhood hubs, spaces that neighbors consider safe, welcoming, interesting and their own; for populations surrounding CSPs to experience overall physical and emotional wellness, neighborhood connectedness and park equity through regular visits to CSPs and participation and leadership in CSP activities.
-category_metrics: >-
-  ['Access to open space and park facilities', 'Number (and quality) of informal
-  spaces for play', 'Number of residents with easy access to a “vibrant” park']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: e7fr8cfy
+category_metrics:
+  - Access to open space and park facilities
+  - Number (and quality) of informal spaces for play
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to CONNECT
 category: play
 uri: /play/people-for-parks/
 order: 3
 project_image: /assets/images/play/people-for-parks.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

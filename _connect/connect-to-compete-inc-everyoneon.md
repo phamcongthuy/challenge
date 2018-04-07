@@ -82,15 +82,15 @@ project_five_years: >-
   existing processes within anchor organizations and community stakeholders that
   are already doing work with low-income populations. By empowering the
   organizations to take up this work, we will no longer be needed.
-category_metrics: >-
-  ['Access to free wifi', 'Total number of local social media friends and
-  connections Angelenos have']
-category_other: '[''LA is the best place to LEARN'', ''LA is the best place to CREATE'']'
-unique_identifier: t6kknvfe
+category_metrics:
+  - Access to free wifi
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/connect-to-compete-inc-everyoneon/
 order: 14
 project_image: /assets/images/connect/connect-to-compete-inc-everyoneon.jpg
-project_proposal_impact: []
 
 ---

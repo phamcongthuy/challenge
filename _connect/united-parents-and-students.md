@@ -160,17 +160,17 @@ project_five_years: >-
    
    
    Over the past 7 years, the team that leads UPAS has built a highly professional foundation and process for the activation of thousands of students and their parents in communities across Los Angeles, where very little such organized action previously existed. Given the distributed leadership model UPAS directs, and the collaborative nature of its work with many local CBOs, the next five years will see a massive acceleration of this activation across LA County. A My LA2050 Activation Challenge grant will help catalyze this vision over the next two years by driving a far greater collaboration between UPAS, the comms resources at Green Dot, and within the LA2050 community. 100,000 people engaged is a deeply ambitious and exciting number for UPAS to embrace and our hope is that this becomes a new framework for reaching the millions of people who seek empowered and successful participation in the future of Los Angeles.
-category_metrics: >-
-  ['Attendance at public/open streets gatherings', 'Government responsiveness to
-  residents’ needs', 'Voting rates']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  healthiest place to LIVE']
-unique_identifier: ezz66y59
+category_metrics:
+  - Attendance at public/open streets gatherings
+  - Government responsiveness to residents’ needs
+  - Voting rates
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/united-parents-and-students/
 order: 44
 project_image: /assets/images/connect/united-parents-and-students.jpg
-project_proposal_impact: []
 
 ---

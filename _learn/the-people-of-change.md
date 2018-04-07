@@ -101,17 +101,18 @@ project_five_years: >-
   from inner cities to pursue STEM careers. We hope to eventually expand this
   program from city-wide to county-wide, to serve and inspire more youth to
   chase their dreams in STEM fields.
-category_metrics: >-
-  ['College matriculation rates', 'District-wide graduation rates', 'Students’
-  immersion in Science, Technology, Engineering, and Math content']
-category_other: >-
-  ['LA is the best place to CREATE', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT', 'LA is the healthiest place to LIVE']
-unique_identifier: uw55qhh5
+category_metrics:
+  - College matriculation rates
+  - District-wide graduation rates
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/the-people-of-change/
 order: 7
 project_image: /assets/images/learn/the-people-of-change.jpg
-project_proposal_impact: []
 
 ---

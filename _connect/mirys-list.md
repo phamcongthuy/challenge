@@ -181,15 +181,16 @@ project_five_years: >-
    
    
    And we hope that LA -- this diverse city of immigrants -- will serve as a model for other cities in our region, our state, and throughout the nation that want to stand up, in the best traditions of America, to welcome immigrants and refugees as valuable additions to their communities.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Participation in
-  neighborhood councils', 'Rates of volunteerism']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: 9rq6dgsl
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Participation in neighborhood councils
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/mirys-list/
 order: 47
 project_image: /assets/images/connect/mirys-list.jpg
-project_proposal_impact: []
 
 ---

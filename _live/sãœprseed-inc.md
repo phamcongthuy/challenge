@@ -171,13 +171,15 @@ project_five_years: >-
   manufacturers intra-community in LA. We also hope to be self sustaining and
   able to run the majority of our programs using produce sales without the need
   for outside funding.
-category_metrics: '[''Access to healthy food'', ''Healthcare access'', ''Obesity rates'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: dbeo06je
+category_metrics:
+  - Access to healthy food
+  - Healthcare access
+  - Obesity rates
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/sãœprseed-inc/
 order: 8
 project_image: /assets/images/live/sãœprseed-inc.jpg
-project_proposal_impact: []
 
 ---

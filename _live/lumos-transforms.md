@@ -107,14 +107,15 @@ project_five_years: |-
    3. Deepen our current community-based and systems level involvement with county-wide efforts to ensure the health and wellbeing of Angelenos.
    
    4. Cultivate a community of practice comprised of practitioners, strategists, innovators, and activists.
-category_metrics: '[''Resilient communities'']'
-category_other: '[''LA is the best place to PLAY'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: 3b749o0m
+category_metrics:
+  - Resilient communities
+category_other:
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/lumos-transforms/
 order: 2
 project_image: /assets/images/live/lumos-transforms.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

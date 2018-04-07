@@ -132,13 +132,16 @@ project_five_years: >-
    
    
    It has been said that LA is the city where the future comes to happen. We want to prove that this axiom is true by revealing how the power of food and community can be maximized by the daring of dedicated partners who are committed to each other, their communities and the city we all call home.
-category_metrics: '[''Access to healthy food'', ''Obesity rates'', ''Resilient communities'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: 8a3bq1x1
+category_metrics:
+  - Access to healthy food
+  - Obesity rates
+  - Resilient communities
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/l-a-kitchen/
 order: 30
 project_image: /assets/images/live/l-a-kitchen.jpg
-project_proposal_impact: []
 
 ---

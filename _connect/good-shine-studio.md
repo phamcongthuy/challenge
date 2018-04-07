@@ -152,17 +152,18 @@ project_five_years: >-
    - Gathering space for community groups to meet and use equipment (Wifi, software, etc.), while incubating and marketing their Chinatown-serving projects
    
    - Computer lab space for elders to learn technology and possibly work with Visual Communications to organize a Digital Histories program that teaches seniors to make movies about their own lives
-category_metrics: >-
-  ['Attendance at cultural events', 'Government responsiveness to residents’
-  needs', 'Rates of volunteerism']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to LIVE']
-unique_identifier: sso7urdl
+category_metrics:
+  - Attendance at cultural events
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/good-shine-studio/
 order: 8
 project_image: /assets/images/connect/good-shine-studio.jpg
-project_proposal_impact: []
 
 ---

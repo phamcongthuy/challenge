@@ -98,13 +98,13 @@ project_five_years: >-
   experience. Moreover, facilitating KidBot at more sites enables students to
   compete against their LA’s BEST peers during regional competitions in addition
   to non-affiliated schools.
-category_metrics: '[''Students’ immersion in Science, Technology, Engineering, and Math content'']'
-category_other: '[''LA is the best place to PLAY'']'
-unique_identifier: v2f97ghk
+category_metrics:
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to PLAY
 category: learn
 uri: /learn/las-best/
 order: 16
 project_image: /assets/images/learn/las-best.jpg
-project_proposal_impact: []
 
 ---

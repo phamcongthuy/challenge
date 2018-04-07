@@ -186,16 +186,16 @@ project_five_years: >-
    
    
    Surf Bus, AltaSea, LAMI, and Cabrillo Aquarium will be household names, as recognizable to Angelenos as "starbucks" or "the dodgers."
-category_metrics: >-
-  ['Number (and quality) of informal spaces for play', 'Number of parks with
-  intergenerational play opportunities', 'Number of residents with easy access
-  to a “vibrant” park']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: v9l2u5gb
+category_metrics:
+  - Number (and quality) of informal spaces for play
+  - Number of parks with intergenerational play opportunities
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: play
 uri: /play/surf-bus-foundation/
 order: 5
 project_image: /assets/images/play/surf-bus-foundation.jpg
-project_proposal_impact: []
 
 ---

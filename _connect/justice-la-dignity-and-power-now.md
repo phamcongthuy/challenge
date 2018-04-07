@@ -126,15 +126,16 @@ project_measure: >-
    
    Connect 10,000 Los Angelenos with each other via social media to help provide with social and emotional support
 project_five_years: "The ART+CONNECT+ACT activations will provide: powerful visuals to stimulate interest and conversation; a platform for in-person engagement at community Town Hall meetings on issues including the County’s plan to build two new jails and a cash bail reform policy; training sessions to teach citizens how to advocate on policy issues and digital organizing strategies; new technologies/social media toolkits to increase civic and political engagement; and opportunities to educate and register new and disenfranchised voters. Within five years, we hope that ART+CONNECT+ACT: \n \n \n \n â—\x8F Will have effectively shifted public attitudes and policy away from incarceration as a solution for creating a safer Los Angeles\n \n \n \n â—\x8F Can be replicated to address other social, criminal, economic and racial justice issues in cities and counties in California and throughout the U.S.\n \n \n \n â—\x8F Will have provided the infrastructure necessary to engage, empower and encourage our fellow residents in marginalized communities, and solutions to address reducing incarceration rates and over policing in these communities. \n \n \n \n â—\x8F That the art created through this project will be permanently housed in an arts and/or cultural institution dedicated to fostering understanding about racial, criminal and social justice. \n \n \n \n We hope Justice LA will be able to pivot from stopping new jail constructions and reducing the prison population and, instead, be focused on reimagining radical, creative solutions for building a safer, more equitable, vibrant, healthier, happier Los Angeles for all residents."
-category_metrics: >-
-  ['Attendance at cultural events', 'Government responsiveness to residents’
-  needs', 'Voting rates']
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: epc7vsjk
+category_metrics:
+  - Attendance at cultural events
+  - Government responsiveness to residents’ needs
+  - Voting rates
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/justice-la-dignity-and-power-now/
 order: 20
 project_image: /assets/images/connect/justice-la-dignity-and-power-now.jpg
-project_proposal_impact: []
 
 ---

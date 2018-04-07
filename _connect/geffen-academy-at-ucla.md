@@ -123,15 +123,16 @@ project_five_years: >-
   the app will have encouraged millions of Angelinos to use the Metro system. We
   hope that more people will recognize climate change threatens our future and
   that they will act to use shared transportation for the good of everyone.
-category_metrics: >-
-  ['Attendance at cultural events', 'Travel time to work', 'Number of public
-  transit riders']
-category_other: '[''LA is the best place to PLAY'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: jstfopyb
+category_metrics:
+  - Attendance at cultural events
+  - Travel time to work
+  - Number of public transit riders
+category_other:
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/geffen-academy-at-ucla/
 order: 36
 project_image: /assets/images/connect/geffen-academy-at-ucla.jpg
-project_proposal_impact: []
 
 ---

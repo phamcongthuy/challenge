@@ -124,15 +124,15 @@ project_five_years: >-
   engaged a multitude of different service groups in Los Angeles County who will
   play a vital role in helping the homeless as they transition into permanent
   housing.
-category_metrics: >-
-  ['Prevalence of adverse childhood experiences', 'Rates of homelessness',
-  'Resilient communities']
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: vcqxy4gi
+category_metrics:
+  - Prevalence of adverse childhood experiences
+  - Rates of homelessness
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/topanga-womens-circle/
 order: 38
 project_image: /assets/images/live/topanga-womens-circle.jpg
-project_proposal_impact: []
 
 ---

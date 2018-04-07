@@ -80,15 +80,15 @@ project_five_years: >-
   We actually hope that We Are Enough will not be needed in 5 years. We hope by
   launching the campaign that we change the mindset of all women and they know
   their economic power.. and our job is done!
-category_metrics: >-
-  ['Gini coefficient', 'Minority- and women-owned firms', 'Venture capital
-  investment']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: xa2sxpb6
+category_metrics:
+  - Gini coefficient
+  - Minority- and women-owned firms
+  - Venture capital investment
+category_other:
+  - LA is the best place to CONNECT
 category: create
 uri: /create/we-are-enough-c-o-social-environmental-entrepreneurs/
 order: 16
 project_image: /assets/images/create/we-are-enough-c-o-social-environmental-entrepreneurs.jpg
-project_proposal_impact: []
 
 ---

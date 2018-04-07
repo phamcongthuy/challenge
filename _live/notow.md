@@ -88,13 +88,13 @@ project_five_years: >-
   avoidable fines. We also hope to augment our text parsing and rules engine
   with Machine learning (AI) capabilities to increase development speed for
   accounting for all possible sign rules.
-category_metrics: '[''Walk/bike/transit score'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: u2zznlkm
+category_metrics:
+  - Walk/bike/transit score
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/notow/
 order: 24
 project_image: /assets/images/live/notow.jpg
-project_proposal_impact: []
 
 ---

@@ -147,13 +147,13 @@ project_five_years: >-
   access and eligibility to the EITC and continue to lift working people out of
   poverty. Everyone who works deserves to have the dignity of financial security
   and providing for their families!
-category_metrics: '[''Number of households below the self-sufficiency standard'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: z5mpa2rx
+category_metrics:
+  - Number of households below the self-sufficiency standard
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/caleitc4me/
 order: 16
 project_image: /assets/images/live/caleitc4me.jpg
-project_proposal_impact: []
 
 ---

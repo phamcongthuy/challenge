@@ -180,15 +180,17 @@ project_five_years: |-
    - A shift in community understanding of the role that housing affordability plays in our homelessness crisis 
    
    - Meaningful increase in the number of Angelenos activated and mobilized on public policy issues related to housing and homelessness
-category_metrics: '[''Housing affordability'', ''Rates of homelessness'']'
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to CONNECT']
-unique_identifier: 5lh3md0v
+category_metrics:
+  - Housing affordability
+  - Rates of homelessness
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/united-way-of-greater-los-angeles/
 order: 15
 project_image: /assets/images/live/united-way-of-greater-los-angeles.jpg
-project_proposal_impact: []
 
 ---

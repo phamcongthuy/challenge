@@ -100,13 +100,14 @@ project_five_years: >-
   with schools, school districts and communities both underserved (where we will
   raise the money) and affluent communities where ticket prices are able to
   cover the cost.
-category_metrics: '[''Students’ immersion in Science, Technology, Engineering, and Math content'']'
-category_other: '[''LA is the best place to CREATE'', ''LA is the best place to PLAY'']'
-unique_identifier: tt0s1b1q
+category_metrics:
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
 category: learn
 uri: /learn/two-bit-circus-foundation/
 order: 13
 project_image: /assets/images/learn/two-bit-circus-foundation.jpg
-project_proposal_impact: []
 
 ---

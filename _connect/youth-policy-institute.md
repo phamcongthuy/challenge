@@ -106,15 +106,15 @@ project_five_years: >-
   murals in Pico-Union and Westlake will make the neighborhoods as visually
   vibrant as the communities that live there. Residents will take pride in where
   they live and work together towards a shared vision of the future.
-category_metrics: >-
-  ['Attendance at cultural events', 'Attendance at public/open streets
-  gatherings', 'Rates of volunteerism']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: kgoze6sr
+category_metrics:
+  - Attendance at cultural events
+  - Attendance at public/open streets gatherings
+  - Rates of volunteerism
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/youth-policy-institute/
 order: 32
 project_image: /assets/images/connect/youth-policy-institute.jpg
-project_proposal_impact: []
 
 ---

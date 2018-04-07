@@ -108,17 +108,16 @@ project_five_years: >-
    
    
    Our programs are truly bigger than baseball, and with the support of dedicated collaborators and community partners, we will promote PLAY in LA, for years to come!
-category_metrics: >-
-  ['Number of children enrolled in afterschool programs', 'Number of parks with
-  intergenerational play opportunities', 'Number of residents with easy access
-  to a “vibrant” park']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: 67s1dt44
+category_metrics:
+  - Number of children enrolled in afterschool programs
+  - Number of parks with intergenerational play opportunities
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to LEARN
 category: play
 uri: /play/los-angeles-dodgers-foundation/
 order: 2
 project_image: /assets/images/play/los-angeles-dodgers-foundation.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

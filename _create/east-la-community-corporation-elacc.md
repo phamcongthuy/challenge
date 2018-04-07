@@ -124,15 +124,16 @@ project_five_years: >-
   culinary jobs. Ultimately, we envision a City that values and supports street
   vendors, and sees them as contributors to the economic and cultural tapestry
   of Los Angeles.
-category_metrics: >-
-  ['Jobs per capita', 'Manufacturing activity', 'Minority- and women-owned
-  firms']
-category_other: '[''LA is the best place to CONNECT'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: us7z1hf8
+category_metrics:
+  - Jobs per capita
+  - Manufacturing activity
+  - Minority- and women-owned firms
+category_other:
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/east-la-community-corporation-elacc/
 order: 9
 project_image: /assets/images/create/east-la-community-corporation-elacc.jpg
-project_proposal_impact: []
 
 ---

@@ -102,15 +102,15 @@ project_five_years: >-
   continue to strengthen and revitalize the region. Additionally, NLP will be
   positioned to launch in other communities in Los Angeles, allowing Coro to
   expand its impact and reach in Southern California.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Rates of volunteerism']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: i8v40djp
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Rates of volunteerism
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/coro-southern-california/
 order: 13
 project_image: /assets/images/connect/coro-southern-california.jpg
-project_proposal_impact: []
 
 ---

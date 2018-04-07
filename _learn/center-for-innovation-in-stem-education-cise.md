@@ -107,16 +107,15 @@ project_five_years: >-
   narrowing of the achievement gap among student groups defined by
   race/ethnicity and family income, and more students enrolling and persisting
   in postsecondary STEM programs.
-category_metrics: >-
-  ['College and community college completion rates', 'College matriculation
-  rates', 'Students’ immersion in Science, Technology, Engineering, and Math
-  content']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: vrow8aew
+category_metrics:
+  - College and community college completion rates
+  - College matriculation rates
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CREATE
 category: learn
 uri: /learn/center-for-innovation-in-stem-education-cise/
 order: 11
 project_image: /assets/images/learn/center-for-innovation-in-stem-education-cise.jpg
-project_proposal_impact: []
 
 ---

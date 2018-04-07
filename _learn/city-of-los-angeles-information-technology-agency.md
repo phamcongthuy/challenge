@@ -84,16 +84,15 @@ project_five_years: >-
   is our hope that through this educational program, we’ll see a decrease in
   joblessness, an increase in educational attainment, as well as increase in
   community economic development.
-category_metrics: >-
-  ['Enrollment in early care and education programs', 'Students’ immersion in
-  Science, Technology, Engineering, and Math content', 'Youth unemployment and
-  underemployment']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: eknd351i
+category_metrics:
+  - Enrollment in early care and education programs
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+  - Youth unemployment and underemployment
+category_other:
+  - LA is the best place to CONNECT
 category: learn
 uri: /learn/city-of-los-angeles-information-technology-agency/
 order: 5
 project_image: /assets/images/learn/city-of-los-angeles-information-technology-agency.jpg
-project_proposal_impact: []
 
 ---

@@ -139,17 +139,17 @@ project_measure: |-
 project_five_years: >-
   We hope to serve at least 200 community college students per college in the
   next five years. We expect to start with 30 students this year.
-category_metrics: >-
-  ['College matriculation rates', 'Students’ immersion in Science, Technology,
-  Engineering, and Math content', 'Youth unemployment and underemployment']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: wxsyo5dz
+category_metrics:
+  - College matriculation rates
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+  - Youth unemployment and underemployment
+category_other:
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/data-360/
 order: 0
 project_image: /assets/images/learn/data-360.jpg
 is_winner: true
 is_finalist: true
-project_proposal_impact: []
 
 ---

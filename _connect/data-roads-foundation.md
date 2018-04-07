@@ -104,17 +104,17 @@ project_five_years: >-
   greater Internet access capacity, and half of these regions will gain
   affordable Internet bandwidth where almost none was readily available
   previously.
-category_metrics: >-
-  ['Access to free wifi', 'Adults getting sufficient social & emotional
-  support', 'Travel time to work']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  healthiest place to LIVE']
-unique_identifier: qg29zp7p
+category_metrics:
+  - Access to free wifi
+  - Adults getting sufficient social & emotional support
+  - Travel time to work
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/data-roads-foundation/
 order: 48
 project_image: /assets/images/connect/data-roads-foundation.jpg
-project_proposal_impact: []
 
 ---

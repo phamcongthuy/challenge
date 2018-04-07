@@ -108,16 +108,16 @@ project_five_years: >-
   opportunity for all Angelenos, regardless of age, socio-economic status, race,
   culture, or any other factors that currently prohibit them from participating
   in the civic tech ecosystem.
-category_metrics: >-
-  ['Jobs per capita', 'Minority- and women-owned firms', 'Number of high-growth
-  startups']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: vp6885so
+category_metrics:
+  - Jobs per capita
+  - Minority- and women-owned firms
+  - Number of high-growth startups
+category_other:
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/civic-innovation-lab/
 order: 1
 project_image: /assets/images/create/civic-innovation-lab.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

@@ -122,15 +122,14 @@ project_five_years: >-
    
    
    We know achieving the vision of a comprehensive, family-centered, high quality early learning system won’t happen overnight. There will be many steps in the process, and we need to keep a network of dedicated Angelenos engaged throughout. In five years, our goal is that Children Now will move from significantly elevating an aspirational policy and advocacy vision for integrated infant and toddler supports in LA to achieving key policy wins on components of the vision, such as increasing the number of LA babies that are screened for developmental delays, improving the availability of voluntary home visiting programs for families that need them, providing support for young children who are dual language learners, addressing maternal mental health, and continuing to educate and engage our network to see the vision fully realized.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Total number of local
-  social media friends and connections Angelenos have']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: ec5ksazl
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/children-now/
 order: 28
 project_image: /assets/images/connect/children-now.jpg
-project_proposal_impact: []
 
 ---

@@ -70,13 +70,13 @@ project_five_years: >-
   successful, there will be sufficient foster homes to address the need and the
   public will see foster youth as they are — children facing a difficult time,
   not simply difficult children.
-category_metrics: '[''Rates of volunteerism'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: xpqjhznq
+category_metrics:
+  - Rates of volunteerism
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/tides-center-dba-childrens-action-network/
 order: 15
 project_image: /assets/images/connect/tides-center-dba-childrens-action-network.jpg
-project_proposal_impact: []
 
 ---

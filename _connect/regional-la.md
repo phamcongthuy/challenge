@@ -160,16 +160,15 @@ project_five_years: >-
    
    
    In terms of capabilities, we expect that the system we will have five years from now will have evolved greatly from what we initially launch, with that evolution being strongly informed by feedback from our user base of residents and governments.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Total number of local social media friends and
-  connections Angelenos have']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: zmtpwwws
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/regional-la/
 order: 33
 project_image: /assets/images/connect/regional-la.jpg
-project_proposal_impact: []
 
 ---

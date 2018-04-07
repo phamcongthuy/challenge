@@ -130,16 +130,15 @@ project_five_years: >-
    
    
    This activation has limitless possibilities for renewal as it evolves to work with more narrowly defined target audiences throughout Los Angeles, i.e. different age groups, specific professions or community groups, geographic areas. In the not-to-distant future, we know we’ll have Imagine LA program graduates (mentees) joining us as mentors themselves.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Rates of
-  volunteerism', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: j62s205q
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Rates of volunteerism
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/imagine-la/
 order: 19
 project_image: /assets/images/connect/imagine-la.jpg
-project_proposal_impact: []
 
 ---

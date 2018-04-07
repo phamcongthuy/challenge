@@ -143,15 +143,15 @@ project_five_years: >-
   students annually across the city and to launch statewide training for
   educators. We hope to have continued our partnership with ProCon.org so that
   together we are a resource for educators across the country.
-category_metrics: >-
-  ['Attendance at public/open streets gatherings', 'Participation in
-  neighborhood councils', 'Voting rates']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: yevrbe7y
+category_metrics:
+  - Attendance at public/open streets gatherings
+  - Participation in neighborhood councils
+  - Voting rates
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/action-civics-la-an-initiative-of-mikva-challenge/
 order: 52
 project_image: /assets/images/connect/action-civics-la-an-initiative-of-mikva-challenge.jpg
-project_proposal_impact: []
 
 ---

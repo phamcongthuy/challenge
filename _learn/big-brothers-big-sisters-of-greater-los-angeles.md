@@ -98,15 +98,16 @@ project_five_years: >-
   country to expand mentoring to support college age youth. 
    
    No single institution or organization in Los Angeles can make significant progress on improving key education metrics on its own. We have already worked diligently to partner with others to magnify our impact. Support from LA2050 will provide us with the opportunity to grow our capacity and share our successes and resources with other organizations. Over the next five years, we believe the lessons we have learned, and continue to learn, can play a crucial role in the work with our partners on moving the needle on education outcomes for all youth in our community.
-category_metrics: >-
-  ['College and community college completion rates', 'College matriculation
-  rates', 'Youth unemployment and underemployment']
-category_other: '[''LA is the best place to CREATE'', ''LA is the best place to CONNECT'']'
-unique_identifier: xm5o4zyf
+category_metrics:
+  - College and community college completion rates
+  - College matriculation rates
+  - Youth unemployment and underemployment
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to CONNECT
 category: learn
 uri: /learn/big-brothers-big-sisters-of-greater-los-angeles/
 order: 10
 project_image: /assets/images/learn/big-brothers-big-sisters-of-greater-los-angeles.jpg
-project_proposal_impact: []
 
 ---

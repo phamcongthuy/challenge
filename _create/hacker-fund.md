@@ -85,13 +85,15 @@ project_measure: >-
 project_five_years: >-
   In five years, we hope to have a Civic Innovation Center in each city council
   district in Los Angeles, allowing us to activate more than 100,000 Angelenos.
-category_metrics: '[''Jobs per capita'', ''Manufacturing activity'', ''Patents per capita'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: khls87pp
+category_metrics:
+  - Jobs per capita
+  - Manufacturing activity
+  - Patents per capita
+category_other:
+  - LA is the best place to LEARN
 category: create
 uri: /create/hacker-fund/
 order: 8
 project_image: /assets/images/create/hacker-fund.jpg
-project_proposal_impact: []
 
 ---

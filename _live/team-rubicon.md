@@ -108,15 +108,15 @@ project_five_years: >-
   whenever they strike. Team Rubicon's ultimate goals are to empower volunteers
   to responsibly and cost-effectively respond to disasters, serve vulnerable
   communities affected by disasters, and create a more resilient Los Angeles.
-category_metrics: >-
-  ['Number of households below the self-sufficiency standard', 'Rates of mental
-  illness', 'Resilient communities']
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: bafw4368
+category_metrics:
+  - Number of households below the self-sufficiency standard
+  - Rates of mental illness
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/team-rubicon/
 order: 22
 project_image: /assets/images/live/team-rubicon.jpg
-project_proposal_impact: []
 
 ---

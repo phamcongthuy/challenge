@@ -131,13 +131,14 @@ project_five_years: >-
   consistent shelter is provided, and that it takes localized situating of that
   shelter in order to engage local homeless individuals who have an attachment
   to place.
-category_metrics: '[''Rates of homelessness'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: lfjd4djg
+category_metrics:
+  - Rates of homelessness
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/cardborigami-inc/
 order: 28
 project_image: /assets/images/live/cardborigami-inc.jpg
-project_proposal_impact: []
 
 ---

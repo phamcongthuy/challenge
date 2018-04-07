@@ -83,15 +83,15 @@ project_measure: |-
 project_five_years: >-
   We hope to be monetizing this nationally and hopefully engaging entrepreneurs
   everywhere.
-category_metrics: >-
-  ['Minority- and women-owned firms', 'Venture capital investment',
-  'Unemployment (and opportunities) for the formerly incarcerated']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: chu5qvgu
+category_metrics:
+  - Minority- and women-owned firms
+  - Venture capital investment
+  - Unemployment (and opportunities) for the formerly incarcerated
+category_other:
+  - LA is the best place to CONNECT
 category: create
 uri: /create/grid110-inc/
 order: 7
 project_image: /assets/images/create/grid110-inc.jpg
-project_proposal_impact: []
 
 ---

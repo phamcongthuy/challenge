@@ -113,16 +113,15 @@ project_five_years: >-
   continue their social justice work. 600 students, plus their extended families
   and the other students they influence, can be part of a leadership movement
   for social justice stemming from the very heart of Los Angeles.
-category_metrics: >-
-  ['Attendance at cultural events', 'Government responsiveness to residents’
-  needs', 'Total number of local social media friends and connections Angelenos
-  have']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: 77jliajl
+category_metrics:
+  - Attendance at cultural events
+  - Government responsiveness to residents’ needs
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/larchmont-charter-school/
 order: 22
 project_image: /assets/images/connect/larchmont-charter-school.jpg
-project_proposal_impact: []
 
 ---

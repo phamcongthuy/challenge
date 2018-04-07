@@ -88,11 +88,12 @@ project_five_years: >-
   number of meals served and communities provided for by 2023.
    
    Awareness, Outreach, & Connecting Angelenos: Living Through Giving Foundation looks forward to enhance its current outreach and awareness strategies to increase the use of technology in order to deepen the engagement of Angelenos looking for ways to bring about change in their communities.
-category_metrics: >-
-  ['Access to healthy food', 'Number of households below the self-sufficiency
-  standard', 'Resilient communities']
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: 1zsoda6m
+category_metrics:
+  - Access to healthy food
+  - Number of households below the self-sufficiency standard
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: >-
   /live/hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit/
@@ -101,6 +102,5 @@ project_image: >-
   /assets/images/live/hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit.jpg
 is_winner: true
 is_finalist: true
-project_proposal_impact: []
 
 ---

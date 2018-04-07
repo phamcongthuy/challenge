@@ -157,18 +157,17 @@ project_five_years: >-
    
    
    5 years from now Ucivity will be used in cities nationally and internationally. The app will have expanded its functionality. Among other functionalities it will allow citizens participate in and vote on items at public hearings via live stream.
-category_metrics: >-
-  ['Number (and quality) of informal spaces for play', 'Number of parks with
-  intergenerational play opportunities', 'Number of residents with easy access
-  to a “vibrant” park']
-category_other: >-
-  ['LA is the best place to CREATE', 'LA is the best place to CONNECT', 'LA is
-  the healthiest place to LIVE']
-unique_identifier: r8a9k9sg
+category_metrics:
+  - Number (and quality) of informal spaces for play
+  - Number of parks with intergenerational play opportunities
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: play
 uri: /play/ucivity/
 order: 8
 project_image: /assets/images/play/ucivity.jpg
-project_proposal_impact: []
 
 ---

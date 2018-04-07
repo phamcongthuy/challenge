@@ -110,13 +110,15 @@ project_five_years: >-
    
    
    Over the next five years, UMEC-MCP will collect data at these clinics and will utilize them for patient evaluations and studies. These evaluations will allow UMEC, MCP, and other organizations to tailor health services to best fit the needs of the L.A. homeless population. UMEC-MCP will also use the data for research purposes. The research conducted from this project may have the power to influence public policy and determine the best way to deliver care to the under-served population in the L.A. area.
-category_metrics: '[''Healthcare access'', ''Residents receiving coordinated healthcare services'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: 353tx2wh
+category_metrics:
+  - Healthcare access
+  - Residents receiving coordinated healthcare services
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/ucla-mobile-eye-clinic-umec/
 order: 37
 project_image: /assets/images/live/ucla-mobile-eye-clinic-umec.jpg
-project_proposal_impact: []
 
 ---

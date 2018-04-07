@@ -107,13 +107,13 @@ project_five_years: >-
    6. Expanded products and services: We are exploring the development of project-based advisory or consulting services that can help larger organizations better understand, serve and support small businesses. 
    
    Over the next five years, we will use these strategies, among others, to continue building and strengthening the community of small business owners in LA and nationwide.
-category_metrics: '[''Minority- and women-owned firms'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: 9d9lfbot
+category_metrics:
+  - Minority- and women-owned firms
+category_other:
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/small-business-majority/
 order: 14
 project_image: /assets/images/create/small-business-majority.jpg
-project_proposal_impact: []
 
 ---

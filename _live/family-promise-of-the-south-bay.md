@@ -91,17 +91,17 @@ project_five_years: >-
   We hope to be providing low cost housing throughout Los Angeles County,
   wherever there is vacant land, to eradicate the homeless problem and alleviate
   the cost of housing for struggling families.
-category_metrics: >-
-  ['Housing affordability', 'Number of households below the self-sufficiency
-  standard', 'Rates of homelessness']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  healthiest place to CONNECT']
-unique_identifier: cdovkihz
+category_metrics:
+  - Housing affordability
+  - Number of households below the self-sufficiency standard
+  - Rates of homelessness
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/family-promise-of-the-south-bay/
 order: 36
 project_image: /assets/images/live/family-promise-of-the-south-bay.jpg
-project_proposal_impact: []
 
 ---

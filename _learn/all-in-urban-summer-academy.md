@@ -72,15 +72,15 @@ project_measure: |-
 project_five_years: >-
   In five years, I hope that All-In will be able to partner with the other SOW
   and SHIELDS sites to provide access to more Angelenos!
-category_metrics: >-
-  ['District-wide graduation rates', 'Proficiency in English and Language Arts
-  and Math', 'Suspension and expulsion rates']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: tziq4tld
+category_metrics:
+  - District-wide graduation rates
+  - Proficiency in English and Language Arts and Math
+  - Suspension and expulsion rates
+category_other:
+  - LA is the best place to CONNECT
 category: learn
 uri: /learn/all-in-urban-summer-academy/
 order: 15
 project_image: /assets/images/learn/all-in-urban-summer-academy.jpg
-project_proposal_impact: []
 
 ---

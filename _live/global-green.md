@@ -131,13 +131,13 @@ project_five_years: >-
   with the incorporation of strategies encouraging repair and reuse as key
   approaches to meet diversion goals in its updates to the City’s Sustainability
   Plan.
-category_metrics: '[''Resilient communities'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: uwfq9f5b
+category_metrics:
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/global-green/
 order: 17
 project_image: /assets/images/live/global-green.jpg
-project_proposal_impact: []
 
 ---

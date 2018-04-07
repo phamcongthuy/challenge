@@ -123,17 +123,17 @@ project_five_years: >-
    
    
    Once implemented, this program has the potential to house 100s in LA. Moving able-bodied homeless Angelenos to locations where work and housing are available will decrease the density of the city's homeless population.
-category_metrics: >-
-  ['Healthcare access', 'Housing affordability', 'Number of households below the
-  self-sufficiency standard']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  healthiest place to CONNECT']
-unique_identifier: vx9ybz7j
+category_metrics:
+  - Healthcare access
+  - Housing affordability
+  - Number of households below the self-sufficiency standard
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/national-veterans-transition-services-inc-aka-reboot/
 order: 9
 project_image: /assets/images/live/national-veterans-transition-services-inc-aka-reboot.jpg
-project_proposal_impact: []
 
 ---

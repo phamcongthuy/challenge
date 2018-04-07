@@ -168,15 +168,16 @@ project_five_years: >-
   empathy, and galvanized action. And we will have mobilized hundreds of
   thousands of Angelenos to advocate for more innovative solutions to
   alleviating Los Angeles’ homelessness crisis.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Government
-  responsiveness to residents’ needs', 'Rates of volunteerism']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: bw4iwjvv
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/lava-mae/
 order: 38
 project_image: /assets/images/connect/lava-mae.jpg
-project_proposal_impact: []
 
 ---

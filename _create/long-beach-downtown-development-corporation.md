@@ -185,17 +185,17 @@ project_five_years: >-
   supported through our business expansion, attraction, and retention
   programming. Expanding the creative community to support the development of a
   truly sustainable city that focuses on the people, planet and profit!
-category_metrics: >-
-  ['Minority- and women-owned firms', 'Number of high-growth startups', 'Patents
-  per capita']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CONNECT', 'LA is
-  the healthiest place to LIVE']
-unique_identifier: kavb677l
+category_metrics:
+  - Minority- and women-owned firms
+  - Number of high-growth startups
+  - Patents per capita
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/long-beach-downtown-development-corporation/
 order: 15
 project_image: /assets/images/create/long-beach-downtown-development-corporation.jpg
-project_proposal_impact: []
 
 ---

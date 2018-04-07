@@ -156,14 +156,16 @@ project_five_years: >-
   region’s trucks, street sweepers, garbage trucks, and more, all the while
   using those policies to create the good jobs LA County needs to support
   historically excluded communities access good careers.
-category_metrics: '[''Exposure to air toxins'', ''Resilient communities'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the best place to CREATE'']'
-unique_identifier: yxdzs9mc
+category_metrics:
+  - Exposure to air toxins
+  - Resilient communities
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
 category: live
 uri: /live/environment-california-research-policy-center/
 order: 1
 project_image: /assets/images/live/environment-california-research-policy-center.jpg
 is_finalist: true
-project_proposal_impact: []
 
 ---

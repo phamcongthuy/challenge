@@ -114,15 +114,15 @@ project_five_years: >-
   be a go-to source for people around the region and across sectors. The LA
   Forward model of civic media and organizing will become a template for
   bringing together and engaging people in other regions and cities.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Residential segregation',
-  'Voting rates']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: vol43i1d
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Residential segregation
+  - Voting rates
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/la-forward/
 order: 9
 project_image: /assets/images/connect/la-forward.jpg
-project_proposal_impact: []
 
 ---

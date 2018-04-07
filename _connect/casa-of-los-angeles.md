@@ -90,13 +90,13 @@ project_five_years: >-
   youngest community members in a life-changing volunteer opportunity in order
   to serve every young adult, aged 18-21, in Los Angeles County's extended
   foster care with similarly life-changing advocacy.
-category_metrics: '[''Rates of volunteerism'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: s8f4tyf5
+category_metrics:
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/casa-of-los-angeles/
 order: 51
 project_image: /assets/images/connect/casa-of-los-angeles.jpg
-project_proposal_impact: []
 
 ---

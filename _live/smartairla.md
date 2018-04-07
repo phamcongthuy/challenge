@@ -175,17 +175,18 @@ project_five_years: >-
    â€¢ Local health organizations work with asthma patients in the identified areas to integrate possible personal protection and avoidance patterns of behavior to reduce the likelihood of triggering events, through the referral of patients to community-specific education programs that help manage asthma in the local neighborhood.
    
    â€¢ Businesses use the asthmatic hotspot data to target the environmental mitigation measures. For example, freight companies from the Port of Los Angeles combine the asthmatic hotspot data with WAZE mapping data to time and reroute deliveries from the high risks asthmatic neighborhoods or use electric vehicles when traveling in those areas. Utilities and businesses use the data to deploy clean energy technologies, such as solar and wind energy to reduce air pollution emissions.
-category_metrics: >-
-  ['Exposure to air toxins', 'Prevalence of adverse childhood experiences',
-  'Residents receiving coordinated healthcare services']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to CONNECT']
-unique_identifier: yo5kbdnk
+category_metrics:
+  - Exposure to air toxins
+  - Prevalence of adverse childhood experiences
+  - Residents receiving coordinated healthcare services
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/smartairla/
 order: 32
 project_image: /assets/images/live/smartairla.jpg
-project_proposal_impact: []
 
 ---

@@ -97,13 +97,15 @@ project_five_years: >-
   and/or change behaviour. Our project will establish the distracted driving
   movement by adding realtime objective metrics that will be the agent of change
   of vehicle accidents because of distracted drivers while texting.
-category_metrics: '[''Resilient communities'', ''Walk/bike/transit score'']'
-category_other: '[''LA is the best place to PLAY'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: 34gt0j1i
+category_metrics:
+  - Resilient communities
+  - Walk/bike/transit score
+category_other:
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/health-core-possibilities/
 order: 33
 project_image: /assets/images/live/health-core-possibilities.jpg
-project_proposal_impact: []
 
 ---

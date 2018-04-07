@@ -122,17 +122,18 @@ project_five_years: >-
    
    
    Center for Council’s aspirations are grand but not out of reach: we want to change the way that we, as a society, relate to one another, enrich the way we communicate with those both within and outside our communities, enhance our capacity to learn from one another and the emergent collective wisdom, and cultivate a sincere and embodied understanding of our profound, human interconnectedness.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Participation in
-  neighborhood councils', 'Rates of volunteerism']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to LIVE']
-unique_identifier: z3t3kcvv
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Participation in neighborhood councils
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/center-for-council-a-project-of-community-partners/
 order: 10
 project_image: /assets/images/connect/center-for-council-a-project-of-community-partners.jpg
-project_proposal_impact: []
 
 ---
