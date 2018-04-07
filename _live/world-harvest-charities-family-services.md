@@ -118,6 +118,6 @@ category_other:
 category: live
 uri: /live/world-harvest-charities-family-services/
 order: 40
-project_image: /assets/images/live/world-harvest-charities-family-services.jpg
+project_image: world-harvest-charities-family-services.jpg
 
 ---

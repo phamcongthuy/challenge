@@ -16,12 +16,12 @@ organization_twitter:
   - '@lamitopsail'
   - '@marionc82937170'
 organization_facebook: Surf Bus Foundation
-organization_instagram: 
+organization_instagram:
   - '@surfbusfoundation'
   - '@altasea'
   - '@tallshipschool'
   - '@surf_academy,'
-link_newsletter: mailto:info@surfbusfoundation.org?subject=ActivateforLA
+link_newsletter: 'mailto:info@surfbusfoundation.org?subject=ActivateforLA'
 link_donate: www.surfbusfoundation.org/donate
 link_volunteer: www.surfbusfoundation.org/volunteer
 organization_activity: >-
@@ -201,6 +201,6 @@ category_other:
 category: play
 uri: /play/surf-bus-foundation/
 order: 5
-project_image: /assets/images/play/surf-bus-foundation.jpg
+project_image: surf-bus-foundation.jpg
 
 ---

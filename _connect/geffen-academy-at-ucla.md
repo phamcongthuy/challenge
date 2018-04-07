@@ -11,20 +11,20 @@ organization_name: Geffen Academy at UCLA
 organization_description: Government
 project_video: 'https://youtu.be/m9NRl8lAdZY'
 link_newsletter: 'https://goo.gl/forms/LN88arJmyW4oGWic2'
-organization_website: 
+organization_website:
   - 'https://geffenacademy.ucla.edu/'
   - 'https://goo.gl/NXw7No'
 organization_twitter:
-  - https://twitter.com/GeffenAcademy
-  - https://twitter.com/GeffenSports
-  - https://twitter.com/ridelosangeles
+  - 'https://twitter.com/GeffenAcademy'
+  - 'https://twitter.com/GeffenSports'
+  - 'https://twitter.com/ridelosangeles'
 organization_facebook:
-  - https://www.facebook.com/GeffenAcademyatUCLA/
-  - https://www.facebook.com/RideLosAngelesApp/
+  - 'https://www.facebook.com/GeffenAcademyatUCLA/'
+  - 'https://www.facebook.com/RideLosAngelesApp/'
 organization_instagram:
-  - https://www.instagram.com/geffenacademy/
-  - https://www.instagram.com/geffensports/
-  - https://www.instagram.com/ridelosangeles/
+  - 'https://www.instagram.com/geffenacademy/'
+  - 'https://www.instagram.com/geffensports/'
+  - 'https://www.instagram.com/ridelosangeles/'
 link_donate: 'https://geffenacademy.ucla.edu/giving/'
 link_volunteer: 'https://goo.gl/forms/LN88arJmyW4oGWic2'
 organization_activity: >-
@@ -136,6 +136,6 @@ category_other:
 category: connect
 uri: /connect/geffen-academy-at-ucla/
 order: 36
-project_image: /assets/images/connect/geffen-academy-at-ucla.jpg
+project_image: geffen-academy-at-ucla.jpg
 
 ---

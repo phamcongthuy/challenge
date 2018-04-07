@@ -132,6 +132,6 @@ category_other:
 category: learn
 uri: /learn/los-angeles-service-academy-lasa/
 order: 14
-project_image: /assets/images/learn/los-angeles-service-academy-lasa.jpg
+project_image: los-angeles-service-academy-lasa.jpg
 
 ---

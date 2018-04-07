@@ -178,6 +178,6 @@ category_other:
 category: connect
 uri: /connect/lava-mae/
 order: 38
-project_image: /assets/images/connect/lava-mae.jpg
+project_image: lava-mae.jpg
 
 ---

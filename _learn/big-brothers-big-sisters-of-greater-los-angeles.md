@@ -108,6 +108,6 @@ category_other:
 category: learn
 uri: /learn/big-brothers-big-sisters-of-greater-los-angeles/
 order: 10
-project_image: /assets/images/learn/big-brothers-big-sisters-of-greater-los-angeles.jpg
+project_image: big-brothers-big-sisters-of-greater-los-angeles.jpg
 
 ---

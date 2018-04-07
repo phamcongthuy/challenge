@@ -102,6 +102,6 @@ category_other:
 category: connect
 uri: /connect/we-are-the-mighty/
 order: 26
-project_image: /assets/images/connect/we-are-the-mighty.jpg
+project_image: we-are-the-mighty.jpg
 
 ---

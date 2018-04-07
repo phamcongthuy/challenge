@@ -133,6 +133,6 @@ category_other:
 category: live
 uri: /live/topanga-womens-circle/
 order: 38
-project_image: /assets/images/live/topanga-womens-circle.jpg
+project_image: topanga-womens-circle.jpg
 
 ---

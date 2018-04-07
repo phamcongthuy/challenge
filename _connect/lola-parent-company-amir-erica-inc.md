@@ -91,6 +91,6 @@ category_other:
 category: connect
 uri: /connect/lola-parent-company-amir-erica-inc/
 order: 25
-project_image: /assets/images/connect/lola-parent-company-amir-erica-inc.jpg
+project_image: lola-parent-company-amir-erica-inc.jpg
 
 ---

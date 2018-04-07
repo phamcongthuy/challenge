@@ -154,6 +154,6 @@ category_other:
 category: create
 uri: /create/world-famous-vip-records-llc/
 order: 17
-project_image: /assets/images/create/world-famous-vip-records-llc.jpg
+project_image: world-famous-vip-records-llc.jpg
 
 ---

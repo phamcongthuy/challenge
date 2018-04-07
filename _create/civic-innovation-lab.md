@@ -117,7 +117,7 @@ category_other:
 category: create
 uri: /create/civic-innovation-lab/
 order: 1
-project_image: /assets/images/create/civic-innovation-lab.jpg
+project_image: civic-innovation-lab.jpg
 is_finalist: true
 
 ---

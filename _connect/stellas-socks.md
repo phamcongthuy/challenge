@@ -95,6 +95,6 @@ category_other:
 category: connect
 uri: /connect/stellas-socks/
 order: 39
-project_image: /assets/images/connect/stellas-socks.jpg
+project_image: stellas-socks.jpg
 
 ---

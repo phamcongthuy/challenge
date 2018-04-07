@@ -139,6 +139,6 @@ category_other:
 category: connect
 uri: /connect/imagine-la/
 order: 19
-project_image: /assets/images/connect/imagine-la.jpg
+project_image: imagine-la.jpg
 
 ---

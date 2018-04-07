@@ -171,6 +171,6 @@ category_other:
 category: connect
 uri: /connect/united-parents-and-students/
 order: 44
-project_image: /assets/images/connect/united-parents-and-students.jpg
+project_image: united-parents-and-students.jpg
 
 ---

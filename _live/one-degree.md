@@ -167,6 +167,6 @@ category_other:
 category: live
 uri: /live/one-degree/
 order: 13
-project_image: /assets/images/live/one-degree.jpg
+project_image: one-degree.jpg
 
 ---

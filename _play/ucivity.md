@@ -168,6 +168,6 @@ category_other:
 category: play
 uri: /play/ucivity/
 order: 8
-project_image: /assets/images/play/ucivity.jpg
+project_image: ucivity.jpg
 
 ---

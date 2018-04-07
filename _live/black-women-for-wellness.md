@@ -133,6 +133,6 @@ category_other:
 category: live
 uri: /live/black-women-for-wellness/
 order: 27
-project_image: /assets/images/live/black-women-for-wellness.jpg
+project_image: black-women-for-wellness.jpg
 
 ---

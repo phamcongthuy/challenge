@@ -122,6 +122,6 @@ category_other:
 category: connect
 uri: /connect/larchmont-charter-school/
 order: 22
-project_image: /assets/images/connect/larchmont-charter-school.jpg
+project_image: larchmont-charter-school.jpg
 
 ---

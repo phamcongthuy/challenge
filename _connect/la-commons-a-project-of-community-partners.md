@@ -189,7 +189,7 @@ category_other:
 category: connect
 uri: /connect/la-commons-a-project-of-community-partners/
 order: 3
-project_image: /assets/images/connect/la-commons-a-project-of-community-partners.jpg
+project_image: la-commons-a-project-of-community-partners.jpg
 is_finalist: true
 
 ---

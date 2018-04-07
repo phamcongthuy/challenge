@@ -130,6 +130,6 @@ category_other:
 category: connect
 uri: /connect/ciclavia/
 order: 6
-project_image: /assets/images/connect/ciclavia.jpg
+project_image: ciclavia.jpg
 
 ---

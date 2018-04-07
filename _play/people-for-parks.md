@@ -180,7 +180,7 @@ category_other:
 category: play
 uri: /play/people-for-parks/
 order: 3
-project_image: /assets/images/play/people-for-parks.jpg
+project_image: people-for-parks.jpg
 is_finalist: true
 
 ---

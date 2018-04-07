@@ -99,7 +99,7 @@ category_other:
 category: play
 uri: /play/red-hen-press/
 order: 4
-project_image: /assets/images/play/red-hen-press.jpg
+project_image: red-hen-press.jpg
 is_finalist: true
 
 ---

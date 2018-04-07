@@ -76,6 +76,6 @@ category_other:
 category: live
 uri: /live/my-friends-house-inc/
 order: 18
-project_image: /assets/images/live/my-friends-house-inc.jpg
+project_image: my-friends-house-inc.jpg
 
 ---

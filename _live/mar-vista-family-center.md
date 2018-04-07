@@ -135,6 +135,6 @@ category_other:
 category: live
 uri: /live/mar-vista-family-center/
 order: 35
-project_image: /assets/images/live/mar-vista-family-center.jpg
+project_image: mar-vista-family-center.jpg
 
 ---

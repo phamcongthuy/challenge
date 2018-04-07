@@ -197,6 +197,6 @@ category_other:
 category: live
 uri: /live/united-way-of-greater-los-angeles/
 order: 15
-project_image: /assets/images/live/united-way-of-greater-los-angeles.jpg
+project_image: united-way-of-greater-los-angeles.jpg
 
 ---

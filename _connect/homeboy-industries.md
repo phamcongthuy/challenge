@@ -155,6 +155,6 @@ category_other:
 category: connect
 uri: /connect/homeboy-industries/
 order: 17
-project_image: /assets/images/connect/homeboy-industries.jpg
+project_image: homeboy-industries.jpg
 
 ---

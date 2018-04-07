@@ -104,6 +104,6 @@ category_other:
 category: live
 uri: /live/happyperiod/
 order: 26
-project_image: /assets/images/live/happyperiod.jpg
+project_image: happyperiod.jpg
 
 ---

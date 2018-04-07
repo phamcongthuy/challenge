@@ -123,6 +123,6 @@ category_other:
 category: connect
 uri: /connect/la-forward/
 order: 9
-project_image: /assets/images/connect/la-forward.jpg
+project_image: la-forward.jpg
 
 ---

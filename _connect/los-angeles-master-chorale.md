@@ -110,6 +110,6 @@ category_other:
 category: connect
 uri: /connect/los-angeles-master-chorale/
 order: 5
-project_image: /assets/images/connect/los-angeles-master-chorale.jpg
+project_image: los-angeles-master-chorale.jpg
 
 ---

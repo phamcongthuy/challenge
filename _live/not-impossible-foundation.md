@@ -108,6 +108,6 @@ category_other:
 category: live
 uri: /live/not-impossible-foundation/
 order: 11
-project_image: /assets/images/live/not-impossible-foundation.jpg
+project_image: not-impossible-foundation.jpg
 
 ---

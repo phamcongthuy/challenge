@@ -144,6 +144,6 @@ category_other:
 category: play
 uri: /play/the-brady-center-to-prevent-gun-violence/
 order: 6
-project_image: /assets/images/play/the-brady-center-to-prevent-gun-violence.jpg
+project_image: the-brady-center-to-prevent-gun-violence.jpg
 
 ---

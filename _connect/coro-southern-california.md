@@ -152,6 +152,6 @@ category_other:
 category: connect
 uri: /connect/coro-southern-california/
 order: 13
-project_image: /assets/images/connect/coro-southern-california.jpg
+project_image: coro-southern-california.jpg
 
 ---

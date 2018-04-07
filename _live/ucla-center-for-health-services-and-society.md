@@ -125,6 +125,6 @@ category_other:
 category: live
 uri: /live/ucla-center-for-health-services-and-society/
 order: 7
-project_image: /assets/images/live/ucla-center-for-health-services-and-society.jpg
+project_image: ucla-center-for-health-services-and-society.jpg
 
 ---

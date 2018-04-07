@@ -134,6 +134,6 @@ category_other:
 category: connect
 uri: /connect/center-for-council-a-project-of-community-partners/
 order: 10
-project_image: /assets/images/connect/center-for-council-a-project-of-community-partners.jpg
+project_image: center-for-council-a-project-of-community-partners.jpg
 
 ---

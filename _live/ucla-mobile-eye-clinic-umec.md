@@ -119,6 +119,6 @@ category_other:
 category: live
 uri: /live/ucla-mobile-eye-clinic-umec/
 order: 37
-project_image: /assets/images/live/ucla-mobile-eye-clinic-umec.jpg
+project_image: ucla-mobile-eye-clinic-umec.jpg
 
 ---

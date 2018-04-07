@@ -115,6 +115,6 @@ category_other:
 category: connect
 uri: /connect/data-roads-foundation/
 order: 48
-project_image: /assets/images/connect/data-roads-foundation.jpg
+project_image: data-roads-foundation.jpg
 
 ---

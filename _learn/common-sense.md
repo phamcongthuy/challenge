@@ -155,7 +155,7 @@ category_other:
 category: learn
 uri: /learn/common-sense/
 order: 1
-project_image: /assets/images/learn/common-sense.jpg
+project_image: common-sense.jpg
 is_finalist: true
 
 ---

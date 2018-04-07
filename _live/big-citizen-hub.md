@@ -147,6 +147,6 @@ category_other:
 category: live
 uri: /live/big-citizen-hub/
 order: 21
-project_image: /assets/images/live/big-citizen-hub.jpg
+project_image: big-citizen-hub.jpg
 
 ---

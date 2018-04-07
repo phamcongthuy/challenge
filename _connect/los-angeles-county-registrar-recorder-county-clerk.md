@@ -129,6 +129,6 @@ category_other:
 category: connect
 uri: /connect/los-angeles-county-registrar-recorder-county-clerk/
 order: 45
-project_image: /assets/images/connect/los-angeles-county-registrar-recorder-county-clerk.jpg
+project_image: los-angeles-county-registrar-recorder-county-clerk.jpg
 
 ---

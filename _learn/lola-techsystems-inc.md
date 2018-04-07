@@ -135,6 +135,6 @@ category_other:
 category: learn
 uri: /learn/lola-techsystems-inc/
 order: 9
-project_image: /assets/images/learn/lola-techsystems-inc.jpg
+project_image: lola-techsystems-inc.jpg
 
 ---

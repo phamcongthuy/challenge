@@ -106,6 +106,6 @@ category_other:
 category: live
 uri: /live/health-core-possibilities/
 order: 33
-project_image: /assets/images/live/health-core-possibilities.jpg
+project_image: health-core-possibilities.jpg
 
 ---

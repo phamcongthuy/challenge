@@ -145,7 +145,7 @@ category_other:
 category: create
 uri: /create/roadtrip-nation/
 order: 0
-project_image: /assets/images/create/roadtrip-nation.jpg
+project_image: roadtrip-nation.jpg
 is_winner: true
 is_finalist: true
 

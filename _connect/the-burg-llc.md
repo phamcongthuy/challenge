@@ -111,6 +111,6 @@ category_other:
 category: connect
 uri: /connect/the-burg-llc/
 order: 42
-project_image: /assets/images/connect/the-burg-llc.jpg
+project_image: the-burg-llc.jpg
 
 ---

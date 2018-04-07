@@ -92,6 +92,6 @@ category_other:
 category: create
 uri: /create/grid110-inc/
 order: 7
-project_image: /assets/images/create/grid110-inc.jpg
+project_image: grid110-inc.jpg
 
 ---

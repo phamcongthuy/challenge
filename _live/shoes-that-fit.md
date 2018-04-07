@@ -100,6 +100,6 @@ category_other:
 category: live
 uri: /live/shoes-that-fit/
 order: 14
-project_image: /assets/images/live/shoes-that-fit.jpg
+project_image: shoes-that-fit.jpg
 
 ---

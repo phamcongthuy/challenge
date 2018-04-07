@@ -93,6 +93,6 @@ category_other:
 category: learn
 uri: /learn/city-of-los-angeles-information-technology-agency/
 order: 5
-project_image: /assets/images/learn/city-of-los-angeles-information-technology-agency.jpg
+project_image: city-of-los-angeles-information-technology-agency.jpg
 
 ---

@@ -185,6 +185,6 @@ category_other:
 category: connect
 uri: /connect/synaccord-llc/
 order: 30
-project_image: /assets/images/connect/synaccord-llc.jpg
+project_image: synaccord-llc.jpg
 
 ---

@@ -65,6 +65,6 @@ category_other:
 category: connect
 uri: /connect/gracias-music-foundation/
 order: 16
-project_image: /assets/images/connect/gracias-music-foundation.jpg
+project_image: gracias-music-foundation.jpg
 
 ---

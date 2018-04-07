@@ -127,6 +127,6 @@ category_other:
 category: live
 uri: /live/podshare/
 order: 29
-project_image: /assets/images/live/podshare.jpg
+project_image: podshare.jpg
 
 ---

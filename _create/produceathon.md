@@ -152,6 +152,6 @@ category_other:
 category: create
 uri: /create/produceathon/
 order: 12
-project_image: /assets/images/create/produceathon.jpg
+project_image: produceathon.jpg
 
 ---

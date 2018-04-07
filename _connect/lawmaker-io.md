@@ -123,6 +123,6 @@ category_other:
 category: connect
 uri: /connect/lawmaker-io/
 order: 23
-project_image: /assets/images/connect/lawmaker-io.jpg
+project_image: lawmaker-io.jpg
 
 ---

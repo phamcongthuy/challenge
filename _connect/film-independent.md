@@ -111,6 +111,6 @@ category_other:
 category: connect
 uri: /connect/film-independent/
 order: 27
-project_image: /assets/images/connect/film-independent.jpg
+project_image: film-independent.jpg
 
 ---

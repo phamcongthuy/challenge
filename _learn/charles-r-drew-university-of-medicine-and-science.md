@@ -139,6 +139,6 @@ category_other:
 category: learn
 uri: /learn/charles-r-drew-university-of-medicine-and-science/
 order: 12
-project_image: /assets/images/learn/charles-r-drew-university-of-medicine-and-science.jpg
+project_image: charles-r-drew-university-of-medicine-and-science.jpg
 
 ---

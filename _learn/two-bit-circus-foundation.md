@@ -8,13 +8,13 @@ project_description: >-
 organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=6ZaOSqWls54'
-link_newsletter: http://twobitcircus.org/newsletter/
+link_newsletter: 'http://twobitcircus.org/newsletter/'
 organization_website: TwoBitCircus.org
 organization_twitter: '@TwoBitCircusorg'
 organization_facebook: '@TwoBitCircusorg'
 organization_instagram: '@TwoBitCircusorg'
-link_donate: http://twobitcircus.org/how-you-can-help/donate-now/
-link_volunteer: http://twobitcircus.org/volunteer/
+link_donate: 'http://twobitcircus.org/how-you-can-help/donate-now/'
+link_volunteer: 'http://twobitcircus.org/volunteer/'
 organization_activity: >-
   We inspire the next generation of inventors, creators, and entrepreneurs while
   inspiring environmental stewardship by using manufacturers cast-offs.
@@ -108,6 +108,6 @@ category_other:
 category: learn
 uri: /learn/two-bit-circus-foundation/
 order: 13
-project_image: /assets/images/learn/two-bit-circus-foundation.jpg
+project_image: two-bit-circus-foundation.jpg
 
 ---

@@ -19,9 +19,9 @@ organization_twitter:
   - '@LAFoodFest'
   - '@ArtisanalLA'
 organization_facebook:
-  - https://facebook.com/makeitinla
-  - https://facebook.com/LAFoodfest
-  - https://facebook.com/ArtisanalLA
+  - 'https://facebook.com/makeitinla'
+  - 'https://facebook.com/LAFoodfest'
+  - 'https://facebook.com/ArtisanalLA'
 organization_instagram:
   - '@wemakeitinla'
   - '@lafoodfest'
@@ -131,6 +131,6 @@ category_other:
 category: create
 uri: /create/make-it-in-la/
 order: 11
-project_image: /assets/images/create/make-it-in-la.jpg
+project_image: make-it-in-la.jpg
 
 ---

@@ -137,7 +137,7 @@ category_other:
 category: connect
 uri: /connect/mayors-fund-for-los-angeles/
 order: 1
-project_image: /assets/images/connect/mayors-fund-for-los-angeles.jpg
+project_image: mayors-fund-for-los-angeles.jpg
 is_finalist: true
 
 ---

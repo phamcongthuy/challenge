@@ -132,6 +132,6 @@ category_other:
 category: connect
 uri: /connect/kitchen-table-app/
 order: 21
-project_image: /assets/images/connect/kitchen-table-app.jpg
+project_image: kitchen-table-app.jpg
 
 ---

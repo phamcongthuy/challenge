@@ -105,6 +105,6 @@ category_other:
 category: learn
 uri: /learn/las-best/
 order: 16
-project_image: /assets/images/learn/las-best.jpg
+project_image: las-best.jpg
 
 ---

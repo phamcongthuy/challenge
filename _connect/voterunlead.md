@@ -146,6 +146,6 @@ category_other:
 category: connect
 uri: /connect/voterunlead/
 order: 49
-project_image: /assets/images/connect/voterunlead.jpg
+project_image: voterunlead.jpg
 
 ---

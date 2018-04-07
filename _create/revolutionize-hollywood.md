@@ -148,6 +148,6 @@ category_other:
 category: create
 uri: /create/revolutionize-hollywood/
 order: 13
-project_image: /assets/images/create/revolutionize-hollywood.jpg
+project_image: revolutionize-hollywood.jpg
 
 ---

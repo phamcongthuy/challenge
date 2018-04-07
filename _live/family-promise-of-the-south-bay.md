@@ -102,6 +102,6 @@ category_other:
 category: live
 uri: /live/family-promise-of-the-south-bay/
 order: 36
-project_image: /assets/images/live/family-promise-of-the-south-bay.jpg
+project_image: family-promise-of-the-south-bay.jpg
 
 ---

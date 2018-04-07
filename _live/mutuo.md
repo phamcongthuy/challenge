@@ -112,7 +112,7 @@ category_other:
 category: live
 uri: /live/mutuo/
 order: 3
-project_image: /assets/images/live/mutuo.jpg
+project_image: mutuo.jpg
 is_finalist: true
 
 ---

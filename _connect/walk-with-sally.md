@@ -106,6 +106,6 @@ category_other:
 category: connect
 uri: /connect/walk-with-sally/
 order: 46
-project_image: /assets/images/connect/walk-with-sally.jpg
+project_image: walk-with-sally.jpg
 
 ---

@@ -92,7 +92,7 @@ category_other:
 category: connect
 uri: /connect/eayikes/
 order: 4
-project_image: /assets/images/connect/eayikes.jpg
+project_image: eayikes.jpg
 is_finalist: true
 
 ---

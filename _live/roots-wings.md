@@ -122,6 +122,6 @@ category_other:
 category: live
 uri: /live/roots-wings/
 order: 34
-project_image: /assets/images/live/roots-wings.jpg
+project_image: roots-wings.jpg
 
 ---

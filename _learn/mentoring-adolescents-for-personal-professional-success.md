@@ -153,8 +153,7 @@ category_other:
 category: learn
 uri: /learn/mentoring-adolescents-for-personal-professional-success/
 order: 3
-project_image: >-
-  /assets/images/learn/mentoring-adolescents-for-personal-professional-success.jpg
+project_image: mentoring-adolescents-for-personal-professional-success.jpg
 is_finalist: true
 
 ---

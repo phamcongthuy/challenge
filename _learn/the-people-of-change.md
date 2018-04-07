@@ -17,8 +17,8 @@ organization_facebook: 'https://www.facebook.com/thepeopleofchange/'
 organization_instagram: '@thepplofchange'
 link_donate: 'https://www.facebook.com/thepeopleofchange/'
 link_volunteer:
-  - https://www.instagram.com/thepplofchange/
-  - https://www.facebook.com/thepeopleofchange/
+  - 'https://www.instagram.com/thepplofchange/'
+  - 'https://www.facebook.com/thepeopleofchange/'
 organization_activity: >-
   The People of Change programs promote advancement opportunities through
   community based initiatives in the fields of education, income, cultural
@@ -110,6 +110,6 @@ category_other:
 category: learn
 uri: /learn/the-people-of-change/
 order: 7
-project_image: /assets/images/learn/the-people-of-change.jpg
+project_image: the-people-of-change.jpg
 
 ---

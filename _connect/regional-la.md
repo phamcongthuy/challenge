@@ -174,6 +174,6 @@ category_other:
 category: connect
 uri: /connect/regional-la/
 order: 33
-project_image: /assets/images/connect/regional-la.jpg
+project_image: regional-la.jpg
 
 ---

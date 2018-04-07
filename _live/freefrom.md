@@ -211,6 +211,6 @@ category_other:
 category: live
 uri: /live/freefrom/
 order: 23
-project_image: /assets/images/live/freefrom.jpg
+project_image: freefrom.jpg
 
 ---

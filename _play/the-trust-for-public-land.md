@@ -144,6 +144,6 @@ category_other:
 category: play
 uri: /play/the-trust-for-public-land/
 order: 7
-project_image: /assets/images/play/the-trust-for-public-land.jpg
+project_image: the-trust-for-public-land.jpg
 
 ---

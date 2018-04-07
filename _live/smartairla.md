@@ -187,6 +187,6 @@ category_other:
 category: live
 uri: /live/smartairla/
 order: 32
-project_image: /assets/images/live/smartairla.jpg
+project_image: smartairla.jpg
 
 ---

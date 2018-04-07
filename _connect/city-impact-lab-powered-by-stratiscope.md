@@ -113,6 +113,6 @@ category_other:
 category: connect
 uri: /connect/city-impact-lab-powered-by-stratiscope/
 order: 41
-project_image: /assets/images/connect/city-impact-lab-powered-by-stratiscope.jpg
+project_image: city-impact-lab-powered-by-stratiscope.jpg
 
 ---

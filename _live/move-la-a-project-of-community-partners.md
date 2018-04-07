@@ -153,6 +153,6 @@ category_other:
 category: live
 uri: /live/move-la-a-project-of-community-partners/
 order: 39
-project_image: /assets/images/live/move-la-a-project-of-community-partners.jpg
+project_image: move-la-a-project-of-community-partners.jpg
 
 ---

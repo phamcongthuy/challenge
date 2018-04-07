@@ -89,6 +89,6 @@ category_other:
 category: create
 uri: /create/we-are-enough-c-o-social-environmental-entrepreneurs/
 order: 16
-project_image: /assets/images/create/we-are-enough-c-o-social-environmental-entrepreneurs.jpg
+project_image: we-are-enough-c-o-social-environmental-entrepreneurs.jpg
 
 ---

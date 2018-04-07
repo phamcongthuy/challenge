@@ -139,6 +139,6 @@ category_other:
 category: live
 uri: /live/cardborigami-inc/
 order: 28
-project_image: /assets/images/live/cardborigami-inc.jpg
+project_image: cardborigami-inc.jpg
 
 ---

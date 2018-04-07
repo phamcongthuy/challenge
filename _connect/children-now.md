@@ -130,6 +130,6 @@ category_other:
 category: connect
 uri: /connect/children-now/
 order: 28
-project_image: /assets/images/connect/children-now.jpg
+project_image: children-now.jpg
 
 ---

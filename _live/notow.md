@@ -95,6 +95,6 @@ category_other:
 category: live
 uri: /live/notow/
 order: 24
-project_image: /assets/images/live/notow.jpg
+project_image: notow.jpg
 
 ---

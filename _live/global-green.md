@@ -138,6 +138,6 @@ category_other:
 category: live
 uri: /live/global-green/
 order: 17
-project_image: /assets/images/live/global-green.jpg
+project_image: global-green.jpg
 
 ---

@@ -132,7 +132,6 @@ category: connect
 uri: >-
   /connect/multicultural-communities-for-mobility-a-project-of-community-partners/
 order: 37
-project_image: >-
-  /assets/images/connect/multicultural-communities-for-mobility-a-project-of-community-partners.jpg
+project_image: multicultural-communities-for-mobility-a-project-of-community-partners.jpg
 
 ---

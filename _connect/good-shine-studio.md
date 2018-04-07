@@ -164,6 +164,6 @@ category_other:
 category: connect
 uri: /connect/good-shine-studio/
 order: 8
-project_image: /assets/images/connect/good-shine-studio.jpg
+project_image: good-shine-studio.jpg
 
 ---

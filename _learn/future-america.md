@@ -87,6 +87,6 @@ category_other:
 category: learn
 uri: /learn/future-america/
 order: 17
-project_image: /assets/images/learn/future-america.jpg
+project_image: future-america.jpg
 
 ---

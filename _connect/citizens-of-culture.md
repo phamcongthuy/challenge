@@ -131,6 +131,6 @@ category_other:
 category: connect
 uri: /connect/citizens-of-culture/
 order: 43
-project_image: /assets/images/connect/citizens-of-culture.jpg
+project_image: citizens-of-culture.jpg
 
 ---

@@ -142,6 +142,6 @@ category_other:
 category: live
 uri: /live/l-a-kitchen/
 order: 30
-project_image: /assets/images/live/l-a-kitchen.jpg
+project_image: l-a-kitchen.jpg
 
 ---

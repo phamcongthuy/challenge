@@ -77,6 +77,6 @@ category_other:
 category: connect
 uri: /connect/tides-center-dba-childrens-action-network/
 order: 15
-project_image: /assets/images/connect/tides-center-dba-childrens-action-network.jpg
+project_image: tides-center-dba-childrens-action-network.jpg
 
 ---

@@ -177,6 +177,6 @@ category_other:
 category: connect
 uri: /connect/justice-la-dignity-and-power-now/
 order: 20
-project_image: /assets/images/connect/justice-la-dignity-and-power-now.jpg
+project_image: justice-la-dignity-and-power-now.jpg
 
 ---

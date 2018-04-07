@@ -113,6 +113,6 @@ category_other:
 category: learn
 uri: /learn/girls-acedemic-leadership-academy-gala/
 order: 8
-project_image: /assets/images/learn/girls-acedemic-leadership-academy-gala.jpg
+project_image: girls-acedemic-leadership-academy-gala.jpg
 
 ---

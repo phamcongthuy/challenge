@@ -142,6 +142,6 @@ category_other:
 category: connect
 uri: /connect/los-angeles-lgbt-center/
 order: 34
-project_image: /assets/images/connect/los-angeles-lgbt-center.jpg
+project_image: los-angeles-lgbt-center.jpg
 
 ---

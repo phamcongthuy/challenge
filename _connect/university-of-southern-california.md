@@ -146,6 +146,6 @@ category_other:
 category: connect
 uri: /connect/university-of-southern-california/
 order: 24
-project_image: /assets/images/connect/university-of-southern-california.jpg
+project_image: university-of-southern-california.jpg
 
 ---

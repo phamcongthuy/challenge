@@ -91,6 +91,6 @@ category_other:
 category: connect
 uri: /connect/connect-to-compete-inc-everyoneon/
 order: 14
-project_image: /assets/images/connect/connect-to-compete-inc-everyoneon.jpg
+project_image: connect-to-compete-inc-everyoneon.jpg
 
 ---

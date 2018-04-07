@@ -146,6 +146,6 @@ category_other:
 category: connect
 uri: /connect/investing-in-place/
 order: 29
-project_image: /assets/images/connect/investing-in-place.jpg
+project_image: investing-in-place.jpg
 
 ---

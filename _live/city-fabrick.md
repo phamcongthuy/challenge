@@ -116,6 +116,6 @@ category_other:
 category: live
 uri: /live/city-fabrick/
 order: 19
-project_image: /assets/images/live/city-fabrick.jpg
+project_image: city-fabrick.jpg
 
 ---

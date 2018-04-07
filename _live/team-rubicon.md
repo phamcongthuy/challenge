@@ -117,6 +117,6 @@ category_other:
 category: live
 uri: /live/team-rubicon/
 order: 22
-project_image: /assets/images/live/team-rubicon.jpg
+project_image: team-rubicon.jpg
 
 ---

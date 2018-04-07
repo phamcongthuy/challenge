@@ -116,6 +116,6 @@ category_other:
 category: learn
 uri: /learn/center-for-innovation-in-stem-education-cise/
 order: 11
-project_image: /assets/images/learn/center-for-innovation-in-stem-education-cise.jpg
+project_image: center-for-innovation-in-stem-education-cise.jpg
 
 ---

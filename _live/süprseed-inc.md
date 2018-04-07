@@ -17,9 +17,9 @@ organization_facebook: www.facebook.com/suprmarkt
 link_volunteer: www.suprmarkt.la/give
 link_donate: www.suprmarkt.la/give
 organization_activity: >-
-  SÜPRMARKT brings affordable organic produce to the people and places that
-  need it most in a weekly pop-up grocery + subscription service which accepts
-  EBT and educates to create a culture of health.
+  SÜPRMARKT brings affordable organic produce to the people and places that need
+  it most in a weekly pop-up grocery + subscription service which accepts EBT
+  and educates to create a culture of health.
 project_proposal_description: >-
   SÜPRMARKT has served up 1200+ cases of food since starting in 2016 and seeks
   to expand its operations by opening a 6 day a week location, serving organics
@@ -180,6 +180,6 @@ category_other:
 category: live
 uri: /live/sÜprseed-inc/
 order: 8
-project_image: /assets/images/live/sÜprseed-inc.jpg
+project_image: sÜprseed-inc.jpg
 
 ---

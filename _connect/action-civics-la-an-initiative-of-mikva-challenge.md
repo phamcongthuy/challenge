@@ -8,8 +8,8 @@ organization_name: 'Action Civics LA, an initiative of Mikva Challenge'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=DRyOMoxgsbE'
 link_newsletter:
-  - https://www.mikvachallenge.org/action-civics-la/
-  - https://www.procon.org/view.background-resource.php?resourceID=006145
+  - 'https://www.mikvachallenge.org/action-civics-la/'
+  - 'https://www.procon.org/view.background-resource.php?resourceID=006145'
 organization_website:
   - 'https://www.mikvachallenge.org/action-civics-la/'
   - 'https://www.procon.org'
@@ -17,15 +17,17 @@ organization_twitter:
   - '@actioncivicsla'
   - '@procon_org'
 organization_facebook:
-  - https://www.facebook.com/ActionCivicsLA/
-  - https://www.facebook.com/ProCon.org
+  - 'https://www.facebook.com/ActionCivicsLA/'
+  - 'https://www.facebook.com/ProCon.org'
 organization_instagram: '@Actioncivicsla'
 link_donate:
-  - https://www.mikvachallenge.org/donate-action-civics-la/?eType=ActivityDefinitionInstance&eId=dbd7e11d-a980-44e3-8f09-b215aeb43576
-  - https://www.classy.org/checkout/donation?eid=24854
+  - >-
+    https://www.mikvachallenge.org/donate-action-civics-la/?eType=ActivityDefinitionInstance&eId=dbd7e11d-a980-44e3-8f09-b215aeb43576
+  - 'https://www.classy.org/checkout/donation?eid=24854'
 link_volunteer:
-  - https://mikvachallenge.salsalabs.org/aclavolunteers/index.html
-  - https://www.procon.org/view.background-resource.php?resourceID=002483#volunteer_application
+  - 'https://mikvachallenge.salsalabs.org/aclavolunteers/index.html'
+  - >-
+    https://www.procon.org/view.background-resource.php?resourceID=002483#volunteer_application
 organization_activity: >-
   Action Civics LA works with schools to empower young people with the skills,
   knowledge, & dispositions to be superstar citizens & leaders. ProCon provides
@@ -147,6 +149,6 @@ category_other:
 category: connect
 uri: /connect/action-civics-la-an-initiative-of-mikva-challenge/
 order: 52
-project_image: /assets/images/connect/action-civics-la-an-initiative-of-mikva-challenge.jpg
+project_image: action-civics-la-an-initiative-of-mikva-challenge.jpg
 
 ---

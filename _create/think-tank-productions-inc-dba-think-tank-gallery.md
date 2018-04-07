@@ -156,7 +156,7 @@ category_other:
 category: create
 uri: /create/think-tank-productions-inc-dba-think-tank-gallery/
 order: 3
-project_image: /assets/images/create/think-tank-productions-inc-dba-think-tank-gallery.jpg
+project_image: think-tank-productions-inc-dba-think-tank-gallery.jpg
 is_finalist: true
 
 ---

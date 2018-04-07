@@ -99,7 +99,7 @@ uri: >-
   /live/hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit/
 order: 0
 project_image: >-
-  /assets/images/live/hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit.jpg
+  hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit.jpg
 is_winner: true
 is_finalist: true
 

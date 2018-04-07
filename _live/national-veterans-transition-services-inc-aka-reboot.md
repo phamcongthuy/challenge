@@ -134,6 +134,6 @@ category_other:
 category: live
 uri: /live/national-veterans-transition-services-inc-aka-reboot/
 order: 9
-project_image: /assets/images/live/national-veterans-transition-services-inc-aka-reboot.jpg
+project_image: national-veterans-transition-services-inc-aka-reboot.jpg
 
 ---

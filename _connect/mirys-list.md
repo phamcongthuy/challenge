@@ -191,6 +191,6 @@ category_other:
 category: connect
 uri: /connect/mirys-list/
 order: 47
-project_image: /assets/images/connect/mirys-list.jpg
+project_image: mirys-list.jpg
 
 ---

@@ -118,6 +118,6 @@ category_other:
 category: live
 uri: /live/neighborhood-housing-services-of-los-angeles-county/
 order: 10
-project_image: /assets/images/live/neighborhood-housing-services-of-los-angeles-county.jpg
+project_image: neighborhood-housing-services-of-los-angeles-county.jpg
 
 ---

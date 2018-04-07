@@ -124,6 +124,6 @@ category_other:
 category: live
 uri: /live/the-glue/
 order: 12
-project_image: /assets/images/live/the-glue.jpg
+project_image: the-glue.jpg
 
 ---

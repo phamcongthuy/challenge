@@ -73,6 +73,6 @@ category_other:
 category: live
 uri: /live/peer-health-exchange/
 order: 5
-project_image: /assets/images/live/peer-health-exchange.jpg
+project_image: peer-health-exchange.jpg
 
 ---

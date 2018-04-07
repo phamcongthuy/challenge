@@ -132,6 +132,6 @@ category_other:
 category: live
 uri: /live/lift-los-angeles/
 order: 20
-project_image: /assets/images/live/lift-los-angeles.jpg
+project_image: lift-los-angeles.jpg
 
 ---

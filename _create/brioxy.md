@@ -122,7 +122,7 @@ category_other:
 category: create
 uri: /create/brioxy/
 order: 2
-project_image: /assets/images/create/brioxy.jpg
+project_image: brioxy.jpg
 is_finalist: true
 
 ---

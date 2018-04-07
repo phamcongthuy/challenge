@@ -85,6 +85,6 @@ category_other:
 category: connect
 uri: /connect/la-compost/
 order: 12
-project_image: /assets/images/connect/la-compost.jpg
+project_image: la-compost.jpg
 
 ---

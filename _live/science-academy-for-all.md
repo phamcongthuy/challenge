@@ -138,6 +138,6 @@ category_other:
 category: live
 uri: /live/science-academy-for-all/
 order: 25
-project_image: /assets/images/live/science-academy-for-all.jpg
+project_image: science-academy-for-all.jpg
 
 ---

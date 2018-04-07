@@ -140,6 +140,11 @@ function processFile(filename) {
   let data = loadMarkdown(filename);
   if (!data) return;
 
+  // Simplify image URL
+  // let project_image_paths = data.yaml.project_image.split('/');
+  // data.yaml.project_image = project_image_paths[project_image_paths.length - 1];
+
+  /*
   if (data.yaml.organization_website.indexOf(' ') >= 0 ||
       data.yaml.organization_twitter.indexOf(' ') >= 0 ||
       data.yaml.organization_facebook.indexOf(' ') >= 0 ||
@@ -172,6 +177,7 @@ function processFile(filename) {
     }
     console.log('***');
   }
+  */
 
   // data.yaml = changeNAtoEmpty(data.yaml);
   // data.yaml = addMailTo(data.yaml);

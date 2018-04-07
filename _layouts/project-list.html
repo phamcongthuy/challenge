@@ -107,7 +107,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   <li class="{{ data.category }}">
     <a href="{{ data.uri }}">
       {% comment %}https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{% endcomment %}
-      <span class="image"><img src="{{ data['project_image'] }}" alt="" width="540" height="428" /></span>
+      <span class="image"><img src="/assets/images/{{ data.category }}/2048-wide/{{ data.project_image }}" alt="" width="540" height="428" /></span>
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>
       <p class="description">{{ data['project_description'] }}</p>

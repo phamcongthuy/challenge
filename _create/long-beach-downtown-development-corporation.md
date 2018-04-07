@@ -17,8 +17,8 @@ link_newsletter: >-
   application is potentially awarded. Details as shared will be promoted through
   all of our channels of media distribution including but not limited to local
   media, Facebook, Instagram, and Twitter.
-link_volunteer: mailto:adamc@dlba.org
-link_donate: mailto:adamc@dlba.org
+link_volunteer: 'mailto:adamc@dlba.org'
+link_donate: 'mailto:adamc@dlba.org'
 organization_activity: >-
   Our mission is to cultivate, preserve and promote a healthy, safe and
   prosperous Downtown.
@@ -196,6 +196,6 @@ category_other:
 category: create
 uri: /create/long-beach-downtown-development-corporation/
 order: 15
-project_image: /assets/images/create/long-beach-downtown-development-corporation.jpg
+project_image: long-beach-downtown-development-corporation.jpg
 
 ---

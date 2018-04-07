@@ -114,6 +114,6 @@ category_other:
 category: live
 uri: /live/seedla/
 order: 31
-project_image: /assets/images/live/seedla.jpg
+project_image: seedla.jpg
 
 ---

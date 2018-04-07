@@ -11,7 +11,7 @@ project_video: 'https://www.youtube.com/embed?v=50O1szspYcg&feature=youtu.be'
 organization_website:
   - 'http://kounkuey.org'
   - 'http://lurnetwork.org'
-organization_twitter: 
+organization_twitter:
   - '@Kounkuey'
   - '@LURNetwork'
 organization_facebook: www.facebook.com/Kounkuey/
@@ -210,7 +210,7 @@ category_other:
 category: play
 uri: /play/kounkuey-design-initiative/
 order: 1
-project_image: /assets/images/play/kounkuey-design-initiative.jpg
+project_image: kounkuey-design-initiative.jpg
 is_finalist: true
 
 ---

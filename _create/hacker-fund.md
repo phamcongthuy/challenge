@@ -94,6 +94,6 @@ category_other:
 category: create
 uri: /create/hacker-fund/
 order: 8
-project_image: /assets/images/create/hacker-fund.jpg
+project_image: hacker-fund.jpg
 
 ---

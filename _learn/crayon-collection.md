@@ -91,7 +91,7 @@ category_other:
 category: learn
 uri: /learn/crayon-collection/
 order: 2
-project_image: /assets/images/learn/crayon-collection.jpg
+project_image: crayon-collection.jpg
 is_finalist: true
 
 ---

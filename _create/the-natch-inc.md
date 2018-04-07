@@ -113,6 +113,6 @@ category_other:
 category: create
 uri: /create/the-natch-inc/
 order: 6
-project_image: /assets/images/create/the-natch-inc.jpg
+project_image: the-natch-inc.jpg
 
 ---
