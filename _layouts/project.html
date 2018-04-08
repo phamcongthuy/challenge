@@ -36,16 +36,14 @@ stylesheets:
     {% assign video_embed_url = video_embed_url | replace: 'embed?v=', 'embed/' %}
 
     {% assign video_embed_url = video_embed_url | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' %}
-  {% endif %}
 
-  {% comment %}
+    {% comment %}Replace query string params (since they’re usually not needed){% endcomment %}
     {% assign video_embed_url_array = video_embed_url | split: "?" %}
     {% assign video_embed_url = video_embed_url_array.first %}
     {% assign video_embed_url_array = video_embed_url | split: "&" %}
     {% assign video_embed_url = video_embed_url_array.first %}
-
     {% capture video_embed_url %}{{ video_embed_url }}?rel=0&showinfo=0&modestbranding=1{% endcapture %}
-  {% endcomment %}
+  {% endif %}
 
   {% assign video_embed_url = video_embed_url | replace: 'https://vimeo.com/', 'https://player.vimeo.com/video/' %}
 {% endif %}
@@ -56,7 +54,6 @@ stylesheets:
   <iframe src="{{ video_embed_url }}" frameborder="0" allowfullscreen></iframe>
 </div>
 {% else %}
-{% comment %}https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{% endcomment %}
 {% if page.project_video %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
 {% endif %}
@@ -368,7 +365,6 @@ stylesheets:
           <path fill="white" d="M22,12c0-0.2-0.1-0.4-0.2-0.6l-9.4-8.2C12.2,3.1,12,3,11.8,3c-0.2,0-0.4,0.1-0.6,0.2l-0.5,0.5c-0.2,0.2-0.3,0.4-0.3,0.6 c0,0.2,0.1,0.4,0.3,0.6l7,5.9l-15,0.1c-0.2,0-0.4,0.1-0.5,0.3C2.1,11.3,2,11.5,2,11.7v0.6c0,0.2,0.1,0.4,0.2,0.6s0.3,0.3,0.5,0.3 h15l-7,6.1c-0.2,0.1-0.3,0.3-0.3,0.5s0.1,0.4,0.3,0.6l0.5,0.5c0.2,0.2,0.4,0.3,0.6,0.3c0.2,0,0.4-0.1,0.6-0.3l9.4-8.2 C21.9,12.4,22,12.2,22,12z"></path>
         </svg>
       </h2>
-      {% comment %}https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{% endcomment %}
       <span class="image"><img src="/assets/images/{{ data.category }}/2048-wide/{{ data.project_image }}" alt="" width="540" height="428" /></span>
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>
@@ -394,7 +390,6 @@ stylesheets:
         </svg>
         Previous project
       </h2>
-      {% comment %}https://skild-prod.s3.amazonaws.com/myla2050/images/custom540/{% endcomment %}
       <span class="image"><img src="/assets/images/{{ data.category }}/2048-wide/{{ data.project_image }}" alt="" width="540" height="428" /></span>
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>
