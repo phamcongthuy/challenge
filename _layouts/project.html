@@ -343,9 +343,9 @@ stylesheets:
 
 </div><!-- /.proposal-in-depth -->
 
-<hr />
+<hr style="margin-top: 3em;" />
 
-<ul class="proposals more-proposals">
+<ul class="proposals more-proposals" style="margin-top: 3em;">
 
 {% assign data_collection = site.collections | where: "label", page.category | first %}
 {% assign data_list = data_collection.docs %}
@@ -401,9 +401,7 @@ stylesheets:
 
 </ul>
 
-
-
-<div style="margin-top: -3em;"></div>
+<hr style="margin-top: -2.25em; margin-bottom: 0" />
 
 {% include project-navigation.html %}
 
