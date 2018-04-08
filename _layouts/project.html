@@ -29,6 +29,7 @@ stylesheets:
 
 {% if page.project_video and page.project_video != "" %}
 {% if page.project_video contains "youtu" or page.project_video contains "vimeo" %}
+{% unless page.project_video contains "youtube.com/user/" %}
   {% assign video_embed_url = page.project_video %}
 
   {% if page.project_video contains "youtu" %}
@@ -46,6 +47,7 @@ stylesheets:
   {% endif %}
 
   {% assign video_embed_url = video_embed_url | replace: 'https://vimeo.com/', 'https://player.vimeo.com/video/' %}
+{% endunless %}
 {% endif %}
 {% endif %}
 
