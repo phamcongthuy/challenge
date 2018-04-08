@@ -152,8 +152,8 @@ category_other:
   - LA is the best place to LEARN
   - LA is the best place to CONNECT
 category: create
-uri: /create/national-association-of-latino-independant-producers-nalip/
+uri: /create/national-association-of-latino-independent-producers-nalip/
 order: 4
-project_image: national-association-of-latino-independant-producers-nalip.jpg
+project_image: national-association-of-latino-independent-producers-nalip.jpg
 
 ---
