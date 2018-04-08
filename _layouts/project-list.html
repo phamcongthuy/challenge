@@ -307,3 +307,14 @@ function shuffle(array) {
 <script async src="/api/play.js"></script>
 
 <script async src="/assets/js/search.js"></script> -->
+
+<script>
+(function() {
+  var key = 'scrollPositionOnLastProjectListPage';
+  // console.log('localStorage.getItem(key): ' + localStorage.getItem(key));
+  if (localStorage.getItem(key)) {
+    window.scrollTo(0, localStorage.getItem(key));
+    localStorage.removeItem(key);
+  }
+})();
+</script>
