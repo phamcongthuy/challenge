@@ -400,6 +400,7 @@
     order: var(--order-100);
   }
 
+
   .proposals li.next {
     order: 1;
   }
@@ -426,6 +427,17 @@
   .proposals li {
     max-width: 25em;
   }
+
+  /* Avoid positioning the next/previous links in the wrong order, on small screens */
+  @media (max-width: 50em) {
+    .more-proposals {
+      display: block;
+    }
+    .more-proposals li + li {
+      margin-top: 7.5em;
+    }
+  }
+
 /*  @media (min-width: 100em) {
     .proposals {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
