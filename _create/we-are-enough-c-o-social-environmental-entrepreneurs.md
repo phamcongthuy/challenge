@@ -10,7 +10,7 @@ organization_description: Non-profit organization
 project_video: 'https://youtu.be/hYxxWm_J0Yc'
 organization_website: 'http://www.weareenough.biz'
 organization_twitter: '@weareenoughbiz'
-organization_facebook: 'http://www.weareenough.biz'
+organization_facebook: ''
 organization_instagram: '@weareenoughbiz'
 link_newsletter: 'http://www.weareenough.biz/contact'
 link_volunteer: 'http://www.weareenough.biz/contact'
@@ -42,39 +42,39 @@ project_proposal_best_place: >-
   for women of color. Companies led by women, that have more women on their
   boards, or women as decision-makers outperform their competitors on EVERY
   measure of profitability...by 63%!
-   
-   
-   
+
+
+
    We Are Enough's activation will create measures of cultural and global economic influence by changing women's mindsets. Women do not consider themselves investors and are passive with their investments BUT women control or influence 75% of consumer discretionary spending around the globe. After four sold-out and successful pilot events (which included surveys) in LA proved women were eager to learn how to activate their economic power, we concluded that we could reach all women in LA County. Where LA goes, so goes the country and the world... so it's the perfect place to launch and pilot our new global campaign.
-   
-   
-   
+
+
+
    Why will this "make LA the best place to create"? LA is the most economically unequal place in the country. Women reinvest more of their capital back into their communities than men... by 50% more. If we really want our region to be the best place to create, we need to remove the inequities. This is what women will do if they have more wealth and their businesses more financial support. Our campaign will build wealth for all women and teach our girls to do the same.
 project_proposal_engage: >-
   We Are Enough has its roots in LA and intends to launch and grow the global
   campaign from here. We believe in the power of locally engaged women to
   connect and support other women and girls across the country and around the
   world.
-   
-   
-   
+
+
+
    The activation will engage Angelenos to make LA the best place to CREATE by encouraging participation in investing in women-owned businesses. This will be done through a PSA/video, social media, marketing campaign, and partners locally and around the world. The weareenough.biz website will house the investing challenge and directory of investment destinations.
-   
-   
-   
-   We do not replicate current initiatives and we do not provide investment advice or direct investments to individual companies. We do curate all the best options and make it easy for women to decide what’s right for them, based on their risk tolerance, level of participation, economic reality, investment amount, etc. 
-   
-   
-   
+
+
+
+   We do not replicate current initiatives and we do not provide investment advice or direct investments to individual companies. We do curate all the best options and make it easy for women to decide what’s right for them, based on their risk tolerance, level of participation, economic reality, investment amount, etc.
+
+
+
    Whether it’s $25, $25K or $25M, we believe there are ways to harness women’s investing power and align their investments with personal values and generate wealth... And a tangible way to impact LA women entrepreneurs, their businesses, and communities.
 project_measure: >-
   We will inspire women (and girls) to commit a percentage of whatever amount of
   capital they choose - savings, 401K, shoe/purse budget, lunch money, etc over
   a multi-year period. We will track their commitments and create a great
-  sharing platform to engage colleagues, friends and families. 
-   
-   
-   
+  sharing platform to engage colleagues, friends and families.
+
+
+
    This will be measured in real time on the WAE site. Women will go to the site and enter their pledge. We will also encourage woke men to tell their daughters, sisters, mothers, wives to do the same.
 project_five_years: >-
   We actually hope that We Are Enough will not be needed in 5 years. We hope by
