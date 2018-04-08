@@ -11,8 +11,7 @@ link_newsletter: 'https://www.rootsnwings.org/wwwactivated-potentialcom.html'
 organization_website: rootsnwings.org
 organization_twitter: ''
 organization_instagram: rootsnwings_malibu
-organization_facebook: >-
-  https://www.facebook.com/Roots-Wings-Counseling-Classes-Coaching-for-a-Meaningful-Life-1952358844987700/
+organization_facebook: 'Roots-Wings-Counseling-Classes-Coaching-for-a-Meaningful-Life-1952358844987700/'
 link_volunteer: ''
 link_donate: 'https://www.rootsnwings.org/help-us-do-good.html'
 organization_activity: >-
@@ -47,72 +46,72 @@ project_proposal_mobilize:
 project_proposal_best_place: >-
   Due to recent national events, children don't feel safe attending their
   schools. Parents don't feel confident sending their children to school.
-  Teachers are overwhelmed, overworked and under-resourced. 
-   
-   
-   
-   Kids are anxious, over-scheduled, stressed out, exposed to too much too soon, and being bullied and teased. Families are disconnected, lacking psychological tools to navigate through a socially isolating world. Parents don't know how to parent effectively and are either too permissive or too punitive. Kids are depressed and anxious and the adults in their lives don't have the tools to know how to help. 
-   
-   
-   
+  Teachers are overwhelmed, overworked and under-resourced.
+
+
+
+   Kids are anxious, over-scheduled, stressed out, exposed to too much too soon, and being bullied and teased. Families are disconnected, lacking psychological tools to navigate through a socially isolating world. Parents don't know how to parent effectively and are either too permissive or too punitive. Kids are depressed and anxious and the adults in their lives don't have the tools to know how to help.
+
+
+
    Adverse childhood experiences can create negative, lasting impacts on a child's development. Roots & Wings believes that the opportunity is now. We need to better understand our children and acquire tools to make raising children a joyful, transformational experience for both you and them.
-   
-   
-   
-   Social Emotional Learning Specialists teach children mindfulness, techniques for emotional regulation and dealing with stress. They offer tools for conflict resolution and problem-solving. Done in groups through play & creative expression, children will develop critical life skills that are not taught elsewhere. The services provided will decrease rates of anxiety, depression, bullying & disciplinary action. 
-   
-   
-   
-   The Activated Potential School addresses all three levels of students needs from a low-level of misbehavior to repetitive and more serious behavior to serious, chronic and dangerous misbehavior. This model is originated from the work of Sugai et al at the University of Oregon. 
-   
-   
-   
-   Providing parents with access to free, positive discipline training led by a Certified Positive Discipline instructor will decrease child abuse and improve family cooperation & communication. Monthly parent workshops on topics such as social media, bullying, and more will promote constructive conversation among the community. 
-   
-   
-   
+
+
+
+   Social Emotional Learning Specialists teach children mindfulness, techniques for emotional regulation and dealing with stress. They offer tools for conflict resolution and problem-solving. Done in groups through play & creative expression, children will develop critical life skills that are not taught elsewhere. The services provided will decrease rates of anxiety, depression, bullying & disciplinary action.
+
+
+
+   The Activated Potential School addresses all three levels of students needs from a low-level of misbehavior to repetitive and more serious behavior to serious, chronic and dangerous misbehavior. This model is originated from the work of Sugai et al at the University of Oregon.
+
+
+
+   Providing parents with access to free, positive discipline training led by a Certified Positive Discipline instructor will decrease child abuse and improve family cooperation & communication. Monthly parent workshops on topics such as social media, bullying, and more will promote constructive conversation among the community.
+
+
+
    Providing teachers with training and ongoing support throughout the duration of the school year will help them feel more equipped to deal with classroom challenges. It will reduce teachers' stress and burn out, allowing them to provide appropriate and beneficial support for their students. It will also provide teachers with communal language and ways to communicate with their families, creating cohesion between schools and families.
 project_proposal_engage: >-
   Children and students in the Santa Monica Malibu Unified School District will
   experience a transformation in their school community. We will collect data
   that will then be used as a model for other schools - eventually implementing
-  this program in LAUSD schools. 
-   
-   
-   
-   We will provide free, monthly parent workshops for the community. In addition to the weekly trainings for school parents. 
-   
-   
-   
-   We will encourage and facilitate open conversations about these pressing issues among all of our community members through workshops and events. We will send out educational documents that will detail tools & techniques from which all can benefit. 
-   
-   
-   
-   Hosting public events to encourage this conversation and awareness, we will seek volunteers who want to further facilitate and implement our mission. 
-   
-   
-   
+  this program in LAUSD schools.
+
+
+
+   We will provide free, monthly parent workshops for the community. In addition to the weekly trainings for school parents.
+
+
+
+   We will encourage and facilitate open conversations about these pressing issues among all of our community members through workshops and events. We will send out educational documents that will detail tools & techniques from which all can benefit.
+
+
+
+   Hosting public events to encourage this conversation and awareness, we will seek volunteers who want to further facilitate and implement our mission.
+
+
+
    We will provide bi-monthly documentary screenings followed by a Q & A with a Roots & Wings counselor at City Hall, all designed to improve mental health.
 project_measure: >-
   We will define success as reducing adverse childhood experiences and measure
-  it with research-validated assessments. 
-   
-   
-   
-   First, we will look at the mental wellness of the parents with the Patient Health Questionnaire (PHQ-2 and PHQ-9) to assess of a parent's level of mental well-being, consisting of two and nine questions, respectively. This will be a pre-test and post-test at the end of the year. We will also measure parent's improvement in parenting style with pre-post testing (including measuring parent's discipline style). 
-   
-   
-   
+  it with research-validated assessments.
+
+
+
+   First, we will look at the mental wellness of the parents with the Patient Health Questionnaire (PHQ-2 and PHQ-9) to assess of a parent's level of mental well-being, consisting of two and nine questions, respectively. This will be a pre-test and post-test at the end of the year. We will also measure parent's improvement in parenting style with pre-post testing (including measuring parent's discipline style).
+
+
+
    To assess improvement in the school, we will measure school-wide reports of bullying and teasing in the beginning and end of the year, and look for changes in suspensions and truancy over the year.
-   
-   
-   
+
+
+
    Finally, we will measure the students' social emotional skills learned with the validated Multifactor Emotional Intelligence Scale (MEIS) with these subtests:
-   
+
    - Identifying Emotions: Faces & Stories
-   
+
    - Understanding Emotions: Blends & Progressions & Relativity
-   
+
    - Managing Emotions: Others & Self
 project_five_years: In several Los Angeles school districts & communities nationwide.
 category_metrics:

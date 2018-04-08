@@ -12,7 +12,7 @@ link_newsletter: 'http://hashtaghappyperiod.org'
 organization_website: 'http://hashtaghappyperiod.org'
 organization_twitter: happyperiodorg
 organization_instagram: wearehappyperiod
-organization_facebook: 'https://www.facebook.com/wearehappyperiod/?ref=settings'
+organization_facebook: ''
 link_volunteer: 'https://x.gldn.io/Gl6VlgcxFL'
 link_donate: 'https://www.classy.org/checkout/donation?eid=86244'
 organization_activity: >-

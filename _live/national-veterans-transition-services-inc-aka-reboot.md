@@ -10,7 +10,7 @@ organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=IVHAVDZAcFk&feature=youtu.be'
 link_newsletter: 'http://www.nvtsi.org/intransition-magazine/'
 organization_website: 'http://www.nvtsi.org/'
-organization_twitter: 'https://twitter.com/intent/user?screen_name=RebootWorkshop'
+organization_twitter: '@RebootWorkshop'
 organization_instagram: 'https://www.instagram.com/rebootworkshop/'
 organization_facebook: 'https://www.facebook.com/REBOOTWorkshop/'
 link_volunteer: 'http://www.nvtsi.org/contact-us/'
@@ -51,77 +51,77 @@ project_proposal_mobilize:
 project_proposal_best_place: >-
   LA County is already a great place to live, which is why so many live there.
   It will become the "best" place to live as it addresses self-sufficiency and
-  homelessness issues. 
-   
-   
-   
+  homelessness issues.
+
+
+
    The general public mainly sees news reports about money being spent on the less fortunate, but new housing won't become available for at least 3 years. They want results now.
-   
-   
-   
+
+
+
    Collaborative efforts are key to efficiency and success. It takes more than money, it takes activities that "Carry Forward" the city and county. We will reach out to include organizations, businesses, and government agencies.
-   
-   
-   
+
+
+
    The empty houses, apartment building, motels/hotels, warehouses, and other building with good bones will stand strong as they are converted to sustainable living environments. The first step will be to lease homes to house homeless individuals and veterans who are in need of housing so they have a safe place to live while attending free workforce training and connecting individuals to needed services.
-   
-   
-   
+
+
+
    Through collaborative efforts of organizations located outside and inside the city of LA and LA County, efforts are increased. Neighboring counties and organizations know about the challenges that exist in LA County and want to help in the efforts to "Carry Forward" their communities.
-   
-   
-   
-   The University of Southern California and the Los Angeles Veterans Collaborative did a study of California Veterans, finding and concluding the following: 
-   
-   
-   
-   Each year, approximately 12,000 military veterans will settle in Los Angeles County as they transition out of the military, joining the 325,000 veterans who currently reside here. For the most part, veterans in California and Los Angeles County reflect the larger national demographics, with the exception that the local population has more Hispanic and Asian veterans than the national average. 
-   
-   
-   
+
+
+
+   The University of Southern California and the Los Angeles Veterans Collaborative did a study of California Veterans, finding and concluding the following:
+
+
+
+   Each year, approximately 12,000 military veterans will settle in Los Angeles County as they transition out of the military, joining the 325,000 veterans who currently reside here. For the most part, veterans in California and Los Angeles County reflect the larger national demographics, with the exception that the local population has more Hispanic and Asian veterans than the national average.
+
+
+
    The findings from the Los Angeles County Veterans Study have revealed several overarching issues that deserve attention:
-   
+
    * 1st, many service members leaving the military are not prepared for the transition.
-   
+
    * 2nd, many military veterans have a wide range of needs that cannot be easily provided by a single organization.
-   
+
    * 3rd, veteran support organizations are not organized to provide holistic support to current and returning veterans.
-   
+
    * 4th, most veteran support organizations are focused on meeting acute and chronic needs of veterans, such as homelessness, immediate or severe health issues, or acute or chronic unemployment. Very little attention is given to preventing these conditions or intervening early to prevent them from becoming chronic.
-   
-   
-   
+
+
+
    Additionally, relocating homeless individuals to locations like Lancaster, Apple Valley, and Hesperia which have available jobs, lower rents, and price of properties. This will help lower the density in the City of Los Angeles. Many would be willing to relocate. They need and want help, but they do not have the means to move and know the resources that are available in other areas of the state.
 project_proposal_engage: >-
   Engaging Angelenos is not new. Our system of collaborative efforts will create
   a new way of looking at the "Live" issues in a new way can make the
   difference. Businesses and organizations compete for notice, an identity, but
-  not for partnerships. 
-   
-   
-   
+  not for partnerships.
+
+
+
    Our partnership is more about results that benefit all, the businesses, their customers who are veterans and Angelenos who are wealthy or less fortunate.
-   
-   
-   
+
+
+
    With the help of LA2050 results can be achieved: "Hosting public events" and "Communications support, including traditional media, social media, and LA2050 newsletter" will create greater awareness and more collaborative efforts.
 project_measure: >-
   Success will be measured by the number of collaborative efforts in workforce
   training, the numbers trained and retained in their job.
-   
-   
-   
+
+
+
    In San Diego County, the National Veterans Transition Services, Inc. has seen 95-97% success in job training and at least a 9-month retention of employment.
-   
-   
-   
+
+
+
    The number of additional individuals being housed in the currently available locations will lead to even more individuals to be housed.
 project_five_years: >-
   In five years an additional 5,000 veterans will have received workforce
   training and will be employed or developed a profitable business.
-   
-   
-   
+
+
+
    Once implemented, this program has the potential to house 100s in LA. Moving able-bodied homeless Angelenos to locations where work and housing are available will decrease the density of the city's homeless population.
 category_metrics:
   - Healthcare access
