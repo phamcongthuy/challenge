@@ -781,16 +781,14 @@
 
   body main h2.answers-header,
   body main h2.comments-header {    
-    font-size: 1.75em;
-    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
+    font-size: 1.5em;
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
   }
   @media (min-width: 40em) {
     body main h2.answers-header,
     body main h2.comments-header {
-      font-size: 2.5em;
       max-width: none;
     }
   }
@@ -852,7 +850,6 @@
   }
   .more-proposals h2 {
     font-size: 1.5em;
-    line-height: 1.2857142857;
     font-style: italic;
     margin-top: 0;
     margin-bottom: 1.5rem;
