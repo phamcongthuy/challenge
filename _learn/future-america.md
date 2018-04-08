@@ -2,7 +2,7 @@
 application_id: '8699361268'
 title: >-
   The Latin Jazz Youth Ensemble of Los Angeles models the Latin Jazz Youth
-  Ensemble of SF. LJYE.com
+  Ensemble of SF.
 project_description: >-
   The Latin Jazz Youth Ensemble of Los Angeles replicates the 17 yr success of
   Latin Jazz Youth Ensemble of SF by providing FREE education from 2 time Grammy

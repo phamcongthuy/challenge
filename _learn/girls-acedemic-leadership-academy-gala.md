@@ -12,7 +12,7 @@ link_newsletter: 'https://www.fogala.org/'
 organization_website: www.fogala.org
 organization_twitter: GALAcademy
 organization_facebook: GALAcademy
-organization_instagram: Friends Of GALA (Girls Academic Leadership Academy)
+organization_instagram: girls_academic_leadership_acad
 link_donate: 'https://www.fogala.org/donate'
 link_volunteer: 'https://www.fogala.org/old-volunteer'
 organization_activity: >-
@@ -77,8 +77,8 @@ project_proposal_engage: >-
   affected by the activation is GALA’s school community at first. Then,
   depending on the research, the project also seeks to eventually engage Los
   Angelinos in general through the formation of an app used by non-profit
-  organizations. 
-   
+  organizations.
+
    Strategies/tactics: learning the curriculum and resources, developing a grade level integrated curriculum project for 11th and 8th grade, technology integration, research, partnership with UCLA and USC medical schools, incorporation of 21st Century skills, as well as incorporation of Next Generation Science Standards.
 project_measure: >-
   GALA offers students a rigorous college preparatory curriculum in all grades,
