@@ -2,8 +2,10 @@
 
 <h2>Learn more</h2>
 
-{% for website in page.organization_website %}
-{% if website contains "http" %}
+{% if page.organization_website and page.organization_website != "" and page.organization_website != "n/a" and page.organization_website != "N/A" and page.organization_website != "none" %}
+
+{% for website in page.organization_website limit:1 %}
+{% if website contains "http" or website contains "mailto" %}
 {% assign website_url = website %}
 {% else %}
 {% capture website_url %}http://{{ website }}{% endcapture %}
@@ -18,18 +20,32 @@
   </switch>
 </svg>
 </dt>
-<dd><a href="{{ website_url }}">{{ website | replace: "https://", "" | replace: "http://", "" }}</a></dd>
+<dd>
+  <a href="{{ website_url }}">
+    {{
+      website 
+      | replace: "https://", ""
+      | replace: "http://", ""
+      | replace: "www.", ""
+      | split: "/" | first
+    }}
+  </a>
+</dd>
 </dl>
 {% endfor %}
+{% endif %}
+
 
 {% if page.organization_instagram and page.organization_instagram != "" and page.organization_instagram != "n/a" and page.organization_instagram != "N/A" and page.organization_instagram != "none" %}
 
-{% if page.organization_instagram contains "http" %}
-{% assign instagram_url = page.organization_instagram %}
-{% elsif page.organization_instagram contains "instagram.com/" %}
-{% capture instagram_url %}https://{{ page.organization_instagram }}{% endcapture %}
+{% for instagram in page.organization_instagram limit:1 %}
+
+{% if instagram contains "http" %}
+{% assign instagram_url = instagram %}
+{% elsif instagram contains "instagram.com/" %}
+{% capture instagram_url %}https://{{ instagram }}{% endcapture %}
 {% else %}
-{% capture instagram_url %}https://instagram.com/{{ page.organization_instagram }}{% endcapture %}
+{% capture instagram_url %}https://instagram.com/{{ instagram }}{% endcapture %}
 {% endif %}
 <dl>
 <dt>
@@ -41,18 +57,22 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="{{ instagram_url }}">@{{ page.organization_instagram | replace: "https://www.instagram.com/", "" | replace: "https://instagram.com/", "" | replace: "www.instagram.com/", "" | replace: "instagram.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
+<dd><a href="{{ instagram_url }}">@{{ instagram | replace: "https://www.instagram.com/", "" | replace: "https://instagram.com/", "" | replace: "www.instagram.com/", "" | replace: "instagram.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
 </dl>
+{% endfor %}
+
 {% endif %}
 
 {% if page.organization_twitter and page.organization_twitter != "" and page.organization_twitter != "n/a" and page.organization_twitter != "N/A" and page.organization_twitter != "none" %}
 
-{% if page.organization_twitter contains "http" %}
-{% assign twitter_url = page.organization_twitter %}
-{% elsif page.organization_twitter contains "twitter.com/" %}
-{% capture twitter_url %}https://{{ page.organization_twitter }}{% endcapture %}
+{% for twitter in page.organization_twitter limit:1 %}
+
+{% if twitter contains "http" %}
+{% assign twitter_url = twitter %}
+{% elsif twitter contains "twitter.com/" %}
+{% capture twitter_url %}https://{{ twitter }}{% endcapture %}
 {% else %}
-{% capture twitter_url %}https://twitter.com/{{ page.organization_twitter }}{% endcapture %}
+{% capture twitter_url %}https://twitter.com/{{ twitter }}{% endcapture %}
 {% endif %}
 <dl>
 <dt>
@@ -64,18 +84,22 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="{{ twitter_url }}">@{{ page.organization_twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
+<dd><a href="{{ twitter_url }}">@{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
 </dl>
+{% endfor %}
+
 {% endif %}
 
 {% if page.organization_facebook and page.organization_facebook != "" and page.organization_facebook != "n/a" and page.organization_facebook != "N/A" and page.organization_facebook != "none" %}
 
-{% if page.organization_facebook contains "http" %}
-{% assign facebook_url = page.organization_facebook %}
-{% elsif page.organization_facebook contains "facebook.com/" %}
-{% capture facebook_url %}https://{{ page.organization_facebook }}{% endcapture %}
+{% for facebook in page.organization_facebook limit:1 %}
+
+{% if facebook contains "http" %}
+{% assign facebook_url = facebook %}
+{% elsif facebook contains "facebook.com/" %}
+{% capture facebook_url %}https://{{ facebook }}{% endcapture %}
 {% else %}
-{% capture facebook_url %}https://facebook.com/{{ page.organization_facebook }}{% endcapture %}
+{% capture facebook_url %}https://facebook.com/{{ facebook }}{% endcapture %}
 {% endif %}
 <dl>
 <dt>
@@ -87,8 +111,10 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="{{ facebook_url }}">{{ page.organization_facebook | replace: "https://www.facebook.com/", "" | replace: "https://facebook.com/", "" | replace: "www.facebook.com/", "" | replace: "facebook.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
+<dd><a href="{{ facebook_url }}">{{ facebook | replace: "https://www.facebook.com/", "" | replace: "https://facebook.com/", "" | replace: "www.facebook.com/", "" | replace: "facebook.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
 </dl>
+{% endfor %}
+
 {% endif %}
 
 </div>

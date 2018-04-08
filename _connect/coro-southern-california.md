@@ -10,9 +10,7 @@ project_description: >-
 organization_name: Coro Southern California
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=Du3r0rMVl4Q&feature=youtu.be'
-link_newsletter: >-
-  To stay updated on our activation, please visit
-  https://www.corola.org/subscribe/ and subscribe to our newsletter.
+link_newsletter: https://www.corola.org/subscribe/
 organization_website: www.corola.org
 organization_twitter: '@CoroSoCal'
 organization_facebook: 'https://www.facebook.com/corosoutherncalifornia'
@@ -92,7 +90,48 @@ project_proposal_engage: >-
    
    
    NLP will involve leadership development seminars each month exploring topics such as community asset mapping, effective inquiry, and reflective practice. Seminars will be coupled with one-day issue explorations each month: a deep dive inquiry-based investigation into the challenges most prevalent in South LA. These Issue Days will involve interviews with leaders across sectors to provide participants with multiple point of views to analyze. At the program’s conclusion, each participant will launch a community change project to use their newfound leadership skills, frameworks, and connections to bring concrete improvements to their community.
-project_measure: "By participating in NLP, South LA neighborhood leaders will:\n \n \n \n â—\x8FExamine challenges facing their South LA communities;\n \n â—\x8FEmploy Coro methodology of inquiry and reflection through interviews with leaders in the community and group debriefs, giving participants invaluable insight on what it takes to be a leader in the region;\n \n â—\x8FExpand leadership capacity through exposure to Coro’s leadership tools and frameworks;\n \n â—\x8FBuild and bridge social capital through group learning processes and team management towards common purposes;\n \n â—\x8FDemonstrate project management skills through the development of a community change project;\n \n â—\x8FBuild and expand social capital by deepening their networks across the region.\n \n \n \n Success for the program will be measured in a variety of ways. The first is through pre-program participant surveys assessing: 1) prior access to leadership development; 2) prior access to hard skill development; and 3) proficiency in various skills, including presentations, project management, written communication, team management, and understanding of leadership frameworks. Post-program surveys will collect self-reported proficiencies in these skills as a result of participation in NLP. Coro will also measure the impact of participants’ community change projects by assessing how many people have been or will be affected by the project, and will evaluate qualitative data from participants and partner organizations on the impact both felt and observed as a result of NLP participation."
+project_measure: >-
+  By participating in NLP, South LA neighborhood leaders will:
+
+
+
+
+  *Examine challenges facing their South LA communities;
+
+
+  *Employ Coro methodology of inquiry and reflection through interviews with
+  leaders in the community and group debriefs, giving participants invaluable
+  insight on what it takes to be a leader in the region;
+
+
+  *Expand leadership capacity through exposure to Coro’s leadership tools and
+  frameworks;
+
+
+  *Build and bridge social capital through group learning processes and team
+  management towards common purposes;
+
+
+  *Demonstrate project management skills through the development of a community
+  change project;
+
+
+  *Build and expand social capital by deepening their networks across the
+  region.
+
+
+
+  Success for the program will be measured in a variety of ways. The first is
+  through pre-program participant surveys assessing: 1) prior access to
+  leadership development; 2) prior access to hard skill development; and 3)
+  proficiency in various skills, including presentations, project management,
+  written communication, team management, and understanding of leadership
+  frameworks. Post-program surveys will collect self-reported proficiencies in
+  these skills as a result of participation in NLP. Coro will also measure the
+  impact of participants’ community change projects by assessing how many people
+  have been or will be affected by the project, and will evaluate qualitative
+  data from participants and partner organizations on the impact both felt and
+  observed as a result of NLP participation.
 project_five_years: >-
   In 5 years, Coro will have trained approximately 125 community leaders in
   South LA who are continuing to implement their Community Change Projects in
@@ -102,15 +141,15 @@ project_five_years: >-
   continue to strengthen and revitalize the region. Additionally, NLP will be
   positioned to launch in other communities in Los Angeles, allowing Coro to
   expand its impact and reach in Southern California.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Rates of volunteerism']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: i8v40djp
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Rates of volunteerism
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/coro-southern-california/
 order: 13
-project_image: /assets/images/connect/coro-southern-california.jpg
-project_proposal_impact: []
+project_image: coro-southern-california.jpg
 
 ---

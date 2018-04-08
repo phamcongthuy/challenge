@@ -8,10 +8,16 @@ project_description: >-
 organization_name: Kounkuey Design Initiative
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=50O1szspYcg&feature=youtu.be'
-organization_website: 'http://kounkuey.org, lurnetwork.org'
-organization_twitter: '@Kounkuey, @LURNetwork'
+organization_website:
+  - 'http://kounkuey.org'
+  - 'http://lurnetwork.org'
+organization_twitter:
+  - '@Kounkuey'
+  - '@LURNetwork'
 organization_facebook: www.facebook.com/Kounkuey/
-organization_instagram: '@kounkuey, @lurnetwork'
+organization_instagram:
+  - '@kounkuey'
+  - '@lurnetwork'
 link_newsletter: 'http://eepurl.com/dpOxHr'
 link_donate: 'http://kounkuey.org/donate.html'
 link_volunteer: 'http://kounkuey.org/volunteer.html'
@@ -92,15 +98,15 @@ project_proposal_best_place: >-
    
    
    
-   â€¢ There will be more spaces for play. You’ll enjoy the benefits of open space in your neighborhood, almost immediately, without having to wait for permanent parks to arrive.
+   * There will be more spaces for play. You’ll enjoy the benefits of open space in your neighborhood, almost immediately, without having to wait for permanent parks to arrive.
    
-   â€¢ You’ll have access to unique, vibrant and intergenerational play spaces to suit everyone — because YOU made it happen!
+   * You’ll have access to unique, vibrant and intergenerational play spaces to suit everyone — because YOU made it happen!
    
-   â€¢ You’ll feel safer and more connected to your neighborhood.
+   * You’ll feel safer and more connected to your neighborhood.
    
-   â€¢ You’ll create visual data and community interest to show the City where permanent parks are needed and desired.
+   * You’ll create visual data and community interest to show the City where permanent parks are needed and desired.
    
-   â€¢ You’ll pave the way for permanent improvements and be able to get involved in making them happen.
+   * You’ll pave the way for permanent improvements and be able to get involved in making them happen.
    
    
    
@@ -125,7 +131,7 @@ project_proposal_engage: >-
    
    
    
-   Then, we bring our PARK-IN-A-BOXâ€¦ and the play begins!
+   Then, we bring our PARK-IN-A-BOX… and the play begins!
    
    
    
@@ -194,17 +200,16 @@ project_five_years: >-
    
    
    As for KDI, in five years’ time we’ll continue to be a leader in California for building healthy, vibrant and playful communities through public space. We’ll have worked alongside the communities most in need of play space, and the most influential decision makers, to create a statewide network of public spaces with committed and capable residents at its core.
-category_metrics: >-
-  ['Number (and quality) of informal spaces for play', 'Number of parks with
-  intergenerational play opportunities', 'Number of residents with easy access
-  to a “vibrant” park']
-category_other: '[''LA is the best place to CONNECT'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: a62t08b
+category_metrics:
+  - Number (and quality) of informal spaces for play
+  - Number of parks with intergenerational play opportunities
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: play
 uri: /play/kounkuey-design-initiative/
 order: 1
-project_image: /assets/images/play/kounkuey-design-initiative.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: kounkuey-design-initiative.jpg
 
 ---

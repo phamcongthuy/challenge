@@ -137,15 +137,15 @@ project_five_years: >-
   most vulnerable neighborhoods, we improve public health and exceed
   environmental goals for the whole region. We recognize that equity is not a
   special interest, but in everybody’s interest.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Number of public transit
-  riders', 'Transit-accessible housing and employment']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: j2j6548o
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Number of public transit riders
+  - Transit-accessible housing and employment
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/investing-in-place/
 order: 29
-project_image: /assets/images/connect/investing-in-place.jpg
-project_proposal_impact: []
+project_image: investing-in-place.jpg
 
 ---

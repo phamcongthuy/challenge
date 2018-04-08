@@ -123,26 +123,27 @@ project_five_years: >-
    
    
    
-   â€¢ Identify California “bad apple” gun dealers through greater collection, publication and sharing of crime trace data and other key investigative information; 
+   * Identify California “bad apple” gun dealers through greater collection, publication and sharing of crime trace data and other key investigative information; 
    
    
    
-   â€¢ Shut down or meaningfully reform at least 10 of the “bad apple” gun dealers affecting California; and 
+   * Shut down or meaningfully reform at least 10 of the “bad apple” gun dealers affecting California; and 
    
    
    
-   â€¢ Reduce gun crime by at least 20% in three California cities.
+   * Reduce gun crime by at least 20% in three California cities.
    
    
    
    Through our work in Los Angeles and throughout California, our goal is to build a model for city-based implementation that is scalable to other cities disproportionally affected by gun violence. In five years, it is our aim that Los Angeles and the Bay Area will have measurably reduced gun violence and can serve as models for other cities. Ultimately, we aim to stem the flow of crime guns into vulnerable communities across the U.S. to reduce gun violence and save lives.
-category_metrics: '[''Per capita crime rates'', ''Perceived safety'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: jvhie7n6
+category_metrics:
+  - Per capita crime rates
+  - Perceived safety
+category_other:
+  - LA is the healthiest place to LIVE
 category: play
 uri: /play/the-brady-center-to-prevent-gun-violence/
 order: 6
-project_image: /assets/images/play/the-brady-center-to-prevent-gun-violence.jpg
-project_proposal_impact: []
+project_image: the-brady-center-to-prevent-gun-violence.jpg
 
 ---

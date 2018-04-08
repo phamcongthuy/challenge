@@ -81,13 +81,13 @@ project_proposal_best_place: >-
    
    The findings from the Los Angeles County Veterans Study have revealed several overarching issues that deserve attention:
    
-   â€¢ 1st, many service members leaving the military are not prepared for the transition.
+   * 1st, many service members leaving the military are not prepared for the transition.
    
-   â€¢ 2nd, many military veterans have a wide range of needs that cannot be easily provided by a single organization.
+   * 2nd, many military veterans have a wide range of needs that cannot be easily provided by a single organization.
    
-   â€¢ 3rd, veteran support organizations are not organized to provide holistic support to current and returning veterans.
+   * 3rd, veteran support organizations are not organized to provide holistic support to current and returning veterans.
    
-   â€¢ 4th, most veteran support organizations are focused on meeting acute and chronic needs of veterans, such as homelessness, immediate or severe health issues, or acute or chronic unemployment. Very little attention is given to preventing these conditions or intervening early to prevent them from becoming chronic.
+   * 4th, most veteran support organizations are focused on meeting acute and chronic needs of veterans, such as homelessness, immediate or severe health issues, or acute or chronic unemployment. Very little attention is given to preventing these conditions or intervening early to prevent them from becoming chronic.
    
    
    
@@ -123,17 +123,17 @@ project_five_years: >-
    
    
    Once implemented, this program has the potential to house 100s in LA. Moving able-bodied homeless Angelenos to locations where work and housing are available will decrease the density of the city's homeless population.
-category_metrics: >-
-  ['Healthcare access', 'Housing affordability', 'Number of households below the
-  self-sufficiency standard']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  healthiest place to CONNECT']
-unique_identifier: vx9ybz7j
+category_metrics:
+  - Healthcare access
+  - Housing affordability
+  - Number of households below the self-sufficiency standard
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/national-veterans-transition-services-inc-aka-reboot/
 order: 9
-project_image: /assets/images/live/national-veterans-transition-services-inc-aka-reboot.jpg
-project_proposal_impact: []
+project_image: national-veterans-transition-services-inc-aka-reboot.jpg
 
 ---

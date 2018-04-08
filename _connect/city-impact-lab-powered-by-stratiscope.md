@@ -9,12 +9,20 @@ organization_name: 'City Impact Lab, powered by Stratiscope'
 organization_description: For-profit organization
 project_video: ''
 link_newsletter: 'http://www.cityimpactlab.com/contact/'
-organization_website: www.stratiscope.com www.cityimpactlab.com
-organization_twitter: '@Stratiscope @CityImpactLab'
-organization_facebook: facebook.com/Stratiscope facebook.com/CityImpactLabLA
-organization_instagram: '@Stratiscope @CityImpactLab'
-link_donate: N/A
-link_volunteer: To be established.
+organization_website:
+  - www.stratiscope.com
+  - www.cityimpactlab.com
+organization_twitter:
+  - '@Stratiscope'
+  - '@CityImpactLab'
+organization_facebook:
+  - facebook.com/Stratiscope
+  - facebook.com/CityImpactLabLA
+organization_instagram:
+  - '@Stratiscope'
+  - '@CityImpactLab'
+link_donate: ''
+link_volunteer: ''
 organization_activity: >-
   Powered by Stratiscope, the City Impact Lab empowers individuals, businesses,
   & organizations to make an impact in their community. CIL serves as a hub for
@@ -95,15 +103,16 @@ project_five_years: >-
   developed deeper connections and those that lived there and have moved on will
   carry with them the sense that community can be created, even in places where
   it might seem difficult.
-category_metrics: >-
-  ['Attendance at public/open streets gatherings', 'Government responsiveness to
-  residents’ needs', 'Rates of volunteerism']
-category_other: '[''LA is the best place to PLAY'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: ueo4o246
+category_metrics:
+  - Attendance at public/open streets gatherings
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/city-impact-lab-powered-by-stratiscope/
 order: 41
-project_image: /assets/images/connect/city-impact-lab-powered-by-stratiscope.jpg
-project_proposal_impact: []
+project_image: city-impact-lab-powered-by-stratiscope.jpg
 
 ---

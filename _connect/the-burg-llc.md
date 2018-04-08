@@ -102,15 +102,15 @@ project_five_years: >-
    Our organization's mission is to make it easier for citizens to engage with each other and with
    
    their local government. In five years we believe The Burg will help inspire a community renaissance and serve as the interactive Front Page of your city. We believe that if The Burg succeeds, we will see signs of higher civic engagement across the board, including voter turnout, community participation, volunteerism, trust in local government, etc. Additionally, we believe The Burg will be the home of political/opinion polling ushering in a new era of responsive government and more accurate measure of public opinion. Down the line, we see local elections being hosted on The Burg given that many local level many governments are already experimenting with online voting.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Voting rates']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: 8mr7atuk
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Voting rates
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/the-burg-llc/
 order: 42
-project_image: /assets/images/connect/the-burg-llc.jpg
-project_proposal_impact: []
+project_image: the-burg-llc.jpg
 
 ---

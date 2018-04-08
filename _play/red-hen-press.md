@@ -91,16 +91,14 @@ project_five_years: >-
   is at a turning point in its history. This activation is what Red Hen Press
   needs to take the next leap forward and make Los Angeles a better place to
   create, connect, and learn.
-category_metrics: >-
-  ['Number (and quality) of informal spaces for play', 'Number of children
-  enrolled in afterschool programs']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: kk0iz2zh
+category_metrics:
+  - Number (and quality) of informal spaces for play
+  - Number of children enrolled in afterschool programs
+category_other:
+  - LA is the best place to CREATE
 category: play
 uri: /play/red-hen-press/
 order: 4
-project_image: /assets/images/play/red-hen-press.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: red-hen-press.jpg
 
 ---

@@ -10,13 +10,13 @@ project_description: >-
 organization_name: Larchmont Charter School
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=GjY2oTPnxak'
-link_newsletter: development@larchmontcharter.org
+link_newsletter: 'mailto:development@larchmontcharter.org'
 organization_website: www.larchmontcharter.org
 organization_twitter: '@larchmontschool'
 organization_facebook: 'https://www.facebook.com/LarchmontSchool/posts/10160153595750361'
 organization_instagram: 'https://www.instagram.com/larchmontschool/'
 link_donate: 'http://www.larchmontcharter.org/support_lcs'
-link_volunteer: development@larchmontcharter.org
+link_volunteer: 'mailto:development@larchmontcharter.org'
 organization_activity: >-
   The Larchmont Social Justice Alliance gives kids a platform to speak up for
   social justice and learn about the spoken word, activism, connections, youth
@@ -113,16 +113,15 @@ project_five_years: >-
   continue their social justice work. 600 students, plus their extended families
   and the other students they influence, can be part of a leadership movement
   for social justice stemming from the very heart of Los Angeles.
-category_metrics: >-
-  ['Attendance at cultural events', 'Government responsiveness to residents’
-  needs', 'Total number of local social media friends and connections Angelenos
-  have']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: 77jliajl
+category_metrics:
+  - Attendance at cultural events
+  - Government responsiveness to residents’ needs
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/larchmont-charter-school/
 order: 22
-project_image: /assets/images/connect/larchmont-charter-school.jpg
-project_proposal_impact: []
+project_image: larchmont-charter-school.jpg
 
 ---

@@ -7,7 +7,7 @@ project_description: >-
 organization_name: Data 360
 organization_description: For-profit organization
 project_video: ''
-link_newsletter: 'To sign up for more info about our activation, email admin@data360.solutions.'
+link_newsletter: mailto:admin@data360.solutions
 organization_website: 'http://data360.solutions'
 organization_twitter: '@data360me'
 organization_facebook: 'https://www.facebook.com/data360solutions/'
@@ -139,17 +139,15 @@ project_measure: |-
 project_five_years: >-
   We hope to serve at least 200 community college students per college in the
   next five years. We expect to start with 30 students this year.
-category_metrics: >-
-  ['College matriculation rates', 'Students’ immersion in Science, Technology,
-  Engineering, and Math content', 'Youth unemployment and underemployment']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: wxsyo5dz
+category_metrics:
+  - College matriculation rates
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+  - Youth unemployment and underemployment
+category_other:
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/data-360/
 order: 0
-project_image: /assets/images/learn/data-360.jpg
-is_winner: true
-is_finalist: true
-project_proposal_impact: []
+project_image: data-360.jpg
 
 ---

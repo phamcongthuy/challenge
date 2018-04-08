@@ -13,7 +13,7 @@ organization_website: 'https://www.wearethemighty.com'
 organization_twitter: '@wearethemighty'
 organization_facebook: '@wearethemighty'
 organization_instagram: '@wearethemighty'
-link_donate: N/A
+link_donate: ''
 link_volunteer: 'http://losangelesveterans.org'
 organization_activity: >-
   The Los Angeles Veterans Orientation is a fun and friendly way to welcome
@@ -92,16 +92,16 @@ project_five_years: >-
   Southern Califonia to replicate in support of their veterans. In 5 years, we
   plan for LAVO to be the national model for veterans outreach and that Los
   Angeles will be the most veteran friendly city in the nation.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Government
-  responsiveness to residents’ needs', 'Total number of local social media
-  friends and connections Angelenos have']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: q3brqkqg
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Government responsiveness to residents’ needs
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/we-are-the-mighty/
 order: 26
-project_image: /assets/images/connect/we-are-the-mighty.jpg
-project_proposal_impact: []
+project_image: we-are-the-mighty.jpg
 
 ---

@@ -75,15 +75,16 @@ project_five_years: >-
   than concrete. Where people have access to healthy soil, water, air and food. 
    
    In five years we envision local composting hubs in all of LA’s neighborhoods, on our way to a cohesive composting system working with municipalities to promote individual, community and regional composting sites. We see an LA with more green spaces and need for compost to be applied to landscapes for homeowners and public space, working to sequester carbon. We'll work to increase access for those who cannot compost at home but want to contribute and support their local agriculture system. With increased access to food scraps drop locations -farmers markets, parks and libraries with garden programs. These three tiers- individual, community, regional- can collectively impact waste diversion while creating behavioral changes in our disconnected disposable economy. The tiers will work to support each other- with advanced workshops that incorporate outreach programs for learning at regional sites, and the education from the hubs translating to individuals confidently managing their own compost at home, connecting to the soil and each other.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Rates of
-  volunteerism', 'Residential segregation']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: rlpd9syh
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Rates of volunteerism
+  - Residential segregation
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/la-compost/
 order: 12
-project_image: /assets/images/connect/la-compost.jpg
-project_proposal_impact: []
+project_image: la-compost.jpg
 
 ---

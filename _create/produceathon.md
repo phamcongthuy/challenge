@@ -140,17 +140,18 @@ project_five_years: >-
   and online tools to facilitate and host ProduceAthons in their own cities.
   This, coupled with an online component for online participants to take part in
   local challenges, will extend our reach and impact.
-category_metrics: >-
-  ['Number of high-growth startups', 'Patents per capita', 'Venture capital
-  investment']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT', 'LA is the healthiest place to LIVE']
-unique_identifier: n5ywjha4
+category_metrics:
+  - Number of high-growth startups
+  - Patents per capita
+  - Venture capital investment
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/produceathon/
 order: 12
-project_image: /assets/images/create/produceathon.jpg
-project_proposal_impact: []
+project_image: produceathon.jpg
 
 ---

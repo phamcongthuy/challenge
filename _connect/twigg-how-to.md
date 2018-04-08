@@ -3,8 +3,8 @@ application_id: '2272860841'
 title: '51%: Our Reality'
 project_description: >-
   51%: Our Reality is a traveling virtual reality exhibit—free and open to the
-  publicâ€”based on the real perspectives, experiences and trials of women in
-  LA, who make up 51% of our city’s population.
+  public—based on the real perspectives, experiences and trials of women in LA,
+  who make up 51% of our city’s population.
 organization_name: TWIGG How-To
 organization_description: For-profit organization
 project_video: ''
@@ -59,7 +59,7 @@ project_proposal_best_place: >-
    
    
    
-   2) The National Endowment for the Arts has cited location as a major barrier to arts attendance. (When Going Gets Tough: Barriers and Motivations Affecting Arts Attendance) The 51% exhibit will capitalize on VR’s transportability, hosting traveling exhibits throughout the LA metropolitan area in order to provide more communities with access to cultural eventsâ€”particularly focusing on transportation-deserts and low-mobility populations such as retirement homes. The exhibit will also be free to all and a shortened experience will be available online.
+   2) The National Endowment for the Arts has cited location as a major barrier to arts attendance. (When Going Gets Tough: Barriers and Motivations Affecting Arts Attendance) The 51% exhibit will capitalize on VR’s transportability, hosting traveling exhibits throughout the LA metropolitan area in order to provide more communities with access to cultural events—particularly focusing on transportation-deserts and low-mobility populations such as retirement homes. The exhibit will also be free to all and a shortened experience will be available online.
    
    
    
@@ -96,18 +96,16 @@ project_five_years: >-
    
    
    We’d love to revisit this project in 5 years to explore what shifts have occurred that would change our city’s gender narratives.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Attendance at
-  cultural events', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: ub065dm0
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Attendance at cultural events
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/twigg-how-to/
 order: 0
-project_image: /assets/images/connect/twigg-how-to.jpg
-is_winner: true
-is_finalist: true
-project_proposal_impact: []
+project_image: twigg-how-to.jpg
 
 ---

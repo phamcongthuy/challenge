@@ -103,15 +103,16 @@ project_five_years: >-
    
    
    By moving local spending into the hands of smaller business, we hope that can make an impact on local wealth inequality.
-category_metrics: >-
-  ['Employment in the creative industries', 'Jobs per capita', 'Minority- and
-  women-owned firms']
-category_other: '[''LA is the best place to CONNECT'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: jnsade4s
+category_metrics:
+  - Employment in the creative industries
+  - Jobs per capita
+  - Minority- and women-owned firms
+category_other:
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/the-natch-inc/
 order: 6
-project_image: /assets/images/create/the-natch-inc.jpg
-project_proposal_impact: []
+project_image: the-natch-inc.jpg
 
 ---

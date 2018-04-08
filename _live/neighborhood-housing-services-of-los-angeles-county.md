@@ -108,15 +108,16 @@ project_five_years: >-
    
    
    The vision driving our Initiative involves addressing a broad spectrum of issues. At the center of this focus is our commitment to promote strategies that create systemic, trans-formative change in under-served neighborhoods. This initiative will serve as a catalyst for broader goals to help low-to-moderate income families achieve economic prosperity, secure affordable housing, broaden access to resources, and incorporate green living.
-category_metrics: >-
-  ['Access to healthy food', 'Housing affordability', 'Number of households
-  below the self-sufficiency standard']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: 1kqt2cx
+category_metrics:
+  - Access to healthy food
+  - Housing affordability
+  - Number of households below the self-sufficiency standard
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/neighborhood-housing-services-of-los-angeles-county/
 order: 10
-project_image: /assets/images/live/neighborhood-housing-services-of-los-angeles-county.jpg
-project_proposal_impact: []
+project_image: neighborhood-housing-services-of-los-angeles-county.jpg
 
 ---

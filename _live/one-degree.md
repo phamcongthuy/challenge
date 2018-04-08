@@ -85,19 +85,19 @@ project_proposal_best_place: >-
    
    
    
-   âˆš Number of households below the self-sufficiency standard 
+   √ Number of households below the self-sufficiency standard 
    
    One Degree gives families the tools to find social services that will help them close the gap to self sufficiency. For many families, these crucial services are the safety net they need in order to build a path out of poverty. 
    
    
    
-   âˆš Resilient communities 
+   √ Resilient communities 
    
    One Degree’s platform is always available, no matter the neighborhood and on whatever device they might rely upon. The One Degree platform is intended to serve a broad spectrum of people who are seeking social services or help — even those who may be at-risk of falling into poverty for the first time in their lives. 
    
    
    
-   âˆš Residents receiving coordinated healthcare services 
+   √ Residents receiving coordinated healthcare services 
    
    One Degree’s tools give residents and clinicians tools to address social determinants of health such as homelessness, food insecurity, child care resources, job training, and more.
 project_proposal_engage: >-
@@ -158,15 +158,15 @@ project_five_years: >-
   impact on over a million people in L.A. County. We also believe Los Angeles
   County can serve as a model for expanding One Degree across the country and
   impact millions of low-income people.
-category_metrics: >-
-  ['Number of households below the self-sufficiency standard', 'Resilient
-  communities', 'Residents receiving coordinated healthcare services']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: x8949tgu
+category_metrics:
+  - Number of households below the self-sufficiency standard
+  - Resilient communities
+  - Residents receiving coordinated healthcare services
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/one-degree/
 order: 13
-project_image: /assets/images/live/one-degree.jpg
-project_proposal_impact: []
+project_image: one-degree.jpg
 
 ---

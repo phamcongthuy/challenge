@@ -142,19 +142,18 @@ project_five_years: >-
   the numbers of ready college students interested in being part of the
   entertainment industry and becoming the next generation of storytellers with
   diverse voices.
-category_metrics: >-
-  ['Employment in the creative industries', 'Recruiting and retention rates for
-  local higher education institutions', 'Percentage of graduates from local
-  higher education institutions that remain in LA County 5 years after
-  graduating']
-category_other: '[''LA is the best place to LEARN'', ''LA is the best place to CONNECT'']'
-unique_identifier: gkwx2g7l
+category_metrics:
+  - Employment in the creative industries
+  - Recruiting and retention rates for local higher education institutions
+  - >-
+    Percentage of graduates from local higher education institutions that remain
+    in LA County 5 years after graduating
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CONNECT
 category: create
 uri: /create/national-association-of-latino-independant-producers-nalip/
 order: 4
-project_image: >-
-  /assets/images/create/national-association-of-latino-independant-producers-nalip.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: national-association-of-latino-independant-producers-nalip.jpg
 
 ---

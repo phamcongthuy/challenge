@@ -94,13 +94,13 @@ project_proposal_best_place: >-
    
    With LA2050’s support, PFP’s COMPAS will:
    
-   â€¢ Activate 300 hundred parents per school at existing CSPs to become parent volunteers and vocal supporters of CSPs and shared-use
+   * Activate 300 hundred parents per school at existing CSPs to become parent volunteers and vocal supporters of CSPs and shared-use
    
-   â€¢ Activate 5,000 neighbors per school at existing CSP sites to build awareness of CSPs and shared-use.
+   * Activate 5,000 neighbors per school at existing CSP sites to build awareness of CSPs and shared-use.
    
-   â€¢ Activate parents to recruit and engage their community members through COMPAS, with a goal to register supporters at 20 schools (total potentially activated: 100,000)
+   * Activate parents to recruit and engage their community members through COMPAS, with a goal to register supporters at 20 schools (total potentially activated: 100,000)
    
-   â€¢ Advocate for LAUSD to authorize low-cost or no-cost shared-use options so that communities across LA can access school playgrounds during non-school hours.
+   * Advocate for LAUSD to authorize low-cost or no-cost shared-use options so that communities across LA can access school playgrounds during non-school hours.
    
    
    
@@ -120,19 +120,19 @@ project_proposal_engage: |-
    
    COMPAS’s interactive online ‘parents’ portal’ is easily accessed on desktop and mobile devices. Portal visitors can: 
    
-   â€¢ Register as COMPAS members & movement supporters
+   * Register as COMPAS members & movement supporters
    
-   â€¢ Register to become CSP parent volunteers in ongoing activities, special events and shared use advocacy 
+   * Register to become CSP parent volunteers in ongoing activities, special events and shared use advocacy 
    
-   â€¢ Recruit other advocates
+   * Recruit other advocates
    
-   â€¢ Register for public events to support shared use (e.g. school board, city & neighborhood council meetings)
+   * Register for public events to support shared use (e.g. school board, city & neighborhood council meetings)
    
-   â€¢ Publicize community events
+   * Publicize community events
    
-   â€¢ Share challenges, best practices
+   * Share challenges, best practices
    
-   â€¢ Connect to PFP/COMPAS social media to post photos/videos, stories & goals for neighborhood.
+   * Connect to PFP/COMPAS social media to post photos/videos, stories & goals for neighborhood.
    
    
    
@@ -171,16 +171,15 @@ project_five_years: >-
    
    
    Community Health and Development — for CSPs to serve as vibrant neighborhood hubs, spaces that neighbors consider safe, welcoming, interesting and their own; for populations surrounding CSPs to experience overall physical and emotional wellness, neighborhood connectedness and park equity through regular visits to CSPs and participation and leadership in CSP activities.
-category_metrics: >-
-  ['Access to open space and park facilities', 'Number (and quality) of informal
-  spaces for play', 'Number of residents with easy access to a “vibrant” park']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: e7fr8cfy
+category_metrics:
+  - Access to open space and park facilities
+  - Number (and quality) of informal spaces for play
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to CONNECT
 category: play
 uri: /play/people-for-parks/
 order: 3
-project_image: /assets/images/play/people-for-parks.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: people-for-parks.jpg
 
 ---

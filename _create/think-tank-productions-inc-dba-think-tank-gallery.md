@@ -1,7 +1,7 @@
 ---
 application_id: '3096471160'
 title: >-
-  Create Above the Radar Program —Â Think Tank Gallery Spotlight on Creative
+  Create Above the Radar Program – Think Tank Gallery Spotlight on Creative
   Opportunity
 project_description: |-
   Your art is better when you don't have to hide it. 
@@ -146,16 +146,16 @@ project_five_years: >-
    
    
    LEIA will continue to be a central organizing entity in this new & growing segment of art & cultural production, working toward helping members successfully create permitted events & experiences.The platform can also connect permitting professionals (including our own) to the creators who need their services as their projects grow larger & larger.
-category_metrics: >-
-  ['Manufacturing activity', 'Arts establishments per capita', 'Measures of
-  cultural and global economic influence (“soft power”)']
-category_other: '[''LA is the best place to PLAY'', ''LA is the best place to CONNECT'']'
-unique_identifier: 1qpc7qt1
+category_metrics:
+  - Manufacturing activity
+  - Arts establishments per capita
+  - Measures of cultural and global economic influence (“soft power”)
+category_other:
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
 category: create
 uri: /create/think-tank-productions-inc-dba-think-tank-gallery/
 order: 3
-project_image: /assets/images/create/think-tank-productions-inc-dba-think-tank-gallery.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: think-tank-productions-inc-dba-think-tank-gallery.jpg
 
 ---

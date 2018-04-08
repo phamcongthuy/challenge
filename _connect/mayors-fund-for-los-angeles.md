@@ -11,9 +11,15 @@ organization_name: Mayor’s Fund for Los Angeles
 organization_description: Non-profit organization
 project_video: ''
 link_newsletter: lamayor.org/activateLA
-organization_website: 'https://mayorsfundla.org/; https://www.lamayor.org/'
-organization_twitter: '@MayorsFundLA; @MayorOfLA'
-organization_facebook: 'https://www.facebook.com/mayorsfundla/; https://www.facebook.com/MayorOfLA/'
+organization_website:
+  - 'https://mayorsfundla.org/'
+  - 'https://www.lamayor.org/'
+organization_twitter:
+  - '@MayorsFundLA'
+  - '@MayorOfLA'
+organization_facebook:
+  - 'https://www.facebook.com/mayorsfundla/'
+  - 'https://www.facebook.com/MayorOfLA/'
 organization_instagram: 'https://www.instagram.com/mayorofla/'
 link_donate: 'https://mayorsfundla.org/donate-now/'
 link_volunteer: lamayor.org/activateLA
@@ -95,19 +101,19 @@ project_measure: >-
    
    The key performance indicators we will use to evaluate our progress and track our success, include: 
    
-   â€¢ Total number of volunteering opportunities available per week
+   * Total number of volunteering opportunities available per week
    
-   â€¢ Total number of open volunteering slots per week
+   * Total number of open volunteering slots per week
    
-   â€¢ % of open volunteering slots filled
+   * % of open volunteering slots filled
    
-   â€¢ Total volunteers per month
+   * Total volunteers per month
    
-   â€¢ Total unique volunteers per month
+   * Total unique volunteers per month
    
-   â€¢ Retention rate
+   * Retention rate
    
-   â€¢ Virality - how many volunteers each volunteer invites to join them
+   * Virality - how many volunteers each volunteer invites to join them
    
    
    
@@ -124,14 +130,13 @@ project_five_years: >-
    
    
    As we grow the ActivateLA platform, we can establish Los Angeles as the model of how government, nonprofits, foundations, and companies can partner to productively address our local issues together using technology and collaboration.
-category_metrics: '[''Rates of volunteerism'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: lke9ks0y
+category_metrics:
+  - Rates of volunteerism
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/mayors-fund-for-los-angeles/
 order: 1
-project_image: /assets/images/connect/mayors-fund-for-los-angeles.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: mayors-fund-for-los-angeles.jpg
 
 ---

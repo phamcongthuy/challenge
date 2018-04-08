@@ -99,18 +99,18 @@ project_five_years: >-
   employed Angelenos. All people being productive, caring, responsible for
   greater futures will be the outcome because BGCV focal point connects all
   pillars of the LA 2050 initiative.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Government
-  responsiveness to residents’ needs', 'Rates of volunteerism']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to LIVE']
-unique_identifier: 8j39dsei
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/boys-girls-clubs-of-venice-bgcv/
 order: 2
-project_image: /assets/images/connect/boys-girls-clubs-of-venice-bgcv.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: boys-girls-clubs-of-venice-bgcv.jpg
 
 ---

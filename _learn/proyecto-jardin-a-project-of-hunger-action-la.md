@@ -115,15 +115,16 @@ project_measure: |-
 project_five_years: >-
   In 5 years, Proyecto Jardin will operate school gardens and compost in 10
   public schools and provide ongoing technical assistance and support.
-category_metrics: >-
-  ['District-wide graduation rates', 'Proficiency in English and Language Arts
-  and Math', 'Youth unemployment and underemployment']
-category_other: '[''LA is the best place to CREATE'', ''LA is the best place to CONNECT'']'
-unique_identifier: sxxgs23r
+category_metrics:
+  - District-wide graduation rates
+  - Proficiency in English and Language Arts and Math
+  - Youth unemployment and underemployment
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to CONNECT
 category: learn
 uri: /learn/proyecto-jardin-a-project-of-hunger-action-la/
 order: 6
-project_image: /assets/images/learn/proyecto-jardin-a-project-of-hunger-action-la.jpg
-project_proposal_impact: []
+project_image: proyecto-jardin-a-project-of-hunger-action-la.jpg
 
 ---

@@ -8,11 +8,11 @@ project_description: >-
 organization_name: 'Connect to Compete, Inc (EveryoneOn)'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=-aFvxFfQick'
-link_newsletter: info@everyoneon.org
+link_newsletter: 'mailto:info@everyoneon.org'
 organization_website: www.everyoneon.org
 organization_twitter: '@Everyone_On'
 organization_facebook: 'https://www.facebook.com/EveryoneOn/'
-organization_instagram: N/A
+organization_instagram: ''
 link_donate: 'https://everyoneon.org/donate/'
 link_volunteer: ''
 organization_activity: >-
@@ -82,15 +82,15 @@ project_five_years: >-
   existing processes within anchor organizations and community stakeholders that
   are already doing work with low-income populations. By empowering the
   organizations to take up this work, we will no longer be needed.
-category_metrics: >-
-  ['Access to free wifi', 'Total number of local social media friends and
-  connections Angelenos have']
-category_other: '[''LA is the best place to LEARN'', ''LA is the best place to CREATE'']'
-unique_identifier: t6kknvfe
+category_metrics:
+  - Access to free wifi
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/connect-to-compete-inc-everyoneon/
 order: 14
-project_image: /assets/images/connect/connect-to-compete-inc-everyoneon.jpg
-project_proposal_impact: []
+project_image: connect-to-compete-inc-everyoneon.jpg
 
 ---

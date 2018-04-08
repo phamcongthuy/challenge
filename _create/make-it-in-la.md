@@ -5,20 +5,30 @@ title: >-
   LA
 project_description: >-
   We’re expanding Maker Walk around the city—and partnering with Artisanal LA &
-  LA Food Festâ€”to raise awareness for local brands and manufacturers, and
+  LA Food Fest—to raise awareness for local brands and manufacturers, and
   mobilize the creative community to MAKE IT IN LA!
 organization_name: MAKE IT IN LA
 organization_description: Non-profit organization
-project_video: 'http://makeitinla.org/makerwalkvideo'
-organization_website: 'http://makeitinla.org, http://lafoodfest.com, http://artisanalla.com'
-organization_twitter: '@wemakeitinla @LAFoodFest @ArtisanalLA'
-organization_facebook: >-
-  http://makeitinla.org/makeitinla, http://facebook.com/LAFoodfest,
-  http://facebook.com/ArtisanalLA
-organization_instagram: '@wemakeitinla @lafoodfest @artisanalla'
+project_video: 'https://www.youtube.com/watch?v=x2Ty5rjHVyE'
+organization_website:
+  - 'http://makeitinla.org'
+  - 'http://lafoodfest.com'
+  - 'http://artisanalla.com'
+organization_twitter:
+  - '@wemakeitinla'
+  - '@LAFoodFest'
+  - '@ArtisanalLA'
+organization_facebook:
+  - 'https://facebook.com/makeitinla'
+  - 'https://facebook.com/LAFoodfest'
+  - 'https://facebook.com/ArtisanalLA'
+organization_instagram:
+  - '@wemakeitinla'
+  - '@lafoodfest'
+  - '@artisanalla'
 link_newsletter: 'http://makeitinla.org/activateforla'
-link_volunteer: N/A (we curate our volunteers at this time)
-link_donate: N/A (we are supported by sponsors and grants at the timebeing)
+link_volunteer: ''
+link_donate: ''
 organization_activity: >-
   MAKE IT IN LA is a community of diverse creators who turn their passions into
   products in L.A.; our content, connections and programming help entrepreneurs
@@ -57,7 +67,7 @@ project_proposal_mobilize:
 project_proposal_best_place: >-
   Los Angeles is the largest center for manufacturing in the country, with half
   a million jobs—that’s nearly four times as many jobs as film and
-  televisionâ€”yet most Angelenos don’t fully appreciate its importance to our
+  television—yet most Angelenos don’t fully appreciate its importance to our
   economy. More important than jobs, manufacturing is a critical piece of
   innovation infrastructure that, if activated, could better unleash Los
   Angeles’ creative potential. 
@@ -110,17 +120,17 @@ project_five_years: >-
   the region and beyond to celebrate manufacturing and locally made. We hope it
   becomes successful enough that we can replicate this in other cities to help
   them celebrate their ecosystems
-category_metrics: >-
-  ['Employment in the creative industries', 'Manufacturing activity', 'Minority-
-  and women-owned firms']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT']
-unique_identifier: m1zx05xu
+category_metrics:
+  - Employment in the creative industries
+  - Manufacturing activity
+  - Minority- and women-owned firms
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
 category: create
 uri: /create/make-it-in-la/
 order: 11
-project_image: /assets/images/create/make-it-in-la.jpg
-project_proposal_impact: []
+project_image: make-it-in-la.jpg
 
 ---

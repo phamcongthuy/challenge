@@ -134,17 +134,18 @@ project_five_years: >-
    
    
    This is not a moment, it’s a movement. It leads the way for generations of women and girls who will be civically minded and politically active, and this movement includes all of us. We are ready to activate LA!
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Voting rates']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to LIVE']
-unique_identifier: lk70ihv4
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Voting rates
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/voterunlead/
 order: 49
-project_image: /assets/images/connect/voterunlead.jpg
-project_proposal_impact: []
+project_image: voterunlead.jpg
 
 ---

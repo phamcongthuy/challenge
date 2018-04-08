@@ -97,16 +97,15 @@ project_five_years: >-
   Walk With Sally hopes to be actively engaging and supporting the entire cancer
   community within Los Angeles and have the blueprint to open regional offices
   in San Diego and/or San Francisco
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Rates of
-  volunteerism', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: ebxvxu3k
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Rates of volunteerism
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/walk-with-sally/
 order: 46
-project_image: /assets/images/connect/walk-with-sally.jpg
-project_proposal_impact: []
+project_image: walk-with-sally.jpg
 
 ---

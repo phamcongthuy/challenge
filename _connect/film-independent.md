@@ -102,15 +102,15 @@ project_five_years: >-
   provide a forum for talented, diverse filmmakers with unique voices to
   celebrate all that LA offers and encourage their peers to create stories that
   draw from their own diverse surroundings.
-category_metrics: >-
-  ['Attendance at cultural events', 'Residential segregation', 'Total number of
-  local social media friends and connections Angelenos have']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: qmh0y2v4
+category_metrics:
+  - Attendance at cultural events
+  - Residential segregation
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/film-independent/
 order: 27
-project_image: /assets/images/connect/film-independent.jpg
-project_proposal_impact: []
+project_image: film-independent.jpg
 
 ---

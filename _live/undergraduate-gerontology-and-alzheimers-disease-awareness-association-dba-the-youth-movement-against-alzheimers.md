@@ -11,7 +11,9 @@ organization_name: >-
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/5fwflSIChBM'
 link_newsletter: 'http://bit.ly/ymaaNewsletter'
-organization_website: 'http://www.theyouthmovement.org/#/; https://youthcaregiving.org/'
+organization_website:
+  - 'http://www.theyouthmovement.org/'
+  - 'https://youthcaregiving.org/'
 organization_twitter: '@YouthAgainstAlz'
 organization_instagram: theyouthmovement_org
 organization_facebook: '@theyouthmovementagainstalzheimers'
@@ -98,17 +100,17 @@ project_five_years: >-
    The success of our activation is also directly tied to the success of our organization as a whole. The extra revenue which we drive from our social enterprise can go on to fund our other initiatives. In just the past three years, our almost all volunteer team has designed the first ever study to assess the effect of dementia care on high schoolers (IRB Approved), drafted bipartisan legislation to create a CA Care Corps (AB 2101 - in committee), become the national leaders in high school and college Alzheimer’s advocacy, and created our own research scholarship program. Imagine what we can do with even more developed infrastructure. 
    
    YMAA is uniquely aligned to bring this expansion to care access because no other for-profit care company can ever match our cost, and no other traditional Alzheimer’s nonprofit has our ability to reach the younger demographic. We’ve spent the time developing a grant funded model, we’ve learned lessons from our social enterprise pilot, and now we are ready to change the world of Alzheimer’s care. With your investment, and our team’s passion, together, we can create a future worth remembering.
-category_metrics: >-
-  ['Healthcare access', 'Rates of mental illness', 'Residents receiving
-  coordinated healthcare services']
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: lt1dzf35
+category_metrics:
+  - Healthcare access
+  - Rates of mental illness
+  - Residents receiving coordinated healthcare services
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: >-
   /live/undergraduate-gerontology-and-alzheimers-disease-awareness-association-dba-the-youth-movement-against-alzheimers/
 order: 41
 project_image: >-
-  /assets/images/live/undergraduate-gerontology-and-alzheimers-disease-awareness-association-dba-the-youth-movement-against-alzheimers.jpg
-project_proposal_impact: []
+  undergraduate-gerontology-and-alzheimers-disease-awareness-association-dba-the-youth-movement-against-alzheimers.jpg
 
 ---

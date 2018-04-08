@@ -123,13 +123,16 @@ project_five_years: >-
    - Pass community-driven climate policy at the state level
    
    -Inspire climate justice and environmental health organizations to develop creative and relevant campaigns to engage impacted communities
-category_metrics: '[''Exposure to air toxins'', ''Resilient communities'', ''Walk/bike/transit score'']'
-category_other: '[''LA is the best place to PLAY'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: vp8jppvt
+category_metrics:
+  - Exposure to air toxins
+  - Resilient communities
+  - Walk/bike/transit score
+category_other:
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/black-women-for-wellness/
 order: 27
-project_image: /assets/images/live/black-women-for-wellness.jpg
-project_proposal_impact: []
+project_image: black-women-for-wellness.jpg
 
 ---

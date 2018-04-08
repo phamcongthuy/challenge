@@ -65,13 +65,14 @@ project_five_years: >-
   across Los Angeles and inspire students to know what kind of services their
   local community health center provides. We hope to advance health equity and
   improve health outcomes for young people across Los Angele County.
-category_metrics: '[''Healthcare access'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the best place to PLAY'']'
-unique_identifier: zv6ffhw2
+category_metrics:
+  - Healthcare access
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to PLAY
 category: live
 uri: /live/peer-health-exchange/
 order: 5
-project_image: /assets/images/live/peer-health-exchange.jpg
-project_proposal_impact: []
+project_image: peer-health-exchange.jpg
 
 ---

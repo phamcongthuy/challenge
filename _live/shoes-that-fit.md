@@ -50,17 +50,17 @@ project_proposal_best_place: >-
   The children in our community need to know that they are important and we
   believe in them. For too long in LA, we have ignored these children’s needs
   and neglected to send this message. Funding from LA2050 will provide a direct
-  investment in the children of Los Angeles—the future of LAâ€”and make the city
-  a better place to LIVE by dramatically improve the lives of these children,
-  many of whom have never owned a new pair of shoes. 
+  investment in the children of Los Angeles—the future of LA—and make the city a
+  better place to LIVE by dramatically improve the lives of these children, many
+  of whom have never owned a new pair of shoes. 
    
    
    
-   Shoes are so much more than shoes. The gift of new shoes can be a transformative experience for young children, many of whom have never received a new box of anything before, certainly not expensive shoes. With the support of their community, children grow to be better citizensâ€”better Angelinos. This sentiment is best captured in the following thank you note: “Thank you so much for the shoes you are giving me. This is amazing what you are doing... You are going to make a lot of kids happy and you are showing me what kind of person I want to be when I grow up.” 
+   Shoes are so much more than shoes. The gift of new shoes can be a transformative experience for young children, many of whom have never received a new box of anything before, certainly not expensive shoes. With the support of their community, children grow to be better citizens—better Angelinos. This sentiment is best captured in the following thank you note: “Thank you so much for the shoes you are giving me. This is amazing what you are doing... You are going to make a lot of kids happy and you are showing me what kind of person I want to be when I grow up.” 
    
    
    
-   Our program provides a meaningful, concrete way for individuals, businesses, and community organizations to make a real difference in what can often seem an overwhelming problemâ€”child poverty. We believe that most people want to make a difference but feel overwhelmed by the sheer scale of the problems we face. Shoes That Fit offers a solution by connecting people to schools in their own backyards; we operate wherever we have people who want to make a difference. Year after year, our volunteers return to help schools in their own neighborhoods, often increasing their support and buying more shoes for more kids. Helping children empowers our volunteers, provides a sense of pride in their community, and empowers them to make a real impact on the daily life of children in need. Ultimately, it creates a more engaged community, and a better LA. 
+   Our program provides a meaningful, concrete way for individuals, businesses, and community organizations to make a real difference in what can often seem an overwhelming problem—child poverty. We believe that most people want to make a difference but feel overwhelmed by the sheer scale of the problems we face. Shoes That Fit offers a solution by connecting people to schools in their own backyards; we operate wherever we have people who want to make a difference. Year after year, our volunteers return to help schools in their own neighborhoods, often increasing their support and buying more shoes for more kids. Helping children empowers our volunteers, provides a sense of pride in their community, and empowers them to make a real impact on the daily life of children in need. Ultimately, it creates a more engaged community, and a better LA. 
    
    
    
@@ -74,7 +74,7 @@ project_proposal_engage: >-
    
    
    
-   We will engage Angelinos and provide the opportunity for groups of any kind—churches, businesses, book clubs, families and friendsâ€”to start their own Shoes That Fit chapters. By starting a local chapter, groups can work with Shoes That Fit staff, who will liaise with local schools in the community so those groups can get shoes to the kids that need them most. Angelinos want to helpâ€”we know there is a problem with child povertyâ€”but often don’t know where to begin. We offer that opportunity for those who want to make a difference.
+   We will engage Angelinos and provide the opportunity for groups of any kind—churches, businesses, book clubs, families and friends—to start their own Shoes That Fit chapters. By starting a local chapter, groups can work with Shoes That Fit staff, who will liaise with local schools in the community so those groups can get shoes to the kids that need them most. Angelinos want to help—we know there is a problem with child poverty—but often don’t know where to begin. We offer that opportunity for those who want to make a difference.
    
    
    
@@ -85,22 +85,21 @@ project_measure: >-
    
    We track the number of new kids we reach, the impact on their wellbeing, and our ability to activate sustained groups within the community to work on behalf of children well into the future. We survey the teachers and volunteers who identify the children, and observe how transformative a new pair of shoes can be.
    
-   The results speak to the power of investing in our youth. When kids get new shoes, teachers report improved attendance, increased participation in the classroom and in PE; but above all, over 84% of the teachers report increased self-esteem in the kids who receive new shoes—sometimes the only new thing they have ever received. For kids, shoes are so much more than shoesâ€”they give hope, self-confidence, and dignity. This is reflected first hand in the thank you notes we receive year after year, one student writing: “Thank you so much for donating shoes to me. I feel really goodâ€¦ because the other pair I have hurts when I walk. Your gift to me will help me play games better and do better in school because I won’t go into school feeling bad about how dirty my shoes are.”
+   The results speak to the power of investing in our youth. When kids get new shoes, teachers report improved attendance, increased participation in the classroom and in PE; but above all, over 84% of the teachers report increased self-esteem in the kids who receive new shoes—sometimes the only new thing they have ever received. For kids, shoes are so much more than shoes—they give hope, self-confidence, and dignity. This is reflected first hand in the thank you notes we receive year after year, one student writing: “Thank you so much for donating shoes to me. I feel really good… because the other pair I have hurts when I walk. Your gift to me will help me play games better and do better in school because I won’t go into school feeling bad about how dirty my shoes are.”
    
    In 2017, we provided over 21,000 pairs of shoes and other necessities to 15,000 children at 420 schools in Los Angeles County alone. With LA 2050 funding we can immediately serve another 10,000 kids in LA and build an infrastructure for years to come.
 project_five_years: >-
   Last year we were able to provide over 21,500 shoes, socks and other
   necessities for 15,000 children in Los Angeles County. Last year, we adopted a
   strategic plan to double our yearly impact over the next five years.
-category_metrics: >-
-  ['Number of households below the self-sufficiency standard', 'Prevalence of
-  adverse childhood experiences']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: jykyshjd
+category_metrics:
+  - Number of households below the self-sufficiency standard
+  - Prevalence of adverse childhood experiences
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/shoes-that-fit/
 order: 14
-project_image: /assets/images/live/shoes-that-fit.jpg
-project_proposal_impact: []
+project_image: shoes-that-fit.jpg
 
 ---

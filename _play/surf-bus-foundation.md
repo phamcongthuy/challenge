@@ -11,12 +11,17 @@ organization_name: Surf Bus Foundation
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/262573193'
 organization_website: www.surfbusfoundation.org
-organization_twitter: '@altaseaorg, @lamitopsail, @marionc82937170'
-organization_facebook: Surf Bus Foundation
-organization_instagram: '@surfbusfoundation, @altasea, @tallshipschool, @surf_academy,'
-link_newsletter: >-
-  Please email: info@surfbusfoundation.org, use subject heading: ActivateforLA
-  so we know what brought you to us!
+organization_twitter:
+  - '@altaseaorg'
+  - '@lamitopsail'
+  - '@marionc82937170'
+organization_facebook: https://www.facebook.com/The-Surf-Bus-Foundation-170696492986174/
+organization_instagram:
+  - '@surfbusfoundation'
+  - '@altasea'
+  - '@tallshipschool'
+  - '@surf_academy,'
+link_newsletter: 'mailto:info@surfbusfoundation.org?subject=ActivateforLA'
 link_donate: www.surfbusfoundation.org/donate
 link_volunteer: www.surfbusfoundation.org/volunteer
 organization_activity: >-
@@ -74,7 +79,7 @@ project_proposal_best_place: >-
    
    
    
-   1. Number and quality of informal spaces for play: Where do water lovers hang out between sessions, how come, what is happening there? Beach parking lots, pool decks, port hangarsâ€¦
+   1. Number and quality of informal spaces for play: Where do water lovers hang out between sessions, how come, what is happening there? Beach parking lots, pool decks, port hangars…
    
    2. Number of parks with intergenerational play opportunities: pools and beaches provide open and creative play opportunities for all generations. Our program integrates entire families into various levels of "play" and we have a plan to encourage and measure family involvement.
    
@@ -186,16 +191,16 @@ project_five_years: >-
    
    
    Surf Bus, AltaSea, LAMI, and Cabrillo Aquarium will be household names, as recognizable to Angelenos as "starbucks" or "the dodgers."
-category_metrics: >-
-  ['Number (and quality) of informal spaces for play', 'Number of parks with
-  intergenerational play opportunities', 'Number of residents with easy access
-  to a “vibrant” park']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: v9l2u5gb
+category_metrics:
+  - Number (and quality) of informal spaces for play
+  - Number of parks with intergenerational play opportunities
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: play
 uri: /play/surf-bus-foundation/
 order: 5
-project_image: /assets/images/play/surf-bus-foundation.jpg
-project_proposal_impact: []
+project_image: surf-bus-foundation.jpg
 
 ---

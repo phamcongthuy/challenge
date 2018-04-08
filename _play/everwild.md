@@ -7,8 +7,7 @@ project_description: >-
   entire family!
 organization_name: EverWild
 organization_description: Non-profit organization
-project_video: >-
-  https://www.google.com/url?q=https://vimeo.com/262456324&sa=D&ust=1522364995451000&usg=AFQjCNHer67KKu6DjJhZU5gBp4oB6zlZTA
+project_video: https://vimeo.com/262456324
 organization_website: www.everwildla.com
 organization_twitter: '@EverWildFA'
 organization_facebook: 'https://www.facebook.com/EverWildLa/'
@@ -98,17 +97,16 @@ project_five_years: >-
   Conservancy Program (ECP) and Family Adventures at multiple locations
   throughout the city of Los Angeles to offer all residents an opportunity to
   engage with nature in a meaningful and hands-on way: the EverWild Way.
-category_metrics: >-
-  ['Access to open space and park facilities', 'Number (and quality) of informal
-  spaces for play', 'Number of children enrolled in afterschool programs']
-category_other: '[''LA is the best place to CREATE'', ''LA is the best place to CONNECT'']'
-unique_identifier: hfpmxji9
+category_metrics:
+  - Access to open space and park facilities
+  - Number (and quality) of informal spaces for play
+  - Number of children enrolled in afterschool programs
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to CONNECT
 category: play
 uri: /play/everwild/
 order: 0
-project_image: /assets/images/play/everwild.jpg
-is_winner: true
-is_finalist: true
-project_proposal_impact: []
+project_image: everwild.jpg
 
 ---

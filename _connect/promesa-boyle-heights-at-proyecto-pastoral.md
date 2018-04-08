@@ -76,9 +76,9 @@ project_proposal_best_place: >-
    
    o Influencing individual behavior in the community around health and social connectedness through:
    
-   â–ª Resident outreach
+   * Resident outreach
    
-   â–ª Wellness referrals 
+   * Wellness referrals 
    
    o Conducting in-person engagements with community members through presentations and workshops 
    
@@ -118,15 +118,15 @@ project_measure: >-
    
    The success of the promotores (3) community-level work will be defined by the increase in families’ awareness of health and wellness resources, and families’ increased connectedness to those resources. This will be measured by the following indicators:
    
-   â€¢ Number of resident contacts made by promotores
+   * Number of resident contacts made by promotores
    
-   â€¢ Number of referrals made by promotores and percentage of referrals completed
+   * Number of referrals made by promotores and percentage of referrals completed
    
-   â€¢ Number of residents who receive a referral and percentage who follow through on the referral and connect to health services
+   * Number of residents who receive a referral and percentage who follow through on the referral and connect to health services
    
-   â€¢ Number of presentations and workshops given by promotores and number of residents attending 
+   * Number of presentations and workshops given by promotores and number of residents attending 
    
-   â€¢ Percentage of presentation/workshop participants reporting increased knowledge.
+   * Percentage of presentation/workshop participants reporting increased knowledge.
 project_five_years: >-
   Within Boyle Heights, we plan to scale up the number of promotores
   year-on-year in order to expand reach to residents over time. Moreover, we see
@@ -140,13 +140,14 @@ project_five_years: >-
   Angeles is a city in which ALL residents are empowered to work with schools,
   elected officials, and business leaders in order to collectively shape the
   future of the city.
-category_metrics: '[''Adults getting sufficient social & emotional support'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: p9qgwjjr
+category_metrics:
+  - Adults getting sufficient social & emotional support
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/promesa-boyle-heights-at-proyecto-pastoral/
 order: 31
-project_image: /assets/images/connect/promesa-boyle-heights-at-proyecto-pastoral.jpg
-project_proposal_impact: []
+project_image: promesa-boyle-heights-at-proyecto-pastoral.jpg
 
 ---

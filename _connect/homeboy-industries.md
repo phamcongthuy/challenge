@@ -147,13 +147,14 @@ project_five_years: >-
    
    
    We believe now is the time to bolster our efforts to help disenfranchised voters connect to opportunities to make our city the best it can be for all Angelenos.
-category_metrics: '[''Government responsiveness to residents’ needs'', ''Voting rates'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: i5mluuhm
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Voting rates
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/homeboy-industries/
 order: 17
-project_image: /assets/images/connect/homeboy-industries.jpg
-project_proposal_impact: []
+project_image: homeboy-industries.jpg
 
 ---

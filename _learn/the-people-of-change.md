@@ -10,18 +10,15 @@ project_description: >-
 organization_name: The People of Change
 organization_description: Non-profit organization
 project_video: ''
-link_newsletter: N/A
-organization_website: N/A
+link_newsletter: ''
+organization_website: ''
 organization_twitter: '@thepplofchange'
-organization_facebook: 'https://www.facebook.com/thepeopleofchange/?ref=settings'
+organization_facebook: 'https://www.facebook.com/thepeopleofchange/'
 organization_instagram: '@thepplofchange'
-link_donate: 'https://www.facebook.com/thepeopleofchange/?ref=settings'
-link_volunteer: |-
-  https://www.instagram.com/thepplofchange/
-   
-   
-   
-   https://www.facebook.com/thepeopleofchange/?ref=settings
+link_donate: 'https://www.facebook.com/thepeopleofchange/'
+link_volunteer:
+  - 'https://www.instagram.com/thepplofchange/'
+  - 'https://www.facebook.com/thepeopleofchange/'
 organization_activity: >-
   The People of Change programs promote advancement opportunities through
   community based initiatives in the fields of education, income, cultural
@@ -101,17 +98,18 @@ project_five_years: >-
   from inner cities to pursue STEM careers. We hope to eventually expand this
   program from city-wide to county-wide, to serve and inspire more youth to
   chase their dreams in STEM fields.
-category_metrics: >-
-  ['College matriculation rates', 'District-wide graduation rates', 'Students’
-  immersion in Science, Technology, Engineering, and Math content']
-category_other: >-
-  ['LA is the best place to CREATE', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT', 'LA is the healthiest place to LIVE']
-unique_identifier: uw55qhh5
+category_metrics:
+  - College matriculation rates
+  - District-wide graduation rates
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: learn
 uri: /learn/the-people-of-change/
 order: 7
-project_image: /assets/images/learn/the-people-of-change.jpg
-project_proposal_impact: []
+project_image: the-people-of-change.jpg
 
 ---

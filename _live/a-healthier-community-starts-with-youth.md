@@ -15,7 +15,7 @@ organization_website: 'https://hcsyucla.wixsite.com/health'
 organization_twitter: '@hcsy_ucla'
 organization_instagram: '@hcsy.ucla'
 organization_facebook: 'https://www.facebook.com/HCSYatUCLA/'
-link_volunteer: hcsy.ucla@gmail.com
+link_volunteer: 'mailto:hcsy.ucla@gmail.com'
 link_donate: 'https://hcsyucla.wixsite.com/health'
 organization_activity: >-
   The HCSY program provides an opportunity for students to receive mentorship
@@ -104,16 +104,18 @@ project_five_years: >-
   which is to translate the best practices known in the science of public health
   demonstrated by youth and adults in their communities. Promoting a culture of
   healthy practices in even the most under-resourced communities.
-category_metrics: '[''Access to healthy food'', ''Healthcare access'', ''Obesity rates'']'
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to CONNECT']
-unique_identifier: 4clkk56s
+category_metrics:
+  - Access to healthy food
+  - Healthcare access
+  - Obesity rates
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/a-healthier-community-starts-with-youth/
 order: 4
-project_image: /assets/images/live/a-healthier-community-starts-with-youth.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: a-healthier-community-starts-with-youth.jpg
 
 ---

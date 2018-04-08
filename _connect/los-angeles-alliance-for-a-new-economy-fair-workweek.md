@@ -14,7 +14,7 @@ organization_twitter: '@FairWorkweekLA'
 organization_facebook: facebook.com/fairworkweekla
 organization_instagram: '@FairWorkweekLA'
 link_donate: 'http://laane.org/donate/'
-link_volunteer: email fairworkweekla@gmail.com
+link_volunteer: 'mailto:fairworkweekla@gmail.com'
 organization_activity: >-
   Retail Workers R LA will enable LA’s 150,000 retail workers to connect with
   each other across LA’s vast size, learn their rights, register to vote, and
@@ -73,12 +73,12 @@ project_proposal_best_place: >-
 project_proposal_engage: >-
   The Fair Workweek (FWWLA) activation engages non-food retail workers and
   customers. Retail workers look like LA: they are all ages—from teens to
-  seniorsâ€”and all ethnicitiesâ€”primarily Latinx like the city, and a majority
-  are women.. 
+  seniors—and all ethnicities—primarily Latinx like the city, and a majority are
+  women.. 
    
    Strategies and tools employed:
    
-   Engage workers in using social media tools and the FWWLA app to connect with each other across the city. Use Twitter and “we are retail”â€”a private national Facebook group for retail workersâ€”to promote actions, inform workers and build solidarity. 
+   Engage workers in using social media tools and the FWWLA app to connect with each other across the city. Use Twitter and “we are retail”—a private national Facebook group for retail workers—to promote actions, inform workers and build solidarity. 
    
    Register retail workers to vote and use social media to increase turnout.
    
@@ -155,16 +155,15 @@ project_five_years: |-
    LAANE has developed a multi-purpose app as a means of education, communication and connection within campaigns.
    
    Has tested techniques to engage workers and residents to vote in elections
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Total number of local
-  social media friends and connections Angelenos have', 'Voting rates']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: m27p9t28
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Total number of local social media friends and connections Angelenos have
+  - Voting rates
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/los-angeles-alliance-for-a-new-economy-fair-workweek/
 order: 35
-project_image: >-
-  /assets/images/connect/los-angeles-alliance-for-a-new-economy-fair-workweek.jpg
-project_proposal_impact: []
+project_image: los-angeles-alliance-for-a-new-economy-fair-workweek.jpg
 
 ---

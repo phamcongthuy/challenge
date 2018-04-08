@@ -120,16 +120,16 @@ project_five_years: >-
   built and social environment. The activation, and the website that houses the
   stories will function as source of inspiration and connection to the LA
   community despite the vast geography LA.
-category_metrics: >-
-  ['Attendance at public/open streets gatherings', 'Number of public transit
-  riders', 'Total number of local social media friends and connections Angelenos
-  have']
-category_other: '[''LA is the best place to PLAY'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: e5qo1dsq
+category_metrics:
+  - Attendance at public/open streets gatherings
+  - Number of public transit riders
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/ciclavia/
 order: 6
-project_image: /assets/images/connect/ciclavia.jpg
-project_proposal_impact: []
+project_image: ciclavia.jpg
 
 ---

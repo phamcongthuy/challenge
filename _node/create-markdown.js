@@ -150,11 +150,20 @@ function fixDataCharacters(data) {
         .replace('â€˜', '‘')
         .replace('â€™', '’')
         .replace('â€¯', '') // ?
-        .replace('â€”', '—') // ?
+        .replace('â€”', '—')
         .replace('â€‹', '') // ?
         .replace('â€œ', '“') // ?
         .replace('â€', '”') // ?
-      console.log()
+        .replace('â€¢', "*")
+        .replace('â€¦', "…")
+        .replace('âˆš', '√')
+        .replace('â–ª', '*')
+        .replace('â—\x8F', '*')
+        .replace('â„¢', '™')
+        .replace('Â·', '* ')
+        .replace('Â½', '½')
+        .replace('Ãœ', 'Ü')
+        .replace('Ã±', 'ñ')
     }
   }
 

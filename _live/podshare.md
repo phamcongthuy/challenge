@@ -118,13 +118,15 @@ project_five_years: >-
   population each year. The LA2050’s goal of having fewer than 1,000 homeless
   people on the streets by the year 2050 is achievable. PodShare and SPY are
   here to help get it done.
-category_metrics: '[''Rates of homelessness'', ''Rates of mental illness'', ''Resilient communities'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: su63carl
+category_metrics:
+  - Rates of homelessness
+  - Rates of mental illness
+  - Resilient communities
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/podshare/
 order: 29
-project_image: /assets/images/live/podshare.jpg
-project_proposal_impact: []
+project_image: podshare.jpg
 
 ---

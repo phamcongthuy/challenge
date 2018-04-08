@@ -3,11 +3,11 @@ application_id: '7385401104'
 title: |-
   A house for Tommy in my backyard! 
    
-   If only LA knew the opportunity that lies in our backyardsâ€¦
+   If only LA knew the opportunity that lies in our backyards…
 project_description: >-
   There is no room for Tommy, the spaceman, and many more people in LA. But in
   our backyards may lie a great opportunity to make an extra rental income while
-  increasing housing in LA. If only LA knewâ€¦
+  increasing housing in LA. If only LA knew…
 organization_name: Mutuo
 organization_description: For-profit organization
 project_video: 'https://www.youtube.com/embed?v=Xr8XGS427jo'
@@ -103,14 +103,15 @@ project_five_years: >-
   Angeles County will know if they can build an ADU in their lots. We also hope
   that most homeowners eligible to add an ADU will be in the process of building
   one.
-category_metrics: '[''Housing affordability'', ''Rates of homelessness'', ''Resilient communities'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: iqvh09d8
+category_metrics:
+  - Housing affordability
+  - Rates of homelessness
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/mutuo/
 order: 3
-project_image: /assets/images/live/mutuo.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: mutuo.jpg
 
 ---

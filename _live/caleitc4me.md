@@ -6,11 +6,11 @@ project_description: >-
   through a program of research, analysis, public information and education.
 organization_name: CalEITC4Me
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?time_continue=6&v=55FW0fd5Mh4'
+project_video: 'https://www.youtube.com/embed?v=55FW0fd5Mh4'
 link_newsletter: www.caleitc4me.org
 organization_website: www.caleitc4me.org
 organization_twitter: '@CalEITC4Me'
-organization_instagram: N/A
+organization_instagram: ''
 organization_facebook: 'https://www.facebook.com/CalEITC4Me/'
 link_volunteer: 'http://caleitc4me.nationbuilder.com/cash_walk'
 link_donate: 'https://secure.actblue.com/contribute/page/caleitc4me-1'
@@ -147,13 +147,13 @@ project_five_years: >-
   access and eligibility to the EITC and continue to lift working people out of
   poverty. Everyone who works deserves to have the dignity of financial security
   and providing for their families!
-category_metrics: '[''Number of households below the self-sufficiency standard'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: z5mpa2rx
+category_metrics:
+  - Number of households below the self-sufficiency standard
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/caleitc4me/
 order: 16
-project_image: /assets/images/live/caleitc4me.jpg
-project_proposal_impact: []
+project_image: caleitc4me.jpg
 
 ---

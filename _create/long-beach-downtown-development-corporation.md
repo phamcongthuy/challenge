@@ -17,8 +17,8 @@ link_newsletter: >-
   application is potentially awarded. Details as shared will be promoted through
   all of our channels of media distribution including but not limited to local
   media, Facebook, Instagram, and Twitter.
-link_volunteer: Please email adamc@dlba.org
-link_donate: Please email adamc@dlba.org
+link_volunteer: 'mailto:adamc@dlba.org'
+link_donate: 'mailto:adamc@dlba.org'
 organization_activity: >-
   Our mission is to cultivate, preserve and promote a healthy, safe and
   prosperous Downtown.
@@ -185,17 +185,17 @@ project_five_years: >-
   supported through our business expansion, attraction, and retention
   programming. Expanding the creative community to support the development of a
   truly sustainable city that focuses on the people, planet and profit!
-category_metrics: >-
-  ['Minority- and women-owned firms', 'Number of high-growth startups', 'Patents
-  per capita']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CONNECT', 'LA is
-  the healthiest place to LIVE']
-unique_identifier: kavb677l
+category_metrics:
+  - Minority- and women-owned firms
+  - Number of high-growth startups
+  - Patents per capita
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/long-beach-downtown-development-corporation/
 order: 15
-project_image: /assets/images/create/long-beach-downtown-development-corporation.jpg
-project_proposal_impact: []
+project_image: long-beach-downtown-development-corporation.jpg
 
 ---

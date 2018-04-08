@@ -10,7 +10,7 @@ organization_description: Non-profit organization
 project_video: ''
 organization_website: 'http://www.grid110.org'
 organization_twitter: grid110
-organization_facebook: 'http://www.facebook.com/grid110'
+organization_facebook: 'https://facebook.com/grid110'
 organization_instagram: grid110
 link_newsletter: 'http://eepurl.com/blZr8L'
 link_volunteer: 'https://www.grid110.org/mentors/'
@@ -83,15 +83,15 @@ project_measure: |-
 project_five_years: >-
   We hope to be monetizing this nationally and hopefully engaging entrepreneurs
   everywhere.
-category_metrics: >-
-  ['Minority- and women-owned firms', 'Venture capital investment',
-  'Unemployment (and opportunities) for the formerly incarcerated']
-category_other: '[''LA is the best place to CONNECT'']'
-unique_identifier: chu5qvgu
+category_metrics:
+  - Minority- and women-owned firms
+  - Venture capital investment
+  - Unemployment (and opportunities) for the formerly incarcerated
+category_other:
+  - LA is the best place to CONNECT
 category: create
 uri: /create/grid110-inc/
 order: 7
-project_image: /assets/images/create/grid110-inc.jpg
-project_proposal_impact: []
+project_image: grid110-inc.jpg
 
 ---

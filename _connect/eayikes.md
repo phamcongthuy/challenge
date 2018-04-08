@@ -9,13 +9,13 @@ organization_description: Non-profit organization
 project_video: 'https://youtu.be/PtA8wOP6XuM'
 link_newsletter: 'http://eepurl.com/dpRUwj'
 organization_website: eayikes.org
-organization_twitter: '-'
+organization_twitter: ''
 organization_facebook: facebook.com/eayikes
 organization_instagram: '@eayikes'
 link_donate: 'http://eayikes.org/donate'
 link_volunteer: 'http://eepurl.com/dpRV0z'
 organization_activity: >-
-  Engage, empower, inform, inspire, citizens of a communityâ€¦ EEIICC + a whole
+  Engage, empower, inform, inspire, citizens of a community… EEIICC + a whole
   lotta wonder = EAYIKES!
 project_proposal_description: >-
   By 2020 Eayikes brings empowerment to thousands of LA youth and adults through
@@ -83,17 +83,15 @@ project_five_years: >-
   businesses, organizations, and schools, and bridging relationships into
   higher-socioeconomic areas by facilitating programs for all people in the
   space.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Rates of
-  volunteerism', 'Total number of local social media friends and connections
-  Angelenos have']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: 84vo4gcx
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Rates of volunteerism
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/eayikes/
 order: 4
-project_image: /assets/images/connect/eayikes.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: eayikes.jpg
 
 ---

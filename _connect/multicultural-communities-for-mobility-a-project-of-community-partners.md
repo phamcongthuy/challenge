@@ -121,17 +121,17 @@ project_five_years: >-
   hope that the intersectional approach we implement becomes an example for
   others on how to revitalize neighborhoods and build community resilience in
   partnership with the community.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Government
-  responsiveness to residents’ needs', 'Rates of volunteerism']
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: d9dia04h
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: >-
   /connect/multicultural-communities-for-mobility-a-project-of-community-partners/
 order: 37
-project_image: >-
-  /assets/images/connect/multicultural-communities-for-mobility-a-project-of-community-partners.jpg
-project_proposal_impact: []
+project_image: multicultural-communities-for-mobility-a-project-of-community-partners.jpg
 
 ---

@@ -11,7 +11,7 @@ project_video: 'https://youtu.be/Bt5RMStlQxI?t=90'
 link_newsletter: 'http://myfriendshouseinc.org/contact/'
 organization_website: 'http://myfriendshouseinc.org/'
 organization_twitter: '@MyFriendsHse'
-organization_instagram: none
+organization_instagram: ''
 organization_facebook: 'https://www.facebook.com/My-Friends-House-Inc-436222196498017/'
 link_volunteer: 'http://myfriendshouseinc.org/volunteer-opportunities/'
 link_donate: 'http://myfriendshouseinc.org/donations/'
@@ -67,13 +67,15 @@ project_five_years: |-
    --Expansive network of collaborators: restaurants, supermarkets, farms, food manufacturers
    
    --Numerous gardens throughout Los Angeles
-category_metrics: '[''Access to healthy food'', ''Obesity rates'']'
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to CONNECT'']'
-unique_identifier: khfynma3
+category_metrics:
+  - Access to healthy food
+  - Obesity rates
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/my-friends-house-inc/
 order: 18
-project_image: /assets/images/live/my-friends-house-inc.jpg
-project_proposal_impact: []
+project_image: my-friends-house-inc.jpg
 
 ---

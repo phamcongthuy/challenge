@@ -16,7 +16,7 @@ organization_facebook: 'https://www.facebook.com/getlitpoet'
 organization_instagram: getlitpoet
 link_newsletter: >-
   http://getlit.us14.list-manage.com/subscribe?u=34c3d6a6d4a53dc48145d88b5&id=a92bfa8739
-link_volunteer: info@getlit.org
+link_volunteer: 'mailto:info@getlit.org'
 link_donate: getlit.org/donate/
 organization_activity: >-
   Get Lit fuses classic and spoken word poetry to increase teen literacy and
@@ -110,16 +110,18 @@ project_five_years: >-
   of nonprofit funding. We aim to lead the way and pioneer the creative industry
   into a new digital ecosystem where Los Angeles youth have the ability to be at
   the forefront of the world’s biggest projects, movements, and masterpieces.
-category_metrics: >-
-  ['Employment in the creative industries', 'Minority- and women-owned firms',
-  'Percentage of graduates from local higher education institutions that remain
-  in LA County 5 years after graduating']
-category_other: '[''LA is the best place to LEARN'', ''LA is the best place to CONNECT'']'
-unique_identifier: f8055v8z
+category_metrics:
+  - Employment in the creative industries
+  - Minority- and women-owned firms
+  - >-
+    Percentage of graduates from local higher education institutions that remain
+    in LA County 5 years after graduating
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CONNECT
 category: create
 uri: /create/get-lit-words-ignite/
 order: 10
-project_image: /assets/images/create/get-lit-words-ignite.jpg
-project_proposal_impact: []
+project_image: get-lit-words-ignite.jpg
 
 ---

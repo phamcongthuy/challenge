@@ -8,13 +8,13 @@ project_description: >-
 organization_name: 'City of Los Angeles, Bureau of Street Lighting'
 organization_description: Government
 project_video: 'https://youtu.be/tVCxc_xD6Xo'
-link_newsletter: 'Twitter - @LA_Streetlights #ActivateforLA'
+link_newsletter: 'https://twitter.com/@LA_Streetlights'
 organization_website: 'http://bsl.lacity.org/'
 organization_twitter: '@LA_Streetlights'
-organization_instagram: N/A
-organization_facebook: N/A
-link_volunteer: N/A
-link_donate: N/A
+organization_instagram: ''
+organization_facebook: ''
+link_volunteer: ''
+link_donate: ''
 organization_activity: >-
   The City of Los Angeles, Bureau of Street Lighting provides illumination for
   the safety of vehicular/pedestrian traffic, and is a key vertical
@@ -73,11 +73,11 @@ project_measure: |-
    
    
    
-   â€¢ The completed deployment of the air quality sensors and transmission of data. 
+   * The completed deployment of the air quality sensors and transmission of data. 
    
     
    
-   â€¢ The establishment of a public education program based on the air quality data which is accumulated 
+   * The establishment of a public education program based on the air quality data which is accumulated 
    
    and the development of new community-based programs with the goal of mitigating the harmful effects of air pollution.
 project_five_years: >-
@@ -86,13 +86,14 @@ project_five_years: >-
   This will provide real time data to the community and public officials,
   enabling policy direction and the enhancements to improve the livability for
   all residents in the City of Los Angeles.
-category_metrics: '[''Exposure to air toxins'', ''Prevalence of adverse childhood experiences'']'
-category_other: '[''LA is the best place to PLAY'']'
-unique_identifier: y5fc9ytu
+category_metrics:
+  - Exposure to air toxins
+  - Prevalence of adverse childhood experiences
+category_other:
+  - LA is the best place to PLAY
 category: live
 uri: /live/city-of-los-angeles-bureau-of-street-lighting/
 order: 6
-project_image: /assets/images/live/city-of-los-angeles-bureau-of-street-lighting.jpg
-project_proposal_impact: []
+project_image: city-of-los-angeles-bureau-of-street-lighting.jpg
 
 ---

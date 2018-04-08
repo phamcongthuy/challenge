@@ -10,38 +10,49 @@ project_description: >-
 organization_name: Opportunity Fund
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/KrGSS4OtP50'
-organization_website: >-
-  http://www.borrowersbillofrights.org; Opportunityfund.org;
-  Smallbusinessmajority.org; https://us.accion.org/about-us/;
-  http://fieldus.org/index.html; http://cim-llc.com/;
-  https://www.lendingclub.com/; https://www.fundingcircle.com/us/;
-  www.fundera.com
-organization_twitter: >-
-  @opportunityfund @OFSmallBusiness @AspenMicro @AccionUs @SmlBizMajority
-  @LendingClub @FundingCircleUS @Fundera @VenturizeOrg
-organization_facebook: >-
-  https://www.facebook.com/opportunityfund;
-  https://www.facebook.com/ofsmallbusiness/;
-  https://www.facebook.com/FIELDatAspen/;
-  https://www.facebook.com/SmallBusinessMajority/;
-  https://www.facebook.com/VenturizeOrg/;
-  https://www.facebook.com/LendingClubTeam/;
-  https://www.facebook.com/FundingCircleUS/; https://www.facebook.com/fundera/
-organization_instagram: >-
-  https://www.instagram.com/opportunityfund/;
-  https://www.instagram.com/accion_us/;
-  https://www.instagram.com/smlbizmajority/;
-  https://www.instagram.com/gofundera/?hl=en
-link_newsletter: 'http://www.borrowersbillofrights.org/blog; info@borrowersbillofrights.org'
-link_volunteer: n/a
-link_donate: |-
-  www.opportunityfund.org/donate;
-   
-   https://us.accion.org/partner-with-us/donate/;
-   
-   http://www.smallbusinessmajority.org/donate;
-   
-   https://www.aspeninstitute.org/contribute/
+organization_website:
+  - 'http://www.borrowersbillofrights.org'
+  - 'http://Opportunityfund.org'
+  - 'http://Smallbusinessmajority.org'
+  - 'https://us.accion.org/about-us/'
+  - 'http://fieldus.org/index.html'
+  - 'http://cim-llc.com/'
+  - 'https://www.lendingclub.com/'
+  - 'https://www.fundingcircle.com/us/'
+  - 'http://www.fundera.com'
+organization_twitter:
+  - '@opportunityfund'
+  - '@OFSmallBusiness'
+  - '@AspenMicro'
+  - '@AccionUs'
+  - '@SmlBizMajority'
+  - '@LendingClub'
+  - '@FundingCircleUS'
+  - '@Fundera'
+  - '@VenturizeOrg'
+organization_facebook:
+  - 'https://www.facebook.com/opportunityfund'
+  - 'https://www.facebook.com/ofsmallbusiness/'
+  - 'https://www.facebook.com/FIELDatAspen/'
+  - 'https://www.facebook.com/SmallBusinessMajority/'
+  - 'https://www.facebook.com/VenturizeOrg/'
+  - 'https://www.facebook.com/LendingClubTeam/'
+  - 'https://www.facebook.com/FundingCircleUS/'
+  - 'https://www.facebook.com/fundera/'
+organization_instagram:
+  - 'https://www.instagram.com/opportunityfund/'
+  - 'https://www.instagram.com/accion_us/'
+  - 'https://www.instagram.com/smlbizmajority/'
+  - 'https://www.instagram.com/gofundera/?hl=en'
+link_newsletter:
+  - 'http://www.borrowersbillofrights.org/blog'
+  - 'mailto:info@borrowersbillofrights.org'
+link_volunteer: ''
+link_donate:
+  - 'http://www.opportunityfund.org/donate'
+  - 'https://us.accion.org/partner-with-us/donate/'
+  - 'http://www.smallbusinessmajority.org/donate'
+  - 'https://www.aspeninstitute.org/contribute/'
 organization_activity: >-
   RBLC is a network of lenders and small business advocates in Los Angeles
   committed to advancing policies that combat predatory lending, promote
@@ -97,7 +108,7 @@ project_proposal_best_place: >-
    
    
    
-   To address this issue, the RBLC formed in 2015 to support responsible practices in the small business lending sector. We have created the Small Business Borrowers’ Bill of Rights (the Rights)—a set of practices lenders and brokers adhere to when financing small business ownersâ€”and are now planning an intensive LA-focused campaign to activate Angelenos around responsible lending through education and policy advocacy. By creating momentum among the county’s small business and entrepreneurial community, we can push for stronger protections against predatory lending and better support those most affected by discriminatory and predatory lending practices, in particular, women and minority entrepreneurs working to start and grow their firms.
+   To address this issue, the RBLC formed in 2015 to support responsible practices in the small business lending sector. We have created the Small Business Borrowers’ Bill of Rights (the Rights)—a set of practices lenders and brokers adhere to when financing small business owners—and are now planning an intensive LA-focused campaign to activate Angelenos around responsible lending through education and policy advocacy. By creating momentum among the county’s small business and entrepreneurial community, we can push for stronger protections against predatory lending and better support those most affected by discriminatory and predatory lending practices, in particular, women and minority entrepreneurs working to start and grow their firms.
    
    
    
@@ -152,13 +163,15 @@ project_five_years: >-
    
    
    We believe Los Angeles will be leading the way nationwide in demonstrating why and how a healthy financial ecosystem for entrepreneurs creates good jobs and thriving communities. The Small Business Borrowers Bill of Rights will be well known and used by business owners, their advocates, lenders, and policymakers across the nation.
-category_metrics: '[''Gini coefficient'', ''Jobs per capita'', ''Minority- and women-owned firms'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: zcymlzjk
+category_metrics:
+  - Gini coefficient
+  - Jobs per capita
+  - Minority- and women-owned firms
+category_other:
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/opportunity-fund/
 order: 5
-project_image: /assets/images/create/opportunity-fund.jpg
-project_proposal_impact: []
+project_image: opportunity-fund.jpg
 
 ---

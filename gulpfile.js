@@ -42,8 +42,33 @@ gulp.task("default", function() {
   // generatedImagePath  = 'assets/images/home';
   // generateNext();
 
-  sizesCursor = 0;
-  sourceImagePath     = 'assets/images/goals/original';
-  generatedImagePath  = 'assets/images/goals';
-  generateNext();
+  // sizesCursor = 0;
+  // sourceImagePath     = 'assets/images/goals/original';
+  // generatedImagePath  = 'assets/images/goals';
+  // generateNext();
+
+  // sizesCursor = 0;
+  // sourceImagePath     = 'assets/images/learn/original';
+  // generatedImagePath  = 'assets/images/learn';
+  // generateNext();
+
+  // sizesCursor = 0;
+  // sourceImagePath     = 'assets/images/create/original';
+  // generatedImagePath  = 'assets/images/create';
+  // generateNext();
+
+  // sizesCursor = 0;
+  // sourceImagePath     = 'assets/images/play/original';
+  // generatedImagePath  = 'assets/images/play';
+  // generateNext();
+
+  // sizesCursor = 0;
+  // sourceImagePath     = 'assets/images/connect/original';
+  // generatedImagePath  = 'assets/images/connect';
+  // generateNext();
+
+  // sizesCursor = 0;
+  // sourceImagePath     = 'assets/images/live/original';
+  // generatedImagePath  = 'assets/images/live';
+  // generateNext();
 });

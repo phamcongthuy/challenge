@@ -60,7 +60,7 @@ project_proposal_best_place: >-
    
    
    
-   The City of Los Angeles should recognize how critical young people are to its economy, culture, and civic discourse — both today and in the future. Nonetheless, the City minimally invests in programs that benefit youth. The future of our City depends on the next generation of young Angelenos becoming ready for the transition into the workforce and/or higher education. It is time to ensure that all youth have access to high-quality programs—no matter where they liveâ€”with public investment to support a Youth Development Department.
+   The City of Los Angeles should recognize how critical young people are to its economy, culture, and civic discourse — both today and in the future. Nonetheless, the City minimally invests in programs that benefit youth. The future of our City depends on the next generation of young Angelenos becoming ready for the transition into the workforce and/or higher education. It is time to ensure that all youth have access to high-quality programs—no matter where they live—with public investment to support a Youth Development Department.
    
    
    
@@ -136,17 +136,17 @@ project_five_years: >-
   In five years we should see the implementation of a Youth Development
   Department in the City of Los Angeles, which is fully funded to be competitive
   with other major cities.
-category_metrics: >-
-  ['Number of households below the self-sufficiency standard', 'Prevalence of
-  adverse childhood experiences', 'Resilient communities']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to PLAY', 'LA is the
-  healthiest place to CONNECT']
-unique_identifier: z6c86fjj
+category_metrics:
+  - Number of households below the self-sufficiency standard
+  - Prevalence of adverse childhood experiences
+  - Resilient communities
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/big-citizen-hub/
 order: 21
-project_image: /assets/images/live/big-citizen-hub.jpg
-project_proposal_impact: []
+project_image: big-citizen-hub.jpg
 
 ---

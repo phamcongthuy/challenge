@@ -11,17 +11,20 @@ organization_name: Geffen Academy at UCLA
 organization_description: Government
 project_video: 'https://youtu.be/m9NRl8lAdZY'
 link_newsletter: 'https://goo.gl/forms/LN88arJmyW4oGWic2'
-organization_website: 'https://geffenacademy.ucla.edu/ ; https://goo.gl/NXw7No'
-organization_twitter: >-
-  https://twitter.com/GeffenAcademy https://twitter.com/GeffenSports
-  https://twitter.com/ridelosangeles
-organization_facebook: >-
-  https://www.facebook.com/GeffenAcademyatUCLA/
-  https://www.facebook.com/RideLosAngelesApp/
-organization_instagram: >-
-  https://www.instagram.com/geffenacademy/
-  https://www.instagram.com/geffensports/
-  https://www.instagram.com/ridelosangeles/
+organization_website:
+  - 'https://geffenacademy.ucla.edu/'
+  # This link is broken - 'https://goo.gl/NXw7No'
+organization_twitter:
+  - 'https://twitter.com/GeffenAcademy'
+  - 'https://twitter.com/GeffenSports'
+  - 'https://twitter.com/ridelosangeles'
+organization_facebook:
+  - 'https://www.facebook.com/GeffenAcademyatUCLA/'
+  - 'https://www.facebook.com/RideLosAngelesApp/'
+organization_instagram:
+  - 'https://www.instagram.com/geffenacademy/'
+  - 'https://www.instagram.com/geffensports/'
+  - 'https://www.instagram.com/ridelosangeles/'
 link_donate: 'https://geffenacademy.ucla.edu/giving/'
 link_volunteer: 'https://goo.gl/forms/LN88arJmyW4oGWic2'
 organization_activity: >-
@@ -66,7 +69,7 @@ project_proposal_best_place: >-
    
     
    
-   The app will influence individual behavior by incentivizing use of public transportation. Angelinos know that public transportation is better for the environment, but they aren’t rewarded for using it. Our app will give riders points in three ways: for ‘checking in’ to a bus (or train), for submitting ridership density data and for distance travelled. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etcâ€¦). This will be measured by rider check-ins and density reporting.
+   The app will influence individual behavior by incentivizing use of public transportation. Angelinos know that public transportation is better for the environment, but they aren’t rewarded for using it. Our app will give riders points in three ways: for ‘checking in’ to a bus (or train), for submitting ridership density data and for distance travelled. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etc…). This will be measured by rider check-ins and density reporting.
    
     
    
@@ -101,7 +104,7 @@ project_measure: >-
    
     
    
-   The app will influence individual behavior by incentivizing use of public transportation. Our app will give riders points in two ways: for ‘checking in’ to a bus (or train) and for submitting ridership density data. Points will be shown via game leaderboards. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etcâ€¦). This will be measured by rider check-ins and density reporting.
+   The app will influence individual behavior by incentivizing use of public transportation. Our app will give riders points in two ways: for ‘checking in’ to a bus (or train) and for submitting ridership density data. Points will be shown via game leaderboards. Those points will be stored in the Blockchain and through partnerships with local businesses riders will be able to exchange their points for goods and services (ex. meals, event tickets, etc…). This will be measured by rider check-ins and density reporting.
    
     
    
@@ -123,15 +126,16 @@ project_five_years: >-
   the app will have encouraged millions of Angelinos to use the Metro system. We
   hope that more people will recognize climate change threatens our future and
   that they will act to use shared transportation for the good of everyone.
-category_metrics: >-
-  ['Attendance at cultural events', 'Travel time to work', 'Number of public
-  transit riders']
-category_other: '[''LA is the best place to PLAY'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: jstfopyb
+category_metrics:
+  - Attendance at cultural events
+  - Travel time to work
+  - Number of public transit riders
+category_other:
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/geffen-academy-at-ucla/
 order: 36
-project_image: /assets/images/connect/geffen-academy-at-ucla.jpg
-project_proposal_impact: []
+project_image: geffen-academy-at-ucla.jpg
 
 ---

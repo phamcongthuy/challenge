@@ -18,7 +18,7 @@ organization_instagram: RaiseAChild
 link_donate: 'https://raiseachild.org/donations/'
 link_volunteer: 'https://raiseachild.org/take-the-next-step/'
 organization_activity: >-
-  RaiseAChild leads the nation in building loving families for foster childrenÂ®
+  RaiseAChild leads the nation in building loving families for foster children
   by recruiting, retaining & supporting foster/adoptive parents to address the
   needs of 437,000 children in foster care.
 project_proposal_description: >-
@@ -137,16 +137,15 @@ project_five_years: >-
   policies that work for both. In order for communities to come together
   cohesively to create a prosperous Los Angeles by 2050, we must invest in these
   children now.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Attendance at
-  public/open streets gatherings', 'Government responsiveness to residents’
-  needs']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: j0q501d5
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Attendance at public/open streets gatherings
+  - Government responsiveness to residents’ needs
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/raise-a-child-inc/
 order: 11
-project_image: /assets/images/connect/raise-a-child-inc.jpg
-project_proposal_impact: []
+project_image: raise-a-child-inc.jpg
 
 ---

@@ -9,22 +9,28 @@ organization_name: United Way of Greater Los Angeles
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/omjbiTiHXxU'
 link_newsletter: 'http://everyoneinla.org/join-us/'
-organization_website: >-
-  http://everyoneinla.org/; http://www.abundanthousingla.org/;
-  http://www.innercitylaw.org/
-organization_twitter: '@EveryoneIn_LA; @InnerCityLaw; @AbundantHousing'
-organization_instagram: '@everyonein_la; @abundanthousing'
-organization_facebook: '@EveryoneInLA; @InnerCityLawCenter; @abundanthousingla'
-link_volunteer: |-
-  http://everyoneinla.org/training-sign-up/ 
-   
-   http://www.innercitylaw.org/volunteer/
-   
-   http://www.abundanthousingla.org/sign-up/
-link_donate: |-
-  http://everyoneinla.org/donate/
-   
-   https://donatenow.networkforgood.org/1436044
+organization_website:
+  - 'http://everyoneinla.org/'
+  - 'http://www.abundanthousingla.org/'
+  - 'http://www.innercitylaw.org/'
+organization_twitter:
+  - '@EveryoneIn_LA'
+  - '@InnerCityLaw'
+  - '@AbundantHousing'
+organization_instagram:
+  - '@everyonein_la'
+  - '@abundanthousing'
+organization_facebook:
+  - '@EveryoneInLA'
+  - '@InnerCityLawCenter'
+  - '@abundanthousingla'
+link_volunteer:
+  - 'http://everyoneinla.org/training-sign-up/'
+  - 'http://www.innercitylaw.org/volunteer/'
+  - 'http://www.abundanthousingla.org/sign-up/'
+link_donate:
+  - 'http://everyoneinla.org/donate/'
+  - 'https://donatenow.networkforgood.org/1436044'
 organization_activity: >-
   EVERYONE IN, powered by United Way, is a coalition that is keeping the focus
   on permanent solutions to homelessness.
@@ -127,17 +133,17 @@ project_measure: >-
    
    Digital key performance indicators of our digital content (core strategy component):
    
-   â–ª Impressions, shares, clicks, likes
+   * Impressions, shares, clicks, likes
    
    
    
    Human beings engaged
    
-   â–ª People who attend community pop ups
+   * People who attend community pop ups
    
-   â–ª People who attend organizer trainings
+   * People who attend organizer trainings
    
-   â–ª People who attend community events or participate in 
+   * People who attend community events or participate in 
    
     legislative activities
    
@@ -145,17 +151,17 @@ project_measure: >-
    
    Jurisdictions targeted
    
-   â–ª Number of jurisdictions in LA County in which have we taken a digital or in person action 
+   * Number of jurisdictions in LA County in which have we taken a digital or in person action 
    
    
    
    Policy ideas proposed or refined
    
-   â–ª tenants rights policy reforms
+   * tenants rights policy reforms
    
-   â–ª prevention programs
+   * prevention programs
    
-   â–ª affordable housing development reforms
+   * affordable housing development reforms
    
    
    
@@ -180,15 +186,17 @@ project_five_years: |-
    - A shift in community understanding of the role that housing affordability plays in our homelessness crisis 
    
    - Meaningful increase in the number of Angelenos activated and mobilized on public policy issues related to housing and homelessness
-category_metrics: '[''Housing affordability'', ''Rates of homelessness'']'
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to CONNECT']
-unique_identifier: 5lh3md0v
+category_metrics:
+  - Housing affordability
+  - Rates of homelessness
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/united-way-of-greater-los-angeles/
 order: 15
-project_image: /assets/images/live/united-way-of-greater-los-angeles.jpg
-project_proposal_impact: []
+project_image: united-way-of-greater-los-angeles.jpg
 
 ---

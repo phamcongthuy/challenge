@@ -85,15 +85,16 @@ project_five_years: >-
   councilman Mike Bonin for her work in the community. We would love to see more
   youth advocating at their local city counsels and fight homelessness and get
   support from their councilmen/women.
-category_metrics: '[''Participation in neighborhood councils'', ''Rates of volunteerism'']'
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  healthiest place to LIVE']
-unique_identifier: ugx77xbq
+category_metrics:
+  - Participation in neighborhood councils
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/stellas-socks/
 order: 39
-project_image: /assets/images/connect/stellas-socks.jpg
-project_proposal_impact: []
+project_image: stellas-socks.jpg
 
 ---

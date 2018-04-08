@@ -7,30 +7,27 @@ project_description: >-
 organization_name: 'Action Civics LA, an initiative of Mikva Challenge'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=DRyOMoxgsbE'
-link_newsletter: |-
-  https://www.mikvachallenge.org/action-civics-la/
-   
-   
-   
-   https://www.procon.org/view.background-resource.php?resourceID=006145
-organization_website: 'https://www.mikvachallenge.org/action-civics-la/ and www.procon.org'
-organization_twitter: '@actioncivicsla and @procon_org'
-organization_facebook: >-
-  https://www.facebook.com/ActionCivicsLA/ and
-  https://www.facebook.com/ProCon.org
+link_newsletter:
+  - 'https://www.mikvachallenge.org/action-civics-la/'
+  - 'https://www.procon.org/view.background-resource.php?resourceID=006145'
+organization_website:
+  - 'https://www.mikvachallenge.org/action-civics-la/'
+  - 'https://www.procon.org'
+organization_twitter:
+  - '@actioncivicsla'
+  - '@procon_org'
+organization_facebook:
+  - 'https://www.facebook.com/ActionCivicsLA/'
+  - 'https://www.facebook.com/ProCon.org'
 organization_instagram: '@Actioncivicsla'
-link_donate: >-
-  https://www.mikvachallenge.org/donate-action-civics-la/?eType=ActivityDefinitionInstance&eId=dbd7e11d-a980-44e3-8f09-b215aeb43576
-   
-   
-   
-   https://www.classy.org/checkout/donation?eid=24854
-link_volunteer: |-
-  https://mikvachallenge.salsalabs.org/aclavolunteers/index.html
-   
-   
-   
-   https://www.procon.org/view.background-resource.php?resourceID=002483#volunteer_application
+link_donate:
+  - >-
+    https://www.mikvachallenge.org/donate-action-civics-la/?eType=ActivityDefinitionInstance&eId=dbd7e11d-a980-44e3-8f09-b215aeb43576
+  - 'https://www.classy.org/checkout/donation?eid=24854'
+link_volunteer:
+  - 'https://mikvachallenge.salsalabs.org/aclavolunteers/index.html'
+  - >-
+    https://www.procon.org/view.background-resource.php?resourceID=002483#volunteer_application
 organization_activity: >-
   Action Civics LA works with schools to empower young people with the skills,
   knowledge, & dispositions to be superstar citizens & leaders. ProCon provides
@@ -91,13 +88,13 @@ project_proposal_best_place: >-
    
    Past projects include:
    
-   Â·South Central HS students advocated for the rights of undocumented immigrants and DREAMers in their school and community bringing in the assistance of immigration lawyers and representatives from Congresswoman Karen Bass’ office; Hancock Park Elementary students researched homelessness rates in their neighborhood and presented their findings to Councilmember Ryu in City Hall; Boyle Heights 9th graders started a school-wide “Unplug Monday” during free periods where students detach from all electronics and focus on interpersonal connections and mental health care. 
+   * South Central HS students advocated for the rights of undocumented immigrants and DREAMers in their school and community bringing in the assistance of immigration lawyers and representatives from Congresswoman Karen Bass’ office; Hancock Park Elementary students researched homelessness rates in their neighborhood and presented their findings to Councilmember Ryu in City Hall; Boyle Heights 9th graders started a school-wide “Unplug Monday” during free periods where students detach from all electronics and focus on interpersonal connections and mental health care. 
    
    2. Public events:
    
-   Â·2 showcase events where students will present their Action Civics projects and receive feedback from community leaders.
+   * 2 showcase events where students will present their Action Civics projects and receive feedback from community leaders.
    
-   Â·6-8 large open community events hosted by Pro/Con where local issues are debated (proposed locations include the Santa Monica Pier, USC, and others). Student projects will be featured and event participants will be asked to take action to support them. 
+   * 6-8 large open community events hosted by Pro/Con where local issues are debated (proposed locations include the Santa Monica Pier, USC, and others). Student projects will be featured and event participants will be asked to take action to support them. 
    
    3. Digital amplification and action:
    
@@ -143,15 +140,15 @@ project_five_years: >-
   students annually across the city and to launch statewide training for
   educators. We hope to have continued our partnership with ProCon.org so that
   together we are a resource for educators across the country.
-category_metrics: >-
-  ['Attendance at public/open streets gatherings', 'Participation in
-  neighborhood councils', 'Voting rates']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: yevrbe7y
+category_metrics:
+  - Attendance at public/open streets gatherings
+  - Participation in neighborhood councils
+  - Voting rates
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/action-civics-la-an-initiative-of-mikva-challenge/
 order: 52
-project_image: /assets/images/connect/action-civics-la-an-initiative-of-mikva-challenge.jpg
-project_proposal_impact: []
+project_image: action-civics-la-an-initiative-of-mikva-challenge.jpg
 
 ---

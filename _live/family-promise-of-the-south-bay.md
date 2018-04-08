@@ -8,16 +8,12 @@ project_description: >-
 organization_name: Family Promise of the South Bay
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=5y2nTF_hrSE&feature=youtu.be'
-link_newsletter: >-
-  Website is under construction. Please Email us at
-  HomelessSolutions@TinyCitiesLA.com.
+link_newsletter: mailto:HomelessSolutions@TinyCitiesLA.com
 organization_website: www.TinyCitiesLA.com
 organization_twitter: TinyCitiesLA
 organization_instagram: TinyCitiesLA
 organization_facebook: Tiny Cities LA
-link_volunteer: >-
-  Website is under construction. Please Email us at
-  HomelessSolutions@TinyCitiesLA.com.
+link_volunteer: mailto:HomelessSolutions@TinyCitiesLA.com
 link_donate: >-
   Donations will not be accepted until we receive the IRS Determination Letter
   for this specific project (Tiny Cities LA), which is a collaboration with
@@ -56,7 +52,7 @@ project_proposal_best_place: |-
    
    Our homeless agency partner will be instrumental in helping to determine the homeless needs in each community: chronic? drug, alcohol, other mental illness? temporarily homeless families? need education or employment skills? skilled but without employment?
    
-   LATTC design students have drawn the ideal TC space, with the number of residents on approximately Â½ block equaling 96. Resources will fit the population, with nutritional food being primary in every community.
+   LATTC design students have drawn the ideal TC space, with the number of residents on approximately ½ block equaling 96. Resources will fit the population, with nutritional food being primary in every community.
    
    For the chronically homeless, access to mental health and basic medical services are likely important. Families may need educational and vocational counseling, access to computers, and creative “maker-spaces.” All of these would be undertaken with experts in the field and with engaged community volunteers.
    
@@ -91,17 +87,17 @@ project_five_years: >-
   We hope to be providing low cost housing throughout Los Angeles County,
   wherever there is vacant land, to eradicate the homeless problem and alleviate
   the cost of housing for struggling families.
-category_metrics: >-
-  ['Housing affordability', 'Number of households below the self-sufficiency
-  standard', 'Rates of homelessness']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  healthiest place to CONNECT']
-unique_identifier: cdovkihz
+category_metrics:
+  - Housing affordability
+  - Number of households below the self-sufficiency standard
+  - Rates of homelessness
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/family-promise-of-the-south-bay/
 order: 36
-project_image: /assets/images/live/family-promise-of-the-south-bay.jpg
-project_proposal_impact: []
+project_image: family-promise-of-the-south-bay.jpg
 
 ---

@@ -76,13 +76,13 @@ project_proposal_engage: >-
    
    
    
-   â€¢ Through creation of a training program and guide that explains every aspect of our work, including purchasing of items (comprehensive price guide and shopping list and suggestion of retailers to use), securing storage facilities and organization and inventory control, money management/finances (keep it simple!), the importance of 501(c)3 status, fundraising, special events, active communication with the volunteer base including keeping them informed of forward progress and problem areas, the importance of establishing an advisory board and a strong presence in your own community, even when it is not the area you serve.
+   * Through creation of a training program and guide that explains every aspect of our work, including purchasing of items (comprehensive price guide and shopping list and suggestion of retailers to use), securing storage facilities and organization and inventory control, money management/finances (keep it simple!), the importance of 501(c)3 status, fundraising, special events, active communication with the volunteer base including keeping them informed of forward progress and problem areas, the importance of establishing an advisory board and a strong presence in your own community, even when it is not the area you serve.
    
-   â€¢ Each organization committing to the CCP will be given a micro-grant to help them establish a storage facility and initial shelf-stocking.
+   * Each organization committing to the CCP will be given a micro-grant to help them establish a storage facility and initial shelf-stocking.
    
-   â€¢ We will develop a website that will host each service group’s project and give them individual opportunities to fundraise and develop their pathway to volunteerism.
+   * We will develop a website that will host each service group’s project and give them individual opportunities to fundraise and develop their pathway to volunteerism.
    
-   â€¢ We will develop a social media campaign including a film with images of volunteers at work and appreciative clients.
+   * We will develop a social media campaign including a film with images of volunteers at work and appreciative clients.
    
    
    
@@ -96,43 +96,43 @@ project_measure: >-
    
    
    
-   â€¢ The number of CCP chapters in each city of Los Angeles County;
+   * The number of CCP chapters in each city of Los Angeles County;
    
    
    
-   â€¢ The number of supportive housing authorities that have partnered with CCP; and
+   * The number of supportive housing authorities that have partnered with CCP; and
    
    
    
-   â€¢ The number of homeless CCP has helped.
+   * The number of homeless CCP has helped.
    
    We will measure our success by the following:
    
    
    
-   â€¢ Tracking success for our volunteers through various surveys;
+   * Tracking success for our volunteers through various surveys;
    
    
    
-   â€¢ Feedback from our housing partners through one-on-one discussions; and
+   * Feedback from our housing partners through one-on-one discussions; and
    
    
    
-   â€¢ Statistical analysis from the housing authorities on how many clients CCP has served.
+   * Statistical analysis from the housing authorities on how many clients CCP has served.
 project_five_years: >-
   It is our hope that the Community Circle Project will have successfully
   engaged a multitude of different service groups in Los Angeles County who will
   play a vital role in helping the homeless as they transition into permanent
   housing.
-category_metrics: >-
-  ['Prevalence of adverse childhood experiences', 'Rates of homelessness',
-  'Resilient communities']
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: vcqxy4gi
+category_metrics:
+  - Prevalence of adverse childhood experiences
+  - Rates of homelessness
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/topanga-womens-circle/
 order: 38
-project_image: /assets/images/live/topanga-womens-circle.jpg
-project_proposal_impact: []
+project_image: topanga-womens-circle.jpg
 
 ---

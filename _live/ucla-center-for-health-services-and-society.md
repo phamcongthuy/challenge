@@ -117,13 +117,14 @@ project_five_years: >-
   Angeles communities to improve mental health care and access in Los Angeles as
   well as implementing our community models across the nation as we begin
   collaborations with New York City and Baton Rouge, Louisiana.
-category_metrics: '[''Rates of mental illness'', ''Resilient communities'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: iia2mph0
+category_metrics:
+  - Rates of mental illness
+  - Resilient communities
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/ucla-center-for-health-services-and-society/
 order: 7
-project_image: /assets/images/live/ucla-center-for-health-services-and-society.jpg
-project_proposal_impact: []
+project_image: ucla-center-for-health-services-and-society.jpg
 
 ---

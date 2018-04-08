@@ -122,15 +122,15 @@ project_five_years: >-
    
    
    For the organization, we hope that we are continuing to grow this work in Los Angeles and connect similar conversations to cities across the globe. It is our belief that the more that we
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Attendance at
-  cultural events', 'Rates of volunteerism']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: 1hgx57yx
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Attendance at cultural events
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/citizens-of-culture/
 order: 43
-project_image: /assets/images/connect/citizens-of-culture.jpg
-project_proposal_impact: []
+project_image: citizens-of-culture.jpg
 
 ---

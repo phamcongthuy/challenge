@@ -57,19 +57,19 @@ project_proposal_best_place: >-
    
    
    
-   â€¢ Trainings for local trainers on the Center for the Study of Social Policy’s Strengthening Familiesâ„¢ Protective Factors (SFPF) Framework, which focuses on five factors of parental resilience, social connections, concrete support in times of need, knowledge of parenting and child development, and socioemotional competence of children
+   * Trainings for local trainers on the Center for the Study of Social Policy’s Strengthening Families™ Protective Factors (SFPF) Framework, which focuses on five factors of parental resilience, social connections, concrete support in times of need, knowledge of parenting and child development, and socioemotional competence of children
    
-   â€¢ Trainings on advocacy strategies and tactics and provision of tools to increase constituents’ capacity to improve government responsiveness (past examples include a Community Ambassador Toolkit and an online Voter Voice platform that helps local constituents understand and flex their power in local, state, and national politics)
+   * Trainings on advocacy strategies and tactics and provision of tools to increase constituents’ capacity to improve government responsiveness (past examples include a Community Ambassador Toolkit and an online Voter Voice platform that helps local constituents understand and flex their power in local, state, and national politics)
    
-   â€¢ Trainings to help community partnerships develop skills to identify and apply for funding at the local level
+   * Trainings to help community partnerships develop skills to identify and apply for funding at the local level
    
-   â€¢ Organizing of annual community festivals that convene local service providers, families, residents, and volunteers
+   * Organizing of annual community festivals that convene local service providers, families, residents, and volunteers
    
-   â€¢ Volunteer mobilization community partnership activities
+   * Volunteer mobilization community partnership activities
    
-   â€¢ Media engagement and promotion of community partnerships
+   * Media engagement and promotion of community partnerships
    
-   â€¢ Other support activities identified by the local community partnerships
+   * Other support activities identified by the local community partnerships
    
    
    
@@ -80,21 +80,21 @@ project_proposal_engage: >-
   participate in collective community driven implementation. Child360 will build
   on its successful framework to support resident/stakeholder engagement and
   advocacy through community partnership. Successful stakeholder engagement and
-  advocacy activities include: Parent Cafes, Strengthening Familiesâ„¢
-  trainings, Advocacy workshops, and Train-the-Trainers. A trained delegate from
-  each community will facilitate train-the-trainer advocacy trainings. Delegates
-  will be trained on how to develop outreach strategies to engage schools,
-  residents, and other stakeholders. Delegates will also be invited to
-  participate in visits with elected officials. Civic engagement trainings will
-  build on these efforts by offering information topics requested by the
-  communities. These may include: public transportation, immigration, education,
-  and access to healthy food. In addition, Community Partnerships may use one of
-  their meetings to invite elected officials to attend and address community
-  issues. This model is based on the success of Senator Hertzberg collaborating
-  with Child360 and the Northeast Valley Partnership to host a community
-  breakfast to connect with and hear from community members. Finally, Child360
-  will design feedback mechanisms to ensure efforts are conducted in accordance
-  with community partners’ intentions and goals.
+  advocacy activities include: Parent Cafes, Strengthening Families™ trainings,
+  Advocacy workshops, and Train-the-Trainers. A trained delegate from each
+  community will facilitate train-the-trainer advocacy trainings. Delegates will
+  be trained on how to develop outreach strategies to engage schools, residents,
+  and other stakeholders. Delegates will also be invited to participate in
+  visits with elected officials. Civic engagement trainings will build on these
+  efforts by offering information topics requested by the communities. These may
+  include: public transportation, immigration, education, and access to healthy
+  food. In addition, Community Partnerships may use one of their meetings to
+  invite elected officials to attend and address community issues. This model is
+  based on the success of Senator Hertzberg collaborating with Child360 and the
+  Northeast Valley Partnership to host a community breakfast to connect with and
+  hear from community members. Finally, Child360 will design feedback mechanisms
+  to ensure efforts are conducted in accordance with community partners’
+  intentions and goals.
 project_measure: >-
   The community partnerships will develop goals to define their success as well
   as work plans with measurable objectives and implementation timelines, which
@@ -117,15 +117,16 @@ project_five_years: >-
   coordination. Child360 hopes to study its success and pass on this information
   to other organizers and other communities so that young children’s status and
   well-being will be elevated everywhere in Los Angeles.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Government
-  responsiveness to residents’ needs', 'Rates of volunteerism']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: pmjbcbh3
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/child360-formerly-los-angeles-universal-preschool/
 order: 7
-project_image: /assets/images/connect/child360-formerly-los-angeles-universal-preschool.jpg
-project_proposal_impact: []
+project_image: child360-formerly-los-angeles-universal-preschool.jpg
 
 ---

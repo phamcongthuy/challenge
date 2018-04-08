@@ -142,17 +142,18 @@ project_five_years: >-
   We hope to have another location opened in south Central Los Angeles where the
   original vip records store was opened and hope to have launched at least 100
   successful small businesses.
-category_metrics: >-
-  ['Employment in the creative industries', 'Minority- and women-owned firms',
-  'Unemployment (and opportunities) for the formerly incarcerated']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to PLAY', 'LA is the
-  best place to CONNECT', 'LA is the healthiest place to LIVE']
-unique_identifier: bo0kfrpd
+category_metrics:
+  - Employment in the creative industries
+  - Minority- and women-owned firms
+  - Unemployment (and opportunities) for the formerly incarcerated
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to PLAY
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/world-famous-vip-records-llc/
 order: 17
-project_image: /assets/images/create/world-famous-vip-records-llc.jpg
-project_proposal_impact: []
+project_image: world-famous-vip-records-llc.jpg
 
 ---

@@ -8,12 +8,25 @@ project_description: >-
 organization_name: East LA Community Corporation (ELACC)
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/xpzFikU5XZ0'
-organization_website: 'www.elacc.org, www.lurnetwork.org, www.goodfoodla.org, www.publiccounsel.org'
-organization_twitter: '@elaccorg, @lurnetwork, @goodfoodla, @publiccounsel'
-organization_facebook: >-
-  www.facebook.com/ELACCorg, www.facebook.com/LURNetwork,
-  www.facebook.com/losangelesfoodpolicycouncil, ww.facebook.com/publiccounsel
-organization_instagram: '@elaccorg, @lurnetwork, @lagoodfood'
+organization_website:
+  - www.elacc.org
+  - www.lurnetwork.org
+  - www.goodfoodla.org
+  - www.publiccounsel.org
+organization_twitter:
+  - '@elaccorg'
+  - '@lurnetwork'
+  - '@goodfoodla'
+  - '@publiccounsel'
+organization_facebook:
+  - www.facebook.com/ELACCorg
+  - www.facebook.com/LURNetwork
+  - www.facebook.com/losangelesfoodpolicycouncil
+  - www.facebook.com/publiccounsel
+organization_instagram:
+  - '@elaccorg'
+  - '@lurnetwork'
+  - '@lagoodfood'
 link_newsletter: 'http://www.streetvendorsforla.org'
 link_volunteer: 'http://www.streetvendorsforla.org'
 link_donate: 'http://www.streetvendorsforla.org'
@@ -124,15 +137,16 @@ project_five_years: >-
   culinary jobs. Ultimately, we envision a City that values and supports street
   vendors, and sees them as contributors to the economic and cultural tapestry
   of Los Angeles.
-category_metrics: >-
-  ['Jobs per capita', 'Manufacturing activity', 'Minority- and women-owned
-  firms']
-category_other: '[''LA is the best place to CONNECT'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: us7z1hf8
+category_metrics:
+  - Jobs per capita
+  - Manufacturing activity
+  - Minority- and women-owned firms
+category_other:
+  - LA is the best place to CONNECT
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/east-la-community-corporation-elacc/
 order: 9
-project_image: /assets/images/create/east-la-community-corporation-elacc.jpg
-project_proposal_impact: []
+project_image: east-la-community-corporation-elacc.jpg
 
 ---

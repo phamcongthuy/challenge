@@ -9,32 +9,40 @@ organization_name: Environment California Research & Policy Center
 organization_description: Non-profit organization
 project_video: ''
 link_newsletter: 'https://bit.ly/2pOceyx'
-organization_website: >-
-  www.environmentcaliforniacenter.org, www.sierraclubfoundation.org
-  www.earthjustice.org, www.jobstomoveamerica.org, www.foodandwaterwatch.org,
-  www.ibew11.org
-organization_twitter: >-
-  @LAElectricBus, @EnvCalifornia, @sierraclub, @Earthjustice, @foodandwater,
-  @JobsMoveAmerica, @IBEWlocal11
-organization_instagram: >-
-  @environment_california @sierraclub @jobstomoveamerica @Earthjustice
-  @FoodandWaterWatch @IBEW11
-organization_facebook: >-
-  https://www.facebook.com/EnvironmentCalifornia/?ref=br_rshttps://www.facebook.com/SierraClub/
-  https://www.facebook.com/JobstoMoveAmerica/
-  https://www.facebook.com/FoodWaterWatchCalifornia/
-  https://www.facebook.com/Earthjustice/
+organization_website:
+  - www.environmentcaliforniacenter.org
+  - www.sierraclubfoundation.org
+  - www.earthjustice.org
+  - www.jobstomoveamerica.org
+  - www.foodandwaterwatch.org
+  - www.ibew11.org
+organization_twitter:
+  - '@LAElectricBus'
+  - '@EnvCalifornia'
+  - '@sierraclub'
+  - '@Earthjustice'
+  - '@foodandwater'
+  - '@JobsMoveAmerica'
+  - '@IBEWlocal11'
+organization_instagram:
+  - '@environment_california'
+  - '@sierraclub'
+  - '@jobstomoveamerica'
+  - '@Earthjustice'
+  - '@FoodandWaterWatch'
+  - '@IBEW11'
+organization_facebook:
+  - 'https://www.facebook.com/EnvironmentCalifornia/'
+  - 'https://www.facebook.com/JobstoMoveAmerica/'
+  - 'https://www.facebook.com/FoodWaterWatchCalifornia/'
+  - 'https://www.facebook.com/Earthjustice/'
 link_volunteer: 'https://bit.ly/2pOceyx'
-link_donate: |-
-  https://bit.ly/2GY4sdz
-   
-   https://bit.ly/2Gqacf8
-   
-   https://bit.ly/2E85hxo
-   
-   http://jobstomoveamerica.org/connect/
-   
-   https://bit.ly/2GmH4FE
+link_donate:
+  - 'https://bit.ly/2GY4sdz'
+  - 'https://bit.ly/2Gqacf8'
+  - 'https://bit.ly/2E85hxo'
+  - 'http://jobstomoveamerica.org/connect/'
+  - 'https://bit.ly/2GmH4FE'
 organization_activity: >-
   Environment California Research & Policy Center is dedicated to protecting the
   places we love, advancing the environmental values we share, and winning real
@@ -85,7 +93,7 @@ project_proposal_best_place: >-
   dirty energy we don’t need. It shouldn’t be this way. Through intentional
   policies, we have the power to end this problem and create a more livable,
   breathable, and greener city for all—most importantly for our youngest
-  residentsâ€”while creating pathways into good, clean manufacturing jobs for
+  residents—while creating pathways into good, clean manufacturing jobs for
   youth and underserved communities. 
    
    
@@ -156,14 +164,15 @@ project_five_years: >-
   region’s trucks, street sweepers, garbage trucks, and more, all the while
   using those policies to create the good jobs LA County needs to support
   historically excluded communities access good careers.
-category_metrics: '[''Exposure to air toxins'', ''Resilient communities'']'
-category_other: '[''LA is the best place to LEARN'', ''LA is the best place to CREATE'']'
-unique_identifier: yxdzs9mc
+category_metrics:
+  - Exposure to air toxins
+  - Resilient communities
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
 category: live
 uri: /live/environment-california-research-policy-center/
 order: 1
-project_image: /assets/images/live/environment-california-research-policy-center.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: environment-california-research-policy-center.jpg
 
 ---

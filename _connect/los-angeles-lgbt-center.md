@@ -133,15 +133,15 @@ project_five_years: >-
   cycle of activism will engage ever growing numbers of new volunteers, sustain
   our current ones, and develop a new generation of leaders that will keep the
   entire system activated.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Rates of volunteerism',
-  'Voting rates']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: u99b335n
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+  - Voting rates
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/los-angeles-lgbt-center/
 order: 34
-project_image: /assets/images/connect/los-angeles-lgbt-center.jpg
-project_proposal_impact: []
+project_image: los-angeles-lgbt-center.jpg
 
 ---

@@ -8,12 +8,12 @@ project_description: >-
 organization_name: Not Impossible Foundation
 organization_description: Non-profit organization
 project_video: ''
-link_newsletter: Please email info@notimpossiblelabs.com to sign up for the newsletter
+link_newsletter: mailto:info@notimpossiblelabs.com
 organization_website: www.notimpossible.com
 organization_twitter: '@NotImpossible'
 organization_instagram: Not Impossible
 organization_facebook: Not Impossible
-link_volunteer: info@notimpossiblelabs.com
+link_volunteer: 'mailto:info@notimpossiblelabs.com'
 link_donate: ''
 organization_activity: >-
   NIF recognizes global, human-centered absurdities deemed insolvable, then
@@ -101,13 +101,13 @@ project_five_years: >-
    
    
    If HNI can partner with organizations around the country, it will revolutionize the ability of NGOs and their communities to dramatically escalate and accelerate the work of each organization.
-category_metrics: '[''Access to healthy food'']'
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: uvy7trni
+category_metrics:
+  - Access to healthy food
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: /live/not-impossible-foundation/
 order: 11
-project_image: /assets/images/live/not-impossible-foundation.jpg
-project_proposal_impact: []
+project_image: not-impossible-foundation.jpg
 
 ---

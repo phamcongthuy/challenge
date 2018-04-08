@@ -9,10 +9,14 @@ organization_name: University of Southern California
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=6iKW4H-17BA&feature=youtu.be'
 link_newsletter: 'https://socialinnovation.usc.edu/contact-us/'
-organization_website: la.myneighborhooddata.org; socialinnovation.usc.edu
-organization_twitter: '@NDSC_LA; @USCPriceCSI'
+organization_website:
+  - la.myneighborhooddata.org
+  - socialinnovation.usc.edu
+organization_twitter:
+  - '@NDSC_LA'
+  - '@USCPriceCSI'
 organization_facebook: 'https://www.facebook.com/PriceSocialInnovation'
-organization_instagram: n/a
+organization_instagram: ''
 link_donate: 'https://socialinnovation.usc.edu/contact-us/'
 link_volunteer: 'https://socialinnovation.usc.edu/contact-us/'
 organization_activity: >-
@@ -130,17 +134,18 @@ project_five_years: >-
   neighborhood councils, and other civic actors, NDSC will activate a new era of
   civic engagement in Los Angeles, helping Angelenos build and track progress
   toward a shared vision for the future of Los Angeles.
-category_metrics: >-
-  ['Travel time to work', 'Number of public transit riders', 'Participation in
-  neighborhood councils']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to LIVE']
-unique_identifier: mh3hwz24
+category_metrics:
+  - Travel time to work
+  - Number of public transit riders
+  - Participation in neighborhood councils
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/university-of-southern-california/
 order: 24
-project_image: /assets/images/connect/university-of-southern-california.jpg
-project_proposal_impact: []
+project_image: university-of-southern-california.jpg
 
 ---

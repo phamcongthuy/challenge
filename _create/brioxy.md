@@ -94,7 +94,7 @@ project_measure: >-
    
    Regionally we are looking to see: 
    
-   Support for and increase in the number of minority- and women-owned firms in LA—our programs are culturally based, draw from some of the country’s best trainers and thought leadersâ€”with hard skills that will build resilient organizations and companies. 
+   Support for and increase in the number of minority- and women-owned firms in LA—our programs are culturally based, draw from some of the country’s best trainers and thought leaders—with hard skills that will build resilient organizations and companies. 
    
    
    
@@ -102,7 +102,7 @@ project_measure: >-
    
    
    
-   Growth in the number of arts establishments per capita in Los Angles by 2050: Creative hives are crucial to artistic and cultural vitality of LA. Artists are being displaced at an alarming rate. Increasing the number of arts establishments per capita is essentialâ€”ensuring that those at the margins, people of color, women and LGBTQ creatives are placed at the center. 
+   Growth in the number of arts establishments per capita in Los Angles by 2050: Creative hives are crucial to artistic and cultural vitality of LA. Artists are being displaced at an alarming rate. Increasing the number of arts establishments per capita is essential—ensuring that those at the margins, people of color, women and LGBTQ creatives are placed at the center. 
    
    
    
@@ -112,16 +112,16 @@ project_five_years: >-
   of nonprofit social change, technology, media, philanthropy, entertainment,
   and finance, building inclusive sectors where young people of color thrive as
   the demographics of this country shift over the next two decades.
-category_metrics: >-
-  ['Employment in the creative industries', 'Minority- and women-owned firms',
-  'Arts establishments per capita']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: quiq7ysz
+category_metrics:
+  - Employment in the creative industries
+  - Minority- and women-owned firms
+  - Arts establishments per capita
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/brioxy/
 order: 2
-project_image: /assets/images/create/brioxy.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: brioxy.jpg
 
 ---

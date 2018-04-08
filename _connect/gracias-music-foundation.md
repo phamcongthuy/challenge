@@ -56,15 +56,15 @@ project_measure: By how many Angelenos will attend and CONNECT at our events.
 project_five_years: >-
   We hope to have a world-class music school that will serve students from ALL
   socioeconomic backgrounds
-category_metrics: >-
-  ['Attendance at cultural events', 'Attendance at public/open streets
-  gatherings', 'Rates of volunteerism']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: 728vixza
+category_metrics:
+  - Attendance at cultural events
+  - Attendance at public/open streets gatherings
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/gracias-music-foundation/
 order: 16
-project_image: /assets/images/connect/gracias-music-foundation.jpg
-project_proposal_impact: []
+project_image: gracias-music-foundation.jpg
 
 ---

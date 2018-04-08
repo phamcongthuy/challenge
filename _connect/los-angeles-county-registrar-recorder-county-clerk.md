@@ -121,13 +121,14 @@ project_five_years: >-
   to tailor it to the specific needs of their communities. 
    
    Progress on this project can be tracked at vsap.lavote.net
-category_metrics: '[''Government responsiveness to residents’ needs'', ''Voting rates'']'
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: xdntt024
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Voting rates
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/los-angeles-county-registrar-recorder-county-clerk/
 order: 45
-project_image: /assets/images/connect/los-angeles-county-registrar-recorder-county-clerk.jpg
-project_proposal_impact: []
+project_image: los-angeles-county-registrar-recorder-county-clerk.jpg
 
 ---

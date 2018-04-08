@@ -131,13 +131,13 @@ project_five_years: |-
   We would win the war on Obesity in LA by making it less than 8 percent. 
    
    It would create at least 50 budding leaders in Science Education by our next vision of 'Each One, Reach One'
-category_metrics: '[''Obesity rates'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: mfopa4x7
+category_metrics:
+  - Obesity rates
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/science-academy-for-all/
 order: 25
-project_image: /assets/images/live/science-academy-for-all.jpg
-project_proposal_impact: []
+project_image: science-academy-for-all.jpg
 
 ---

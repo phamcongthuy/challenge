@@ -89,21 +89,21 @@ project_proposal_best_place: >-
    
    
    
-   Small Business Outreach and Business Directory: As part of the publication, small businesses may access free or low-cost graphic design or translation services to help broaden their community reach.They will also be able to place advertisements, with ad spaces prioritized for local small businesses. Currently, older legacy businesses struggle to reach newer generations, and newer businesses struggle to reach older generations, in part due to branding or linguistic barriers. Conversations with businesses may also include counseling on how to increase reachâ€”whether by adding translation or trying online marketing. Concurrently, we will be developing a small business directory that will feature older and new businesses to capture the different types of businesses in Chinatown. 
+   Small Business Outreach and Business Directory: As part of the publication, small businesses may access free or low-cost graphic design or translation services to help broaden their community reach.They will also be able to place advertisements, with ad spaces prioritized for local small businesses. Currently, older legacy businesses struggle to reach newer generations, and newer businesses struggle to reach older generations, in part due to branding or linguistic barriers. Conversations with businesses may also include counseling on how to increase reach—whether by adding translation or trying online marketing. Concurrently, we will be developing a small business directory that will feature older and new businesses to capture the different types of businesses in Chinatown. 
    
    
    
    Community Engagement Events - in person events at local venues to engage the public in meaningful interactions and dialogues. Opportunities include movie screenings, housing rights workshops, community panels on local issues, and cultural activities. 
    
-   The project’s new storytelling platform is a vehicle for community building around important issues of shared interest. It also provides new ways to access community resources, and opportunities for people to activate and connectâ€”either actively as volunteers or event-goers, or passively as readers. The focus on storytelling helps build empathy and mutual understanding across different generations, experiences, histories and perspectives, toward building community cohesion and resilience.
+   The project’s new storytelling platform is a vehicle for community building around important issues of shared interest. It also provides new ways to access community resources, and opportunities for people to activate and connect—either actively as volunteers or event-goers, or passively as readers. The focus on storytelling helps build empathy and mutual understanding across different generations, experiences, histories and perspectives, toward building community cohesion and resilience.
 project_proposal_engage: |-
   WAPOW’s bilingual coverage and events connect in many ways:
    
-   ...to resources - With real estate speculation squeezing small businesses and residents—95 percent are renters, and about a quarter are fixed-income seniorsâ€”WAPOW is a tool, training locals on City planning processes and highlighting available supportsâ€”e.g., tenant rights and small business assistance. 
+   ...to resources - With real estate speculation squeezing small businesses and residents—95 percent are renters, and about a quarter are fixed-income seniors—WAPOW is a tool, training locals on City planning processes and highlighting available supports—e.g., tenant rights and small business assistance. 
    
    ...to each other - As demographics change, WAPOW shares stories about people and places to celebrate local heritage, build empathy across cultures and generations, and encourage community-building and stewardship. Every quarter, we choose a theme to guide conversation around issues otherwise not covered by mainstream or ethnic media. In Issue 2, “Family Traditions,” we brought Chinatown chefs from different backgrounds around a dinner conversation on their family traditions. In Issue 3, “Roots,” we held a tour of LA State Historic Park, and guest speaker Robert Garcia of the former Chinatown Yards Alliance, shared his experience with the coalition that fought for the park. In Issue 4, we'll celebrate New Chinatown’s 80th Anniversary, and ask locals their hopes for the next 80 years, to start conversation on community visioning. 
    
-   ...to volunteer opportunities - WAPOW is a collaborative project, successful because it leverages contributors’ strengths to contribute in ways that are meaningfulâ€”through artwork, language competencies, people skills, event planning, cooking, etc. It will continue engaging different partners.
+   ...to volunteer opportunities - WAPOW is a collaborative project, successful because it leverages contributors’ strengths to contribute in ways that are meaningful—through artwork, language competencies, people skills, event planning, cooking, etc. It will continue engaging different partners.
 project_measure: >-
   WAPOW is meant to engage a multigenerational audience. As such, our metrics
   will vary across population groups. Engagement with younger folks may be
@@ -152,17 +152,18 @@ project_five_years: >-
    - Gathering space for community groups to meet and use equipment (Wifi, software, etc.), while incubating and marketing their Chinatown-serving projects
    
    - Computer lab space for elders to learn technology and possibly work with Visual Communications to organize a Digital Histories program that teaches seniors to make movies about their own lives
-category_metrics: >-
-  ['Attendance at cultural events', 'Government responsiveness to residents’
-  needs', 'Rates of volunteerism']
-category_other: >-
-  ['LA is the best place to LEARN', 'LA is the best place to CREATE', 'LA is the
-  best place to PLAY', 'LA is the healthiest place to LIVE']
-unique_identifier: sso7urdl
+category_metrics:
+  - Attendance at cultural events
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/good-shine-studio/
 order: 8
-project_image: /assets/images/connect/good-shine-studio.jpg
-project_proposal_impact: []
+project_image: good-shine-studio.jpg
 
 ---

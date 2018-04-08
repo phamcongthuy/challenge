@@ -121,34 +121,39 @@ project_proposal_engage: >-
    
    
    Finally, Ambassadors will also reach out online to the residents themselves via online forums in order to monitor and understand how the tool is being adopted by individuals, and make recommendations back to Management towards improving end-user experiences.
-project_measure: >-
-  GENERAL GOAL: ACTIVATION OF 100,000 ANGELENOSâ€¨>Definition: The number of
-  accounts created in the system and/or joined from other social media accounts
-  into the system.
+project_measure: |-
+
+  #### GENERAL GOAL: ACTIVATION OF 100,000 ANGELENOS
+
+    Definition
+    : The number of accounts created in the system and/or joined from other social media accounts into the system. 
+
+    Measurement
+    : Via direct counting of system accounts within the software system.
+
+  #### METRIC: GOVERNMENT RESPONSIVENESS TO RESIDENTS’ NEEDS (dream)
    
-   >Measurement: Via direct counting of system accounts within the software system.
+    Definition
+    : The number of actions taken by governments in response to resident requests made through the software system (acknowledgement of request, followup activities, final resolution, etc).
+
+    Measurement
+    : Via direct reporting from the metric-tracking component of the software system.
+
+  #### METRIC: PARTICIPATION IN NEIGHBORHOOD COUNCILS (voting rates)
+
+    Definition
+    : LA2050 has defined this metric as the voting rates in Neighborhood Councils.
+
+    Measurement
+    : Via year to year comparison of vote counts.
+
+  #### METRIC: TOTAL NUMBER OF SOCIAL MEDIA FRIENDS/CONNECTIONS (dream)
    
-   
-   
-   METRIC: GOVERNMENT RESPONSIVENESS TO RESIDENTS’ NEEDS (dream)
-   
-   >Definition: The number of actions taken by governments in response to resident requests made through the software system (acknowledgement of request, followup activities, final resolution, etc).
-   
-   >Measurement: Via direct reporting from the metric-tracking component of the software system.
-   
-   
-   
-   METRIC: PARTICIPATION IN NEIGHBORHOOD COUNCILS (voting rates)â€¨>Definition: LA2050 has defined this metric as the voting rates in Neighborhood Councils.
-   
-   >Measurement: Via year to year comparison of vote counts.
-   
-   
-   
-   METRIC: TOTAL NUMBER OF SOCIAL MEDIA FRIENDS/CONNECTIONS (dream)
-   
-   >Definition: The number of new social media friend (person to person) and connection (person to group) links made via the system. 
-   
-   >Measurement: Via periodic automated tallying of user social linkages.
+    Definition
+    : The number of new social media friend (person to person) and connection (person to group) links made via the system. 
+
+    Measurement
+    : Via periodic automated tallying of user social linkages.
 project_five_years: >-
   Our goal for this activation is to use Los Angeles County as a laboratory and
   ultimately a template for replicating our success here into other places. 
@@ -160,16 +165,15 @@ project_five_years: >-
    
    
    In terms of capabilities, we expect that the system we will have five years from now will have evolved greatly from what we initially launch, with that evolution being strongly informed by feedback from our user base of residents and governments.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Total number of local social media friends and
-  connections Angelenos have']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: zmtpwwws
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/regional-la/
 order: 33
-project_image: /assets/images/connect/regional-la.jpg
-project_proposal_impact: []
+project_image: regional-la.jpg
 
 ---

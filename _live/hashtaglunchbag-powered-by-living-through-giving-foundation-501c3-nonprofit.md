@@ -9,7 +9,7 @@ organization_name: >-
   #HashtagLunchbag - powered by Living Through Giving Foundation, 501(c)3
   nonprofit
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?time_continue=11&v=3WjUJh2z0WE'
+project_video: 'https://www.youtube.com/embed?v=3WjUJh2z0WE'
 link_newsletter: 'https://goo.gl/forms/HvFWTVSPJC998nYu2'
 organization_website: www.hashtaglunchbag.org
 organization_twitter: '@hashtaglunchbag'
@@ -88,19 +88,17 @@ project_five_years: >-
   number of meals served and communities provided for by 2023.
    
    Awareness, Outreach, & Connecting Angelenos: Living Through Giving Foundation looks forward to enhance its current outreach and awareness strategies to increase the use of technology in order to deepen the engagement of Angelenos looking for ways to bring about change in their communities.
-category_metrics: >-
-  ['Access to healthy food', 'Number of households below the self-sufficiency
-  standard', 'Resilient communities']
-category_other: '[''LA is the healthiest place to CONNECT'']'
-unique_identifier: 1zsoda6m
+category_metrics:
+  - Access to healthy food
+  - Number of households below the self-sufficiency standard
+  - Resilient communities
+category_other:
+  - LA is the healthiest place to CONNECT
 category: live
 uri: >-
   /live/hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit/
 order: 0
 project_image: >-
-  /assets/images/live/hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit.jpg
-is_winner: true
-is_finalist: true
-project_proposal_impact: []
+  hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit.jpg
 
 ---

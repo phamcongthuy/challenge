@@ -9,7 +9,7 @@ organization_description: For-profit organization
 project_video: 'https://www.youtube.com/embed?v=nNWKz4hwzOc&t=1s'
 link_newsletter: 'https://www.rootsnwings.org/wwwactivated-potentialcom.html'
 organization_website: rootsnwings.org
-organization_twitter: N/A
+organization_twitter: ''
 organization_instagram: rootsnwings_malibu
 organization_facebook: >-
   https://www.facebook.com/Roots-Wings-Counseling-Classes-Coaching-for-a-Meaningful-Life-1952358844987700/
@@ -115,13 +115,13 @@ project_measure: >-
    
    - Managing Emotions: Others & Self
 project_five_years: In several Los Angeles school districts & communities nationwide.
-category_metrics: '[''Prevalence of adverse childhood experiences'']'
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: e101bjor
+category_metrics:
+  - Prevalence of adverse childhood experiences
+category_other:
+  - LA is the best place to LEARN
 category: live
 uri: /live/roots-wings/
 order: 34
-project_image: /assets/images/live/roots-wings.jpg
-project_proposal_impact: []
+project_image: roots-wings.jpg
 
 ---

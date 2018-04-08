@@ -13,7 +13,7 @@ organization_twitter: '@SmlBizMajority'
 organization_facebook: 'https://www.facebook.com/SmallBusinessMajority'
 organization_instagram: smlbizmajority
 link_newsletter: 'http://smallbusinessmajority.org/about-us/media-kit'
-link_volunteer: n/a
+link_volunteer: ''
 link_donate: 'http://www.smallbusinessmajority.org/donate'
 organization_activity: >-
   Small Business Majority empowers America's entrepreneurs to build an
@@ -52,15 +52,15 @@ project_proposal_best_place: >-
    
    Key elements include:
    
-   â€¢ Access to capital: One of the biggest challenges facing entrepreneurs and small business owners continues to be the inability to access credit and capital. We provide education on how to find responsible lenders, avoid predatory lending traps, improve a credit score and access capital through non-traditional methods like crowdfunding. This education is particularly important for women and minority entrepreneurs, who are more likely to be denied a traditional loan than their white male counterparts. 
+   * Access to capital: One of the biggest challenges facing entrepreneurs and small business owners continues to be the inability to access credit and capital. We provide education on how to find responsible lenders, avoid predatory lending traps, improve a credit score and access capital through non-traditional methods like crowdfunding. This education is particularly important for women and minority entrepreneurs, who are more likely to be denied a traditional loan than their white male counterparts. 
    
-   â€¢ Access to healthcare: We believe that every person has the right to quality, affordable and equitable healthcare. We help small employers explore their options to access affordable healthcare coverage for themselves and their employees.
+   * Access to healthcare: We believe that every person has the right to quality, affordable and equitable healthcare. We help small employers explore their options to access affordable healthcare coverage for themselves and their employees.
    
-   â€¢ Women entrepreneurs: Despite many gains, gender inequality continues to heavily impact women entrepreneurs. LA is the pilot city for our new Women’s Entrepreneurship program, specifically designed to educate women business owners about their networking, mentorship and procurement options. We educate women on obtaining certification as a woman-owned business, resources to meet their childcare needs and accessing the capital necessary to start and grow their businesses.
+   * Women entrepreneurs: Despite many gains, gender inequality continues to heavily impact women entrepreneurs. LA is the pilot city for our new Women’s Entrepreneurship program, specifically designed to educate women business owners about their networking, mentorship and procurement options. We educate women on obtaining certification as a woman-owned business, resources to meet their childcare needs and accessing the capital necessary to start and grow their businesses.
    
-   â€¢ Venturize.org: This online platform provides education and resources for small business owners seeking loans, while also offering more in-depth resources such as business planning and financial management tools. We are expanding this platform to LA, engaging partner organizations to share its resources, and developing a feature to connect entrepreneurs with local, in-person support to help them grow their businesses and create good jobs in their communities.
+   * Venturize.org: This online platform provides education and resources for small business owners seeking loans, while also offering more in-depth resources such as business planning and financial management tools. We are expanding this platform to LA, engaging partner organizations to share its resources, and developing a feature to connect entrepreneurs with local, in-person support to help them grow their businesses and create good jobs in their communities.
    
-   â€¢ Ecosystem mapping: A small business ecosystem comprises the local organizations that offer low- or no-cost assistance to small businesses. Our in-depth mapping of LA-area lenders and business assistance organizations allows us to easily refer small business owners to trusted partners for in-person assistance.
+   * Ecosystem mapping: A small business ecosystem comprises the local organizations that offer low- or no-cost assistance to small businesses. Our in-depth mapping of LA-area lenders and business assistance organizations allows us to easily refer small business owners to trusted partners for in-person assistance.
 project_proposal_engage: >-
   This activation will engage current and aspiring LA entrepreneurs and the
   organizations supporting them through free educational events, our Venturize
@@ -107,13 +107,13 @@ project_five_years: >-
    6. Expanded products and services: We are exploring the development of project-based advisory or consulting services that can help larger organizations better understand, serve and support small businesses. 
    
    Over the next five years, we will use these strategies, among others, to continue building and strengthening the community of small business owners in LA and nationwide.
-category_metrics: '[''Minority- and women-owned firms'']'
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: 9d9lfbot
+category_metrics:
+  - Minority- and women-owned firms
+category_other:
+  - LA is the healthiest place to LIVE
 category: create
 uri: /create/small-business-majority/
 order: 14
-project_image: /assets/images/create/small-business-majority.jpg
-project_proposal_impact: []
+project_image: small-business-majority.jpg
 
 ---

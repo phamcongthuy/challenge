@@ -10,7 +10,7 @@ project_description: >-
 organization_name: Lava Mae
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=Uxp2LencnXs'
-link_newsletter: 'Please email: infola@lavamae.org with the subject line: LA mailing list'
+link_newsletter: 'mailto:infola@lavamae.org?subject=LA mailing list'
 organization_website: www.lavamae.org
 organization_twitter: '@lavamaela'
 organization_facebook: lavamae_la
@@ -87,7 +87,7 @@ project_proposal_best_place: >-
    
    
    
-   For exampleâ€¦
+   For example…
    
    
    
@@ -168,15 +168,16 @@ project_five_years: >-
   empathy, and galvanized action. And we will have mobilized hundreds of
   thousands of Angelenos to advocate for more innovative solutions to
   alleviating Los Angeles’ homelessness crisis.
-category_metrics: >-
-  ['Adults getting sufficient social & emotional support', 'Government
-  responsiveness to residents’ needs', 'Rates of volunteerism']
-category_other: '[''LA is the best place to LEARN'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: bw4iwjvv
+category_metrics:
+  - Adults getting sufficient social & emotional support
+  - Government responsiveness to residents’ needs
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to LEARN
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/lava-mae/
 order: 38
-project_image: /assets/images/connect/lava-mae.jpg
-project_proposal_impact: []
+project_image: lava-mae.jpg
 
 ---

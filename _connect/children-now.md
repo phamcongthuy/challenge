@@ -2,7 +2,7 @@
 application_id: '2495556897'
 title: >-
   Making LA the Best Place to Connect Angelenos to Support a Strong Start for
-  NiÃ±itos
+  Niñitos
 project_description: >-
   Children Now will support thousands of Angelenos to voice their support for
   quality care and education for LA’s babies.
@@ -13,7 +13,7 @@ link_newsletter: 'http://bit.ly/prokidca'
 organization_website: www.childrennow.org
 organization_twitter: '@ChildrenNow'
 organization_facebook: Children-Now-224016820554/
-organization_instagram: N/A
+organization_instagram: ''
 link_donate: 'http://bit.ly/supportcn'
 link_volunteer: 'http://bit.ly/prokidcajobs'
 organization_activity: >-
@@ -22,8 +22,8 @@ organization_activity: >-
   health, early development, education, and welfare.
 project_proposal_description: >-
   Too often in LA, children—especially children of color, children in foster
-  care, and those growing up in povertyâ€”face many systemic barriers to a
-  healthy early start. In order to build the public pressure necessary to push
+  care, and those growing up in poverty—face many systemic barriers to a healthy
+  early start. In order to build the public pressure necessary to push
   policymakers to ensure all young kids have the supports they need to thrive in
   their first years, Children Now will execute a communications campaign to
   educate, connect, and mobilize Angelenos behind a strong vision for LA’s
@@ -57,15 +57,15 @@ project_proposal_best_place: >-
    
    
    
-   â€¢ Infographics highlighting key data and statistics on the need for strong supports for early brain development and social emotional development; 
+   * Infographics highlighting key data and statistics on the need for strong supports for early brain development and social emotional development; 
    
-   â€¢ Video blog posts on early brain development and social emotional development for young children;
+   * Video blog posts on early brain development and social emotional development for young children;
    
-   â€¢ Shareable memes and photos with data points highlighting the need for better supports for infants and toddlers; 
+   * Shareable memes and photos with data points highlighting the need for better supports for infants and toddlers; 
    
-   â€¢ Links to partners’ and researchers’ reports and materials that highlight infant and toddler issues; and
+   * Links to partners’ and researchers’ reports and materials that highlight infant and toddler issues; and
    
-   â€¢ Social media posts targeted at key state and LA County candidates of the 2018 election.
+   * Social media posts targeted at key state and LA County candidates of the 2018 election.
    
    
    
@@ -122,15 +122,14 @@ project_five_years: >-
    
    
    We know achieving the vision of a comprehensive, family-centered, high quality early learning system won’t happen overnight. There will be many steps in the process, and we need to keep a network of dedicated Angelenos engaged throughout. In five years, our goal is that Children Now will move from significantly elevating an aspirational policy and advocacy vision for integrated infant and toddler supports in LA to achieving key policy wins on components of the vision, such as increasing the number of LA babies that are screened for developmental delays, improving the availability of voluntary home visiting programs for families that need them, providing support for young children who are dual language learners, addressing maternal mental health, and continuing to educate and engage our network to see the vision fully realized.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Total number of local
-  social media friends and connections Angelenos have']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: ec5ksazl
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Total number of local social media friends and connections Angelenos have
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/children-now/
 order: 28
-project_image: /assets/images/connect/children-now.jpg
-project_proposal_impact: []
+project_image: children-now.jpg
 
 ---

@@ -179,16 +179,16 @@ project_five_years: >-
   project, in five years, there will be much more active participation by
   millennials in city decisions not only in the Neighborhood Council system, but
   in serving on city commission and boards and in running for higher office.
-category_metrics: >-
-  ['Attendance at cultural events', 'Participation in neighborhood councils',
-  'Rates of volunteerism']
-category_other: '[''LA is the best place to CREATE'', ''LA is the healthiest place to LIVE'']'
-unique_identifier: dmrvxfau
+category_metrics:
+  - Attendance at cultural events
+  - Participation in neighborhood councils
+  - Rates of volunteerism
+category_other:
+  - LA is the best place to CREATE
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/la-commons-a-project-of-community-partners/
 order: 3
-project_image: /assets/images/connect/la-commons-a-project-of-community-partners.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: la-commons-a-project-of-community-partners.jpg
 
 ---

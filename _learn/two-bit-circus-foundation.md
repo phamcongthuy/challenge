@@ -5,16 +5,16 @@ project_description: >-
   Robots, fire and next-gen inventions - STEAM Carnival - a Trojan horse to
   interest kids in Science, Tech, Engineering, Art & Math careers. Young
   inventors in South Los Angeles step right up!
-organization_name: TWo Bit Circus Foundation
+organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=6ZaOSqWls54'
-link_newsletter: 'Newsletter = http://twobitcircus.org/newsletter/'
+link_newsletter: 'http://twobitcircus.org/newsletter/'
 organization_website: TwoBitCircus.org
 organization_twitter: '@TwoBitCircusorg'
 organization_facebook: '@TwoBitCircusorg'
 organization_instagram: '@TwoBitCircusorg'
-link_donate: 'Donate = http://twobitcircus.org/how-you-can-help/donate-now/'
-link_volunteer: 'Volunteer = http://twobitcircus.org/volunteer/'
+link_donate: 'http://twobitcircus.org/how-you-can-help/donate-now/'
+link_volunteer: 'http://twobitcircus.org/volunteer/'
 organization_activity: >-
   We inspire the next generation of inventors, creators, and entrepreneurs while
   inspiring environmental stewardship by using manufacturers cast-offs.
@@ -100,13 +100,14 @@ project_five_years: >-
   with schools, school districts and communities both underserved (where we will
   raise the money) and affluent communities where ticket prices are able to
   cover the cost.
-category_metrics: '[''Students’ immersion in Science, Technology, Engineering, and Math content'']'
-category_other: '[''LA is the best place to CREATE'', ''LA is the best place to PLAY'']'
-unique_identifier: tt0s1b1q
+category_metrics:
+  - 'Students’ immersion in Science, Technology, Engineering, and Math content'
+category_other:
+  - LA is the best place to CREATE
+  - LA is the best place to PLAY
 category: learn
 uri: /learn/two-bit-circus-foundation/
 order: 13
-project_image: /assets/images/learn/two-bit-circus-foundation.jpg
-project_proposal_impact: []
+project_image: two-bit-circus-foundation.jpg
 
 ---

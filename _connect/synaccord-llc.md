@@ -9,7 +9,9 @@ organization_name: 'Synaccord, LLC'
 organization_description: For-profit organization
 project_video: ''
 link_newsletter: 'http://www.synaccord.com/contact.html'
-organization_website: synaccord.com synaccord.com/citydemo
+organization_website:
+  - synaccord.com
+  - synaccord.com/citydemo
 organization_twitter: '@synaccord'
 organization_facebook: 'https://www.facebook.com/synaccord'
 organization_instagram: engageyourneighborhood
@@ -174,15 +176,15 @@ project_five_years: >-
    
    
    We also plan to see more communities across California and the US using these tools to engage with each other, and their governments to make our country awesome!
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils', 'Voting rates']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: ws9yzyln
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+  - Voting rates
+category_other:
+  - LA is the best place to LEARN
 category: connect
 uri: /connect/synaccord-llc/
 order: 30
-project_image: /assets/images/connect/synaccord-llc.jpg
-project_proposal_impact: []
+project_image: synaccord-llc.jpg
 
 ---

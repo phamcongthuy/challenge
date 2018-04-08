@@ -15,7 +15,7 @@ organization_website: 'https://lawmaker.io/'
 organization_twitter: '@WeAreLawMaker'
 organization_facebook: 'https://www.facebook.com/WeAreLawMaker/'
 organization_instagram: '@WeAreLawMaker'
-link_donate: N/A
+link_donate: ''
 link_volunteer: 'https://lawmaker.io/sign_up/individual'
 organization_activity: >-
   LawMaker.io gives voters the power to crowdsource new policies that are
@@ -115,15 +115,14 @@ project_five_years: >-
   state and federal levels. It is our hope that 1% of all policy discussed on
   the floors of government originate with a civilian authored proposals on
   LawMaker.
-category_metrics: >-
-  ['Government responsiveness to residents’ needs', 'Participation in
-  neighborhood councils']
-category_other: '[''LA is the healthiest place to LIVE'']'
-unique_identifier: u2zkzdq
+category_metrics:
+  - Government responsiveness to residents’ needs
+  - Participation in neighborhood councils
+category_other:
+  - LA is the healthiest place to LIVE
 category: connect
 uri: /connect/lawmaker-io/
 order: 23
-project_image: /assets/images/connect/lawmaker-io.jpg
-project_proposal_impact: []
+project_image: lawmaker-io.jpg
 
 ---

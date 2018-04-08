@@ -17,7 +17,7 @@ organization_facebook: /LosAngelesDodgersFoundation/
 organization_instagram: '@DodgersFoundation'
 link_newsletter: Dodgers.com/LADF
 link_donate: Dodgers.com/LADF
-link_volunteer: Info@dodgersfoundation.org
+link_volunteer: 'mailto:Info@dodgersfoundation.org'
 organization_activity: >-
   LADF works to significantly impact underserved youth in economically
   challenged areas of Los Angeles through pillars of Sports+Recreation,
@@ -108,17 +108,15 @@ project_five_years: >-
    
    
    Our programs are truly bigger than baseball, and with the support of dedicated collaborators and community partners, we will promote PLAY in LA, for years to come!
-category_metrics: >-
-  ['Number of children enrolled in afterschool programs', 'Number of parks with
-  intergenerational play opportunities', 'Number of residents with easy access
-  to a “vibrant” park']
-category_other: '[''LA is the best place to LEARN'']'
-unique_identifier: 67s1dt44
+category_metrics:
+  - Number of children enrolled in afterschool programs
+  - Number of parks with intergenerational play opportunities
+  - Number of residents with easy access to a “vibrant” park
+category_other:
+  - LA is the best place to LEARN
 category: play
 uri: /play/los-angeles-dodgers-foundation/
 order: 2
-project_image: /assets/images/play/los-angeles-dodgers-foundation.jpg
-is_finalist: true
-project_proposal_impact: []
+project_image: los-angeles-dodgers-foundation.jpg
 
 ---

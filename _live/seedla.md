@@ -11,9 +11,9 @@ project_video: 'https://www.youtube.com/embed?v=p0Ag2WK9kaw'
 link_newsletter: 'https://www.facebook.com/seedusa/?fref=ts'
 organization_website: 'http://seedcg.org/'
 organization_twitter: seedcg
-organization_instagram: N/A
+organization_instagram: ''
 organization_facebook: 'https://www.facebook.com/seedusa/?fref=ts'
-link_volunteer: join@seedcg.org
+link_volunteer: 'mailto:join@seedcg.org'
 link_donate: 'http://seedcg.org/donate.html'
 organization_activity: >-
   SeedLA brings together highly skilled young Angelenos and provides pro-bono
@@ -105,15 +105,15 @@ project_measure: >-
 project_five_years: >-
   We hope to continue to make LA a better place to LIVE through our growth and
   continued support to local environmental non-profits.
-category_metrics: >-
-  ['Access to healthy food', 'Acres and miles of polluted waterways', 'Exposure
-  to air toxins']
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: yv0qe8x6
+category_metrics:
+  - Access to healthy food
+  - Acres and miles of polluted waterways
+  - Exposure to air toxins
+category_other:
+  - LA is the best place to CREATE
 category: live
 uri: /live/seedla/
 order: 31
-project_image: /assets/images/live/seedla.jpg
-project_proposal_impact: []
+project_image: seedla.jpg
 
 ---

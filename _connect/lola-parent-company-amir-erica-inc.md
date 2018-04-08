@@ -83,13 +83,14 @@ project_five_years: >-
   By 2023, we hope LOLA will be the go-to digital platform where LA residents,
   organizations, and businesses learn about local issues, discuss new ideas, and
   collaborate on community projects.
-category_metrics: '[''Rates of volunteerism'', ''Voting rates'']'
-category_other: '[''LA is the best place to CREATE'']'
-unique_identifier: tuuqhqvg
+category_metrics:
+  - Rates of volunteerism
+  - Voting rates
+category_other:
+  - LA is the best place to CREATE
 category: connect
 uri: /connect/lola-parent-company-amir-erica-inc/
 order: 25
-project_image: /assets/images/connect/lola-parent-company-amir-erica-inc.jpg
-project_proposal_impact: []
+project_image: lola-parent-company-amir-erica-inc.jpg
 
 ---
