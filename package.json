@@ -4,7 +4,7 @@
   "description": "",
   "author": "jim@jimthoburn.com",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "nightwatch ./test/test.js --config ./test/nightwatch.config.js",
     "create-markdown": "node _node/create-markdown.js",
     "update-markdown": "node _node/update-markdown.js",
     "copy-images": "node _node/copy-images.js",
@@ -12,14 +12,13 @@
     "create-images": "gulp"
   },
   "devDependencies": {
-    "concurrent-transform": "^1.0.0",
+    "js-yaml": "^3.10.0",
     "csv-parse": "^2.1.0",
+    "concurrent-transform": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-image-resize": "^0.12.0",
-    "js-yaml": "^3.10.0",
-    "mysql": "^2.15.0",
-    "pdf-text": "^0.4.0",
-    "pdfjs-dist": "^2.0.466",
-    "phpunserialize": "^1.0.1"
+    "selenium-server": "^3.7.1",
+    "chromedriver": "^2.33.2",
+    "nightwatch": "^0.9.16"
   }
 }

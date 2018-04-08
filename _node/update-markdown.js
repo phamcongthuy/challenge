@@ -163,15 +163,18 @@ function processFile(filename) {
   // }
 
 
-  if (data.yaml.organization_website.indexOf('/') === 0 ||
-      data.yaml.organization_twitter.indexOf('/') === 0 ||
-      data.yaml.organization_facebook.indexOf('/') === 0 ||
-      data.yaml.organization_instagram.indexOf('/') === 0 ||
-      data.yaml.link_newsletter.indexOf('/') === 0 ||
-      data.yaml.link_donate.indexOf('/') === 0 ||
-      data.yaml.link_volunteer.indexOf('/') === 0) {
-    console.log(filename)
-  }
+  // console.log(data.yaml.project_video)
+
+
+  // if (data.yaml.organization_website.indexOf('/') === 0 ||
+  //     data.yaml.organization_twitter.indexOf('/') === 0 ||
+  //     data.yaml.organization_facebook.indexOf('/') === 0 ||
+  //     data.yaml.organization_instagram.indexOf('/') === 0 ||
+  //     data.yaml.link_newsletter.indexOf('/') === 0 ||
+  //     data.yaml.link_donate.indexOf('/') === 0 ||
+  //     data.yaml.link_volunteer.indexOf('/') === 0) {
+  //   console.log(filename)
+  // }
 
   /*
   if (data.yaml.organization_website.indexOf(' ') >= 0 ||
