@@ -178,8 +178,8 @@ category_metrics:
 category_other:
   - LA is the best place to LEARN
 category: live
-uri: /live/süprseed-inc/
+uri: /live/süprseed/
 order: 8
-project_image: süprseed-inc.jpg
+project_image: süprseed.jpg
 
 ---
