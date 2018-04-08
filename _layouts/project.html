@@ -112,6 +112,13 @@ stylesheets:
 {% capture link_newsletter_url %}http://{{ link_newsletter }}{% endcapture %}
 {% endif %}
 
+{% assign url_contains_notes = '' %}
+{% if link_newsletter_url contains " " %}
+{% unless link_newsletter_url contains "?subject" %}
+{% assign url_contains_notes = link_newsletter_url %}
+{% endunless %}
+{% endif %}
+{% if url_contains_notes == '' %}
 <div class="links links-action">
 <h2>Love this idea?</h2>
 
@@ -119,6 +126,7 @@ stylesheets:
   <li><a href="{{ link_newsletter_url }}">Stay updated on this activation</a></li>
 </ul>
 </div>
+{% endif %}
 
 {% endfor %}
 
@@ -149,7 +157,15 @@ stylesheets:
     {% capture link_donate_url %}http://{{ link_donate }}{% endcapture %}
     {% endif %}
 
+    {% assign url_contains_notes = '' %}
+    {% if link_donate_url contains " " %}
+    {% unless link_donate_url contains "?subject" %}
+    {% assign url_contains_notes = link_donate_url %}
+    {% endunless %}
+    {% endif %}
+    {% if url_contains_notes == '' %}
     <li><a href="{{ link_donate_url }}">Donate</a></li>
+    {% endif %}
 
     {% endfor %}
 
@@ -165,7 +181,15 @@ stylesheets:
     {% capture link_volunteer_url %}http://{{ link_volunteer }}{% endcapture %}
     {% endif %}
 
+    {% assign url_contains_notes = '' %}
+    {% if link_volunteer_url contains " " %}
+    {% unless link_volunteer_url contains "?subject" %}
+    {% assign url_contains_notes = link_volunteer_url %}
+    {% endunless %}
+    {% endif %}
+    {% if url_contains_notes == '' %}
     <li><a href="{{ link_volunteer_url }}">Volunteer</a></li>
+    {% endif %}
 
     {% endfor %}
 

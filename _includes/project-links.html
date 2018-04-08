@@ -10,6 +10,15 @@
 {% else %}
 {% capture website_url %}http://{{ website }}{% endcapture %}
 {% endif %}
+
+
+{% assign url_contains_notes = '' %}
+{% if website_url contains " " %}
+{% unless website_url contains "?subject" %}
+{% assign url_contains_notes = website_url %}
+{% endunless %}
+{% endif %}
+{% if url_contains_notes == '' %}
 <dl>
 <dt>
 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -32,6 +41,8 @@
   </a>
 </dd>
 </dl>
+{% endif %}
+
 {% endfor %}
 {% endif %}
 
@@ -47,6 +58,15 @@
 {% else %}
 {% capture instagram_url %}https://instagram.com/{{ instagram }}{% endcapture %}
 {% endif %}
+
+
+{% assign url_contains_notes = '' %}
+{% if instagram_url contains " " %}
+{% unless instagram_url contains "?subject" %}
+{% assign url_contains_notes = instagram_url %}
+{% endunless %}
+{% endif %}
+{% if url_contains_notes == '' %}
 <dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -57,8 +77,11 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="{{ instagram_url }}">@{{ instagram | replace: "https://www.instagram.com/", "" | replace: "https://instagram.com/", "" | replace: "www.instagram.com/", "" | replace: "instagram.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
+<dd>
+  <a href="{{ instagram_url }}">@{{ instagram | replace: "https://www.instagram.com/", "" | replace: "https://instagram.com/", "" | replace: "www.instagram.com/", "" | replace: "instagram.com/", "" | replace: "/", "" | replace: "@", "" }}</a>
+</dd>
 </dl>
+{% endif %}
 {% endfor %}
 
 {% endif %}
@@ -74,6 +97,15 @@
 {% else %}
 {% capture twitter_url %}https://twitter.com/{{ twitter }}{% endcapture %}
 {% endif %}
+
+
+{% assign url_contains_notes = '' %}
+{% if twitter_url contains " " %}
+{% unless twitter_url contains "?subject" %}
+{% assign url_contains_notes = twitter_url %}
+{% endunless %}
+{% endif %}
+{% if url_contains_notes == '' %}
 <dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -84,8 +116,11 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="{{ twitter_url }}">@{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
+<dd>
+  <a href="{{ twitter_url }}">@{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }}</a>
+</dd>
 </dl>
+{% endif %}
 {% endfor %}
 
 {% endif %}
@@ -101,6 +136,15 @@
 {% else %}
 {% capture facebook_url %}https://facebook.com/{{ facebook }}{% endcapture %}
 {% endif %}
+
+
+{% assign url_contains_notes = '' %}
+{% if facebook_url contains " " %}
+{% unless facebook_url contains "?subject" %}
+{% assign url_contains_notes = facebook_url %}
+{% endunless %}
+{% endif %}
+{% if url_contains_notes == '' %}
 <dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
@@ -111,8 +155,11 @@
     </switch>
   </svg>
 </dt>
-<dd><a href="{{ facebook_url }}">{{ facebook | replace: "https://www.facebook.com/", "" | replace: "https://facebook.com/", "" | replace: "www.facebook.com/", "" | replace: "facebook.com/", "" | replace: "/", "" | replace: "@", "" }}</a></dd>
+<dd>
+  <a href="{{ facebook_url }}">{{ facebook | replace: "https://www.facebook.com/", "" | replace: "https://facebook.com/", "" | replace: "www.facebook.com/", "" | replace: "facebook.com/", "" | replace: "/", "" | replace: "@", "" }}</a>
+</dd>
 </dl>
+{% endif %}
 {% endfor %}
 
 {% endif %}
