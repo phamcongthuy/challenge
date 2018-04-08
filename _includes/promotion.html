@@ -149,7 +149,7 @@
       </div>
       <p>
         <!-- <strong style=""><a href="/entries/" id="home-entries-link">The entries have arrived</a>!</strong> -->
-        <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
+        <span class="avoid-break">Finalists will be announced on <strong class="avoid-break">May 21, 2018.</strong></span>
         <small class="avoid-break">
         Voting begins on
         <span class="avoid-break">
@@ -169,7 +169,7 @@
         ];
         var random = Math.floor(Math.random() * categories.length) + 0;
         console.log(random);
-        link.setAttribute('href', '/' + categories[random] + '/');
+        if (link) link.setAttribute('href', '/' + categories[random] + '/');
       })();
       </script>
 

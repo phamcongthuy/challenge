@@ -338,7 +338,7 @@ show_promotion: true
   ];
   var random = Math.floor(Math.random() * categories.length) + 0;
   console.log(random);
-  link.setAttribute('href', '/' + categories[random] + '/');
+  if (link) link.setAttribute('href', '/' + categories[random] + '/');
 })();
 </script>
 {% elsif site.phase == 5 or site.phase == 7 %}
@@ -357,7 +357,7 @@ show_promotion: true
   ];
   var random = Math.floor(Math.random() * categories.length) + 0;
   console.log(random);
-  link.setAttribute('href', '/' + categories[random] + '/');
+  if (link) link.setAttribute('href', '/' + categories[random] + '/');
 })();
 </script>
 {% elsif site.phase == 6 %}
@@ -712,6 +712,7 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
     }
     body main .header-figure.has-caption.has-caption-details .caption {
       padding-top: 13.5em;
+      padding-top: 22.5vw;
     }
     body main .header-figure.has-caption.has-caption-details .caption h1 {
       position: relative !important;

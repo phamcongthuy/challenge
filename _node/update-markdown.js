@@ -162,8 +162,12 @@ function processFile(filename) {
   //   console.log(data.yaml.project_video)
   // }
 
-
-  // console.log(data.yaml.project_video)
+  // if (data.yaml.project_video.indexOf('#') >= 0 ||
+  //     data.yaml.project_video.indexOf(' ') >= 0) {
+  //   console.log('*******');
+  //   console.log(data.yaml.uri)
+  //   console.log(data.yaml.project_video);
+  // }
 
 
   // if (data.yaml.organization_website.indexOf('/') === 0 ||
@@ -176,6 +180,7 @@ function processFile(filename) {
   //   console.log(filename)
   // }
 
+  /*
   if (data.yaml.organization_website.indexOf('#') >= 0 ||
       data.yaml.organization_twitter.indexOf('#') >= 0 ||
       data.yaml.organization_facebook.indexOf('#') >= 0 ||
@@ -220,6 +225,7 @@ function processFile(filename) {
     // console.log(`https://staging-activation.la2050.org${data.yaml.uri}, https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
     // console.log(`https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename.split('/')[filename.split('/').length - 1]}`);
   }
+  */
   
   
 
