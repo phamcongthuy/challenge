@@ -5,7 +5,7 @@ project_description: >-
   GALA paves the road for high school girls to engage in project based learning
   and real world problem solving while supporting them as they become the
   leaders and innovators in STEM fields of tomorrow.
-organization_name: Girls Acedemic Leadership Academy (GALA)
+organization_name: Girls Academic Leadership Academy (GALA)
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/PTteThgae3o'
 link_newsletter: 'https://www.fogala.org/'
