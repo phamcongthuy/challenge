@@ -4,21 +4,22 @@
   "description": "",
   "author": "jim@jimthoburn.com",
   "scripts": {
-    "test": "nightwatch ./test/test.js --config ./test/nightwatch.config.js",
+    "cypress:open": "cypress open",
+    "test-nightwatch": "nightwatch ./test/test.js --config ./test/nightwatch.config.js",
     "create-markdown": "node _node/create-markdown.js",
     "update-markdown": "node _node/update-markdown.js",
     "copy-images": "node _node/copy-images.js",
-    "read-pdf": "node _node/read-pdf.js",
     "create-images": "gulp"
   },
   "devDependencies": {
-    "js-yaml": "^3.10.0",
-    "csv-parse": "^2.1.0",
+    "chromedriver": "^2.33.2",
     "concurrent-transform": "^1.0.0",
+    "csv-parse": "^2.1.0",
+    "cypress": "^2.1.0",
     "gulp": "^3.9.1",
     "gulp-image-resize": "^0.12.0",
-    "selenium-server": "^3.7.1",
-    "chromedriver": "^2.33.2",
-    "nightwatch": "^0.9.16"
+    "js-yaml": "^3.10.0",
+    "nightwatch": "^0.9.16",
+    "selenium-server": "^3.7.1"
   }
 }

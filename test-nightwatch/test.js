@@ -47,6 +47,26 @@ module.exports = {
     })
   },
 
+  // 'All of the project pages have either a video with a play button or an image': function (browser) {
+
+  //   let projectPages = [
+  //     '/connect/twigg-how-to/',
+  //     '/connect/action-civics-la-an-initiative-of-mikva-challenge/'
+  //   ];
+
+  //   projectPages.each(function(url) {
+  //     browser.url(`http://localhost:4000/${url}`)
+  //     browser.waitForElementPresent('figure', 5000)
+
+  //     // If there’s a video
+  //     browser.elements('css selector', 'figure iframe', function(res) {
+        
+  //     })
+  //     browser.expect.element('figure iframe').to.be.present
+  //   })
+
+  // },
+
   'Close browser session': function (browser) {
     browser.end()
   }
