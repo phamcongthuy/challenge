@@ -52,9 +52,7 @@ stylesheets:
 {% endif %}
 
 {% if video_embed_url %}
-<div style="padding-bottom: 56.25%">
   <iframe src="{{ video_embed_url }}" frameborder="0" allowfullscreen></iframe>
-</div>
 {% else %}
 {% if page.project_video and page.project_video != '' %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
