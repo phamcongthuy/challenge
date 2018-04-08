@@ -82,7 +82,7 @@ function processFile(filename) {
 
   console.log('found a matching file: ' + fromFilePath);
 
-  let imageExtension = 'jpg' //fromFilePath.getExtension();
+  let imageExtension = fromFilePath.split('.')[fromFilePath.split('.').length - 1];
 
   let markdownFilename = filename.split('/');
   let toImageName = markdownFilename[markdownFilename.length - 1].replace(/md$/, imageExtension)
@@ -134,7 +134,7 @@ function updateLocations(folder) {
   // Get a list of markdown files
   let locations = getAllFilesFromFolder(folder);
 
-  // console.log(locations);
+  console.log(locations);
 
   // For each location file
   for (let index = 0; index < locations.length; index++) {
