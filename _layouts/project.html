@@ -17,8 +17,6 @@ stylesheets:
 <h1 style="margin-bottom: 0">{{ page.title }}</h1>
 </div>
 
-<figure class="feature">
-<div data-aspect-ratio="1280/720">
 {% if page.organization_instagram contains "http" %}
 {% assign instagram_url = page.organization_instagram %}
 {% elsif page.organization_instagram contains "instagram.com/" %}
@@ -51,6 +49,9 @@ stylesheets:
 {% endif %}
 {% endif %}
 
+<figure class="feature {% unless video_embed_url %} has-image{% endunless %}">
+<div data-aspect-ratio="1280/720">
+
 {% if video_embed_url %}
   <iframe src="{{ video_embed_url }}" frameborder="0" allowfullscreen></iframe>
 {% else %}
@@ -61,11 +62,17 @@ stylesheets:
 {% assign image_url = page.project_image %}
 {% assign image_category = page.category %}
 
-{% comment %}
 <img src="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}" alt="" width="500" />
-{% endcomment %}
 
-<img src="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 70em) 50vw, 100vw" width="500" alt="" />
+{% comment %}
+<picture>
+  <source srcset="/assets/images/{{ image_category }}/384-wide/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide/{{ image_url }} 2048w" sizes="100vw" media="(max-aspect-ratio: 1/1)">
+
+  <source srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 70em) 50vw, 100vw">
+
+  <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" width="500" alt="" />
+</picture>
+{% endcomment %}
 
 {% if page.project_video and page.project_video != '' %}
 <span class="icon play">
@@ -407,7 +414,7 @@ stylesheets:
         <img src="/assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
         {% endcomment %}
 
-        <img src="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
+        <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
@@ -443,7 +450,7 @@ stylesheets:
         <img src="/assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
         {% endcomment %}
 
-        <img src="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
+        <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
