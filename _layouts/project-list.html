@@ -118,7 +118,15 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   {% if page.is_search_results %}<script type="text/template">{% endif %}
   <li class="{{ data.category }}">
     <a href="{{ data.uri }}">
-      <span class="image"><img src="/assets/images/{{ data.category }}/1024-wide/{{ data.project_image }}" alt="" width="540" height="428" /></span>
+      <span class="image">
+        {% assign image_url = data.project_image %}
+
+        {% comment %}
+        <img src="/assets/images/{{ data.category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
+        {% endcomment %}
+
+        <img src="/assets/images/{{ data.category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ data.category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ data.category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ data.category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ data.category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ data.category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ data.category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 20em, 100vw" width="500" alt="" />
+      </span>
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>
       <p class="description">{{ data['project_description'] }}</p>

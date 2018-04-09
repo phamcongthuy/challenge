@@ -57,7 +57,15 @@ stylesheets:
 {% if page.project_video and page.project_video != '' %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
 {% endif %}
-<img src="/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" alt="Image of {{ page.title }}" width="1000" />
+
+{% assign image_url = page.project_image %}
+
+{% comment %}
+<img src="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}" alt="" width="500" />
+{% endcomment %}
+
+<img src="/assets/images/{{ data.category }}/384-wide/{{ image_url }} 384w, /assets/images/{{ data.category }}/512-wide/{{ image_url }}" srcset="/assets/images/{{ data.category }}/512-wide/{{ image_url }} 512w, /assets/images/{{ data.category }}/768-wide/{{ image_url }} 768w, /assets/images/{{ data.category }}/1024-wide/{{ image_url }} 1024w, /assets/images/{{ data.category }}/1536-wide/{{ image_url }} 1536w, /assets/images/{{ data.category }}/2048-wide/{{ image_url }} 2048w" sizes="(min-width: 50em) 20em, 100vw" width="500" alt="Image of {{ page.title }}" />
+
 {% if page.project_video and page.project_video != '' %}
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
@@ -389,7 +397,17 @@ stylesheets:
           <path fill="white" d="M22,12c0-0.2-0.1-0.4-0.2-0.6l-9.4-8.2C12.2,3.1,12,3,11.8,3c-0.2,0-0.4,0.1-0.6,0.2l-0.5,0.5c-0.2,0.2-0.3,0.4-0.3,0.6 c0,0.2,0.1,0.4,0.3,0.6l7,5.9l-15,0.1c-0.2,0-0.4,0.1-0.5,0.3C2.1,11.3,2,11.5,2,11.7v0.6c0,0.2,0.1,0.4,0.2,0.6s0.3,0.3,0.5,0.3 h15l-7,6.1c-0.2,0.1-0.3,0.3-0.3,0.5s0.1,0.4,0.3,0.6l0.5,0.5c0.2,0.2,0.4,0.3,0.6,0.3c0.2,0,0.4-0.1,0.6-0.3l9.4-8.2 C21.9,12.4,22,12.2,22,12z"></path>
         </svg>
       </h2>
-      <span class="image"><img src="/assets/images/{{ data.category }}/1024-wide/{{ data.project_image }}" alt="" width="540" height="428" /></span>
+
+      <span class="image">
+        {% assign image_url = data.project_image %}
+
+        {% comment %}
+        <img src="/assets/images/{{ data.category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
+        {% endcomment %}
+
+        <img src="/assets/images/{{ data.category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ data.category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ data.category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ data.category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ data.category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ data.category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ data.category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 20em, 100vw" width="500" alt="" />
+      </span>
+
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>
       <p class="description">{{ data['project_description'] }}</p>
@@ -414,7 +432,17 @@ stylesheets:
         </svg>
         Previous project
       </h2>
-      <span class="image"><img src="/assets/images/{{ data.category }}/1024-wide/{{ data.project_image }}" alt="" width="540" height="428" /></span>
+
+      <span class="image">
+        {% assign image_url = data.project_image %}
+
+        {% comment %}
+        <img src="/assets/images/{{ data.category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
+        {% endcomment %}
+
+        <img src="/assets/images/{{ data.category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ data.category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ data.category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ data.category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ data.category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ data.category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ data.category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 20em, 100vw" width="500" alt="" />
+      </span>
+
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>
       <p class="description">{{ data['project_description'] }}</p>
