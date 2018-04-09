@@ -400,6 +400,7 @@
     order: var(--order-100);
   }
 
+
   .proposals li.next {
     order: 1;
   }
@@ -416,16 +417,28 @@
   }
   .proposals {
     grid-column: 1/4 !important;
-    display: grid;
     max-width: none;
     grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
     grid-column-gap: 1.5em;
     grid-row-gap: 7.5em;
     margin-bottom: 7.5em !important;
   }
-  .proposals li {
-    max-width: 25em;
+  .proposals li + li {
+    margin-top: 7.5em;
   }
+
+  @media (min-width: 50em) {
+    .proposals {
+      display: grid;
+    }
+    .proposals li {
+      max-width: 25em;
+    }
+    .proposals li + li {
+      margin-top: 0;
+    }
+  }
+
 /*  @media (min-width: 100em) {
     .proposals {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

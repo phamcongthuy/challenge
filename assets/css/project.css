@@ -79,6 +79,7 @@
     .proposal-introduction h1 {
       font-size: 2.25em;
       line-height: 1.25;
+      max-width: 17.7777777778em; /* @max-line-length / 2.25em */
     }
   }
   .proposal-introduction h2.organization {
@@ -172,10 +173,10 @@
       width: 100%;
       margin: 0;
       height: 100%;
-      min-height: 25vw;
+      /*min-height: 25vw;*/
     }
 
-    figure > div {
+/*    figure > div {
       padding-bottom: 0 !important;
     }
     figure > div[data-aspect-ratio] a,
@@ -184,7 +185,7 @@
     }
     figure > div[data-aspect-ratio] a.has-icon {
       position: relative !important;
-    }
+    }*/
 
 
 /*    figure > div {
@@ -662,9 +663,19 @@
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     min-width: 0;
     min-height: 0;
     max-width: none;
+  }
+  figure > div[data-aspect-ratio] img {
+    height: auto;
+  }
+  @supports (object-fit: cover) {
+    figure > div[data-aspect-ratio] img {
+      height: 100%;
+      object-fit: cover;
+    }
   }
 
   figure > div[data-aspect-ratio] a {
@@ -690,8 +701,8 @@
   }
 
   figure > div[data-aspect-ratio="1280/720"] {
-    padding-bottom: 56.25%;
     padding-bottom: 79.25925926%; /* shim */
+    padding-bottom: 56.25%;
   }
 
   /* July 4th Map */
@@ -781,16 +792,14 @@
 
   body main h2.answers-header,
   body main h2.comments-header {    
-    font-size: 1.75em;
-    line-height: 1.2857142857; /* (1.5 / 1.75) x 1.5 */
+    font-size: 1.5em;
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
   }
   @media (min-width: 40em) {
     body main h2.answers-header,
     body main h2.comments-header {
-      font-size: 2.5em;
       max-width: none;
     }
   }
@@ -851,12 +860,12 @@
     grid-column-gap: 4.5em;
   }
   .more-proposals h2 {
-    font-size: 1.5em;
-    line-height: 1.2857142857;
+    font-size: 0.875em;
     font-style: italic;
     margin-top: 0;
     margin-bottom: 1.5rem;
     max-width: none;
+    color: inherit !important;
   }
   .more-proposals .indicator svg {
     width: 1em;

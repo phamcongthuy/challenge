@@ -8,12 +8,12 @@ project_description: >-
 organization_name: Homeboy Industries
 organization_description: Non-profit organization
 project_video: ''
-link_newsletter: www.homeboyindustries.org/LA2050
+link_newsletter: https://www.homeboyindustries.org/?LA2050
 organization_website: homeboyindustries.org
 organization_twitter: '@homeboyind'
 organization_facebook: 'https://www.facebook.com/HomeboyIndustries/'
 organization_instagram: '@homeboyindustries'
-link_donate: 'https://www.homeboyindustries.org/donate/#'
+link_donate: 'https://www.homeboyindustries.org/donate/'
 link_volunteer: 'https://www.homeboyindustries.org/how-you-can-help/'
 organization_activity: >-
   Homeboy provides hope, training & support to formerly gang-involved and

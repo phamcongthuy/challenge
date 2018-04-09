@@ -16,7 +16,7 @@
 </p>
 </summary>
 
-<form class="search" action="/search/{{ conditional_finalists_url }}#projects" method="get" id="search">
+<form class="search" action="/search/{{ conditional_finalists_url }}/#projects" method="get" id="search">
   <label>
     <span style="position: absolute; left: -9999px">Keywords</span>
     <input type="search" name="keywords" id="search-field" />
@@ -61,6 +61,8 @@
 </ul>
 </div>
 
+{% if page.layout == 'project-list' %}
+
 {% if page.category %}
 
 {% if page.finalists %}
@@ -79,9 +81,34 @@
 
 {% endif %}
 
+{% endif %}
 
 </div>
 
 </div></section>
 
 {% endunless %}
+
+{% if page.layout == 'project-list' %}
+<script>
+(function() {
+  var key = 'scrollPositionOnLastProjectListPage';
+  var links = document.querySelectorAll('.goals .navigation .action a');
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      localStorage.setItem(key, window.scrollY);
+      // console.log('window.scrollY')
+      // console.log('item stored: ' + localStorage.getItem(key));
+    });
+    link.setAttribute('href', link.getAttribute('href').replace('#projects', ''));
+  });
+  var form = document.getElementById('search');
+  if (form) {
+    form.addEventListener('submit', function() {
+      localStorage.setItem(key, window.scrollY);
+    });
+    form.setAttribute('action', form.getAttribute('action').replace('#projects', ''));
+  }
+})();
+</script>
+{% endif %}

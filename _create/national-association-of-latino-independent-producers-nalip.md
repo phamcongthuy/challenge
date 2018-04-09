@@ -4,7 +4,7 @@ title: Emerging Content Creators Inclusion Initiative (ECC Inclusion Initiative)
 project_description: >-
   Through the this activation, NALIP aims to provide support for college ready
   urban youth through media training & resources.
-organization_name: National Association of Latino Independant Producers (NALIP)
+organization_name: National Association of Latino Independent Producers (NALIP)
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/3uy1I03CPas'
 organization_website: www.nalip.org
@@ -152,8 +152,8 @@ category_other:
   - LA is the best place to LEARN
   - LA is the best place to CONNECT
 category: create
-uri: /create/national-association-of-latino-independant-producers-nalip/
+uri: /create/national-association-of-latino-independent-producers-nalip/
 order: 4
-project_image: national-association-of-latino-independant-producers-nalip.jpg
+project_image: national-association-of-latino-independent-producers-nalip.jpg
 
 ---

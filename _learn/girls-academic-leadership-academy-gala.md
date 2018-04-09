@@ -111,8 +111,8 @@ category_metrics:
 category_other:
   - LA is the healthiest place to LIVE
 category: learn
-uri: /learn/girls-acedemic-leadership-academy-gala/
+uri: /learn/girls-academic-leadership-academy-gala/
 order: 8
-project_image: girls-acedemic-leadership-academy-gala.jpg
+project_image: girls-academic-leadership-academy-gala.jpg
 
 ---

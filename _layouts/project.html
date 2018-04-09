@@ -52,9 +52,7 @@ stylesheets:
 {% endif %}
 
 {% if video_embed_url %}
-<div style="padding-bottom: 56.25%">
   <iframe src="{{ video_embed_url }}" frameborder="0" allowfullscreen></iframe>
-</div>
 {% else %}
 {% if page.project_video and page.project_video != '' %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
@@ -114,6 +112,13 @@ stylesheets:
 {% capture link_newsletter_url %}http://{{ link_newsletter }}{% endcapture %}
 {% endif %}
 
+{% assign url_contains_notes = '' %}
+{% if link_newsletter_url contains " " %}
+{% unless link_newsletter_url contains "?subject" %}
+{% assign url_contains_notes = link_newsletter_url %}
+{% endunless %}
+{% endif %}
+{% if url_contains_notes == '' %}
 <div class="links links-action">
 <h2>Love this idea?</h2>
 
@@ -121,6 +126,7 @@ stylesheets:
   <li><a href="{{ link_newsletter_url }}">Stay updated on this activation</a></li>
 </ul>
 </div>
+{% endif %}
 
 {% endfor %}
 
@@ -151,7 +157,15 @@ stylesheets:
     {% capture link_donate_url %}http://{{ link_donate }}{% endcapture %}
     {% endif %}
 
+    {% assign url_contains_notes = '' %}
+    {% if link_donate_url contains " " %}
+    {% unless link_donate_url contains "?subject" %}
+    {% assign url_contains_notes = link_donate_url %}
+    {% endunless %}
+    {% endif %}
+    {% if url_contains_notes == '' %}
     <li><a href="{{ link_donate_url }}">Donate</a></li>
+    {% endif %}
 
     {% endfor %}
 
@@ -167,7 +181,15 @@ stylesheets:
     {% capture link_volunteer_url %}http://{{ link_volunteer }}{% endcapture %}
     {% endif %}
 
+    {% assign url_contains_notes = '' %}
+    {% if link_volunteer_url contains " " %}
+    {% unless link_volunteer_url contains "?subject" %}
+    {% assign url_contains_notes = link_volunteer_url %}
+    {% endunless %}
+    {% endif %}
+    {% if url_contains_notes == '' %}
     <li><a href="{{ link_volunteer_url }}">Volunteer</a></li>
+    {% endif %}
 
     {% endfor %}
 
@@ -345,9 +367,9 @@ stylesheets:
 
 </div><!-- /.proposal-in-depth -->
 
-<hr />
+<hr style="margin-top: 3em;" />
 
-<ul class="proposals more-proposals">
+<ul class="proposals more-proposals" style="margin-top: 3em;">
 
 {% assign data_collection = site.collections | where: "label", page.category | first %}
 {% assign data_list = data_collection.docs %}
@@ -403,6 +425,13 @@ stylesheets:
 
 </ul>
 
+{% include project-navigation.html %}
+
+<div style="margin-bottom: 4.5em"></div>
+
+
+
+
 {% comment %}
 <hr style="margin-top: 0" />
 
@@ -415,7 +444,6 @@ stylesheets:
   opacity: 0; 
 }
 </style>
-{% endcomment %}
 
 <section class="goals" style="margin-top: -3em; margin-bottom: 4.5em">
 
@@ -434,3 +462,4 @@ stylesheets:
 </div></div>
 
 </section>
+{% endcomment %}

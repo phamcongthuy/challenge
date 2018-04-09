@@ -15,7 +15,8 @@ organization_website: www.JusticeLA.org
 organization_twitter: www.twitter.com/JusticeLANow
 organization_facebook: www.facebook.com/JusticeLANow
 organization_instagram: www.instagram.com/JusticeLANow
-link_donate: 'https://goo.gl/Dqqi2F'
+# The following link isn’t working at present…
+# link_donate: 'https://goo.gl/Dqqi2F'
 link_volunteer: 'http://justicelanow.org/join/'
 organization_activity: >-
   Justice LA seeks to reclaim, reimagine, and reinvest the $3.5 billion

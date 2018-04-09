@@ -13,12 +13,12 @@ organization_website: www.healthcore.biz
 organization_twitter: '@lizettealvare15'
 organization_instagram: ''
 organization_facebook: ''
-link_volunteer: >-
-  OUR SOCIAL MEDIA PARTNER BRANDSAVVI WILL CREATE THE VOLUNTEER LINK IMMEDIATELY
-  UPON SELECTION.
-link_donate: >-
-  OUR SOCIAL MEDIA PARTNER BRANDSAVVI WILL CREATE THE DONATION LINK IMMEDIATELY
-  UPON SELECTION.
+# link_volunteer: >-
+#   OUR SOCIAL MEDIA PARTNER BRANDSAVVI WILL CREATE THE VOLUNTEER LINK IMMEDIATELY
+#   UPON SELECTION.
+# link_donate: >-
+#   OUR SOCIAL MEDIA PARTNER BRANDSAVVI WILL CREATE THE DONATION LINK IMMEDIATELY
+#   UPON SELECTION.
 organization_activity: >-
   HCP is a diverse group of experienced consultants working with organizations
   seeking solutions that create positive impact. Twenty years working in applied

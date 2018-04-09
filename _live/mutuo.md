@@ -14,8 +14,8 @@ project_video: 'https://www.youtube.com/embed?v=Xr8XGS427jo'
 link_newsletter: 'http://thisismutuo.com'
 organization_website: www.thisismutuo.com
 organization_twitter: '@thisismutuo'
-organization_instagram: '#thisismutuo'
-organization_facebook: '#thisismutuoLA'
+organization_instagram: '@thisismutuo'
+organization_facebook: 'https://www.facebook.com/thisismutuoLA'
 link_volunteer: ''
 link_donate: ''
 organization_activity: >-

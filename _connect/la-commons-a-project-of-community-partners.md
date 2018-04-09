@@ -10,7 +10,7 @@ organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=mNrTZHODsQI'
 link_newsletter: 'https://www.lacommons.org/events-and-news/newsletter-sign-up/'
 organization_website: www.lacommons.org
-organization_twitter: '#lacommons'
+organization_twitter: '@lacommons'
 organization_facebook: lacommons
 organization_instagram: '@lacommons'
 link_donate: 'https://www.lacommons.org/connect/donate/'
