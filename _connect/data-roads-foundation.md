@@ -12,7 +12,7 @@ link_newsletter: 'https://www.local-shares.net/'
 organization_website: 'https://DataRoads.org'
 organization_twitter: '@jared4dataroads'
 organization_facebook: 'https://www.facebook.com/dataroads/'
-organization_instagram: Data Roads Foundation
+organization_instagram: ''
 link_donate: 'https://inspirepay.com/pay/data-roads-foundation/0'
 link_volunteer: 'https://www.local-shares.net/'
 organization_activity: >-
@@ -55,20 +55,20 @@ project_proposal_mobilize:
   - Fundamentally change home care economies.
 project_proposal_best_place: >-
   * Access to free WiFi will be part of any partner 501(c)(4) Local Shares
-  Network community welfare mission. 
-   
-   * Adults, especially in unpaid care work, will get more social & emotional support in the co-ownership and operation of these networks. 
-   
-   * Government responsiveness to residents’ needs will increase with more ready access to online government resources. 
-   
-   * Travel time to work will be negligible for new hyperlocal and telecommuting jobs. 
-   
+  Network community welfare mission.
+
+   * Adults, especially in unpaid care work, will get more social & emotional support in the co-ownership and operation of these networks.
+
+   * Government responsiveness to residents’ needs will increase with more ready access to online government resources.
+
+   * Travel time to work will be negligible for new hyperlocal and telecommuting jobs.
+
    * Percentage of public transit riders will increase to networked coworking hubs in each neighborhood served, and as a result of more previous vehicle commuters now working from home.
-   
+
    * Participation in neighborhood councils and other local volunteerism will become more convenient as home care workers are allowed to stay nearby all day, with no long commutes between local functions.
-   
+
    * Total number of local social connections among Angelenos will increase with cooperative membership.
-   
+
    * Online resources and local coordination groups will allow political messages and voting process updates to be communicated more readily around each service neighborhood.
 project_proposal_engage: >-
   This will make connections more affordable for all Angelenos, and bring

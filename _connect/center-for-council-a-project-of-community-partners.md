@@ -11,7 +11,7 @@ project_video: 'https://www.youtube.com/embed?v=TAAc3xB3YTk'
 link_newsletter: 'https://www.centerforcouncil.org/subscribe.html'
 organization_website: www.centerforcouncil.org
 organization_twitter: '@ctrforcouncil'
-organization_facebook: Center for Council
+organization_facebook: 'CenterforCouncil'
 organization_instagram: '@CenterforCouncil'
 link_donate: 'https://donatenow.networkforgood.org/centerforcouncil'
 link_volunteer: ''
@@ -36,7 +36,7 @@ project_areas:
     benefit)
   - >-
     Any area where the organizations participating in Connection through Council
-    are located 
+    are located
 project_proposal_mobilize:
   - Trainings and/or in-person engagements
   - >-
@@ -51,22 +51,22 @@ project_proposal_best_place: >-
   Combining elements of storytelling and mindfulness, the practice provides a
   tool for diffusing bias and misunderstanding, fostering more respectful
   relationships, and supporting the emergence of compassionate and resilient
-  communities. 
-   
-   
-   
-   Center for Council has worked with over 50 social justice organizations through its Social Justice Council Project. The Social Justice Council Project provides LA nonprofits with training in Council to more effectively listen to and engage with their constituents, and to create more cooperative and supportive internal work environments, mitigating staff stress and burnout. Program evaluation has shown that implementing Council helps participants improve their communication skills, empathy, connectedness, and mindfulness both within and outside the workplace, as well as reduces social anxiety when having to speak in group settings. 
-   
-   
-   
+  communities.
+
+
+
+   Center for Council has worked with over 50 social justice organizations through its Social Justice Council Project. The Social Justice Council Project provides LA nonprofits with training in Council to more effectively listen to and engage with their constituents, and to create more cooperative and supportive internal work environments, mitigating staff stress and burnout. Program evaluation has shown that implementing Council helps participants improve their communication skills, empathy, connectedness, and mindfulness both within and outside the workplace, as well as reduces social anxiety when having to speak in group settings.
+
+
+
    If selected as an LA2050 Activation Challenge winner, Center for Council will employ the Social Justice Council Project model to help strengthen the internal work cultures and programmatic impact of the other five winning organizations and six semi-finalists.
-   
-   
-   
-   In order for organizations to positively impact the community at-large, there is a critical need to be able to listen deeply to the populations they serve. Organizational staff must develop a capacity to understand both the context of underlying issues embedded within these populations and the history that lives in the stories of community members and their families. By learning to incorporate Council into their work, participants will experience a deeper connection and enhanced engagement in the in-person interactions they have with the community members they serve, as well as with one another, creating a cultural shift both within the workplace and in Los Angeles at-large. The practice of Council is carried from the workplace to the home, from the home back out into the world, and has the potential to impact every interaction an individual has. 
-   
-   
-   
+
+
+
+   In order for organizations to positively impact the community at-large, there is a critical need to be able to listen deeply to the populations they serve. Organizational staff must develop a capacity to understand both the context of underlying issues embedded within these populations and the history that lives in the stories of community members and their families. By learning to incorporate Council into their work, participants will experience a deeper connection and enhanced engagement in the in-person interactions they have with the community members they serve, as well as with one another, creating a cultural shift both within the workplace and in Los Angeles at-large. The practice of Council is carried from the workplace to the home, from the home back out into the world, and has the potential to impact every interaction an individual has.
+
+
+
    By integrating deeper listening and compassion-based communication into the LA community, the project will mobilize Angelinos and impact the following LA2050 CONNECT metrics: adults getting sufficient social & emotional support; participation in neighborhood councils; rates of volunteerism; trainings and in-person engagements; encouraging (nonprofit) businesses to change practices; and influencing individual behavior. Participating organizations will both experience and deliver significant positive shifts in personal health (lower stress, less stress-related disease), group health (better communication, more cooperation) and community health (more pro-social, compassion-centered engagement).
 project_proposal_engage: >-
   By working with non-profits positively impacting the lives of Angelenos,
@@ -82,9 +82,9 @@ project_proposal_engage: >-
   of LA are engaging with the city, and how community members are interacting
   with one another for the benefit of the city. The two are profoundly
   connected.
-   
-   
-   
+
+
+
    Over the course of two years, the project will provide comprehensive training and support in Council, including pre-program consultation; immersive training for staff members; monthly follow-up workshops; individualized mentoring and consulting; and a culminating project-wide networking event. The first year will lay the groundwork for implementing the theory and elements of Council into the organizations’ daily operations. The second year will focus on a customized Council protocol, tailored specifically to each organization and enhancing each of the activation challenges.
 project_measure: >-
   Center for Council will employ an internal evaluation methodology for this
@@ -99,9 +99,9 @@ project_measure: >-
   interactions, organizational readiness for the project, degree to which the
   organization’s specific stated objectives were met, overall effectiveness of
   Council trainers, including cultural sensitivity and self-awareness.
-   
-   
-   
+
+
+
    Center for Council’s past programs have been proven to reduce anger/aggression and hostility, enable participants to connect with others in ways they haven’t before, create safe and supportive environments for self-expression without fear of judgment, help participants gain greater insight into themselves and issues holding them back, help with the development of effective communication skills, and increase resilience.
 project_five_years: >-
   The overarching intention of the Connection through Council activation program
@@ -113,14 +113,14 @@ project_five_years: >-
   participating in Connection through Council will begin to facilitate their own
   Council circles, extending their knowledge and understanding of the practice
   and our shared connection to those in their communities, creating a more
-  connected, stronger, and compassion-rich city as a whole. 
-   
-   
-   
-   The effects of a small group of individuals learning the skills and techniques involved in truly listening to one another, speaking authentically from the heart, and taking time to sit together in a communal practice is ten-fold. The principles embedded in Council have the power and potential to inform every interaction each participating individual has afterward, with their families, friends, and constituents. It is our hope that, in five years’ time, every individual in LA will have directly or indirectly been impacted by the practice of Council. 
-   
-   
-   
+  connected, stronger, and compassion-rich city as a whole.
+
+
+
+   The effects of a small group of individuals learning the skills and techniques involved in truly listening to one another, speaking authentically from the heart, and taking time to sit together in a communal practice is ten-fold. The principles embedded in Council have the power and potential to inform every interaction each participating individual has afterward, with their families, friends, and constituents. It is our hope that, in five years’ time, every individual in LA will have directly or indirectly been impacted by the practice of Council.
+
+
+
    Center for Council’s aspirations are grand but not out of reach: we want to change the way that we, as a society, relate to one another, enrich the way we communicate with those both within and outside our communities, enhance our capacity to learn from one another and the emergent collective wisdom, and cultivate a sincere and embodied understanding of our profound, human interconnectedness.
 category_metrics:
   - Adults getting sufficient social & emotional support

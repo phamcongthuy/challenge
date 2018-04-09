@@ -15,8 +15,7 @@ organization_website: www.JusticeLA.org
 organization_twitter: www.twitter.com/JusticeLANow
 organization_facebook: www.facebook.com/JusticeLANow
 organization_instagram: www.instagram.com/JusticeLANow
-# The following link isn’t working at present…
-# link_donate: 'https://goo.gl/Dqqi2F'
+link_donate: 'http://justicelanow.org/'
 link_volunteer: 'http://justicelanow.org/join/'
 organization_activity: >-
   Justice LA seeks to reclaim, reimagine, and reinvest the $3.5 billion
@@ -56,26 +55,26 @@ project_proposal_best_place: >-
   Department and Probation Department. These decisions were made despite
   evidence that policing and incarceration does not significantly impact crime
   rates and a mandate from the majority of Californians to decrease reliance on
-  incarceration to public health and safety issues. 
-   
-   
-   
-   Ending mass incarceration is a growing movement. For this effort to continue to gain momentum and to garner additional support, we must work to change narratives, shift culture, and engage communities most affected — many of whom do not know or believe that they can be advocates for positive change or recognize their place and power within the democratic process. We must educate residents about initiatives that bring us closer to our goal and will have an immediate impact on their quality of life. Two such initiatives include: stopping LA County’s $3.5 billion project to build two new jails and reinvesting those funds into much needed community services and reforming the money bail system to increase the number of people able to return home after arrest, thereby reducing LA’s jail population. 
-   
-   
-   
-   Justice LA will produce: 
-   
-   
-   
-   Public art exhibits are unique opportunities to gather large and diverse groups of people, introduce residents to the arts and encourage people to visit other arts and cultural institutions. The art installations will be created by local artists and feature actual jail beds. These activations will help LA2050 reach its targets for 50 percent of households participating in the arts by engaging with at least one arts and cultural institution, and increased attendance at public/open streets gatherings. 
-   
-   
-   
+  incarceration to public health and safety issues.
+
+
+
+   Ending mass incarceration is a growing movement. For this effort to continue to gain momentum and to garner additional support, we must work to change narratives, shift culture, and engage communities most affected — many of whom do not know or believe that they can be advocates for positive change or recognize their place and power within the democratic process. We must educate residents about initiatives that bring us closer to our goal and will have an immediate impact on their quality of life. Two such initiatives include: stopping LA County’s $3.5 billion project to build two new jails and reinvesting those funds into much needed community services and reforming the money bail system to increase the number of people able to return home after arrest, thereby reducing LA’s jail population.
+
+
+
+   Justice LA will produce:
+
+
+
+   Public art exhibits are unique opportunities to gather large and diverse groups of people, introduce residents to the arts and encourage people to visit other arts and cultural institutions. The art installations will be created by local artists and feature actual jail beds. These activations will help LA2050 reach its targets for 50 percent of households participating in the arts by engaging with at least one arts and cultural institution, and increased attendance at public/open streets gatherings.
+
+
+
    People with common interests and concerns need spaces like Town Halls to learn from, converse and stay in touch with one another. Our activations create the chance for residents to meet and exchange social media contact information. This environment will help facilitate LA2050’s work to increase the total number of local social media friends and connections Angelenos have and for 95% of adults receive social and emotional support.
-   
-   
-   
+
+
+
    Potential voters are likely to register when they understand how democracy should work and envision themselves participating. The voter registration/education component of these activations align with LA2050’s work to increase participation in the political process, and will help it reach its target of 75% of Angelenos voting often in local elections, as well as impact government responsiveness to residents’ needs.
 project_proposal_engage: >-
   Justice LA’s ART+CONNECT+ACT will target Black, Latino, immigrant and poor
@@ -102,29 +101,29 @@ project_measure: >-
   The success of ART+CONNECT+ACT will be our ability to activate 4 art
   exhibitions, 4 Town Hall meetings and voter registration drives in a 2 year
   period to:
-   
-   
-   
+
+
+
    Increase interest and attendance at L.A.’s arts and cultural institutions
-   
-   
-   
+
+
+
    Secure 5,000 signatures on a petition to the Los Angeles County Supervisor demanding a stop to the County’s massive, wasteful jail construction project
-   
-   
-   
+
+
+
    Place a moratorium on the building of the two new jails and reinvestment of a portion of the $3.5 billion allocated to developing much needed services including affordable housing, youth centers, assisted living facilities for mentally ill people and transitional housing for the homeless population
-   
-   
-   
+
+
+
    Increase awareness about and public support for the passage of comprehensive cash bail legislation
-   
-   
-   
-   Register 500 new voters, and positively impact voter turnout in LA County among Black, Latino and low-income residents 
-   
-   
-   
+
+
+
+   Register 500 new voters, and positively impact voter turnout in LA County among Black, Latino and low-income residents
+
+
+
    Connect 10,000 Los Angelenos with each other via social media to help provide with social and emotional support
 project_five_years: >-
   The ART+CONNECT+ACT activations will provide: powerful visuals to stimulate
@@ -134,7 +133,7 @@ project_five_years: >-
   to advocate on policy issues and digital organizing strategies; new
   technologies/social media toolkits to increase civic and political engagement;
   and opportunities to educate and register new and disenfranchised voters.
-  Within five years, we hope that ART+CONNECT+ACT: 
+  Within five years, we hope that ART+CONNECT+ACT:
 
 
 
@@ -153,14 +152,14 @@ project_five_years: >-
 
   * Will have provided the infrastructure necessary to engage, empower and
   encourage our fellow residents in marginalized communities, and solutions to
-  address reducing incarceration rates and over policing in these communities. 
+  address reducing incarceration rates and over policing in these communities.
 
 
 
 
   * That the art created through this project will be permanently housed in an
   arts and/or cultural institution dedicated to fostering understanding about
-  racial, criminal and social justice. 
+  racial, criminal and social justice.
 
 
 
