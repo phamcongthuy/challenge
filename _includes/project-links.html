@@ -56,7 +56,7 @@
 {% elsif instagram contains "instagram.com/" %}
 {% capture instagram_url %}https://{{ instagram }}{% endcapture %}
 {% else %}
-{% capture instagram_url %}https://instagram.com/{{ instagram }}{% endcapture %}
+{% capture instagram_url %}https://instagram.com/{{ instagram | replace: "@", "" }}{% endcapture %}
 {% endif %}
 
 
@@ -95,7 +95,7 @@
 {% elsif twitter contains "twitter.com/" %}
 {% capture twitter_url %}https://{{ twitter }}{% endcapture %}
 {% else %}
-{% capture twitter_url %}https://twitter.com/{{ twitter }}{% endcapture %}
+{% capture twitter_url %}https://twitter.com/{{ twitter | replace: "@", "" }}{% endcapture %}
 {% endif %}
 
 
@@ -134,7 +134,7 @@
 {% elsif facebook contains "facebook.com/" %}
 {% capture facebook_url %}https://{{ facebook }}{% endcapture %}
 {% else %}
-{% capture facebook_url %}https://facebook.com/{{ facebook }}{% endcapture %}
+{% capture facebook_url %}https://facebook.com/{{ facebook | replace: "@", "" }}{% endcapture %}
 {% endif %}
 
 
