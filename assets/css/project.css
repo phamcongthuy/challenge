@@ -926,7 +926,8 @@
   }
 
   /* Make images the same height as the text */
-  @media (min-width: 80em) {
+  /*
+  @media (min-width: 80em) and (min-aspect-ratio: 1/1) {
     @supports (display: grid) {
       figure.has-image > div[data-aspect-ratio="1280/720"] {
         padding-bottom: 0 !important;
@@ -934,6 +935,7 @@
       }
     }
   }
+  */
 
 
 
