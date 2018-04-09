@@ -609,6 +609,21 @@
     margin: 0;
     padding: 0;
   }
+
+  @media (max-width: 69.999em) {
+    .proposal-introduction figure {
+      margin-left: -4.5em;
+      margin-right: -4.5em;
+      max-width: none;
+    }
+  }
+  @media (max-width: 40em) {
+    .proposal-introduction figure {
+      margin-left: -1.5em;
+      margin-right: -1.5em;
+    }
+  }
+
   @media (max-width: 40em) {
     figure,
     .map {
@@ -884,4 +899,41 @@
   .proposals li.next .indicator {
     text-align: right;
   }
+
+  /* Let images be their natural height on tall screens */
+  @media (max-width: 69.999em) {
+    figure.has-image > div[data-aspect-ratio="1280/720"] {
+      padding-bottom: 0 !important;
+    }
+    figure.has-image > div[data-aspect-ratio] img {
+      height: auto;
+    }
+    figure.has-image > div[data-aspect-ratio] a,
+    figure.has-image > div[data-aspect-ratio] img,
+    figure.has-image > div[data-aspect-ratio] iframe {
+      position: relative !important;
+    }
+    figure.has-image > div[data-aspect-ratio] iframe {
+      height: 56.25vw;
+      display: block;
+    }
+    @supports (object-fit: cover) {
+      figure.has-image > div[data-aspect-ratio] img {
+        max-height: 75vh;
+        object-fit: cover;
+      }
+    }
+  }
+
+  /* Make images the same height as the text */
+  @media (min-width: 80em) {
+    @supports (display: grid) {
+      figure.has-image > div[data-aspect-ratio="1280/720"] {
+        padding-bottom: 0 !important;
+        height: 100%;
+      }
+    }
+  }
+
+
 

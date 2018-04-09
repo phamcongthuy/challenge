@@ -36,6 +36,7 @@ function generateImages({ width, aspectRatio }) {
     options.height = Math.round(options.width / ratio);
     options.crop = true;
     options.upscale = false;
+    // options.background = '#ffffff';
   }
 
   console.dir(options);
