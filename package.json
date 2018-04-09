@@ -3,14 +3,24 @@
   "version": "0.0.1",
   "description": "",
   "author": "jim@jimthoburn.com",
-  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "cypress:open": "cypress open",
+    "test-nightwatch": "nightwatch ./test/test.js --config ./test/nightwatch.config.js",
+    "create-markdown": "node _node/create-markdown.js",
+    "update-markdown": "node _node/update-markdown.js",
+    "copy-images": "node _node/copy-images.js",
+    "create-images": "gulp"
   },
-  "dependencies": {
+  "devDependencies": {
+    "chromedriver": "^2.33.2",
     "concurrent-transform": "^1.0.0",
+    "csv-parse": "^2.1.0",
+    "cypress": "^2.1.0",
     "gulp": "^3.9.1",
-    "gulp-image-resize": "^0.12.0"
+    "gulp-image-resize": "^0.12.0",
+    "gulp-imageoptim": "^1.0.9",
+    "js-yaml": "^3.10.0",
+    "nightwatch": "^0.9.16",
+    "selenium-server": "^3.7.1"
   }
 }

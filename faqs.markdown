@@ -2,13 +2,15 @@
 title: FAQs for the 2018 My LA2050 Activation Challenge
 body_class: tangerine
 footer_image: true
+stylesheets:
+  - "/assets/css/faqs.css"
 ---
 
 <h1><abbr title="Frequently Asked Questions">FAQs</abbr></h1>
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## 100,000 is a lot of people! Do we have to activate them all at once?
@@ -20,7 +22,7 @@ footer_image: true
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## How will you measure the number of people activated?
@@ -32,7 +34,7 @@ Great question! We’re leaning on applicants to define how they plan to reach A
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## Why did you start the My LA2050 Activation Challenge?
@@ -46,7 +48,7 @@ We’ve been inspired by the sparks of activism we’ve seen, but by traditional
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## Are there restrictions on what the activations can address?
@@ -58,7 +60,7 @@ LA2050 can only fund projects that further charitable and educational purposes w
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## I have feedback on the LA2050 goals. How can I share that with you?
@@ -72,7 +74,7 @@ We want Angelenos to see themselves as part of the solutions we need to improve 
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## Can I apply more than once?
@@ -84,7 +86,7 @@ Technically there can be multiple entries from the same organization, so long as
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## What are the benefits of applying?
@@ -106,7 +108,7 @@ _Beyond the potential to receive funds to address an issue you’re passionate a
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## What kinds of activations are you looking to support?
@@ -125,7 +127,7 @@ _We’re open! But here are some ideas about what we’re looking for:_
 
 
 
-<details markdown="1">
+<details class="faq" markdown="1">
 
 <summary markdown="1">
 ## What are some tips for submitting ideas to the My LA2050 Activation Challenge?

@@ -16,7 +16,7 @@ footer_image: true
 {% if site.submission_url %}
 
 <p class="action" markdown="1">
-  <a href="https://activationla2050.smapply.io/prog/challenge_info/">Register</a>
+  <a href="{{ site.submission_url }}">Register</a>
 </p>
 
 {% else %}
@@ -36,7 +36,7 @@ footer_image: true
 The submission period has started! Apply by <strong>March 30, 2018</strong> <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
-  <a href="https://activationla2050.smapply.io/prog/challenge_info/">Submit your idea</a>
+  <a href="{{ site.submission_url }}">Submit your idea</a>
 </p>
 
 </div>
@@ -48,7 +48,7 @@ The submission period has started! Apply by <strong>March 30, 2018</strong> <sma
 The submission period is complete.
 
 <small>
-Proposals will be showcased here <strong>April 9, 2018</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
+Entries will be showcased here <strong>April 9, 2018</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
 </small>
 
 <p class="action" markdown="1">
@@ -71,7 +71,7 @@ Finalists will be announced on <strong>May 21, 2018</strong>.
 </small>
 
 <p class="action" markdown="1">
-  <a href="/proposals/">Check out the proposals</a>
+  <a href="/entries/">Check out the entries</a>
 </p>
 
 </div>
@@ -125,7 +125,7 @@ The submission period is complete.
 The submission period is complete.
 
 <small>
-  The winners will be announced on 
+  Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
   </span>

@@ -31,9 +31,9 @@ We want to work together! To partner, we plan to:
 * Design assets for materials
 * Provide technical assistance, strategic input and guidance, and access to experts to incorporate insights on building successful activations
 
-<hr />
+<hr id="goals" />
 
-<section class="goals" id="goals">
+<section class="goals" id="goals-container">
 
 <div class="navigation"><div markdown="1">
 

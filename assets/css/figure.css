@@ -54,7 +54,7 @@
   .standard-figure .caption h1,
   .standard-figure .caption p:first-child,
   .standard-figure p.caption {
-    opacity: 0.9;
+    /*opacity: 0.9;*/
     color: inherit;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
@@ -65,7 +65,7 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .standard-figure {
-      margin: 6em -3em;
+      margin: 6em -4.5em;
     }
   }
   .standard-layout > .standard-figure:first-child {

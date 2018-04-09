@@ -1,6 +1,6 @@
 ---
 title: Timeline for the 2018 My LA2050 Activation Challenge
-body_class: banana
+body_class: banana timeline
 footer_image: true
 ---
 

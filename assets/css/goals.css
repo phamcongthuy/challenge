@@ -10,7 +10,7 @@
   .goals .item h3,
   .goals .item h4,
   .goals .item p {
-    max-width: none;
+    /*max-width: none;*/
     margin-left: 0;
     margin-right: 0;
   }
@@ -106,8 +106,8 @@
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     .goals .metrics {
-      margin-left: -3rem;
-      margin-right: -3rem;
+      margin-left: -4.5rem;
+      margin-right: -4.5rem;
       padding: 3rem 3rem 6rem;
     }
   }
@@ -238,7 +238,7 @@
         position: relative;
         justify-self: stretch;
         align-self: stretch;
-        margin-left: -3em;
+        margin-left: -4.5em;
         margin-bottom: -2.25em;
         margin-right: -3em;
       }

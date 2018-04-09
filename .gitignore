@@ -1,3 +1,5 @@
 /_site
 /node_modules
 /.jekyll-metadata
+/_node/mysql-config.js
+/test/reports

@@ -27,12 +27,14 @@
   }
   .goals .navigation > div p {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .goals .navigation > div ul {
     max-width: none;
   }
   .goals .navigation ul {
-    padding-top: 1.5em;
+    /*padding-top: 1.5em;*/
     margin-bottom: 0;
   }
   .goals .navigation li {

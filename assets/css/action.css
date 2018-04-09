@@ -17,6 +17,7 @@
     font-weight: 600; /* @semibold */
     letter-spacing: 0.05em;
     cursor: pointer;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   }
   button:hover,
   button:active,
@@ -34,8 +35,12 @@
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+    font-weight: 600;
     padding: 0.75em;
     border-radius: 0;
+    width: 100%;
+    max-width: 25em;
+    box-sizing: border-box;
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
 
     /* Remove Safari’s default styles for search fields */
@@ -47,23 +52,32 @@
   .strawberry .action a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    color: white;
   }
   .blueberry .action a {
     background-color: rgb(6, 179, 188); /* @blueberry */
     border: 0.1875em solid rgb(6, 179, 188); /* @blueberry */
+    color: white;
   }
   .banana .action a {
     background-color: rgb(255, 194, 51); /* @banana */
     border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+    color: white;
   }
   .tangerine .action a {
     background-color: rgb(249, 160, 51); /* @tangerine */
     border: 0.1875em solid rgb(249, 160, 51); /* @tangerine */
+    color: white;
   }
-  .lime button,
   .lime .action a {
     background-color: rgb(141, 208, 59); /* @lime */
     border: 0.1875em solid rgb(141, 208, 59); /* @lime */
+    color: white;
+  }
+  .lime button {
+    background-color: rgb(141, 208, 59); /* @lime */
+    border: 0.1875em solid rgb(141, 208, 59); /* @lime */
+    color: white;
   }
 
   .strawberry .action a.active,
@@ -133,22 +147,27 @@
   .action .strawberry a {
     background-color: rgb(237, 59, 136); /* @strawberry */
     border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    color: white;
   }
   .action .blueberry a {
     background-color: rgb(6, 179, 188); /* @blueberry */
     border: 0.1875em solid rgb(6, 179, 188); /* @blueberry */
+    color: white;
   }
   .action .banana a {
     background-color: rgb(237, 192, 50); /* @dark-banana */
     border: 0.1875em solid rgb(237, 192, 50); /* @dark-banana */
+    color: white;
   }
   .action .tangerine a {
     background-color: rgb(249, 160, 51); /* @tangerine */
     border: 0.1875em solid rgb(249, 160, 51); /* @tangerine */
+    color: white;
   }
   .action .lime a {
     background-color: rgb(141, 208, 59); /* @lime */
     border: 0.1875em solid rgb(141, 208, 59); /* @lime */
+    color: white;
   }
 
   .action .strawberry a.active,

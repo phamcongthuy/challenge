@@ -1,157 +1,513 @@
 ---
 title: 2018 My LA2050 Activation Challenge
-body_class: home
+body_class: strawberry home
 main_class: standard-layout
 footer_image: true
+show_promotion: true
 ---
 
-<div class="standard-figure has-caption header-figure">
+<script>
+// (function() {
+//   var figure = document.document.querySelector('.header-figure');
+//   var categories = [
+//     'banana',
+//     'blueberry',
+//     'lime',
+//     'strawberry',
+//     'live'
+//   ];
+//   var random = Math.floor(Math.random() * categories.length) + 0;
+//   console.log(random);
+//   link.setAttribute('href', '/' + categories[random] + '/');
+// })();
+</script>
+
+
+<style>
+/*.header-figure.has-caption.has-caption-details .caption .details a,
+.header-figure.has-caption.has-caption-details .caption .details a strong {
+  font-weight: 600;
+}*/
+
+.header-figure {
+    --primary-color:   rgb(249, 160, 51); /* @tangerine */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(255, 194, 51); /* @banana */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(141, 208, 59); /* @lime */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(237, 59, 136); /* @strawberry */
+    /*--primary-color: rgb(255, 59, 118);*/ /* @strawberry-orange */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+
+    --primary-color:   rgb(6, 179, 188); /* @blueberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+}
+.header-figure h1 {
+
+    --primary-color:   rgb(249, 160, 51); /* @tangerine */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(255, 194, 51); /* @banana */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(6, 179, 188); /* @blueberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+
+    --primary-color:   rgb(141, 208, 59); /* @lime */
+    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+
+    --primary-color:   rgb(237, 59, 136); /* @strawberry */
+    --primary-color:   rgb(255, 77, 154); /* @strawberry */
+    /*--primary-color: rgb(255, 59, 118);*/ /* @strawberry-orange */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+}
+
+
+@media (min-width: 70em) {
+/*  body {
+    padding-top: 10.5em;
+  }
+  .header-figure.has-caption.has-caption-details .caption .details {
+    position: absolute;
+    top: -5.25em;
+    left: 0em;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }*/
+  .header-figure.has-caption.has-caption-details .caption {
+    padding-bottom: 2.25em;
+  }
+/*  .header-figure.has-caption.has-caption-details h1 {
+    top: 16.5rem;
+    top: calc(16.5vw + 5.25rem);
+    left: calc(33.3333% + 2.25rem)
+  }*/
+  .header-figure.has-caption.has-caption-details img {
+    position: relative !important;
+    /*top: 5.25em;*/
+  }
+}
+/*@media (min-width: 100em) {
+  .header-figure.has-caption.has-caption-details img {
+    height: 45vw;
+  }
+}*/
+
+/*@media (min-width: 70em) {
+  .header-figure .caption h1 {
+    font-size: 3vmax;
+  }
+  .header-figure .caption h1 span:first-child {
+    display: block;
+    font-size: 1.3em
+  }
+  .header-figure .caption h1 br {
+    display: none;
+  }
+  .header-figure .caption h1 strong {
+    font-size: 2.1875em;
+    display: block;
+  }
+  .header-figure .caption h1 span:last-child {
+    font-size: 2.1em;
+  }
+}*/
+</style>
+
+{% if site.phase == 'false2' %}
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(141, 208, 59); /* @lime */
+    background: rgb(237, 59, 136); /* @strawberry */
+    background: rgb(255, 194, 51); /* @banana */
+    margin-top: -6.75em !important;
+    padding-top: 2.25em;
+    padding-bottom: 2.25em;
+  }
+/*  .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details strong[style] {
+    color: rgb(255, 224, 81) !important;  @bright-banana 
+    color: white !important;
+  }*/
+</style>
+{% elsif site.phase == 'false3' %}
+<style media="false">
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(141, 208, 59); /* @lime */
+    background: rgb(237, 59, 136); /* @strawberry */
+  }
+  .header-figure.has-caption.has-caption-details .caption .details a,
+  .header-figure.has-caption.has-caption-details .caption .details span,
+  .header-figure.has-caption.has-caption-details .caption .details strong {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: white !important;
+  }
+</style>
+{% elsif site.phase >= 1 %}
+<style>
+  .disabled .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(141, 208, 59); /* @lime */
+    background: rgb(237, 59, 136); /* @strawberry */
+    background: white;
+    background: transparent;
+    background: rgb(6, 179, 188); /* @blueberry */
+  }
+  .disabled .header-figure.has-caption.has-caption-details .caption .details svg,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details a,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details strong,
+  .disabled .header-figure.has-caption.has-caption-details .caption .details strong[style] {
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+    color: rgb(237, 59, 136) !important; /* @strawberry */
+    color: rgb(6, 179, 188) !important; /* @blueberry */
+    color: white !important;
+  }
+  @media (min-width: 70em) {
+    .header-figure.has-caption.has-caption-details {
+      margin-bottom: -1.5em !important;
+    }
+    .header-figure.has-caption.has-caption-details + .activate-tag,
+    .header-figure.has-caption.has-caption-details + .activate-tag + h2,
+    .header-figure.has-caption.has-caption-details + .activate-tag + h2 + p {
+      position: relative;
+      z-index: 5;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details {
+      background: transparent;
+      font-size: 2vmax;
+    }
+    .header-figure.has-caption.has-caption-details .caption {
+      padding: 0;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details {
+      color: rgb(41, 41, 41) !important; /* @midnight */;
+      color: white !important;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      width: 100vw;
+      padding-bottom: 3em !important;
+      border-bottom: 3em solid white;
+    }
+    .disabled .header-figure.has-caption.has-caption-details .caption .details .wrap {
+      background-color: rgb(255, 194, 51); /* @banana */
+      background-color: rgb(6, 179, 188); /* @blueberry */
+      padding: 0.375em 0.75em;
+      display: inline-block;
+      line-height: 1;
+    }
+
+
+    .header-figure.has-caption.has-caption-details .caption .details .wrap {
+      --disabled-background-image: linear-gradient(to top, transparent, transparent 5%, rgb(6, 179, 188) 5%, rgb(6, 179, 188) 65%, transparent 65%, transparent); /* @blueberry */
+    }
+    .disabled .header-figure.has-caption.has-caption-details .caption .details .wrap a {
+    display: inline;
+    font-style: italic;
+    font-weight: 900; /* @black */
+    text-transform: uppercase;
+      text-decoration: none;
+      background-image: linear-gradient(to top, transparent, transparent 5%, rgb(6, 179, 188) 5%, rgb(6, 179, 188) 65%, transparent 65%, transparent); /* @blueberry */
+    }
+/*    .header-figure.has-caption.has-caption-details .caption .details a {
+      font-weight: bold;
+    }*/
+
+
+
+    @supports (text-shadow: 0 0 0 rgb(0, 0, 0)) {
+
+      .disabled .header-figure.has-caption.has-caption-details .caption .details .wrap {
+        position: relative;
+        left: 0.2em;
+        /*
+        margin-right: 0.2em;
+        */
+        color: transparent;
+        text-shadow: -0.2em 0 0 rgb(237, 59, 136); /* @strawberry */
+      }
+    }
+  }
+  .header-figure.has-caption.has-caption-details .caption .details svg path,
+  .header-figure.has-caption.has-caption-details .caption .details svg line,
+  .header-figure.has-caption.has-caption-details .caption .details svg polyline {
+    stroke: currentColor;
+  }
+  @media (min-width: 70em) {
+    .header-figure.has-caption.has-caption-details .caption .details {
+      background: transparent;
+      font-size: 1em;
+    }
+  }
+</style>
+{% elsif site.phase == 5 %}
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+    background: rgb(141, 208, 59); /* @lime */
+    background: rgb(249, 160, 51); /* @tangerine */
+  }
+
+</style>
+{% elsif site.phase == 6 %}
+<style>
+  @media (min-width: 70em) {
+    body {
+      padding-top: 12.75em;
+    }
+    .header-figure.has-caption.has-caption-details .caption .details {
+      top: -7.5em;
+    }
+  }
+  .header-figure.has-caption.has-caption-details .caption .details {
+    background: rgb(6, 179, 188); /* @blueberry */
+  }
+
+</style>
+{% endif %}
+
+<style>
+  .header-figure.has-caption.has-caption-details .caption .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .header-figure.has-caption.has-caption-details .caption .details {
+    /*font-size: 1em;*/
+/*    text-align: center;
+    display: block;*/
+  }
+  @media (min-width: 40em) {
+/*    .header-figure.has-caption.has-caption-details .caption .details {
+      padding-bottom: 6em !important;
+    }*/
+  }
+/*  body main .header-figure .caption .details p.action,
+  body main .header-figure .caption .details p:not(.action) {
+    margin: 0 !important;
+  }*/
+  .header-figure .caption .details p.action {
+    justify-self: end;
+    align-self: center;
+  }
+  .header-figure .caption .details p.action a {
+    margin-right: 0 !important;
+  }
+  .header-figure .caption .details p:not(.action) {
+    justify-self: start;
+    grid-column: 2 / -1;
+  }
+</style>
+
+
+<div class="standard-figure has-caption header-figure has-caption-details">
+  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="200vw" alt="Women’s March Los Angeles" />
   <div class="caption">
     <div>
-      <h1><span>Change is&nbsp;Local</span></h1>
+      <!-- <h1>Los Angeles:<br /><strong>Change</strong> is&nbsp;Local</h1> -->
+      <h1><span>Los Angeles:</span><br /><strong>Change</strong> <span>is&nbsp;Local</span></h1>
 
-{% if site.phase == 1 %}
+<div class="details">
 
-      <!--
-      <p>
-        Starting <strong>March 1, 2018</strong> <small>(9am Pacific Time)</small>,
-        you can submit your big idea.
-      </p>
-      -->
-      <p style="max-width: 27em">
-        Starting <strong>March 1, 2018</strong>,
-        you can submit your big idea. Voting begins on
-        <span class="avoid-break">
-          <strong>June 19, 2018</strong>.
-        </span>
-      </p>
-      <p class="action"><a href="https://activationla2050.smapply.io/prog/challenge_info/">Register</a></p>
-<!--
-      <p class="action" markdown="1">
-        <a href="{{ site.mailing_list_url }}">Get updates</a>
-      </p>
-    -->
-
-{% elsif site.phase == 2 %}
-
-      <p style="max-width: 20em;">
-        The submission period <span class="avoid-break">has started!</span> <span class="avoid-break">Apply by <strong class="avoid-break">March 30, 2018</strong>.</span>
-      </p>
-      <p style="max-width: 18em">
-        Voting begins on
-        <span class="avoid-break">
-          <strong>June 19, 2018</strong>.
-        </span>
-      </p>
-      <p class="action" markdown="1">
-  <a href="https://activationla2050.smapply.io/prog/challenge_info/">Submit your idea</a>  
-      </p>
-
-{% elsif site.phase == 3 %}
-
-      <p style="max-width: 26em">
-        The submission period is complete. <span class="avoid-break">Proposals will be showcased here on <strong>April 9, 2018</strong>.</span>
-      </p>
-      <p style="max-width: 26em">
-        Voting begins on
-        <span class="avoid-break">
-          <strong>June 19, 2018</strong>.
-        </span>
-      </p>
-      <p class="action" markdown="1">
-        <a href="{{ site.mailing_list_url }}">Get updates</a>
-      </p>
+{% if site.phase == 2 %}
+<p class="action">
+  <a href="{{ site.submission_url }}">Submit your idea</a>
+</p>
 
 {% elsif site.phase == 4 %}
+<p class="action">
+  <a href="/entries/" id="home-details-entries-link">Check out the entries!</a>
+</p>
 
-      <p style="max-width: 25em">
-        The proposals have arrived! <span class="avoid-break">Finalists will be announced on <strong>May 21, 2018</strong>.</span>
-      </p>
-      <p style="max-width: 18em">
-        Voting begins on
-        <span class="avoid-break">
-          <strong>June 19, 2018</strong>.
-        </span>
-      </p>
-      <p class="action" markdown="1">
-        <a href="/proposals/">Check out the proposals</a>
-      </p>
-
-{% elsif site.phase == 5 %}
-
-      <p style="max-width: 19em">
-        The finalists have been announced!
-        <span class="avoid-break">
-          Voting begins on
-          <span class="avoid-break">
-            <strong>June 19, 2018</strong>.
-          </span> 
-        </span>
-      </p>
-      <p style="max-width: 23em">
-        <span class="avoid-break">
-          The winners will be announced on 
-          <span class="avoid-break">
-            <strong>July 9, 2018</strong>.
-          </span>
-        </span>
-      </p>
-      <p class="action" markdown="1">
-        <a href="/finalists/">Check out the finalists</a>
-      </p>
-
+<script>
+(function() {
+  var link = document.getElementById('home-details-entries-link');
+  var categories = [
+    'learn',
+    'create',
+    'play',
+    'connect',
+    'live'
+  ];
+  var random = Math.floor(Math.random() * categories.length) + 0;
+  console.log(random);
+  if (link) link.setAttribute('href', '/' + categories[random] + '/');
+})();
+</script>
+{% elsif site.phase == 5 or site.phase == 7 %}
+<p class="action">
+  <a href="/finalists/" id="home-details-entries-link">Check out the finalists!</a>
+</p>
+<script>
+(function() {
+  var link = document.getElementById('home-details-entries-link');
+  var categories = [
+    'learn',
+    'create',
+    'play',
+    'connect',
+    'live'
+  ];
+  var random = Math.floor(Math.random() * categories.length) + 0;
+  console.log(random);
+  if (link) link.setAttribute('href', '/' + categories[random] + '/');
+})();
+</script>
 {% elsif site.phase == 6 %}
-
-      <p style="max-width: 28em">
-        Public voting has started!
-        Vote by
-        <span class="avoid-break">
-          <strong>June 29, 2018</strong>.
-        </span>
-      </p>
-      <p style="max-width: 26em">
-        The winners will be announced on 
-        <span class="avoid-break">
-          <strong>July 9, 2018</strong>.
-        </span>
-      </p>
-      <p class="action" markdown="1">
-        <a href="{{ site.vote_url }}">Vote for a proposal</a>
-      </p>
-
-{% elsif site.phase == 7 %}
-
-      <p style="max-width: 23em">
-        The voting period is complete.
-      </p>
-      <p style="max-width: 26em">
-        <span class="avoid-break">
-          The winners will be announced on 
-          <span class="avoid-break">
-            <strong>July 9, 2018</strong>.
-          </span>
-        </span>
-      </p>
-      <p class="action" markdown="1">
-        <a href="/finalists/">Check out the finalists</a>
-      </p>
+<p class="action">
+  <a href="{{ site.vote_url }}">Public voting has begun!</a>
+</p>
 
 {% elsif site.phase == 8 %}
-
-      <p style="max-width: 26em">
-        The winners have been announced. <small class="avoid-break">A huge thank you to everyone who participated!</small>
-      </p>
-      <p class="action" markdown="1">
-        <a href="/winners/">Check out the winners</a>
-      </p>
-
+<p class="action">
+  <a href="/winners/">Check out the winners</a>
+</p>
+{% else %}
+<p class="action">
+  <a href="{{ site.mailing_list_url }}">Get updates</a>
+</p>
 {% endif %}
+
+{% comment %}
+{% include timeline-message.html %}
+{% endcomment %}
+
+{% comment %}
+<p>
+  The <strong style=""><a href="/finalists/">finalists</a></strong> have been announced!
+  {% if site.event_url %}
+  <span class="avoid-break">
+    Vote at the <strong style=""><a href="/event/">public event</a></strong> on <strong>June 19, 2018</strong>.
+  </span>
+  {% else %}
+  <span class="avoid-break">
+    Voting begins on
+    <span class="avoid-break">
+      <strong>June 19, 2018</strong>.
+    </span>
+  </span>
+  {% endif %}
+</p>
+{% endcomment %}
+
+</div><!-- /.details -->
 
     </div>
   </div>
-  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="(max-width: 40em) 250vw, 100vw" alt="Women’s March Los Angeles" />
 </div>
 
+<style>
+body main .header-figure.has-caption.has-caption-details .caption .details {
+  display: block;
+  text-align: center !important;
+}
+.header-figure .caption .details p.action,
+.header-figure .caption .details p:not(.action) {
+  font-size: 1.25em;
+  text-align: center !important;
+  /*display: inline-block;*/
+  /*text-align: left !important;*/
+  margin: 0.1875em 0.375em !important;
+}
+.header-figure .caption .details p.action {
+}
+/*body main .header-figure .caption .details p:not(.action) {
+  margin-top: 0.75em !important;
+  margin-left: 0em !important;
+}*/
+
+@media (min-width: 70em) {
+  body main .header-figure.has-caption.has-caption-details .caption .details {
+    padding-bottom: 3.75em !important;
+    padding-bottom: 3.75vmax !important;
+  }
+  .header-figure .caption .details p.action,
+  body main .header-figure .caption .details p:not(.action) {
+    font-size: 1.75vmax;
+  }
+}
+/*@media (min-width: 70em) {
+  body main .header-figure.has-caption.has-caption-details .caption .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    padding-bottom: 3.75em !important;
+    padding-bottom: 6vmax !important;
+  }
+  .header-figure .caption .details p.action,
+  body main .header-figure .caption .details p:not(.action) {
+    margin: 0 !important;
+    font-size: 1.75vmax;
+  }
+  .header-figure .caption .details p.action {
+    text-align: right !important;
+  }
+  .header-figure .caption .details p:not(.action) {
+    text-align: left !important;
+  }
+}*/
+.header-figure .caption .details {
+  background-color: rgb(6, 179, 188); /* @blueberry */
+  color: white;
+}
+.header-figure .caption .details .action a {
+  background-color: transparent;
+  border-color: white;
+    border-color: rgb(46, 219, 228); /* @bright-blueberry */
+  padding: 0.375em 0.75em;
+  text-transform: none;
+  margin-right: 1.5em;
+  letter-spacing: 0;
+}
+.header-figure .caption .details .action a:hover,
+.header-figure .caption .details .action a:active,
+.header-figure .caption .details .action a:focus {
+  background: white;
+  border-color: rgb(46, 219, 228); /* @bright-blueberry */
+  color: rgb(46, 219, 228); /* @bright-blueberry */
+}
+@media (min-width: 70em) {
+  .header-figure .caption .details .action a {
+    border-color: rgb(46, 219, 228); /* @bright-blueberry */
+
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+  }
+  .header-figure .caption .details .action a:hover,
+  .header-figure .caption .details .action a:active,
+  .header-figure .caption .details .action a:focus {
+    border-color: var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+  }
+}
+/*@media (min-width: 70em) {
+  .header-figure .caption .details .action a {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .header-figure .caption .details .action a:hover,
+  .header-figure .caption .details .action a:active,
+  .header-figure .caption .details .action a:focus {
+    border-color: var(--primary-color);
+    background-color: white;
+    color: var(--primary-color)
+  }
+}*/
+</style>
+
+
+
+<!-- <hr style="margin-top: -1.5em" /> -->
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
@@ -194,11 +550,12 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
 {% elsif site.phase == 4 %}
 
+
 <p>
   <em>The submission period is complete.</em>
 </p>
 <p>
-  <a href="/proposals/">Check out the proposals</a>.
+  <a href="/entries/">Check out the entries</a>.
   Finalists will be announced on
   <span class="avoid-break">
     <strong>May 21, 2018</strong>.
@@ -222,7 +579,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
 <p>
   <a href="{{ site.vote_url }}">Vote for a proposal</a>!
-  The winners will be announced on 
+  Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
   </span>
@@ -231,11 +588,11 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 7 %}
 
 <p>
-  <em>The voting period is complete.</em>
+  <em>The public voting period is complete.</em>
 </p>
 <p>
   <a href="/finalists/">Check out the finalists</a>.
-  The winners will be announced on 
+  Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
   </span>
@@ -315,7 +672,7 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 
 <p>
   <a href="{{ site.vote_url }}">Vote for a proposal</a>!
-  The winners will be announced on 
+  Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
   </span>
@@ -324,11 +681,11 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 {% elsif site.phase == 7 %}
 
 <p>
-  <em>The voting period is complete.</em>
+  <em>The public voting period is complete.</em>
 </p>
 <p>
   <a href="/finalists/">Check out the finalists</a>.
-  The winners will be announced on 
+  Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
   </span>
@@ -340,6 +697,46 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 <p><a href="/winners/">Check out the winners</a></p>
 
 {% endif %}
+
+<style>
+  @media (min-width: 70em) {
+    .header-figure.has-caption.has-caption-details {
+      margin-bottom: 1.5em !important;
+      display: grid;
+      margin-top: -9.75em !important;
+    }
+    .header-figure.has-caption.has-caption-details img,
+    .header-figure.has-caption.has-caption-details .caption {
+      grid-column: 1 / -1;
+      grid-row: 1 / -1;
+    }
+    body main .header-figure.has-caption.has-caption-details .caption {
+      padding-top: 13.5em;
+      padding-top: 22.5vw;
+    }
+    body main .header-figure.has-caption.has-caption-details .caption h1 {
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      width: auto !important;
+    }
+    body main .header-figure.has-caption.has-caption-details .caption .details {
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      border-bottom-width: 0 !important;
+    }
+    .header-figure.has-caption.has-caption-details img {
+      top: 0 !important;
+      height: 60vw !important;
+      object-position: top !important;
+    }
+    .header-figure.has-caption::before {
+      background:
+        linear-gradient(195deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0)), linear-gradient(to bottom right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0));
+    }
+  }
+</style>
 
 <section class="standard-section timeline" id="dates"><div markdown="1">
 
@@ -373,4 +770,5 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 View the full [timeline](/timeline).
 
 </div></section>
+
 
