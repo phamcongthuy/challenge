@@ -20,7 +20,7 @@ organization_activity: >-
   Jonathan which procures and distributes 100,000 pairs of socks to homeless and
   homeless youth across Los Angeles.
 project_proposal_description: >-
-  As an upstart organization, we have been largely self-finding. We require
+  As an upstart organization, we have been largely self-funded. We require
   financial assistance to continue our efforts, stabilize our operations and
   scale to provide other necessary items. We are looking to inspire other kids
   to start-up their own organization or movement to help combat homelessness in
