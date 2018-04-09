@@ -131,7 +131,7 @@
 /*  .header-figure.has-caption.has-caption-details img {
     height: 75vw !important;
   }*/
-  @media (min-width: 40em) {
+  @media (min-width: 50em) {
     body .header-figure.has-caption.has-caption-details .caption h1 {
       font-size: 6vmax !important;
       width: calc(100% - 9rem) !important;

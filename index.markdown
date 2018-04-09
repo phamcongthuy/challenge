@@ -712,7 +712,7 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
     }
     body main .header-figure.has-caption.has-caption-details .caption {
       padding-top: 13.5em;
-      padding-top: 22.5vw;
+      /*padding-top: 22.5vw;*/
     }
     body main .header-figure.has-caption.has-caption-details .caption h1 {
       position: relative !important;
