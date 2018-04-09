@@ -112,9 +112,9 @@
   .proposal-introduction figure {
     max-width: 40em;
   }
-  .proposal-introduction h1 {
+/*  .proposal-introduction h1 {
     max-width: none;
-  }
+  }*/
 
   @media (min-width: 70em) {
     hr {
