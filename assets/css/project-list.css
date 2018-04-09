@@ -417,24 +417,25 @@
   }
   .proposals {
     grid-column: 1/4 !important;
-    display: grid;
     max-width: none;
     grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
     grid-column-gap: 1.5em;
     grid-row-gap: 7.5em;
     margin-bottom: 7.5em !important;
   }
-  .proposals li {
-    max-width: 25em;
+  .proposals li + li {
+    margin-top: 7.5em;
   }
 
-  /* Avoid positioning the next/previous links in the wrong order, on small screens */
-  @media (max-width: 50em) {
-    .more-proposals {
-      display: block;
+  @media (min-width: 50em) {
+    .proposals {
+      display: grid;
     }
-    .more-proposals li + li {
-      margin-top: 7.5em;
+    .proposals li {
+      max-width: 25em;
+    }
+    .proposals li + li {
+      margin-top: 0;
     }
   }
 
