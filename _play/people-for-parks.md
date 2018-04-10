@@ -179,7 +179,7 @@ category_other:
   - LA is the best place to CONNECT
 category: play
 uri: /play/people-for-parks/
-order: 3
+order: 4
 project_image: people-for-parks.jpg
 
 ---

@@ -209,7 +209,7 @@ category_other:
   - LA is the healthiest place to LIVE
 category: play
 uri: /play/kounkuey-design-initiative/
-order: 1
+order: 2
 project_image: kounkuey-design-initiative.jpg
 
 ---

@@ -143,7 +143,7 @@ category_other:
   - LA is the healthiest place to LIVE
 category: play
 uri: /play/the-brady-center-to-prevent-gun-violence/
-order: 6
+order: 7
 project_image: the-brady-center-to-prevent-gun-violence.jpg
 
 ---

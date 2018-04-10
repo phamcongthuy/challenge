@@ -72,7 +72,7 @@ category_other:
   - LA is the healthiest place to LIVE
 category: play
 uri: /play/activate-south-bay-la-trails/
-order: 9
+order: 0
 project_image: activate-south-bay-la-trails.jpg
 
 ---

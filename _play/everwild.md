@@ -106,7 +106,7 @@ category_other:
   - LA is the best place to CONNECT
 category: play
 uri: /play/everwild/
-order: 0
+order: 1
 project_image: everwild.jpg
 
 ---
