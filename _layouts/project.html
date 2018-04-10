@@ -49,6 +49,9 @@ stylesheets:
 {% endif %}
 {% endif %}
 
+{% assign image_url = page.project_image %}
+{% assign image_category = page.category %}
+
 <figure class="feature {% unless page.project_video != '' %} has-image{% endunless %}">
 <div data-aspect-ratio="1280/720">
 
@@ -57,10 +60,9 @@ stylesheets:
 {% else %}
 {% if page.project_video and page.project_video != '' %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
+{% else %}
+<a href="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}" target="_blank">
 {% endif %}
-
-{% assign image_url = page.project_image %}
-{% assign image_category = page.category %}
 
 <img src="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}" alt="" width="500" />
 
@@ -91,6 +93,8 @@ stylesheets:
       | replace: "www.", ""
       | split: "/" | first
     }}</span>
+</a>
+{% else %}
 </a>
 {% endif %}
 {% endif %}
