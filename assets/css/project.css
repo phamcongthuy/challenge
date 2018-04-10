@@ -940,11 +940,15 @@
       figure.has-image > div[data-aspect-ratio="1280/720"] {
         background-color: transparent;
         padding-bottom: 0 !important;
-        height: 100%;
+        min-height: 100%;
+      }
+      figure.has-image > div[data-aspect-ratio="1280/720"] a,
+      figure.has-image > div[data-aspect-ratio="1280/720"] img {
+        position: relative;
       }
       figure.has-image > div[data-aspect-ratio="1280/720"] img {
         height: auto;
-        max-height: 100%;
+        max-height: calc(50vw - 4.5em);
       }
     }
   }
