@@ -248,6 +248,7 @@
     }
     .proposal-header h1 {
       margin-bottom: 2.625rem !important;
+      max-width: none;
     }
     .proposal-introduction figure {
       grid-row: 2/4;
@@ -901,7 +902,7 @@
   }
 
   /* Let images be their natural height on tall screens */
-  @media (max-width: 69.999em) {
+  @media (max-width: 79.999em) {
     figure.has-image > div[data-aspect-ratio="1280/720"] {
       padding-bottom: 0 !important;
     }
@@ -924,18 +925,30 @@
       }
     }
   }
-
-  /* Make images the same height as the text */
-  /*
-  @media (min-width: 80em) and (min-aspect-ratio: 1/1) {
-    @supports (display: grid) {
-      figure.has-image > div[data-aspect-ratio="1280/720"] {
-        padding-bottom: 0 !important;
-        height: 100%;
+  @media (min-width: 70em) and (max-width: 79.999em) {
+    @supports (object-fit: cover) {
+      figure.has-image > div[data-aspect-ratio] img {
+        max-height: 33vh;
+        object-fit: cover;
       }
     }
   }
-  */
+
+  /* Make images the same height as the text */
+  @media (min-width: 80em) and (min-aspect-ratio: 1/1) {
+    @supports (display: grid) {
+      figure.has-image > div[data-aspect-ratio="1280/720"] {
+        background-color: transparent;
+        padding-bottom: 0 !important;
+        height: 100%;
+      }
+      figure.has-image > div[data-aspect-ratio="1280/720"] img {
+        height: auto;
+        max-height: 100%;
+      }
+    }
+  }
+
 
 
 
