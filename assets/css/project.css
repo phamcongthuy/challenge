@@ -925,17 +925,9 @@
       }
     }
   }
-  @media (min-width: 70em) and (max-width: 79.999em) {
-    @supports (object-fit: cover) {
-      figure.has-image > div[data-aspect-ratio] img {
-        max-height: 33vh;
-        object-fit: cover;
-      }
-    }
-  }
 
   /* Make images the same height as the text */
-  @media (min-width: 80em) and (min-aspect-ratio: 1/1) {
+  @media (min-width: 70em) and (min-aspect-ratio: 1/1) {
     @supports (display: grid) {
       figure.has-image > div[data-aspect-ratio="1280/720"] {
         background-color: transparent;
