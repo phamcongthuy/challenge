@@ -143,7 +143,7 @@ category_other:
   - LA is the healthiest place to LIVE
 category: play
 uri: /play/the-trust-for-public-land/
-order: 7
+order: 8
 project_image: the-trust-for-public-land.jpg
 
 ---

@@ -98,7 +98,7 @@ category_other:
   - LA is the best place to CREATE
 category: play
 uri: /play/red-hen-press/
-order: 4
+order: 5
 project_image: red-hen-press.jpg
 
 ---

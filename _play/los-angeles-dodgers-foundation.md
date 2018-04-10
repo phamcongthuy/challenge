@@ -116,7 +116,7 @@ category_other:
   - LA is the best place to LEARN
 category: play
 uri: /play/los-angeles-dodgers-foundation/
-order: 2
+order: 3
 project_image: los-angeles-dodgers-foundation.jpg
 
 ---

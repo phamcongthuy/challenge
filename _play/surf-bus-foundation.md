@@ -200,7 +200,7 @@ category_other:
   - LA is the healthiest place to LIVE
 category: play
 uri: /play/surf-bus-foundation/
-order: 5
+order: 6
 project_image: surf-bus-foundation.jpg
 
 ---
