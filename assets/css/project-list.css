@@ -427,18 +427,6 @@
     margin-top: 7.5em;
   }
 
-  @media (min-width: 50em) {
-    .proposals {
-      display: grid;
-    }
-    .proposals li {
-      max-width: 25em;
-    }
-    .proposals li + li {
-      margin-top: 0;
-    }
-  }
-
 /*  @media (min-width: 100em) {
     .proposals {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -494,8 +482,27 @@
   }
 
   .proposals .image {
-    margin-bottom: 0.75em;
+    margin-bottom: 1.125em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
   }
+
+  @media (min-width: 50em) {
+    .proposals {
+      display: grid;
+    }
+    .proposals li {
+      max-width: 25em;
+    }
+    .proposals li + li {
+      margin-top: 0;
+    }
+    .proposals .image {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
   .proposals h3 {
     font-size: inherit;
     line-height: inherit;
