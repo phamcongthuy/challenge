@@ -9,8 +9,8 @@ project_description: >-
   emergency homeless shelter can be.
 organization_name: Cardborigami Inc
 organization_description: Non-profit organization
-project_video: 'https://youtu.be/iA3U293DlE4'
-link_newsletter: please see mailing list sign-up on our website
+project_video: 'https://www.youtube.com/watch?v=w47i_b8U5-0&feature=youtu.be'
+link_newsletter: 'https://goo.gl/forms/sggopyQWRZ1iALxr2'
 organization_website: 'http://www.cardborigami.org'
 organization_twitter: 'https://twitter.com/Cardborigami'
 organization_instagram: 'https://www.instagram.com/cardborigami/'
