@@ -346,8 +346,14 @@
 /*      display: flex;*/
       flex-grow: 0;
       max-width: none;
-      margin: 0.75em 1.5em;
+      margin: 0.75em 0;
       display: inline-block;
+    }
+    .links dt {
+      margin-left: 1.5em;
+    }
+    .links dd {
+      margin-right: 1.5em;
     }
 /*    .links dt {
       flex-grow: 0;
@@ -375,6 +381,20 @@
       margin-top: 0.75em;
     }
   }
+
+
+  .links.has-limit-greater-than-one dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-align: left;
+  }
+  @media (min-width: 50em) {
+    .links.has-limit-greater-than-one dl {
+      display: inline-grid;
+    }
+  }
+
+
   @media (min-width: 70em) {
     .proposal-introduction + hr {
       margin-top: 3em;
