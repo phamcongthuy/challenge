@@ -148,5 +148,6 @@ category: create
 uri: /create/east-la-community-corporation-elacc/
 order: 9
 project_image: east-la-community-corporation-elacc.jpg
+link_limit: 2
 
 ---
