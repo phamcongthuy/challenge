@@ -1,10 +1,16 @@
-<div class="links links-more">
+{% assign link_limit = 1 %}
+{% if page.link_limit and page.link_limit != '' %}
+{% assign link_limit = page.link_limit %}
+{% endif %}
+
+<div class="links links-more {% if link_limit > 1 %}has-limit-greater-than-one{% endif %}">
 
 <h2>Learn more</h2>
 
 {% if page.organization_website and page.organization_website != "" and page.organization_website != "n/a" and page.organization_website != "N/A" and page.organization_website != "none" %}
+<dl>
 
-{% for website in page.organization_website limit:1 %}
+{% for website in page.organization_website limit:link_limit %}
 {% if website contains "http" or website contains "mailto" %}
 {% assign website_url = website %}
 {% else %}
@@ -19,7 +25,6 @@
 {% endunless %}
 {% endif %}
 {% if url_contains_notes == '' %}
-<dl>
 <dt>
 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <title>Website</title>
@@ -40,16 +45,17 @@
     }}
   </a>
 </dd>
-</dl>
 {% endif %}
 
 {% endfor %}
+</dl>
 {% endif %}
 
 
 {% if page.organization_instagram and page.organization_instagram != "" and page.organization_instagram != "n/a" and page.organization_instagram != "N/A" and page.organization_instagram != "none" %}
+<dl>
 
-{% for instagram in page.organization_instagram limit:1 %}
+{% for instagram in page.organization_instagram limit:link_limit %}
 
 {% if instagram contains "http" %}
 {% assign instagram_url = instagram %}
@@ -67,7 +73,6 @@
 {% endunless %}
 {% endif %}
 {% if url_contains_notes == '' %}
-<dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
     <title>Instagram</title>
@@ -80,15 +85,16 @@
 <dd>
   <a href="{{ instagram_url }}">@{{ instagram | replace: "https://www.instagram.com/", "" | replace: "https://instagram.com/", "" | replace: "www.instagram.com/", "" | replace: "instagram.com/", "" | replace: "/", "" | replace: "@", "" }}</a>
 </dd>
-</dl>
 {% endif %}
 {% endfor %}
 
+</dl>
 {% endif %}
 
 {% if page.organization_twitter and page.organization_twitter != "" and page.organization_twitter != "n/a" and page.organization_twitter != "N/A" and page.organization_twitter != "none" %}
+<dl>
 
-{% for twitter in page.organization_twitter limit:1 %}
+{% for twitter in page.organization_twitter limit:link_limit %}
 
 {% if twitter contains "http" %}
 {% assign twitter_url = twitter %}
@@ -106,7 +112,6 @@
 {% endunless %}
 {% endif %}
 {% if url_contains_notes == '' %}
-<dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
     <title>Twitter</title>
@@ -119,15 +124,16 @@
 <dd>
   <a href="{{ twitter_url }}">@{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }}</a>
 </dd>
-</dl>
 {% endif %}
 {% endfor %}
 
+</dl>
 {% endif %}
 
 {% if page.organization_facebook and page.organization_facebook != "" and page.organization_facebook != "n/a" and page.organization_facebook != "N/A" and page.organization_facebook != "none" %}
+<dl>
 
-{% for facebook in page.organization_facebook limit:1 %}
+{% for facebook in page.organization_facebook limit:link_limit %}
 
 {% if facebook contains "http" %}
 {% assign facebook_url = facebook %}
@@ -145,7 +151,6 @@
 {% endunless %}
 {% endif %}
 {% if url_contains_notes == '' %}
-<dl>
 <dt>
   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
     <title>Facebook</title>
@@ -158,10 +163,10 @@
 <dd>
   <a href="{{ facebook_url }}">{{ facebook | replace: "https://www.facebook.com/", "" | replace: "https://facebook.com/", "" | replace: "www.facebook.com/", "" | replace: "facebook.com/", "" | replace: "/", "" | replace: "@", "" }}</a>
 </dd>
-</dl>
 {% endif %}
 {% endfor %}
 
+</dl>
 {% endif %}
 
 </div>
