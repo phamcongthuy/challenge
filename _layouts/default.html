@@ -77,9 +77,13 @@
   {% endif %}
 
   {% if page.project_description and page.project_description != '' %}
-  <meta name="description" content="{{ page.project_description }}" />
-  {% elsif layout.use_default_meta_description %}
-  <meta name="description" content="The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live." />
+    {% assign description = page.project_description %}
+  {% elsif layout.use_default_meta_description == true %}
+    {% assign description = site.description %}
+  {% endif %}
+  {% if description and description != '' %}
+    <meta name="description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description }}" />
   {% endif %}
 
   {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
