@@ -16,8 +16,7 @@ organization_twitter: SAFAUpdates
 organization_instagram: scienceacademyforall
 organization_facebook: 'https://www.facebook.com/profile.php?id=100025256641530'
 link_volunteer: 'https://www.scienceacademyforall.org/get_involved'
-link_donate: >-
-  https://www.paypal.com/donate/?token=6frfdTTLz3OPdZ8ZyUGAgx6myN0Kc60iWdStx5OyXnn185UQ-2_WXjgnx0cUBodmfSSBB0&country.x=US&locale.x=
+link_donate: 'https://www.scienceacademyforall.org/donate'
 organization_activity: >-
   Science Academy For All provides opportunity for science through
   contextualized learning for all backgrounds and all ages.
