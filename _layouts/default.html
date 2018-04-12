@@ -79,6 +79,8 @@
 
   {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
   <meta property="og:image" content="https://activation.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
+  {% else %}
+  <meta property="og:image" content="https://activation.la2050.org/assets/images/home/2048-wide/womens-march-la.jpg" />
   {% endif %}
 
 </head>
