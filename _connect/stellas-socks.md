@@ -6,7 +6,7 @@ project_description: >-
   Angeles and we organize a 'Sock Sesh' every month to inspire other kids and
   youth in the community to give back.
 organization_name: Stella's Socks
-organization_description: For-profit organization
+organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/embed?v=ClzWZnnOiJA&feature=youtu.be'
 link_newsletter: 'https://stellassocks.com/contact-us'
 organization_website: www.stellassocks.com
@@ -16,7 +16,7 @@ organization_instagram: stellassocks
 link_donate: 'https://www.gofundme.com/stellassocks'
 link_volunteer: 'https://stellassocks.com/volunteer'
 organization_activity: >-
-  Stella’s Socks is a 501c3 started by 13-year old Stella Verk and her father,
+  Stella’s Socks is a 501c3 started by 13-year old Stella Vaughn Verk and her father,
   Jonathan which procures and distributes 100,000 pairs of socks to homeless and
   homeless youth across Los Angeles.
 project_proposal_description: >-
