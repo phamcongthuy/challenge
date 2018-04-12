@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  {% capture title %}{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% endcapture %}
+  <title>{{ title }}</title>
+  <meta property="og:title" content="{{ title }}" />
 
   <!-- OPTIONAL: Preload the most likely web fonts to be needed -->
   <link rel="preload" href="https://fonts.jimthoburn.com/activation.la2050.org/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2" as="font" type="font/woff2" crossorigin />
