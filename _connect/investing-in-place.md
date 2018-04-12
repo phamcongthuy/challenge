@@ -7,7 +7,7 @@ project_description: >-
   our entire region.
 organization_name: Investing in Place
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=6L67t7VUkcI&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=p_hZaJvzgqE'
 link_newsletter: 'http://eepurl.com/bOWmdr'
 organization_website: www.investinginplace.org
 organization_twitter: '@investinplace'
