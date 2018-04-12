@@ -73,14 +73,20 @@
   <link rel="canonical" href="https://activation.la2050.org{{ page.url }}" />
   {% endif %}
 
-  {% if page.redirect %}
-  <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
+  {% if page.project_description and page.project_description != '' %}
+  <meta name="description" content="{{ page.project_description }}" />
+  {% elsif layout.use_default_meta_description %}
+  <meta name="description" content="The My LA2050 Activation Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live." />
   {% endif %}
 
   {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
   <meta property="og:image" content="https://activation.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
   {% else %}
   <meta property="og:image" content="https://activation.la2050.org/assets/images/home/2048-wide/womens-march-la.jpg" />
+  {% endif %}
+
+  {% if page.redirect %}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
   {% endif %}
 
 </head>
