@@ -89,13 +89,17 @@
   {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
   <meta property="og:image" content="https://activation.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
   {% else %}
-  <meta property="og:image" content="https://activation.la2050.org/assets/images/home/2048-wide/womens-march-la.jpg" />
+  <meta property="og:image" content="https://activation.la2050.org/assets/images/home/2048-wide/collaborates.jpg" />
   {% endif %}
 
   {% if page.redirect %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
   {% endif %}
 
+  {% comment %}Open Graph: http://ogp.me{% endcomment %}
+  <meta property="og:type" content="website" />
+
+  {% comment %}Twitter Card: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started{% endcomment %}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@LA2050" />
 
