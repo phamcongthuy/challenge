@@ -70,11 +70,9 @@
     }
   </script>
 
-  {% if page.canonical_url %}
-  <link rel="canonical" href="https://activation.la2050.org{{ page.canonical_url }}" />
-  {% else %}
-  <link rel="canonical" href="https://activation.la2050.org{{ page.url }}" />
-  {% endif %}
+  {% capture canonical_url %}https://activation.la2050.org{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ page.url }}{% endif %}{% endcapture %}
+  <link rel="canonical" href="{{ canonical_url }}" />
+  <meta property="og:url" content="{{ canonical_url }}" />
 
   {% if page.project_description and page.project_description != '' %}
     {% assign description = page.project_description %}
@@ -88,8 +86,8 @@
 
   {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
   <meta property="og:image" content="https://activation.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
-  {% else %}
-  <meta property="og:image" content="https://activation.la2050.org/assets/images/home/2048-wide/collaborates.jpg" />
+  {% elsif site.image %}
+  <meta property="og:image" content="{{ site.image }}" />
   {% endif %}
 
   {% if page.redirect %}
