@@ -3,21 +3,24 @@
 {% if site.phase <= 8 %}
 
 {% assign navigation_items_count = 5 %}
-{% if site.phase >= 6 %}
+{% if site.phase >= 4 %}
   {% assign navigation_items_count = 6 %}
+{% endif %}
+{% if site.phase >= 5 %}
+  {% assign navigation_items_count = 7 %}
+{% endif %}
+{% if site.phase >= 8 %}
+  {% assign navigation_items_count = 8 %}
 {% endif %}
 <ul class="has-{{ navigation_items_count }}-items">
   <li><a href="/about/">About</a></li>
-  {% if site.phase <= 3 %}
   <li><a href="/submit/">Submit</a></li>
-  {% else %}
+  <li><a href="/vote/">Vote</a></li>
+  {% if site.phase >= 4 %}
   <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
   {% endif %}
   {% if site.phase >= 5 %}
   <li><a href="/finalists/" id="finalists-navigation-item">Finalists</a></li>
-  {% endif %}
-  {% if site.phase <= 7 %}
-  <li><a href="/vote/">Vote</a></li>
   {% endif %}
   {% if site.phase >= 8 %}
   <li><a href="/winners/">Winners</a></li>
