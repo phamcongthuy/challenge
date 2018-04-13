@@ -6,7 +6,7 @@ project_description: >-
   the wings to set them free to achieve a joyful life.
 organization_name: Roots & Wings
 organization_description: For-profit organization
-project_video: 'https://www.youtube.com/embed?v=nNWKz4hwzOc&t=1s'
+project_video: 'https://www.youtube.com/watch?v=nNWKz4hwzOc'
 link_newsletter: 'https://www.rootsnwings.org/wwwactivated-potentialcom.html'
 organization_website: rootsnwings.org
 organization_twitter: ''

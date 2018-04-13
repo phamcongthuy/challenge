@@ -9,7 +9,7 @@ project_description: >-
   Latino families and kids thrive in the digital age.
 organization_name: Common Sense
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=0ZmDMvQPyoE'
+project_video: 'https://www.youtube.com/watch?v=0ZmDMvQPyoE'
 link_newsletter: 'https://www.commonsensemedia.org/'
 organization_website: www.commonsense.org
 organization_twitter: '@commonsense'

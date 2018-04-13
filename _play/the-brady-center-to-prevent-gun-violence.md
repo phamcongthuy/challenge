@@ -9,7 +9,7 @@ project_description: >-
   violence in the community.
 organization_name: The Brady Center to Prevent Gun Violence
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=GpI8redM2To'
+project_video: 'https://www.youtube.com/watch?v=GpI8redM2To'
 organization_website: 'http://bradycampaign.org'
 organization_twitter: Bradybuzz
 organization_facebook: 'https://facebook.com/bradycampaign'

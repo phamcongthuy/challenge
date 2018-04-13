@@ -7,7 +7,7 @@ project_description: >-
   2021 Neighborhood Council elections.
 organization_name: 'LA Commons, a project of Community Partners'
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=mNrTZHODsQI'
+project_video: 'https://www.youtube.com/watch?v=mNrTZHODsQI'
 link_newsletter: 'https://www.lacommons.org/events-and-news/newsletter-sign-up/'
 organization_website: www.lacommons.org
 organization_twitter: '@lacommons'

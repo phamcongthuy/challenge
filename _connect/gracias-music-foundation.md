@@ -8,7 +8,7 @@ project_description: >-
   Tomorrow's Music.
 organization_name: Gracias Music Foundation
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=EeCBqVA5f_g'
+project_video: 'https://www.youtube.com/watch?v=EeCBqVA5f_g'
 link_newsletter: 'http://graciasmusicfoundation.org/contact-us-2/'
 organization_website: 'http://graciasmusicfoundation.org'
 organization_twitter: '@graciaschoir'

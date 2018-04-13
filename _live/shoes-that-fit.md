@@ -7,7 +7,7 @@ project_description: >-
   new athletic shoes to LAUSD school children.
 organization_name: Shoes That Fit
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=OiWi0EoNxHc'
+project_video: 'https://www.youtube.com/watch?v=OiWi0EoNxHc'
 link_newsletter: 'https://www.shoesthatfit.org/'
 organization_website: 'https://www.shoesthatfit.org/'
 organization_twitter: '@ShoesThatFit'

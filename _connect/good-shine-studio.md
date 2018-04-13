@@ -7,7 +7,7 @@ project_description: >-
   share local media, events and programs.
 organization_name: Good Shine Studio
 organization_description: Social enterprise or B-corps
-project_video: 'https://www.youtube.com/embed?v=03UxLqNGuvE&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=03UxLqNGuvE'
 link_newsletter: www.wapow.la/stay-updated/
 organization_website: www.wapow.la
 organization_twitter: twitter.com/wapowla

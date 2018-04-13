@@ -7,7 +7,7 @@ project_description: >-
   resources to heal, rebuild and live free from abuse.
 organization_name: FreeFrom
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=9tCDaZikwNQ&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=9tCDaZikwNQ'
 link_newsletter: 'http://eepurl.com/bur2Cn'
 organization_website: www.freefrom.org
 organization_twitter: 'https://twitter.com/freefromorg'

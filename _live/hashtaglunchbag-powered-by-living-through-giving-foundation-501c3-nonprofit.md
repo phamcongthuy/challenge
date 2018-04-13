@@ -9,7 +9,7 @@ organization_name: >-
   #HashtagLunchbag - powered by Living Through Giving Foundation, 501(c)3
   nonprofit
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=3WjUJh2z0WE'
+project_video: 'https://www.youtube.com/watch?v=3WjUJh2z0WE'
 link_newsletter: 'https://goo.gl/forms/HvFWTVSPJC998nYu2'
 organization_website: www.hashtaglunchbag.org
 organization_twitter: '@hashtaglunchbag'

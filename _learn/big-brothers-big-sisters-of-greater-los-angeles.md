@@ -7,7 +7,7 @@ project_description: >-
   school, graduate college, and start careers.
 organization_name: Big Brothers Big Sisters of Greater Los Angeles
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=3J0TBcxjUQY'
+project_video: 'https://www.youtube.com/watch?v=3J0TBcxjUQY'
 link_newsletter: >-
   http://bbbsla.us10.list-manage.com/subscribe/post?u=05228a1e8ec507baed8628ad0&id=4ad5abdbd8
 organization_website: 'http://bbbsla.org/'

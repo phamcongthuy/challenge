@@ -7,7 +7,7 @@ project_description: >-
   inventors in South Los Angeles step right up!
 organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=6ZaOSqWls54'
+project_video: 'https://www.youtube.com/watch?v=6ZaOSqWls54'
 link_newsletter: 'http://twobitcircus.org/newsletter/'
 organization_website: TwoBitCircus.org
 organization_twitter: '@TwoBitCircusorg'

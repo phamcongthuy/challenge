@@ -9,7 +9,7 @@ project_description: >-
   curriculum and hands-on STEM activities.
 organization_name: Charles R. Drew University of Medicine and Science
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=9xHS8SSMejQ&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=9xHS8SSMejQ'
 link_newsletter: www.cdrewu.edu/community/pipeline
 organization_website: www.cdrewu.edu
 organization_twitter: '@cdrewu'

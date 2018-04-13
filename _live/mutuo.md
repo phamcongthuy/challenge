@@ -10,7 +10,7 @@ project_description: >-
   increasing housing in LA. If only LA knew…
 organization_name: Mutuo
 organization_description: For-profit organization
-project_video: 'https://www.youtube.com/embed?v=Xr8XGS427jo'
+project_video: 'https://www.youtube.com/watch?v=Xr8XGS427jo'
 link_newsletter: 'http://thisismutuo.com'
 organization_website: www.thisismutuo.com
 organization_twitter: '@thisismutuo'

@@ -7,7 +7,7 @@ project_description: >-
   maps, charts, data analysis, and storytelling.
 organization_name: University of Southern California
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=6iKW4H-17BA&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=6iKW4H-17BA'
 link_newsletter: 'https://socialinnovation.usc.edu/contact-us/'
 organization_website:
   - la.myneighborhooddata.org

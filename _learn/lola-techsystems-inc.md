@@ -7,7 +7,7 @@ project_description: >-
   providing visual timers and enabling a messaging system.
 organization_name: 'Lola Techsystems, Inc.'
 organization_description: For-profit organization
-project_video: 'https://www.youtube.com/embed?v=pOdXvRDzj98'
+project_video: 'https://www.youtube.com/watch?v=pOdXvRDzj98'
 link_newsletter: www.lolatechsystems.com/blog
 organization_website: www.lolatechsystems.com
 organization_twitter: '@lolahelps'

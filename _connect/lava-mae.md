@@ -9,7 +9,7 @@ project_description: >-
   being clean.
 organization_name: Lava Mae
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=Uxp2LencnXs'
+project_video: 'https://www.youtube.com/watch?v=Uxp2LencnXs'
 link_newsletter: 'mailto:infola@lavamae.org?subject=LA mailing list'
 organization_website: www.lavamae.org
 organization_twitter: '@lavamaela'

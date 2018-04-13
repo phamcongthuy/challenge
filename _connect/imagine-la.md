@@ -7,7 +7,7 @@ project_description: >-
   alleviate homelessness in our city.
 organization_name: Imagine LA
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=RBbjWQRI1Lc'
+project_video: 'https://www.youtube.com/watch?v=RBbjWQRI1Lc'
 link_newsletter: 'http://imaginela.org/activatela'
 organization_website: www.imaginela.org
 organization_twitter: '@ImagineLA'

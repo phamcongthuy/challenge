@@ -7,7 +7,7 @@ project_description: >-
   and create new local opportunities.
 organization_name: Small Business Majority
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=ZgMxPYmoLgA&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=ZgMxPYmoLgA'
 organization_website: 'http://smallbusinessmajority.org/'
 organization_twitter: '@SmlBizMajority'
 organization_facebook: 'https://www.facebook.com/SmallBusinessMajority'

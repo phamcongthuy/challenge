@@ -7,7 +7,7 @@ project_description: >-
   nonvoters) of Los Angeles.
 organization_name: 'The Burg, LLC'
 organization_description: Social enterprise or B-corps
-project_video: 'https://www.youtube.com/embed?v=DNPNUbNOQ48&feature=youtu.be&t=41m43s'
+project_video: 'https://www.youtube.com/watch?v=DNPNUbNOQ48'
 link_newsletter: 'https://burg.community/contact/'
 organization_website: burg.community
 organization_twitter: '@theburgteam'

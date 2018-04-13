@@ -6,7 +6,7 @@ project_description: >-
   Angelenos to take action and vote.
 organization_name: 'Action Civics LA, an initiative of Mikva Challenge'
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=DRyOMoxgsbE'
+project_video: 'https://www.youtube.com/watch?v=DRyOMoxgsbE'
 link_newsletter:
   - 'https://www.mikvachallenge.org/action-civics-la/'
   - 'https://www.procon.org/view.background-resource.php?resourceID=006145'

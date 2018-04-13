@@ -9,7 +9,7 @@ project_description: >-
   distributing them to the kids that need them the most.
 organization_name: Crayon Collection
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=oGbTN4Ysvfw'
+project_video: 'https://www.youtube.com/watch?v=oGbTN4Ysvfw'
 link_newsletter: 'http://crayoncollection.org/'
 organization_website: www.crayoncollection.org
 organization_twitter: '@crayoncollection'

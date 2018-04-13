@@ -9,7 +9,7 @@ project_description: >-
   grassroots political support for tangible change.
 organization_name: LawMaker.io
 organization_description: Social enterprise or B-corps
-project_video: 'https://www.youtube.com/embed?v=mH8x6av0XTA&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=mH8x6av0XTA'
 link_newsletter: 'https://mailchi.mp/lawmaker/lawmakerjoin'
 organization_website: 'https://lawmaker.io/'
 organization_twitter: '@WeAreLawMaker'

@@ -9,7 +9,7 @@ project_description: >-
   hubs with the power of Community School Parks
 organization_name: People for Parks
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=J2ZWX_tk4BU'
+project_video: 'https://www.youtube.com/watch?v=J2ZWX_tk4BU'
 organization_website: www.peopleforparks.org
 organization_twitter: '@pfpla'
 organization_facebook: 'https://www.facebook.com/PeopleForParksLosAngeles'

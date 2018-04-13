@@ -7,7 +7,7 @@ project_description: >-
   sing familiar ones at selected parks in Los Angeles.
 organization_name: Los Angeles Master Chorale
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=hYsa-tWNTm8'
+project_video: 'https://www.youtube.com/watch?v=hYsa-tWNTm8'
 link_newsletter: 'http://lamasterchorale.org/'
 organization_website: 'http://www.lamasterchorale.org'
 organization_twitter: 'https://twitter.com/lamasterchorale'

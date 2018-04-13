@@ -9,7 +9,7 @@ project_description: >-
   communities along the LA River and beyond.
 organization_name: LA River Public Art Project (c/o ERW Design)
 organization_description: For-profit organization
-project_video: 'https://www.youtube.com/embed?v=Gr6O_ZaGMQo&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=Gr6O_ZaGMQo'
 link_newsletter: 'http://losangelesriverpublicartproject.org/?p=94'
 organization_website: 'http://losangelesriverpublicartproject.org/'
 organization_twitter: 'https://www.twitter.com/@LARPAP'

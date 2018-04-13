@@ -7,7 +7,7 @@ project_description: >-
   want to support. LIVE and increase LA's bike score!
 organization_name: Health Core Possibilities
 organization_description: For-profit organization
-project_video: 'https://www.youtube.com/embed?v=2x_ao5Cxho8&rel=0'
+project_video: 'https://www.youtube.com/watch?v=2x_ao5Cxho8'
 link_newsletter: http://www.brandsavvi.com/
 organization_website: www.healthcore.biz
 organization_twitter: '@lizettealvare15'

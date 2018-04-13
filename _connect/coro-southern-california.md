@@ -9,7 +9,7 @@ project_description: >-
   change within their communities.
 organization_name: Coro Southern California
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=Du3r0rMVl4Q&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=Du3r0rMVl4Q'
 link_newsletter: https://www.corola.org/subscribe/
 organization_website: www.corola.org
 organization_twitter: '@CoroSoCal'

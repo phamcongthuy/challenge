@@ -9,7 +9,7 @@ project_description: >-
   dropout with personal pathways to future successes.
 organization_name: Harlem Lacrosse - Los Angeles
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=3WVD26iAwmw'
+project_video: 'https://www.youtube.com/watch?v=3WVD26iAwmw'
 link_newsletter: 'http://www.harlemlacrosse.org/blog/'
 organization_website: www.harlemlacrosse.org
 organization_twitter: '@harlemlacrosse'

@@ -9,7 +9,7 @@ project_description: >-
   one's cancer.
 organization_name: Walk With Sally
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=pnfEE7Dx14g'
+project_video: 'https://www.youtube.com/watch?v=pnfEE7Dx14g'
 link_newsletter: 'http://go.walkwithsally.org/l/129421/2016-02-29/8kdfz'
 organization_website: www.walkwithsally.org
 organization_twitter: '@walkwithsally'

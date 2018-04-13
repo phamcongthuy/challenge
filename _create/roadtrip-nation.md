@@ -7,7 +7,7 @@ project_description: >-
   viewers and students to new career pathways.
 organization_name: Roadtrip Nation
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=jT5D2oFUbpQ'
+project_video: 'https://www.youtube.com/watch?v=jT5D2oFUbpQ'
 organization_website:
   - www.roadtripnation.com
   - roadtripnation.org

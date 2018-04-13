@@ -9,7 +9,7 @@ project_description: >-
   and children.
 organization_name: LIFT-Los Angeles
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=ms14tJAN0ls'
+project_video: 'https://www.youtube.com/watch?v=ms14tJAN0ls'
 link_newsletter: 'https://www.liftcommunities.org/'
 organization_website: 'https://www.liftcommunities.org/'
 organization_twitter: '@LIFTCommunities'

@@ -6,7 +6,7 @@ project_description: >-
   and run strong organizations in the communities they grew up in.
 organization_name: Brioxy
 organization_description: Social enterprise or B-corps
-project_video: 'https://www.youtube.com/embed?v=AC3S73SvRy0'
+project_video: 'https://www.youtube.com/watch?v=AC3S73SvRy0'
 organization_website: www.brioxy.com
 organization_twitter: brioxylife
 organization_facebook: brioxy

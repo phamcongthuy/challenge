@@ -7,7 +7,7 @@ project_description: >-
   overlooked spaces and transform them into playful places!
 organization_name: Kounkuey Design Initiative
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=50O1szspYcg&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=50O1szspYcg'
 organization_website:
   - 'http://kounkuey.org'
   - 'http://lurnetwork.org'

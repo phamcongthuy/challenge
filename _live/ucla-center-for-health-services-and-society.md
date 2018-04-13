@@ -9,7 +9,7 @@ project_description: >-
   stressors in under-resourced communities in LA.
 organization_name: UCLA Center for Health Services and Society
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=CDgr7CxOHfA&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=CDgr7CxOHfA'
 link_newsletter: 'http://hss.semel.ucla.edu'
 organization_website: 'http://hss.semel.ucla.edu'
 organization_twitter: 'https://twitter.com/UCLA_HSS'

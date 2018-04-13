@@ -8,7 +8,7 @@ project_description: >-
 organization_name: 'SÜPRSEED, Inc.'
 organization_description: Non-profit organization
 project_video: >-
-  https://www.youtube.com/embed?v=KcRryxjBr-8&list=PL2jawcpDGeAUE6c6eKsDT7ovql42Eub5Q&index=2
+  https://www.youtube.com/watch?v=KcRryxjBr-8
 link_newsletter: 'http://eepurl.com/b5eqrX'
 organization_website: www.suprmarkt.la
 organization_twitter: ''

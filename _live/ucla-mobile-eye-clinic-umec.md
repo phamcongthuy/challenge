@@ -7,7 +7,7 @@ project_description: >-
   people experiencing homelessness in L.A.
 organization_name: UCLA Mobile Eye Clinic (UMEC)
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=XX7-agoIc2M'
+project_video: 'https://www.youtube.com/watch?v=XX7-agoIc2M'
 link_newsletter: 'https://goo.gl/forms/Fz5NTTXancU66dZj2'
 organization_website: www.uclahealth.org/umec
 organization_twitter: 'https://twitter.com/uclaMEC'

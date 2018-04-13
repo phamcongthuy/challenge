@@ -7,7 +7,7 @@ project_description: >-
   of color.
 organization_name: Black Women for Wellness
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=M5Q0W1tCJVg'
+project_video: 'https://www.youtube.com/watch?v=M5Q0W1tCJVg'
 link_newsletter: >-
   https://sites.google.com/s/1VGCVm21fjFFZOeMlXMWQeSqXlQEALRLo/p/1V1ALmp6UEHj5bK0MGOIboVnTSkAQi_XZ/edit
 organization_website: www.bwwla.org

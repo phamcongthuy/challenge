@@ -7,7 +7,7 @@ project_description: >-
   youth in the community to give back.
 organization_name: Stella's Socks
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=ClzWZnnOiJA&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=ClzWZnnOiJA'
 link_newsletter: 'https://stellassocks.com/contact-us'
 organization_website: www.stellassocks.com
 organization_twitter: stellassocks

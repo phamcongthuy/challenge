@@ -9,7 +9,7 @@ project_description: >-
   office--resulting in responsive, inclusive governance.
 organization_name: VoteRunLead
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=UJlhdh9rWgs'
+project_video: 'https://www.youtube.com/watch?v=UJlhdh9rWgs'
 link_newsletter: 'https://voterunlead.org/'
 organization_website: www.voterunlead.org
 organization_twitter: '@VoteRunLead'

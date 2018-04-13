@@ -9,7 +9,7 @@ project_description: >-
   magazine, and a firestorm of social media.
 organization_name: Larchmont Charter School
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=GjY2oTPnxak'
+project_video: 'https://www.youtube.com/watch?v=GjY2oTPnxak'
 link_newsletter: 'mailto:development@larchmontcharter.org'
 organization_website: www.larchmontcharter.org
 organization_twitter: '@larchmontschool'

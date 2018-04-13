@@ -7,7 +7,7 @@ project_description: >-
   within the LA community.
 organization_name: SeedLA
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=p0Ag2WK9kaw'
+project_video: 'https://www.youtube.com/watch?v=p0Ag2WK9kaw'
 link_newsletter: 'https://www.facebook.com/seedusa/'
 organization_website: 'http://seedcg.org/'
 organization_twitter: seedcg

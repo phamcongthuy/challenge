@@ -7,7 +7,7 @@ project_description: >-
   finalist organizations in the practice of Council.
 organization_name: 'Center for Council, a project of Community Partners'
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=TAAc3xB3YTk'
+project_video: 'https://www.youtube.com/watch?v=TAAc3xB3YTk'
 link_newsletter: 'https://www.centerforcouncil.org/subscribe.html'
 organization_website: www.centerforcouncil.org
 organization_twitter: '@ctrforcouncil'

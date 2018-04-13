@@ -7,7 +7,7 @@ project_description: >-
 organization_name: City Year Los Angeles
 organization_description: Non-profit organization
 project_video: >-
-  https://www.youtube.com/embed?v=oUBvw2A2YMI&list=PLQmnJ-zhcZRAjhsuAOra6lTU9rHZiDAWo&index=5&t=11s
+  https://www.youtube.com/watch?v=oUBvw2A2YMI
 link_newsletter: 'http://info.cityyear.org/Subscription_Center.html'
 organization_website: 'https://www.cityyear.org/losangeles'
 organization_twitter: '@CityYearLA'

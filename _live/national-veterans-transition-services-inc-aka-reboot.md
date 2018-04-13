@@ -7,7 +7,7 @@ project_description: >-
   other Angelenos.
 organization_name: 'National Veterans Transition Services, Inc. AKA REBOOT'
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=IVHAVDZAcFk&feature=youtu.be'
+project_video: 'https://www.youtube.com/watch?v=IVHAVDZAcFk'
 link_newsletter: 'http://www.nvtsi.org/intransition-magazine/'
 organization_website: 'http://www.nvtsi.org/'
 organization_twitter: '@RebootWorkshop'

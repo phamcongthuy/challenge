@@ -7,7 +7,7 @@ project_description: >-
   efficient, local, and rapid disaster relief.
 organization_name: Team Rubicon
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/embed?v=5BOUm4PBeUc&t=8s'
+project_video: 'https://www.youtube.com/watch?v=5BOUm4PBeUc'
 link_newsletter: 'http://teamrubiconusa.org/blog/'
 organization_website: 'https://teamrubiconusa.org/'
 organization_twitter: '@TeamRubicon'
