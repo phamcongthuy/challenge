@@ -85,8 +85,8 @@ category_other:
   - LA is the best place to CONNECT
   - LA is the healthiest place to LIVE
 category: play
-uri: /play/activate-south-bay-la-trails/
+uri: /play/south-bay-bicycle-coalition/
 order: 0
-project_image: activate-south-bay-la-trails.jpg
+project_image: south-bay-bicycle-coalition.jpg
 
 ---
