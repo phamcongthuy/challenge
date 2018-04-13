@@ -4,12 +4,12 @@
   "description": "",
   "author": "jim@jimthoburn.com",
   "scripts": {
-    "cypress:open": "cypress open",
-    "test-nightwatch": "nightwatch ./test/test.js --config ./test/nightwatch.config.js",
-    "create-markdown": "node _node/create-markdown.js",
-    "update-markdown": "node _node/update-markdown.js",
-    "copy-images": "node _node/copy-images.js",
-    "create-images": "gulp"
+    "markdown:create": "node ./create-markdown.js",
+    "markdown:update": "node ./update-markdown.js",
+    "images:create"  : "gulp",
+    "images:copy"    : "node ./copy-images.js",
+    "test:cypress"   : "cypress open",
+    "test:nightwatch": "nightwatch ./test/test.js --config ./test/nightwatch.config.js"
   },
   "devDependencies": {
     "chromedriver": "^2.33.2",

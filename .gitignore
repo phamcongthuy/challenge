@@ -3,3 +3,4 @@
 /.jekyll-metadata
 /_node/mysql-config.js
 /test/reports
+/_node/node_modules
