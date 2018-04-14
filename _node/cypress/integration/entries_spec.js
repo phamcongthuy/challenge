@@ -28,16 +28,18 @@ describe('Entries', function () {
         // Remove leading and trailing slashes, and change slashes into dashes
         let filename = link.href.replace(SERVER, '').replace(/^\//g, '').replace(/\/$/g, '').replace(/\//g, '-')
 
+        cy.wait(500) // Give the video or image time to load
+
         // https://on.cypress.io/screenshot
         cy.screenshot(`figure-${filename}`)
       })
     }
 
-    takeFigureScreenshots('learn')
-    takeFigureScreenshots('create')
-    takeFigureScreenshots('play')
-    takeFigureScreenshots('connect')
     takeFigureScreenshots('live')
+    takeFigureScreenshots('connect')
+    takeFigureScreenshots('play')
+    takeFigureScreenshots('create')
+    takeFigureScreenshots('learn')
 
   })
 

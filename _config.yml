@@ -50,6 +50,7 @@ version: 1.4.2
 exclude:
   - CNAME
   - README
+  - _node
   - node_modules
   - gulpfile.js
   - package.json

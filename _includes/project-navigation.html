@@ -46,7 +46,7 @@
 {% endunless %}
 {% endif %}
 
-<p style="font-style: italic"><strong style="color: inherit">Browse</strong> <!--{% if page.finalists %}finalists{% else %}entries{% endif %} in each--> by goal category</p>
+<p style="font-style: italic"><strong style="color: inherit">Browse</strong> by goal category</p>
 
 </div>
 
@@ -66,18 +66,14 @@
 {% if page.category %}
 
 {% if page.finalists %}
-
 <p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">5</strong> finalists in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
-
 {% else %}
-
 <p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> entries in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
-
 {% endif %}
 
 {% elsif page.is_search_results %}
 
-<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">You searched for <strong style="color: var(--primary-color, inherit)" id="keywords"></strong>. There <span id="project-count-are-is">are</span> <strong style="color: var(--primary-color, inherit)" id="project-count">{{ data_list.size }}</strong> matching <span id="project-count-projects">entries</span> in all categories.</p>
+<p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">You searched for <strong style="color: var(--primary-color, inherit)" id="keywords"></strong>. There <span id="project-count-are-is">are</span> <strong style="color: var(--primary-color, inherit)" id="project-count">{{ data_list.size }}</strong> matching <span id="project-count-projects">projects</span> in all categories.</p>
 
 {% endif %}
 

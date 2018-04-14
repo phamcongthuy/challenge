@@ -140,11 +140,14 @@ function processFile(filename) {
   let data = loadMarkdown(filename);
   if (!data) return;
 
-  // saveMarkdown(filename, data);
+  if (data.yaml.order < 1) {
+    data.yaml.is_winner = true;
+  }
+  if (data.yaml.order < 5) {
+    data.yaml.is_finalist = true;
+  }
 
-
-
-
+  saveMarkdown(filename, data);
 
 
 
@@ -272,8 +275,8 @@ function updateMarkdownFiles(folder) {
   }
 }
 
-updateMarkdownFiles('./_learn');
-updateMarkdownFiles('./_create');
-updateMarkdownFiles('./_play');
-updateMarkdownFiles('./_connect');
-updateMarkdownFiles('./_live');
+updateMarkdownFiles('../_learn');
+updateMarkdownFiles('../_create');
+updateMarkdownFiles('../_play');
+updateMarkdownFiles('../_connect');
+updateMarkdownFiles('../_live');
