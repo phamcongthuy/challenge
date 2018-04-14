@@ -96,6 +96,14 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endif %}
 
 
+{% if page.finalists and site.phase == 6 %}
+
+<div class="introduction">
+  <p>Vote for one project in each goal category, by <strong>June 29, 2018</strong>.</p>
+</div>
+{% endif %}
+
+
 {% include project-navigation.html %}
 
 
