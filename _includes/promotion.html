@@ -260,9 +260,10 @@
         </g>
         </svg>
       </div>
+      {% comment %}
       <p>
         <span class="avoid-break">
-        Vote by
+        <a href="/finalists/">Vote</a> by
         <span class="avoid-break">
           <strong>June 29, 2018</strong>.
         </span>
@@ -283,9 +284,12 @@
           {% endunless %}
         </small>
       </p>
-<!--       <p class="action" markdown="1">
-        <a href="{{ site.vote_url }}">Vote for a proposal</a>
-      </p> -->
+      {% endcomment %}
+      <p>Public voting has started! <a href="/finalists/">Check out the finalists</a> and then vote by <strong>June 29, 2018</strong>.</p>
+
+      <p class="action">
+        <a href="{{ site.vote_url }}" target="_blank">I’m ready to vote</a>
+      </p>
 
 {% elsif site.phase == 7 %}
 
