@@ -433,12 +433,12 @@
       grid-column-gap: 1.5em;
     }
   }*/
-  .proposals a,
-  .proposals a:hover {
+  .proposals li > a,
+  .proposals li > a:hover {
     color: inherit !important;
     text-decoration: none;
   }
-  .proposals a {
+  .proposals li > a {
     display: block;
   }
   @supports (object-fit: cover) {

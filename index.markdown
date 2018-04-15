@@ -357,17 +357,31 @@ show_promotion: true
   ];
   var random = Math.floor(Math.random() * categories.length) + 0;
   console.log(random);
-  if (link) link.setAttribute('href', '/' + categories[random] + '/');
+  if (link) link.setAttribute('href', '/' + categories[random] + '/finalists/');
 })();
 </script>
 {% elsif site.phase == 6 %}
 <p class="action">
-  <a href="{{ site.vote_url }}">Public voting has begun!</a>
+  <a href="/finalists/" id="home-details-entries-link">Check out the finalists!</a>
 </p>
-
+<script>
+(function() {
+  var link = document.getElementById('home-details-entries-link');
+  var categories = [
+    'learn',
+    'create',
+    'play',
+    'connect',
+    'live'
+  ];
+  var random = Math.floor(Math.random() * categories.length) + 0;
+  console.log(random);
+  if (link) link.setAttribute('href', '/' + categories[random] + '/finalists/');
+})();
+</script>
 {% elsif site.phase == 8 %}
 <p class="action">
-  <a href="/winners/">Check out the winners</a>
+  <a href="/winners/">Check out the winners!</a>
 </p>
 {% else %}
 <p class="action">
@@ -578,7 +592,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 6 %}
 
 <p>
-  <a href="{{ site.vote_url }}">Vote for a proposal</a>!
+  <a href="/finalists/">Vote for a proposal</a>!
   Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
@@ -671,7 +685,7 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 {% elsif site.phase == 6 %}
 
 <p>
-  <a href="{{ site.vote_url }}">Vote for a proposal</a>!
+  <a href="/finalists/">Vote for a proposal</a>!
   Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
