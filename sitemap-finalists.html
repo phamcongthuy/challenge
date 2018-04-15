@@ -1,0 +1,70 @@
+---
+layout: null
+---
+<html>
+<body>
+
+{% comment %}
+This file create a list of images URLs for finalists, for use with Typeform
+{% endcomment %}
+
+{% comment %}
+######### Projects #########
+{% endcomment %}
+
+<ul>
+
+{% assign data_collection = site.collections | where: "label", "learn" | first %}
+{% assign data_list = data_collection.docs %}
+{% for project in data_list %}
+{% if project.is_finalist == true %}
+<li><a href="https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}">
+https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}
+</a></li>
+{% endif %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "create" | first %}
+{% assign data_list = data_collection.docs %}
+{% for project in data_list %}
+{% if project.is_finalist == true %}
+<li><a href="https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}">
+https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}
+</a></li>
+{% endif %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "play" | first %}
+{% assign data_list = data_collection.docs %}
+{% for project in data_list %}
+{% if project.is_finalist == true %}
+<li><a href="https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}">
+https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}
+</a></li>
+{% endif %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "connect" | first %}
+{% assign data_list = data_collection.docs %}
+{% for project in data_list %}
+{% if project.is_finalist == true %}
+<li><a href="https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}">
+https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}
+</a></li>
+{% endif %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "live" | first %}
+{% assign data_list = data_collection.docs %}
+{% for project in data_list %}
+{% if project.is_finalist == true %}
+<li><a href="https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}">
+https://activation.la2050.org/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}
+</a></li>
+{% endif %}
+{% endfor %}
+
+</ul>
+
+</body>
+</html>
