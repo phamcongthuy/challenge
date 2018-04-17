@@ -121,10 +121,10 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 <!--   <li class="proposals-category-tall">
     <div><p><span>{{ page.category }}</span></p></div>
   </li> -->
-
+<!-- 
   <li class="proposals-category-short">
     <div><p><span>{{ page.category }}</span></p></div>
-  </li>
+  </li> -->
 
   {% assign data_list = data_list | sort: "order" %}
 
@@ -149,16 +149,27 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
         {% assign image_url = data.project_image %}
         {% assign image_category = data.category %}
 
-        {% comment %}
-        <img src="/assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
-        {% endcomment %}
+        <img src="/assets/images/{{ image_category }}/2048-wide/{{ image_url }}" alt="" width="500" />
 
+        {% comment %}
         <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 20em, 100vw" width="500" alt="" />
+        {% endcomment %}
       </span>
-      <p class="organization">{{ data['organization_name'] }}</p>
-      <h3>{{ data['title'] }}</h3>
-      <p class="description">{{ data['project_description'] }}</p>
+      <span class="text">
+        <h3>{{ data['title'] }}</h3>
+        <p class="organization">{{ data['organization_name'] }}</p>
+        <p class="organization-type">{{ data.organization_description }}</p>
+        <p class="description">{{ data['project_description'] }}</p>
+      </span>
+      <!-- <p class="action"><span>Learn More</span></p> -->
     </a>
+    <!--
+    <div class="action">
+      <p><a href="">Learn More</a></p>
+      <p><a href="">Vote for this</a></p>
+    </div>
+    -->
+    <!-- <p class="action"><a href="">Vote for this</a></p> -->
   </li>
   {% if page.is_search_results %}</script>{% endif %}
 
