@@ -113,7 +113,7 @@ The submission period is complete.
 </p>
 
 <p class="action" markdown="1">
-  <a href="{{ site.vote_url }}">Vote for a proposal</a>
+  <a href="/finalists/">Check out the finalists</a>
 </p>
 
 </div>

@@ -25,7 +25,12 @@ function generateImages({ width, aspectRatio }) {
   let folder = `${generatedImagePath}/${width}-wide`;
   let options = {
     width: width,
-    format: 'jpg'
+    format: 'jpg',
+    quality: 1,
+    filter: 'Catrom',
+    imageMagick: true,
+    flatten: true,
+    background: '#ffffff'
   }
 
   if (aspectRatio) {
@@ -36,7 +41,6 @@ function generateImages({ width, aspectRatio }) {
     options.height = Math.round(options.width / ratio);
     options.crop = true;
     options.upscale = false;
-    // options.background = '#ffffff';
   }
 
   console.dir(options);
