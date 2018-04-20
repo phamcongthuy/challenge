@@ -444,9 +444,15 @@
   @supports (object-fit: cover) {
     .proposals .image {
       padding-top: 79.25925926%; /* 428px / 540px */
+      padding-top: 79.25925926vw;
       display: block;
       position: relative;
       background: rgba(0, 0, 0, 0.1);
+    }
+    @media (min-width: 50em) {
+      .proposals .image {
+        padding-top: 79.25925926%;
+      }
     }
     .proposals img {
       display: block;
