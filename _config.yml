@@ -45,7 +45,7 @@ phase: 6
 
 permalink: pretty
 
-version: 1.4.2
+version: 1.4.4
 
 exclude:
   - CNAME
