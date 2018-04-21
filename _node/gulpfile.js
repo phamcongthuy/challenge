@@ -24,13 +24,13 @@ function generateImages({ width, aspectRatio }) {
 
   let folder = `${generatedImagePath}/${width}-wide`;
   let options = {
+    filter: 'Catrom',
+    // background: '#ffffff',
+    // flatten: true,
+    quality: 1,
     width: width,
     format: 'jpg',
-    quality: 1,
-    filter: 'Catrom',
-    imageMagick: true,
-    flatten: true,
-    background: '#ffffff'
+    imageMagick: true
   }
 
   if (aspectRatio) {
@@ -97,8 +97,8 @@ gulp.task("default", function() {
   // generatedImagePath  = '../assets/images/connect';
   // generateNext();
 
-  // sizesCursor = 0;
-  // sourceImagePath     = '../assets/images/live/original';
-  // generatedImagePath  = '../assets/images/live';
-  // generateNext();
+  sizesCursor = 0;
+  sourceImagePath     = '../assets/images/live/original';
+  generatedImagePath  = '../assets/images/live';
+  generateNext();
 });
