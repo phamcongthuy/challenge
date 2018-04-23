@@ -24,7 +24,7 @@ Starting **June 19, 2018** <small class="avoid-break">(9am Pacific Time)</small>
   <p><small><a href="/finalists/" style="color: var(--primary-color)">Check out the finalists</a> and then vote by <strong>June 29, 2018</strong> (5pm Pacific Time)</small>.</p>
 
   <p class="action">
-	<a href="{{ site.vote_url }}" target="_blank">I’m ready to vote</a>
+	<a href="{{ site.vote_url }}">I’m ready to vote</a>
   </p>
 </div>
 
