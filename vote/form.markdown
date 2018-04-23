@@ -193,7 +193,7 @@ form section h3 {
 }
 </style>
 
-<form action="/vote/send-email/" method="get" markdown="1">
+<form name="vote" action="/vote/email-sent/" method="post" markdown="1" netlify>
 
 <hr />
 
