@@ -9,26 +9,6 @@ body_class: blueberry
 
 Choose one <a href="/finalists/">finalist</a> in each of the five categories.
 
-
-<div style="margin-left: auto; margin-right: auto; max-width: 40em;" class="action" data-netlify-identity-menu></div>
-
-<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-<script>
-// Bind to events
-netlifyIdentity.on("init", user => console.log(user));
-netlifyIdentity.on("login", user => console.log(user));
-netlifyIdentity.on("logout", () => console.log("Logged out"));
-netlifyIdentity.on("error", err => console.error("Logged out"));
-netlifyIdentity.on("open", () => console.log("Widget opened"));
-netlifyIdentity.on("close", () => console.log("Widget closed"));
-
-// if (!netlifyIdentity.gotrue.currentUser()) {
-//   netlifyIdentity.open("signup");
-// }
-</script>
-
-
 </div>
 
 <style>
