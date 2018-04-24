@@ -223,7 +223,9 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * Projects will be featured on this site and public voting will be open from Tuesday, June 19, 2018 (9am Pacific Time) through Friday, June 29, 2018 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
 * In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
+{% if site.event_url %}
 * Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
+{% endif %}
 * Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
 * [Read all the rules](https://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf)
 
