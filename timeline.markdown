@@ -41,14 +41,18 @@ footer_image: true
 {% endif %}
 
 {% if site.phase == 6 %}
+{% if site.event_url %}
 **![](/assets/images/timeline/strawberry/event.svg) June 19, 2018**
 : **Public Event**
+{% endif %}
 
 **![](/assets/images/timeline/strawberry/voting.svg) June 19-29, 2018**
 : **Public Voting**
 {% else %}
+{% if site.event_url %}
 ![](/assets/images/timeline/event.svg) June 19, 2018
 : Public Event
+{% endif %}
 
 ![](/assets/images/timeline/voting.svg) June 19-29, 2018
 : Public Voting
@@ -62,6 +66,6 @@ footer_image: true
 : Winners Announced
 {% endif %}
 
-**25 finalists** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span><br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event.
+**25 finalists** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>{% if site.event_url %}<br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event.{% endif %}
 
 </div></div>
