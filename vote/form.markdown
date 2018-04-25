@@ -207,7 +207,7 @@ form section h3 {
 {% if project.is_finalist == true %}
 <li>
 <label>
-  <input type="radio" name="learn" value="{{ project.organization_name }}" {% if first_item %}checked="checked"{% endif %} />
+  <input type="radio" name="learn" value="{{ project.organization_name }}" />
   <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -234,7 +234,7 @@ form section h3 {
 {% if project.is_finalist == true %}
 <li>
 <label>
-  <input type="radio" name="create" value="{{ project.organization_name }}" {% if first_item %}checked="checked"{% endif %} />
+  <input type="radio" name="create" value="{{ project.organization_name }}" />
     <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -261,7 +261,7 @@ form section h3 {
 {% if project.is_finalist == true %}
 <li>
 <label>
-  <input type="radio" name="play" value="{{ project.organization_name }}" {% if first_item %}checked="checked"{% endif %} />
+  <input type="radio" name="play" value="{{ project.organization_name }}" />
     <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -288,7 +288,7 @@ form section h3 {
 {% if project.is_finalist == true %}
 <li>
 <label>
-  <input type="radio" name="connect" value="{{ project.organization_name }}" {% if first_item %}checked="checked"{% endif %} />
+  <input type="radio" name="connect" value="{{ project.organization_name }}" />
     <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -315,7 +315,7 @@ form section h3 {
 {% if project.is_finalist == true %}
 <li>
 <label>
-  <input type="radio" name="live" value="{{ project.organization_name }}" {% if first_item %}checked="checked"{% endif %} />
+  <input type="radio" name="live" value="{{ project.organization_name }}" />
     <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -340,7 +340,7 @@ Next, we’ll send instructions about how to verify your votes.
 
 <p style="margin-top: 1.5em; display: flex;">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="email" name="email" value="jim@tobbi.co" placeholder="What’s your email address?" style="text-align: left;" />
+  <input type="email" name="email" placeholder="What’s your email address?" style="text-align: left;" />
 </label>
 <button type="submit">Send email</button>
 </p>
