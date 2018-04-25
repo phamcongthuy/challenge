@@ -505,9 +505,9 @@
     border-color: rgba(0, 0, 0, 0.15);
   }*/
   .proposals .image img {
-    object-fit: contain;
-    height: 80vh;
-    max-height: 80vh;
+    object-fit: cover;
+    height: calc(50vw - 6.75em);
+    max-height: none;
   }
   .proposals .text {
     flex-basis: 50%;
