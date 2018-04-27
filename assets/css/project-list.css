@@ -441,8 +441,8 @@
   .proposals li > a {
     display: block;
   }
-  @supports (object-fit: coverr) {
-    .proposals .image {
+  @supports (object-fit: cover) {
+    .proposals:not(.finalists) .image {
       padding-top: 79.25925926%; /* 428px / 540px */
       padding-top: 79.25925926vw;
       display: block;
@@ -450,11 +450,11 @@
       background: rgba(0, 0, 0, 0.1);
     }
     @media (min-width: 50em) {
-      .proposals .image {
+      .proposals:not(.finalists) .image {
         padding-top: 79.25925926%;
       }
     }
-    .proposals img {
+    .proposals:not(.finalists) img {
       display: block;
       position: absolute;
       top: 0;
@@ -468,7 +468,7 @@
       */
     }
   }
-  .proposals img {
+  .proposals.finalists img {
     width: 100%;
   }
   /* 
@@ -490,64 +490,115 @@
     padding-right: 1.5em;
   }
 
-  .proposals li > a {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .proposals .image {
-/*    margin-bottom: 1.125em;
+
+  .proposals:not(.finalists) .image {
+    margin-bottom: 1.125em;
     margin-left: -1.5em;
-    margin-right: -1.5em;*/
-    flex-basis: 50%;
-    padding-right: 1.875em;
-    box-sizing: border-box;
+    margin-right: -1.5em;
   }
-/*  .proposals .image {
-    border-width: 0.125em;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.15);
-  }*/
-  .proposals .image img {
-    object-fit: cover;
-    height: calc(50vw - 6.75em);
-    max-height: none;
-  }
-  .proposals .text {
-    flex-basis: 50%;
-    padding-left: 1.875em;
-    box-sizing: border-box;
-  }
-  .proposals .organization-type {
+
+  .proposals.finalists .organization-type {
     font-style: italic;
     font-size: 0.875em;
     font-weight: 500;
   }
-  .proposals .text h3 {
+  .proposals.finalists .text h3 {
     text-decoration: none !important;
   }
-
-/*  .proposals li + li {
-    border-width: 0 0 0.125em;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.15);
-    padding-top: 3.75em;
-    padding-bottom: 3.75em;
-  }*/
-
-  .proposals li {
+  .proposals.finalists li {
     margin-top: 0 !important;
   }
-  .proposals li:nth-child(2n+1) .text {
-    order: -1;
-    padding-left: 0;
-    padding-right: 1.875em;
-  }
-  .proposals li:nth-child(2n+1) .image {
+
+
+/*  .proposals.finalists li:nth-child(2n+1) .image {
     padding-right: 0;
     padding-left: 1.875em;
+  }*/
+
+  .proposals.finalists {
+    margin-top: 3em;
+    background: rgb(244, 244, 244);
+    padding: 1.5em;
+    margin: -1.5em;
+  }
+  .proposals.finalists li + li {
+    margin-top: 4.5em !important;
+  }
+  .proposals.finalists li > a {
+    background: rgb(254, 254, 254); /* @snow */
+  }
+  .proposals.finalists li .text {
+    display: block;
+    padding: 1.5em;
+  }
+/*  .proposals.finalists li > a .image {
+    margin: -3em 3em -3em -6em;
+  }
+  .proposals.finalists li:nth-child(2n+1) > a .image {
+    margin: -3em -6em -3em 3em;
+  }*/
+  .proposals.finalists li > a .image img {
+    display: block
+  }
+
+  @media (min-width: 40em) {
+    .proposals.finalists {
+      margin: 4.5em -4.5em;
+    }
+  }
+  @media (min-width: 60em) {
+    .proposals.finalists li > a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+    .proposals.finalists .image {
+      flex-basis: calc(50% - 1.5em);
+      /*padding-right: 1.875em;*/
+      box-sizing: border-box;
+      position: relative;
+    }
+    .proposals.finalists li .text {
+      flex-basis: calc(50% - 1.5em);
+      /*padding-left: 1.875em;*/
+      box-sizing: border-box;
+      padding: 3em;
+      padding-left: 0;
+      min-height: calc(50vw - 7.5em);
+    }
+    .proposals.finalists li:nth-child(2n+1) .text {
+      order: -1;
+      padding-right: 0;
+      padding-left: 3em;
+    }
+    .proposals.finalists .image img {
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      max-height: none;
+    }
+  }
+  @media (min-width: 80em) {
+    .proposals.finalists {
+      padding: 4.5em;
+    }
+  }
+
+  .proposals li .action {
+    padding-top: 1.5em;
+  }
+  .proposals li .action > span {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .proposals li .action > span:hover {
+    color: var(--primary-color);
+    background-color: white;
   }
 
 /*  .proposals li {
@@ -575,21 +626,21 @@
   }*/
 
 
-/*  @media (min-width: 50em) {
-    .proposals {
+  @media (min-width: 50em) {
+    .proposals:not(.finalists) {
       display: grid;
     }
-    .proposals li {
+    .proposals:not(.finalists) li {
       max-width: 25em;
     }
-    .proposals li + li {
+    .proposals:not(.finalists) li + li {
       margin-top: 0;
     }
-    .proposals .image {
+    .proposals:not(.finalists) .image {
       margin-left: 0;
       margin-right: 0;
     }
-  }*/
+  }
 
   .proposals h3 {
     font-size: inherit;
@@ -598,9 +649,6 @@
     margin-top: 0.375em;
     margin-bottom: 0.375em;
     max-width: none;
-
-    font-size: 2.25em;
-    line-height: 1.25;
   }
 
   .proposals .play h3 {
@@ -628,14 +676,30 @@
     color: rgb(237, 192, 50); /* @dark-banana */
     max-width: none;
     color: inherit !important;
-
-
-    font-size: 1.5em;
-    line-height: 1.25;
-    max-width: 26.6666666667em;
+  }
+  .proposals.finalists .organization {
+/*    font-size: 1.5em;
+    line-height: 1.25;*/
+/*    max-width: 26.6666666667em;*/
     color: inherit;
     font-weight: 600;
   }
+
+  .proposals.finalists h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+  @media (min-width: 70em) {
+    .proposals.finalists .organization {
+      font-size: 1.5vmax;
+      line-height: 1.25;
+    }
+    .proposals.finalists h3 {
+      font-size: 2.25vmax;
+      line-height: 1.25;
+    }
+  }
+
   .proposals .description {
     font-weight: 400;
     /*padding: 0 0.75rem;*/
@@ -643,12 +707,12 @@
     margin-bottom: 0;
   }
 
-@media (false) and (min-width: 60em) {
-    .proposals .organization,
-    .proposals .description {
+  @media (min-width: 60em) {
+    .proposals:not(.finalists) .organization,
+    .proposals:not(.finalists) .description {
       font-size: 0.875em;
     }
-    .proposals h3 {
+    .proposals:not(.finalists) h3 {
       line-height: 1.3125; /* Same line height as the organization and description (1.5 * 0.875) */
     }
   }
