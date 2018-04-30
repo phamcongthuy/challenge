@@ -11,7 +11,7 @@ Please check your email and follow the instructions in the message we sent to yo
 
 <small>Didn’t get an email?</small>
 
-<form name="vote" action="/vote/email-sent/" method="post" markdown="1" netlify>
+<form name="vote" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />

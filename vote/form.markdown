@@ -193,7 +193,7 @@ form section h3 {
 }
 </style>
 
-<form name="vote" action="/vote/email-sent/" method="post" markdown="1" netlify>
+<form name="vote" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
 
 <hr />
 
@@ -401,6 +401,7 @@ Next, we’ll send instructions about how to verify your votes.
       if (err) {
         // Handle error
       } else {
+        form.action = form.action + '?' + votesData.join('&');
         form.submit();
         // document.querySelector('.introduction').style.display = 'block';
         // document.querySelector('form').style.display = 'none';

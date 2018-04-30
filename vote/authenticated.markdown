@@ -5,7 +5,7 @@ body_class: lime
 
 # Saving your votes…
 
-<form name="vote_authenticated" action="/vote/confirmation/" method="post" markdown="1" netlify>
+<form name="vote_authenticated" action="/vote/confirmation/" method="post" markdown="1" data-netlify="true">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />
