@@ -340,12 +340,12 @@ Next, we’ll send instructions about how to verify your votes.
 
 <p style="margin-top: 1.5em; display: flex;">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="email" name="email" placeholder="What’s your email address?" style="text-align: left;" />
+  <input type="email" name="email" placeholder="What’s your email address?" style="text-align: left;" required />
 </label>
 <button type="submit">Send email</button>
 </p>
 
-<p style="margin-top: 1.7142857143em"><small>We only use this address to complete the voting process. (No spam, we promise!)</small></p>
+<p style="margin-top: 1.7142857143em"><small>We will only use this address to complete the voting process. (No spam, we promise!)</small></p>
 </section>
 
 </form>
