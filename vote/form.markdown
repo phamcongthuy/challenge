@@ -352,4 +352,57 @@ Next, we’ll send instructions about how to verify your votes.
 
 <div style="margin-top: 9em"></div>
 
+<script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
+<script type="text/javascript">
+  var webAuth = new auth0.WebAuth({
+    domain:      'activation-la2050.auth0.com',
+    clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
+    // responseMode: 'form_post',
+    responseType: 'token'
+  });
+</script>
+
+<script>
+  function sendEmail(form){
+    console.log('sendEmail');
+
+    var email = document.querySelector('input[type="email"]').value;
+
+    webAuth.passwordlessStart({
+      connection: 'email',
+      send: 'link',
+      email: email,
+      redirectUri: 'https://preview-6-activation.la2050.org/vote/confirmation/'
+    }, function (err,res) {
+      if (err) {
+        // Handle error
+      } else {
+        form.submit();
+        // document.querySelector('.introduction').style.display = 'block';
+        // document.querySelector('form').style.display = 'none';
+      }
+
+      console.log('err');
+      console.log(err)
+      console.dir(err)
+
+      console.log('res');
+      console.log(res)
+      console.dir(res)
+
+      // Hide the input and show a "Check your email for your login link!" screen
+      //$('.enter-email').hide();
+      //$('.check-email').show();
+
+
+    });
+  }
+
+  document.querySelector('form[name="vote"]').addEventListener('submit', function(e) {
+    sendEmail(e.target);
+
+    e.preventDefault();
+  })
+</script>
+
 
