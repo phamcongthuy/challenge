@@ -368,16 +368,40 @@ Next, we’ll send instructions about how to verify your votes.
 
     var email = document.querySelector('input[type="email"]').value;
 
+    var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
+    var votesData = [];
+    var nextField;
+    for (var index = 0; index < fieldNames.length; index++) {
+      nextField = form.querySelector('input[name="' + fieldNames[index] + '"]:checked');
+      if (nextField) {
+        votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
+      } else {
+        console.log('skipped: ' + fieldNames[index]);
+      }
+    }
+
+    if ((votesData).length < 1) {
+      console.error('No items were voted for');
+      return;
+    }
+
+    votesData.push('email=' + form.querySelector('input[name="email"]').value);
+
+    console.dir(votesData);
+
+    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
+    console.log('redirectUri: ' + redirectUri);
+
     webAuth.passwordlessStart({
       connection: 'email',
       send: 'link',
       email: email,
-      redirectUri: 'https://preview-6-activation.la2050.org/vote/confirmation/'
+      redirectUri: redirectUri,
     }, function (err,res) {
       if (err) {
         // Handle error
       } else {
-        form.submit();
+        // form.submit();
         // document.querySelector('.introduction').style.display = 'block';
         // document.querySelector('form').style.display = 'none';
       }
@@ -398,10 +422,10 @@ Next, we’ll send instructions about how to verify your votes.
     });
   }
 
-  document.querySelector('form[name="vote"]').addEventListener('submit', function(e) {
+  document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
     sendEmail(e.target);
 
-    e.preventDefault();
   })
 </script>
 
