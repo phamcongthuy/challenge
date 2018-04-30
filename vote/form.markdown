@@ -366,7 +366,7 @@ Next, we’ll send instructions about how to verify your votes.
   function sendEmail(form){
     console.log('sendEmail');
 
-    var email = document.querySelector('input[type="email"]').value;
+    var email = document.querySelector('input[name="email"]').value;
 
     var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
     var votesData = [];
@@ -385,7 +385,7 @@ Next, we’ll send instructions about how to verify your votes.
       return;
     }
 
-    votesData.push('email=' + form.querySelector('input[name="email"]').value);
+    votesData.push('email=' + email);
 
     console.dir(votesData);
 

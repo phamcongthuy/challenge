@@ -11,7 +11,7 @@ Please check your email and follow the instructions in the message we sent to yo
 
 <small>Didn’t get an email?</small>
 
-<form name="vote" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
+<form action="/vote/email-sent/" method="get">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />
@@ -58,7 +58,84 @@ Please check your email and follow the instructions in the message we sent to yo
 
   form.querySelector('input[name="email"]').value = getParameterByName('email');
 
-
-
 </script>
+
+<script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
+<script type="text/javascript">
+  var webAuth = new auth0.WebAuth({
+    domain:      'activation-la2050.auth0.com',
+    clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
+    // responseMode: 'form_post',
+    responseType: 'token'
+  });
+</script>
+
+<script>
+  function sendEmail(form){
+    console.log('sendEmail');
+
+    var email = document.querySelector('input[name="email"]').value;
+
+    var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
+    var votesData = [];
+    var nextField;
+    for (var index = 0; index < fieldNames.length; index++) {
+      nextField = form.querySelector('input[name="' + fieldNames[index] + '"]');
+      if (nextField) {
+        votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
+      } else {
+        console.log('skipped: ' + fieldNames[index]);
+      }
+    }
+
+    if ((votesData).length < 1) {
+      console.error('No items were voted for');
+      return;
+    }
+
+    votesData.push('email=' + email);
+
+    console.dir(votesData);
+
+    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
+    console.log('redirectUri: ' + redirectUri);
+
+    webAuth.passwordlessStart({
+      connection: 'email',
+      send: 'link',
+      email: email,
+      redirectUri: redirectUri,
+    }, function (err,res) {
+      if (err) {
+        // Handle error
+      } else {
+        form.action = form.action + '?' + votesData.join('&');
+        form.submit();
+        // document.querySelector('.introduction').style.display = 'block';
+        // document.querySelector('form').style.display = 'none';
+      }
+
+      console.log('err');
+      console.log(err)
+      console.dir(err)
+
+      console.log('res');
+      console.log(res)
+      console.dir(res)
+
+      // Hide the input and show a "Check your email for your login link!" screen
+      //$('.enter-email').hide();
+      //$('.check-email').show();
+
+
+    });
+  }
+
+  document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    sendEmail(e.target);
+
+  })
+</script>
+
 
