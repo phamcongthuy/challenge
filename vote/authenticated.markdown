@@ -3,6 +3,7 @@ title: Vote in the 2018 My LA2050 Activation Challenge
 body_class: lime
 ---
 
+# Saving your votes…
 
 <form name="vote_authenticated" action="/vote/confirmation/" method="post" markdown="1" netlify>
 <input type="hidden" name="learn" />

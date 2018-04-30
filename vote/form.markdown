@@ -401,7 +401,7 @@ Next, we’ll send instructions about how to verify your votes.
       if (err) {
         // Handle error
       } else {
-        // form.submit();
+        form.submit();
         // document.querySelector('.introduction').style.display = 'block';
         // document.querySelector('form').style.display = 'none';
       }
