@@ -97,8 +97,8 @@ gulp.task("default", function() {
   // generatedImagePath  = '../assets/images/connect';
   // generateNext();
 
-  sizesCursor = 0;
-  sourceImagePath     = '../assets/images/live/original';
-  generatedImagePath  = '../assets/images/live';
-  generateNext();
+  // sizesCursor = 0;
+  // sourceImagePath     = '../assets/images/live/original';
+  // generatedImagePath  = '../assets/images/live';
+  // generateNext();
 });
