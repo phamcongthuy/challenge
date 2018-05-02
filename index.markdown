@@ -489,6 +489,7 @@ body main .header-figure.has-caption.has-caption-details .caption .details {
 }
 @media (min-width: 70em) {
   .header-figure .caption .details .action a {
+    background-color: rgb(46, 219, 228); /* @bright-blueberry */
     border-color: rgb(46, 219, 228); /* @bright-blueberry */
 
     background-color: var(--primary-color);
