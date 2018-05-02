@@ -32,9 +32,13 @@
 </form>
 </details>
 
+{% unless page.is_search_results %}
 <script>
 (function() {
+  var wasOpen;
+
   document.querySelector('summary').addEventListener('click', function(e) {
+    wasOpen = true;
     setTimeout(function() {
       document.getElementById('search-field').focus()
     }, 1);
@@ -44,10 +48,12 @@
   if (!details) return;
 
   function updateSummaryOpen() {
+    if (wasOpen) return;
     if (window.innerWidth < 800 && window.innerHeight < 800) {
       details.removeAttribute('open')
     } else {
       details.setAttribute('open', 'open')
+      wasOpen = true;
     }
   }
 
@@ -57,6 +63,7 @@
 
 })();
 </script>
+{% endunless %}
 
 {% endunless %}
 {% endif %}
