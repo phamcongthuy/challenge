@@ -160,6 +160,7 @@ form li input {
   position: absolute;
   opacity: 0;
 }
+form li .call-to-action,
 form li .pseudo-checkbox {
   position: absolute;
   top: 0;
@@ -172,14 +173,22 @@ form li .pseudo-checkbox {
   align-items: center;
   opacity: 0;
   transition: opacity 0.2s;
+  font-size: 1.5em;
 }
-form label:hover .pseudo-checkbox {
+form li .pseudo-checkbox {
+  display: none;
+}
+form label:hover .call-to-action {
   background: rgba(0, 0, 0, 0.1);
   opacity: 1;
+}
+form li input:checked ~ .call-to-action {
+  display: none;
 }
 form li input:checked ~ .pseudo-checkbox {
   background: rgba(0, 0, 0, 0.5); /* @lime */
   opacity: 1;
+  display: flex;
 }
 form .blueberry input:checked ~ .pseudo-checkbox {
   background: rgba(6, 179, 188, 0.5); /* @blueberry */
@@ -198,8 +207,9 @@ form .lime input:checked ~ .pseudo-checkbox {
 }
 form li .pseudo-checkbox svg {
   fill: currentColor;
-  width: 3em;
-  height: 3em;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.75em;
 }
 form input[type="email"] {
   font-family: inherit;
@@ -268,7 +278,11 @@ form section h3 {
   <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+      <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
     </svg>
+  </span>
+  <span class="call-to-action">
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <!--
@@ -306,10 +320,14 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="create" value="{{ project.organization_name }}" />
-    <span class="pseudo-checkbox">
+  <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+  </span>
+  <span class="call-to-action">
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
@@ -333,10 +351,14 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="play" value="{{ project.organization_name }}" />
-    <span class="pseudo-checkbox">
+  <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+  </span>
+  <span class="call-to-action">
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
@@ -360,10 +382,14 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="connect" value="{{ project.organization_name }}" />
-    <span class="pseudo-checkbox">
+  <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+  </span>
+  <span class="call-to-action">
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
@@ -387,10 +413,14 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="live" value="{{ project.organization_name }}" />
-    <span class="pseudo-checkbox">
+  <span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+  </span>
+  <span class="call-to-action">
+    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
@@ -403,13 +433,22 @@ form section h3 {
 
 <hr />
 
-<section id="finish">
+<section id="finish" style="display: none;">
 
 <div markdown="1">
-### You’re <span style="text-decoration: underline;">almost</span> done!
+## You’re <span style="text-decoration: underline;">almost</span> done!
 
-Now it’s time to confirm your votes.
+Now it’s time to confirm your votes by signing in to one of your accounts.
 
+### Sign in with…
+
+<ul class="action" style="max-width: 20em; margin: 1.5em auto 0">
+  <li style="order: 3"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Email</a></li>
+  <li style="order: 2"><a href="/vote/confirmation">Facebook</a></li>
+  <li style="order: 1"><a href="/vote/confirmation/">Twitter</a></li>
+</ul>
+
+<!--
 <ul class="action" style="display: block">
   <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Sign in with email</a></li>
   <li style="margin: 0 !important; padding: 0;">or</li>
@@ -417,6 +456,7 @@ Now it’s time to confirm your votes.
   <li style="margin: 0 !important; padding: 0">or</li>
   <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Twitter</a></li>
 </ul>
+-->
 
 </div>
 
@@ -559,18 +599,23 @@ header, footer {
           switch(e.target.name) {
             case 'learn':
               document.getElementById('create').scrollIntoView({ behavior: 'smooth' });
+              updateProgress();
               break;
             case 'create':
               document.getElementById('play').scrollIntoView({ behavior: 'smooth' });
+              updateProgress();
               break;
             case 'play':
               document.getElementById('connect').scrollIntoView({ behavior: 'smooth' });
+              updateProgress();
               break;
             case 'connect':
               document.getElementById('live').scrollIntoView({ behavior: 'smooth' });
+              updateProgress();
               break;
             case 'live':
               document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+              updateProgress();
               break;
             default:
 
@@ -581,25 +626,43 @@ header, footer {
   //});
 
 
+
+  var counter = 0;
+  function updateProgress() {
+    var progress = document.getElementById("progress");
+    var count = document.getElementById("vote-count");
+
+    progress.style.display = 'block';
+
+    count.innerText = ++counter;
+
+    var exclamations = ['Nice!', 'Hooray!', 'Sweet!', 'Way to go!', 'Excellent!'];
+    document.getElementById('exclamation').innerText = exclamations[counter - 1];
+
+    if (counter >= 5) {
+      progress.style.display = 'none';
+      // document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    if (counter >= 1) {
+      document.getElementById('finish').style.display = 'flex';
+    }
+  }
+
+
+
+
+
 })();
 </script>
 
 
 
-<div class="progress" role="status" style="display: none">
-  <p style="display: none"><span id="vote-count">1</span> of <span>5</span> votes cast</p>
+<div class="progress" role="status" id="progress" style="display: none">
+  <p><span id="exclamation">Nice!</span> You’ve voted in <span id="vote-count">1</span> of <span>5</span> categories.</p>
 </div>
 
 <script>
-(function() {
-
-  var count = document.getElementById("vote-count");
-
-  function update() {
-
-  }
-
-})();
 </script>
 
 <style>
