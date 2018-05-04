@@ -506,6 +506,7 @@
     text-decoration: none !important;
   }
   .proposals.finalists li {
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2);
     margin-top: 0 !important;
   }
 
@@ -515,9 +516,9 @@
     padding-left: 1.875em;
   }*/
 
-  body.finalists {
+/*  body.finalists {
     background: rgb(235, 235, 235);
-  }
+  }*/
 
   @media (min-width: 40em) {
     .proposals.finalists {
