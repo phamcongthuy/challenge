@@ -6,11 +6,20 @@ body_class: blueberry
 <div class="introduction" markdown="1">
 
 <div>
-<img src="/assets/images/vote-logo.png" alt="My LA2050 Activation Challenge" />
+<a href="/finalists/"><img src="/assets/images/vote-logo.png" alt="My LA2050 Activation Challenge" /></a>
 
 <p>Choose one <a href="/finalists/">finalist</a> in each of the five categories.</p>
 
-<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Okay, let’s go</a></p>
+<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">I’m ready to vote</a></p>
+
+<p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
+
+  <!--
+<ul class="action">
+  <li><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Start voting</a></li>
+  <li style="margin-top: 1.5em"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Learn more about the finalists</a></li>
+  
+</ul>-->
 </div>
 
 <!--
@@ -179,7 +188,7 @@ form li .pseudo-checkbox {
   display: none;
 }
 form label:hover .call-to-action {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
 form li input:checked ~ .call-to-action {
@@ -190,26 +199,34 @@ form li input:checked ~ .pseudo-checkbox {
   opacity: 1;
   display: flex;
 }
+form .blueberry label:hover .call-to-action,
 form .blueberry input:checked ~ .pseudo-checkbox {
   background: rgba(6, 179, 188, 0.5); /* @blueberry */
 }
+form .banana label:hover .call-to-action,
 form .banana input:checked ~ .pseudo-checkbox {
   background: rgba(255, 194, 51, 0.5); /* @banana */
 }
+form .strawberry label:hover .call-to-action,
 form .strawberry input:checked ~ .pseudo-checkbox {
   background: rgba(237, 59, 136, 0.5); /* @strawberry */
 }
+form .tangerine label:hover .call-to-action,
 form .tangerine input:checked ~ .pseudo-checkbox {
   background: rgba(249, 160, 51, 0.5); /* @tangerine */
 }
+form .lime label:hover .call-to-action,
 form .lime input:checked ~ .pseudo-checkbox {
   background: rgba(141, 208, 59, 0.5); /* @lime */
 }
+form li .call-to-action svg,
 form li .pseudo-checkbox svg {
   fill: currentColor;
-  width: 1.5em;
-  height: 1.5em;
-  margin-right: 0.75em;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.5em;
+  border: 3px solid white;
+  padding: 0.25em;
 }
 form input[type="email"] {
   font-family: inherit;
@@ -282,6 +299,7 @@ form section h3 {
     </svg>
   </span>
   <span class="call-to-action">
+    <svg></svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
@@ -327,6 +345,7 @@ form section h3 {
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
+    <svg></svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
@@ -358,6 +377,7 @@ form section h3 {
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
+    <svg></svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
@@ -389,6 +409,7 @@ form section h3 {
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
+    <svg></svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
@@ -420,6 +441,7 @@ form section h3 {
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
+    <svg></svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
@@ -632,7 +654,7 @@ header, footer {
     var progress = document.getElementById("progress");
     var count = document.getElementById("vote-count");
 
-    progress.style.display = 'block';
+    progress.style.display = 'flex';
 
     count.innerText = ++counter;
 
@@ -659,7 +681,8 @@ header, footer {
 
 
 <div class="progress" role="status" id="progress" style="display: none">
-  <p><span id="exclamation">Nice!</span> You’ve voted in <span id="vote-count">1</span> of <span>5</span> categories.</p>
+  <p><span id="exclamation" style="display: none">Nice!</span> You’ve voted in <span id="vote-count">1</span> of <span>5</span> categories.</p>
+  <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">I’m done voting</a></p>
 </div>
 
 <script>
@@ -673,10 +696,14 @@ header, footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: rgb(245, 245, 245);
   color: black;
   padding: 1.5em 3em;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
 </style>
