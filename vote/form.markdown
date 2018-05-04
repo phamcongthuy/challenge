@@ -3,13 +3,71 @@ title: Vote in the 2018 My LA2050 Activation Challenge
 body_class: blueberry
 ---
 
-# Vote
-
 <div class="introduction" markdown="1">
 
-Choose one <a href="/finalists/">finalist</a> in each of the five categories.
+<div>
+<img src="/assets/images/vote-logo.png" alt="My LA2050 Activation Challenge" />
+
+<p>Choose one <a href="/finalists/">finalist</a> in each of the five categories.</p>
+
+<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Okay, let’s go</a></p>
+</div>
+
+<!--
+<p style="margin-top: 1.5em">
+  <a href="#learn">
+    <svg viewBox="0 0 448 512" width="24" height="24">
+      <switch>
+        <path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" class=""></path>
+        <foreignObject>Okay, let’s go</foreignObject>
+      </switch>
+    </svg>
+  </a>
+</p>
+-->
 
 </div>
+
+<style>
+section,
+.introduction {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+.introduction img {
+  margin-top: -3em;
+  width: 20em;
+  height: auto;
+}
+.introduction p {
+  max-width: none;
+}
+.introduction .action {
+  margin-top: 3em;
+}
+
+/*.introduction {
+  margin-top: -4.5em;
+  margin-left: -4.5em;
+  margin-right: -4.5em;
+  background-color: rgb(6, 179, 188);
+  color: rgb(254, 254, 254);
+  padding: 0 4.5em 3em;
+}
+.introduction a {
+  color: inherit;
+}
+.introduction svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: currentColor;
+}*/
+</style>
 
 <style>
 
@@ -85,8 +143,9 @@ form h4 {
   font-weight: bold;
 }
 form strong {
-  color: rgb(41, 41, 41) !important; /* @midnight */
-  font-weight: 500;
+  /*color: rgb(41, 41, 41) !important;*/ /* @midnight */
+  /*font-weight: 500;*/
+  color: var(--primary-color) !important;
 }
 form li {
   margin-top: 1.5em;
@@ -184,8 +243,8 @@ form section {
   border-color: rgba(0, 0, 0, 0.15);
   border-color: transparent;
   padding: 3em;
-  max-width: 33em;
-  margin: 3em auto;
+  /*max-width: 40em;*/
+  /*margin: 3em auto;*/
 }
 form section h2,
 form section h3 {
@@ -195,9 +254,7 @@ form section h3 {
 
 <form name="vote" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
 
-<hr />
-
-<h2 class="blueberry">Who would you like to vote for in the <span style="text-transform: uppercase;">Learn</span> category?</h2>
+<h2 class="blueberry" id="learn">Who would you like to vote for in the <span style="text-transform: uppercase;">Learn</span> category?</h2>
 
 <ul class="blueberry">
 {% assign first_item = true %}
@@ -214,6 +271,20 @@ form section h3 {
     </svg>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
+  <!--
+  <a class="has-icon">
+    <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" />
+    <span class="icon play">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
+      <title>Play Video</title>
+      <switch>
+      <polygon fill="black" points="29.2,16.9 0,0 0,33.7 29.2,16.9 0,0 0,33.7 "></polygon>
+      <foreignObject>Play Video</foreignObject>
+      </switch>
+      </svg>
+    </span>
+  </a><br />
+  -->
   <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
 </label>
 </li>
@@ -224,7 +295,7 @@ form section h3 {
 
 <hr />
 
-<h2 class="banana">Who would you like to vote for in the <span style="text-transform: uppercase;">Create</span> category?</h2>
+<h2 class="banana" id="create">Who would you like to vote for in the <span style="text-transform: uppercase;">Create</span> category?</h2>
 
 <ul class="banana">
 {% assign first_item = true %}
@@ -251,7 +322,7 @@ form section h3 {
 
 <hr />
 
-<h2 class="strawberry">Who would you like to vote for in the <span style="text-transform: uppercase;">Play</span> category?</h2>
+<h2 class="strawberry" id="play">Who would you like to vote for in the <span style="text-transform: uppercase;">Play</span> category?</h2>
 
 <ul class="strawberry">
 {% assign first_item = true %}
@@ -278,7 +349,7 @@ form section h3 {
 
 <hr />
 
-<h2 class="tangerine">Who would you like to vote for in the <span style="text-transform: uppercase;">Connect</span> category?</h2>
+<h2 class="tangerine" id="connect">Who would you like to vote for in the <span style="text-transform: uppercase;">Connect</span> category?</h2>
 
 <ul class="tangerine">
 {% assign first_item = true %}
@@ -305,7 +376,7 @@ form section h3 {
 
 <hr />
 
-<h2 class="lime">Who would you like to vote for in the <span style="text-transform: uppercase;">Live</span> category?</h2>
+<h2 class="lime" id="live">Who would you like to vote for in the <span style="text-transform: uppercase;">Live</span> category?</h2>
 
 <ul class="lime">
 {% assign first_item = true %}
@@ -332,11 +403,33 @@ form section h3 {
 
 <hr />
 
-<section markdown="1">
+<section id="finish">
 
+<div markdown="1">
 ### You’re <span style="text-decoration: underline;">almost</span> done!
 
-Next, we’ll send instructions about how to verify your votes.
+Now it’s time to confirm your votes.
+
+<ul class="action" style="display: block">
+  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Sign in with email</a></li>
+  <li style="margin: 0 !important; padding: 0;">or</li>
+  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Facebook</a></li>
+  <li style="margin: 0 !important; padding: 0">or</li>
+  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Twitter</a></li>
+</ul>
+
+</div>
+
+</section>
+
+<hr />
+
+<section id="sign-in-email" style="display: none">
+
+<div markdown="1">
+### Sign in with email
+
+Next, we’ll send instructions to your email address.
 
 <p style="margin-top: 1.5em; display: flex;">
 <label style="flex-grow: 1; margin-right: 0.25em;">
@@ -346,6 +439,8 @@ Next, we’ll send instructions about how to verify your votes.
 </p>
 
 <p style="margin-top: 1.7142857143em"><small>We will only use this address to complete the voting process. (No spam, we promise!)</small></p>
+</div>
+
 </section>
 
 </form>
@@ -430,4 +525,196 @@ Next, we’ll send instructions about how to verify your votes.
   })
 </script>
 
+
+<style>
+header, footer {
+  display: none;
+}
+</style>
+
+
+<script>
+(function() {
+  function closest(element, tagName) {
+
+    // If the element is the target
+    if (element.nodeName.toLowerCase() === tagName) return element;
+
+    var ancestor = element;
+    while ((ancestor = ancestor.parentElement) && ancestor.nodeName && ancestor.nodeName.toLowerCase() !== tagName);
+    if (ancestor && ancestor.nodeName && ancestor.nodeName.toLowerCase() === tagName) {
+      return ancestor;
+    }
+  }
+
+  //document.addEventListener("DOMContentLoaded", function(event) {
+    var form = document.querySelector('form');
+
+    //console.dir(form);
+
+    form.addEventListener('click', function(e) {
+      setTimeout(function() {
+        if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
+          console.log('e.target.name: ' + e.target.name)
+          switch(e.target.name) {
+            case 'learn':
+              document.getElementById('create').scrollIntoView({ behavior: 'smooth' });
+              break;
+            case 'create':
+              document.getElementById('play').scrollIntoView({ behavior: 'smooth' });
+              break;
+            case 'play':
+              document.getElementById('connect').scrollIntoView({ behavior: 'smooth' });
+              break;
+            case 'connect':
+              document.getElementById('live').scrollIntoView({ behavior: 'smooth' });
+              break;
+            case 'live':
+              document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+              break;
+            default:
+
+          }
+        }
+      }, 500);
+    });
+  //});
+
+
+})();
+</script>
+
+
+
+<div class="progress" role="status" style="display: none">
+  <p style="display: none"><span id="vote-count">1</span> of <span>5</span> votes cast</p>
+</div>
+
+<script>
+(function() {
+
+  var count = document.getElementById("vote-count");
+
+  function update() {
+
+  }
+
+})();
+</script>
+
+<style>
+
+.progress {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 1.5em 3em;
+  box-sizing: border-box;
+}
+
+</style>
+
+
+<style>
+
+  /* =Icon Button
+  ----------------------------------------------- */
+  a.has-icon {
+    display: block;
+    position: relative;
+    text-decoration: none
+  }
+
+  .has-icon .icon {
+    position: absolute;
+    top: 0.725em;
+    right: 0.725em;
+    background: white;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+    background: rgba(254, 254, 254, 0.75); /* @snow */
+    background: var(--secondary-color, black);
+    border: 0.1875em solid var(--secondary-color, black);
+    background: var(--primary-color, black);
+    border: 0.1875em solid var(--primary-color, black);
+    color: rgb(41, 41, 41); /* @midnight */
+    color: rgb(254, 254, 254); /* @snow */
+    padding: 0;
+    width: 5em;
+    line-height: 5em;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+    /*font-size: 1.5em;*/
+    text-align: center;
+    display: flex;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    opacity: 0.75;
+    background: rgb(254, 254, 254); /* @snow */
+    border-color: var(--secondary-color, black);
+    color: var(--secondary-color, black);
+    border-color: var(--primary-color, black);
+    border-color: white;
+    color: var(--primary-color, black);
+    color: black;
+    background: black;
+    color: white;
+    border-color: transparent;
+    transition: all 0.2s;
+  }
+
+  .has-icon:hover .icon,
+  .has-icon:active .icon,
+  .has-icon:focus .icon {
+    background-color: var(--primary-color);
+    opacity: 1;
+  }
+
+  .has-icon .icon {
+    vertical-align: middle
+  }
+
+  .has-icon svg {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.25em;
+  }
+
+  .has-icon svg polygon {
+    fill: currentColor
+  }
+
+
+  .has-icon .credit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+    background: var(--secondary-color, black);
+    color: rgb(254, 254, 254); /* @snow */
+    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--secondary-color, black);
+    border-color: var(--secondary-color, black);
+    color: black;
+    font-size: 0.75em;
+    padding: 0.25em 0.5em;
+    font-weight: 500;
+  }
+
+</style>
 
