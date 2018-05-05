@@ -416,7 +416,15 @@ form section h3 {
 {% assign data_collection = site.collections | where: "label", "learn" | first %}
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
-{% if project.is_finalist == true %}
+
+{% assign is_finalist = false %}
+{% for finalist in site.finalists %}
+  {% if finalist == project.uri %}
+    {% assign is_finalist = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_finalist == true %}
 <li>
 <label>
   <input type="radio" name="learn" value="{{ project.organization_name }}" />
@@ -451,7 +459,15 @@ form section h3 {
 {% assign data_collection = site.collections | where: "label", "create" | first %}
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
-{% if project.is_finalist == true %}
+
+{% assign is_finalist = false %}
+{% for finalist in site.finalists %}
+  {% if finalist == project.uri %}
+    {% assign is_finalist = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_finalist == true %}
 <li>
 <label>
   <input type="radio" name="create" value="{{ project.organization_name }}" />
@@ -486,7 +502,15 @@ form section h3 {
 {% assign data_collection = site.collections | where: "label", "play" | first %}
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
-{% if project.is_finalist == true %}
+
+{% assign is_finalist = false %}
+{% for finalist in site.finalists %}
+  {% if finalist == project.uri %}
+    {% assign is_finalist = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_finalist == true %}
 <li>
 <label>
   <input type="radio" name="play" value="{{ project.organization_name }}" />
@@ -521,7 +545,15 @@ form section h3 {
 {% assign data_collection = site.collections | where: "label", "connect" | first %}
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
-{% if project.is_finalist == true %}
+
+{% assign is_finalist = false %}
+{% for finalist in site.finalists %}
+  {% if finalist == project.uri %}
+    {% assign is_finalist = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_finalist == true %}
 <li>
 <label>
   <input type="radio" name="connect" value="{{ project.organization_name }}" />
@@ -556,7 +588,15 @@ form section h3 {
 {% assign data_collection = site.collections | where: "label", "live" | first %}
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
-{% if project.is_finalist == true %}
+
+{% assign is_finalist = false %}
+{% for finalist in site.finalists %}
+  {% if finalist == project.uri %}
+    {% assign is_finalist = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_finalist == true %}
 <li>
 <label>
   <input type="radio" name="live" value="{{ project.organization_name }}" />
