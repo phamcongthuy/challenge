@@ -6,7 +6,7 @@ body_class: blueberry
 <div class="introduction" markdown="1">
 
 <div>
-<a href="/finalists/" style="position: absolute;top: 5em;left: 2em;">
+<a href="/finalists/" class="logo">
   <img src="/assets/images/vote-logo-white.png" alt="My LA2050 Activation Challenge" style="margin-top: -3em;
     width: 12em;
     height: auto;" />
@@ -14,7 +14,7 @@ body_class: blueberry
 
 <p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
 
-<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Start voting</a></p>
+<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></p>
 
 <!--
 <p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
@@ -22,8 +22,8 @@ body_class: blueberry
 
   <!--
 <ul class="action">
-  <li><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Start voting</a></li>
-  <li style="margin-top: 1.5em"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Learn more about the finalists</a></li>
+  <li><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></li>
+  <li style="margin-top: 1.5em"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Learn more about the finalists</a></li>
   
 </ul>-->
 </div>
@@ -47,24 +47,22 @@ body_class: blueberry
 section,
 .introduction {
   display: flex;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   align-content: center;
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
+  padding: 1.5em;
+  margin: 0 -1.5em;
 }
 .introduction {
-  background-image: url(/assets/images/vote-background.png);
+  background-color: rgb(125, 212, 222);
+  background-image: url(/assets/images/vote-background.jpg);
   background-size: cover;
   background-position: center;
-  margin: 0 -4.5em;
   color: white;
   font-weight: bold;
-}
-.introduction p:not(.action) {
-  font-size: 3em;
-  max-width: 18em;
 }
 /*.introduction::before {
   content: "";
@@ -75,6 +73,24 @@ section,
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }*/
+@media (min-width: 40em) {
+  .introduction {
+    margin: 0 -4.5em;
+    padding: 4.5em;
+  }
+  .introduction p:not(.action) {
+    font-size: 3em;
+    font-size: 3.5vmax;
+    max-width: 18em;
+  }
+}
+@media (min-width: 60em) and (min-height: 50em) {
+  .introduction .logo {
+    position: absolute;
+    top: 5em;
+    left: 2em;
+  }
+}
 .introduction a {
   color: inherit;
   font-weight: inherit;
@@ -83,6 +99,7 @@ section,
   margin-top: -3em;
   width: 20em;
   height: auto;
+  margin-left: 0;
 }
 .introduction p {
   max-width: none;
@@ -154,6 +171,10 @@ hr {
 }
 form {
   text-align: center;
+}
+form > ul {
+  margin-left: -1.5em !important;
+  margin-right: -1.5em !important;
 }
 form > ul,
 form > ul > li {
@@ -660,15 +681,15 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 ### Sign in with…
 
 <ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
-  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone" onClick="document.getElementById('sign-in-phone').style.display = 'flex'; document.getElementById('sign-in-phone').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Phone</a></li>
-  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Email</a></li>
+  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone" onClick="document.getElementById('sign-in-phone').style.display = 'flex'; document.getElementById('sign-in-phone').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Phone</a></li>
+  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Email</a></li>
   <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Facebook</a></li>
  <!--  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li> -->
 </ul>
 
 <!--
 <ul class="action" style="display: block">
-  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Sign in with email</a></li>
+  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Sign in with email</a></li>
   <li style="margin: 0 !important; padding: 0;">or</li>
   <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Facebook</a></li>
   <li style="margin: 0 !important; padding: 0">or</li>
@@ -694,7 +715,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 <ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
   <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Phone</a></li>
-  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Email</a></li>
+  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Email</a></li>
 </ul>
 
 <h4>Or sign in with…</h4>
@@ -707,7 +728,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 <!--
 <ul class="action" style="display: block">
-  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Sign in with email</a></li>
+  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Sign in with email</a></li>
   <li style="margin: 0 !important; padding: 0;">or</li>
   <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Facebook</a></li>
   <li style="margin: 0 !important; padding: 0">or</li>
@@ -870,9 +891,9 @@ header, footer {
 
     function scrollTo(elementID) {
       if (counter >= 5) {
-        document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
       } else {
-        document.getElementById(elementID).scrollIntoView({ behavior: 'smooth' });
+        document.getElementById(elementID).scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
 
@@ -925,7 +946,7 @@ header, footer {
 
     // if (counter >= 5) {
     //   progress.querySelector('p').innerHTML = 'You’ve voted in all five categories!';
-    //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+    //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
     // }
 
     if (counter >= 1) {
@@ -944,7 +965,7 @@ header, footer {
 
 <div class="progress" role="status" id="progress" style="display: none">
   <p><span id="exclamation" style="display: none">Nice!</span> You’ve voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
-  <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">I’m done voting</a></p>
+  <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">I’m done voting</a></p>
 </div>
 
 <script>
