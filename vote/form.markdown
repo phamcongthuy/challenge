@@ -937,7 +937,7 @@ header, footer {
     var progress = document.getElementById("progress");
     var count = document.getElementById("vote-count");
 
-    progress.style.display = 'flex';
+    progress.classList.remove('hidden');
 
     count.innerText = ++counter;
 
@@ -963,7 +963,7 @@ header, footer {
 
 
 
-<div class="progress" role="status" id="progress" style="display: none">
+<div class="progress hidden" role="status" id="progress">
   <p><span id="exclamation" style="display: none">Nice!</span> You’ve voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
   <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">I’m done voting</a></p>
 </div>
@@ -981,12 +981,32 @@ header, footer {
   width: 100%;
   background: rgb(245, 245, 245);
   color: black;
-  padding: 1.5em 3em;
+  padding: 0.75em;
   box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
+  text-align: center;
+}
+.progress.hidden {
+  display: none;
+}
+.progress p {
+  margin: 0;
+}
+.progress .action {
+  margin-top: 0.75em;
+}
+
+@media (min-width: 40em) {
+  .progress {
+    padding: 1.5em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  .progress .action {
+    margin-top: 0;
+    margin-left: 1.5em;
+  }
 }
 
 </style>
