@@ -8,7 +8,7 @@ image: https://activation.la2050.org/assets/images/home/2048-wide/collaborates.j
 
 mailing_list_url: https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&amp;id=b16f498212
 submission_url: https://activationla2050.smapply.io/prog/challenge_info/
-vote_url: https://la2050.typeform.com/to/fGLGJB
+vote_url: /vote/form/
 # event_url: /event/
 
 # New challenge announced: 
@@ -29,11 +29,11 @@ vote_url: https://la2050.typeform.com/to/fGLGJB
 
 # 25 finalists announced: 
 # May 21
-phase: 5
+# phase: 5
 
 # Votes being accepted: 
 # June 19
-# phase: 6
+phase: 6
 
 # Voting period ended: 
 # June 30 
@@ -42,6 +42,68 @@ phase: 5
 # Winners announced: 
 # July 9 
 # phase: 8
+
+finalists:
+
+  # Learn
+  # 1)
+  - /learn/harlem-lacrosse-los-angeles/
+  # 2)
+  - /learn/proyecto-jardin-a-project-of-hunger-action-la/
+  # 3)
+  - /learn/the-people-of-change/
+  # 4)
+  - /learn/all-in-urban-summer-academy/
+  # 5)
+  - /learn/las-best/
+
+  # Create
+  # 1)
+  - /create/brioxy/
+  # 2)
+  - /create/civic-innovation-lab/
+  # 3)
+  - /create/get-lit-words-ignite/
+  # 4)
+  - /create/grid110-inc/
+  # 5)
+  - /create/east-la-community-corporation-elacc/
+
+  # Play
+  # 1)
+  - /play/everwild/
+  # 2)
+  - /play/red-hen-press/
+  # 3)
+  - /play/the-brady-center-to-prevent-gun-violence/
+  # 4)
+  - /play/los-angeles-dodgers-foundation/
+  # 5)
+  - /play/the-trust-for-public-land/
+
+  # Connect
+  # 1)
+  - /connect/los-angeles-master-chorale/
+  # 2)
+  - /connect/good-shine-studio/
+  # 3)
+  - /connect/gracias-music-foundation/
+  # 4)
+  - /connect/homeboy-industries/
+  # 5)
+  - /connect/united-parents-and-students/
+
+  # Live
+  # 1)
+  - /live/a-healthier-community-starts-with-youth/
+  # 2)
+  - /live/süprseed/
+  # 3)
+  - /live/lift-los-angeles/
+  # 4)
+  - /live/roots-wings/
+  # 5)
+  - /live/mar-vista-family-center/
 
 permalink: pretty
 
