@@ -442,7 +442,7 @@
     display: block;
   }
   @supports (object-fit: cover) {
-    .proposals .image {
+    .proposals:not(.finalists) .image {
       padding-top: 79.25925926%; /* 428px / 540px */
       padding-top: 79.25925926vw;
       display: block;
@@ -450,11 +450,11 @@
       background: rgba(0, 0, 0, 0.1);
     }
     @media (min-width: 50em) {
-      .proposals .image {
+      .proposals:not(.finalists) .image {
         padding-top: 79.25925926%;
       }
     }
-    .proposals img {
+    .proposals:not(.finalists) img {
       display: block;
       position: absolute;
       top: 0;
@@ -467,6 +467,9 @@
       transition: filter 0.2s;
       */
     }
+  }
+  .proposals.finalists img {
+    width: 100%;
   }
   /* 
   .proposals a:hover img,
@@ -487,23 +490,163 @@
     padding-right: 1.5em;
   }
 
-  .proposals .image {
+
+  .proposals:not(.finalists) .image {
     margin-bottom: 1.125em;
     margin-left: -1.5em;
     margin-right: -1.5em;
   }
 
+  .proposals.finalists .organization-type {
+    font-style: italic;
+    font-size: 0.875em;
+    font-weight: 500;
+  }
+  .proposals.finalists .text h3 {
+    text-decoration: none !important;
+  }
+  .proposals.finalists li {
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+    margin-top: 0 !important;
+  }
+
+
+/*  .proposals.finalists li:nth-child(2n+1) .image {
+    padding-right: 0;
+    padding-left: 1.875em;
+  }*/
+
+/*  body.finalists {
+    background: rgb(235, 235, 235);
+  }*/
+
+  @media (min-width: 40em) {
+    .proposals.finalists {
+      margin-top: 7.5em;
+    }
+  }
+
+/*  .proposals.finalists {
+    margin-top: 3em;
+    padding: 1.5em 1.5em 4.5em;
+    margin: 1.5em -1.5em 0 !important;
+  }*/
+  .proposals.finalists li + li {
+    margin-top: 4.5em !important;
+  }
+  .proposals.finalists li > a {
+    background: rgb(254, 254, 254); /* @snow */
+  }
+  .proposals.finalists li .text {
+    display: block;
+    padding: 1.5em;
+  }
+/*  .proposals.finalists li > a .image {
+    margin: -3em 3em -3em -6em;
+  }
+  .proposals.finalists li:nth-child(2n+1) > a .image {
+    margin: -3em -6em -3em 3em;
+  }*/
+  .proposals.finalists li > a .image img {
+    display: block
+  }
+
+  @media (min-width: 40em) {
+/*    .proposals.finalists {
+      margin: 4.5em -4.5em 0 !important;
+    }*/
+  }
+  @media (min-width: 60em) {
+    .proposals.finalists li > a {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+    .proposals.finalists .image {
+      flex-basis: calc(50% - 1.5em);
+      /*padding-right: 1.875em;*/
+      box-sizing: border-box;
+      position: relative;
+    }
+    .proposals.finalists li .text {
+      flex-basis: calc(50% - 1.5em);
+      /*padding-left: 1.875em;*/
+      box-sizing: border-box;
+      padding: 3em;
+      padding-left: 0;
+      min-height: calc(45vw - 7.5em);
+    }
+    .proposals.finalists li:nth-child(2n+1) .text {
+      order: -1;
+      padding-right: 0;
+      padding-left: 3em;
+    }
+    .proposals.finalists .image img {
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      max-height: none;
+    }
+  }
+  @media (min-width: 80em) {
+/*    .proposals.finalists {
+      padding: 4.5em 4.5em 7.5em;
+    }*/
+  }
+
+  .proposals li .action {
+    padding-top: 1.5em;
+  }
+  .proposals li .action > span {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .proposals li .action > span:hover {
+    color: var(--primary-color);
+    background-color: white;
+  }
+
+/*  .proposals li {
+    position: relative;
+  }
+  .proposals .action {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    max-width: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .proposals .action p {
+    margin: 0;
+    flex-basis: calc(50% - 1.875em);
+  }
+  .proposals .action p:first-child {
+    text-align: right;
+  }
+  .proposals .action a {
+    text-align: center;
+  }*/
+
+
   @media (min-width: 50em) {
-    .proposals {
+    .proposals:not(.finalists) {
       display: grid;
     }
-    .proposals li {
+    .proposals:not(.finalists) li {
       max-width: 25em;
     }
-    .proposals li + li {
+    .proposals:not(.finalists) li + li {
       margin-top: 0;
     }
-    .proposals .image {
+    .proposals:not(.finalists) .image {
       margin-left: 0;
       margin-right: 0;
     }
@@ -544,18 +687,42 @@
     max-width: none;
     color: inherit !important;
   }
+  .proposals.finalists .organization {
+/*    font-size: 1.5em;
+    line-height: 1.25;*/
+/*    max-width: 26.6666666667em;*/
+    color: inherit;
+    font-weight: 600;
+  }
+
+  .proposals.finalists h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+  @media (min-width: 70em) {
+    .proposals.finalists .organization {
+      font-size: 1.5vmax;
+      line-height: 1.25;
+    }
+    .proposals.finalists h3 {
+      font-size: 2.25vmax;
+      line-height: 1.25;
+    }
+  }
+
   .proposals .description {
     font-weight: 400;
     /*padding: 0 0.75rem;*/
     margin-top: 0;
     margin-bottom: 0;
   }
+
   @media (min-width: 60em) {
-    .proposals .organization,
-    .proposals .description {
+    .proposals:not(.finalists) .organization,
+    .proposals:not(.finalists) .description {
       font-size: 0.875em;
     }
-    .proposals h3 {
+    .proposals:not(.finalists) h3 {
       line-height: 1.3125; /* Same line height as the organization and description (1.5 * 0.875) */
     }
   }
@@ -809,4 +976,55 @@ details summary:focus::-webkit-details-marker {
   width: 100%;
   max-width: none;
 }
+
+
+
+.proposals-category-tall {
+  background-color: var(--primary-color);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proposals-category-tall span {
+  font-size: 2em;
+}
+.proposals-category-tall p {
+  margin: 0;
+}
+
+.proposals-category-short {
+}
+.proposals-category-short div {
+  width: 100%;
+  padding-top: 79.25925926%;
+  position: relative;
+}
+.proposals-category-short p {
+  margin: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proposals-category-short span {
+  font-size: 2em;
+}
+
+
+
 

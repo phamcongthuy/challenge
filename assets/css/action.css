@@ -3,7 +3,8 @@
   /* =Action
   ----------------------------------------------- */
   button,
-  .action a {
+  .action a,
+  .action > span {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -28,6 +29,7 @@
     background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(237, 59, 136); /* @strawberry */
   }
+
 
   /* =Form
   ----------------------------------------------- */
