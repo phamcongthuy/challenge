@@ -6,13 +6,19 @@ body_class: blueberry
 <div class="introduction" markdown="1">
 
 <div>
-<a href="/finalists/"><img src="/assets/images/vote-logo.png" alt="My LA2050 Activation Challenge" /></a>
+<a href="/finalists/" style="position: absolute;top: 5em;left: 2em;">
+  <img src="/assets/images/vote-logo-white.png" alt="My LA2050 Activation Challenge" style="margin-top: -3em;
+    width: 12em;
+    height: auto;" />
+</a>
 
-<p>Choose one <a href="/finalists/">finalist</a> in each of the five categories.</p>
+<p>It’s time to vote! Choose one <a href="/finalists/">finalist</a> in each goal category.</p>
 
 <p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">I’m ready to vote</a></p>
 
+<!--
 <p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
+-->
 
   <!--
 <ul class="action">
@@ -48,6 +54,31 @@ section,
   text-align: center;
   box-sizing: border-box;
 }
+.introduction {
+  background-image: url(/assets/images/vote-background.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0 -4.5em;
+  color: white;
+  font-weight: bold;
+}
+.introduction p:not(.action) {
+  font-size: 3em;
+  max-width: 18em;
+}
+/*.introduction::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}*/
+.introduction a {
+  color: inherit;
+  font-weight: inherit;
+}
 .introduction img {
   margin-top: -3em;
   width: 20em;
@@ -81,23 +112,23 @@ section,
 <style>
 
   
-  form li:nth-child(1) {
+  form > ul > li:nth-child(1) {
     order: var(--order-1);
   }
   
-  form li:nth-child(2) {
+  form > ul > li:nth-child(2) {
     order: var(--order-2);
   }
   
-  form li:nth-child(3) {
+  form > ul > li:nth-child(3) {
     order: var(--order-3);
   }
   
-  form li:nth-child(4) {
+  form > ul > li:nth-child(4) {
     order: var(--order-4);
   }
   
-  form li:nth-child(5) {
+  form > ul > li:nth-child(5) {
     order: var(--order-5);
   }
   
@@ -124,8 +155,8 @@ hr {
 form {
   text-align: center;
 }
-form ul,
-form li {
+form > ul,
+form > ul > li {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
@@ -135,8 +166,8 @@ form h2,
 form h3,
 form h4,
 form p,
-form ul,
-form li {
+form > ul,
+form > ul > li {
   max-width: none;
 }
 form h2,
@@ -156,21 +187,16 @@ form strong {
   /*font-weight: 500;*/
   color: var(--primary-color) !important;
 }
-form li {
-  margin-top: 1.5em;
-  position: relative;
-}
-form li label {
+form > ul > li label {
   cursor: pointer;
 }
-form li input {
+form > ul > li input {
   font-size: inherit;
   margin-bottom: 0.75em;
   position: absolute;
   opacity: 0;
 }
-form li .call-to-action,
-form li .pseudo-checkbox {
+form > ul > li .mask {
   position: absolute;
   top: 0;
   left: 0;
@@ -184,43 +210,72 @@ form li .pseudo-checkbox {
   transition: opacity 0.2s;
   font-size: 1.5em;
 }
-form li .pseudo-checkbox {
+form > ul > li .call-to-action,
+form > ul > li .pseudo-checkbox {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 1em;
+  z-index: 1;
+  box-sizing: border-box;
+}
+form > ul > li .pseudo-checkbox {
   display: none;
 }
-form label:hover .call-to-action {
+form > ul > li label .call-to-action {
   background: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
-form li input:checked ~ .call-to-action {
+/*form > ul > li .call-to-action strong {
+  display: none;
+}*/
+form > ul > li input:checked ~ .call-to-action {
   display: none;
 }
-form li input:checked ~ .pseudo-checkbox {
+form > ul > li input:checked ~ .pseudo-checkbox {
   background: rgba(0, 0, 0, 0.5); /* @lime */
   opacity: 1;
   display: flex;
 }
-form .blueberry label:hover .call-to-action,
+form > ul > li input:checked ~ .mask {
+  opacity: 1;
+}
+form .blueberry .mask,
+form .blueberry .call-to-action,
 form .blueberry input:checked ~ .pseudo-checkbox {
   background: rgba(6, 179, 188, 0.5); /* @blueberry */
 }
-form .banana label:hover .call-to-action,
+form .banana .mask,
+form .banana .call-to-action,
 form .banana input:checked ~ .pseudo-checkbox {
   background: rgba(255, 194, 51, 0.5); /* @banana */
 }
-form .strawberry label:hover .call-to-action,
+form .strawberry .mask,
+form .strawberry .call-to-action,
 form .strawberry input:checked ~ .pseudo-checkbox {
   background: rgba(237, 59, 136, 0.5); /* @strawberry */
 }
-form .tangerine label:hover .call-to-action,
+form .tangerine .mask,
+form .tangerine .call-to-action,
 form .tangerine input:checked ~ .pseudo-checkbox {
   background: rgba(249, 160, 51, 0.5); /* @tangerine */
 }
-form .lime label:hover .call-to-action,
+form .lime .mask,
+form .lime .call-to-action,
 form .lime input:checked ~ .pseudo-checkbox {
   background: rgba(141, 208, 59, 0.5); /* @lime */
 }
-form li .call-to-action svg,
-form li .pseudo-checkbox svg {
+form > ul > li .call-to-action svg,
+form > ul > li .pseudo-checkbox svg {
   fill: currentColor;
   width: 0.75em;
   height: 0.75em;
@@ -246,19 +301,87 @@ form input[type="email"] {
   -webkit-appearance: none;
 }
 
-form ul {
+form > ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-form li {
-  width: 20em;
+form > ul > li {
+  position: relative;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  width: 19.5em;
   padding: 0;
   box-sizing: border-box;
-  padding: 1.5em;
-  margin: 1.5em 0;
+  margin: 3em 1.5em;
 }
-form li img {
+form > ul > li a {
+  position: absolute;
+  top: 0.75em;
+  right: 0.75em;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 2em;
+  line-height: 2em;
+  font-size: 0.75em;
+}
+form > ul > li a svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+form > ul > li a:hover {
+  color: white;
+}
+form > ul > li br {
+  display: none;
+}
+form > ul > li .text {
+  display: block;
+  padding: 1.5em;
+}
+form > ul > li img {
+  display: block;
+}
+form > ul > li .text strong {
+  display: block;
+}
+form .banana li {
+  box-shadow: 0 0 1px rgba(255, 194, 51, 1); /* @banana */
+}
+form .blueberry li {
+  box-shadow: 0 0 1px rgba(6, 179, 188, 1); /* @blueberry */
+}
+form .lime li {
+  box-shadow: 0 0 1px rgba(141, 208, 59, 1); /* @lime */
+}
+form .strawberry li {
+  box-shadow: 0 0 1px rgba(237, 59, 136, 1); /* @strawberry */
+}
+form .tangerine li {
+  box-shadow: 0 0 1px rgba(249, 160, 51, 1); /* @tangerine */
+}
+form > ul > li {
+  display: block;
+  position: relative;
+  padding-bottom: 3em;
+}
+form > ul > li label::after {
+  content: "";
+  background: var(--primary-color);
+  color: white;
+  display: block;
+  padding: 0.75em 1.5em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 3em;
+}
+form > ul > li img {
   width: 100%;
   max-width: none;
   height: 15em;
@@ -292,33 +415,22 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="learn" value="{{ project.organization_name }}" />
-  <span class="pseudo-checkbox">
+  <span class="mask"></span><span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
       <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
     </svg>
   </span>
   <span class="call-to-action">
-    <svg></svg>
+    <!--<svg></svg>-->
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
-  <!--
-  <a class="has-icon">
-    <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" />
-    <span class="icon play">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
-      <title>Play Video</title>
-      <switch>
-      <polygon fill="black" points="29.2,16.9 0,0 0,33.7 29.2,16.9 0,0 0,33.7 "></polygon>
-      <foreignObject>Play Video</foreignObject>
-      </switch>
-      </svg>
-    </span>
-  </a><br />
-  -->
-  <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
+  <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
+<a href="{{ project.uri }}" target="_blank">
+<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+</a>
 </li>
 {% assign first_item = false %}
 {% endif %}
@@ -338,19 +450,22 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="create" value="{{ project.organization_name }}" />
-  <span class="pseudo-checkbox">
+  <span class="mask"></span><span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
-    <svg></svg>
+    <!--<svg></svg>-->
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
-  <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
+  <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
+<a href="{{ project.uri }}" target="_blank">
+<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+</a>
 </li>
 {% assign first_item = false %}
 {% endif %}
@@ -370,19 +485,22 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="play" value="{{ project.organization_name }}" />
-  <span class="pseudo-checkbox">
+  <span class="mask"></span><span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
-    <svg></svg>
+    <!--<svg></svg>-->
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
-  <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
+  <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
+<a href="{{ project.uri }}" target="_blank">
+<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+</a>
 </li>
 {% assign first_item = false %}
 {% endif %}
@@ -402,19 +520,22 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="connect" value="{{ project.organization_name }}" />
-  <span class="pseudo-checkbox">
+  <span class="mask"></span><span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
-    <svg></svg>
+    <!--<svg></svg>-->
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
-  <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
+  <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
+<a href="{{ project.uri }}" target="_blank">
+<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+</a>
 </li>
 {% assign first_item = false %}
 {% endif %}
@@ -434,19 +555,22 @@ form section h3 {
 <li>
 <label>
   <input type="radio" name="live" value="{{ project.organization_name }}" />
-  <span class="pseudo-checkbox">
+  <span class="mask"></span><span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
   </span>
   <span class="call-to-action">
-    <svg></svg>
+    <!--<svg></svg>-->
     <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
-  <strong>{{ project.organization_name }}</strong><br />{{ project.title }}
+  <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
+<a href="{{ project.uri }}" target="_blank">
+<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+</a>
 </li>
 {% assign first_item = false %}
 {% endif %}
@@ -464,10 +588,10 @@ Now it’s time to confirm your votes by signing in to one of your accounts.
 
 ### Sign in with…
 
-<ul class="action" style="max-width: 20em; margin: 1.5em auto 0">
-  <li style="order: 3"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Email</a></li>
-  <li style="order: 2"><a href="/vote/confirmation">Facebook</a></li>
-  <li style="order: 1"><a href="/vote/confirmation/">Twitter</a></li>
+<ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
+  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Email</a></li>
+  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Facebook</a></li>
+  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li>
 </ul>
 
 <!--
