@@ -744,24 +744,24 @@ header, footer {
           console.log('e.target.name: ' + e.target.name)
           switch(e.target.name) {
             case 'learn':
-              document.getElementById('create').scrollIntoView({ behavior: 'smooth' });
               updateProgress();
+              document.getElementById('create').scrollIntoView({ behavior: 'smooth' });
               break;
             case 'create':
-              document.getElementById('play').scrollIntoView({ behavior: 'smooth' });
               updateProgress();
+              document.getElementById('play').scrollIntoView({ behavior: 'smooth' });
               break;
             case 'play':
-              document.getElementById('connect').scrollIntoView({ behavior: 'smooth' });
               updateProgress();
+              document.getElementById('connect').scrollIntoView({ behavior: 'smooth' });
               break;
             case 'connect':
-              document.getElementById('live').scrollIntoView({ behavior: 'smooth' });
               updateProgress();
+              document.getElementById('live').scrollIntoView({ behavior: 'smooth' });
               break;
             case 'live':
-              document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
               updateProgress();
+              document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
               break;
             default:
 
