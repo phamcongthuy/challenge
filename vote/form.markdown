@@ -246,6 +246,9 @@ form > ul > li input:checked ~ .pseudo-checkbox {
   opacity: 1;
   display: flex;
 }
+form > ul > li:hover .mask {
+  opacity: 0.25;
+}
 form > ul > li input:checked ~ .mask {
   opacity: 1;
 }
@@ -316,24 +319,26 @@ form > ul > li {
 }
 form > ul > li a {
   position: absolute;
-  top: 0.75em;
-  right: 0.75em;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  top: 0;
+  right: 0;
+  padding: 0.75em;
   text-decoration: none;
-  border-radius: 50%;
-  border: 2px solid white;
-  width: 2em;
-  line-height: 2em;
-  font-size: 0.75em;
 }
 form > ul > li a svg {
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-}
-form > ul > li a:hover {
+  background: var(--primary-color);
   color: white;
+  width: 0.75em;
+  height: 0.75em;
+  padding: 0.75em;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+form > ul > li a:hover  svg,
+form > ul > li a:active svg,
+form > ul > li a:focus  svg {
+  background: white;
+  color: var(--primary-color);
+  border-color: var(--primary-color); 
 }
 form > ul > li br {
   display: none;
