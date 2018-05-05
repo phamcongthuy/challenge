@@ -12,9 +12,9 @@ body_class: blueberry
     height: auto;" />
 </a>
 
-<p>It’s time to vote! Choose one <a href="/finalists/">finalist</a> in each goal category.</p>
+<p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
 
-<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">I’m ready to vote</a></p>
+<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Start voting</a></p>
 
 <!--
 <p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
@@ -905,7 +905,7 @@ header, footer {
 
           }
         }
-      }, 500);
+      }, 1000);
     });
   //});
 
