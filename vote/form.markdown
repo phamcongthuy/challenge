@@ -329,7 +329,7 @@ form > ul > li a svg {
   color: white;
   width: 0.75em;
   height: 0.75em;
-  padding: 0.75em;
+  padding: 0.5em;
   border-radius: 50%;
   border: 2px solid transparent;
 }
