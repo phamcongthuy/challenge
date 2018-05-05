@@ -123,6 +123,5 @@ category: create
 uri: /create/brioxy/
 order: 2
 project_image: brioxy.jpg
-is_finalist: true
 
 ---

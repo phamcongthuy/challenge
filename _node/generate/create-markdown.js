@@ -89,13 +89,6 @@ function createMarkdownFile(data, category) {
   data.order = orderCursors[category]++;
   if (!data.project_image) data.project_image = '/assets/images/' + category + '/' + filename + '.jpg';
 
-  if (data.order < 1) {
-    data.is_winner = true;
-  }
-  if (data.order < 5) {
-    data.is_finalist = true;
-  }
-
   // data.organization_website = data.organization_website.split('; ');
   // data.organization_twitter = data.organization_twitter.split('; ');
   // data.organization_facebook = data.organization_facebook.split('; ');

@@ -155,6 +155,5 @@ category: create
 uri: /create/national-association-of-latino-independent-producers-nalip/
 order: 4
 project_image: national-association-of-latino-independent-producers-nalip.jpg
-is_finalist: true
 
 ---

@@ -140,13 +140,6 @@ function processFile(filename) {
   let data = loadMarkdown(filename);
   if (!data) return;
 
-  if (data.yaml.order < 1) {
-    data.yaml.is_winner = true;
-  }
-  if (data.yaml.order < 5) {
-    data.yaml.is_finalist = true;
-  }
-
   saveMarkdown(filename, data);
 
 

@@ -132,15 +132,20 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
   {% assign do_show_item = false %}
 
+  {% assign is_finalist = false %}
+  {% for finalist in site.finalists %}
+    {% if finalist == data.uri %}
+      {% assign is_finalist = true %}
+    {% endif %}
+  {% endfor %}
+
   {% if page.winners == true and data.is_winner == true %}
   {% assign do_show_item = true %}
-  {% elsif page.finalists == true and data.is_finalist == true %}
+  {% elsif page.finalists == true and is_finalist == true %}
   {% assign do_show_item = true %}
   {% elsif page.winners != true and page.finalists != true %}
   {% assign do_show_item = true %}
   {% endif %}
-
-{% assign do_show_item = true %}
 
   {% if do_show_item == true %}
 

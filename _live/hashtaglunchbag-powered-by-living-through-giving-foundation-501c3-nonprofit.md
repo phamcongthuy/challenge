@@ -101,6 +101,5 @@ order: 0
 project_image: >-
   hashtaglunchbag-powered-by-living-through-giving-foundation-501c3-nonprofit.jpg
 is_winner: true
-is_finalist: true
 
 ---

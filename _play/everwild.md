@@ -108,6 +108,5 @@ category: play
 uri: /play/everwild/
 order: 1
 project_image: everwild.jpg
-is_finalist: true
 
 ---

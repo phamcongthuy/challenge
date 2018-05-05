@@ -118,6 +118,5 @@ category: play
 uri: /play/los-angeles-dodgers-foundation/
 order: 3
 project_image: los-angeles-dodgers-foundation.jpg
-is_finalist: true
 
 ---

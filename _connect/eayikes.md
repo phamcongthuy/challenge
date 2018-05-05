@@ -93,6 +93,5 @@ category: connect
 uri: /connect/eayikes/
 order: 4
 project_image: eayikes.jpg
-is_finalist: true
 
 ---

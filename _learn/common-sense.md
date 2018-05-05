@@ -156,6 +156,5 @@ category: learn
 uri: /learn/common-sense/
 order: 1
 project_image: common-sense.jpg
-is_finalist: true
 
 ---

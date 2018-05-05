@@ -89,6 +89,5 @@ uri: /play/south-bay-bicycle-coalition/
 order: 0
 project_image: south-bay-bicycle-coalition.jpg
 is_winner: true
-is_finalist: true
 
 ---
