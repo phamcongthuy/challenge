@@ -286,6 +286,7 @@ form > ul > li .pseudo-checkbox svg {
   border: 3px solid white;
   padding: 0.25em;
 }
+form input[type="phone"],
 form input[type="email"] {
   font-family: inherit;
   font-size: inherit;
@@ -441,8 +442,13 @@ form section h3 {
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
-<a href="{{ project.uri }}" target="_blank">
-<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+<a href="{{ project.uri }}" title="{{ project.organization_name }}" target="_blank">
+<svg viewBox="0 0 192 512" width="24" height="24">
+  <switch>
+    <path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path>
+    <foreignObject>{{ project.organization_name }}</foreignObject>
+  </switch>
+</svg>
 </a>
 </li>
 {% assign first_item = false %}
@@ -484,8 +490,13 @@ form section h3 {
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
-<a href="{{ project.uri }}" target="_blank">
-<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+<a href="{{ project.uri }}" title="{{ project.organization_name }}" target="_blank">
+<svg viewBox="0 0 192 512" width="24" height="24">
+  <switch>
+    <path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path>
+    <foreignObject>{{ project.organization_name }}</foreignObject>
+  </switch>
+</svg>
 </a>
 </li>
 {% assign first_item = false %}
@@ -527,8 +538,13 @@ form section h3 {
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
-<a href="{{ project.uri }}" target="_blank">
-<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+<a href="{{ project.uri }}" title="{{ project.organization_name }}" target="_blank">
+<svg viewBox="0 0 192 512" width="24" height="24">
+  <switch>
+    <path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path>
+    <foreignObject>{{ project.organization_name }}</foreignObject>
+  </switch>
+</svg>
 </a>
 </li>
 {% assign first_item = false %}
@@ -570,8 +586,13 @@ form section h3 {
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
-<a href="{{ project.uri }}" target="_blank">
-<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+<a href="{{ project.uri }}" title="{{ project.organization_name }}" target="_blank">
+<svg viewBox="0 0 192 512" width="24" height="24">
+  <switch>
+    <path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path>
+    <foreignObject>{{ project.organization_name }}</foreignObject>
+  </switch>
+</svg>
 </a>
 </li>
 {% assign first_item = false %}
@@ -613,8 +634,13 @@ form section h3 {
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
-<a href="{{ project.uri }}" target="_blank">
-<svg  viewBox="0 0 192 512" width="24" height="24"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path></svg>
+<a href="{{ project.uri }}" title="{{ project.organization_name }}" target="_blank">
+<svg viewBox="0 0 192 512" width="24" height="24">
+  <switch>
+    <path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path>
+    <foreignObject>{{ project.organization_name }}</foreignObject>
+  </switch>
+</svg>
 </a>
 </li>
 {% assign first_item = false %}
@@ -629,14 +655,54 @@ form section h3 {
 <div markdown="1">
 ## You’re <span style="text-decoration: underline;">almost</span> done!
 
-Now it’s time to confirm your votes by signing in to one of your accounts.
+Now it’s time to confirm your votes by signing in with one of your accounts.
 
 ### Sign in with…
 
 <ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
+  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone" onClick="document.getElementById('sign-in-phone').style.display = 'flex'; document.getElementById('sign-in-phone').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Phone</a></li>
   <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Email</a></li>
   <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Facebook</a></li>
+ <!--  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li> -->
+</ul>
+
+<!--
+<ul class="action" style="display: block">
+  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Sign in with email</a></li>
+  <li style="margin: 0 !important; padding: 0;">or</li>
+  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Facebook</a></li>
+  <li style="margin: 0 !important; padding: 0">or</li>
+  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Twitter</a></li>
+</ul>
+-->
+
+</div>
+
+</section>
+
+
+<section style="display: none;">
+
+<div markdown="1">
+## You’re <span style="text-decoration: underline;">almost</span> done!
+
+<p style="max-width: 25em">To keep the voting fair, we need to confirm your votes. You can do this by signing in with your email, phone or one of your social accounts.</p>
+
+<p style="max-width: 25em"><small>We will only use your information to complete the voting process. (No spam, we promise!)</small></p>
+
+#### Sign in by responding to a message…
+
+<ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
+  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Phone</a></li>
+  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">Email</a></li>
+</ul>
+
+<h4>Or sign in with…</h4>
+
+<ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
+  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Google</a></li>
   <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li>
+  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Facebook</a></li>
 </ul>
 
 <!--
@@ -670,6 +736,25 @@ Next, we’ll send instructions to your email address.
 </p>
 
 <p style="margin-top: 1.7142857143em"><small>We will only use this address to complete the voting process. (No spam, we promise!)</small></p>
+</div>
+
+</section>
+
+<section id="sign-in-phone" style="display: none">
+
+<div markdown="1">
+### Sign in with your phone
+
+Next, we’ll send a text message to your phone, with instructions.
+
+<p style="margin-top: 1.5em; display: flex;">
+<label style="flex-grow: 1; margin-right: 0.25em;">
+  <input type="phone" name="phone" placeholder="What’s your phone number?" style="text-align: left;" required />
+</label>
+<button type="button">Send text message</button>
+</p>
+
+<p style="margin-top: 1.7142857143em"><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
 </div>
 
 </section>
@@ -783,6 +868,14 @@ header, footer {
 
     //console.dir(form);
 
+    function scrollTo(elementID) {
+      if (counter >= 5) {
+        document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+      } else {
+        document.getElementById(elementID).scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
     form.addEventListener('click', function(e) {
       setTimeout(function() {
         if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
@@ -790,23 +883,23 @@ header, footer {
           switch(e.target.name) {
             case 'learn':
               updateProgress();
-              document.getElementById('create').scrollIntoView({ behavior: 'smooth' });
+              scrollTo('create')
               break;
             case 'create':
               updateProgress();
-              document.getElementById('play').scrollIntoView({ behavior: 'smooth' });
+              scrollTo('play')
               break;
             case 'play':
               updateProgress();
-              document.getElementById('connect').scrollIntoView({ behavior: 'smooth' });
+              scrollTo('connect')
               break;
             case 'connect':
               updateProgress();
-              document.getElementById('live').scrollIntoView({ behavior: 'smooth' });
+              scrollTo('live')
               break;
             case 'live':
               updateProgress();
-              document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+              scrollTo('finish')
               break;
             default:
 
@@ -830,10 +923,10 @@ header, footer {
     var exclamations = ['Nice!', 'Hooray!', 'Sweet!', 'Way to go!', 'Excellent!'];
     document.getElementById('exclamation').innerText = exclamations[counter - 1];
 
-    if (counter >= 5) {
-      progress.style.display = 'none';
-      // document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
-    }
+    // if (counter >= 5) {
+    //   progress.querySelector('p').innerHTML = 'You’ve voted in all five categories!';
+    //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth' });
+    // }
 
     if (counter >= 1) {
       document.getElementById('finish').style.display = 'flex';
@@ -850,7 +943,7 @@ header, footer {
 
 
 <div class="progress" role="status" id="progress" style="display: none">
-  <p><span id="exclamation" style="display: none">Nice!</span> You’ve voted in <span id="vote-count">1</span> of <span>5</span> categories.</p>
+  <p><span id="exclamation" style="display: none">Nice!</span> You’ve voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
   <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({behavior: 'smooth'}); event.preventDefault();">I’m done voting</a></p>
 </div>
 
