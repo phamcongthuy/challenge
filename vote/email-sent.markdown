@@ -1,15 +1,15 @@
 ---
 title: Vote in the 2018 My LA2050 Activation Challenge
-body_class: blueberry
+body_class: tangerine
 ---
 
 <div class="introduction" markdown="1">
 
-<h2 style="max-width: none; text-align: center; font-size: 2.5em;">Email sent!</h2>
+<h2 style="max-width: none; text-align: center; font-size: 2.5em;">Please check your email</h2>
 
-Please check your email and follow the instructions in the message we sent to you.
+We sent you a message with instructions about how to confirm your votes.
 
-<small>Didn’t get an email?</small>
+<small>Didn’t get an email? It might be in your “spam” folder.</small>
 
 <form action="/vote/email-sent/" method="get">
 <input type="hidden" name="learn" />
