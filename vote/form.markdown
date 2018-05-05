@@ -730,7 +730,7 @@ Next, we’ll send instructions to your email address.
 
 <p style="margin-top: 1.5em; display: flex;">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="email" name="email" placeholder="What’s your email address?" style="text-align: left;" required />
+  <input type="email" name="email" placeholder="What’s your email address?" style="text-align: left;" />
 </label>
 <button type="submit">Send email</button>
 </p>
@@ -749,7 +749,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
 <p style="margin-top: 1.5em; display: flex;">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="phone" name="phone" placeholder="What’s your phone number?" style="text-align: left;" required />
+  <input type="phone" name="phone" placeholder="What’s your phone number?" style="text-align: left;" />
 </label>
 <button type="button">Send text message</button>
 </p>
@@ -835,9 +835,9 @@ Next, we’ll send a text message to your phone, with instructions.
   }
 
   document.querySelector('form').addEventListener('submit', function(e) {
+    console.log('form submit'); 
     e.preventDefault();
     sendEmail(e.target);
-
   })
 </script>
 
