@@ -830,8 +830,8 @@ Next, we’ll send a text message to your phone, with instructions.
   function sendEmail(form){
     console.log('sendEmail');
 
-    var email = form.querySelector('input[name="email"]').value;
-    var telephone = form.querySelector('input[name="telephone"]').value;
+    var email = (form.querySelector('input[name="email"]')) ? form.querySelector('input[name="email"]').value : null;
+    var telephone = (form.querySelector('input[name="telephone"]')) ? form.querySelector('input[name="telephone"]').value : null;
 
     var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
     var votesData = [];
