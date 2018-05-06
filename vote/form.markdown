@@ -449,7 +449,7 @@ form section h3 {
 }
 </style>
 
-<form name="vote" action="/vote/unauthenticated/" method="post" markdown="1" data-netlify="true">
+<form name="vote" action="/vote/submit/" method="post" markdown="1" data-netlify="true">
 
 <h2 class="blueberry" id="learn">Who would you like to vote for in the <span style="text-transform: uppercase;">Learn</span> category?</h2>
 
@@ -760,7 +760,11 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 </section>
 
+</form>
+
 <hr />
+
+<form name="vote" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
 
 <section id="sign-in-email" style="display: none">
 
@@ -780,6 +784,10 @@ Next, we’ll send instructions to your email address.
 </div>
 
 </section>
+
+</form>
+
+<form name="vote" action="/vote/sms-sent/" method="post" markdown="1" data-netlify="true">
 
 <section id="sign-in-phone" style="display: none">
 
@@ -825,7 +833,7 @@ Next, we’ll send a text message to your phone, with instructions.
     var votesData = [];
     var nextField;
     for (var index = 0; index < fieldNames.length; index++) {
-      nextField = form.querySelector('input[name="' + fieldNames[index] + '"]:checked');
+      nextField = document.querySelector('input[name="' + fieldNames[index] + '"]:checked');
       if (nextField) {
         votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
       } else {
@@ -856,12 +864,10 @@ Next, we’ll send a text message to your phone, with instructions.
     }
 
     if (telephone) {
-      form.action = '/vote/sms-sent/'
       options.connection = 'sms'
       options.send = 'code'
       options.phoneNumber = telephone.replace(/\-/g, '').replace(/\s/g, '')
     } else if (email) {
-      form.action = '/vote/email-sent/'
       options.connection = 'email'
       options.send = 'link'
       options.email = email
@@ -895,11 +901,14 @@ Next, we’ll send a text message to your phone, with instructions.
     });
   }
 
-  document.querySelector('form').addEventListener('submit', function(e) {
-    console.log('form submit'); 
-    e.preventDefault();
-    sendEmail(e.target);
-  })
+  var forms = document.querySelectorAll('form');
+  for (var index = 0; index < forms.length; index++) {
+    forms[index].addEventListener('submit', function(e) {
+      console.log('form submit'); 
+      e.preventDefault();
+      sendEmail(e.target);
+    })
+  }
 </script>
 
 
