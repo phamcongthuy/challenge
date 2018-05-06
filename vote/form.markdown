@@ -764,7 +764,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 <hr />
 
-<form name="vote_email" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
+<form name="vote_email" action="/vote/email-sent/" method="post" data-netlify="true">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />
@@ -780,7 +780,7 @@ Next, we’ll send instructions to your email address.
 
 <p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="email" name="email" placeholder="example@mail.com" style="text-align: left;" />
+  <input type="email" name="email" placeholder="example@mail.com" required="required" style="text-align: left;" />
 </label>
 <button type="submit">Send email</button>
 </p>
@@ -792,7 +792,7 @@ Next, we’ll send instructions to your email address.
 
 </form>
 
-<form name="vote_sms" action="/vote/sms-sent/" method="post" markdown="1" data-netlify="true">
+<form name="vote_sms" action="/vote/sms-sent/" method="post" data-netlify="true">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />
@@ -808,7 +808,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
 <p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="tel" name="telephone" placeholder="+1 222 333 4444" style="text-align: left;" />
+  <input type="tel" name="telephone" placeholder="+1 222 333 4444" required="required" style="text-align: left;" />
 </label>
 <button type="submit">Send text message</button>
 </p>
@@ -830,8 +830,8 @@ Next, we’ll send a text message to your phone, with instructions.
   function sendEmail(form){
     console.log('sendEmail');
 
-    var email = document.querySelector('input[name="email"]').value;
-    var telephone = document.querySelector('input[name="telephone"]').value;
+    var email = form.querySelector('input[name="email"]').value;
+    var telephone = form.querySelector('input[name="telephone"]').value;
 
     var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
     var votesData = [];

@@ -12,6 +12,7 @@ body_class: lime
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
 <input type="hidden" name="email" />
+<input type="hidden" name="telephone" />
 <input type="hidden" name="auth_accesstoken" />
 <input type="hidden" name="auth_state" />
 <input type="hidden" name="auth_sub" />
@@ -83,6 +84,7 @@ body_class: lime
           }
 
           form.querySelector('input[name="email"]').value = getParameterByName('email');
+          form.querySelector('input[name="telephone"]').value = getParameterByName('telephone');
           form.querySelector('input[name="auth_accesstoken"]').value = authResult.accessToken;
           form.querySelector('input[name="auth_state"]').value = authResult.state;
           form.querySelector('input[name="auth_sub"]').value = user.sub;
