@@ -792,7 +792,7 @@ Next, we’ll send a text message to your phone, with instructions.
 <label style="flex-grow: 1; margin-right: 0.25em;">
   <input type="tel" name="telephone" placeholder="What’s your phone number?" style="text-align: left;" />
 </label>
-<button type="button">Send text message</button>
+<button type="submit">Send text message</button>
 </p>
 
 <p style="margin-top: 1.7142857143em"><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
