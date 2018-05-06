@@ -307,7 +307,7 @@ form > ul > li .pseudo-checkbox svg {
   border: 3px solid white;
   padding: 0.25em;
 }
-form input[type="phone"],
+form input[type="tel"],
 form input[type="email"] {
   font-family: inherit;
   font-size: inherit;
