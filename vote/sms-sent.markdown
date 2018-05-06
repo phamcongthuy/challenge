@@ -82,12 +82,6 @@ form input[type="text"] {
 
 <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
 <script type="text/javascript">
-  var webAuth = new auth0.WebAuth({
-    domain:      'activation-la2050.auth0.com',
-    clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
-    // responseMode: 'form_post',
-    responseType: 'token'
-  });
 </script>
 
 <script>
@@ -114,16 +108,23 @@ form input[type="text"] {
       return;
     }
 
-    votesData.push('telephone=' + telephone);
+    votesData.push('telephone=' + encodeURIComponent(telephone));
 
     console.dir(votesData);
 
-    // var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
-    // console.log('redirectUri: ' + redirectUri);
+    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
+    console.log('redirectUri: ' + redirectUri);
 
     console.log("telephone: " + telephone.replace(/\-/g, '').replace(/\s/g, ''))
     console.log("verificationCode: " + verificationCode)
 
+    var webAuth = new auth0.WebAuth({
+      domain:      'activation-la2050.auth0.com',
+      clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
+      // responseMode: 'form_post',
+      responseType: 'token',
+      redirectUri: redirectUri
+    });
     webAuth.passwordlessLogin({
         connection: 'sms',
         phoneNumber: telephone.replace(/\-/g, '').replace(/\s/g, ''),

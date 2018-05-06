@@ -775,7 +775,7 @@ Next, we’ll send instructions to your email address.
 
 <p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="email" name="email" placeholder="What’s your email address?" style="text-align: left;" />
+  <input type="email" name="email" placeholder="example@mail.com" style="text-align: left;" />
 </label>
 <button type="submit">Send email</button>
 </p>
@@ -798,7 +798,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
 <p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="tel" name="telephone" placeholder="What’s your phone number?" style="text-align: left;" />
+  <input type="tel" name="telephone" placeholder="+1 222 333 4444" style="text-align: left;" />
 </label>
 <button type="submit">Send text message</button>
 </p>
@@ -814,12 +814,6 @@ Next, we’ll send a text message to your phone, with instructions.
 
 <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
 <script type="text/javascript">
-  var webAuth = new auth0.WebAuth({
-    domain:      'activation-la2050.auth0.com',
-    clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
-    // responseMode: 'form_post',
-    responseType: 'token'
-  });
 </script>
 
 <script>
@@ -874,6 +868,14 @@ Next, we’ll send a text message to your phone, with instructions.
     } else {
       console.error('Couldn’t find an email or phone to authenticate');
     }
+
+    var webAuth = new auth0.WebAuth({
+      domain:      'activation-la2050.auth0.com',
+      clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
+      // responseMode: 'form_post',
+      responseType: 'token',
+      redirectUri: redirectUri
+    });
 
     webAuth.passwordlessStart(options, function (err,res) {
       if (err) {
