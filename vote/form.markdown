@@ -1052,7 +1052,9 @@ header, footer {
 
     progress.classList.remove('hidden');
 
-    count.innerText = ++counter;
+    counter = document.querySelectorAll('input[type="radio"]:checked').length;
+
+    count.innerText = counter;
 
     var exclamations = ['Nice!', 'Hooray!', 'Sweet!', 'Way to go!', 'Excellent!'];
     document.getElementById('exclamation').innerText = exclamations[counter - 1];
