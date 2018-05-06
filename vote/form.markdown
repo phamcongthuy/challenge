@@ -703,7 +703,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 <ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
   <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone" onClick="document.getElementById('sign-in-phone').style.display = 'flex'; document.getElementById('sign-in-phone').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Phone</a></li>
   <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Email</a></li>
-  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Facebook</a></li>
+  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-facebook" onClick="signInSocial('facebook'); event.preventDefault();">Facebook</a></li>
  <!--  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li> -->
 </ul>
 
@@ -820,6 +820,8 @@ Next, we’ll send a text message to your phone, with instructions.
 
 </form>
 
+
+
 <div style="margin-top: 9em"></div>
 
 <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
@@ -911,6 +913,55 @@ Next, we’ll send a text message to your phone, with instructions.
       //$('.check-email').show();
 
 
+    });
+  }
+
+  function signInSocial(socialNetwork) {
+
+    var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
+    var votesData = [];
+    var nextField;
+    for (var index = 0; index < fieldNames.length; index++) {
+      nextField = document.querySelector('input[type="radio"][name="' + fieldNames[index] + '"]:checked');
+      if (nextField) {
+        votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
+      } else {
+        console.log('skipped: ' + fieldNames[index]);
+      }
+    }
+
+    if ((votesData).length < 1) {
+      console.error('No items were voted for');
+      return;
+    }
+
+    votesData.push('social_network=' + encodeURIComponent(socialNetwork))
+
+    console.dir(votesData);
+
+    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
+    console.log('redirectUri: ' + redirectUri);
+
+    var options = {
+      redirectUri: redirectUri,
+    }
+
+    options.connection = socialNetwork
+
+    var webAuth = new auth0.WebAuth({
+      domain:      'activation-la2050.auth0.com',
+      clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
+      responseType: 'token',
+      redirectUri: redirectUri
+    });
+
+    webAuth.authorize(options, function (err,res) {
+      if (err) {
+        // Handle error
+        console.dir(err)
+      } else {
+        console.dir(res)
+      }
     });
   }
 
