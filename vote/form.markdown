@@ -449,7 +449,7 @@ form section h3 {
 }
 </style>
 
-<form name="vote" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
+<form name="vote" action="/vote/unauthenticated/" method="post" markdown="1" data-netlify="true">
 
 <h2 class="blueberry" id="learn">Who would you like to vote for in the <span style="text-transform: uppercase;">Learn</span> category?</h2>
 
@@ -790,7 +790,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
 <p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="phone" name="phone" placeholder="What’s your phone number?" style="text-align: left;" />
+  <input type="tel" name="telephone" placeholder="What’s your phone number?" style="text-align: left;" />
 </label>
 <button type="button">Send text message</button>
 </p>
@@ -819,6 +819,7 @@ Next, we’ll send a text message to your phone, with instructions.
     console.log('sendEmail');
 
     var email = document.querySelector('input[name="email"]').value;
+    var telephone = document.querySelector('input[name="telephone"]').value;
 
     var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
     var votesData = [];
@@ -837,19 +838,38 @@ Next, we’ll send a text message to your phone, with instructions.
       return;
     }
 
-    votesData.push('email=' + email);
+    if (telephone) {
+      votesData.push('telephone=' + telephone);
+    } else if (email) {
+      votesData.push('email=' + email);
+    } else {
+      console.error('Couldn’t find an email or phone to add to the data');
+    }
 
     console.dir(votesData);
 
     var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
     console.log('redirectUri: ' + redirectUri);
 
-    webAuth.passwordlessStart({
-      connection: 'email',
-      send: 'link',
-      email: email,
+    var options = {
       redirectUri: redirectUri,
-    }, function (err,res) {
+    }
+
+    if (telephone) {
+      form.action = '/vote/sms-sent/'
+      options.connection = 'sms'
+      options.send = 'code'
+      options.phoneNumber = telephone
+    } else if (email) {
+      form.action = '/vote/email-sent/'
+      options.connection = 'email'
+      options.send = 'link'
+      options.email = email
+    } else {
+      console.error('Couldn’t find an email or phone to authenticate');
+    }
+
+    webAuth.passwordlessStart(options, function (err,res) {
       if (err) {
         // Handle error
       } else {
