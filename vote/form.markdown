@@ -840,7 +840,7 @@ Next, we’ll send a text message to your phone, with instructions.
       nextField = document.querySelector('input[type="radio"][name="' + fieldNames[index] + '"]:checked');
       if (nextField) {
         votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
-        form.querySelector('input[type="hidden"][name="' + fieldNames[index] + '"]').value = nextValue;
+        form.querySelector('input[type="hidden"][name="' + fieldNames[index] + '"]').value = nextField.value;
       } else {
         console.log('skipped: ' + fieldNames[index]);
       }
