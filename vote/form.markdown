@@ -765,6 +765,11 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 <hr />
 
 <form name="vote_email" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
+<input type="hidden" name="learn" />
+<input type="hidden" name="create" />
+<input type="hidden" name="play" />
+<input type="hidden" name="connect" />
+<input type="hidden" name="live" />
 
 <section id="sign-in-email" style="display: none">
 
@@ -788,6 +793,11 @@ Next, we’ll send instructions to your email address.
 </form>
 
 <form name="vote_sms" action="/vote/sms-sent/" method="post" markdown="1" data-netlify="true">
+<input type="hidden" name="learn" />
+<input type="hidden" name="create" />
+<input type="hidden" name="play" />
+<input type="hidden" name="connect" />
+<input type="hidden" name="live" />
 
 <section id="sign-in-phone" style="display: none">
 
@@ -827,9 +837,10 @@ Next, we’ll send a text message to your phone, with instructions.
     var votesData = [];
     var nextField;
     for (var index = 0; index < fieldNames.length; index++) {
-      nextField = document.querySelector('input[name="' + fieldNames[index] + '"]:checked');
+      nextField = document.querySelector('input[type="radio"][name="' + fieldNames[index] + '"]:checked');
       if (nextField) {
         votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
+        form.querySelector('input[type="hidden"][name="' + fieldNames[index] + '"]').value = nextValue;
       } else {
         console.log('skipped: ' + fieldNames[index]);
       }
@@ -843,7 +854,7 @@ Next, we’ll send a text message to your phone, with instructions.
     if (telephone) {
       votesData.push('telephone=' + encodeURIComponent(telephone));
     } else if (email) {
-      votesData.push('email=' + encodeURIComponent(telephone));
+      votesData.push('email=' + encodeURIComponent(email));
     } else {
       console.error('Couldn’t find an email or phone to add to the data');
     }
