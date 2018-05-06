@@ -17,17 +17,33 @@ We sent you a text message with a verification code. Please enter it here.
 <input type="hidden" name="live" />
 <input type="hidden" name="telephone" />
 
-<p>
-  <label>Verification Code</label><br />
-    <input type="text" name="verification_code" />
+<p style="font-size: 1em">
+  <label>
+    <input type="text" placeholder="Verification Code" name="verification_code" />
+    <button type="submit">Submit</button>
   </label>
 </p>
-<p class="action"><button type="submit">Submit</button></p>
 </form>
 
 <style>
 .promotion {
 	display: none;
+}
+form input[type="text"] {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 600;
+  padding: 0.75em;
+  border-radius: 0;
+  max-width: none;
+  box-sizing: border-box;
+  text-align: center;
+  border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+  border-color: rgba(0, 0, 0, 0.25);
+
+  /* Remove Safari’s default styles for search fields */
+  -webkit-appearance: none;
 }
 </style>
 
@@ -105,10 +121,13 @@ We sent you a text message with a verification code. Please enter it here.
     // var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
     // console.log('redirectUri: ' + redirectUri);
 
+    console.log("telephone: " + telephone.replace(/\-/g, '').replace(/\s/g, ''))
+    console.log("verificationCode: " + verificationCode)
+
     webAuth.passwordlessLogin({
         connection: 'sms',
-        phoneNumber: telephone,
-        verificationCode: code
+        phoneNumber: telephone.replace(/\-/g, '').replace(/\s/g, ''),
+        verificationCode: verificationCode
       }, function (err,res) {
         if (err) {
           // Handle error

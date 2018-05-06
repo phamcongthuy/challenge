@@ -839,9 +839,9 @@ Next, we’ll send a text message to your phone, with instructions.
     }
 
     if (telephone) {
-      votesData.push('telephone=' + telephone);
+      votesData.push('telephone=' + encodeURIComponent(telephone));
     } else if (email) {
-      votesData.push('email=' + email);
+      votesData.push('email=' + encodeURIComponent(telephone));
     } else {
       console.error('Couldn’t find an email or phone to add to the data');
     }
@@ -859,7 +859,7 @@ Next, we’ll send a text message to your phone, with instructions.
       form.action = '/vote/sms-sent/'
       options.connection = 'sms'
       options.send = 'code'
-      options.phoneNumber = telephone
+      options.phoneNumber = telephone.replace(/\-/g, '').replace(/\s/g, '')
     } else if (email) {
       form.action = '/vote/email-sent/'
       options.connection = 'email'
