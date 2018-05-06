@@ -30,7 +30,7 @@ function getContent(text, filename) {
 }
 
 function loadMarkdown(filename) {
-  let input = fs.readFileSync(filename, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
+  // let input = fs.readFileSync(filename, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
 
   // Get document, or throw exception on error 
   try {

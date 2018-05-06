@@ -326,6 +326,26 @@ form input[type="email"] {
   -webkit-appearance: none;
 }
 
+form .field-button {
+  margin-top: 1.5em;
+}
+form .field-button button {
+  margin-top: 0.375em;
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 40em) {
+  form .field-button {
+    display: flex;  
+  }
+  form .field-button button {
+    margin-top: 0;
+    display: inline-block;
+    width: auto;
+  }
+}
+
 form > ul {
   display: flex;
   flex-wrap: wrap;
@@ -749,7 +769,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 Next, we’ll send instructions to your email address.
 
-<p style="margin-top: 1.5em; display: flex;">
+<p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
   <input type="email" name="email" placeholder="What’s your email address?" style="text-align: left;" />
 </label>
@@ -768,7 +788,7 @@ Next, we’ll send instructions to your email address.
 
 Next, we’ll send a text message to your phone, with instructions.
 
-<p style="margin-top: 1.5em; display: flex;">
+<p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
   <input type="phone" name="phone" placeholder="What’s your phone number?" style="text-align: left;" />
 </label>
