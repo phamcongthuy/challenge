@@ -764,7 +764,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 <hr />
 
-<form name="vote" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
+<form name="vote_email" action="/vote/email-sent/" method="post" markdown="1" data-netlify="true">
 
 <section id="sign-in-email" style="display: none">
 
@@ -787,7 +787,7 @@ Next, we’ll send instructions to your email address.
 
 </form>
 
-<form name="vote" action="/vote/sms-sent/" method="post" markdown="1" data-netlify="true">
+<form name="vote_sms" action="/vote/sms-sent/" method="post" markdown="1" data-netlify="true">
 
 <section id="sign-in-phone" style="display: none">
 
