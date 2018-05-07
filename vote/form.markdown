@@ -3,45 +3,11 @@ title: Vote in the 2018 My LA2050 Activation Challenge
 body_class: blueberry
 ---
 
-<div class="introduction" markdown="1">
-
-<div>
-<a href="/finalists/" class="logo">
-  <img src="/assets/images/vote-logo-white.png" alt="My LA2050 Activation Challenge" style="margin-top: -3em;
-    width: 12em;
-    height: auto;" />
-</a>
-
-<p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
-
-<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></p>
-
-<!--
-<p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
--->
-
-  <!--
-<ul class="action">
-  <li><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></li>
-  <li style="margin-top: 1.5em"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Learn more about the finalists</a></li>
-  
-</ul>-->
-</div>
-
-<!--
-<p style="margin-top: 1.5em">
-  <a href="#learn">
-    <svg viewBox="0 0 448 512" width="24" height="24">
-      <switch>
-        <path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" class=""></path>
-        <foreignObject>Okay, let’s go</foreignObject>
-      </switch>
-    </svg>
-  </a>
-</p>
--->
-
-</div>
+<style>
+header, footer {
+  display: none;
+}
+</style>
 
 <style>
 section,
@@ -150,17 +116,6 @@ section,
   }
   
 </style>
-
-<script>
-(function() {
-  function getRandomOrder() {
-    return (Math.floor(Math.random() * 10) + 1) - 5;
-  }
-  for (var index = 0; index < 5; index++) {
-    document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
-  }
-})();
-</script>
 
 <style>
 .promotion {
@@ -449,6 +404,257 @@ form section h3 {
 }
 </style>
 
+<style>
+@media (false) {
+  #sign-in-phone,
+  #sign-in-email,
+  #finish {
+    background: rgb(254, 254, 254); /* @snow */
+    color: rgb(41, 41, 41); /* @midnight */
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+  }
+}
+/*#sign-in-phone,
+#sign-in-email,
+#finish {
+  background: black;
+  background: var(--primary-color, black);
+  color: white;
+  font-weight: 500;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+#sign-in-phone h2,
+#sign-in-phone h3,
+#sign-in-email h2,
+#sign-in-email h3,
+#finish h2,
+#finish h3 {
+  color: inherit !important;
+}
+#sign-in-phone input,
+#sign-in-email input {
+  border-color: transparent;
+}*/
+@media (min-width: 40em) {
+  #sign-in-phone,
+  #sign-in-email,
+  #finish {
+    margin-left: -4.5em;
+    margin-right: -4.5em;
+  }
+}
+</style>
+
+
+<style>
+
+.progress {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(245, 245, 245);
+  color: black;
+  padding: 0.75em;
+  box-sizing: border-box;
+  text-align: center;
+}
+.progress.hidden {
+  display: none;
+}
+.progress.hidden-button .action {
+  display: none;
+}
+.progress p {
+  margin: 0;
+}
+.progress .action {
+  margin-top: 0.75em;
+}
+
+@media (min-width: 40em) {
+  .progress {
+    padding: 1.5em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    min-height: 6.25em;
+  }
+  .progress .action {
+    margin-top: 0;
+    margin-left: 1.5em;
+  }
+}
+
+</style>
+
+
+<style>
+
+  /* =Icon Button
+  ----------------------------------------------- */
+  a.has-icon {
+    display: block;
+    position: relative;
+    text-decoration: none
+  }
+
+  .has-icon .icon {
+    position: absolute;
+    top: 0.725em;
+    right: 0.725em;
+    background: white;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+    background: rgba(254, 254, 254, 0.75); /* @snow */
+    background: var(--secondary-color, black);
+    border: 0.1875em solid var(--secondary-color, black);
+    background: var(--primary-color, black);
+    border: 0.1875em solid var(--primary-color, black);
+    color: rgb(41, 41, 41); /* @midnight */
+    color: rgb(254, 254, 254); /* @snow */
+    padding: 0;
+    width: 5em;
+    line-height: 5em;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+    /*font-size: 1.5em;*/
+    text-align: center;
+    display: flex;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    opacity: 0.75;
+    background: rgb(254, 254, 254); /* @snow */
+    border-color: var(--secondary-color, black);
+    color: var(--secondary-color, black);
+    border-color: var(--primary-color, black);
+    border-color: white;
+    color: var(--primary-color, black);
+    color: black;
+    background: black;
+    color: white;
+    border-color: transparent;
+    transition: all 0.2s;
+  }
+
+  .has-icon:hover .icon,
+  .has-icon:active .icon,
+  .has-icon:focus .icon {
+    background-color: var(--primary-color);
+    opacity: 1;
+  }
+
+  .has-icon .icon {
+    vertical-align: middle
+  }
+
+  .has-icon svg {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.25em;
+  }
+
+  .has-icon svg polygon {
+    fill: currentColor
+  }
+
+
+  .has-icon .credit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+    background: var(--secondary-color, black);
+    color: rgb(254, 254, 254); /* @snow */
+    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--secondary-color, black);
+    border-color: var(--secondary-color, black);
+    color: black;
+    font-size: 0.75em;
+    padding: 0.25em 0.5em;
+    font-weight: 500;
+  }
+
+</style>
+
+
+
+<div class="introduction" markdown="1">
+
+<div>
+<a href="/finalists/" class="logo">
+  <img src="/assets/images/vote-logo-white.png" alt="My LA2050 Activation Challenge" style="margin-top: -3em;
+    width: 12em;
+    height: auto;" />
+</a>
+
+<p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
+
+<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></p>
+
+<!--
+<p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
+-->
+
+  <!--
+<ul class="action">
+  <li><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></li>
+  <li style="margin-top: 1.5em"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Learn more about the finalists</a></li>
+  
+</ul>-->
+</div>
+
+<!--
+<p style="margin-top: 1.5em">
+  <a href="#learn">
+    <svg viewBox="0 0 448 512" width="24" height="24">
+      <switch>
+        <path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" class=""></path>
+        <foreignObject>Okay, let’s go</foreignObject>
+      </switch>
+    </svg>
+  </a>
+</p>
+-->
+
+</div>
+
+
+<script>
+(function() {
+  function getRandomOrder() {
+    return (Math.floor(Math.random() * 10) + 1) - 5;
+  }
+  for (var index = 0; index < 5; index++) {
+    document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
+  }
+})();
+</script>
+
+
 <form name="vote" action="/vote/submit/" method="post" markdown="1" data-netlify="true">
 
 <h2 class="blueberry" id="learn">Who would you like to vote for in the <span style="text-transform: uppercase;">Learn</span> category?</h2>
@@ -721,57 +927,6 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 </section>
 
-<style>
-@media (false) {
-  #sign-in-phone,
-  #sign-in-email,
-  #finish {
-    background: rgb(254, 254, 254); /* @snow */
-    color: rgb(41, 41, 41); /* @midnight */
-    margin-left: -1.5em;
-    margin-right: -1.5em;
-    box-sizing: border-box;
-    min-height: 100vh;
-    position: relative;
-    z-index: 2;
-  }
-}
-/*#sign-in-phone,
-#sign-in-email,
-#finish {
-  background: black;
-  background: var(--primary-color, black);
-  color: white;
-  font-weight: 500;
-  margin-left: -1.5em;
-  margin-right: -1.5em;
-  box-sizing: border-box;
-  min-height: 100vh;
-  position: relative;
-  z-index: 2;
-}
-#sign-in-phone h2,
-#sign-in-phone h3,
-#sign-in-email h2,
-#sign-in-email h3,
-#finish h2,
-#finish h3 {
-  color: inherit !important;
-}
-#sign-in-phone input,
-#sign-in-email input {
-  border-color: transparent;
-}*/
-@media (min-width: 40em) {
-  #sign-in-phone,
-  #sign-in-email,
-  #finish {
-    margin-left: -4.5em;
-    margin-right: -4.5em;
-  }
-}
-</style>
-
 
 <section style="display: none;">
 
@@ -1027,12 +1182,6 @@ Next, we’ll send a text message to your phone, with instructions.
 </script>
 
 
-<style>
-header, footer {
-  display: none;
-}
-</style>
-
 
 <script>
 (function() {
@@ -1170,148 +1319,3 @@ header, footer {
 
 <script>
 </script>
-
-<style>
-
-.progress {
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgb(245, 245, 245);
-  color: black;
-  padding: 0.75em;
-  box-sizing: border-box;
-  text-align: center;
-}
-.progress.hidden {
-  display: none;
-}
-.progress.hidden-button .action {
-  display: none;
-}
-.progress p {
-  margin: 0;
-}
-.progress .action {
-  margin-top: 0.75em;
-}
-
-@media (min-width: 40em) {
-  .progress {
-    padding: 1.5em 3em;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    min-height: 6.25em;
-  }
-  .progress .action {
-    margin-top: 0;
-    margin-left: 1.5em;
-  }
-}
-
-</style>
-
-
-<style>
-
-  /* =Icon Button
-  ----------------------------------------------- */
-  a.has-icon {
-    display: block;
-    position: relative;
-    text-decoration: none
-  }
-
-  .has-icon .icon {
-    position: absolute;
-    top: 0.725em;
-    right: 0.725em;
-    background: white;
-    background: rgba(255, 255, 255, 0.75);
-    color: black;
-    background: rgba(254, 254, 254, 0.75); /* @snow */
-    background: var(--secondary-color, black);
-    border: 0.1875em solid var(--secondary-color, black);
-    background: var(--primary-color, black);
-    border: 0.1875em solid var(--primary-color, black);
-    color: rgb(41, 41, 41); /* @midnight */
-    color: rgb(254, 254, 254); /* @snow */
-    padding: 0;
-    width: 5em;
-    line-height: 5em;
-    border-radius: 50%;
-    transition: background-color 0.2s;
-    /*font-size: 1.5em;*/
-    text-align: center;
-    display: flex;
-    width: 3em;
-    height: 3em;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    top: 50%;
-    left: 50%;
-    right: auto;
-    padding: 0;
-    transform: translate(-50%, -50%);
-    opacity: 0.75;
-    background: rgb(254, 254, 254); /* @snow */
-    border-color: var(--secondary-color, black);
-    color: var(--secondary-color, black);
-    border-color: var(--primary-color, black);
-    border-color: white;
-    color: var(--primary-color, black);
-    color: black;
-    background: black;
-    color: white;
-    border-color: transparent;
-    transition: all 0.2s;
-  }
-
-  .has-icon:hover .icon,
-  .has-icon:active .icon,
-  .has-icon:focus .icon {
-    background-color: var(--primary-color);
-    opacity: 1;
-  }
-
-  .has-icon .icon {
-    vertical-align: middle
-  }
-
-  .has-icon svg {
-    width: 1em;
-    height: 1em;
-    margin-left: 0.25em;
-  }
-
-  .has-icon svg polygon {
-    fill: currentColor
-  }
-
-
-  .has-icon .credit {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: white;
-    background: rgba(255, 255, 255, 0.75);
-    color: black;
-    background: var(--secondary-color, black);
-    color: rgb(254, 254, 254); /* @snow */
-    background: white;
-    background: rgba(255, 255, 255, 0.9);
-    color: var(--secondary-color, black);
-    border-color: var(--secondary-color, black);
-    color: black;
-    font-size: 0.75em;
-    padding: 0.25em 0.5em;
-    font-weight: 500;
-  }
-
-</style>
-
