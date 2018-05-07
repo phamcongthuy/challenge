@@ -47,7 +47,7 @@ body_class: blueberry
 section,
 .introduction {
   display: flex;
-  min-height: 80vh;
+  min-height: 100vh;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -691,7 +691,7 @@ form section h3 {
 
 <hr />
 
-<section id="finish" style="display: none;">
+<section id="finish" class="blueberry" style="display: none;">
 
 <div markdown="1">
 ## You’re <span style="text-decoration: underline;">almost</span> done!
@@ -701,7 +701,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 ### Sign in with…
 
 <ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
-  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone" onClick="document.getElementById('sign-in-phone').style.display = 'flex'; document.getElementById('sign-in-phone').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Phone</a></li>
+  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone" onClick="document.getElementById('sign-in-phone').style.display = 'flex'; document.getElementById('sign-in-phone').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Phone</a></li>
   <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Email</a></li>
   <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-facebook" onClick="signInSocial('facebook'); event.preventDefault();">Facebook</a></li>
  <!--  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li> -->
@@ -720,6 +720,55 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 </div>
 
 </section>
+
+<style>
+#sign-in-phone,
+#sign-in-email,
+#finish {
+  background: rgb(254, 254, 254); /* @snow */
+  color: rgb(41, 41, 41); /* @midnight */
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+/*#sign-in-phone,
+#sign-in-email,
+#finish {
+  background: black;
+  background: var(--primary-color, black);
+  color: white;
+  font-weight: 500;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+#sign-in-phone h2,
+#sign-in-phone h3,
+#sign-in-email h2,
+#sign-in-email h3,
+#finish h2,
+#finish h3 {
+  color: inherit !important;
+}
+#sign-in-phone input,
+#sign-in-email input {
+  border-color: transparent;
+}*/
+@media (min-width: 40em) {
+  #sign-in-phone,
+  #sign-in-email,
+  #finish {
+    margin-left: -4.5em;
+    margin-right: -4.5em;
+  }
+}
+</style>
 
 
 <section style="display: none;">
@@ -762,8 +811,6 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 </form>
 
-<hr />
-
 <form name="vote_email" action="/vote/email-sent/" method="post" data-netlify="true">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
@@ -771,7 +818,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
 
-<section id="sign-in-email" style="display: none">
+<section id="sign-in-email" class="lime" style="display: none">
 
 <div markdown="1">
 ### Sign in with email
@@ -799,7 +846,7 @@ Next, we’ll send instructions to your email address.
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
 
-<section id="sign-in-phone" style="display: none">
+<section id="sign-in-phone" class="strawberry" style="display: none">
 
 <div markdown="1">
 ### Sign in with your phone
@@ -822,7 +869,9 @@ Next, we’ll send a text message to your phone, with instructions.
 
 
 
+<!--
 <div style="margin-top: 9em"></div>
+-->
 
 <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
 <script type="text/javascript">
@@ -1016,23 +1065,23 @@ header, footer {
           console.log('e.target.name: ' + e.target.name)
           switch(e.target.name) {
             case 'learn':
-              updateProgress();
+              updateProgress()
               scrollTo('create')
               break;
             case 'create':
-              updateProgress();
+              updateProgress()
               scrollTo('play')
               break;
             case 'play':
-              updateProgress();
+              updateProgress()
               scrollTo('connect')
               break;
             case 'connect':
-              updateProgress();
+              updateProgress()
               scrollTo('live')
               break;
             case 'live':
-              updateProgress();
+              updateProgress()
               scrollTo('finish')
               break;
             default:
@@ -1046,9 +1095,12 @@ header, footer {
 
 
   var counter = 0;
+  var count;
+  var progress;
+  var finish;
   function updateProgress() {
-    var progress = document.getElementById("progress");
-    var count = document.getElementById("vote-count");
+    if (!progress) progress = document.getElementById("progress");
+    if (!count) count = document.getElementById("vote-count");
 
     progress.classList.remove('hidden');
 
@@ -1064,14 +1116,45 @@ header, footer {
     //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
     // }
 
-    if (counter >= 1) {
-      document.getElementById('finish').style.display = 'flex';
+    if (counter >= 1 && !finish) {
+      finish = document.getElementById('finish');
+      finish.style.display = 'flex';
+
+      window.addEventListener('scroll', function() {
+        //if (isVisible(finish, getOffset(finish).top, window.scrollY)) {
+        if ((window.scrollY + (window.innerHeight / 2)) >= getOffset(finish).top) {
+          progress.classList.add('hidden');
+        } else {
+          progress.classList.remove('hidden');
+        }
+      })
+
     }
   }
 
+  // KUDOS: http://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element#answer-442474
+  function getOffset( el ) {
+    var _x = 0;
+    var _y = 0;
+    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+        _x += el.offsetLeft;
+        _y += el.offsetTop;
+        el = el.offsetParent;
+    }
+    return { top: _y, left: _x };
+  }
 
+  function isVisible(element, elementTop, windowTop) {
+    var elementBottom = elementTop + element.offsetHeight;
+    var windowBottom  = windowTop  + window.innerHeight;
 
-
+    // If the top edge of the window is greater than the top edge of the target
+    if ((elementTop >= windowTop && elementTop <= windowBottom) || (elementBottom >= windowTop && elementBottom <= windowBottom)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
 })();
 </script>
@@ -1079,7 +1162,7 @@ header, footer {
 
 
 <div class="progress hidden" role="status" id="progress">
-  <p><span id="exclamation" style="display: none">Nice!</span> You’ve voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
+  <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
   <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">I’m done voting</a></p>
 </div>
 
@@ -1103,6 +1186,9 @@ header, footer {
 .progress.hidden {
   display: none;
 }
+.progress.hidden-button .action {
+  display: none;
+}
 .progress p {
   margin: 0;
 }
@@ -1117,6 +1203,7 @@ header, footer {
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    /*min-height: 6.25em;*/
   }
   .progress .action {
     margin-top: 0;
