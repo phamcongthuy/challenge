@@ -1059,6 +1059,8 @@ Next, we’ll send a text message to your phone, with instructions.
       return;
     }
 
+    if (telephone && telephone.indexOf('+') !== 0) telephone = '+1 ' + telephone
+
     if (telephone) {
       votesData.push('telephone=' + encodeURIComponent(telephone));
     } else if (email) {
@@ -1076,7 +1078,6 @@ Next, we’ll send a text message to your phone, with instructions.
       redirectUri: redirectUri,
     }
 
-    if (telephone.indexOf('+') !== 0) telephone = '+1 ' + telephone
     // TODO: Validate phone number
 
     if (telephone) {
