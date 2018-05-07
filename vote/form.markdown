@@ -722,17 +722,19 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 </section>
 
 <style>
-#sign-in-phone,
-#sign-in-email,
-#finish {
-  background: rgb(254, 254, 254); /* @snow */
-  color: rgb(41, 41, 41); /* @midnight */
-  margin-left: -1.5em;
-  margin-right: -1.5em;
-  box-sizing: border-box;
-  min-height: 100vh;
-  position: relative;
-  z-index: 2;
+@media (false) {
+  #sign-in-phone,
+  #sign-in-email,
+  #finish {
+    background: rgb(254, 254, 254); /* @snow */
+    color: rgb(41, 41, 41); /* @midnight */
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+  }
 }
 /*#sign-in-phone,
 #sign-in-email,
@@ -1123,9 +1125,9 @@ header, footer {
       window.addEventListener('scroll', function() {
         //if (isVisible(finish, getOffset(finish).top, window.scrollY)) {
         if ((window.scrollY + (window.innerHeight / 2)) >= getOffset(finish).top) {
-          progress.classList.add('hidden');
+          progress.classList.add('hidden-button');
         } else {
-          progress.classList.remove('hidden');
+          progress.classList.remove('hidden-button');
         }
       })
 
@@ -1203,7 +1205,7 @@ header, footer {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    /*min-height: 6.25em;*/
+    min-height: 6.25em;
   }
   .progress .action {
     margin-top: 0;
