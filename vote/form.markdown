@@ -1210,39 +1210,57 @@ Next, we’ll send a text message to your phone, with instructions.
       }
     }
 
+    var delay = 750;
+    var delayTimeout;
     form.addEventListener('click', function(e) {
-      setTimeout(function() {
         if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
           console.log('e.target.name: ' + e.target.name)
           switch(e.target.name) {
             case 'learn':
               updateProgress()
-              scrollTo('create')
+              if (delayTimeout) clearTimeout(delayTimeout)
+              delayTimeout = setTimeout(function() {
+                scrollTo('create')
+              }, delay);
               break;
             case 'create':
               updateProgress()
-              scrollTo('play')
+              if (delayTimeout) clearTimeout(delayTimeout)
+              delayTimeout = setTimeout(function() {
+                scrollTo('play')
+              }, delay);
               break;
             case 'play':
               updateProgress()
-              scrollTo('connect')
+              if (delayTimeout) clearTimeout(delayTimeout)
+              delayTimeout = setTimeout(function() {
+                scrollTo('connect')
+              }, delay);
               break;
             case 'connect':
               updateProgress()
-              scrollTo('live')
+              if (delayTimeout) clearTimeout(delayTimeout)
+              delayTimeout = setTimeout(function() {
+                scrollTo('live')
+              }, delay);
               break;
             case 'live':
               updateProgress()
-              scrollTo('finish')
+              if (delayTimeout) clearTimeout(delayTimeout)
+              delayTimeout = setTimeout(function() {
+                scrollTo('finish')
+              }, delay);
               break;
             default:
 
           }
         }
-      }, 1000);
     });
   //});
 
+  window.addEventListener('scroll', function(e) {
+    if (delayTimeout) clearTimeout(delayTimeout)
+  })
 
 
   var counter = 0;
