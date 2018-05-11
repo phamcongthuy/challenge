@@ -189,12 +189,11 @@ form > ul > li .mask {
 form > ul > li .call-to-action,
 form > ul > li .pseudo-checkbox {
   position: absolute;
-  bottom: 0.5em;
+  bottom: 0em;
   left: 0;
   width: 100%;
   text-align: center;
-  height: 2em;
-  color: white;
+  height: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,12 +202,31 @@ form > ul > li .pseudo-checkbox {
   font-size: 1em;
   z-index: 1;
   box-sizing: border-box;
+  background: white;
+  color: var(--primary-color);
+  border: 0.1875em solid var(--primary-color);
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+form > ul > li .call-to-action strong,
+form > ul > li .pseudo-checkbox strong {
+ color: inherit !important;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+form > ul > li label input:checked ~ .call-to-action,
+form > ul > li label input:checked ~ .pseudo-checkbox,
+form > ul > li label input:focus ~ .call-to-action,
+form > ul > li label input:focus ~ .pseudo-checkbox,
+form > ul > li label:hover .call-to-action,
+form > ul > li label:hover .pseudo-checkbox {
+  background: var(--primary-color);
+  color: white;
 }
 form > ul > li .pseudo-checkbox {
   display: none;
 }
 form > ul > li label .call-to-action {
-  background: rgba(0, 0, 0, 0.5);
+  /*background: rgba(0, 0, 0, 0.5);*/
   opacity: 1;
 }
 /*form > ul > li .call-to-action strong {
@@ -218,39 +236,29 @@ form > ul > li input:checked ~ .call-to-action {
   display: none;
 }
 form > ul > li input:checked ~ .pseudo-checkbox {
-  background: rgba(0, 0, 0, 0.5); /* @lime */
+  /*background: rgba(0, 0, 0, 0.5);*/
   opacity: 1;
   display: flex;
 }
-form > ul > li:hover .mask {
+/*form > ul > li:hover .mask {
   opacity: 0.25;
-}
+}*/
 form > ul > li input:checked ~ .mask {
   opacity: 1;
 }
-form .blueberry .mask,
-form .blueberry .call-to-action,
-form .blueberry input:checked ~ .pseudo-checkbox {
+form .blueberry .mask {
   background: rgba(6, 179, 188, 0.5); /* @blueberry */
 }
-form .banana .mask,
-form .banana .call-to-action,
-form .banana input:checked ~ .pseudo-checkbox {
+form .banana .mask {
   background: rgba(255, 194, 51, 0.5); /* @banana */
 }
-form .strawberry .mask,
-form .strawberry .call-to-action,
-form .strawberry input:checked ~ .pseudo-checkbox {
+form .strawberry .mask {
   background: rgba(237, 59, 136, 0.5); /* @strawberry */
 }
-form .tangerine .mask,
-form .tangerine .call-to-action,
-form .tangerine input:checked ~ .pseudo-checkbox {
+form .tangerine .mask {
   background: rgba(249, 160, 51, 0.5); /* @tangerine */
 }
-form .lime .mask,
-form .lime .call-to-action,
-form .lime input:checked ~ .pseudo-checkbox {
+form .lime .mask {
   background: rgba(141, 208, 59, 0.5); /* @lime */
 }
 form > ul > li .call-to-action svg,
@@ -259,7 +267,7 @@ form > ul > li .pseudo-checkbox svg {
   width: 0.75em;
   height: 0.75em;
   margin-right: 0.5em;
-  border: 3px solid white;
+  border: 0.1875em solid currentColor;
   padding: 0.25em;
 }
 form input[type="tel"],
@@ -317,9 +325,13 @@ form > ul > li {
 form > ul > li a {
   position: absolute;
   top: 0;
-  right: 0;
-  padding: 0.75em;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 3em);
   text-decoration: none;
+  background-color: var(--primary-color);
+  transition: opacity 0.2s;
+  opacity: 0;
 }
 form > ul > li a svg {
   background: var(--primary-color);
@@ -329,6 +341,7 @@ form > ul > li a svg {
   padding: 0.5em;
   border-radius: 50%;
   border: 2px solid transparent;
+  opacity: 0;
 }
 form > ul > li a:hover  svg,
 form > ul > li a:active svg,
@@ -336,6 +349,11 @@ form > ul > li a:focus  svg {
   background: white;
   color: var(--primary-color);
   border-color: var(--primary-color); 
+}
+form > ul > li a:hover,
+form > ul > li a:active,
+form > ul > li a:focus {
+  opacity: 0.5;
 }
 form > ul > li br {
   display: none;
@@ -370,6 +388,7 @@ form > ul > li {
   position: relative;
   padding-bottom: 3em;
 }
+/*
 form > ul > li label::after {
   content: "";
   background: var(--primary-color);
@@ -383,6 +402,7 @@ form > ul > li label::after {
   box-sizing: border-box;
   height: 3em;
 }
+*/
 form > ul > li img {
   width: 100%;
   max-width: none;
@@ -679,12 +699,12 @@ form section h3 {
   <span class="mask"></span><span class="pseudo-checkbox">
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
-      <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+      <strong>Selected</strong>
     </svg>
   </span>
   <span class="call-to-action">
     <!--<svg></svg>-->
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
+    <strong>Select</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
@@ -728,11 +748,11 @@ form section h3 {
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+    <strong>Selected</strong>
   </span>
   <span class="call-to-action">
     <!--<svg></svg>-->
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
+    <strong>Select</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
@@ -776,11 +796,11 @@ form section h3 {
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+    <strong>Selected</strong>
   </span>
   <span class="call-to-action">
     <!--<svg></svg>-->
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
+    <strong>Select</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
@@ -824,11 +844,11 @@ form section h3 {
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+    <strong>Selected</strong>
   </span>
   <span class="call-to-action">
     <!--<svg></svg>-->
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
+    <strong>Select</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
@@ -872,11 +892,11 @@ form section h3 {
     <svg width="24" height="24" viewBox="0 0 512 512">
       <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
     </svg>
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Voted</strong>
+    <strong>Selected</strong>
   </span>
   <span class="call-to-action">
     <!--<svg></svg>-->
-    <strong style="color: white !important; font-weight: bold; text-transform: uppercase;">Vote</strong>
+    <strong>Select</strong>
   </span>
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
@@ -1207,14 +1227,14 @@ Next, we’ll send a text message to your phone, with instructions.
     //console.dir(form);
 
     function scrollTo(elementID) {
-      if (counter >= 5) {
-        document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
-      } else {
+      // if (counter >= 5) {
+      //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // } else {
         document.getElementById(elementID).scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+      //}
     }
 
-    var delay = 750;
+    var delay = 500;
     var delayTimeout;
     form.addEventListener('click', function(e) {
         if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
@@ -1336,7 +1356,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
 <div class="progress hidden" role="status" id="progress">
   <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
-  <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">I’m done voting</a></p>
+  <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Confirm my votes</a></p>
 </div>
 
 <script>
