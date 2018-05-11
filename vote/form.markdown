@@ -185,7 +185,6 @@ form > ul > li .mask {
   opacity: 0;
   transition: opacity 0.2s;
   font-size: 1.5em;
-  display: none;
 }
 form > ul > li .call-to-action,
 form > ul > li .pseudo-checkbox {
@@ -195,7 +194,6 @@ form > ul > li .pseudo-checkbox {
   width: 100%;
   text-align: center;
   height: 3em;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,7 +202,8 @@ form > ul > li .pseudo-checkbox {
   font-size: 1em;
   z-index: 1;
   box-sizing: border-box;
-  background: var(--primary-color);
+  background: white;
+  color: var(--primary-color);
   border: 0.1875em solid var(--primary-color);
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
@@ -214,12 +213,14 @@ form > ul > li .pseudo-checkbox strong {
  font-weight: bold;
  text-transform: uppercase;
 }
+form > ul > li label input:checked ~ .call-to-action,
+form > ul > li label input:checked ~ .pseudo-checkbox,
 form > ul > li label input:focus ~ .call-to-action,
 form > ul > li label input:focus ~ .pseudo-checkbox,
 form > ul > li label:hover .call-to-action,
 form > ul > li label:hover .pseudo-checkbox {
-  background: white;
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: white;
 }
 form > ul > li .pseudo-checkbox {
   display: none;
@@ -239,9 +240,9 @@ form > ul > li input:checked ~ .pseudo-checkbox {
   opacity: 1;
   display: flex;
 }
-form > ul > li:hover .mask {
+/*form > ul > li:hover .mask {
   opacity: 0.25;
-}
+}*/
 form > ul > li input:checked ~ .mask {
   opacity: 1;
 }
