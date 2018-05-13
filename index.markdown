@@ -7,43 +7,41 @@ show_promotion: true
 ---
 
 <div class="standard-figure has-caption header-figure has-caption-details">
-  <img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="200vw" alt="Women’s March Los Angeles" />
-  <div class="caption">
-    <div>
-      <h1>
-        <span>Los Angeles:</span><br />
-        <strong>Change</strong> <span>is&nbsp;Local</span>
-      </h1>
+<img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="200vw" alt="Women’s March Los Angeles" />
+<div class="caption">
+<div class="container">
+<h1>
+  <span>Los Angeles:</span><br />
+  <strong>Change</strong> <span>is&nbsp;Local</span>
+</h1>
+<div class="details">
 
-      <div class="details">
+  {% if site.phase == 2 %}
+  <p class="action">
+    <a href="{{ site.submission_url }}">Submit your idea</a>
+  </p>
+  {% elsif site.phase == 4 %}
+  <p class="action">
+    <a href="/entries/">Check out the entries!</a>
+  </p>
+  {% elsif site.phase >= 5 and site.phase <= 7 %}
+  <p class="action">
+    <a href="/finalists/">Check out the finalists!</a>
+  </p>
+  {% elsif site.phase == 8 %}
+  <p class="action">
+    <a href="/winners/">Check out the winners!</a>
+  </p>
+  {% else %}
+  <p class="action">
+    <a href="{{ site.mailing_list_url }}">Get updates</a>
+  </p>
+  {% endif %}
 
-        {% if site.phase == 2 %}
-        <p class="action">
-          <a href="{{ site.submission_url }}">Submit your idea</a>
-        </p>
-        {% elsif site.phase == 4 %}
-        <p class="action">
-          <a href="/entries/">Check out the entries!</a>
-        </p>
-        {% elsif site.phase >= 5 and site.phase <= 7 %}
-        <p class="action">
-          <a href="/finalists/">Check out the finalists!</a>
-        </p>
-        {% elsif site.phase == 8 %}
-        <p class="action">
-          <a href="/winners/">Check out the winners!</a>
-        </p>
-        {% else %}
-        <p class="action">
-          <a href="{{ site.mailing_list_url }}">Get updates</a>
-        </p>
-        {% endif %}
-
-      </div><!-- /.details -->
-
-    </div>
-  </div>
-</div>
+</div><!-- /.details -->
+</div><!-- /.container -->
+</div><!-- /.caption -->
+</div><!-- /.standard-figure -->
 
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
