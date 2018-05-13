@@ -558,9 +558,13 @@
       z-index: 1;
     }
     .home:not(.header-not-visible) header {
-      background: transparent;
       position: relative;
       z-index: 6;
+    }
+    @supports (display: grid) {
+      .home:not(.header-not-visible) header {
+        background: transparent;
+      }
     }
     .home:not(.header-not-visible) header ul a {
       text-shadow: 0 0 2em rgba(0, 0, 0, 1);
