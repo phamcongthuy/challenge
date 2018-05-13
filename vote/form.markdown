@@ -3,6 +3,18 @@ title: Vote in the 2018 My LA2050 Activation Challenge
 body_class: blueberry
 ---
 
+{% if site.phase != 6 %}
+
+# Oops!
+
+<div class="introduction" markdown="1">
+This page couldn’t be found.
+
+You may want to visit our [home page](/) instead.
+</div>
+
+{% else %}
+
 <style>
 header, footer {
   display: none;
@@ -661,6 +673,8 @@ form section h3 {
 -->
 
 </div>
+
+
 
 
 <script>
@@ -1359,5 +1373,4 @@ Next, we’ll send a text message to your phone, with instructions.
   <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Confirm my votes</a></p>
 </div>
 
-<script>
-</script>
+{% endif %}

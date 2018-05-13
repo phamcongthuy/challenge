@@ -3,6 +3,18 @@ title: Vote in the 2018 My LA2050 Activation Challenge
 body_class: lime
 ---
 
+{% if site.phase != 6 %}
+
+# Oops!
+
+<div class="introduction" markdown="1">
+This page couldn’t be found.
+
+You may want to visit our [home page](/) instead.
+</div>
+
+{% else %}
+
 # Saving your votes…
 
 <form name="vote_authenticated" action="/vote/confirmation/" method="post" markdown="1" data-netlify="true">
@@ -98,3 +110,4 @@ body_class: lime
   }
 </script>
 
+{% endif %}
