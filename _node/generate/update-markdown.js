@@ -30,7 +30,7 @@ function getContent(text, filename) {
 }
 
 function loadMarkdown(filename) {
-  let input = fs.readFileSync(filename, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
+  // let input = fs.readFileSync(filename, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
 
   // Get document, or throw exception on error 
   try {
@@ -139,13 +139,6 @@ function processFile(filename) {
   // Load the contents of the file
   let data = loadMarkdown(filename);
   if (!data) return;
-
-  if (data.yaml.order < 1) {
-    data.yaml.is_winner = true;
-  }
-  if (data.yaml.order < 5) {
-    data.yaml.is_finalist = true;
-  }
 
   saveMarkdown(filename, data);
 

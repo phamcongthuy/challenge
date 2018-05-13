@@ -31,6 +31,9 @@ layout: null
 ######### Projects #########
 {% endcomment %}
   <url>
+    <loc>https://activation.la2050.org/entries/</loc>
+  </url>
+  <url>
     <loc>https://activation.la2050.org/learn/</loc>
   </url>
   <url>

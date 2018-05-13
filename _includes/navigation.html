@@ -14,17 +14,17 @@
 {% endif %}
 <ul class="has-{{ navigation_items_count }}-items">
   <li><a href="/about/">About</a></li>
-  <li><a href="/submit/">Submit</a></li>
-  <li><a href="/vote/">Vote</a></li>
-  {% if site.phase >= 4 %}
-  <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
+  {% if site.phase >= 8 %}
+  <li><a href="/winners/">Winners</a></li>
   {% endif %}
   {% if site.phase >= 5 %}
   <li><a href="/finalists/" id="finalists-navigation-item">Finalists</a></li>
   {% endif %}
-  {% if site.phase >= 8 %}
-  <li><a href="/winners/">Winners</a></li>
+  {% if site.phase >= 4 %}
+  <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
   {% endif %}
+  <li><a href="/submit/">Submit</a></li>
+  <li><a href="/vote/">Vote</a></li>
   <li><a href="/timeline/">Timeline</a></li>
   <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
 </ul>

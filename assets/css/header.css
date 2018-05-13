@@ -93,38 +93,48 @@
   }*/
 
 
+  .promotion .action {
+    font-size: 0.75em;
+    display: block;
+    max-width: none;
+  }
+  .promotion .action a {
+    background: white;
+    border-color: black;
+    border-color: var(--primary-color, black);
+    color: black;
+    color: var(--primary-color, black);
+  }
+
+  .home .promotion strong {
+    display: inline-block;
+  }
+
+
   @media (min-width: 70em) {
     .home .promotion {
-      background-color: var(--primary-color);
+      background-color: black;
+      background-color: var(--primary-color, black);
       color: white;
     }
     .home .promotion .icon,
     .home .promotion strong,
     .home .promotion a {
-      color: inherit !important;
+      color: inherit;
     } 
+    .promotion .action {
+      display: inline-block;
+      margin-top: -1.25em;
+      margin-left: 1.5em;
+      margin-bottom: -1em;
+      vertical-align: middle;
+    }
+    .home .promotion .action a {
+      background-color: transparent;
+      border-color: white;
+      color: white;
+    }
   }
-
-  .promotion .action {
-    display: inline-block;
-    font-size: 0.75em;
-    margin-left: 1.5em;
-    margin-top: -1.25em;
-    margin-bottom: -1em;
-    vertical-align: middle;
-  }
-  .promotion .action a {
-    background: white;
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-  }
-
-  .home .promotion .action a {
-    border-color: white;
-    background: var(--primary-color);
-    color: white;
-  }
-
 
 
   body .header-figure.has-caption.has-caption-details .caption h1 {

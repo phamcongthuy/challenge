@@ -103,7 +103,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   <p>Public voting has started! Vote by <strong>June 29, 2018</strong> <small>(5pm Pacific Time)</small>.</p>
 
   <p class="action">
-    <a href="{{ site.vote_url }}" target="_blank">I’m ready to vote</a>
+    <a href="{{ site.vote_url }}">I’m ready to vote</a>
   </p>
 </div>
 
@@ -116,7 +116,15 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% include project-navigation.html %}
 
 
-<ul class="proposals" id="project-list">
+<ul class="proposals {% if page.finalists %}finalists{% endif %}" id="project-list">
+
+<!--   <li class="proposals-category-tall">
+    <div><p><span>{{ page.category }}</span></p></div>
+  </li> -->
+<!-- 
+  <li class="proposals-category-short">
+    <div><p><span>{{ page.category }}</span></p></div>
+  </li> -->
 
   {% assign data_list = data_list | sort: "order" %}
 
@@ -124,9 +132,16 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
   {% assign do_show_item = false %}
 
+  {% assign is_finalist = false %}
+  {% for finalist in site.finalists %}
+    {% if finalist == data.uri %}
+      {% assign is_finalist = true %}
+    {% endif %}
+  {% endfor %}
+
   {% if page.winners == true and data.is_winner == true %}
   {% assign do_show_item = true %}
-  {% elsif page.finalists == true and data.is_finalist == true %}
+  {% elsif page.finalists == true and is_finalist == true %}
   {% assign do_show_item = true %}
   {% elsif page.winners != true and page.finalists != true %}
   {% assign do_show_item = true %}
@@ -135,15 +150,37 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   {% if do_show_item == true %}
 
   {% if page.is_search_results %}<script type="text/template">{% endif %}
+  {% if page.finalists %}
   <li class="{{ data.category }}">
     <a href="{{ data.uri }}">
       <span class="image">
         {% assign image_url = data.project_image %}
         {% assign image_category = data.category %}
 
-        {% comment %}
-        <img src="/assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
-        {% endcomment %}
+        <img src="/assets/images/{{ image_category }}/2048-wide/{{ image_url }}" alt="" width="500" />
+      </span>
+      <span class="text">
+        <h3>{{ data['title'] }}</h3>
+        <p class="organization">{{ data['organization_name'] }}</p>
+        <p class="organization-type">{{ data.organization_description }}</p>
+        <p class="description">{{ data['project_description'] }}</p>
+        <p class="action"><span>Read More</span></p>
+      </span>
+    </a>
+    <!--
+    <div class="action">
+      <p><a href="">Read More</a></p>
+      <p><a href="">Vote for this</a></p>
+    </div>
+    -->
+    <!-- <p class="action"><a href="">Vote for this</a></p> -->
+  </li>
+  {% else %}
+  <li class="{{ data.category }}">
+    <a href="{{ data.uri }}">
+      <span class="image">
+        {% assign image_url = data.project_image %}
+        {% assign image_category = data.category %}
 
         <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 20em, 100vw" width="500" alt="" />
       </span>
@@ -152,6 +189,8 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
       <p class="description">{{ data['project_description'] }}</p>
     </a>
   </li>
+  {% endif %}
+
   {% if page.is_search_results %}</script>{% endif %}
 
   {% endif %}

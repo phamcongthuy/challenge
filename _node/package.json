@@ -4,11 +4,12 @@
   "description": "",
   "author": "jim@jimthoburn.com",
   "scripts": {
+    "email:inline-css": "node ./generate/email-inline-css.js",
     "markdown:create": "node ./generate/create-markdown.js",
     "markdown:update": "node ./generate/update-markdown.js",
-    "images:create"  : "gulp",
-    "images:copy"    : "node ./generate/copy-images.js",
-    "test:cypress"   : "cypress open",
+    "images:create": "gulp",
+    "images:copy": "node ./generate/copy-images.js",
+    "test:cypress": "cypress open",
     "test:nightwatch": "nightwatch ./test/test.js --config ./test/nightwatch.config.js"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "gulp": "^3.9.1",
     "gulp-image-resize": "^0.12.0",
     "gulp-imageoptim": "^1.0.9",
+    "inline-css": "^2.4.0",
     "js-yaml": "^3.10.0",
     "nightwatch": "^0.9.16",
     "selenium-server": "^3.7.1"

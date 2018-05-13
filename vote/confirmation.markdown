@@ -1,0 +1,36 @@
+---
+title: Vote in the 2018 My LA2050 Activation Challenge
+body_class: lime
+---
+
+{% if site.phase != 6 %}
+
+# Oops!
+
+<div class="introduction" markdown="1">
+This page couldn’t be found.
+
+You may want to visit our [home page](/) instead.
+</div>
+
+{% else %}
+
+<div class="introduction" markdown="1">
+
+<h2 style="max-width: none; text-align: center; font-size: 2.5em;">Thanks for voting!</h2>
+
+Your votes have been confirmed, and will help us choose the winners.
+
+<small>The winners will be announced on <strong>July 9, 2018</strong>.</small>
+
+<p class="action"><a href="/finalists/">Back to the finalists</a></p>
+
+<style>
+.promotion {
+	display: none;
+}
+</style>
+
+</div>
+
+{% endif %}
