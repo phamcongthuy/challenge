@@ -8,13 +8,13 @@ project_description: >-
 organization_name: REGIONAL.LA
 organization_description: Social enterprise or B-corps
 project_video: 'https://www.youtube.com/watch?v=rdB1z_4U_0A'
-link_newsletter: 'http://www.regional.la/newsletter'
+link_newsletter: 'http://regional.la/newsletter.html'
 organization_website: 'http://www.regional.la'
 organization_twitter: 'https://twitter.com/Rgnl_LA'
-organization_facebook: 'https://www.facebook.com/groups/178918542729747'
+organization_facebook: 'https://www.facebook.com/rgnl.la'
 organization_instagram: 'https://www.instagram.com/regional.la8605/'
-link_donate: 'http://www.regional.la/donate'
-link_volunteer: 'http://www.regional.la/volunteer'
+link_donate: 'http://regional.la/donate.html'
+link_volunteer: 'http://regional.la/volunteer.html'
 organization_activity: >-
   REGIONAL.LA is a civic engagement tool that allows residents to find and
   connect with their civic community according to local geography: cities,
