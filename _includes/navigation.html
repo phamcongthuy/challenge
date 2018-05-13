@@ -28,31 +28,7 @@
   <li><a href="/timeline/">Timeline</a></li>
   <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
 </ul>
-<script>
-(function() {
-  var links, random;
 
-  var categories = [
-    'learn',
-    'create',
-    'play',
-    'connect',
-    'live'
-  ];
-
-  links = document.querySelectorAll('.navigation a[href="/entries/"]');
-  random = Math.floor(Math.random() * categories.length) + 0;
-  links.forEach(function(link) {
-    link.setAttribute('href', '/' + categories[random] + '/');
-  })
-
-  links = document.querySelectorAll('.navigation a[href="/finalists/"]');
-  random = Math.floor(Math.random() * categories.length) + 0;
-  links.forEach(function(link) {
-    link.setAttribute('href', '/' + categories[random] + '/finalists/');
-  })
-})();
-</script>
 {% else %}
 
 <ul>

@@ -6,6 +6,14 @@
     margin-top: 0;
     margin-bottom: 1.5em !important;
   }
+  .header-figure {
+    --primary-color:   rgb(6, 179, 188); /* @blueberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+  }
+  .header-figure h1 {
+    --primary-color:   rgb(255, 77, 154); /* @strawberry */
+    --secondary-color: rgb(255, 194, 51); /* @banana */
+  }
   .header-figure .caption {
     font-size: inherit;
   }
