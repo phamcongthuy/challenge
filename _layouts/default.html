@@ -36,6 +36,9 @@
   <link rel="stylesheet" href="/assets/css/goals.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/goals-navigation.css?v={{ site.version }}" />
 
+  <!-- SHIM: Consider including this to header-figure.css (and removing redundant/overridden rules) -->
+  <link rel="stylesheet" href="/assets/css/header-figure-override.css?v={{ site.version }}" />
+
   {% if page.stylesheets %}
     {% assign stylesheets = page.stylesheets %}
   {% elsif layout.stylesheets %}
@@ -195,6 +198,7 @@
   <script async src="/assets/js/navigation.js?v={{ site.version }}"></script>
   <script async src="/assets/js/figure.js?v={{ site.version }}"></script>
   <script async src="/assets/js/goals.js?v={{ site.version }}"></script>
+  <script async src="/assets/js/randomize-links.js?v={{ site.version }}"></script>
 
 </body>
 </html>

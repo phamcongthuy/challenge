@@ -512,7 +512,7 @@ form section h3 {
   margin: 0;
 }
 .progress .action {
-  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 @media (min-width: 40em) {
@@ -525,8 +525,9 @@ form section h3 {
     min-height: 6.25em;
   }
   .progress .action {
-    margin-top: 0;
+    margin-bottom: 0;
     margin-left: 1.5em;
+    order: 1;
   }
 }
 
@@ -1369,8 +1370,8 @@ Next, we’ll send a text message to your phone, with instructions.
 
 
 <div class="progress hidden" role="status" id="progress">
-  <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
   <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Confirm my votes</a></p>
+  <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
 </div>
 
 {% endif %}

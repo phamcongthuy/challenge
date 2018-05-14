@@ -29,6 +29,11 @@
     background-color: rgb(254, 254, 254); /* @snow */
     color: rgb(237, 59, 136); /* @strawberry */
   }
+  .action svg {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: top;
+  }
 
 
   /* =Form
