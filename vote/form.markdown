@@ -451,7 +451,7 @@ form section h3 {
     z-index: 2;
   }
 }
-/*#sign-in-phone,
+#sign-in-phone,
 #sign-in-email,
 #finish {
   background: black;
@@ -475,8 +475,47 @@ form section h3 {
 }
 #sign-in-phone input,
 #sign-in-email input {
-  border-color: transparent;
-}*/
+  margin-top: 0;
+  margin-bottom: 0;
+  border-color: white;
+}
+
+
+#sign-in-phone .action a,
+#sign-in-phone button,
+#sign-in-email .action a,
+#sign-in-email button,
+#finish .action a,
+#finish button {
+  background-color: black;
+  background-color: var(--secondary-color, black);
+  border-color: var(--secondary-color, black);
+  color: white;
+}
+
+#sign-in-phone .action a:hover,
+#sign-in-phone .action a:active,
+#sign-in-phone .action a:focus,
+#sign-in-phone button:hover,
+#sign-in-phone button:active,
+#sign-in-phone button:focus,
+#sign-in-email .action a:hover,
+#sign-in-email .action a:active,
+#sign-in-email .action a:focus,
+#sign-in-email button:hover,
+#sign-in-email button:active,
+#sign-in-email button:focus,
+#finish .action a:hover,
+#finish .action a:active,
+#finish .action a:focus,
+#finish button:hover,
+#finish button:active,
+#finish button:focus {
+  background-color: rgb(254, 254, 254); /* @snow */
+  color: var(--secondary-color, black);
+}
+
+
 @media (min-width: 40em) {
   #sign-in-phone,
   #sign-in-email,
@@ -962,45 +1001,6 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 </section>
 
-
-<section style="display: none;">
-
-<div markdown="1">
-## You’re <span style="text-decoration: underline;">almost</span> done!
-
-<p style="max-width: 25em">To keep the voting fair, we need to confirm your votes. You can do this by signing in with your email, phone or one of your social accounts.</p>
-
-<p style="max-width: 25em"><small>We will only use your information to complete the voting process. (No spam, we promise!)</small></p>
-
-#### Sign in by responding to a message…
-
-<ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
-  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Phone</a></li>
-  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Email</a></li>
-</ul>
-
-<h4>Or sign in with…</h4>
-
-<ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
-  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Google</a></li>
-  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li>
-  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation">Facebook</a></li>
-</ul>
-
-<!--
-<ul class="action" style="display: block">
-  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Sign in with email</a></li>
-  <li style="margin: 0 !important; padding: 0;">or</li>
-  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Facebook</a></li>
-  <li style="margin: 0 !important; padding: 0">or</li>
-  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Twitter</a></li>
-</ul>
--->
-
-</div>
-
-</section>
-
 </form>
 
 <form name="vote_email" action="/vote/email-sent/" method="post" data-netlify="true">
@@ -1017,7 +1017,7 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 Next, we’ll send instructions to your email address.
 
-<p class="field-button">
+<p class="field-button banana">
 <label style="flex-grow: 1; margin-right: 0.25em;">
   <input type="email" name="email" placeholder="example@mail.com" required="required" style="text-align: left;" />
 </label>
