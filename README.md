@@ -13,7 +13,7 @@ https://activation.la2050.org
 
 ## How to make changes
 
-The website is published with [GitHub Pages](https://pages.github.com), and the files are generated with [Jekyll](http://jekyllrb.com).
+The website is published with [Netlify](https://www.netlify.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
 As you make changes and commit/push them to GitHub, the [website](https://activation.la2050.org) will automatically update.
 
