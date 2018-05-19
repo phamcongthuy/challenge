@@ -13,9 +13,11 @@ https://activation.la2050.org
 
 ## How to make changes
 
-The website is published with [GitHub Pages](https://pages.github.com), and the files are generated with [Jekyll](http://jekyllrb.com).
+The website is published with [Netlify](https://www.netlify.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
 As you make changes and commit/push them to GitHub, the [website](https://activation.la2050.org) will automatically update.
+
+For example, if you [edit the about page](https://github.com/la2050/activation/edit/master/about.markdown) on GitHub, and then press the “Commit changes” button–you should see your changes on the [about page](https://activation.la2050.org/about/) of the website within a few minutes.
 
 ## How to switch between contest phases
 
@@ -73,7 +75,7 @@ jekyll serve
 ```
 ## Generating responsive images
 
-Some of the images on the website are available in multiple sizes, to save bandwidth. You can regenerate the “goals” images by following these steps…
+Some of the images on the website are available in multiple sizes, to save bandwidth. For example, you can regenerate the “goals” images by following these steps…
 
 1) Install [Node.js and NPM](https://nodejs.org/en/download/)
 
@@ -93,10 +95,10 @@ npm install
 /assets/images/goals/original/play.jpg
 ```
 
-4) Run this command to generate the images
+4) Switch to the `_node` directory and then run this command, to generate the images
 
 ```
-npm run create-images
+npm run images:create
 ```
 
 If you want to generate a different set of images, you can edit the [gulpfile](https://github.com/la2050/activation/blob/master/gulpfile.js) and then repeat the steps above.
