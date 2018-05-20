@@ -505,6 +505,19 @@
   .proposals.finalists .text h3 {
     text-decoration: none !important;
   }
+
+  /* SHIM: Pretend link (since we’re inside of an actual link) */
+  .proposals.finalists .text .category {
+    margin-top: 0;
+    color: inherit;
+    color: var(--primary-color, inherit);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
   .proposals.finalists li {
     box-shadow: 0 0 1px rgba(0, 0, 0, .2);
     margin-top: 0 !important;
