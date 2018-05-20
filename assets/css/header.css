@@ -452,6 +452,14 @@
     color: rgb(255, 224, 81); /* @bright-banana */
   }
 
+  header h2 a svg {
+    width: 6.5em;
+    height: 2.75em;
+  }
+  header h2 a svg path {
+    fill: currentColor;
+  }
+
 
   /* =Headline
   ----------------------------------------------- */
