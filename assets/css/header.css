@@ -332,6 +332,17 @@
     display: inline-block;
   }
 
+  footer .la2050 a {
+
+  }
+  footer .la2050 a svg {
+    width: 4.25em;
+    height: 0.75em;
+  }
+  footer .la2050 a svg path {
+    fill: currentColor;
+  }
+
   header .navigation .primary li,
   footer .navigation .primary li {
     margin: 0.25em 0.75em 1.5em 0.75em;
@@ -445,19 +456,20 @@
   footer h2 a {
     color: inherit;
   }
+  header h2 a svg,
+  footer h2 a svg {
+    width: 6.75em;
+    height: 2.875em;
+  }
+  header h2 a svg path,
+  footer h2 a svg path {
+    fill: currentColor;
+  }
   header h2 a:hover,
   header h2 a:active,
   header h2 a:focus {
     color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 224, 81); /* @bright-banana */
-  }
-
-  header h2 a svg {
-    width: 6.5em;
-    height: 2.75em;
-  }
-  header h2 a svg path {
-    fill: currentColor;
   }
 
 
