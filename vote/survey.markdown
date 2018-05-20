@@ -17,9 +17,9 @@ You may want to visit our [home page](/) instead.
 
 <div class="introduction" markdown="1">
 
-<h2 style="max-width: none; text-align: center; font-size: 2.5em;">Optional Survey</h2>
+<h2 style="text-align: center; margin-left: auto; margin-right: auto; max-width: 20em; font-size: 2em;">Help LA2050 determine how much of Los Angeles we’re reaching</h2>
 
-<p class="action" style="margin-top: 0.75em"><i style="margin-right: 1em">This will help LA2050 determine how much of Los Angeles we’re reaching.</i><a style="margin-top: 0.75em" href="/vote/confirmation/">Skip this step</a></p>
+<p><small>Providing this information is optional. You can <a href="/vote/confirmation/">skip this step</a>.</small></p>
 
 <form name="vote_survey" action="/vote/confirmation/" method="post" data-netlify="true">
   <p>
