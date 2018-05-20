@@ -170,15 +170,11 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
         <img src="/assets/images/{{ image_category }}/2048-wide/{{ image_url }}" alt="" width="500" />
       </span>
       <span class="text">
-        <p onclick="window.location.href = '/{{ data['category']}}/#projects'; event.preventDefault()" class="category" style="
-margin-top: 0;
-color: inherit;
-color: var(--primary-color, inherit);
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 0.05em; text-decoration: underline; cursor: pointer;">
+        {% if page.winners %}
+        <p onclick="window.location.href = '/{{ data['category']}}/#projects'; event.preventDefault()" class="category">
           {{ data['category'] }}
         </p>
+        {% endif %}
         <h3>{{ data['title'] }}</h3>
         <p class="organization">{{ data['organization_name'] }}</p>
         <p class="organization-type">{{ data.organization_description }}</p>
