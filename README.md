@@ -1,7 +1,7 @@
 
 # LA2050 Activation Challenge
 
-This is a website for the LA2050 Activation Challenge.
+This is a website for the 2018 My LA2050 Activation Challenge.
 
 https://activation.la2050.org
 

@@ -332,12 +332,15 @@
     display: inline-block;
   }
 
-  footer .la2050 a {
-
+  footer .la2050 p:first-child a {
+    font-weight: 700;
   }
   footer .la2050 a svg {
-    width: 4.25em;
-    height: 0.75em;
+    width: 4.5em;
+    height: 1em;
+
+    width: calc(4.5em * 0.875);
+    height: calc(1em * 0.875);
   }
   footer .la2050 a svg path {
     fill: currentColor;
