@@ -105,6 +105,21 @@ finalists:
   # 5)
   - /live/united-way-of-greater-los-angeles/
 
+
+# TEST DATA
+winners:
+  # 1)
+  - /learn/big-brothers-big-sisters-of-greater-los-angeles/
+  # 2)
+  - /create/brioxy/
+  # 3)
+  - /play/the-brady-center-to-prevent-gun-violence/
+  # 4)
+  - /connect/casa-of-los-angeles/
+  # 5)
+  - /live/environment-california-research-policy-center/
+
+
 permalink: pretty
 
 version: 1.4.6

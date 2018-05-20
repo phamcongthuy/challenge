@@ -218,6 +218,10 @@ form > ul > li .pseudo-checkbox {
   color: var(--primary-color);
   border: 0.1875em solid var(--primary-color);
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  /* OPTIONAL: Align with the outer border */
+  margin: calc(0px -1px);
+  width: calc(100% + 2px);
 }
 form > ul > li .call-to-action strong,
 form > ul > li .pseudo-checkbox strong {
@@ -763,8 +767,8 @@ form section h3 {
   <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
   <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
 </label>
-<a href="{{ project.uri }}" title="{{ project.organization_name }}" target="_blank">
-<svg viewBox="0 0 192 512" width="24" height="24">
+<a href="{{ project.uri }}" target="_blank">
+<svg viewBox="0 0 192 512" width="24" height="24" aria-label="{{ project.organization_name }}">
   <switch>
     <path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path>
     <foreignObject>{{ project.organization_name }}</foreignObject>
@@ -1241,7 +1245,18 @@ Next, we’ll send a text message to your phone, with instructions.
 
     //console.dir(form);
 
+    var delay = 500;
+    var delayTimeout;
     function scrollTo(elementID) {
+      console.log('scrollTo: ' + elementID)
+      if (delayTimeout) clearTimeout(delayTimeout)
+      delayTimeout = setTimeout(function() {
+        __scrollTo(elementID)
+      }, delay);
+    }
+
+    function __scrollTo(elementID) {
+      console.log('_scrollTo: ' + elementID)
       // if (counter >= 5) {
       //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
       // } else {
@@ -1249,46 +1264,29 @@ Next, we’ll send a text message to your phone, with instructions.
       //}
     }
 
-    var delay = 500;
-    var delayTimeout;
     form.addEventListener('click', function(e) {
         if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
           console.log('e.target.name: ' + e.target.name)
           switch(e.target.name) {
             case 'learn':
               updateProgress()
-              if (delayTimeout) clearTimeout(delayTimeout)
-              delayTimeout = setTimeout(function() {
-                scrollTo('create')
-              }, delay);
+              scrollTo('create')
               break;
             case 'create':
               updateProgress()
-              if (delayTimeout) clearTimeout(delayTimeout)
-              delayTimeout = setTimeout(function() {
-                scrollTo('play')
-              }, delay);
+              scrollTo('play')
               break;
             case 'play':
               updateProgress()
-              if (delayTimeout) clearTimeout(delayTimeout)
-              delayTimeout = setTimeout(function() {
-                scrollTo('connect')
-              }, delay);
+              scrollTo('connect')
               break;
             case 'connect':
               updateProgress()
-              if (delayTimeout) clearTimeout(delayTimeout)
-              delayTimeout = setTimeout(function() {
-                scrollTo('live')
-              }, delay);
+              scrollTo('live')
               break;
             case 'live':
               updateProgress()
-              if (delayTimeout) clearTimeout(delayTimeout)
-              delayTimeout = setTimeout(function() {
-                scrollTo('finish')
-              }, delay);
+              scrollTo('finish')
               break;
             default:
 
@@ -1297,9 +1295,9 @@ Next, we’ll send a text message to your phone, with instructions.
     });
   //});
 
-  window.addEventListener('scroll', function(e) {
-    if (delayTimeout) clearTimeout(delayTimeout)
-  })
+  // window.addEventListener('scroll', function(e) {
+  //   if (delayTimeout) clearTimeout(delayTimeout)
+  // })
 
 
   var counter = 0;
