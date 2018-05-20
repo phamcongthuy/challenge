@@ -57,6 +57,13 @@ form input[type="text"] {
   /* Remove Safari’s default styles for search fields */
   -webkit-appearance: none;
 }
+@media (max-width: 25em) {
+  form button,
+  form input[type="text"] {
+    width: 100%;
+    max-width: none;
+  }
+}
 </style>
 
 </div>

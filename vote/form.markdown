@@ -425,7 +425,12 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 </form>
 
+{% comment %}
+<!--
 <form name="vote_email" action="/vote/email-sent/" method="post" data-netlify="true">
+-->
+{% endcomment %}
+<form name="vote_email" action="/vote/email-sent/" method="get">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />
@@ -453,7 +458,12 @@ Next, we’ll send instructions to your email address.
 
 </form>
 
+{% comment %}
+<!--
 <form name="vote_sms" action="/vote/sms-sent/" method="post" data-netlify="true">
+-->
+{% endcomment %}
+<form name="vote_sms" action="/vote/sms-sent/" method="get">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />
