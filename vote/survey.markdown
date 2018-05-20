@@ -24,7 +24,7 @@ You may want to visit our [home page](/) instead.
 <form name="vote_survey" action="/vote/confirmation/" method="post" data-netlify="true">
   <p>
     <label>
-      What language do you speak at home?<br />
+      Language spoken at home<br />
       <input type="text" name="language" placeholder="" />
     </label>
   </p>
@@ -44,7 +44,14 @@ You may want to visit our [home page](/) instead.
   </script>
   <p style="margin-top: 1.5em;">
     <label>
-      What neighborhood do you live in?<br />
+      ZIP Code<br />
+      <input type="number" name="zip" placeholder="" />
+    </label>
+  </p>
+  {% comment %}
+  <p style="margin-top: 1.5em;">
+    <label>
+      Neighborhood<br />
       <input type="text" name="neighborhood" placeholder="" />
     </label>
   </p>
@@ -61,6 +68,7 @@ You may want to visit our [home page](/) instead.
     document.querySelector('input[name="neighborhood"]').placeholder = neighborhood.join(', ')
   })();
   </script>
+  {% endcomment %}
   <p class="action">
     <button type="submit">Submit</button>
   </p>
@@ -77,7 +85,7 @@ You may want to visit our [home page](/) instead.
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  max-width: 30em;
+  max-width: 20em;
 }
 .introduction form p {
   text-align: left;
@@ -86,7 +94,7 @@ You may want to visit our [home page](/) instead.
 }
 .introduction form button {
   width: 100%;
-  max-width: 30em;
+  max-width: 20em;
 }
 form input[type="text"],
 form input[type="number"] {
@@ -102,7 +110,7 @@ form input[type="number"] {
   border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
   border-color: rgba(0, 0, 0, 0.25);
   width: 100%;
-  max-width: 30em;
+  max-width: 20em;
 
   /* Remove Safari’s default styles for search fields */
   -webkit-appearance: none;
