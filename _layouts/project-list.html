@@ -70,25 +70,25 @@ The winners will appear here on <strong>July 9, 2018</strong>.
 https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endcomment %}
 
-{% assign data_collection = site.collections | where: "label", "create" | first %}
+{% assign data_collection = site.collections | where: "label", "learn" | first %}
 {% assign data_list = data_collection.docs %}
+
+{% assign data_collection = site.collections | where: "label", "create" | first %}
+{% for item in data_collection.docs %}
+  {% assign data_list = data_list | push: item %}
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "play" | first %}
+{% for item in data_collection.docs %}
+  {% assign data_list = data_list | push: item %}
+{% endfor %}
 
 {% assign data_collection = site.collections | where: "label", "connect" | first %}
 {% for item in data_collection.docs %}
   {% assign data_list = data_list | push: item %}
 {% endfor %}
 
-{% assign data_collection = site.collections | where: "label", "learn" | first %}
-{% for item in data_collection.docs %}
-  {% assign data_list = data_list | push: item %}
-{% endfor %}
-
 {% assign data_collection = site.collections | where: "label", "live" | first %}
-{% for item in data_collection.docs %}
-  {% assign data_list = data_list | push: item %}
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "play" | first %}
 {% for item in data_collection.docs %}
   {% assign data_list = data_list | push: item %}
 {% endfor %}
@@ -116,7 +116,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% include project-navigation.html %}
 
 
-<ul class="proposals {% if page.finalists %}finalists{% endif %}" id="project-list">
+<ul class="proposals {% if page.finalists or page.winners %}finalists{% endif %}" id="project-list">
 
 <!--   <li class="proposals-category-tall">
     <div><p><span>{{ page.category }}</span></p></div>
@@ -126,7 +126,10 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
     <div><p><span>{{ page.category }}</span></p></div>
   </li> -->
 
+  {% unless page.winners %}
+  {% comment %} Order alphabetically {% endcomment %}
   {% assign data_list = data_list | sort: "order" %}
+  {% endunless %}
 
   {% for data in data_list %}
 
@@ -139,7 +142,14 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
     {% endif %}
   {% endfor %}
 
-  {% if page.winners == true and data.is_winner == true %}
+  {% assign is_winner = false %}
+  {% for winner in site.winners %}
+    {% if winner == data.uri %}
+      {% assign is_winner = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if page.winners == true and is_winner == true %}
   {% assign do_show_item = true %}
   {% elsif page.finalists == true and is_finalist == true %}
   {% assign do_show_item = true %}
@@ -150,7 +160,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   {% if do_show_item == true %}
 
   {% if page.is_search_results %}<script type="text/template">{% endif %}
-  {% if page.finalists %}
+  {% if page.finalists or page.winners %}
   <li class="{{ data.category }}">
     <a href="{{ data.uri }}">
       <span class="image">
@@ -160,6 +170,15 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
         <img src="/assets/images/{{ image_category }}/2048-wide/{{ image_url }}" alt="" width="500" />
       </span>
       <span class="text">
+        <p onclick="window.location.href = '/{{ data['category']}}/#projects'; event.preventDefault()" class="category" style="
+margin-top: 0;
+color: inherit;
+color: var(--primary-color, inherit);
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.05em; text-decoration: underline; cursor: pointer;">
+          {{ data['category'] }}
+        </p>
         <h3>{{ data['title'] }}</h3>
         <p class="organization">{{ data['organization_name'] }}</p>
         <p class="organization-type">{{ data.organization_description }}</p>
