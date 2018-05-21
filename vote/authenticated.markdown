@@ -110,7 +110,7 @@ You may want to visit our [home page](/) instead.
               // >> rand(36**8).to_s(36)
               // => "uur0cj2h"
               uniqueID = getRandomInt(0, Math.pow(36, 8)).toString(36);
-              localStorage.setItem('browser_unique_id') = uniqueID
+              localStorage.setItem('browser_unique_id', uniqueID);
             }
             uniqueID = localStorage.getItem('browser_unique_id')
           } catch(e) {}
