@@ -505,6 +505,19 @@
   .proposals.finalists .text h3 {
     text-decoration: none !important;
   }
+
+  /* SHIM: Pretend link (since we’re inside of an actual link) */
+  .proposals.finalists .text .category {
+    margin-top: 0;
+    color: inherit;
+    color: var(--primary-color, inherit);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
   .proposals.finalists li {
     box-shadow: 0 0 1px rgba(0, 0, 0, .2);
     margin-top: 0 !important;
@@ -659,6 +672,22 @@
     margin-top: 0.375em;
     margin-bottom: 0.375em;
     max-width: none;
+  }
+
+  .proposals .play {
+    --primary-color:   rgb(237, 59, 136); /* @strawberry */
+  }
+  .proposals .learn {
+    --primary-color:   rgb(6, 179, 188); /* @blueberry */
+  }
+  .proposals .create {
+    --primary-color:   rgb(255, 194, 51); /* @banana */
+  }
+  .proposals .connect {
+    --primary-color:   rgb(249, 160, 51); /* @tangerine */
+  }
+  .proposals .live {
+    --primary-color:   rgb(141, 208, 59); /* @lime */
   }
 
   .proposals .play h3 {

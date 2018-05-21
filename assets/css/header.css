@@ -332,6 +332,20 @@
     display: inline-block;
   }
 
+  footer .la2050 p:first-child a {
+    font-weight: 700;
+  }
+  footer .la2050 a svg {
+    width: 4.5em;
+    height: 1em;
+
+    width: calc(4.5em * 0.875);
+    height: calc(1em * 0.875);
+  }
+  footer .la2050 a svg path {
+    fill: currentColor;
+  }
+
   header .navigation .primary li,
   footer .navigation .primary li {
     margin: 0.25em 0.75em 1.5em 0.75em;
@@ -444,6 +458,15 @@
   header h2 a,
   footer h2 a {
     color: inherit;
+  }
+  header h2 a svg,
+  footer h2 a svg {
+    width: 6.75em;
+    height: 2.875em;
+  }
+  header h2 a svg path,
+  footer h2 a svg path {
+    fill: currentColor;
   }
   header h2 a:hover,
   header h2 a:active,

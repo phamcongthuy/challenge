@@ -17,18 +17,24 @@ You may want to visit our [home page](/) instead.
 
 # Saving your votes…
 
-<form name="vote_authenticated" action="/vote/confirmation/" method="post" markdown="1" data-netlify="true">
+<form name="vote_authenticated" action="/vote/survey/" method="post" markdown="1" data-netlify="true">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
 <input type="hidden" name="play" />
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
+<!--
 <input type="hidden" name="email" />
 <input type="hidden" name="telephone" />
 <input type="hidden" name="social_network" />
+-->
+<!--
 <input type="hidden" name="auth_accesstoken" />
 <input type="hidden" name="auth_state" />
+-->
 <input type="hidden" name="auth_sub" />
+<input type="hidden" name="browser_unique_id" />
+<input type="hidden" name="browser_user_agent" />
 </form>
 
 
@@ -96,12 +102,34 @@ You may want to visit our [home page](/) instead.
             }
           }
 
-          form.querySelector('input[name="email"]').value = getParameterByName('email');
-          form.querySelector('input[name="telephone"]').value = getParameterByName('telephone');
-          form.querySelector('input[name="social_network"]').value = getParameterByName('social_network');
-          form.querySelector('input[name="auth_accesstoken"]').value = authResult.accessToken;
-          form.querySelector('input[name="auth_state"]').value = authResult.state;
+          // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+          function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+          }
+
+          var uniqueID = 'unknown';
+          try {
+            if (!localStorage.getItem('browser_unique_id') || localStorage.getItem('browser_unique_id') === '') {
+              // https://stackoverflow.com/questions/1117584/generating-guids-in-ruby#answer-1126031
+              // https://gist.github.com/emacip/b28ba7e9203a38d440e23c38586c303d
+              // >> rand(36**8).to_s(36)
+              // => "uur0cj2h"
+              uniqueID = getRandomInt(0, Math.pow(36, 8)).toString(36);
+              localStorage.setItem('browser_unique_id', uniqueID);
+            }
+            uniqueID = localStorage.getItem('browser_unique_id')
+          } catch(e) {}
+
+          // form.querySelector('input[name="email"]').value = getParameterByName('email');
+          // form.querySelector('input[name="telephone"]').value = getParameterByName('telephone');
+          // form.querySelector('input[name="social_network"]').value = getParameterByName('social_network');
+          // form.querySelector('input[name="auth_accesstoken"]').value = authResult.accessToken;
+          // form.querySelector('input[name="auth_state"]').value = authResult.state;
           form.querySelector('input[name="auth_sub"]').value = user.sub;
+          form.querySelector('input[name="browser_unique_id"]').value = uniqueID;
+          form.querySelector('input[name="browser_user_agent"]').value = navigator.userAgent;
           form.submit();
         }
 

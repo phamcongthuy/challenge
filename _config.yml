@@ -47,67 +47,82 @@ finalists:
 
   # Learn
   # 1)
-  - /learn/harlem-lacrosse-los-angeles/
+  - /learn/big-brothers-big-sisters-of-greater-los-angeles/
   # 2)
-  - /learn/proyecto-jardin-a-project-of-hunger-action-la/
+  - /learn/charles-r-drew-university-of-medicine-and-science/
   # 3)
-  - /learn/the-people-of-change/
+  - /learn/center-for-innovation-in-stem-education-cise/
   # 4)
-  - /learn/all-in-urban-summer-academy/
+  - /learn/common-sense/
   # 5)
-  - /learn/las-best/
+  - /learn/harlem-lacrosse-los-angeles/
 
   # Create
   # 1)
   - /create/brioxy/
   # 2)
-  - /create/civic-innovation-lab/
-  # 3)
-  - /create/get-lit-words-ignite/
-  # 4)
-  - /create/grid110-inc/
-  # 5)
   - /create/east-la-community-corporation-elacc/
+  # 3)
+  - /create/long-beach-downtown-development-corporation/
+  # 4)
+  - /create/make-it-in-la/
+  # 5)
+  - /create/national-association-of-latino-independent-producers-nalip/
 
   # Play
   # 1)
-  - /play/everwild/
-  # 2)
-  - /play/red-hen-press/
-  # 3)
   - /play/the-brady-center-to-prevent-gun-violence/
-  # 4)
+  # 2)
+  - /play/kounkuey-design-initiative/
+  # 3)
   - /play/los-angeles-dodgers-foundation/
+  # 4)
+  - /play/people-for-parks/
   # 5)
   - /play/the-trust-for-public-land/
 
   # Connect
   # 1)
-  - /connect/los-angeles-master-chorale/
+  - /connect/casa-of-los-angeles/
   # 2)
-  - /connect/good-shine-studio/
-  # 3)
-  - /connect/gracias-music-foundation/
-  # 4)
   - /connect/homeboy-industries/
+  # 3)
+  - /connect/investing-in-place/
+  # 4)
+  - /connect/mirys-list/
   # 5)
-  - /connect/united-parents-and-students/
+  - /connect/voterunlead/
 
   # Live
   # 1)
-  - /live/a-healthier-community-starts-with-youth/
+  - /live/environment-california-research-policy-center/
   # 2)
-  - /live/süprseed/
+  - /live/l-a-kitchen/
   # 3)
-  - /live/lift-los-angeles/
+  - /live/move-la-a-project-of-community-partners/
   # 4)
-  - /live/roots-wings/
+  - /live/undergraduate-gerontology-and-alzheimers-disease-awareness-association-dba-the-youth-movement-against-alzheimers/
   # 5)
-  - /live/mar-vista-family-center/
+  - /live/united-way-of-greater-los-angeles/
+
+
+# TEST DATA
+winners:
+  # 1)
+  - /learn/big-brothers-big-sisters-of-greater-los-angeles/
+  # 2)
+  - /create/brioxy/
+  # 3)
+  - /play/the-brady-center-to-prevent-gun-violence/
+  # 4)
+  - /connect/casa-of-los-angeles/
+  # 5)
+  - /live/environment-california-research-policy-center/
+
 
 permalink: pretty
 
-version: 1.4.6
+version: 1.4.7
 
 exclude:
   - CNAME
