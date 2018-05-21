@@ -113,9 +113,7 @@ You may want to visit our [home page](/) instead.
               localStorage.setItem('browser_unique_id') = uniqueID
             }
             uniqueID = localStorage.getItem('browser_unique_id')
-          } catch(e) {
-            try {}
-          }
+          } catch(e) {}
 
           // form.querySelector('input[name="email"]').value = getParameterByName('email');
           // form.querySelector('input[name="telephone"]').value = getParameterByName('telephone');
