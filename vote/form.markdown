@@ -530,6 +530,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
     if (telephone) {
       votesData.push('telephone=' + encodeURIComponent(telephone));
+      form.querySelector('input[name="telephone"]').value = telephone;
     } else if (email) {
       votesData.push('email=' + encodeURIComponent(email));
     } else {
@@ -570,20 +571,30 @@ Next, we’ll send a text message to your phone, with instructions.
     webAuth.passwordlessStart(options, function (err,res) {
       if (err) {
         // Handle error
+
+        console.log('err');
+        console.log(err)
+        console.dir(err)
       } else {
         // form.action = form.action + '?' + votesData.join('&');
+
+        // TODO: Switch back to a single form on this page
+        // if (telephone) {
+        //   form.action = '/vote/sms-sent/';
+        //   form.method = 'get';
+        // } else if (email) {
+        //   form.action = '/vote/email-sent/';
+        //   form.method = 'get';
+        // }
+
+        console.log('res');
+        console.log(res)
+        console.dir(res)
+
         form.submit();
         // document.querySelector('.introduction').style.display = 'block';
         // document.querySelector('form').style.display = 'none';
       }
-
-      console.log('err');
-      console.log(err)
-      console.dir(err)
-
-      console.log('res');
-      console.log(res)
-      console.dir(res)
 
       // Hide the input and show a "Check your email for your login link!" screen
       //$('.enter-email').hide();
