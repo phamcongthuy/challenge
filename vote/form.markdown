@@ -571,7 +571,7 @@ Next, we’ll send a text message to your phone, with instructions.
       if (err) {
         // Handle error
       } else {
-        form.action = form.action + '?' + votesData.join('&');
+        // form.action = form.action + '?' + votesData.join('&');
         form.submit();
         // document.querySelector('.introduction').style.display = 'block';
         // document.querySelector('form').style.display = 'none';
