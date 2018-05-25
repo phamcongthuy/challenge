@@ -524,7 +524,7 @@
   }
 
 
-/*  .proposals.finalists li:nth-child(2n+1) .image {
+/*  .proposals.finalists li:nth-child(2n) .image {
     padding-right: 0;
     padding-left: 1.875em;
   }*/
@@ -557,7 +557,7 @@
 /*  .proposals.finalists li > a .image {
     margin: -3em 3em -3em -6em;
   }
-  .proposals.finalists li:nth-child(2n+1) > a .image {
+  .proposals.finalists li:nth-child(2n) > a .image {
     margin: -3em -6em -3em 3em;
   }*/
   .proposals.finalists li > a .image img {
@@ -591,7 +591,7 @@
       padding-left: 0;
       min-height: calc(45vw - 7.5em);
     }
-    .proposals.finalists li:nth-child(2n+1) .text {
+    .proposals.finalists li:nth-child(2n) .text {
       order: -1;
       padding-right: 0;
       padding-left: 3em;
