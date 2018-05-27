@@ -105,6 +105,13 @@
     color: black;
     color: var(--primary-color, black);
   }
+  .promotion .action a:hover,
+  .promotion .action a:active,
+  .promotion .action a:focus {
+    background-color: black;
+    background-color: var(--primary-color, black);
+    color: white;
+  }
 
   .home .promotion strong {
     display: inline-block;
@@ -133,6 +140,13 @@
       background-color: transparent;
       border-color: white;
       color: white;
+    }
+    .home .promotion .action a:hover,
+    .home .promotion .action a:active,
+    .home .promotion .action a:focus {
+      background-color: white;
+      color black;
+      color: var(--primary-color, black);
     }
   }
 
