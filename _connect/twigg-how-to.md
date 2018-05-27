@@ -107,6 +107,5 @@ category: connect
 uri: /connect/twigg-how-to/
 order: 0
 project_image: twigg-how-to.jpg
-is_winner: true
 
 ---

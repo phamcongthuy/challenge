@@ -149,6 +149,5 @@ category: learn
 uri: /learn/data-360/
 order: 0
 project_image: data-360.jpg
-is_winner: true
 
 ---
