@@ -49,7 +49,7 @@ organization_activity: >-
   results for our environment.
 project_proposal_description: >-
   We seek to run a campaign to transition Los Angeles’ old and polluting school
-  buses to new, clean and safe electric buses. Our coalition will engage and
+  buses to new, clean, and safe electric buses. Our coalition will engage and
   activate 100,000 students, parents, teachers, and community members in the
   effort. This activation will not only affect change in the short term, but
   because we are focusing on young people, it also will help build an enduring
