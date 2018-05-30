@@ -52,15 +52,15 @@ project_proposal_best_place: >-
    
    To address the urgent need for training, our activation is an NGSS training that includes a dynamic combination of classroom training, real-time feedback, and group collaboration. It will be rolled out to teachers in LAUSD-Local District South (includes San Pedro, Lomita, Gardena, South LA, South Central LA) and Compton USD. We will train two cohorts of 50 teachers (100 total) in two years. The program will be rolled out according to the following timeline each year:
    
-   Months 1-2: Teacher Selection - CISE will collaborate with superintendents and STEM coordinators to identify which schools will most benefit from training. Principals at selected schools will recommend 2-3 K-9 teachers.
+   _Months 1-2:_ Teacher Selection - CISE will collaborate with superintendents and STEM coordinators to identify which schools will most benefit from training. Principals at selected schools will recommend 2-3 K-9 teachers.
    
-   Months 3-4: 3 Days of NGSS Classroom Training - Teachers will be trained on the conceptual and instructional shifts from the current standards. They will learn the 3 dimensions of NGSS, analyze lesson plans, and break down the new performance expectations. 
+   _Months 3-4:_ 3 Days of NGSS Classroom Training - Teachers will be trained on the conceptual and instructional shifts from the current standards. They will learn the 3 dimensions of NGSS, analyze lesson plans, and break down the new performance expectations. 
    
-   Months 5-6: Classroom Observations - 1) An NGSS expert and teacher will meet in advance to agree on the observation focus and review the lesson plan; 2) The NGSS expert will observe and document evidence of good teaching practices; 3) Formal feedback will be provided.
+   _Months 5-6:_ Classroom Observations - 1) An NGSS expert and teacher will meet in advance to agree on the observation focus and review the lesson plan; 2) The NGSS expert will observe and document evidence of good teaching practices; 3) Formal feedback will be provided.
    
-   Months 7-10: Lesson Study Cycles - Teams of teacher trainees will engage in collaborative planning-teaching-observation of learning, followed by lesson evaluation and refinement.
+   _Months 7-10:_ Lesson Study Cycles - Teams of teacher trainees will engage in collaborative planning-teaching-observation of learning, followed by lesson evaluation and refinement.
    
-   Months 1-12: Training Evaluation and Revision - Will occur on an ongoing basis (details in #12).
+   _Months 1-12:_ Training Evaluation and Revision - Will occur on an ongoing basis (details in #12).
 project_proposal_engage: >-
   Our activation focuses on schools in LAUSD-Local District South and Compton
   USD. These districts were selected because implementation has been limited and

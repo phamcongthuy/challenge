@@ -59,7 +59,15 @@ show_promotion: true
   <p class="action">
     <a href="/entries/">Check out the entries!</a>
   </p>
-  {% elsif site.phase >= 5 and site.phase <= 7 %}
+  {% elsif site.phase == 5 %}
+  <p class="action">
+    <a href="/finalists/">Check out the finalists!</a>
+  </p>
+  {% elsif site.phase == 6 %}
+  <p class="action">
+    <a href="/vote/">It’s time to vote!</a>
+  </p>
+  {% elsif site.phase == 7 %}
   <p class="action">
     <a href="/finalists/">Check out the finalists!</a>
   </p>
@@ -146,7 +154,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 6 %}
 
 <p>
-  <a href="/finalists/">Vote for a proposal</a>!
+  <a href="/vote/">It’s time to vote</a>!
   Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
@@ -236,7 +244,7 @@ Starting Tuesday, <strong>June 19, 2018</strong>, you can [vote for a proposal](
 {% elsif site.phase == 6 %}
 
 <p>
-  <a href="/finalists/">Vote for a proposal</a>!
+  <a href="/vote/">It’s time to vote</a>!
   Winners will be announced on 
   <span class="avoid-break">
     <strong>July 9, 2018</strong>.
