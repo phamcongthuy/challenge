@@ -17,7 +17,7 @@ You may want to visit our [home page](/) instead.
 
 {% else %}
 
-<div class="introduction" markdown="1">
+<div class="introduction" markdown="1" style="position: relative;">
 
 <div>
 <a href="/finalists/" class="logo">
@@ -107,7 +107,7 @@ You may want to visit our [home page](/) instead.
 
 <p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
 
-<p class="action"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></p>
+<p class="action"><a href="#questions" onClick="document.getElementById('questions').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></p>
 
 <!--
 <p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
@@ -152,6 +152,10 @@ You may want to visit our [home page](/) instead.
 
 
 <form name="vote" action="/vote/submit/" method="post" markdown="1" data-netlify="true">
+
+<div id="questions">
+  <p>If you need help completing this voting form, please send us an email at <a href="mailto:connect@la2050.org" style="color: inherit">connect@la2050.org</a>.<br />You can also learn more about the <a href="/vote/" target="_blank" style="color: inherit">voting process and rules</a>.</p>
+</div>
 
 <h2 class="blueberry" id="learn">Who would you like to vote for in the <span style="text-transform: uppercase;">Learn</span> category?</h2>
 
@@ -394,7 +398,7 @@ You may want to visit our [home page](/) instead.
 <hr />
 
 
-<section id="zip" class="banana">
+<section id="zip" class="banana" style="display: none">
 
 <div markdown="1">
 
@@ -519,8 +523,6 @@ Next, we’ll send a text message to your phone number, with instructions.
 </section>
 
 </form>
-
-
 
 <!--
 <div style="margin-top: 9em"></div>
@@ -802,6 +804,7 @@ Next, we’ll send a text message to your phone number, with instructions.
   var count;
   var progress;
   var finish;
+  var zip;
   window.updateProgress = function() {
     if (!progress) progress = document.getElementById("progress");
     if (!count) count = document.getElementById("vote-count");
@@ -819,6 +822,11 @@ Next, we’ll send a text message to your phone number, with instructions.
     //   progress.querySelector('p').innerHTML = 'You’ve voted in all five categories!';
     //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
     // }
+
+    if (counter >= 1 && !zip) {
+      zip = document.getElementById('zip');
+      zip.style.display = 'flex';
+    }
 
     if (counter >= 1 
         && document.querySelector('input[name="zip"]').value

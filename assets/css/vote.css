@@ -672,3 +672,19 @@
     font-weight: 500;
   }
 
+
+  #questions p {
+    background: black;
+    background: var(--primary-color, black);
+    color: white;
+    padding: 3em 1.5em;
+    margin: 0 -1.5em 3em
+  }
+  @media (min-width: 40em) { /* @medium-size-screen */
+    #questions p {
+      margin-left: -4.5em;
+      margin-right: -4.5em;
+    }
+  }
+
+
