@@ -23,6 +23,8 @@ You may want to visit our [home page](/) instead.
 <input type="hidden" name="play" />
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
+
+<input type="hidden" name="zip" />
 <!--
 <input type="hidden" name="email" />
 <input type="hidden" name="telephone" />
@@ -101,6 +103,8 @@ You may want to visit our [home page](/) instead.
               form.querySelector('input[name="' + fieldNames[index] + '"]').value = nextValue;
             }
           }
+
+          form.querySelector('input[name="zip"]').value = getParameterByName('zip');
 
           // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
           function getRandomInt(min, max) {

@@ -278,7 +278,8 @@
     padding: 0.25em;
   }
   form input[type="tel"],
-  form input[type="email"] {
+  form input[type="email"],
+  form input[type="number"] {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -433,6 +434,7 @@
   @media (false) {
     #sign-in-phone,
     #sign-in-email,
+    #zip,
     #finish {
       background: rgb(254, 254, 254); /* @snow */
       color: rgb(41, 41, 41); /* @midnight */
@@ -446,6 +448,7 @@
   }
   #sign-in-phone,
   #sign-in-email,
+  #zip,
   #finish {
     background: black;
     background: var(--primary-color, black);
@@ -462,12 +465,15 @@
   #sign-in-phone h3,
   #sign-in-email h2,
   #sign-in-email h3,
+  #zip h2,
+  #zip h3,
   #finish h2,
   #finish h3 {
     color: inherit !important;
   }
   #sign-in-phone input,
-  #sign-in-email input {
+  #sign-in-email input,
+  #zip input {
     margin-top: 0;
     margin-bottom: 0;
     border-color: white;
@@ -478,6 +484,8 @@
   #sign-in-phone button,
   #sign-in-email .action a,
   #sign-in-email button,
+  #zip .action a,
+  #zip button,
   #finish .action a,
   #finish button {
     background-color: black;
@@ -498,6 +506,12 @@
   #sign-in-email button:hover,
   #sign-in-email button:active,
   #sign-in-email button:focus,
+  #zip .action a:hover,
+  #zip .action a:active,
+  #zip .action a:focus,
+  #zip button:hover,
+  #zip button:active,
+  #zip button:focus,
   #finish .action a:hover,
   #finish .action a:active,
   #finish .action a:focus,
@@ -512,6 +526,7 @@
   @media (min-width: 40em) {
     #sign-in-phone,
     #sign-in-email,
+    #zip,
     #finish {
       margin-left: -4.5em;
       margin-right: -4.5em;

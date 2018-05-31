@@ -393,12 +393,34 @@ You may want to visit our [home page](/) instead.
 
 <hr />
 
+
+<section id="zip" class="banana">
+
+<div markdown="1">
+
+## Please enter your ZIP Code
+
+<p class="field-button">
+<label style="flex-grow: 1; margin-right: 0.25em;">
+  <input type="number" name="zip" required="required" placeholder="" />
+</label>
+<button type="submit">Next</button>
+</p>
+
+<p><small style="display: block; line-height: 1.375; margin-top: 0.875em;">LA2050 uses ZIP Codes to determine how much of Los Angeles we’re reaching.</small></p>
+
+</div>
+
+</section>
+
+
+
 <section id="finish" class="blueberry" style="display: none;">
 
 <div markdown="1">
 ## You’re <span style="text-decoration: underline;">almost</span> done!
 
-Now it’s time to confirm your votes by signing in with one of your accounts.
+Now it’s time to confirm your vote(s) by signing in with one of your accounts.
 
 ### Sign in with…
 
@@ -425,6 +447,11 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 
 </form>
 
+
+
+
+
+
 {% comment %}
 <!--
 <form name="vote_email" action="/vote/email-sent/" method="post" data-netlify="true">
@@ -436,13 +463,14 @@ Now it’s time to confirm your votes by signing in with one of your accounts.
 <input type="hidden" name="play" />
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
+<input type="hidden" name="zip" />
 
 <section id="sign-in-email" class="lime" style="display: none">
 
 <div markdown="1">
-### Sign in with email
+## Sign in with email
 
-Next, we’ll send instructions to your email address.
+Next, we’ll send a message to your email address, with instructions.
 
 <p class="field-button banana">
 <label style="flex-grow: 1; margin-right: 0.25em;">
@@ -469,13 +497,14 @@ Next, we’ll send instructions to your email address.
 <input type="hidden" name="play" />
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
+<input type="hidden" name="zip" />
 
 <section id="sign-in-phone" class="strawberry" style="display: none">
 
 <div markdown="1">
-### Sign in with your phone
+## Sign in with your phone
 
-Next, we’ll send a text message to your phone, with instructions.
+Next, we’ll send a text message to your phone number, with instructions.
 
 <p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
@@ -525,6 +554,15 @@ Next, we’ll send a text message to your phone, with instructions.
       console.error('No items were voted for');
       return;
     }
+
+    var zip = document.querySelector('input[type="number"][name="zip"]').value;
+    if (!zip || zip == '') {
+      console.error('No zip code')
+    } else {
+      form.querySelector('input[type="hidden"][name="zip"]').value = zip;
+    }
+
+    votesData.push('zip=' + encodeURIComponent(zip));
 
     if (telephone && telephone.indexOf('+') !== 0) telephone = '+1 ' + telephone
 
@@ -623,6 +661,13 @@ Next, we’ll send a text message to your phone, with instructions.
       return;
     }
 
+    var zip = document.querySelector('input[name="zip"]').value;
+    if (!zip || zip == '') {
+      console.error('No zip code')
+    }
+
+    votesData.push('zip=' + encodeURIComponent(zip));
+
     votesData.push('social_network=' + encodeURIComponent(socialNetwork))
 
     console.dir(votesData);
@@ -658,6 +703,10 @@ Next, we’ll send a text message to your phone, with instructions.
     forms[index].addEventListener('submit', function(e) {
       console.log('form submit'); 
       e.preventDefault();
+      if (e.target.name == 'vote') {
+        updateProgress()
+        scrollTo('finish')
+      }
       sendEmail(e.target);
     })
   }
@@ -686,7 +735,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
     var delay = 500;
     var delayTimeout;
-    function scrollTo(elementID) {
+    window.scrollTo = function(elementID) {
       console.log('scrollTo: ' + elementID)
       if (delayTimeout) clearTimeout(delayTimeout)
       delayTimeout = setTimeout(function() {
@@ -725,7 +774,7 @@ Next, we’ll send a text message to your phone, with instructions.
               break;
             case 'live':
               updateProgress()
-              scrollTo('finish')
+              scrollTo('zip')
               break;
             default:
 
@@ -738,12 +787,22 @@ Next, we’ll send a text message to your phone, with instructions.
   //   if (delayTimeout) clearTimeout(delayTimeout)
   // })
 
+  console.log('setting up zip button')
+  var zipButton = document.querySelector('#zip button');
+  console.log('zip button: ' + zipButton);
+  zipButton.addEventListener('click', function(e) {
+    console.log('zipButton click')
+    e.preventDefault()
+    updateProgress()
+    scrollTo('finish')
+  })
+
 
   var counter = 0;
   var count;
   var progress;
   var finish;
-  function updateProgress() {
+  window.updateProgress = function() {
     if (!progress) progress = document.getElementById("progress");
     if (!count) count = document.getElementById("vote-count");
 
@@ -761,7 +820,10 @@ Next, we’ll send a text message to your phone, with instructions.
     //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
     // }
 
-    if (counter >= 1 && !finish) {
+    if (counter >= 1 
+        && document.querySelector('input[name="zip"]').value
+        && document.querySelector('input[name="zip"]').value != ''
+        && !finish) {
       finish = document.getElementById('finish');
       finish.style.display = 'flex';
 
@@ -807,7 +869,7 @@ Next, we’ll send a text message to your phone, with instructions.
 
 
 <div class="progress hidden" role="status" id="progress">
-  <p class="action"><a href="#finish" onClick="document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Confirm my votes</a></p>
+  <p class="action"><a href="#zip" onClick="document.getElementById('zip').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Confirm my votes</a></p>
   <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
 </div>
 

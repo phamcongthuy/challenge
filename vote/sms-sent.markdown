@@ -28,6 +28,7 @@ We sent you a text message with a verification code. Please enter it here.
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
 <input type="hidden" name="telephone" />
+<input type="hidden" name="zip" />
 
 <p style="font-size: 1em">
   <label>
@@ -95,6 +96,7 @@ form input[type="text"] {
     }
   }
 
+  form.querySelector('input[name="zip"]').value = getParameterByName('zip');
   form.querySelector('input[name="telephone"]').value = getParameterByName('telephone');
 
 </script>
@@ -126,6 +128,13 @@ form input[type="text"] {
       console.error('No items were voted for');
       return;
     }
+
+    var zip = document.querySelector('input[name="zip"]').value;
+    if (!zip || zip == '') {
+      console.error('No zip code')
+    }
+
+    votesData.push('zip=' + encodeURIComponent(zip));
 
     votesData.push('telephone=' + encodeURIComponent(telephone));
 
