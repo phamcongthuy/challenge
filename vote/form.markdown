@@ -17,6 +17,10 @@ You may want to visit our [home page](/) instead.
 
 {% else %}
 
+<script>
+window.la2050 = window.la2050 || {}
+</script>
+
 <div class="introduction" markdown="1" style="position: relative;">
 
 <div>
@@ -406,7 +410,7 @@ You may want to visit our [home page](/) instead.
 
 <p class="field-button">
 <label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="number" name="zip" required="required" placeholder="" />
+  <input type="text" name="zip" pattern="[0-9]*" inputmode="number" placeholder="" />
 </label>
 <button type="submit">Next</button>
 </p>
@@ -483,7 +487,7 @@ Next, we’ll send a message to your email address, with instructions.
 <button type="submit">Send email</button>
 </p>
 
-<p style="margin-top: 1.7142857143em"><small>We will only use this address to complete the voting process. (No spam, we promise!)</small></p>
+<p style="margin-top: 1.7142857143em"><small>We will only use this email address to complete the voting process. (No spam, we promise!)</small></p>
 </div>
 
 </section>
@@ -559,7 +563,7 @@ Next, we’ll send a text message to your phone number, with instructions.
 
     var zip = document.querySelector('input[type="number"][name="zip"]').value;
     if (!zip || zip == '') {
-      console.error('No zip code')
+      console.log('No zip code')
     } else {
       form.querySelector('input[type="hidden"][name="zip"]').value = zip;
     }
@@ -665,7 +669,7 @@ Next, we’ll send a text message to your phone number, with instructions.
 
     var zip = document.querySelector('input[name="zip"]').value;
     if (!zip || zip == '') {
-      console.error('No zip code')
+      console.log('No zip code')
     }
 
     votesData.push('zip=' + encodeURIComponent(zip));
@@ -706,8 +710,8 @@ Next, we’ll send a text message to your phone number, with instructions.
       console.log('form submit'); 
       e.preventDefault();
       if (e.target.name == 'vote') {
-        updateProgress()
-        scrollTo('finish')
+        la2050.updateProgress()
+        la2050.scrollTo('finish')
       }
       sendEmail(e.target);
     })
@@ -737,7 +741,7 @@ Next, we’ll send a text message to your phone number, with instructions.
 
     var delay = 500;
     var delayTimeout;
-    window.scrollTo = function(elementID) {
+    la2050.scrollTo = function(elementID) {
       console.log('scrollTo: ' + elementID)
       if (delayTimeout) clearTimeout(delayTimeout)
       delayTimeout = setTimeout(function() {
@@ -746,7 +750,7 @@ Next, we’ll send a text message to your phone number, with instructions.
     }
 
     function __scrollTo(elementID) {
-      console.log('_scrollTo: ' + elementID)
+      console.log('__scrollTo: ' + elementID)
       // if (counter >= 5) {
       //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
       // } else {
@@ -759,24 +763,24 @@ Next, we’ll send a text message to your phone number, with instructions.
           console.log('e.target.name: ' + e.target.name)
           switch(e.target.name) {
             case 'learn':
-              updateProgress()
-              scrollTo('create')
+              la2050.updateProgress()
+              la2050.scrollTo('create')
               break;
             case 'create':
-              updateProgress()
-              scrollTo('play')
+              la2050.updateProgress()
+              la2050.scrollTo('play')
               break;
             case 'play':
-              updateProgress()
-              scrollTo('connect')
+              la2050.updateProgress()
+              la2050.scrollTo('connect')
               break;
             case 'connect':
-              updateProgress()
-              scrollTo('live')
+              la2050.updateProgress()
+              la2050.scrollTo('live')
               break;
             case 'live':
-              updateProgress()
-              scrollTo('zip')
+              la2050.updateProgress()
+              la2050.scrollTo('zip')
               break;
             default:
 
@@ -795,8 +799,10 @@ Next, we’ll send a text message to your phone number, with instructions.
   zipButton.addEventListener('click', function(e) {
     console.log('zipButton click')
     e.preventDefault()
-    updateProgress()
-    scrollTo('finish')
+    la2050.updateProgress()
+    console.log('updateProgress done')
+    la2050.scrollTo('finish')
+    console.log('scrollTo finish done')
   })
 
 
@@ -805,7 +811,8 @@ Next, we’ll send a text message to your phone number, with instructions.
   var progress;
   var finish;
   var zip;
-  window.updateProgress = function() {
+  var zipShowing = false;
+  la2050.updateProgress = function() {
     if (!progress) progress = document.getElementById("progress");
     if (!count) count = document.getElementById("vote-count");
 
@@ -823,14 +830,8 @@ Next, we’ll send a text message to your phone number, with instructions.
     //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
     // }
 
-    if (counter >= 1 && !zip) {
-      zip = document.getElementById('zip');
-      zip.style.display = 'flex';
-    }
-
     if (counter >= 1 
-        && document.querySelector('input[name="zip"]').value
-        && document.querySelector('input[name="zip"]').value != ''
+        && zipShowing
         && !finish) {
       finish = document.getElementById('finish');
       finish.style.display = 'flex';
@@ -844,6 +845,12 @@ Next, we’ll send a text message to your phone number, with instructions.
         }
       })
 
+    }
+
+    if (counter >= 1 && !zip) {
+      zip = document.getElementById('zip');
+      zip.style.display = 'flex';
+      zipShowing = true;
     }
   }
 
@@ -874,11 +881,11 @@ Next, we’ll send a text message to your phone number, with instructions.
 })();
 </script>
 
-
-
 <div class="progress hidden" role="status" id="progress">
   <p class="action"><a href="#zip" onClick="document.getElementById('zip').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Confirm my votes</a></p>
   <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
 </div>
+
+<script src="/assets/js/scroll-into-view.js"></script>
 
 {% endif %}
