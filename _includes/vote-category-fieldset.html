@@ -1,0 +1,50 @@
+<h2 class="{{ category_color }}" id="{{ category }}">Who would you like to vote for in the <em class="category">{{ category }}</em> category?</h2>
+
+<ul class="{{ category_color }}">
+{% assign first_item = true %}
+{% assign data_collection = site.collections | where: "label", category | first %}
+{% assign data_list = data_collection.docs %}
+{% for project in data_list %}
+
+{% assign is_finalist = false %}
+{% for finalist in site.finalists %}
+  {% if finalist == project.uri %}
+    {% assign is_finalist = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_finalist == true %}
+<li>
+
+  <a href="{{ project.uri }}" target="_blank">
+    <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
+    <div class="text">
+      <div class="text-inner">
+        <h3>{{ project.organization_name }}</h3>
+        <p>{{ project.title }}</p>
+      </div>
+    </div>
+    <span class="mask"></span>
+  </a>
+
+  <label>
+    <input type="radio" name="{{ category }}" value="{{ project.organization_name }}" />
+
+    <span class="mask"></span>
+    <span class="pseudo-checkbox">
+      <svg width="24" height="24" viewBox="0 0 512 512">
+        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+      </svg>
+      <strong>Selected</strong>
+    </span>
+    <span class="call-to-action">
+      <strong>Select</strong>
+    </span>
+
+  </label>
+
+</li>
+{% assign first_item = false %}
+{% endif %}
+{% endfor %}
+</ul>
