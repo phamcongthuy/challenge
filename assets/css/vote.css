@@ -335,6 +335,11 @@
     flex-grow: 1;
     margin-right: 0.25em;
   }
+  /* OPTIONAL: Hide redundant label text */
+  form .field-button .label-text {
+    position: absolute;
+    left: -9999px;
+  }
   form .field-button input {
     text-align: left;
   }

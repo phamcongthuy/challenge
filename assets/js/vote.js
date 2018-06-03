@@ -28,7 +28,7 @@
       return;
     }
 
-    var zip = document.querySelector('input[type="number"][name="zip"]').value;
+    var zip = document.querySelector('input[type="text"][name="zip"]').value;
     if (!zip || zip == '') {
       console.log('No zip code')
     } else {
