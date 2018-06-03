@@ -3,6 +3,10 @@
 
   var updateProgress
   var scrollToElement
+  var zipShowing = false;
+  var finishShowing = false;
+  var zipSeen = false;
+  var finishSeen = false;
 
   function sendEmail(form){
     console.log('sendEmail');
@@ -173,9 +177,23 @@
     var form = document.querySelector('form[name="vote"]')
     console.log('form: ' + form)
     form.addEventListener('submit', function(e) {
-      console.log('form submit'); 
-      sendEmail(e.target);
       e.preventDefault();
+      if (!zipSeen) {
+        zip.classList.remove('hidden')
+        zipShowing = true
+        scrollToElement('zip')
+        setTimeout(function() {
+          document.querySelector('input[name="zip"]').focus()
+        }, 1000)
+        zipSeen = true
+      } else if (!finishSeen) {
+        finish.classList.remove('hidden')
+        finishShowing = true
+        scrollToElement('finish')
+        finishSeen = true
+      }
+      console.log('form submit');
+      sendEmail(e.target);
     })
   })();
 
@@ -217,52 +235,97 @@
         //}
       }
 
-      form.addEventListener('click', function(e) {
+      function updateAndScroll(name) {
+        switch(name) {
+          case 'learn':
+            updateProgress()
+            scrollToElement('create')
+            setTimeout(function() {
+              document.querySelector('input[name="create"]').focus()
+            }, 1000)
+            break;
+          case 'create':
+            updateProgress()
+            scrollToElement('play')
+            setTimeout(function() {
+              document.querySelector('input[name="play"]').focus()
+            }, 1000)
+            break;
+          case 'play':
+            updateProgress()
+            scrollToElement('connect')
+            setTimeout(function() {
+              document.querySelector('input[name="connect"]').focus()
+            }, 1000)
+            break;
+          case 'connect':
+            updateProgress()
+            scrollToElement('live')
+            setTimeout(function() {
+              document.querySelector('input[name="live"]').focus()
+            }, 1000)
+            break;
+          case 'live':
+            updateProgress()
+            scrollToElement('zip')
+            setTimeout(function() {
+              document.querySelector('input[name="zip"]').focus()
+            }, 1000)
+            zipSeen = true
+            break;
+          default:
+
+        }
+      }
+
+      (function() {
+        var usingMouse = false
+        var keyPressedRecently = false
+        window.addEventListener('mousemove', function(e) {
+          console.log('mouse moved')
+          if (keyPressedRecently) return
+          usingMouse = true
+        })
+        var timer
+        window.addEventListener('keyup', function(e) {
+          console.log('key pressed')
+          usingMouse = false
+          keyPressedRecently = true
+          if (timer) clearTimeout(timer)
+          timer = setTimeout(function() {
+            keyPressedRecently = false
+          }, 1000)
+        })
+        form.addEventListener('click', function(e) {
+          console.log('form click')
           if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
             console.log('e.target.name: ' + e.target.name)
-            switch(e.target.name) {
-              case 'learn':
-                updateProgress()
-                scrollToElement('create')
-                break;
-              case 'create':
-                updateProgress()
-                scrollToElement('play')
-                break;
-              case 'play':
-                updateProgress()
-                scrollToElement('connect')
-                break;
-              case 'connect':
-                updateProgress()
-                scrollToElement('live')
-                break;
-              case 'live':
-                updateProgress()
-                scrollToElement('zip')
-                break;
-              default:
-
+            if (usingMouse) {
+              updateAndScroll(e.target.name)
+            } else {
+              updateProgress()
             }
           }
-      });
+        })
+      })()
     //});
 
     // window.addEventListener('scroll', function(e) {
     //   if (delayTimeout) clearTimeout(delayTimeout)
     // })
 
-    console.log('setting up zip button')
-    var zipButton = document.querySelector('#zip button');
-    console.log('zip button: ' + zipButton);
-    zipButton.addEventListener('click', function(e) {
-      console.log('zipButton click')
-      e.preventDefault()
-      updateProgress()
-      console.log('updateProgress done')
-      scrollToElement('finish')
-      console.log('scrollTo finish done')
-    })
+    // console.log('setting up zip button')
+    // var zipButton = document.querySelector('#zip button');
+    // console.log('zip button: ' + zipButton);
+    // zipButton.addEventListener('click', function(e) {
+    //   console.log('zipButton click')
+    //   e.preventDefault()
+    //   updateProgress()
+    //   console.log('updateProgress done')
+    //   scrollToElement('finish')
+    //   console.log('scrollTo finish done')
+    // })
+
 
 
     var counter = 0;
@@ -272,8 +335,6 @@
     finish.classList.add('hidden');
     var zip = document.getElementById('zip');
     zip.classList.add('hidden');
-    var zipShowing = false;
-    var finishShowing = false;
     updateProgress = function() {
       if (!progress) progress = document.getElementById("progress");
       if (!count) count = document.getElementById("vote-count");
@@ -286,6 +347,7 @@
 
       if (counter >= 1 && zipShowing && !finishShowing) {
         finish.classList.remove('hidden');
+        finishShowing = true;
 
         window.addEventListener('scroll', function() {
           //if (isVisible(finish, getOffset(finish).top, window.scrollY)) {
@@ -330,27 +392,36 @@
 
   })();
 
-  document.querySelector('#zip button').addEventListener('click', function(e) {
-    updateProgress()
-    scrollToElement('finish')
-  })
+  // document.querySelector('#zip button').addEventListener('click', function(e) {
+  //   console.log('zip button click')
+  //   updateProgress()
+  //   scrollToElement('finish')
+  // })
   document.querySelector('#zip button').classList.remove('hidden')
 
   document.querySelector('a[href="#questions"]').addEventListener('click', function(e) {
     document.getElementById('questions').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(function() {
+      document.querySelector('input[name="learn"]').focus()
+    }, 1000)
     e.preventDefault();
   })
 
-  document.querySelector('a[href="#zip"]').addEventListener('click', function(e) {
-    document.getElementById('zip').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    e.preventDefault();
-  })
+  // document.querySelector('.progress button').addEventListener('click', function(e) {
+  //   console.log('progress button click')
+  //   document.getElementById('zip').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  //   e.preventDefault();
+  //   document.querySelector('input[name="zip"]').focus();
+  // })
 
   var signInPhone = document.getElementById('sign-in-phone');
   signInPhone.classList.add('hidden');
   document.querySelector('a[href="#sign-in-phone"]').addEventListener('click', function(e) {
     signInPhone.classList.remove('hidden')
     signInPhone.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(function() {
+      document.querySelector('input[name="telephone"]').focus()
+    }, 1000)
     e.preventDefault();
   })
 
@@ -359,6 +430,9 @@
   document.querySelector('a[href="#sign-in-email"]').addEventListener('click', function(e) {
     signInEmail.classList.remove('hidden')
     signInEmail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(function() {
+      document.querySelector('input[name="email"]').focus()
+    }, 1000)
     e.preventDefault();
   })
 

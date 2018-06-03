@@ -76,6 +76,12 @@ stylesheets:
 
     <hr />
 
+    <div class="progress hidden" id="progress">
+      <!-- <p class="action"><a href="#zip">Confirm my votes</a></p> -->
+      <p class="action"><button type="submit">Confirm my votes</button></p>
+      <p role="status" aria-live="polite">You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p> 
+    </div>
+
     <section id="zip" class="banana">
       <div>
         <h2>Please enter your ZIP Code</h2>
@@ -84,7 +90,7 @@ stylesheets:
             <span class="label-text">ZIP Code</span>
             <input type="text" name="zip" pattern="[0-9]*" inputmode="number" placeholder="" />
           </label>
-          <button type="button" class="hidden">Next</button>
+          <button type="submit" class="hidden">Next</button>
         </p>
         <p><small>LA2050 uses ZIP Codes to determine how much of Los Angeles we’re reaching.</small></p>
       </div>
@@ -110,7 +116,7 @@ stylesheets:
         <p class="field-button">
           <label>
             <span class="label-text">Phone number</span>
-            <input type="tel" name="telephone" placeholder="+1 222 333 4444" required="required"/>
+            <input type="tel" name="telephone" placeholder="+1 222 333 4444" />
           </label>
           <button type="submit">Send text message</button>
         </p>
@@ -125,7 +131,7 @@ stylesheets:
         <p class="field-button banana">
           <label>
             <span class="label-text">Email address</span>
-            <input type="email" name="email" placeholder="example@mail.com" required="required" />
+            <input type="email" name="email" placeholder="example@mail.com" />
           </label>
           <button type="submit">Send email</button>
         </p>
@@ -134,11 +140,6 @@ stylesheets:
     </section>
 
   </form>
-
-  <div class="progress hidden" id="progress">
-    <p class="action"><a href="#zip">Confirm my votes</a></p>
-    <p role="status" aria-live="polite">You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
-  </div>
 
   <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
   <script src="/assets/js/scroll-into-view.js"></script>

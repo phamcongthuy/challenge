@@ -15,29 +15,29 @@
 
 {% if is_finalist == true %}
 <li>
-<label>
-  <input type="radio" name="{{ category }}" value="{{ project.organization_name }}" />
-  <span class="mask"></span><span class="pseudo-checkbox">
-    <svg width="24" height="24" viewBox="0 0 512 512">
-      <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+
+  <a href="{{ project.uri }}" target="_blank">
+    <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
+    <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
+  </a>
+
+  <label>
+    <input type="radio" name="{{ category }}" value="{{ project.organization_name }}" />
+    <span class="text" style="position: absolute; left: -9999px;"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
+
+    <span class="mask"></span>
+    <span class="pseudo-checkbox">
+      <svg width="24" height="24" viewBox="0 0 512 512">
+        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+      </svg>
       <strong>Selected</strong>
-    </svg>
-  </span>
-  <span class="call-to-action">
-    <!--<svg></svg>-->
-    <strong>Select</strong>
-  </span>
-  <img src="/assets/images/{{ project.category }}/2048-wide/{{ project.project_image }}" width="250" /><br />
-  <span class="text"><strong>{{ project.organization_name }}</strong><br />{{ project.title }}</span>
-</label>
-<a href="{{ project.uri }}" target="_blank">
-<svg viewBox="0 0 192 512" width="24" height="24" aria-label="{{ project.organization_name }}">
-  <switch>
-    <path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z" class=""></path>
-    <foreignObject>{{ project.organization_name }}</foreignObject>
-  </switch>
-</svg>
-</a>
+    </span>
+    <span class="call-to-action">
+      <strong>Select</strong>
+    </span>
+
+  </label>
+
 </li>
 {% assign first_item = false %}
 {% endif %}

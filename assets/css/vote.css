@@ -129,7 +129,7 @@
 
 
   
-  form > ul > li:nth-child(1) {
+/*  form > ul > li:nth-child(1) {
     order: var(--order-1);
   }
   
@@ -147,7 +147,7 @@
   
   form > ul > li:nth-child(5) {
     order: var(--order-5);
-  }
+  }*/
 
  
 
@@ -205,6 +205,7 @@
     position: absolute;
     opacity: 0;
   }
+  /*
   form > ul > li .mask {
     position: absolute;
     top: 0;
@@ -219,6 +220,7 @@
     transition: opacity 0.2s;
     font-size: 1.5em;
   }
+  */
   form > ul > li .call-to-action,
   form > ul > li .pseudo-checkbox {
     position: absolute;
@@ -258,6 +260,11 @@
   form > ul > li label:hover .pseudo-checkbox {
     background: var(--primary-color);
     color: white;
+  }
+  form > ul > li label input:focus ~ .call-to-action,
+  form > ul > li label input:focus ~ .pseudo-checkbox {
+    outline: 0.1875em solid black;
+    outline: 0.1875em solid var(--primary-color);
   }
   form > ul > li .pseudo-checkbox {
     display: none;
@@ -386,6 +393,7 @@
     box-sizing: border-box;
     margin: 3em 1.5em;
   }
+  /*
   form > ul > li a {
     position: absolute;
     top: 0;
@@ -419,6 +427,22 @@
   form > ul > li a:focus {
     opacity: 0.5;
   }
+  */
+
+  form > ul > li a,
+  form > ul > li a:hover,
+  form > ul > li a:active,
+  form > ul > li a:focus {
+    text-decoration: inherit;
+    color: inherit;
+    font-weight: inherit;
+  }
+  form > ul > li a:hover  strong,
+  form > ul > li a:active strong,
+  form > ul > li a:focus  strong {
+    text-decoration: underline;
+  }
+
   form > ul > li br {
     display: none;
   }
@@ -608,7 +632,8 @@
   .progress.hidden-button .action {
     display: none;
   }
-  .progress p {
+  .progress p,
+  .progress p:last-child {
     margin: 0;
   }
   .progress .action {
@@ -730,8 +755,7 @@
 
 
   #questions p {
-    background: black;
-    background: var(--primary-color, black);
+    background: rgb(237, 59, 136); /* @strawberry */
     color: white;
     padding: 3em 1.5em;
     margin: 0 -1.5em 3em
