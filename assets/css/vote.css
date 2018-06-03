@@ -328,6 +328,14 @@
     -webkit-appearance: none;
   }
 
+  button.hidden {
+    display: none !important;
+  }
+
+  .facebook.hidden {
+    display: none !important;
+  }
+
   form .field-button {
     margin-top: 1.5em;
   }

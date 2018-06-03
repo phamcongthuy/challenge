@@ -36,7 +36,7 @@ stylesheets:
     </div>
   </div>
 
-  <form name="vote" action="/vote/submit/" method="post" data-netlify="true">
+  <form name="vote" action="/vote/survey/" method="post" data-netlify="true">
 
     <div id="questions">
       <p>
@@ -48,49 +48,49 @@ stylesheets:
 
     {% assign category = "learn" %}
     {% assign category_color = "blueberry" %}
-    {% include vote-category-fields.html %}
+    {% include vote-category-fieldset.html %}
 
     <hr />
 
     {% assign category = "create" %}
     {% assign category_color = "banana" %}
-    {% include vote-category-fields.html %}
+    {% include vote-category-fieldset.html %}
 
     <hr />
 
     {% assign category = "play" %}
     {% assign category_color = "strawberry" %}
-    {% include vote-category-fields.html %}
+    {% include vote-category-fieldset.html %}
 
     <hr />
 
     {% assign category = "connect" %}
     {% assign category_color = "tangerine" %}
-    {% include vote-category-fields.html %}
+    {% include vote-category-fieldset.html %}
 
     <hr />
 
     {% assign category = "live" %}
     {% assign category_color = "lime" %}
-    {% include vote-category-fields.html %}
+    {% include vote-category-fieldset.html %}
 
     <hr />
 
-    <section id="zip" class="banana hidden">
+    <section id="zip" class="banana">
       <div>
         <h2>Please enter your ZIP Code</h2>
         <p class="field-button">
-        <label>
-          <span class="label-text">ZIP Code</span>
-          <input type="text" name="zip" pattern="[0-9]*" inputmode="number" placeholder="" />
-        </label>
-        <button type="submit">Next</button>
+          <label>
+            <span class="label-text">ZIP Code</span>
+            <input type="text" name="zip" pattern="[0-9]*" inputmode="number" placeholder="" />
+          </label>
+          <button type="button" class="hidden">Next</button>
         </p>
         <p><small>LA2050 uses ZIP Codes to determine how much of Los Angeles we’re reaching.</small></p>
       </div>
     </section>
 
-    <section id="finish" class="blueberry hidden">
+    <section id="finish" class="blueberry">
       <div>
         <h2>You’re <em>almost</em> done!</h2>
         <p>Now it’s time to confirm your vote(s) by signing in with one of your accounts.</p>
@@ -98,25 +98,27 @@ stylesheets:
         <ul class="action">
           <li><a href="#sign-in-phone">Phone</a></li>
           <li><a href="#sign-in-email">Email</a></li>
-          <li><a href="#sign-in-facebook">Facebook</a></li>
+          <li class="facebook hidden"><a href="#sign-in-facebook">Facebook</a></li>
         </ul>
       </div>
     </section>
 
-  </form>
+    <section id="sign-in-phone" class="strawberry">
+      <div>
+        <h2>Sign in with your phone</h2>
+        <p>Next, we’ll send a text message to your phone number, with instructions.</p>
+        <p class="field-button">
+          <label>
+            <span class="label-text">Phone number</span>
+            <input type="tel" name="telephone" placeholder="+1 222 333 4444" required="required"/>
+          </label>
+          <button type="submit">Send text message</button>
+        </p>
+        <p><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
+      </div>
+    </section>
 
-
-  <form name="vote_email" action="/vote/email-sent/" method="get">
-
-    <input type="hidden" name="learn" />
-    <input type="hidden" name="create" />
-    <input type="hidden" name="play" />
-    <input type="hidden" name="connect" />
-    <input type="hidden" name="live" />
-
-    <input type="hidden" name="zip" />
-
-    <section id="sign-in-email" class="lime hidden">
+    <section id="sign-in-email" class="lime">
       <div>
         <h2>Sign in with email</h2>
         <p>Next, we’ll send a message to your email address, with instructions.</p>
@@ -133,36 +135,9 @@ stylesheets:
 
   </form>
 
-  <form name="vote_sms" action="/vote/sms-sent/" method="get">
-
-    <input type="hidden" name="learn" />
-    <input type="hidden" name="create" />
-    <input type="hidden" name="play" />
-    <input type="hidden" name="connect" />
-    <input type="hidden" name="live" />
-
-    <input type="hidden" name="zip" />
-
-    <section id="sign-in-phone" class="strawberry hidden">
-      <div>
-        <h2>Sign in with your phone</h2>
-        <p>Next, we’ll send a text message to your phone number, with instructions.</p>
-        <p class="field-button">
-          <label>
-            <span class="label-text">Phone number</span>
-            <input type="tel" name="telephone" placeholder="+1 222 333 4444" required="required"/>
-          </label>
-          <button type="submit">Send text message</button>
-        </p>
-        <p><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
-      </div>
-    </section>
-
-  </form>
-
-  <div class="progress hidden" role="status" id="progress">
+  <div class="progress hidden" id="progress">
     <p class="action"><a href="#zip">Confirm my votes</a></p>
-    <p>You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
+    <p role="status" aria-live="polite">You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
   </div>
 
   <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>

@@ -17,7 +17,7 @@
       nextField = document.querySelector('input[type="radio"][name="' + fieldNames[index] + '"]:checked');
       if (nextField) {
         votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
-        form.querySelector('input[type="hidden"][name="' + fieldNames[index] + '"]').value = nextField.value;
+        // form.querySelector('input[type="hidden"][name="' + fieldNames[index] + '"]').value = nextField.value;
       } else {
         console.log('skipped: ' + fieldNames[index]);
       }
@@ -32,7 +32,7 @@
     if (!zip || zip == '') {
       console.log('No zip code')
     } else {
-      form.querySelector('input[type="hidden"][name="zip"]').value = zip;
+      // form.querySelector('input[type="hidden"][name="zip"]').value = zip;
     }
 
     votesData.push('zip=' + encodeURIComponent(zip));
@@ -90,13 +90,13 @@
         // form.action = form.action + '?' + votesData.join('&');
 
         // TODO: Switch back to a single form on this page
-        // if (telephone) {
-        //   form.action = '/vote/sms-sent/';
-        //   form.method = 'get';
-        // } else if (email) {
-        //   form.action = '/vote/email-sent/';
-        //   form.method = 'get';
-        // }
+        if (telephone) {
+          form.action = '/vote/sms-sent/';
+          form.method = 'get';
+        } else if (email) {
+          form.action = '/vote/email-sent/';
+          form.method = 'get';
+        }
 
         console.log('res');
         console.log(res)
@@ -169,18 +169,15 @@
     });
   }
 
-  var forms = document.querySelectorAll('form');
-  for (var index = 0; index < forms.length; index++) {
-    forms[index].addEventListener('submit', function(e) {
+  (function() {
+    var form = document.querySelector('form[name="vote"]')
+    console.log('form: ' + form)
+    form.addEventListener('submit', function(e) {
       console.log('form submit'); 
-      e.preventDefault();
-      if (e.target.name == 'vote') {
-        updateProgress()
-        scrollToElement('finish')
-      }
       sendEmail(e.target);
+      e.preventDefault();
     })
-  }
+  })();
 
 
   (function() {
@@ -197,7 +194,7 @@
     }
 
     //document.addEventListener("DOMContentLoaded", function(event) {
-      var form = document.querySelector('form');
+      var form = document.querySelector('form[name="vote"]');
 
       //console.dir(form);
 
@@ -271,9 +268,12 @@
     var counter = 0;
     var count;
     var progress;
-    var finish;
-    var zip;
+    var finish = document.getElementById('finish');
+    finish.classList.add('hidden');
+    var zip = document.getElementById('zip');
+    zip.classList.add('hidden');
     var zipShowing = false;
+    var finishShowing = false;
     updateProgress = function() {
       if (!progress) progress = document.getElementById("progress");
       if (!count) count = document.getElementById("vote-count");
@@ -284,10 +284,7 @@
 
       count.innerText = counter;
 
-      if (counter >= 1 
-          && zipShowing
-          && !finish) {
-        finish = document.getElementById('finish');
+      if (counter >= 1 && zipShowing && !finishShowing) {
         finish.classList.remove('hidden');
 
         window.addEventListener('scroll', function() {
@@ -301,8 +298,7 @@
 
       }
 
-      if (counter >= 1 && !zip) {
-        zip = document.getElementById('zip');
+      if (counter >= 1 && !zipShowing) {
         zip.classList.remove('hidden');
         zipShowing = true;
       }
@@ -334,6 +330,12 @@
 
   })();
 
+  document.querySelector('#zip button').addEventListener('click', function(e) {
+    updateProgress()
+    scrollToElement('finish')
+  })
+  document.querySelector('#zip button').classList.remove('hidden')
+
   document.querySelector('a[href="#questions"]').addEventListener('click', function(e) {
     document.getElementById('questions').scrollIntoView({ behavior: 'smooth', block: 'start' });
     e.preventDefault();
@@ -344,15 +346,19 @@
     e.preventDefault();
   })
 
+  var signInPhone = document.getElementById('sign-in-phone');
+  signInPhone.classList.add('hidden');
   document.querySelector('a[href="#sign-in-phone"]').addEventListener('click', function(e) {
-    document.getElementById('sign-in-phone').classList.remove('hidden')
-    document.getElementById('sign-in-phone').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    signInPhone.classList.remove('hidden')
+    signInPhone.scrollIntoView({ behavior: 'smooth', block: 'start' });
     e.preventDefault();
   })
 
+  var signInEmail = document.getElementById('sign-in-email')
+  signInEmail.classList.add('hidden');
   document.querySelector('a[href="#sign-in-email"]').addEventListener('click', function(e) {
-    document.getElementById('sign-in-email').classList.remove('hidden')
-    document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    signInEmail.classList.remove('hidden')
+    signInEmail.scrollIntoView({ behavior: 'smooth', block: 'start' });
     e.preventDefault();
   })
 
@@ -360,5 +366,6 @@
     signInSocial('facebook');
     e.preventDefault();
   })
+  document.querySelector('.facebook.hidden').classList.remove('hidden')
 
 })();
