@@ -9,7 +9,7 @@
   var finishSeen = false;
   var emailShowing = false;
   var phoneShowing = false;
-
+  var usingMouse = false
 
   var zipButton
   function setUpZipButton() {
@@ -23,6 +23,11 @@
       // updateProgress()
       // console.log('updateProgress done')
       scrollToElement('finish')
+      if (!usingMouse) {
+        setTimeout(function() {
+          document.querySelector('button[name="sign_in_by').focus()
+        }, 1000)
+      }
       // console.log('scrollTo finish done')
     })
   }
@@ -42,13 +47,27 @@
           document.querySelector('input[name="zip"]').value.length === 5) {
         if (phoneShowing) {
           scrollToElement('sign-in-phone')
+          setTimeout(function() {
+            document.querySelector('input[name="telephone"]').focus()
+          }, 1000)
         } else if (emailShowing) {
           scrollToElement('sign-in-email')
+          setTimeout(function() {
+            document.querySelector('input[name="email"]').focus()
+          }, 1000)
         } else {
           scrollToElement('finish')
+          if (!usingMouse) {
+            setTimeout(function() {
+              document.querySelector('button[name="sign_in_by').focus()
+            }, 1000)
+          }
         }
       } else {
         scrollToElement('zip')
+        setTimeout(function() {
+          document.querySelector('input[name="zip"]').focus()
+        }, 1000)
       }
       // console.log('scrollTo finish done')
     })
@@ -227,24 +246,31 @@
     console.log('form: ' + form)
     form.addEventListener('submit', function(e) {
       e.preventDefault();
-      if (!zipSeen) {
-        zip.classList.remove('hidden')
-        zipShowing = true
-        scrollToElement('zip')
-        setTimeout(function() {
-          document.querySelector('input[name="zip"]').focus()
-        }, 1000)
-        zipSeen = true
-        setUpConfirmButton()
-      } else if (!finishSeen) {
-        finish.classList.remove('hidden')
-        finishShowing = true
-        scrollToElement('finish')
-        finishSeen = true
-        setUpZipButton()
-      } else if (emailShowing || phoneShowing) {
-        console.log('form submit');
-        sendEmail(e.target);
+      if (document.querySelectorAll('input[type="radio"]:checked').length >= 1) {
+        if (!zipSeen) {
+          zip.classList.remove('hidden')
+          zipShowing = true
+          scrollToElement('zip')
+          setTimeout(function() {
+            document.querySelector('input[name="zip"]').focus()
+          }, 1000)
+          zipSeen = true
+          setUpConfirmButton()
+        } else if (!finishSeen) {
+          finish.classList.remove('hidden')
+          finishShowing = true
+          scrollToElement('finish')
+          if (!usingMouse) {
+            setTimeout(function() {
+              document.querySelector('button[name="sign_in_by').focus()
+            }, 1000)
+          }
+          finishSeen = true
+          setUpZipButton()
+        } else if (emailShowing || phoneShowing) {
+          console.log('form submit');
+          sendEmail(e.target);
+        }
       }
     })
   })();
@@ -331,7 +357,6 @@
       }
 
       (function() {
-        var usingMouse = false
         var keyPressedRecently = false
         window.addEventListener('mousemove', function(e) {
           console.log('mouse moved')
@@ -457,7 +482,7 @@
 
   var signInPhone = document.getElementById('sign-in-phone');
   signInPhone.classList.add('hidden');
-  document.querySelector('a[href="#sign-in-phone"]').addEventListener('click', function(e) {
+  document.querySelector('button[value="phone"]').addEventListener('click', function(e) {
     signInPhone.classList.remove('hidden')
     signInPhone.scrollIntoView({ behavior: 'smooth', block: 'start' });
     setTimeout(function() {
@@ -469,7 +494,7 @@
 
   var signInEmail = document.getElementById('sign-in-email')
   signInEmail.classList.add('hidden');
-  document.querySelector('a[href="#sign-in-email"]').addEventListener('click', function(e) {
+  document.querySelector('button[value="email"]').addEventListener('click', function(e) {
     signInEmail.classList.remove('hidden')
     signInEmail.scrollIntoView({ behavior: 'smooth', block: 'start' });
     setTimeout(function() {
@@ -479,7 +504,7 @@
     emailShowing = true
   })
 
-  document.querySelector('a[href="#sign-in-facebook"]').addEventListener('click', function(e) {
+  document.querySelector('button[value="facebook"]').addEventListener('click', function(e) {
     signInSocial('facebook');
     e.preventDefault();
   })

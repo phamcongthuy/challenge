@@ -202,8 +202,6 @@
   form > ul > li input {
     font-size: inherit;
     margin-bottom: 0.75em;
-    position: absolute;
-    opacity: 0;
   }
   /*
   form > ul > li .mask {
@@ -252,10 +250,19 @@
    font-weight: bold;
    text-transform: uppercase;
   }
+  form > ul > li input {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    bottom: 0.5em;
+    left: 1em;
+  }
+  form > ul > li label .text {
+    position: absolute;
+    left: -9999px;
+  }
   form > ul > li label input:checked ~ .call-to-action,
   form > ul > li label input:checked ~ .pseudo-checkbox,
-  form > ul > li label input:focus ~ .call-to-action,
-  form > ul > li label input:focus ~ .pseudo-checkbox,
   form > ul > li label:hover .call-to-action,
   form > ul > li label:hover .pseudo-checkbox {
     background: var(--primary-color);
@@ -263,8 +270,9 @@
   }
   form > ul > li label input:focus ~ .call-to-action,
   form > ul > li label input:focus ~ .pseudo-checkbox {
-    outline: 0.1875em solid black;
-    outline: 0.1875em solid var(--primary-color);
+    outline: 0.375em solid black;
+    outline: 0.375em solid var(--primary-color, black);
+    outline: auto 5px -webkit-focus-ring-color;
   }
   form > ul > li .pseudo-checkbox {
     display: none;
@@ -364,9 +372,11 @@
     width: 100%;
   }
 
-  /* Reduce line height */
-  small:first-child:last-child {
-    display: block;
+  .field-button + p:last-child {
+    margin-top: 1.5em; /* SHIM reset form p:last-child styles */
+  }
+  .field-button + p:last-child small:first-child:last-child {
+    display: block; /* SHIM: Reduce line height */
   }
 
   @media (min-width: 40em) {
@@ -387,11 +397,18 @@
   }
   form > ul > li {
     position: relative;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 1);
     width: 19.5em;
     padding: 0;
+    padding-bottom: 3em;
     box-sizing: border-box;
     margin: 3em 1.5em;
+    display: flex;
+    flex-direction: row;
+  }
+  form > ul > li a {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+    box-shadow: none !important;
+    flex-grow: 1;
   }
   /*
   form > ul > li a {
@@ -436,11 +453,24 @@
     text-decoration: inherit;
     color: inherit;
     font-weight: inherit;
+    display: block;
   }
   form > ul > li a:hover  strong,
   form > ul > li a:active strong,
   form > ul > li a:focus  strong {
     text-decoration: underline;
+  }
+  form > ul > li a:focus {
+    outline: none;
+  }
+  form > ul > li a:focus .text-inner {
+    display: block;
+  }
+  form > ul > li a:focus .text-inner {
+    outline: 0.375em solid black;
+    outline: 0.375em solid var(--secondary-color, black);
+    outline: 1px dotted;
+    outline: auto 5px -webkit-focus-ring-color;
   }
 
   form > ul > li br {
@@ -448,7 +478,7 @@
   }
   form > ul > li .text {
     display: block;
-    padding: 1.5em;
+    padding: 0.75em 1.5em;
   }
   form > ul > li img {
     display: block;
@@ -456,25 +486,20 @@
   form > ul > li .text strong {
     display: block;
   }
-  form .banana li {
+  form .banana li a {
     box-shadow: 0 0 1px rgba(255, 194, 51, 1); /* @banana */
   }
-  form .blueberry li {
+  form .blueberry li a {
     box-shadow: 0 0 1px rgba(6, 179, 188, 1); /* @blueberry */
   }
-  form .lime li {
+  form .lime li a {
     box-shadow: 0 0 1px rgba(141, 208, 59, 1); /* @lime */
   }
-  form .strawberry li {
+  form .strawberry li a {
     box-shadow: 0 0 1px rgba(237, 59, 136, 1); /* @strawberry */
   }
-  form .tangerine li {
+  form .tangerine li a {
     box-shadow: 0 0 1px rgba(249, 160, 51, 1); /* @tangerine */
-  }
-  form > ul > li {
-    display: block;
-    position: relative;
-    padding-bottom: 3em;
   }
   /*
   form > ul > li label::after {
@@ -573,6 +598,10 @@
     border-color: var(--secondary-color, black);
     color: white;
   }
+  #finish button {
+    width: 100%;
+    box-sizing: border-box;
+  }
 
   #sign-in-phone .action a:hover,
   #sign-in-phone .action a:active,
@@ -621,6 +650,7 @@
     left: 0;
     width: 100%;
     background: rgb(245, 245, 245);
+    background: rgba(245, 245, 245, 0.75);
     color: black;
     padding: 0.75em;
     box-sizing: border-box;
