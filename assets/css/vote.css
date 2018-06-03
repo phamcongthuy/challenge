@@ -407,7 +407,6 @@
   }
   form > ul > li a {
     box-shadow: 0 0 1px rgba(0, 0, 0, 1);
-    box-shadow: none !important;
     flex-grow: 1;
   }
   /*
@@ -478,7 +477,7 @@
   }
   form > ul > li .text {
     display: block;
-    padding: 0.75em 1.5em;
+    padding: 1.5em;
   }
   form > ul > li img {
     display: block;
