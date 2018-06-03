@@ -128,10 +128,14 @@ You may want to visit our [home page](/) instead.
 <form name="vote" action="/vote/submit/" method="post" markdown="1" data-netlify="true">
 
 <div id="questions">
-  <p>If you need help completing this voting form, please send us an email at <a href="mailto:connect@la2050.org" style="color: inherit">connect@la2050.org</a>.<br />You can also learn more about the <a href="/vote/" target="_blank" style="color: inherit">voting process and rules</a>.</p>
+  <p>
+    If you need help completing this voting form, please send us an email at <a href="mailto:connect@la2050.org">connect@la2050.org</a>.
+    <br />
+    You can also learn more about the <a href="/vote/" target="_blank">voting process and rules</a>.
+  </p>
 </div>
 
-<h2 class="blueberry" id="learn">Who would you like to vote for in the <span style="text-transform: uppercase;">Learn</span> category?</h2>
+<h2 class="blueberry" id="learn">Who would you like to vote for in the <em class="category">Learn</em> category?</h2>
 
 <ul class="blueberry">
 {% assign first_item = true %}
@@ -179,7 +183,7 @@ You may want to visit our [home page](/) instead.
 
 <hr />
 
-<h2 class="banana" id="create">Who would you like to vote for in the <span style="text-transform: uppercase;">Create</span> category?</h2>
+<h2 class="banana" id="create">Who would you like to vote for in the <em class="category">Create</em> category?</h2>
 
 <ul class="banana">
 {% assign first_item = true %}
@@ -227,7 +231,7 @@ You may want to visit our [home page](/) instead.
 
 <hr />
 
-<h2 class="strawberry" id="play">Who would you like to vote for in the <span style="text-transform: uppercase;">Play</span> category?</h2>
+<h2 class="strawberry" id="play">Who would you like to vote for in the <em class="category">Play</em> category?</h2>
 
 <ul class="strawberry">
 {% assign first_item = true %}
@@ -275,7 +279,7 @@ You may want to visit our [home page](/) instead.
 
 <hr />
 
-<h2 class="tangerine" id="connect">Who would you like to vote for in the <span style="text-transform: uppercase;">Connect</span> category?</h2>
+<h2 class="tangerine" id="connect">Who would you like to vote for in the <em class="category">Connect</em> category?</h2>
 
 <ul class="tangerine">
 {% assign first_item = true %}
@@ -323,7 +327,7 @@ You may want to visit our [home page](/) instead.
 
 <hr />
 
-<h2 class="lime" id="live">Who would you like to vote for in the <span style="text-transform: uppercase;">Live</span> category?</h2>
+<h2 class="lime" id="live">Who would you like to vote for in the <em class="category">Live</em> category?</h2>
 
 <ul class="lime">
 {% assign first_item = true %}
@@ -372,20 +376,20 @@ You may want to visit our [home page](/) instead.
 <hr />
 
 
-<section id="zip" class="banana" style="display: none">
+<section id="zip" class="banana hidden">
 
 <div markdown="1">
 
 ## Please enter your ZIP Code
 
 <p class="field-button">
-<label style="flex-grow: 1; margin-right: 0.25em;">
+<label>
   <input type="text" name="zip" pattern="[0-9]*" inputmode="number" placeholder="" />
 </label>
 <button type="submit">Next</button>
 </p>
 
-<p><small style="display: block; line-height: 1.375; margin-top: 0.875em;">LA2050 uses ZIP Codes to determine how much of Los Angeles we’re reaching.</small></p>
+<p><small>LA2050 uses ZIP Codes to determine how much of Los Angeles we’re reaching.</small></p>
 
 </div>
 
@@ -393,19 +397,19 @@ You may want to visit our [home page](/) instead.
 
 
 
-<section id="finish" class="blueberry" style="display: none;">
+<section id="finish" class="blueberry hidden">
 
 <div markdown="1">
-## You’re <span style="text-decoration: underline;">almost</span> done!
+## You’re <em>almost</em> done!
 
 Now it’s time to confirm your vote(s) by signing in with one of your accounts.
 
 ### Sign in with…
 
-<ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
-  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone">Phone</a></li>
-  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email">Email</a></li>
-  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-facebook">Facebook</a></li>
+<ul class="action">
+  <li><a href="#sign-in-phone">Phone</a></li>
+  <li><a href="#sign-in-email">Email</a></li>
+  <li><a href="#sign-in-facebook">Facebook</a></li>
 </ul>
 
 </div>
@@ -432,7 +436,7 @@ Now it’s time to confirm your vote(s) by signing in with one of your accounts.
 <input type="hidden" name="live" />
 <input type="hidden" name="zip" />
 
-<section id="sign-in-email" class="lime" style="display: none">
+<section id="sign-in-email" class="lime hidden">
 
 <div markdown="1">
 ## Sign in with email
@@ -440,24 +444,21 @@ Now it’s time to confirm your vote(s) by signing in with one of your accounts.
 Next, we’ll send a message to your email address, with instructions.
 
 <p class="field-button banana">
-<label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="email" name="email" placeholder="example@mail.com" required="required" style="text-align: left;" />
+<label>
+  <input type="email" name="email" placeholder="example@mail.com" required="required" />
 </label>
 <button type="submit">Send email</button>
 </p>
 
-<p style="margin-top: 1.7142857143em"><small>We will only use this email address to complete the voting process. (No spam, we promise!)</small></p>
+<p><small>We will only use this email address to complete the voting process. (No spam, we promise!)</small></p>
 </div>
 
 </section>
 
 </form>
 
-{% comment %}
-<!--
-<form name="vote_sms" action="/vote/sms-sent/" method="post" data-netlify="true">
--->
-{% endcomment %}
+
+
 <form name="vote_sms" action="/vote/sms-sent/" method="get">
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
@@ -466,7 +467,7 @@ Next, we’ll send a message to your email address, with instructions.
 <input type="hidden" name="live" />
 <input type="hidden" name="zip" />
 
-<section id="sign-in-phone" class="strawberry" style="display: none">
+<section id="sign-in-phone" class="strawberry hidden">
 
 <div markdown="1">
 ## Sign in with your phone
@@ -474,13 +475,13 @@ Next, we’ll send a message to your email address, with instructions.
 Next, we’ll send a text message to your phone number, with instructions.
 
 <p class="field-button">
-<label style="flex-grow: 1; margin-right: 0.25em;">
-  <input type="tel" name="telephone" placeholder="+1 222 333 4444" required="required" style="text-align: left;" />
+<label>
+  <input type="tel" name="telephone" placeholder="+1 222 333 4444" required="required"/>
 </label>
 <button type="submit">Send text message</button>
 </p>
 
-<p style="margin-top: 1.7142857143em"><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
+<p><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
 </div>
 
 </section>
@@ -489,7 +490,7 @@ Next, we’ll send a text message to your phone number, with instructions.
 
 <div class="progress hidden" role="status" id="progress">
   <p class="action"><a href="#zip">Confirm my votes</a></p>
-  <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
+  <p>You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
 </div>
 
 <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>

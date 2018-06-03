@@ -7,6 +7,27 @@
     position: relative;
   }
 
+  h2 em {
+    color: inherit !important; /* !important to override styles intended for main pages */
+    text-decoration: underline;
+    font-style: inherit;
+    font-weight: inherit;
+  }
+  h2 em.category {
+    text-transform: uppercase;
+    text-decoration: inherit;
+  }
+
+  ul.action {
+    max-width: 20em;
+    margin: 1.5em auto 0;
+    padding: 0;
+  }
+  ul.action li {
+    margin: 0.75em 0 !important;
+    padding: 0;
+  }
+
   section,
   .introduction {
     display: flex;
@@ -19,6 +40,11 @@
     padding: 1.5em;
     margin: 0 -1.5em;
   }
+
+  section.hidden {
+    display: none;
+  }
+
   .introduction {
     background-color: rgb(125, 212, 222);
     background-image: url(/assets/images/vote-background.jpg);
@@ -305,10 +331,22 @@
   form .field-button {
     margin-top: 1.5em;
   }
+  form .field-button label {
+    flex-grow: 1;
+    margin-right: 0.25em;
+  }
+  form .field-button input {
+    text-align: left;
+  }
   form .field-button button {
     margin-top: 0.375em;
     display: block;
     width: 100%;
+  }
+
+  /* Reduce line height */
+  small:first-child:last-child {
+    display: block;
   }
 
   @media (min-width: 40em) {
@@ -684,6 +722,9 @@
     color: white;
     padding: 3em 1.5em;
     margin: 0 -1.5em 3em
+  }
+  #questions a {
+    color: inherit;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
     #questions p {

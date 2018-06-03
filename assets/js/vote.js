@@ -103,8 +103,6 @@
         console.dir(res)
 
         form.submit();
-        // document.querySelector('.introduction').style.display = 'block';
-        // document.querySelector('form').style.display = 'none';
       }
 
       // Hide the input and show a "Check your email for your login link!" screen
@@ -286,19 +284,11 @@
 
       count.innerText = counter;
 
-      var exclamations = ['Nice!', 'Hooray!', 'Sweet!', 'Way to go!', 'Excellent!'];
-      document.getElementById('exclamation').innerText = exclamations[counter - 1];
-
-      // if (counter >= 5) {
-      //   progress.querySelector('p').innerHTML = 'You’ve voted in all five categories!';
-      //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
-      // }
-
       if (counter >= 1 
           && zipShowing
           && !finish) {
         finish = document.getElementById('finish');
-        finish.style.display = 'flex';
+        finish.classList.remove('hidden');
 
         window.addEventListener('scroll', function() {
           //if (isVisible(finish, getOffset(finish).top, window.scrollY)) {
@@ -313,7 +303,7 @@
 
       if (counter >= 1 && !zip) {
         zip = document.getElementById('zip');
-        zip.style.display = 'flex';
+        zip.classList.remove('hidden');
         zipShowing = true;
       }
     }
@@ -355,13 +345,13 @@
   })
 
   document.querySelector('a[href="#sign-in-phone"]').addEventListener('click', function(e) {
-    document.getElementById('sign-in-phone').style.display = 'flex';
+    document.getElementById('sign-in-phone').classList.remove('hidden')
     document.getElementById('sign-in-phone').scrollIntoView({ behavior: 'smooth', block: 'start' });
     e.preventDefault();
   })
 
   document.querySelector('a[href="#sign-in-email"]').addEventListener('click', function(e) {
-    document.getElementById('sign-in-email').style.display = 'flex';
+    document.getElementById('sign-in-email').classList.remove('hidden')
     document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' });
     e.preventDefault();
   })
