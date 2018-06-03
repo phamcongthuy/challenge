@@ -17,20 +17,24 @@ You may want to visit our [home page](/) instead.
 
 {% else %}
 
+
 <script>
-window.la2050 = window.la2050 || {}
+(function() {
+  function getRandomOrder() {
+    return (Math.floor(Math.random() * 10) + 1) - 5;
+  }
+  for (var index = 0; index < 5; index++) {
+    document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
+  }
+})();
 </script>
 
-<div class="introduction" markdown="1" style="position: relative;">
+
+<div class="introduction introduction-voting" markdown="1">
 
 <div>
 <a href="/finalists/" class="logo">
-  <!--
-  <img src="/assets/images/vote-logo-white.png" alt="My LA2050 Activation Challenge" style="margin-top: -3em;
-    width: 12em;
-    height: auto;" />
-  -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.1 79.2" width="200" height="200">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.1 79.2" width="200" height="200" aria-label="My LA2050 Activation Challenge" role="img">
     <switch>
       <g>
         <path d="M18.7,15.7L18.7,15.7l5.9-15.2H29v19.8h-2.8V3.8h-0.1l-6.6,16.6h-1.8L11.2,3.8h-0.1v16.6H8.5V0.5h4.3
@@ -111,48 +115,14 @@ window.la2050 = window.la2050 || {}
 
 <p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
 
-<p class="action"><a href="#questions" onClick="document.getElementById('questions').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></p>
+<p class="action"><a href="#questions">Start voting</a></p>
 
-<!--
-<p style="font-size: 1rem"><a href="/finalists/" target="_blank">I want to learn more about the finalists</a>.</p>
--->
-
-  <!--
-<ul class="action">
-  <li><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Start voting</a></li>
-  <li style="margin-top: 1.5em"><a href="#learn" onClick="document.getElementById('learn').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Learn more about the finalists</a></li>
-  
-</ul>-->
 </div>
-
-<!--
-<p style="margin-top: 1.5em">
-  <a href="#learn">
-    <svg viewBox="0 0 448 512" width="24" height="24">
-      <switch>
-        <path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" class=""></path>
-        <foreignObject>Okay, let’s go</foreignObject>
-      </switch>
-    </svg>
-  </a>
-</p>
--->
 
 </div>
 
 
 
-
-<script>
-(function() {
-  function getRandomOrder() {
-    return (Math.floor(Math.random() * 10) + 1) - 5;
-  }
-  for (var index = 0; index < 5; index++) {
-    document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
-  }
-})();
-</script>
 
 
 <form name="vote" action="/vote/submit/" method="post" markdown="1" data-netlify="true">
@@ -433,21 +403,10 @@ Now it’s time to confirm your vote(s) by signing in with one of your accounts.
 ### Sign in with…
 
 <ul class="action" style="max-width: 20em; margin: 1.5em auto 0; padding: 0">
-  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone" onClick="document.getElementById('sign-in-phone').style.display = 'flex'; document.getElementById('sign-in-phone').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Phone</a></li>
-  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Email</a></li>
-  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-facebook" onClick="signInSocial('facebook'); event.preventDefault();">Facebook</a></li>
- <!--  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="/vote/confirmation/">Twitter</a></li> -->
+  <li style="order: 1" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-phone">Phone</a></li>
+  <li style="order: 3" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-email">Email</a></li>
+  <li style="order: 2" style="margin: 0.75em 0 !important; padding: 0"><a href="#sign-in-facebook">Facebook</a></li>
 </ul>
-
-<!--
-<ul class="action" style="display: block">
-  <li style="margin: 0 !important; padding-right: 0;"><a href="#sign-in-email" onClick="document.getElementById('sign-in-email').style.display = 'flex'; document.getElementById('sign-in-email').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Sign in with email</a></li>
-  <li style="margin: 0 !important; padding: 0;">or</li>
-  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Facebook</a></li>
-  <li style="margin: 0 !important; padding: 0">or</li>
-  <li style="margin: 0 !important; padding-right: 0;"><a href="/vote/confirmation/">Sign in with Twitter</a></li>
-</ul>
--->
 
 </div>
 
@@ -528,364 +487,13 @@ Next, we’ll send a text message to your phone number, with instructions.
 
 </form>
 
-<!--
-<div style="margin-top: 9em"></div>
--->
-
-<script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
-<script type="text/javascript">
-</script>
-
-<script>
-  function sendEmail(form){
-    console.log('sendEmail');
-
-    var email = (form.querySelector('input[name="email"]')) ? form.querySelector('input[name="email"]').value : null;
-    var telephone = (form.querySelector('input[name="telephone"]')) ? form.querySelector('input[name="telephone"]').value : null;
-
-    var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
-    var votesData = [];
-    var nextField;
-    for (var index = 0; index < fieldNames.length; index++) {
-      nextField = document.querySelector('input[type="radio"][name="' + fieldNames[index] + '"]:checked');
-      if (nextField) {
-        votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
-        form.querySelector('input[type="hidden"][name="' + fieldNames[index] + '"]').value = nextField.value;
-      } else {
-        console.log('skipped: ' + fieldNames[index]);
-      }
-    }
-
-    if ((votesData).length < 1) {
-      console.error('No items were voted for');
-      return;
-    }
-
-    var zip = document.querySelector('input[type="number"][name="zip"]').value;
-    if (!zip || zip == '') {
-      console.log('No zip code')
-    } else {
-      form.querySelector('input[type="hidden"][name="zip"]').value = zip;
-    }
-
-    votesData.push('zip=' + encodeURIComponent(zip));
-
-    if (telephone && telephone.indexOf('+') !== 0) telephone = '+1 ' + telephone
-
-    if (telephone) {
-      votesData.push('telephone=' + encodeURIComponent(telephone));
-      form.querySelector('input[name="telephone"]').value = telephone;
-    } else if (email) {
-      votesData.push('email=' + encodeURIComponent(email));
-    } else {
-      console.error('Couldn’t find an email or phone to add to the data');
-    }
-
-    console.dir(votesData);
-
-    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
-    console.log('redirectUri: ' + redirectUri);
-
-    var options = {
-      redirectUri: redirectUri,
-    }
-
-    // TODO: Validate phone number
-
-    if (telephone) {
-      options.connection = 'sms'
-      options.send = 'code'
-      options.phoneNumber = telephone.replace(/\-/g, '').replace(/\s/g, '')
-    } else if (email) {
-      options.connection = 'email'
-      options.send = 'link'
-      options.email = email
-    } else {
-      console.error('Couldn’t find an email or phone to authenticate');
-    }
-
-    var webAuth = new auth0.WebAuth({
-      domain:      'activation-la2050.auth0.com',
-      clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
-      // responseMode: 'form_post',
-      responseType: 'token',
-      redirectUri: redirectUri
-    });
-
-    webAuth.passwordlessStart(options, function (err,res) {
-      if (err) {
-        // Handle error
-
-        console.log('err');
-        console.log(err)
-        console.dir(err)
-      } else {
-        // form.action = form.action + '?' + votesData.join('&');
-
-        // TODO: Switch back to a single form on this page
-        // if (telephone) {
-        //   form.action = '/vote/sms-sent/';
-        //   form.method = 'get';
-        // } else if (email) {
-        //   form.action = '/vote/email-sent/';
-        //   form.method = 'get';
-        // }
-
-        console.log('res');
-        console.log(res)
-        console.dir(res)
-
-        form.submit();
-        // document.querySelector('.introduction').style.display = 'block';
-        // document.querySelector('form').style.display = 'none';
-      }
-
-      // Hide the input and show a "Check your email for your login link!" screen
-      //$('.enter-email').hide();
-      //$('.check-email').show();
-
-
-    });
-  }
-
-  function signInSocial(socialNetwork) {
-
-    var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
-    var votesData = [];
-    var nextField;
-    for (var index = 0; index < fieldNames.length; index++) {
-      nextField = document.querySelector('input[type="radio"][name="' + fieldNames[index] + '"]:checked');
-      if (nextField) {
-        votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
-      } else {
-        console.log('skipped: ' + fieldNames[index]);
-      }
-    }
-
-    if ((votesData).length < 1) {
-      console.error('No items were voted for');
-      return;
-    }
-
-    var zip = document.querySelector('input[name="zip"]').value;
-    if (!zip || zip == '') {
-      console.log('No zip code')
-    }
-
-    votesData.push('zip=' + encodeURIComponent(zip));
-
-    votesData.push('social_network=' + encodeURIComponent(socialNetwork))
-
-    console.dir(votesData);
-
-    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
-    console.log('redirectUri: ' + redirectUri);
-
-    var options = {
-      redirectUri: redirectUri,
-    }
-
-    options.connection = socialNetwork
-
-    var webAuth = new auth0.WebAuth({
-      domain:      'activation-la2050.auth0.com',
-      clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
-      responseType: 'token',
-      redirectUri: redirectUri
-    });
-
-    webAuth.authorize(options, function (err,res) {
-      if (err) {
-        // Handle error
-        console.dir(err)
-      } else {
-        console.dir(res)
-      }
-    });
-  }
-
-  var forms = document.querySelectorAll('form');
-  for (var index = 0; index < forms.length; index++) {
-    forms[index].addEventListener('submit', function(e) {
-      console.log('form submit'); 
-      e.preventDefault();
-      if (e.target.name == 'vote') {
-        la2050.updateProgress()
-        la2050.scrollTo('finish')
-      }
-      sendEmail(e.target);
-    })
-  }
-</script>
-
-
-
-<script>
-(function() {
-  function closest(element, tagName) {
-
-    // If the element is the target
-    if (element.nodeName.toLowerCase() === tagName) return element;
-
-    var ancestor = element;
-    while ((ancestor = ancestor.parentElement) && ancestor.nodeName && ancestor.nodeName.toLowerCase() !== tagName);
-    if (ancestor && ancestor.nodeName && ancestor.nodeName.toLowerCase() === tagName) {
-      return ancestor;
-    }
-  }
-
-  //document.addEventListener("DOMContentLoaded", function(event) {
-    var form = document.querySelector('form');
-
-    //console.dir(form);
-
-    var delay = 500;
-    var delayTimeout;
-    la2050.scrollTo = function(elementID) {
-      console.log('scrollTo: ' + elementID)
-      if (delayTimeout) clearTimeout(delayTimeout)
-      delayTimeout = setTimeout(function() {
-        __scrollTo(elementID)
-      }, delay);
-    }
-
-    function __scrollTo(elementID) {
-      console.log('__scrollTo: ' + elementID)
-      // if (counter >= 5) {
-      //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
-      // } else {
-        document.getElementById(elementID).scrollIntoView({ behavior: 'smooth', block: 'start' });
-      //}
-    }
-
-    form.addEventListener('click', function(e) {
-        if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
-          console.log('e.target.name: ' + e.target.name)
-          switch(e.target.name) {
-            case 'learn':
-              la2050.updateProgress()
-              la2050.scrollTo('create')
-              break;
-            case 'create':
-              la2050.updateProgress()
-              la2050.scrollTo('play')
-              break;
-            case 'play':
-              la2050.updateProgress()
-              la2050.scrollTo('connect')
-              break;
-            case 'connect':
-              la2050.updateProgress()
-              la2050.scrollTo('live')
-              break;
-            case 'live':
-              la2050.updateProgress()
-              la2050.scrollTo('zip')
-              break;
-            default:
-
-          }
-        }
-    });
-  //});
-
-  // window.addEventListener('scroll', function(e) {
-  //   if (delayTimeout) clearTimeout(delayTimeout)
-  // })
-
-  console.log('setting up zip button')
-  var zipButton = document.querySelector('#zip button');
-  console.log('zip button: ' + zipButton);
-  zipButton.addEventListener('click', function(e) {
-    console.log('zipButton click')
-    e.preventDefault()
-    la2050.updateProgress()
-    console.log('updateProgress done')
-    la2050.scrollTo('finish')
-    console.log('scrollTo finish done')
-  })
-
-
-  var counter = 0;
-  var count;
-  var progress;
-  var finish;
-  var zip;
-  var zipShowing = false;
-  la2050.updateProgress = function() {
-    if (!progress) progress = document.getElementById("progress");
-    if (!count) count = document.getElementById("vote-count");
-
-    progress.classList.remove('hidden');
-
-    counter = document.querySelectorAll('input[type="radio"]:checked').length;
-
-    count.innerText = counter;
-
-    var exclamations = ['Nice!', 'Hooray!', 'Sweet!', 'Way to go!', 'Excellent!'];
-    document.getElementById('exclamation').innerText = exclamations[counter - 1];
-
-    // if (counter >= 5) {
-    //   progress.querySelector('p').innerHTML = 'You’ve voted in all five categories!';
-    //   document.getElementById('finish').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    // }
-
-    if (counter >= 1 
-        && zipShowing
-        && !finish) {
-      finish = document.getElementById('finish');
-      finish.style.display = 'flex';
-
-      window.addEventListener('scroll', function() {
-        //if (isVisible(finish, getOffset(finish).top, window.scrollY)) {
-        if ((window.scrollY + (window.innerHeight / 2)) >= getOffset(finish).top) {
-          progress.classList.add('hidden-button');
-        } else {
-          progress.classList.remove('hidden-button');
-        }
-      })
-
-    }
-
-    if (counter >= 1 && !zip) {
-      zip = document.getElementById('zip');
-      zip.style.display = 'flex';
-      zipShowing = true;
-    }
-  }
-
-  // KUDOS: http://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element#answer-442474
-  function getOffset( el ) {
-    var _x = 0;
-    var _y = 0;
-    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
-        _x += el.offsetLeft;
-        _y += el.offsetTop;
-        el = el.offsetParent;
-    }
-    return { top: _y, left: _x };
-  }
-
-  function isVisible(element, elementTop, windowTop) {
-    var elementBottom = elementTop + element.offsetHeight;
-    var windowBottom  = windowTop  + window.innerHeight;
-
-    // If the top edge of the window is greater than the top edge of the target
-    if ((elementTop >= windowTop && elementTop <= windowBottom) || (elementBottom >= windowTop && elementBottom <= windowBottom)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-})();
-</script>
-
 <div class="progress hidden" role="status" id="progress">
-  <p class="action"><a href="#zip" onClick="document.getElementById('zip').scrollIntoView({ behavior: 'smooth', block: 'start' }); event.preventDefault();">Confirm my votes</a></p>
+  <p class="action"><a href="#zip">Confirm my votes</a></p>
   <p><span id="exclamation" style="display: none">Nice!</span> You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p>
 </div>
 
+<script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
 <script src="/assets/js/scroll-into-view.js"></script>
+<script src="/assets/js/vote.js"></script>
 
 {% endif %}

@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .introduction-voting {
+    position: relative;
+  }
+
   section,
   .introduction {
     display: flex;
