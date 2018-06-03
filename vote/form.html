@@ -1,0 +1,154 @@
+---
+title: Vote in the 2018 My LA2050 Activation Challenge
+body_class: blueberry
+stylesheets:
+  - "/assets/css/vote.css"
+---
+
+{% if site.phase != 6 %}
+
+  <h1>Oops!</h1>
+
+  <p>This page couldn’t be found.</p>
+
+  <p>You may want to visit our <a href="/">home page</a> instead.</p>
+
+{% else %}
+
+  <script>
+  (function() {
+    function getRandomOrder() {
+      return (Math.floor(Math.random() * 10) + 1) - 5;
+    }
+    for (var index = 0; index < 5; index++) {
+      document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
+    }
+  })();
+  </script>
+
+  <div class="introduction introduction-voting">
+    <div>
+      <a href="/finalists/" class="logo">
+        {% include logo.html %}
+      </a>
+      <p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
+      <p class="action"><a href="#questions">Start voting</a></p>
+    </div>
+  </div>
+
+  <form name="vote" action="/vote/survey/" method="post" data-netlify="true">
+
+    <div id="questions">
+      <p>
+        If you need help completing this voting form, please send us an email at <a href="mailto:connect@la2050.org">connect@la2050.org</a>.
+        <br />
+        You can also learn more about the <a href="/vote/" target="_blank">voting process and rules</a>.
+      </p>
+    </div>
+
+    {% assign category = "learn" %}
+    {% assign category_color = "blueberry" %}
+    {% include vote-category-fieldset.html %}
+
+    <hr />
+
+    {% assign category = "create" %}
+    {% assign category_color = "banana" %}
+    {% include vote-category-fieldset.html %}
+
+    <hr />
+
+    {% assign category = "play" %}
+    {% assign category_color = "strawberry" %}
+    {% include vote-category-fieldset.html %}
+
+    <hr />
+
+    {% assign category = "connect" %}
+    {% assign category_color = "tangerine" %}
+    {% include vote-category-fieldset.html %}
+
+    <hr />
+
+    {% assign category = "live" %}
+    {% assign category_color = "lime" %}
+    {% include vote-category-fieldset.html %}
+
+    <hr />
+
+    <div class="progress hidden" id="progress">
+      <!-- <p class="action"><a href="#zip">Confirm my votes</a></p> -->
+      <p class="action"><button type="submit">Confirm my votes</button></p>
+      <p role="status" aria-live="polite">You voted in <strong id="vote-count">1</strong> out of <strong>5</strong> categories.</p> 
+    </div>
+
+    <section id="zip" class="banana">
+      <div>
+        <h2>Please enter your ZIP Code</h2>
+        <p class="field-button">
+          <label>
+            <span class="label-text">ZIP Code</span>
+            <input type="text" name="zip" pattern="[0-9]*" inputmode="number" placeholder="" />
+          </label>
+          <button type="submit" class="hidden">Next</button>
+        </p>
+        <p><small>LA2050 uses ZIP Codes to determine how much of Los Angeles we’re reaching.</small></p>
+      </div>
+    </section>
+
+    <section id="finish" class="blueberry">
+      <div>
+        <h2>You’re <em>almost</em> done!</h2>
+        <p>Now it’s time to confirm your vote(s) by signing in with one of your accounts.</p>
+        <h3>Sign in with…</h3>
+        <ul class="action">
+          <li>
+            <button type="submit" name="sign_in_by" value="phone">Phone</button>
+          </li>
+          <li>
+            <button type="submit" name="sign_in_by" value="email">Email</button>
+          </li>
+          <li class="facebook hidden">
+            <button type="submit" name="sign_in_by" value="facebook">Facebook</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="sign-in-phone" class="strawberry">
+      <div>
+        <h2>Sign in with your phone</h2>
+        <p>Next, we’ll send a text message to your phone number, with instructions.</p>
+        <p class="field-button">
+          <label>
+            <span class="label-text">Phone number</span>
+            <input type="tel" name="telephone" placeholder="+1 222 333 4444" />
+          </label>
+          <button type="submit">Send text message</button>
+        </p>
+        <p><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
+      </div>
+    </section>
+
+    <section id="sign-in-email" class="lime">
+      <div>
+        <h2>Sign in with email</h2>
+        <p>Next, we’ll send a message to your email address, with instructions.</p>
+        <p class="field-button banana">
+          <label>
+            <span class="label-text">Email address</span>
+            <input type="email" name="email" placeholder="example@mail.com" />
+          </label>
+          <button type="submit">Send email</button>
+        </p>
+        <p><small>We will only use this email address to complete the voting process. (No spam, we promise!)</small></p>
+      </div>
+    </section>
+
+  </form>
+
+  <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
+  <script src="/assets/js/scroll-into-view.js"></script>
+  <script src="/assets/js/vote.js"></script>
+
+{% endif %}

@@ -30,6 +30,7 @@ We sent you a message with instructions about how to confirm your votes.
 <input type="hidden" name="connect" />
 <input type="hidden" name="live" />
 <input type="hidden" name="email" />
+<input type="hidden" name="zip" />
 <p class="action"><button type="submit">Resend email</button></p>
 </form>
 
@@ -68,6 +69,7 @@ We sent you a message with instructions about how to confirm your votes.
     }
   }
 
+  form.querySelector('input[name="zip"]').value = getParameterByName('zip');
   form.querySelector('input[name="email"]').value = getParameterByName('email');
 
 </script>
@@ -104,6 +106,13 @@ We sent you a message with instructions about how to confirm your votes.
       console.error('No items were voted for');
       return;
     }
+
+    var zip = document.querySelector('input[name="zip"]').value;
+    if (!zip || zip == '') {
+      console.error('No zip code')
+    }
+
+    votesData.push('zip=' + encodeURIComponent(zip));
 
     votesData.push('email=' + email);
 
