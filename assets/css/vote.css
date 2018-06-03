@@ -650,11 +650,16 @@
     left: 0;
     width: 100%;
     background: rgb(245, 245, 245);
-    background: rgba(245, 245, 245, 0.75);
     color: black;
     padding: 0.75em;
     box-sizing: border-box;
     text-align: center;
+  }
+  /* SHIM: Make it easier to see which item has focus, when using the form by keyboard */
+  @media (orientation: landscape) {
+    .progress {
+      background: rgba(245, 245, 245, 0.75);
+    }
   }
   .progress.hidden {
     display: none;
