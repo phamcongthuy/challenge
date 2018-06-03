@@ -7,6 +7,54 @@
   var finishShowing = false;
   var zipSeen = false;
   var finishSeen = false;
+  var emailShowing = false;
+  var phoneShowing = false;
+
+
+  var zipButton
+  function setUpZipButton() {
+    if (zipButton) return
+    console.log('setting up zip button')
+    zipButton = document.querySelector('#zip button');
+    console.log('zip button: ' + zipButton);
+    zipButton.addEventListener('click', function(e) {
+      // console.log('zipButton click')
+      // e.preventDefault()
+      // updateProgress()
+      // console.log('updateProgress done')
+      scrollToElement('finish')
+      // console.log('scrollTo finish done')
+    })
+  }
+
+  var confirmButton
+  function setUpConfirmButton() {
+    if (confirmButton) return
+    console.log('setting up confirm button')
+    confirmButton = document.querySelector('#progress button');
+    console.log('zip button: ' + zipButton);
+    confirmButton.addEventListener('click', function(e) {
+      // console.log('zipButton click')
+      // e.preventDefault()
+      // updateProgress()
+      // console.log('updateProgress done')
+      if (document.querySelector('input[name="zip"]').value && 
+          document.querySelector('input[name="zip"]').value.length === 5) {
+        if (phoneShowing) {
+          scrollToElement('sign-in-phone')
+        } else if (emailShowing) {
+          scrollToElement('sign-in-email')
+        } else {
+          scrollToElement('finish')
+        }
+      } else {
+        scrollToElement('zip')
+      }
+      // console.log('scrollTo finish done')
+    })
+  }
+
+
 
   function sendEmail(form){
     console.log('sendEmail');
@@ -174,6 +222,7 @@
   }
 
   (function() {
+
     var form = document.querySelector('form[name="vote"]')
     console.log('form: ' + form)
     form.addEventListener('submit', function(e) {
@@ -186,14 +235,17 @@
           document.querySelector('input[name="zip"]').focus()
         }, 1000)
         zipSeen = true
+        setUpConfirmButton()
       } else if (!finishSeen) {
         finish.classList.remove('hidden')
         finishShowing = true
         scrollToElement('finish')
         finishSeen = true
+        setUpZipButton()
+      } else if (emailShowing || phoneShowing) {
+        console.log('form submit');
+        sendEmail(e.target);
       }
-      console.log('form submit');
-      sendEmail(e.target);
     })
   })();
 
@@ -314,18 +366,6 @@
     //   if (delayTimeout) clearTimeout(delayTimeout)
     // })
 
-    // console.log('setting up zip button')
-    // var zipButton = document.querySelector('#zip button');
-    // console.log('zip button: ' + zipButton);
-    // zipButton.addEventListener('click', function(e) {
-    //   console.log('zipButton click')
-    //   e.preventDefault()
-    //   updateProgress()
-    //   console.log('updateProgress done')
-    //   scrollToElement('finish')
-    //   console.log('scrollTo finish done')
-    // })
-
 
 
     var counter = 0;
@@ -363,6 +403,7 @@
       if (counter >= 1 && !zipShowing) {
         zip.classList.remove('hidden');
         zipShowing = true;
+        setUpConfirmButton()
       }
     }
 
@@ -423,6 +464,7 @@
       document.querySelector('input[name="telephone"]').focus()
     }, 1000)
     e.preventDefault();
+    phoneShowing = true
   })
 
   var signInEmail = document.getElementById('sign-in-email')
@@ -434,6 +476,7 @@
       document.querySelector('input[name="email"]').focus()
     }, 1000)
     e.preventDefault();
+    emailShowing = true
   })
 
   document.querySelector('a[href="#sign-in-facebook"]').addEventListener('click', function(e) {
