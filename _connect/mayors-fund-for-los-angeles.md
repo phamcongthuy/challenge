@@ -123,9 +123,7 @@ project_five_years: >-
   will offer a variety of programs to support service in the city, such as
   nonprofit capacity building, centralized training around relevant issues,
   service learning projects in partnership with LAUSD and a mayoral volunteer
-  recognition program. With the Olympic and Paralympic Games coming to LA in
-  2028, VolunteerLA will also be a key partner in helping to train and recruit
-  the thousands of volunteers that will be needed to power the Games.
+  recognition program.
    
    
    
