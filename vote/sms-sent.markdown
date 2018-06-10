@@ -19,7 +19,7 @@ You may want to visit our [home page](/) instead.
 
 <h2 style="max-width: none; text-align: center; font-size: 2.5em;">Please check your phone</h2>
 
-We sent you a text message with a verification code. Please enter it here.
+We sent a text message to your phone number with a verification code. <span style="display: inline-block;">Please enter it here.</span>
 
 <form action="/vote/sms-sent/" method="get">
 <input type="hidden" name="learn" />
@@ -32,11 +32,14 @@ We sent you a text message with a verification code. Please enter it here.
 
 <p style="font-size: 1em">
   <label>
-    <input type="text" placeholder="Verification Code" name="verification_code" />
+    <input type="text" pattern="[0-9]*" inputmode="number" placeholder="Verification Code" name="verification_code" required="required" />
     <button type="submit">Submit</button>
   </label>
 </p>
 </form>
+
+<h3 style="max-width: none; text-align: center; margin-bottom: 0;" id="headline"></h3>
+<p style="margin-top: 0"><small><span id="message-details"></span> <span id="resend" style="display: none"><a href="#resend">get a new verification code</a>.</span></small></p>
 
 <style>
 .promotion {
@@ -101,16 +104,57 @@ form input[type="text"] {
 
 </script>
 
-<script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
-<script type="text/javascript">
+<script src="{{ site.auth0_js_url }}"></script>
+<script>
+  window.AUTH0_DOMAIN    = '{{ site.auth0_domain }}',
+  window.AUTH0_CLIENT_ID = '{{ site.auth0_client_id }}'
 </script>
 
 <script>
-  function submitVerificationCode(form){
-    console.log('submitVerificationCode');
+  function showSaveMessage(err) {
+    document.getElementById('headline').textContent = 'Saving your votes…'
+    button.style.visibility = 'hidden'
+  }
+
+  function showErrorMessage(message) {
+    console.log('showErrorMessage: ' + message)
+
+    if (message === "Wrong phone number or verification code.") {
+      message = "That verification code isn’t correct or may have expired. Please try entering it again or"    
+      document.getElementById('resend').style.display = 'inline'
+    }
+
+    if (message === "Invalid request body. All and only of client_id, credential_type, username, otp, realm are required.") message = "Please enter the verification code that we sent you."
+
+    document.getElementById('headline').textContent      = 'Oops! Something went wrong'
+    document.getElementById('message-details').textContent = message
+
+    // form.action = '/vote/form/'
+    // form.method = 'get'
+    // button.style.visibility = 'visible'
+    // button.textContent = 'Start over'
+
+    // if (saveTimeout) clearTimeout(saveTimeout)
+  }
+
+  // var saveTimeout
+  // function refreshTimeout() {
+  //   if (saveTimeout) clearTimeout(saveTimeout)
+  //   saveTimeout = setTimeout(function() {
+  //     showErrorMessage('The sign in process timed out.')
+  //   }, 5000)
+  // }
+
+  function submit(form, options){
+    console.log('submit form');
 
     var telephone = document.querySelector('input[name="telephone"]').value;
     var verificationCode = document.querySelector('input[name="verification_code"]').value;
+
+    if (!telephone) {
+      showErrorMessage("Please try voting again.");
+      return; 
+    }
 
     var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
     var votesData = [];
@@ -126,12 +170,13 @@ form input[type="text"] {
 
     if ((votesData).length < 1) {
       console.error('No items were voted for');
+      showErrorMessage("Please try voting again.");
       return;
     }
 
     var zip = document.querySelector('input[name="zip"]').value;
     if (!zip || zip == '') {
-      console.error('No zip code')
+      console.log('No zip code')
     }
 
     votesData.push('zip=' + encodeURIComponent(zip));
@@ -140,54 +185,89 @@ form input[type="text"] {
 
     console.dir(votesData);
 
-    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
+    var redirectUri = window.location.origin + '/vote/' + (options && options.resend ? 'sms-sent' : 'authenticated') + '/?' + votesData.join('&');
     console.log('redirectUri: ' + redirectUri);
 
     console.log("telephone: " + telephone.replace(/\-/g, '').replace(/\s/g, ''))
     console.log("verificationCode: " + verificationCode)
 
     var webAuth = new auth0.WebAuth({
-      domain:      'activation-la2050.auth0.com',
-      clientID:    'INfJpr4dnNk2EN143utsZYz4Zeq9c7cd',
+      domain: window.AUTH0_DOMAIN,
+      clientID: window.AUTH0_CLIENT_ID,
       // responseMode: 'form_post',
       responseType: 'token',
       redirectUri: redirectUri
     });
-    webAuth.passwordlessLogin({
+
+    if (options && options.resend) {
+      webAuth.passwordlessStart({
         connection: 'sms',
+        send: 'code',
         phoneNumber: telephone.replace(/\-/g, '').replace(/\s/g, ''),
-        verificationCode: verificationCode
+        redirectUri: redirectUri
       }, function (err,res) {
         if (err) {
           // Handle error
+          showErrorMessage(err.errorDescription || err.description)
+
+          console.log('err');
+          console.log(err)
+          console.dir(err)
         } else {
-          // form.action = form.action + '?' + votesData.join('&');
-          // form.submit();
-          // document.querySelector('.introduction').style.display = 'block';
-          // document.querySelector('form').style.display = 'none';
+          form.action = '/vote/sms-sent/';
+          form.method = 'get';
+
+          console.log('res');
+          console.log(res)
+          console.dir(res)
+
+          form.submit();
         }
 
-        console.log('err');
-        console.log(err)
-        console.dir(err)
+      });
+    } else {
 
-        console.log('res');
-        console.log(res)
-        console.dir(res)
+      webAuth.passwordlessLogin({
+          connection: 'sms',
+          phoneNumber: telephone.replace(/\-/g, '').replace(/\s/g, ''),
+          verificationCode: verificationCode,
+          redirectUri: redirectUri
+        }, function (err,res) {
+          if (err) {
+            // Handle error
+            showErrorMessage(err.errorDescription || err.description)
 
-        // Hide the input and show a "Check your email for your login link!" screen
-        //$('.enter-email').hide();
-        //$('.check-email').show();
+            console.log('err');
+            console.log(err)
+            console.dir(err)
+          } else {
 
-      }
-    );
+            console.log('res');
+            console.log(res)
+            console.dir(res)
+
+            // form.action = form.action + '?' + votesData.join('&');
+            // form.submit();
+            // document.querySelector('.introduction').style.display = 'block';
+            // document.querySelector('form').style.display = 'none';
+          }
+
+
+        }
+      );
+    }
   }
 
   document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault();
-    submitVerificationCode(e.target);
-
+    submit(e.target);
   })
+
+  document.querySelector('a[href="#resend"]').addEventListener('click', function(e) {
+    e.preventDefault();
+    submit(form, { resend: true });
+  })
+
 </script>
 
 {% endif %}

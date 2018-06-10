@@ -15,20 +15,9 @@ stylesheets:
 
 {% else %}
 
-  <script>
-  (function() {
-    function getRandomOrder() {
-      return (Math.floor(Math.random() * 10) + 1) - 5;
-    }
-    for (var index = 0; index < 5; index++) {
-      document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
-    }
-  })();
-  </script>
-
   <div class="introduction introduction-voting">
     <div>
-      <a href="/finalists/" class="logo">
+      <a href="/" class="logo">
         {% include logo.html %}
       </a>
       <p>It’s time to vote! Choose one <a href="/finalists/" target="_blank">finalist</a> in each goal category.</p>
@@ -36,13 +25,13 @@ stylesheets:
     </div>
   </div>
 
-  <form name="vote" action="/vote/submit/" method="post" data-netlify="true">
+  <form name="vote" action="/vote/survey/" method="post" data-netlify="true">
 
     <div id="questions">
       <p>
         If you need help completing this voting form, please send us an email at <a href="mailto:connect@la2050.org">connect@la2050.org</a>.
         <br />
-        You can also learn more about the <a href="/vote/" target="_blank">voting process and rules</a>.
+        You can also read more about the <a href="/vote/" target="_blank">voting process and rules</a>.
       </p>
     </div>
 
@@ -50,31 +39,21 @@ stylesheets:
     {% assign category_color = "blueberry" %}
     {% include vote-category-fieldset.html %}
 
-    <hr />
-
     {% assign category = "create" %}
     {% assign category_color = "banana" %}
     {% include vote-category-fieldset.html %}
-
-    <hr />
 
     {% assign category = "play" %}
     {% assign category_color = "strawberry" %}
     {% include vote-category-fieldset.html %}
 
-    <hr />
-
     {% assign category = "connect" %}
     {% assign category_color = "tangerine" %}
     {% include vote-category-fieldset.html %}
 
-    <hr />
-
     {% assign category = "live" %}
     {% assign category_color = "lime" %}
     {% include vote-category-fieldset.html %}
-
-    <hr />
 
     <div class="progress hidden" id="progress">
       <!-- <p class="action"><a href="#zip">Confirm my votes</a></p> -->
@@ -88,7 +67,7 @@ stylesheets:
         <p class="field-button">
           <label>
             <span class="label-text">ZIP Code</span>
-            <input type="text" name="zip" pattern="[0-9]*" inputmode="number" placeholder="" />
+            <input type="text" name="zip" pattern="[0-9]*" inputmode="number" required="required" />
           </label>
           <button type="submit" class="hidden">Next</button>
         </p>
@@ -96,19 +75,51 @@ stylesheets:
       </div>
     </section>
 
+    <!--
+    <section id="subscribe" class="tangerine">
+      <div>
+        <h2>Join the movement!</h2>
+        <p style="max-width: 42em">Sign up for the LA2050 newsletter and twice a month, you'll receive updates on awesome orgs in LA, activations, opportunities, and jobs that are shaping the future of our region.</p>
+        <p class="field-button" style="max-width: 20em; margin-left: auto; margin-right: auto;">
+          <label>
+            <span class="label-text">Email address</span>
+            <input type="email" name="subscribe_email" placeholder="example@mail.com" />
+          </label>
+          <button type="submit" class="hidden">Next</button>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="subscribe_agree" value="1" checked="checked" style="font-size: inherit;" />
+            Subscribe me to the mailing list
+          </label>
+        </p>
+      </div>
+    </section>
+    -->
+
     <section id="finish" class="blueberry">
       <div>
         <h2>You’re <em>almost</em> done!</h2>
         <p>Now it’s time to confirm your vote(s) by signing in with one of your accounts.</p>
         <h3>Sign in with…</h3>
-        <ul class="action">
+
+        <ul class="action links">
+          <li>
+            <a href="#sign-in-phone">Phone</a>
+          </li>
+          <li>
+            <a href="#sign-in-email">Email</a>
+          </li>
+        </ul>
+
+        <ul class="action buttons hidden">
           <li>
             <button type="submit" name="sign_in_by" value="phone">Phone</button>
           </li>
           <li>
             <button type="submit" name="sign_in_by" value="email">Email</button>
           </li>
-          <li class="facebook hidden">
+          <li>
             <button type="submit" name="sign_in_by" value="facebook">Facebook</button>
           </li>
         </ul>
@@ -118,7 +129,7 @@ stylesheets:
     <section id="sign-in-phone" class="strawberry">
       <div>
         <h2>Sign in with your phone</h2>
-        <p>Next, we’ll send a text message to your phone number, with instructions.</p>
+        <p>Next we’ll send a text message to your phone number with a verification code.</p>
         <p class="field-button">
           <label>
             <span class="label-text">Phone number</span>
@@ -133,21 +144,88 @@ stylesheets:
     <section id="sign-in-email" class="lime">
       <div>
         <h2>Sign in with email</h2>
-        <p>Next, we’ll send a message to your email address, with instructions.</p>
+        <p>Next we’ll send a message to your email address with a link you can press to sign in.</p>
         <p class="field-button banana">
           <label>
             <span class="label-text">Email address</span>
             <input type="email" name="email" placeholder="example@mail.com" />
           </label>
-          <button type="submit">Send email</button>
+          <button type="submit" id="send-email-button">Submit</button>
         </p>
-        <p><small>We will only use this email address to complete the voting process. (No spam, we promise!)</small></p>
+        <p class="checkbox">
+          <label>
+            <input type="checkbox" name="subscribe_email_list" value="Yes" checked="checked">
+            <span class="pseudo-checkbox">
+              <svg width="24" height="24" viewBox="0 0 512 512">
+                <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+              </svg>
+            </span>
+            <strong style="">I want to subscribe to the LA2050 newsletter</strong>
+          </label>
+        </p>
+        <p class="note"><small>We’d love to keep in touch, but we don’t want to end up in your spam folder. Keep this box checked to sign up for the LA2050 newsletter and twice a month, you’ll receive updates on awesome organizations in Los Angeles, events, and jobs that are shaping the future of our region. <strong>Join the movement!</strong></small></p>
       </div>
     </section>
 
   </form>
 
-  <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
+  {% comment %}
+  <script>
+  (function() {
+    function getRandomOrder() {
+      return (Math.floor(Math.random() * 10) + 1) - 5
+    }
+
+    for (var index = 0; index < 5; index++) {
+      document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
+    }
+  })();
+  </script>
+  {% endcomment %}
+
+  <script>
+  (function() {
+    if (!document.body.querySelector || !document.body.querySelectorAll) return
+
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    function randomize(selector) {
+      var items = document.querySelectorAll(selector)
+      if (items.length < 1) return
+
+      var nextItem
+      var parent = items[0].parentNode
+
+      for (var index = 0; index < items.length; index++) {
+
+        // Get a random item
+        nextItem = items[getRandomInt(items.length)]
+
+        // Move it before the first item
+        parent.removeChild(nextItem)
+        // console.dir(nextItem)
+        // console.dir(items)
+        parent.insertBefore(nextItem, document.querySelector(selector))
+      }
+    }
+
+    randomize('form > .category')
+    randomize('form ul.learn li')
+    randomize('form ul.create li')
+    randomize('form ul.play li')
+    randomize('form ul.connect li')
+    randomize('form ul.live li')
+  })()
+  </script>
+
+  <script src="{{ site.auth0_js_url }}"></script>
+  <script>
+    window.AUTH0_DOMAIN    = '{{ site.auth0_domain }}',
+    window.AUTH0_CLIENT_ID = '{{ site.auth0_client_id }}'
+  </script>
   <script async src="/assets/js/vote.js"></script>
   <script async src="/assets/js/scroll-into-view.js"></script>
 
