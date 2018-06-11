@@ -135,7 +135,10 @@ permalink: pretty
 exclude:
   - CNAME
   - README
+  - Gemfile
+  - Gemfile.lock
   - _node
+  - sitemap.txt
   - assets/images/learn/original
   - assets/images/create/original
   - assets/images/play/original
@@ -144,9 +147,6 @@ exclude:
   - assets/images/goals/original
   - assets/images/home/original
   - assets/images/vote/original
-  - Gemfile
-  - Gemfile.lock
-  - sitemap.txt
 
 defaults:
   - scope:
