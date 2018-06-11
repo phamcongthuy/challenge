@@ -58,7 +58,7 @@ You may want to visit our [home page](/) instead.
   function getParameterByName(name, url) {
     if (!url) url = window.location.href
     name = name.replace(/[\[\]]/g, "\\$&")
-    let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
     results = regex.exec(url)
     if (!results) return null
     if (!results[2]) return ''
@@ -135,16 +135,31 @@ You may want to visit our [home page](/) instead.
   function showErrorMessage(message) {
     console.log('showErrorMessage')
 
+    document.getElementById('headline').textContent      = 'Oops! Something went wrong'
+    document.getElementById('message').style.visibility = 'visible'
+
     if (message === "`state` does not match.") message = "This error may happen if you switch to a different phone, computer, or web browser during the sign in process."
 
     if (message === "Wrong email or verification code.") message = "This email link has expired."
 
-    document.getElementById('headline').textContent      = 'Oops! Something went wrong'
-    document.getElementById('message').style.visibility = 'visible'
+    if (message === "No verifier returned from client.") {
+      message = "This error may happen if your web browser blocks third party cookies."
+
+      if (document.querySelector('input[name="telephone"]').value &&
+          document.querySelector('input[name="telephone"]').value != "") {
+        document.querySelector("#message a").addEventListener('click', function(e) {
+          if (window.resendSMS) {
+            window.resendSMS()
+            e.preventDefault()
+          }
+        })
+      }
+    }
+
     document.getElementById('message-details').textContent = message
 
-    form.action = '/vote/form/'
-    form.method = 'get'
+    // form.action = '/vote/form/'
+    // form.method = 'get'
     // button.style.visibility = 'visible'
     // button.textContent = 'Start over'
 
@@ -213,6 +228,80 @@ You may want to visit our [home page](/) instead.
     })
   } else {
     showErrorMessage('The sign in process couldn’t start.')
+  }
+</script>
+
+<script>
+  function resendSMS(){
+    console.log('resendSMS form');
+
+    var telephone = document.querySelector('input[name="telephone"]').value;
+
+    var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
+    var votesData = [];
+    var nextField;
+    for (var index = 0; index < fieldNames.length; index++) {
+      nextField = form.querySelector('input[name="' + fieldNames[index] + '"]');
+      if (nextField) {
+        votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
+      } else {
+        console.log('skipped: ' + fieldNames[index]);
+      }
+    }
+
+    if ((votesData).length < 1) {
+      console.error('No items were voted for');
+      return;
+    }
+
+    var zip = document.querySelector('input[name="zip"]').value;
+    if (!zip || zip == '') {
+      console.log('No zip code')
+    }
+
+    votesData.push('zip=' + encodeURIComponent(zip));
+
+    votesData.push('telephone=' + encodeURIComponent(telephone));
+
+    console.dir(votesData);
+
+    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
+    console.log('redirectUri: ' + redirectUri);
+
+    console.log("telephone: " + telephone.replace(/\-/g, '').replace(/\s/g, ''))
+
+    var webAuth = new auth0.WebAuth({
+      domain: window.AUTH0_DOMAIN,
+      clientID: window.AUTH0_CLIENT_ID,
+      // responseMode: 'form_post',
+      responseType: 'token'
+    });
+
+    webAuth.passwordlessStart({
+      connection: 'sms',
+      send: 'code',
+      phoneNumber: telephone.replace(/\-/g, '').replace(/\s/g, ''),
+      redirectUri: redirectUri
+    }, function (err,res) {
+      if (err) {
+        // Handle error
+        showErrorMessage(err.errorDescription || err.description)
+
+        console.log('err');
+        console.log(err)
+        console.dir(err)
+      } else {
+        form.action = '/vote/sms-sent/';
+        form.method = 'get';
+
+        console.log('res');
+        console.log(res)
+        console.dir(res)
+
+        form.submit();
+      }
+
+    });
   }
 </script>
 

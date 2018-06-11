@@ -80,7 +80,7 @@ form input[type="text"] {
   function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
-    let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
     results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
@@ -185,7 +185,7 @@ form input[type="text"] {
 
     console.dir(votesData);
 
-    var redirectUri = window.location.origin + '/vote/' + (options && options.resend ? 'sms-sent' : 'authenticated') + '/?' + votesData.join('&');
+    var redirectUri = window.location.origin + '/vote/authenticated/?' + votesData.join('&');
     console.log('redirectUri: ' + redirectUri);
 
     console.log("telephone: " + telephone.replace(/\-/g, '').replace(/\s/g, ''))
@@ -195,8 +195,7 @@ form input[type="text"] {
       domain: window.AUTH0_DOMAIN,
       clientID: window.AUTH0_CLIENT_ID,
       // responseMode: 'form_post',
-      responseType: 'token',
-      redirectUri: redirectUri
+      responseType: 'token'
     });
 
     if (options && options.resend) {
@@ -214,8 +213,8 @@ form input[type="text"] {
           console.log(err)
           console.dir(err)
         } else {
-          form.action = '/vote/sms-sent/';
-          form.method = 'get';
+          // form.action = '/vote/sms-sent/';
+          // form.method = 'get';
 
           console.log('res');
           console.log(res)
