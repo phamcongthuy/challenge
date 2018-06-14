@@ -24,7 +24,7 @@ You may want to visit our [home page](/) instead.
 
 </div>
 
-<form name="vote_survey" action="/vote/confirmation/" method="post" data-netlify="true">
+<form name="vote_survey" action="/vote/confirmation-survey/" method="post" data-netlify="true">
 
   <p>
     <label>
@@ -44,6 +44,7 @@ You may want to visit our [home page](/) instead.
     </label>
   </p>
 
+
   <p>
     <label>
       How did you first find out about the My LA2050 Activation Challenge?<br />
@@ -58,10 +59,18 @@ You may want to visit our [home page](/) instead.
         <option>News outlet</option>
         <option>Advertisements</option>
         <option>Events</option>
-        <option>Other (specify)</option>
+        <option value="Other">Other (please describe)</option>
       </select>
     </label>
+    <br />
+    <br />
+    <label>
+      Other <small>(please describe)</small><br />
+      <input type="text" name="how_you_found_la2050_other" />
+    </label>
   </p>
+
+
 
   <p>
     <label>
@@ -73,8 +82,14 @@ You may want to visit our [home page](/) instead.
         <option>Competition / competitor team updates</option>
         <option>Jobs and events</option>
         <option>Important news from the world of impact</option>
-        <option>Other</option>
+        <option value="Other">Other (please describe)</option>
       </select>
+    </label>
+    <br />
+    <br />
+    <label>
+      Other <small>(please describe)</small><br />
+      <input type="text" name="what_you_want_from_la2050_other" />
     </label>
   </p>
 
@@ -111,8 +126,10 @@ You may want to visit our [home page](/) instead.
 
   <p>
     <label>
-      How would you describe yourself? <small>(Select all that apply)</small><br />
-      <select name="race" multiple="multiple">
+      How would you describe yourself?<br />
+      <select name="race">
+        <option value="">Select</option>
+        <option value="">-----------------</option>
         <option>American Indian or Alaska Native</option>
         <option>Asian</option>
         <option>Biracial / mixed race</option>
@@ -166,13 +183,15 @@ You may want to visit our [home page](/) instead.
   <p>
     <label>
       What language to do you speak <em style="color: inherit;">most</em> when you’re at home? <br />
-      <input type="text" name="language" placeholder="हिन्दी, 日本語, English, Español, ไทย" />
+      <input type="text" name="language" />
     </label>
+    <br />
+    <small id="languages">हिन्दी, 日本語, English, Español, ไทย</small>
   </p>
   <script>
   (function() {
     //var languages = "हिन्दी, 中文, Français, 한국어, Deutsche, English, Español, ไทย, 日本語, فارسی, Tiếng Việt, ລາວ, Samala, עִברִית, አማርኛ, 中文".split(', ')
-    var languages = document.querySelector('input[name="language"]').placeholder.split(', ')
+    var languages = document.getElementById('languages').textContent.split(', ')
 
     languages.sort(function(a, b) {
       var random = Math.floor(Math.random() * languages.length) + 1;
@@ -180,7 +199,7 @@ You may want to visit our [home page](/) instead.
       else if (random < (languages.length / 2)) return -1;
       return 0;
     })
-    document.querySelector('input[name="language"]').placeholder = languages.join(', ')
+    document.getElementById('languages').textContent = languages.join(', ')
   })();
   </script>
 
@@ -241,7 +260,6 @@ form button {
   width: 100%;
   max-width: 20em;
 }
-form select[multiple],
 form input[type="text"],
 form input[type="number"] {
   font-family: inherit;
@@ -256,16 +274,12 @@ form input[type="number"] {
   border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
   border-color: rgba(0, 0, 0, 0.25);
   width: 100%;
-  max-width: 40em;
+  max-width: 20em;
 
   /* Remove Safari’s default styles for search fields */
   -webkit-appearance: none;
 
   text-align: left;
-}
-form select[multiple] {
-  min-height: 12.5em;
-  font-weight: normal;
 }
 </style>
 
