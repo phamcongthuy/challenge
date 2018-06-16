@@ -3,7 +3,7 @@ title: Vote in the 2018 My LA2050 Activation Challenge
 body_class: lime
 ---
 
-{% if site.phase != 6 %}
+{% if site.phase != 6 and site.test_voting_pages != true %}
 
 # Oops!
 
@@ -266,12 +266,12 @@ form input[type="number"] {
   font-size: inherit;
   line-height: inherit;
   font-weight: 600;
-  padding: 0.75em;
+  padding: 0.375em 0.75em;
   border-radius: 0;
   max-width: none;
   box-sizing: border-box;
   text-align: center;
-  border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+  border: 1px solid rgb(237, 59, 136); /* @strawberry */
   border-color: rgba(0, 0, 0, 0.25);
   width: 100%;
   max-width: 20em;
