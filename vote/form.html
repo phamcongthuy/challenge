@@ -126,6 +126,7 @@ stylesheets:
     </section>
     -->
 
+    {% if site.voting_enable_auth0 == true %}
     <section id="finish" class="blueberry hidden">
       <div>
         <h2>You’re <em>almost</em> done!</h2>
@@ -142,8 +143,8 @@ stylesheets:
         </ul>
 
         <ul class="action buttons hidden">
-          {% if site.voting_enable_phone == true %}
-          <li>
+          {% if site.voting_enable_phone == true and site.voting_enable_auth0 == true %}
+          <li class="phone-button phone-button-hidden">
             <button type="submit" name="sign_in_by" value="phone">Phone</button>
           </li>
           {% endif %}
@@ -153,7 +154,7 @@ stylesheets:
           </li>
           {% endif %}
           {% if site.voting_enable_facebook == true and site.voting_enable_auth0 == true %}
-          <li class="facebook facebook-hidden">
+          <li class="facebook-button facebook-button-hidden">
             <button type="submit" name="sign_in_by" value="facebook">Facebook</button>
           </li>
           {% endif %}
@@ -175,6 +176,7 @@ stylesheets:
         <p><small>We will only use this phone number to complete the voting process. (No spam, we promise!)</small></p>
       </div>
     </section>
+    {% endif %}
 
     <section id="sign-in-email" class="lime">
       <div>
@@ -184,13 +186,14 @@ stylesheets:
         <p class="email-text email-text-hidden">Next we’ll send a message to your email address with a link you can press to sign in.</p>
         {% else %}
         <h2>Please enter your email address</h2>
+        <div></div>
         {% endif %}
         <p class="field-button banana">
           <label>
             <span class="label-text">Email address</span>
             <input type="email" name="email" placeholder="Email address" required="required" />
           </label>
-          <button type="submit" id="send-email-button">Submit</button>
+          <button type="submit" id="send-email-button">Submit Votes</button>
         </p>
         <!--
         <p><small>We will only use this email address for official emails from LA2050. (No spam, we promise!)</small></p>

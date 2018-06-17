@@ -404,7 +404,11 @@
     display: none !important;
   }
 
-  .facebook-hidden {
+  .facebook-button-hidden {
+    display: none !important;
+  }
+
+  .phone-button-hidden {
     display: none !important;
   }
 

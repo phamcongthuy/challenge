@@ -114,6 +114,8 @@
   function signInPhoneEmail(e) {
     console.log('signInPhoneEmail');
 
+    if (!window.auth0 || !window.auth0.WebAuth) return;
+
     var form = e.target
     if (!form) return
 
@@ -153,15 +155,16 @@
       votesData.push('subscribe_email_list=' + encodeURIComponent(subscribe_email_list));
     }
 
-    if (telephone && telephone.indexOf('1') === 0 && telephone.length === 11) {
-      telephone = '+'  + telephone
-    }
-    if (telephone && telephone.indexOf('+') !== 0) {
-      telephone = '+1' + telephone
-    }
-    telephone = telephone.replace(/\./g, '').replace(/\-/g, '').replace(/\s/g, '')
-
     if (telephone && telephone != "") {
+
+      if (telephone.indexOf('1') === 0 && telephone.length === 11) {
+        telephone = '+'  + telephone
+      }
+      if (telephone.indexOf('+') !== 0) {
+        telephone = '+1' + telephone
+      }
+      telephone = telephone.replace(/\./g, '').replace(/\-/g, '').replace(/\s/g, '')
+
       votesData.push('telephone=' + encodeURIComponent(telephone));
       form.querySelector('input[name="telephone"]').value = telephone;
     } else if (email && email != "") {
@@ -292,6 +295,8 @@
   (function() {
 
     var form = document.querySelector('form[name="vote"]')
+    var finish = document.getElementById('finish');
+    var signInEmail = document.getElementById('sign-in-email')
     // console.log('form: ' + form)
     form.addEventListener('submit', function(e) {
       if (document.querySelectorAll('input[type="radio"]:checked').length >= 1) {
@@ -305,17 +310,28 @@
           }, 1000)
           zipSeen = true
           setUpConfirmButton()
+
+          // If there’s no finish section, go ahead and show the email field
+          if ((!finish || !window.auth0 || !window.auth0.WebAuth) && signInEmail) {
+            signInEmail.classList.remove('hidden')
+            document.querySelector('input[name="email"]').setAttribute('required', 'required')
+            emailShowing = true
+          }
+
           e.preventDefault();
         } else if (emailShowing || phoneShowing) {
           console.log('form submit');
           cancelScrollToElement();
           signInPhoneEmail(e);
-        } else if (!finishSeen) {
+        } else if (!finishSeen && finish && window.auth0 && window.auth0.WebAuth) {
           finish.classList.remove('hidden')
           finishShowing = true
           if (window.auth0 && window.auth0.WebAuth) {
-            if (document.querySelector('.facebook')) {
-              document.querySelector('.facebook').classList.remove('facebook-hidden')
+            if (document.querySelector('.phone-button')) {
+              document.querySelector('.phone-button').classList.remove('phone-button-hidden')
+            }
+            if (document.querySelector('.facebook-button')) {
+              document.querySelector('.facebook-button').classList.remove('facebook-button-hidden')
             }
           }
           scrollToElement('finish')
@@ -389,8 +405,8 @@
         updateProgress()
 
         var target = document.getElementById(name)
-        // console.log('target')
-        // console.log(target)
+        console.log('target')
+        console.log(target)
         var targetContainer = target.parentNode
 
         var nextSibling = targetContainer.nextSibling;
@@ -410,6 +426,15 @@
           } else {
             nextName = "zip"
             zipSeen = true
+
+            // If there’s no finish section, go ahead and show the email field
+            if (  (!document.getElementById('finish') || !window.auth0 || !window.auth0.WebAuth)
+                   &&
+                   document.getElementById('sign-in-email')  ) {
+              document.getElementById('sign-in-email').classList.remove('hidden')
+              document.querySelector('input[name="email"]').setAttribute('required', 'required')
+              emailShowing = true
+            }
           }
           scrollToElement(nextName)
           focusField(nextName)
@@ -488,7 +513,7 @@
     var count;
     var progress;
     var finish = document.getElementById('finish');
-    finish.classList.add('hidden');
+    if (finish) finish.classList.add('hidden');
     var zip = document.getElementById('zip');
     zip.classList.add('hidden');
     document.querySelector('input[name="zip"]').removeAttribute('required');
@@ -502,12 +527,15 @@
 
       count.innerText = counter;
 
-      if (counter >= 1 && zipShowing && !finishShowing) {
+      if (counter >= 1 && zipShowing && !finishShowing && finish) {
         finish.classList.remove('hidden');
         finishShowing = true;
         if (window.auth0 && window.auth0.WebAuth) {
-          if (document.querySelector('.facebook')) {
-            document.querySelector('.facebook').classList.remove('facebook-hidden')
+          if (document.querySelector('.phone-button')) {
+            document.querySelector('.phone-button').classList.remove('phone-button-hidden')
+          }
+          if (document.querySelector('.facebook-button')) {
+            document.querySelector('.facebook-button').classList.remove('facebook-button-hidden')
           }
         }
 
@@ -524,6 +552,7 @@
 
       if (counter >= 1 && !zipShowing) {
         zip.classList.remove('hidden');
+        // document.querySelector('input[name="zip"]').setAttribute('required', 'required')
         zipShowing = true;
         setUpConfirmButton()
       }
@@ -641,8 +670,12 @@
     })
   }
 
-  document.querySelector('.action.links').classList.add('hidden')
-  document.querySelector('.action.buttons').classList.remove('hidden')
+  if (document.querySelector('.action.links')) {
+    document.querySelector('.action.links').classList.add('hidden')
+  }
+  if (document.querySelector('.action.buttons')) {
+    document.querySelector('.action.buttons').classList.remove('hidden')
+  }
 
 })();
 
@@ -654,9 +687,9 @@
 
   function update() {
     if (checkbox.checked) {
-      button.textContent = 'Subscribe & Send Email'
+      button.textContent = (window.auth0 && window.auth0.WebAuth) ? 'Subscribe & Send Email' : 'Subscribe & Submit Votes'
     } else {
-      button.textContent = 'Send Email'
+      button.textContent = (window.auth0 && window.auth0.WebAuth) ? 'Send Email' : 'Submit Votes'
     }
   }
 
