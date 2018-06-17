@@ -575,6 +575,7 @@
   var signInPhone = document.getElementById('sign-in-phone')
   if (signInPhone) {
     signInPhone.classList.add('hidden')
+    document.querySelector('input[name="telephone"]').removeAttribute('required', 'required')
     if (document.querySelector('button[value="phone"]')) {
       document.querySelector('button[value="phone"]').addEventListener('click', function(e) {
         signInPhone.classList.remove('hidden')
@@ -599,6 +600,7 @@
   var signInEmail = document.getElementById('sign-in-email')
   if (signInEmail) {
     signInEmail.classList.add('hidden')
+    document.querySelector('input[name="email"]').removeAttribute('required', 'required')
     if (document.querySelector('button[value="email"]')) {
       document.querySelector('button[value="email"]').addEventListener('click', function(e) {
         signInEmail.classList.remove('hidden')
@@ -608,6 +610,14 @@
         }, 1000)
         e.preventDefault();
         emailShowing = true
+
+        if (document.querySelector('.email-headline') && document.querySelector('.email-headline-alternate')) {
+          document.querySelector('.email-headline').classList.remove('email-text-hidden')
+          document.querySelector('.email-headline-alternate').classList.add('email-text-hidden')
+        }
+        if (document.querySelector('.email-text')) {
+          document.querySelector('.email-text').classList.remove('email-text-hidden')
+        }
 
         document.querySelector('input[name="email"]').setAttribute('required', 'required')
 
