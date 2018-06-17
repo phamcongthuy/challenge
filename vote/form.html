@@ -178,9 +178,13 @@ stylesheets:
 
     <section id="sign-in-email" class="lime">
       <div>
+        {% if site.voting_enable_auth0 == true %}
         <h2 class="email-headline-alternate">Please enter your email address</h2>
         <h2 class="email-headline email-text-hidden">Sign in with email</h2>
         <p class="email-text email-text-hidden">Next we’ll send a message to your email address with a link you can press to sign in.</p>
+        {% else %}
+        <h2>Please enter your email address</h2>
+        {% endif %}
         <p class="field-button banana">
           <label>
             <span class="label-text">Email address</span>
