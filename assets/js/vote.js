@@ -32,7 +32,7 @@
     zipButton = document.querySelector('#zip button');
     console.log('zip button: ' + zipButton);
     zipButton.addEventListener('click', function(e) {
-      // console.log('zipButton click')
+      console.log('zipButton click')
       // e.preventDefault()
       // updateProgress()
       // console.log('updateProgress done')
@@ -44,6 +44,8 @@
       // }
       // console.log('scrollTo finish done')
 
+      if (!document.querySelector('input[name="zip"]').value ||
+         !document.querySelector('input[name="zip"]').value == "") return
       
       if (phoneShowing) {
         scrollToElement('sign-in-phone')
@@ -54,6 +56,7 @@
         scrollToElement('sign-in-email')
         setTimeout(function() {
           document.querySelector('input[name="email"]').focus()
+          document.querySelector('input[name="email"]').setAttribute('required', 'required')
         }, 1000)
       } else {
         scrollToElement('finish')
@@ -64,6 +67,7 @@
         }
       }
 
+      //e.preventDefault()
     })
   }
 
@@ -72,25 +76,28 @@
     if (confirmButton) return
     console.log('setting up confirm button')
     confirmButton = document.querySelector('#progress button');
-    console.log('zip button: ' + zipButton);
+    console.log('confirm button: ' + confirmButton);
     confirmButton.addEventListener('click', function(e) {
-      // console.log('zipButton click')
-      // e.preventDefault()
+      console.log('confirmButton click')
       // updateProgress()
       // console.log('updateProgress done')
       if (document.querySelector('input[name="zip"]').value && 
-          document.querySelector('input[name="zip"]').value.length === 5) {
+          document.querySelector('input[name="zip"]').value.length != "") {
         if (phoneShowing) {
+          console.log('phoneShowing')
           scrollToElement('sign-in-phone')
           setTimeout(function() {
             document.querySelector('input[name="telephone"]').focus()
           }, 1000)
         } else if (emailShowing) {
+          console.log('emailShowing')
           scrollToElement('sign-in-email')
           setTimeout(function() {
             document.querySelector('input[name="email"]').focus()
+            document.querySelector('input[name="email"]').setAttribute('required', 'required')
           }, 1000)
         } else {
+          console.log('scrolling to finish')
           scrollToElement('finish')
           if (!usingMouse) {
             setTimeout(function() {
@@ -105,7 +112,8 @@
           document.querySelector('input[name="zip"]').setAttribute('required', 'required')
         }, 1000)
       }
-      // console.log('scrollTo finish done')
+      console.log('scrollTo finish done')
+      //e.preventDefault()
     })
   }
 
@@ -137,14 +145,14 @@
 
     if ((votesData).length < 1) {
       console.error('No items were voted for');
+      // TBD: Show an error message to the user?
+      e.preventDefault()
       return;
     }
 
     var zip = document.querySelector('input[type="text"][name="zip"]').value;
     if (!zip || zip == '') {
       console.log('No zip code')
-    } else {
-      // form.querySelector('input[type="hidden"][name="zip"]').value = zip;
     }
 
     votesData.push('zip=' + encodeURIComponent(zip));
@@ -171,6 +179,7 @@
       votesData.push('email=' + encodeURIComponent(email));
     } else {
       console.error('Couldn’t find an email or phone to add to the data');
+      // TBD: Show an error message to the user?
       e.preventDefault();
       return;
     }
@@ -184,8 +193,6 @@
       redirectUri: redirectUri,
     }
 
-    // TODO: Validate phone number
-
     if (telephone) {
       options.connection = 'sms'
       options.send = 'code'
@@ -194,8 +201,6 @@
       options.connection = 'email'
       options.send = 'link'
       options.email = email
-    } else {
-      console.error('Couldn’t find an email or phone to authenticate');
     }
 
     var webAuth = new auth0.WebAuth({
@@ -213,6 +218,9 @@
         console.log('err');
         console.log(err)
         console.dir(err)
+
+        // If an auth0 error occurs, go ahead and submit the form.
+        form.submit();
       } else {
         // form.action = form.action + '?' + votesData.join('&');
 
@@ -235,6 +243,8 @@
     });
 
     e.preventDefault();
+
+    return true
   }
 
   function signInSocial(socialNetwork) {
@@ -299,8 +309,29 @@
     var signInEmail = document.getElementById('sign-in-email')
     // console.log('form: ' + form)
     form.addEventListener('submit', function(e) {
+      console.log('submit form')
+
+      var email = (form.querySelector('input[name="email"]')) ? form.querySelector('input[name="email"]').value : null;
+      if (!email && (!window.auth0 || !window.auth0.WebAuth)) {
+        e.preventDefault()
+      }
+
+      // cancelScrollToElement();
+      signInPhoneEmail(e)
+
+      /*
       if (document.querySelectorAll('input[type="radio"]:checked').length >= 1) {
+        console.log('at least one item has been voted for')
+
+        // If auth0 hasn’t loaded, go ahead and show the email field
+        if ((!window.auth0 || !window.auth0.WebAuth) && signInEmail) {
+          signInEmail.classList.remove('hidden')
+          document.querySelector('input[name="email"]').setAttribute('required', 'required')
+          emailShowing = true
+        }
+
         if (!zipSeen) {
+          console.log('showing zip field')
           zip.classList.remove('hidden')
           zipShowing = true
           scrollToElement('zip')
@@ -310,45 +341,43 @@
           }, 1000)
           zipSeen = true
           setUpConfirmButton()
+          setUpZipButton()
 
-          // If there’s no finish section, go ahead and show the email field
-          if ((!finish || !window.auth0 || !window.auth0.WebAuth) && signInEmail) {
-            signInEmail.classList.remove('hidden')
-            document.querySelector('input[name="email"]').setAttribute('required', 'required')
-            emailShowing = true
-          }
+          // if (!finishSeen && window.auth0 && window.auth0.WebAuth) {
+          //   finish.classList.remove('hidden')
+          //   finishShowing = true
+          //   if (window.auth0 && window.auth0.WebAuth) {
+          //     if (document.querySelector('.phone-button')) {
+          //       document.querySelector('.phone-button').classList.remove('phone-button-hidden')
+          //     }
+          //     if (document.querySelector('.facebook-button')) {
+          //       document.querySelector('.facebook-button').classList.remove('facebook-button-hidden')
+          //     }
+          //   }
+          //   scrollToElement('finish')
+          //   if (!usingMouse) {
+          //     setTimeout(function() {
+          //       document.querySelector('button[name="sign_in_by"]').focus()
+          //     }, 1000)
+          //   }
+          //   finishSeen = true
+          //   e.preventDefault();
+          // }
 
           e.preventDefault();
         } else if (emailShowing || phoneShowing) {
           console.log('form submit');
           cancelScrollToElement();
           signInPhoneEmail(e);
-        } else if (!finishSeen && finish && window.auth0 && window.auth0.WebAuth) {
-          finish.classList.remove('hidden')
-          finishShowing = true
-          if (window.auth0 && window.auth0.WebAuth) {
-            if (document.querySelector('.phone-button')) {
-              document.querySelector('.phone-button').classList.remove('phone-button-hidden')
-            }
-            if (document.querySelector('.facebook-button')) {
-              document.querySelector('.facebook-button').classList.remove('facebook-button-hidden')
-            }
-          }
-          scrollToElement('finish')
-          if (!usingMouse) {
-            setTimeout(function() {
-              document.querySelector('button[name="sign_in_by"]').focus()
-            }, 1000)
-          }
-          finishSeen = true
-          setUpZipButton()
-          e.preventDefault();
         } else {
+          // TBD: For the case where the confirmation or next button was pressed?
           e.preventDefault();
         }
       } else {
+        // TBD: For the case where the confirmation or next button was pressed?
         e.preventDefault();
       }
+      */
     })
   })();
 
@@ -386,6 +415,12 @@
         var element = document.getElementById(elementID)
         if (element && element.scrollIntoView) {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        if (elementID === "zip") {
+          setTimeout(function() {
+            document.querySelector('input[name="zip"]').focus()
+            document.querySelector('input[name="zip"]').setAttribute('required', 'required')
+          }, 1000)
         }
       }
 
@@ -425,16 +460,18 @@
             nextName = nextSibling.querySelector('*[id]').id
           } else {
             nextName = "zip"
+            /*
             zipSeen = true
 
-            // If there’s no finish section, go ahead and show the email field
-            if (  (!document.getElementById('finish') || !window.auth0 || !window.auth0.WebAuth)
+            // If auth0 hasn’t loaded, go ahead and show the email field
+            if (  (!window.auth0 || !window.auth0.WebAuth)
                    &&
                    document.getElementById('sign-in-email')  ) {
               document.getElementById('sign-in-email').classList.remove('hidden')
               document.querySelector('input[name="email"]').setAttribute('required', 'required')
               emailShowing = true
             }
+            */
           }
           scrollToElement(nextName)
           focusField(nextName)
@@ -527,26 +564,26 @@
 
       count.innerText = counter;
 
-      if (counter >= 1 && zipShowing && !finishShowing && finish) {
+      // if (counter >= 1 && zipShowing && !finishShowing) {
+      if (counter >= 1 && !finishShowing && window.auth0 && window.auth0.WebAuth) {
         finish.classList.remove('hidden');
         finishShowing = true;
-        if (window.auth0 && window.auth0.WebAuth) {
-          if (document.querySelector('.phone-button')) {
-            document.querySelector('.phone-button').classList.remove('phone-button-hidden')
-          }
-          if (document.querySelector('.facebook-button')) {
-            document.querySelector('.facebook-button').classList.remove('facebook-button-hidden')
-          }
+
+        if (document.querySelector('.phone-button')) {
+          document.querySelector('.phone-button').classList.remove('phone-button-hidden')
+        }
+        if (document.querySelector('.facebook-button')) {
+          document.querySelector('.facebook-button').classList.remove('facebook-button-hidden')
         }
 
-        window.addEventListener('scroll', function() {
-          //if (isVisible(finish, getOffset(finish).top, window.scrollY)) {
-          if ((window.scrollY + (window.innerHeight / 2)) >= getOffset(finish).top) {
-            progress.classList.add('hidden-button');
-          } else {
-            progress.classList.remove('hidden-button');
-          }
-        }, { passive: true })
+        // window.addEventListener('scroll', function() {
+        //   //if (isVisible(finish, getOffset(finish).top, window.scrollY)) {
+        //   if ((window.scrollY + (window.innerHeight / 2)) >= getOffset(finish).top) {
+        //     progress.classList.add('hidden-button');
+        //   } else {
+        //     progress.classList.remove('hidden-button');
+        //   }
+        // }, { passive: true })
 
       }
 
@@ -555,6 +592,12 @@
         // document.querySelector('input[name="zip"]').setAttribute('required', 'required')
         zipShowing = true;
         setUpConfirmButton()
+        setUpZipButton()
+
+        if (!window.auth0 || !window.auth0.WebAuth) {
+          document.getElementById('sign-in-email').classList.remove('hidden')
+          emailShowing = true
+        }
       }
     }
 
@@ -639,13 +682,16 @@
         }, 1000)
         e.preventDefault();
         emailShowing = true
+        if (window.updateEmailButtonLabel) window.updateEmailButtonLabel()
 
-        if (document.querySelector('.email-headline') && document.querySelector('.email-headline-alternate')) {
-          document.querySelector('.email-headline').classList.remove('email-text-hidden')
-          document.querySelector('.email-headline-alternate').classList.add('email-text-hidden')
-        }
-        if (document.querySelector('.email-text')) {
-          document.querySelector('.email-text').classList.remove('email-text-hidden')
+        if (window.auth0 && window.auth0.WebAuth) {
+          if (document.querySelector('.email-headline') && document.querySelector('.email-headline-alternate')) {
+            document.querySelector('.email-headline').classList.remove('email-text-hidden')
+            document.querySelector('.email-headline-alternate').classList.add('email-text-hidden')
+          }
+          if (document.querySelector('.email-text')) {
+            document.querySelector('.email-text').classList.remove('email-text-hidden')
+          }
         }
 
         document.querySelector('input[name="email"]').setAttribute('required', 'required')
@@ -670,13 +716,6 @@
     })
   }
 
-  if (document.querySelector('.action.links')) {
-    document.querySelector('.action.links').classList.add('hidden')
-  }
-  if (document.querySelector('.action.buttons')) {
-    document.querySelector('.action.buttons').classList.remove('hidden')
-  }
-
 })();
 
 (function() {
@@ -697,4 +736,6 @@
     update()
     checkbox.addEventListener('change', update)
   }
+
+  window.updateEmailButtonLabel = update
 })()
