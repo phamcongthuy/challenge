@@ -8,8 +8,14 @@ image: https://activation.la2050.org/assets/images/home/2048-wide/collaborates.j
 
 mailing_list_url: https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&amp;id=b16f498212
 submission_url: https://activationla2050.smapply.io/prog/challenge_info/
-vote_url: /vote/form/
 # event_url: /event/
+
+# Typeform:
+# vote_url: https://la2050.typeform.com/to/fGLGJB
+
+# Our form:
+vote_url: /vote/form/
+
 
 # New challenge announced: 
 # February 1
@@ -120,17 +126,23 @@ winners:
   - /live/environment-california-research-policy-center/
 
 
-#auth0_js_url: https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js
 auth0_js_url: https://cdn.auth0.com/js/auth0/9.5.1/auth0.min.js
 auth0_domain: activation-la2050.auth0.com
 auth0_client_id: INfJpr4dnNk2EN143utsZYz4Zeq9c7cd
 
+voting_enable_auth0: true
 
-test_voting_pages: false
+voting_enable_phone: true
+voting_enable_email: true
+voting_enable_facebook: true
 
+voting_maintance_mode: false
+voting_test_mode: false
+
+voting_strict_mode: true
 
 # For cache busting
-version: 1.5.1
+version: 1.5.8
 
 
 permalink: pretty

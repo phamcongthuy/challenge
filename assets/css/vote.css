@@ -400,7 +400,15 @@
     display: none !important;
   }
 
-  .action.hidden {
+  .facebook-button-hidden {
+    display: none !important;
+  }
+
+  .phone-button-hidden {
+    display: none !important;
+  }
+
+  .email-text-hidden {
     display: none !important;
   }
 
@@ -828,6 +836,7 @@
   }
   .progress.hidden {
     display: none;
+    position: static;
   }
   .progress.hidden-button .action {
     display: none;

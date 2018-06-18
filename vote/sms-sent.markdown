@@ -1,9 +1,12 @@
 ---
 title: Vote in the 2018 My LA2050 Activation Challenge
+canonical_url: /
 body_class: tangerine
+stylesheets:
+  - "/assets/css/vote-process.css"
 ---
 
-{% if site.phase != 6 and site.test_voting_pages != true %}
+{% if site.phase != 6 and site.voting_test_mode != true %}
 
 # Oops!
 
@@ -17,7 +20,7 @@ You may want to visit our [home page](/) instead.
 
 <div class="introduction" markdown="1">
 
-<h2 style="max-width: none; text-align: center; font-size: 2.5em;">Please check your phone</h2>
+<h1>Please check your phone</h1>
 
 We sent a text message to your phone number with a verification code. <span style="display: inline-block;">Please enter it here.</span>
 
@@ -32,43 +35,15 @@ We sent a text message to your phone number with a verification code. <span styl
 
 <p style="font-size: 1em">
   <label>
-    <input type="text" pattern="[0-9]*" inputmode="number" placeholder="Verification Code" name="verification_code" required="required" />
-    <button type="submit">Submit</button>
+    <span class="label-text">Verification Code</span>
+    <input type="text" pattern="[0-9]*" inputmode="number" placeholder="Verification Code" name="verification_code" required="required" autofocus="autofocus" />
   </label>
+  <button type="submit">Submit</button>
 </p>
 </form>
 
 <h3 style="max-width: none; text-align: center; margin-bottom: 0;" id="headline"></h3>
 <p style="margin-top: 0"><small><span id="message-details"></span> <span id="resend" style="display: none"><a href="#resend">get a new verification code</a>.</span></small></p>
-
-<style>
-.promotion {
-	display: none;
-}
-form input[type="text"] {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-weight: 600;
-  padding: 0.75em;
-  border-radius: 0;
-  max-width: none;
-  box-sizing: border-box;
-  text-align: center;
-  border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
-  border-color: rgba(0, 0, 0, 0.25);
-
-  /* Remove Safari’s default styles for search fields */
-  -webkit-appearance: none;
-}
-@media (max-width: 25em) {
-  form button,
-  form input[type="text"] {
-    width: 100%;
-    max-width: none;
-  }
-}
-</style>
 
 </div>
 
@@ -168,7 +143,7 @@ form input[type="text"] {
       }
     }
 
-    if ((votesData).length < 1) {
+    if (votesData.length < 1) {
       console.error('No items were voted for');
       showErrorMessage("Please try voting again.");
       return;

@@ -1,9 +1,12 @@
 ---
 title: Vote in the 2018 My LA2050 Activation Challenge
+canonical_url: /
 body_class: banana
+stylesheets:
+  - "/assets/css/vote-process.css"
 ---
 
-{% if site.phase != 6 and site.test_voting_pages != true %}
+{% if site.phase != 6 and site.voting_test_mode != true %}
 
 # Oops!
 
@@ -17,7 +20,7 @@ You may want to visit our [home page](/) instead.
 
 <div class="introduction">
 
-<h2 style="max-width: none; text-align: center; font-size: 2.5em;" id="headline">It’s time to submit your votes</h2>
+<h1 id="headline">It’s time to submit your votes</h1>
 
 <p id="message" style="visibility: hidden">We couldn’t confirm your votes. <a href="{{ site.vote_url }}">Please try again</a>.</p>
 <p><small id="message-details"></small></p>
@@ -38,6 +41,10 @@ You may want to visit our [home page](/) instead.
 <input type="hidden" name="subscribe_email_list" />
 
 <input type="hidden" name="auth_sub" />
+
+<input type="hidden" name="auth_error" />
+<input type="hidden" name="auth_error_description" />
+
 <input type="hidden" name="browser_unique_id" />
 <input type="hidden" name="browser_user_agent" />
 
@@ -45,13 +52,13 @@ You may want to visit our [home page](/) instead.
 
 </form>
 
-<style>
-.promotion {
-  display: none
-}
-</style>
-
 </div>
+
+{% if site.voting_strict_mode == false %}
+<script>
+  window.VOTING_SAVE_ON_ERROR = true
+</script>
+{% endif %}
 
 <script>
   // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
@@ -127,12 +134,46 @@ You may want to visit our [home page](/) instead.
 </script>
 
 <script>
+
+  function errorHappenedTwice(err) {
+    var lastError = "unknown"
+    try {
+      lastError = localStorage.getItem('last_error_description')
+      return (lastError === err.errorDescription)
+    } catch(e) {}
+    return lastError
+  }
+
   function showSaveMessage(err) {
     document.getElementById('headline').textContent = 'Saving your votes…'
     button.style.visibility = 'hidden'
   }
 
-  function showErrorMessage(message) {
+  function showErrorMessageOrSubmitForm(err) {
+    if (voteDataExists() &&
+        (window.VOTING_SAVE_ON_ERROR === true || 
+         errorHappenedTwice(err) === true || 
+         errorHappenedTwice(err) === "unknown")) {
+      form.querySelector('input[name="auth_error"]').value             = err.error
+      form.querySelector('input[name="auth_error_description"]').value = err.errorDescription
+
+      try {
+        localStorage.removeItem('last_error_description')
+      } catch(e) {}
+
+      form.submit()
+
+    } else {
+
+      __showErrorMessage(err.errorDescription)
+
+      try {
+        localStorage.setItem('last_error_description', err.errorDescription)
+      } catch(e) {}
+    }
+  }
+
+  function __showErrorMessage(message) {
     console.log('showErrorMessage')
 
     document.getElementById('headline').textContent      = 'Oops! Something went wrong'
@@ -146,12 +187,7 @@ You may want to visit our [home page](/) instead.
       message = "This error may happen if your web browser blocks third party cookies."
     }
 
-    var emailPresent = (document.querySelector('input[name="email"]').value &&
-                        document.querySelector('input[name="email"]').value != "")
-    var phonePresent = (document.querySelector('input[name="telephone"]').value &&
-                        document.querySelector('input[name="telephone"]').value != "")
-
-    if (emailPresent || phonePresent) {
+    if (voteDataExists()) {
       document.querySelector("#message a").addEventListener('click', function(e) {
         if (window.retrySignIn) {
           window.retrySignIn(e)
@@ -169,20 +205,42 @@ You may want to visit our [home page](/) instead.
     if (saveTimeout) clearTimeout(saveTimeout)
   }
 
+  function voteDataExists() {
+    var email = (form.querySelector('input[name="email"]')) ? 
+      form.querySelector('input[name="email"]').value     : null;
+    var telephone = (form.querySelector('input[name="telephone"]')) ? 
+      form.querySelector('input[name="telephone"]').value : null;
+
+    var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
+    var votesData = [];
+    var nextField;
+    for (var index = 0; index < fieldNames.length; index++) {
+      nextField = form.querySelector('input[name="' + fieldNames[index] + '"]');
+      if (nextField) {
+        votesData.push(fieldNames[index] + '=' + encodeURIComponent(nextField.value));
+      } else {
+        console.log('skipped: ' + fieldNames[index]);
+      }
+    }
+
+    return (votesData.length > 0 && (email || telephone))
+  }
+
   var saveTimeout
   function refreshTimeout() {
     if (saveTimeout) clearTimeout(saveTimeout)
     saveTimeout = setTimeout(function() {
-      showErrorMessage('The sign in process timed out.')
+      showErrorMessageOrSubmitForm({ errorDescription: 'The sign in process timed out.' })
     }, 5000)
   }
 
   function authenticate(authResult) {
     webAuth.client.userInfo(authResult.accessToken, function(err, user) {
-      console.log('userInfo')
 
       if (err) {
-        showErrorMessage(err.errorDescription)
+        console.log('an error occurred')
+
+        showErrorMessageOrSubmitForm(err)
 
         console.log('err')
         console.log(err)
@@ -214,7 +272,7 @@ You may want to visit our [home page](/) instead.
       if (err) {
         console.log('an error occurred')
 
-        showErrorMessage(err.errorDescription)
+        showErrorMessageOrSubmitForm(err)
 
         console.log('err')
         console.log(err)
@@ -230,12 +288,13 @@ You may want to visit our [home page](/) instead.
       }
     })
   } else {
-    showErrorMessage('The sign in process couldn’t start.')
+    showErrorMessageOrSubmitForm({ errorDescription: 'The sign in process couldn’t start.' })
   }
 </script>
 
 <script>
-  function retrySignIn(e){
+
+  function retrySignIn(e) {
     console.log('retrySignIn form');
 
     var email = (form.querySelector('input[name="email"]')) ? 
@@ -255,7 +314,7 @@ You may want to visit our [home page](/) instead.
       }
     }
 
-    if ((votesData).length < 1) {
+    if (votesData.length < 1) {
       console.error('No items were voted for');
       return;
     }
@@ -286,7 +345,7 @@ You may want to visit our [home page](/) instead.
     console.log('redirectUri: ' + redirectUri);
 
     var options = {
-      redirectUri: redirectUri,
+      redirectUri: redirectUri
     }
 
     console.log("telephone: " + telephone.replace(/\-/g, '').replace(/\s/g, ''))
@@ -314,7 +373,7 @@ You may want to visit our [home page](/) instead.
     webAuth.passwordlessStart(options, function (err,res) {
       if (err) {
         // Handle error
-        showErrorMessage(err.errorDescription || err.description)
+        showErrorMessageOrSubmitForm({ errorDescription: err.errorDescription || err.description })
 
         console.log('err');
         console.log(err)

@@ -1,9 +1,12 @@
 ---
 title: Vote in the 2018 My LA2050 Activation Challenge
+canonical_url: /
 body_class: tangerine
+stylesheets:
+  - "/assets/css/vote-process.css"
 ---
 
-{% if site.phase != 6 and site.test_voting_pages != true %}
+{% if site.phase != 6 and site.voting_test_mode != true %}
 
 # Oops!
 
@@ -17,7 +20,7 @@ You may want to visit our [home page](/) instead.
 
 <div class="introduction" markdown="1">
 
-<h2 style="max-width: none; text-align: center; font-size: 2.5em;">Please check your email</h2>
+<h1>Please check your email</h1>
 
 <p>We sent a message to your email address with a link you can press to <span style="display: inline-block">confirm your votes.</span></p>
 
@@ -38,12 +41,6 @@ You may want to visit our [home page](/) instead.
 <p class="action"><button type="submit">Resend email</button></p>
 
 </form>
-
-<style>
-.promotion {
-	display: none;
-}
-</style>
 
 </div>
 
@@ -114,7 +111,7 @@ You may want to visit our [home page](/) instead.
       }
     }
 
-    if ((votesData).length < 1) {
+    if (votesData.length < 1) {
       console.error('No items were voted for');
       return;
     }
@@ -132,7 +129,7 @@ You may want to visit our [home page](/) instead.
       connection: 'email',
       send: 'link',
       email: email,
-      redirectUri: redirectUri,
+      redirectUri: redirectUri
     }, function (err,res) {
       if (err) {
         // Handle error

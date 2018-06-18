@@ -1,12 +1,13 @@
 ---
 title: Vote in the 2018 My LA2050 Activation Challenge
+canonical_url: /
 body_class: blueberry
-image: https://activation.la2050.org/assets/images/vote/2048-wide/background.jpg
 stylesheets:
   - "/assets/css/vote.css"
+# image: https://activation.la2050.org/assets/images/vote/2048-wide/background.jpg
 ---
 
-{% if site.phase < 6 and site.test_voting_pages != true %}
+{% if site.phase < 6 and site.voting_test_mode != true %}
 
   <div class="introduction introduction-voting">
     <div>
@@ -18,7 +19,7 @@ stylesheets:
     </div>
   </div>
 
-{% elsif site.phase > 6 and site.test_voting_pages != true %}
+{% elsif site.phase > 6 and site.voting_test_mode != true %}
 
   <div class="introduction introduction-voting">
     <div>
@@ -27,6 +28,18 @@ stylesheets:
       </a>
       <p>Public voting is complete.</p>
       <p class="action"><a href="{{ site.mailing_list_url }}">Get updates</a></p>
+    </div>
+  </div>
+
+{% elsif site.voting_maintance_mode == true %}
+
+  <div class="introduction introduction-voting">
+    <div style="background-color: black; background-color: rgba(126, 217, 224, 0.85);">
+      <a href="/" class="logo">
+        {% include logo.html %}
+      </a>
+      <p>Uh oh! Public voting isn’t available <span style="display: inline-block">at the moment.</span></p>
+      <p><small>We’ll have it working as soon as we can. <span style="display: inline-block">Please try again later.</span></small></p>
     </div>
   </div>
 
@@ -114,43 +127,40 @@ stylesheets:
     </section>
     -->
 
-    <section id="finish" class="blueberry">
+    <section id="finish" class="blueberry hidden">
       <div>
         <h2>You’re <em>almost</em> done!</h2>
         <p>Now it’s time to confirm your vote(s) by signing in with one of your accounts.</p>
         <h3>Sign in with…</h3>
 
-        <ul class="action links">
-          <li>
-            <a href="#sign-in-phone">Phone</a>
-          </li>
-          <li>
-            <a href="#sign-in-email">Email</a>
-          </li>
-        </ul>
-
-        <ul class="action buttons hidden">
-          <li>
+        <ul class="action buttons">
+          {% if site.voting_enable_phone == true %}
+          <li class="phone-button phone-button-hidden">
             <button type="submit" name="sign_in_by" value="phone">Phone</button>
           </li>
+          {% endif %}
+          {% if site.voting_enable_email == true %}
           <li>
             <button type="submit" name="sign_in_by" value="email">Email</button>
           </li>
-          <li>
+          {% endif %}
+          {% if site.voting_enable_facebook == true %}
+          <li class="facebook-button facebook-button-hidden">
             <button type="submit" name="sign_in_by" value="facebook">Facebook</button>
           </li>
+          {% endif %}
         </ul>
       </div>
     </section>
 
-    <section id="sign-in-phone" class="strawberry">
+    <section id="sign-in-phone" class="strawberry hidden">
       <div>
         <h2>Sign in with your phone</h2>
         <p>Next we’ll send a text message to your phone number with a verification code.</p>
         <p class="field-button">
           <label>
             <span class="label-text">Phone number</span>
-            <input type="tel" name="telephone" placeholder="Phone number" />
+            <input type="tel" name="telephone" pattern="^[\+]?[0-9\s\-\.\(\)}]{10,20}$" placeholder="Phone number" />
           </label>
           <button type="submit">Send text message</button>
         </p>
@@ -160,15 +170,19 @@ stylesheets:
 
     <section id="sign-in-email" class="lime">
       <div>
-        <h2>Sign in with email</h2>
-        <p>Next we’ll send a message to your email address with a link you can press to sign in.</p>
+        <h2 class="email-headline-alternate">Please enter your email address</h2>
+        <h2 class="email-headline email-text-hidden">Sign in with email</h2>
+        <p class="email-text email-text-hidden">Next we’ll send a message to your email address with a link you can press to sign in.</p>
         <p class="field-button banana">
           <label>
             <span class="label-text">Email address</span>
-            <input type="email" name="email" placeholder="Email address" />
+            <input type="email" name="email" placeholder="Email address" required="required" />
           </label>
-          <button type="submit" id="send-email-button">Submit</button>
+          <button type="submit" id="send-email-button">Submit Votes</button>
         </p>
+        <!--
+        <p><small>We will only use this email address for official emails from LA2050. (No spam, we promise!)</small></p>
+        -->
         <p class="checkbox">
           <label>
             <input type="checkbox" name="subscribe_email_list" value="Yes" checked="checked">
@@ -185,20 +199,6 @@ stylesheets:
     </section>
 
   </form>
-
-  {% comment %}
-  <script>
-  (function() {
-    function getRandomOrder() {
-      return (Math.floor(Math.random() * 10) + 1) - 5
-    }
-
-    for (var index = 0; index < 5; index++) {
-      document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
-    }
-  })();
-  </script>
-  {% endcomment %}
 
   <script>
   (function() {
@@ -238,12 +238,15 @@ stylesheets:
   })()
   </script>
 
-  <script src="{{ site.auth0_js_url }}"></script>
+  <script async src="/assets/js/vote.js?v={{ site.version }}"></script>
+  <script async src="/assets/js/scroll-into-view.js?v={{ site.version }}"></script>
+
+  {% if site.voting_enable_auth0 == true %}
+  <script async src="{{ site.auth0_js_url }}"></script>
   <script>
     window.AUTH0_DOMAIN    = '{{ site.auth0_domain }}',
     window.AUTH0_CLIENT_ID = '{{ site.auth0_client_id }}'
   </script>
-  <script async src="/assets/js/vote.js"></script>
-  <script async src="/assets/js/scroll-into-view.js"></script>
+  {% endif %}
 
 {% endif %}
