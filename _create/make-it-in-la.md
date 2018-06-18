@@ -26,7 +26,7 @@ organization_instagram:
   - '@wemakeitinla'
   - '@lafoodfest'
   - '@artisanalla'
-link_newsletter: 'http://makeitinla.org/activateforla'
+link_newsletter: 'https://makeitinla.org/makerwalk/'
 link_volunteer: ''
 link_donate: ''
 organization_activity: >-
