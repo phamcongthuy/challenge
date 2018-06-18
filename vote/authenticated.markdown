@@ -187,12 +187,7 @@ You may want to visit our [home page](/) instead.
       message = "This error may happen if your web browser blocks third party cookies."
     }
 
-    var emailPresent = (document.querySelector('input[name="email"]').value &&
-                        document.querySelector('input[name="email"]').value != "")
-    var phonePresent = (document.querySelector('input[name="telephone"]').value &&
-                        document.querySelector('input[name="telephone"]').value != "")
-
-    if (emailPresent || phonePresent) {
+    if (voteDataExists()) {
       document.querySelector("#message a").addEventListener('click', function(e) {
         if (window.retrySignIn) {
           window.retrySignIn(e)
