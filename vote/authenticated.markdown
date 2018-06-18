@@ -332,7 +332,7 @@ You may want to visit our [home page](/) instead.
     console.log('redirectUri: ' + redirectUri);
 
     var options = {
-      redirectUri: redirectUri,
+      redirectUri: redirectUri
     }
 
     console.log("telephone: " + telephone.replace(/\-/g, '').replace(/\s/g, ''))
