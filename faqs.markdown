@@ -80,7 +80,9 @@ If you entered your email address correctly, but don’t see a confirmation mess
 ## I clicked on the link sent to my email (or entered the code sent to my phone) and received an error message. What should I do?
 </summary>
 
-It’s possible that the link or code has expired. If this is the case, you should be able to resend the code or email in order to confirm your votes. You also may have encountered this error message because you switched devices. It’s important that you complete the voting process on the same device that you started it on. Go back to your original device, and try again!
+You may have encountered this error message because you switched devices. It’s important that you complete the voting process on the same device that you started it on. Go back to your original device, and try again! 
+
+It’s also possible that the link or code has expired. If this is the case, you should be able to resend the code or email in order to confirm your votes. 
 
 </details>
 
