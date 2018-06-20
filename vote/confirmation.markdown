@@ -32,7 +32,7 @@ Your votes have been received, and will help us choose the winners.
 
 <h2 style="max-width: none; text-align: center;">Find out when the winners have been announced</h2>
 
-<small>The best way to reach me is…</small>
+<small>Connect with us on…</small>
 
 <ul class="action">
   <li>
