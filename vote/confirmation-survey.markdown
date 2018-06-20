@@ -1,7 +1,7 @@
 ---
 title: Vote in the 2018 My LA2050 Activation Challenge
 canonical_url: /
-body_class: tangerine
+body_class: blueberry
 stylesheets:
   - "/assets/css/vote-process.css"
 ---
