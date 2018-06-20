@@ -1,6 +1,6 @@
 ---
 application_id: '9813046470'
-title: YouthCare: Low-cost inter-generational care for those with dementia
+title: YouthCare - Intergenerational Respite Care
 project_description: >-
   YouthCare is the most affordable intergenerational respite and memory care
   program that partners trained college student volunteers and persons with
