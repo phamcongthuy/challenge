@@ -90,6 +90,14 @@ You may want to visit our [home page](/) instead.
   form.querySelector('input[name="zip"]').value = getParameterByName('zip')
   form.querySelector('input[name="subscribe_email_list"]').value = getParameterByName('subscribe_email_list')
 
+  try {
+    if (getParameterByName('email') && getParameterByName('email') != "") {
+      localStorage.setItem('subscribe_email_list_asked', 'yes')
+    } else {
+      localStorage.removeItem('subscribe_email_list_asked')
+    }
+  } catch(e) {}
+
   form.querySelector('input[name="browser_user_agent"]').value = navigator.userAgent
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random

@@ -32,11 +32,11 @@ Your votes have been received, and will help us choose the winners.
 
 <h2 style="max-width: none; text-align: center;">Find out when the winners have been announced</h2>
 
-<small>Connect with us on…</small>
+<small>Connect with us…</small>
 
 <ul class="action">
   <li>
-    <a href="{{ site.mailing_list_url }}" target="_blank" rel="noopener">Email</a>
+    <a href="{{ site.mailing_list_url }}" target="_blank" rel="noopener">Email Newsletter</a>
   </li>
   <li>
     <a href="https://twitter.com/LA2050" target="_blank" rel="noopener">
