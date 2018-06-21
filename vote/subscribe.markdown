@@ -37,7 +37,7 @@ You may want to visit our [home page](/) instead.
 <p style="font-size: 1em">
   <label>
     <span class="label-text">Email address</span>
-    <input type="email" name="email" placeholder="Email address" />
+    <input type="email" name="email" placeholder="Email address" required="required" />
   </label>
   <button type="submit">Subscribe</button>
 </p>
