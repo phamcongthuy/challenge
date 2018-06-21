@@ -1,5 +1,5 @@
 ---
-title: Vote in the 2018 My LA2050 Activation Challenge
+title: It’s time to submit your votes
 canonical_url: /
 body_class: banana
 stylesheets:

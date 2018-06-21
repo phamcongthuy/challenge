@@ -1,5 +1,5 @@
 ---
-title: Vote in the 2018 My LA2050 Activation Challenge
+title: Help LA2050 determine how much of Los Angeles we’re reaching
 canonical_url: /
 body_class: lime
 stylesheets:

@@ -1,5 +1,5 @@
 ---
-title: Vote in the 2018 My LA2050 Activation Challenge
+title: Sign up for the LA2050 email newsletter
 canonical_url: /
 body_class: lime
 stylesheets:

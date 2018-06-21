@@ -1,5 +1,5 @@
 ---
-title: Vote in the 2018 My LA2050 Activation Challenge
+title: Please check your phone
 canonical_url: /
 body_class: tangerine
 stylesheets:

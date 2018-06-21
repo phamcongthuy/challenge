@@ -1,5 +1,5 @@
 ---
-title: Vote in the 2018 My LA2050 Activation Challenge
+title: Thanks for voting!
 canonical_url: /
 body_class: blueberry
 stylesheets:
