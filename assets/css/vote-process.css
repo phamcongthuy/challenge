@@ -25,12 +25,12 @@ form input[type="text"] {
   font-weight: 600;
   padding: 0.75em;
   border-radius: 0;
-  max-width: none;
   box-sizing: border-box;
   text-align: center;
   border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
   border-color: rgba(0, 0, 0, 0.25);
   width: 25em;
+  max-width: 100%;
 
   /* Remove Safari’s default styles for search fields */
   -webkit-appearance: none;
@@ -38,7 +38,7 @@ form input[type="text"] {
 form input[name="verification_code"] {
   width: 15em;
 }
-@media (max-width: 25em) {
+@media (max-width: 50em) {
   form button,
   form input[type="email"],
   form input[type="text"] {
