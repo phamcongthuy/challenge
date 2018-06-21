@@ -1,5 +1,5 @@
 ---
-title: Vote in the 2018 My LA2050 Activation Challenge
+title: It’s time to submit your votes
 canonical_url: /
 body_class: banana
 stylesheets:
@@ -25,7 +25,7 @@ You may want to visit our [home page](/) instead.
 <p id="message" style="visibility: hidden">We couldn’t confirm your votes. <a href="{{ site.vote_url }}">Please try again</a>.</p>
 <p><small id="message-details"></small></p>
 
-<form name="vote_authenticated" action="/vote/survey/" method="post" data-netlify="true">
+<form name="vote_authenticated" action="/vote/subscribe/" method="post" data-netlify="true">
 
 <input type="hidden" name="learn" />
 <input type="hidden" name="create" />
@@ -89,6 +89,14 @@ You may want to visit our [home page](/) instead.
 
   form.querySelector('input[name="zip"]').value = getParameterByName('zip')
   form.querySelector('input[name="subscribe_email_list"]').value = getParameterByName('subscribe_email_list')
+
+  try {
+    if (getParameterByName('email') && getParameterByName('email') != "") {
+      localStorage.setItem('subscribe_email_list_asked', 'yes')
+    } else {
+      localStorage.removeItem('subscribe_email_list_asked')
+    }
+  } catch(e) {}
 
   form.querySelector('input[name="browser_user_agent"]').value = navigator.userAgent
 

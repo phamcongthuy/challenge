@@ -1,5 +1,5 @@
 ---
-title: Vote in the 2018 My LA2050 Activation Challenge
+title: Thanks for voting!
 canonical_url: /
 body_class: blueberry
 stylesheets:
@@ -32,11 +32,11 @@ You may want to visit our [home page](/) instead.
 
 <h2 style="max-width: none; text-align: center;">Find out when the winners have been announced</h2>
 
-<small>The best way to reach me is…</small>
+<small>Connect with us…</small>
 
 <ul class="action">
   <li>
-    <a href="{{ site.mailing_list_url }}" target="_blank" rel="noopener">Email</a>
+    <a href="{{ site.mailing_list_url }}" target="_blank" rel="noopener">Email Newsletter</a>
   </li>
   <li>
     <a href="https://twitter.com/LA2050" target="_blank" rel="noopener">
