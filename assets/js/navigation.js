@@ -49,12 +49,23 @@
   }
 
   var animationTimer;
+  var assumedHeaderHeight = 350;
+  function updateHeaderHeight() {
+    var navigation = document.getElementById('navigation')
+    var promotion = document.querySelector('.promotion')
+    if (navigation) {
+      assumedHeaderHeight = document.getElementById('navigation').offsetHeight;
+      if (promotion) {
+        assumedHeaderHeight += document.querySelector('.promotion').offsetHeight;
+      }
+    }
+  }
   function updateScrollPosition() {
 
     /* OPTIONAL: Add a class name of “header-not-visible” to the header,
                  including the navigation, is not visible. */
 
-    if (window.scrollY >= 350 && !document.body.classList.contains('header-not-visible')) {
+    if (window.scrollY >= assumedHeaderHeight && !document.body.classList.contains('header-not-visible')) {
       document.body.classList.add('header-not-visible');
 
       clearTimeout(animationTimer);
@@ -62,7 +73,7 @@
         document.body.classList.add('animate-header');
       }, 1);
       // fadeIn();
-    } else if (window.scrollY < 350 && document.body.classList.contains('header-not-visible')) {
+    } else if (window.scrollY < assumedHeaderHeight && document.body.classList.contains('header-not-visible')) {
       document.body.classList.remove('header-not-visible');
       document.body.classList.remove('animate-header');
       clearTimeout(animationTimer);
@@ -73,12 +84,10 @@
   }
 
   updateScrollPosition();
+  updateHeaderHeight();
 
-  window.addEventListener('scroll', function() {
-    updateScrollPosition();
-  }, false);
+  window.addEventListener('scroll', updateScrollPosition, { passive: true });
+  window.addEventListener('resize', updateHeaderHeight,   { passive: true });
 
 })();
-
-
 
