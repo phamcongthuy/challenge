@@ -58,7 +58,6 @@
       if (promotion) {
         assumedHeaderHeight += document.querySelector('.promotion').offsetHeight;
       }
-      assumedHeaderHeight += 100;
     }
   }
   function updateScrollPosition() {
