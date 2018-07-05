@@ -10,7 +10,7 @@ stylesheets:
 <h1 style="color: white">Winners</h1>
 
 <style>
-
+/*
 main > h1:first-child {
   position: relative;
 }
@@ -24,6 +24,7 @@ main > h1:first-child::before {
   background-image: url(/assets/images/timeline/finalists.svg);
   background-size: 10vmax auto;
 }
+*/
 
 </style>
 {% elsif page.finalists == true %}
@@ -230,6 +231,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
         {% if page.winners %}
         <div style="display: flex; font-size: 0.875em; align-items: center; margin-top: 1.5em;">
           <p class="action" style="margin: 0; padding: 0"><span>Read More</span></p>
+          <!--
           <p style="margin: 0 0 0 2.25em">
             <span>
               <span style="margin-right: 0.375em;">Share:</span>
@@ -256,6 +258,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
               </svg>
             </span>
           </p>
+          -->
         </div>
         {% else %}
         <p class="action"><span>Read More</span></p>
