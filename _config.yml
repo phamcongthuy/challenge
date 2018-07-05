@@ -112,18 +112,17 @@ finalists:
   - /live/united-way-of-greater-los-angeles/
 
 
-# TEST DATA
 winners:
   # 1)
-  - /learn/big-brothers-big-sisters-of-greater-los-angeles/
+  - /learn/center-for-innovation-in-stem-education-cise/
   # 2)
-  - /create/brioxy/
+  - /create/east-la-community-corporation-elacc/
   # 3)
   - /play/the-brady-center-to-prevent-gun-violence/
   # 4)
-  - /connect/casa-of-los-angeles/
+  - /connect/mirys-list/
   # 5)
-  - /live/environment-california-research-policy-center/
+  - /live/united-way-of-greater-los-angeles/
 
 
 auth0_js_url: https://cdn.auth0.com/js/auth0/9.5.1/auth0.min.js
