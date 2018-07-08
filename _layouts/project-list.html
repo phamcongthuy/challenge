@@ -232,14 +232,14 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
             .read-and-share {
               display: flex;
               align-items: center;
-              padding-top: 1.5em;
+              padding-top: 2.25em;
             }
             .read-and-share .action {
               margin: 0;
               padding: 0 !important;
             }
             .read-and-share p + p {
-              margin: 0 0 0 2.25em;
+              margin: 0 0 0 3em;
             }
           }
         </style>
@@ -253,9 +253,6 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
         {% if page.winners %}
         <div class="read-and-share">
           <p class="action"><span>Read More</span></p>
-          <p>
-            <span>
-              <span style="margin-right: 0.375em;">Share:</span>
 
 {% for twitter in data['organization_twitter'] limit:1 %}
 
@@ -267,8 +264,10 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% capture twitter_url %}https://twitter.com/{{ twitter | replace: "@", "" }}{% endcapture %}
 {% endif %}
 
-
-              <i onclick="window.location.href = 'https://twitter.com/share?text=' + encodeURIComponent('Congratulations to @{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }} for winning a $200K grant in the 2018 MyLA2050 Activation Challenge! Check out the other @LA2050 #ActivateforLA winners!') + '&url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F'; event.preventDefault()">
+          <p onclick="window.location.href = 'https://twitter.com/share?text=' + encodeURIComponent('Congratulations to @{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }} for winning a $200K grant in the 2018 My LA2050 Activation Challenge! Check out the other @LA2050 #ActivateforLA winners!') + '&url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F'; event.preventDefault()">
+            <span>
+              <span style="margin-right: 0.375em;">Share:</span>
+              <i>
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="vertical-align: middle; margin-left: 0.75em">
                   <title>Twitter</title>
                   <switch>
@@ -277,9 +276,8 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
                   </switch>
                 </svg>
               </i>
-{% endfor %}
               &nbsp;
-              <i onclick="window.location.href = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F'; event.preventDefault()">
+              <i onclick="window.location.href = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F'; event.preventDefault(); event.stopPropagation()">
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" style="vertical-align: middle; margin-left: 0.75em">
                   <title>Facebook</title>
                   <switch>
@@ -290,6 +288,9 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
               </i>
             </span>
           </p>
+
+{% endfor %}
+
         </div>
         {% else %}
         <p class="action"><span>Read More</span></p>
