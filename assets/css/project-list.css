@@ -1059,4 +1059,100 @@ details summary:focus::-webkit-details-marker {
 
 
 
+@media (min-width: 70em) {
+  .proposals.winners h3 {
+    font-size: 3vmax;
+    line-height: 1.25;
+  }
+}
+
+
+.proposal-share {
+  font-size: 0.875em;
+  color: var(--primary-color, inherit);
+  color: inherit;
+  opacity: 0.5;
+  padding: 0 0 0.8571428572em 1.7142857143em; /* 1.5em / 0.875em */
+  margin: 0;
+}
+.proposal-share a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (min-width: 30em) and (max-width: 59.9em) {
+  .proposals.finalists li {
+    position: relative;
+  }
+  .proposals.finalists li .text {
+    position: relative;
+    padding-bottom: 7.5em;
+  }
+  .proposals.finalists li .action {
+    position: absolute;
+    left: 1.5em;
+    bottom: 1.5em;
+    margin: 0;
+  }
+  .proposal-share {
+    position: absolute;
+    bottom: 1.5em;
+    right: 3em;
+  }
+}
+@media (min-width: 60em) and (max-width: 69.9em) {
+  .proposals.finalists li {
+    position: relative;
+  }
+  .proposals.finalists li .text {
+    position: relative;
+    padding-bottom: 6em;
+  }
+  .proposal-share {
+    position: absolute;
+    left: calc(50%);
+    bottom: 1.5em;
+  }
+  .proposals.finalists li:nth-child(2n) .proposal-share {
+    left: 1.5em;
+  }
+}
+@media (min-width: 70em) {
+  .proposals.finalists li {
+    position: relative;
+  }
+  .proposals.finalists li .text {
+    position: relative;
+    padding-bottom: 7.5em;
+  }
+  .proposals.finalists li .action {
+    position: absolute;
+    left: 1.5em;
+    bottom: 1.5em;
+    margin: 0;
+  }
+  .proposal-share {
+    position: absolute;
+    bottom: 1.5em;
+    right: 3em;
+  }
+}
+@media (min-width: 70em) {
+  .proposals.finalists li .text {
+    padding-bottom: 9em;
+  }
+  .proposals.finalists li .action {
+    left: 0;
+    bottom: 3em;
+  }
+  .proposal-share {
+    bottom: 3em;
+  }
+  .proposals.finalists li:nth-child(2n) .action {
+    left: 3em;
+  }
+  .proposals.finalists li:nth-child(2n) .proposal-share {
+    right: calc(50% + 3em);
+  }
+}
 
