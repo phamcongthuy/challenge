@@ -939,7 +939,7 @@ details summary:focus::-webkit-details-marker {
   text-align: center;
 }
 .browse strong {
-  color: inherit;
+  color: inherit !important;
 }
 
 
