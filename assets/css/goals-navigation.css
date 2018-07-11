@@ -11,6 +11,12 @@
     grid-column: 1/4;
     text-align: center;
   }
+  .goals .navigation h2 + p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 1.4em;
+  }
   .goals .navigation ul,
   .goals .navigation li {
     list-style: none;
