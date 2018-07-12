@@ -109,12 +109,8 @@
 </head>
 <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
-  {% if page.show_promotion or site.phase == 6 %}
+  {% if page.show_promotion or site.phase == 6 or site.phase == 8 %}
   <section class="promotion">
-<!--     <h1>The submission period is complete.</h1>
-    <p>
-      <span class="avoid-break">Entries will be showcased here on <strong>April 9, 2018</strong>.</span>
-    </p> -->
     {% include promotion.html %}
   </section>
   {% endif %}
