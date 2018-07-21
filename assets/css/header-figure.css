@@ -322,7 +322,7 @@
     height: 100vw;
     position: static;
   }
-  @media (min-width: 30em) and (max-width: 69.9999em) {
+  @media (min-width: 40em) and (max-width: 69.9999em) {
     .header-figure.has-caption.has-caption-details img {
       object-position: 0 55%;
       height: 60vw;

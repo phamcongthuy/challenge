@@ -152,3 +152,53 @@ body main .header-figure.has-caption.has-caption-details .caption .details {
   }
 }
 
+@media (max-width: 70em) {
+  .header-figure .caption {
+    padding: 1.5em 1.5em 3em;
+    background: transparent !important;
+    margin-top: -7.75em;
+  }
+  .header-figure .caption .details {
+    background: transparent !important;
+    padding: 0;
+    margin: 0;
+  }
+  .header-figure .caption .details p.action {
+    margin: 0 !important;
+  }
+  .header-figure .caption .details p.action a {
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    border-color: rgb(6, 179, 188); /* @blueberry */;
+    color: white;
+  }
+}
+
+
+/* For phase 6 “We belive in the power of Angelenos” */
+body .header-figure.has-caption.has-caption-details .caption h1 > span {
+  color: white;
+}
+@media (min-width: 50em) {
+  body .header-figure.has-caption.has-caption-details .caption h1 {
+    font-size: 6vmax !important;
+  }
+}
+body .header-figure.has-caption::before {
+  z-index: 1;
+}
+body .header-figure.has-caption::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-image: none;
+}
+body main .header-figure.has-caption.has-caption-details .caption .details {
+  position: relative;
+  z-index: 1;
+}
+
+

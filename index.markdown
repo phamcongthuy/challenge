@@ -15,33 +15,6 @@ show_promotion: true
 <h1>
   <span>We believe in the<br />power of Angelenos</span>
 </h1>
-<style>
-  body .header-figure.has-caption.has-caption-details .caption h1 > span {
-    color: white;
-  }
-  @media (min-width: 50em) {
-    body .header-figure.has-caption.has-caption-details .caption h1 {
-      font-size: 6vmax !important;
-    }
-  }
-  body .header-figure.has-caption::before {
-    z-index: 1;
-  }
-  body .header-figure.has-caption::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    background-image: none;
-  }
-  body main .header-figure.has-caption.has-caption-details .caption .details {
-    position: relative;
-    z-index: 1;
-  }
-</style>
 {% else %}
 <h1>
   <span>Los Angeles:</span><br />
