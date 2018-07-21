@@ -131,3 +131,12 @@
     display: inline-block;
   }
 
+  .avoid-break[data-characters="45"] {
+    display: unset;
+  }
+
+  @media (min-width: 45em) {
+    .avoid-break[data-characters="45"] {
+      display: inline-block;
+    }
+  }
