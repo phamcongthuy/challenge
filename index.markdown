@@ -13,7 +13,11 @@ show_promotion: true
 
 {% if site.phase >= 6 %}
 <h1>
-  <span>We believe in the<br />power of Angelenos</span>
+  <span>
+    We believe in the
+    <br />
+    power of Angelenos
+  </span>
 </h1>
 {% else %}
 <h1>
