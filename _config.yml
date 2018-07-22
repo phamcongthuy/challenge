@@ -7,11 +7,8 @@ description: >-
 image: https://activation.la2050.org/assets/images/home/2048-wide/collaborates.jpg
 
 mailing_list_url: https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&amp;id=b16f498212
-submission_url: https://activationla2050.smapply.io/prog/challenge_info/
+# submission_url: https://activationla2050.smapply.io/prog/challenge_info/
 # event_url: /event/
-
-# Typeform:
-# vote_url: https://la2050.typeform.com/to/fGLGJB
 
 # Our form:
 vote_url: /vote/form/
@@ -142,7 +139,7 @@ voting_test_mode: false
 voting_strict_mode: true
 
 # For cache busting
-version: 1.6.4
+version: 1.6.5
 
 
 permalink: pretty

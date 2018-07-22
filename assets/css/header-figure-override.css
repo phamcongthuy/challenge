@@ -189,6 +189,11 @@ body .header-figure.has-caption.has-caption-details .caption h1 {
 }
 
 
+.header-figure.has-caption.has-caption-details img {
+  object-position: calc(0% + var(--scroll-percentage, 0) * 1) calc(0% + var(--scroll-percentage, 0) * 20) !important;
+}
+
+
 /* For phase 6 “We belive in the power of Angelenos” */
 body .header-figure.has-caption.has-caption-details .caption h1 > span {
   color: white;
