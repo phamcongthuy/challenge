@@ -45,8 +45,6 @@
   }
 
 
-
-
   @supports (display: grid) {
     @media (min-width: 70em) { /* @wide-enough-for-header-grid */
       header,
@@ -73,6 +71,7 @@
       header .navigation,
       footer .navigation {
         align-self: center;
+        justify-self: end;
       }
       header ul,
       footer ul {
@@ -203,3 +202,15 @@
       }
     }
   }
+
+
+  @supports (display: grid) {
+    @media (min-width: 70em) and (max-width: 82.5em) { /* @wide-enough-for-header-grid */
+      header ul.has-8-items,
+      footer ul.has-8-items {
+        max-width: 25em;
+      }
+    }
+  }
+
+
