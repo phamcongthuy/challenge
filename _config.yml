@@ -36,7 +36,7 @@ vote_url: /vote/form/
 
 # Votes being accepted: 
 # June 19
-# phase: 6
+phase: 6
 
 # Voting period ended: 
 # June 30 
@@ -44,7 +44,7 @@ vote_url: /vote/form/
 
 # Winners announced: 
 # July 9 
-phase: 8
+# phase: 8
 
 finalists:
 
