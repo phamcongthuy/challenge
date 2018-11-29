@@ -1,7 +1,7 @@
 ---
 layout: project-list
 body_class: tangerine
-title: Entries for the 2018 My LA2050 Activation Challenge
+title: Entries for the 2019 My LA2050 Grants Challenge
 canonical_url: /entries/
 category: connect
 ---

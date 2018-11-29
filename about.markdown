@@ -1,5 +1,5 @@
 ---
-title: About the 2018 My LA2050 Activation Challenge
+title: About the 2019 My LA2050 Grants Challenge
 body_class: strawberry
 main_class: standard-layout
 footer_image: true
@@ -13,7 +13,7 @@ With the support of 30,000 Angelenos we’ve outlined an [aspirational vision](h
 
 And now we want your help to take all of this work to the next level! We want you to help us answer: **how can we engage 100,000 Angelenos to make measurable progress towards achieving our shared vision?**
 
-## About the My LA2050 Activation Challenge
+## About the My LA2050 Grants Challenge
 
 This is an open call for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support their efforts.
 

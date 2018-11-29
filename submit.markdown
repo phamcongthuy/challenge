@@ -1,5 +1,5 @@
 ---
-title: Submit Your Proposal for the 2018 My LA2050 Activation Challenge
+title: Submit Your Proposal for the 2019 My LA2050 Grants Challenge
 body_class: lime
 main_class: standard-layout
 footer_image: true
@@ -11,7 +11,7 @@ footer_image: true
 
 <div class="introduction" markdown="1">
 
-<p class="max-width: 23em">Starting <strong class="avoid-break">March 1, 2018</strong> <small class="avoid-break">(9am Pacific Time)</small>, <span class="avoid-break">you can submit your proposal on this website.</span></p>
+<p class="max-width: 23em">Starting <strong class="avoid-break">February 28, 2019</strong> <small class="avoid-break">(9am Pacific Time)</small>, <span class="avoid-break">you can submit your proposal on this website.</span></p>
 
 {% if site.submission_url %}
 
@@ -33,7 +33,7 @@ footer_image: true
 
 <div class="introduction" markdown="1">
 
-The submission period has started! Apply by <strong>March 30, 2018</strong> <small>(5pm Pacific Time)</small>.
+The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
   <a href="{{ site.submission_url }}">Submit your idea</a>
@@ -48,7 +48,7 @@ The submission period has started! Apply by <strong>March 30, 2018</strong> <sma
 The submission period is complete.
 
 <small>
-Entries will be showcased here <strong>April 9, 2018</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
+Entries will be showcased here <strong>April 15, 2019</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
 </small>
 
 <p class="action" markdown="1">
@@ -66,7 +66,7 @@ The submission period is complete.
 <small>
 Finalists will be announced on <strong>May 21, 2018</strong>.
 <span class="avoid-break">Voting begins on
-  <strong>June 19, 2018</strong>.
+  <strong>April 22, 2019</strong>.
 </span>
 </small>
 
@@ -86,7 +86,7 @@ The submission period is complete.
 The finalists have been announced!
 Voting begins on
 <span class="avoid-break">
-  <strong>June 19, 2018</strong>.
+  <strong>April 22, 2019</strong>.
 </span>
 </small>
 
@@ -107,7 +107,7 @@ The submission period is complete.
   Public voting has started!
   Voting ends on
   <span class="avoid-break">
-    <strong>June 29, 2018</strong>.
+    <strong>April 29, 2019</strong>.
   </span>
   </small>
 </p>
@@ -127,7 +127,7 @@ The submission period is complete.
 <small>
   Winners will be announced on 
   <span class="avoid-break">
-    <strong>July 9, 2018</strong>.
+    <strong>June 4, 2019</strong>.
   </span>
 </small>
 
@@ -172,11 +172,11 @@ _Applicants are encouraged to:_
 
 ### Dates
 
-Apply between Thursday, March 1, 2018 (9am Pacific Time) and Friday, March 30, 2018 (5pm Pacific Time) on this website. 
+Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (5pm Pacific Time) on this website. 
 
-Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Activation Challenge website on Monday, April 9, 2018 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on Monday, May 21, 2018.
+Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on Monday, May 21, 2018.
 
-From Tuesday, June 19, 2018 (9am Pacific Time) through Friday, June 29, 2018 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on Monday, July 9, 2018.
+From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on Monday, June 4, 2019.
 
 View the [full timeline](/timeline).
 
@@ -210,9 +210,9 @@ successful
 
 ### Rules
 
-_What are the rules for submitting a proposal to the My LA2050 Activation Challenge?_
+_What are the rules for submitting a proposal to the My LA2050 Grants Challenge?_
 
-* The My LA2050 Grants Challenge is open for submissions from Thursday, March 1, 2018 (9am Pacific Time) through Friday, March 30, 2018 (5pm Pacific Time).
+* The My LA2050 Grants Challenge is open for submissions from Thursday, February 28, 2019 (9am Pacific Time) through Friday, March 29, 2019 (5pm Pacific Time).
 * In order to submit a proposal, log in and complete the application form.
 * US-based non-profit, for-profit, social enterprises and government agencies with projects serving Los Angeles County are eligible to apply.
 * Winning projects must be completed and the grant award must be expended within 24 months.
@@ -220,13 +220,13 @@ _What are the rules for submitting a proposal to the My LA2050 Activation Challe
 * Previous applicants and winners of LA2050 grant programs may reapply.
 * <em>Evaluation committee</em>: In each goal category, the evaluation committee will select five finalists.
 * <em>Public vote</em>: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
-* Projects will be featured on this site and public voting will be open from Tuesday, June 19, 2018 (9am Pacific Time) through Friday, June 29, 2018 (5pm Pacific Time).
+* Projects will be featured on this site and public voting will be open from Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
-* In order to vote in the 2018 My LA2050 Activation Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
+* In order to vote in the 2019 My LA2050 Grants Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
 {% if site.event_url %}
-* Finalists in the My LA2050 Activation Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
+* Finalists in the My LA2050 Grants Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
 {% endif %}
-* Winners of the My LA2050 Activation Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
+* Winners of the My LA2050 Grants Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
 * [Read all the rules](https://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf)
 
 ### Questions
@@ -239,7 +239,7 @@ If you have any questions about the information on this page, [please review our
 
 <div class="introduction" markdown="1">
 
-<p class="max-width: 23em">Starting <strong class="avoid-break">March 1, 2018</strong> <small class="avoid-break">(9am Pacific Time)</small>, <span class="avoid-break">you can submit your proposal on this website.</span></p>
+<p class="max-width: 23em">Starting <strong class="avoid-break">February 28, 2019</strong> <small class="avoid-break">(9am Pacific Time)</small>, <span class="avoid-break">you can submit your proposal on this website.</span></p>
 
 {% if site.submission_url %}
 
@@ -261,7 +261,7 @@ If you have any questions about the information on this page, [please review our
 
 <div class="introduction" markdown="1">
 
-The submission period has started! Apply by <strong>March 30, 2018</strong> <small>(5pm Pacific Time)</small>.
+The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(5pm Pacific Time)</small>.
 
 <p class="action" markdown="1">
   <a href="{{ site.submission_url }}">Submit your idea</a>

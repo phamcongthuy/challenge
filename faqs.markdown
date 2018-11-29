@@ -1,5 +1,5 @@
 ---
-title: FAQs for the 2018 My LA2050 Activation Challenge
+title: FAQs for the 2019 My LA2050 Grants Challenge
 body_class: tangerine
 footer_image: true
 stylesheets:
@@ -91,10 +91,10 @@ It’s also possible that the link or code has expired. If this is the case, you
 <details class="faq" markdown="1">
 
 <summary markdown="1">
-## What is the My LA2050 Activation Challenge?
+## What is the My LA2050 Grants Challenge?
 </summary>
 
-The My LA2050 Activation Challenge  is an open call for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support its efforts.
+The My LA2050 Grants Challenge  is an open call for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support its efforts.
 
 LA2050 will commit to a two-year partnership with the winners—leveraging its resources, assets, and networks to help the activations succeed. Together, the winning organizations, LA2050, and Angelenos will produce five major wins for the region that will change the course of our future.
 
@@ -105,10 +105,10 @@ LA2050 will commit to a two-year partnership with the winners—leveraging its r
 <details class="faq" markdown="1">
 
 <summary markdown="1">
-## Why did you start the My LA2050 Activation Challenge?
+## Why did you start the My LA2050 Grants Challenge?
 </summary>
 
-The My LA2050 Activation Challenge represents a pivot from the past four My LA2050 grants challenges. This challenge is focused on building, organizing, and supporting a united LA2050 community to take action and produce the LA we all dream of.
+The My LA2050 Grants Challenge represents a pivot from the past four My LA2050 grants challenges. This challenge is focused on building, organizing, and supporting a united LA2050 community to take action and produce the LA we all dream of.
 
 We’ve been inspired by the sparks of activism we’ve seen, but by traditional measures, LA has lacked civic engagement on a local level. We’re hoping that this activation challenge can help address barriers to civic engagement and create mechanisms to direct energy into local change.
 

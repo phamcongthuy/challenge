@@ -76,7 +76,7 @@ function createMarkdownFile(data, category) {
   let filename = stringToURI(data.organization_name);
 
   // Page title
-  //data.title = data.title + ' — My LA2050 Activation Challenge';
+  //data.title = data.title + ' — My LA2050 Grants Challenge';
 
   // https://stackoverflow.com/questions/1117584/generating-guids-in-ruby#answer-1126031
   // https://gist.github.com/emacip/b28ba7e9203a38d440e23c38586c303d
