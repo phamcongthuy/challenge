@@ -174,7 +174,7 @@ _Applicants are encouraged to:_
 
 Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (5pm Pacific Time) on this website. 
 
-Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 finalists which will be announced on Monday, May 21, 2018.
+Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals. <del>An evaluation committee will review and score all applications and select 25 finalists which will be announced on Monday, May 21, 2018.</del>
 
 From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on Monday, June 4, 2019.
 
@@ -190,8 +190,7 @@ View the [full timeline](/timeline).
 
 #### Voting Process
 
-1. Finalists announced
-2. Vote on finalists
+2. Vote on proposals
 3. Winners announced
 </div>
 </div>
@@ -218,14 +217,10 @@ _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?
 * Winning projects must be completed and the grant award must be expended within 24 months.
 * Ongoing projects are eligible for submission.
 * Previous applicants and winners of LA2050 grant programs may reapply.
-* <em>Evaluation committee</em>: In each goal category, the evaluation committee will select five finalists.
+* <del><em>Evaluation committee</em>: In each goal category, the evaluation committee will select five finalists.</del>
 * <em>Public vote</em>: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
 * Projects will be featured on this site and public voting will be open from Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
-* In order to vote in the 2019 My LA2050 Grants Challenge, participants must register for a free account and sign in. Use either social sign-in via Facebook or Google or an email account to register. Users will be emailed a link to click in order to validate the address.
-{% if site.event_url %}
-* Finalists in the My LA2050 Grants Challenge are expected to participate in a public event to be held at the start of the voting period to present their proposals to the public.
-{% endif %}
 * Winners of the My LA2050 Grants Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
 * [Read all the rules](https://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf)
 
