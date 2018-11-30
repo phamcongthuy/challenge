@@ -505,6 +505,10 @@
     font-style: italic;
     font-weight: bold;
     color: inherit;
+    letter-spacing: 0.35em;
+    display: inline-block;
+    transform: translateX(0.175em);
+    font-size: 1.2em;
   }
   header h2 a,
   footer h2 a {

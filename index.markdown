@@ -11,7 +11,6 @@ show_promotion: true
 <div class="caption">
 <div class="container">
 
-{% if site.phase >= 6 %}
 <h1>
   <span>
     We believe in the
@@ -19,12 +18,6 @@ show_promotion: true
     power of Angelenos
   </span>
 </h1>
-{% else %}
-<h1>
-  <span>Los Angeles:</span><br />
-  <strong>Change</strong> <span>is&nbsp;Local</span>
-</h1>
-{% endif %}
 
 <div class="details">
 
