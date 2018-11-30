@@ -139,7 +139,7 @@ voting_test_mode: false
 voting_strict_mode: true
 
 # For cache busting
-version: 1.6.5
+version: 1.6.6
 
 
 permalink: pretty
