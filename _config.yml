@@ -16,7 +16,7 @@ vote_url: /vote/form/
 
 # New challenge announced: 
 # January 8
-# phase: 1
+phase: 1
 
 # Entries being accepted: 
 # February 28
@@ -36,7 +36,7 @@ vote_url: /vote/form/
 
 # Votes being accepted: 
 # April 22
-phase: 6
+# phase: 6
 
 # Voting period ended: 
 # April 29
