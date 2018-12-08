@@ -60,7 +60,7 @@ main > h1:first-child::before {
 {% if site.phase < 4 %}
 
 <div class="introduction" markdown="1">
-The proposals will appear here on <strong>April 9, 2018</strong>.
+The proposals will appear here on <strong>April 15, 2019</strong>.
 </div>
 
 {% elsif page.finalists == true and site.phase < 5 %}
@@ -72,7 +72,7 @@ The finalists will appear here on <strong>May 21, 2018</strong>.
 {% elsif page.winners == true and site.phase < 8 %}
 
 <div class="introduction" markdown="1">
-The winners will appear here on <strong>July 9, 2018</strong>.
+The winners will appear here on <strong>June 4, 2019</strong>.
 </div>
 
 {% else %}
@@ -118,7 +118,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
 {% comment %}
 <div class="introduction">
-  <p>Public voting has started! Vote by <strong>June 29, 2018</strong> <small>(5pm Pacific Time)</small>.</p>
+  <p>Public voting has started! Vote by <strong>April 29, 2019</strong> <small>(5pm Pacific Time)</small>.</p>
 
   <p class="action">
     <a href="{{ site.vote_url }}">I’m ready to vote</a>
@@ -132,7 +132,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
 {% if page.winners and site.phase == 8 %}
 <div class="introduction" style="margin-top: 6em; margin-bottom: 6em;">
-  <p>Congratulations to the winners of the My LA2050 Activation Challenge!</p>
+  <p>Congratulations to the winners of the My LA2050 Grants Challenge!</p>
 </div>
 <style>
 @media (min-width: 40em) {
@@ -239,7 +239,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
       <p>
         <span>
           <span style="margin-right: 0.375em;">Share:</span>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F" onclick="window.location.href = 'https://twitter.com/share?text=' + encodeURIComponent('Congratulations to @{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }} for winning a $200K grant in the 2018 My LA2050 Activation Challenge! Check out the other @LA2050 #ActivateforLA winners!') + '&url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F'; event.preventDefault()">
+          <a href="https://twitter.com/share?url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F" onclick="window.location.href = 'https://twitter.com/share?text=' + encodeURIComponent('Congratulations to @{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }} for winning a $200K grant in the 2019 My LA2050 Grants Challenge! Check out the other @LA2050 #ActivateforLA winners!') + '&url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F'; event.preventDefault()">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="vertical-align: middle; margin-left: 0.75em">
               <title>Twitter</title>
               <switch>

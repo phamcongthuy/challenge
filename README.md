@@ -1,9 +1,7 @@
 
-# LA2050 Activation Challenge
+# LA2050 Grants Challenge
 
-This is a website for the 2018 My LA2050 Activation Challenge.
-
-https://activation.la2050.org
+This is a website for the My LA2050 Grants Challenge.
 
 * [How to make changes](#how-to-make-changes)
 * [How to switch between contest phases](#how-to-switch-between-contest-phases)
@@ -13,7 +11,7 @@ https://activation.la2050.org
 
 ## How to make changes
 
-The website is published with [GitHub Pages](https://pages.github.com) & [Netlify](https://www.netlify.com), and the files are generated with [Jekyll](http://jekyllrb.com).
+The website is published with [GitHub Pages](https://pages.github.com) & [Netlify](https://www.netlify.com), and the files are generated with Activation[Jekyll](http://jekyllrb.com).
 
 As you make changes and commit/push them to GitHub, the [website](https://activation.la2050.org) will automatically update.
 
