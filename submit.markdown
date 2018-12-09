@@ -64,26 +64,6 @@ Entries will be showcased here <strong>April 15, 2019</strong>. Finalists will b
 The submission period is complete.
 
 <small>
-Finalists will be announced on <strong>May 21, 2018</strong>.
-<span class="avoid-break">Voting begins on
-  <strong>April 22, 2019</strong>.
-</span>
-</small>
-
-<p class="action" markdown="1">
-  <a href="/entries/">Check out the entries</a>
-</p>
-
-</div>
-
-{% elsif site.phase == 5 %}
-
-<div class="introduction" markdown="1">
-
-The submission period is complete.
-
-<small>
-The finalists have been announced!
 Voting begins on
 <span class="avoid-break">
   <strong>April 22, 2019</strong>.
@@ -91,7 +71,7 @@ Voting begins on
 </small>
 
 <p class="action" markdown="1">
-  <a href="/finalists/">Check out the finalists</a>
+  <a href="/entries/">Check out the entries</a>
 </p>
 
 </div>

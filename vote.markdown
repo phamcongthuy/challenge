@@ -11,23 +11,15 @@ footer_image: true
 
 {% if site.phase <= 4 %}
 
-Starting **April 22, 2019** <small class="avoid-break">(9am Pacific Time)</small>, you can vote for a proposal on this website.
+Starting **April 22, 2019** (9am Pacific Time), you can vote for the entries on this website.<br />You can cast five votes, one per [goal category](/about/#goals).
 
 <p class="action" markdown="1">
-  <a href="{{ site.mailing_list_url }}">Get updates</a>
-</p>
-
-{% elsif site.phase == 5 %}
-
-Starting **April 22, 2019** (9am Pacific Time), you can vote for the finalists on this website.<br />You can cast five votes, one per [goal category](/about/#goals).
-
-<p class="action" markdown="1">
-  <a href="/finalists/">Check out the finalists</a>
+  <a href="/entries/">Check out the entries</a>
 </p>
 
 {% elsif site.phase == 6 %}
 
-You can cast five votes, one per goal category.<br /><a href="/finalists/" style="color: var(--primary-color)">Check out the finalists</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
+You can cast five votes, one per goal category.<br /><a href="/entries/" style="color: var(--primary-color)">Check out the entries</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
 
 <p class="action">
   <a href="{{ site.vote_url }}">I’m ready to vote</a>
@@ -45,7 +37,7 @@ Public voting is complete.
 </small>
 
 <p class="action" markdown="1">
-  <a href="/finalists/">Check out the finalists</a>
+  <a href="/entries/">Check out the entries</a>
 </p>
 
 {% elsif site.phase == 8 %}

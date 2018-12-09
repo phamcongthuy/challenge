@@ -29,10 +29,6 @@ show_promotion: true
   <p class="action">
     <a href="/entries/">Check out the entries!</a>
   </p>
-  {% elsif site.phase == 5 %}
-  <p class="action">
-    <a href="/finalists/">Check out the finalists!</a>
-  </p>
   {% elsif site.phase == 6 %}
   <p class="action">
     <a href="{{ site.vote_url }}">It’s time to vote!</a>
@@ -102,19 +98,6 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 </p>
 <p>
   <a href="/entries/">Check out the entries</a>.
-  Finalists will be announced on
-  <span class="avoid-break">
-    <strong>May 21, 2018</strong>.
-  </span>
-</p>
-
-{% elsif site.phase == 5 %}
-
-<p>
-  <em>The submission period is complete.</em>
-</p>
-<p>
-  <a href="/finalists/">Check out the finalists</a>.
   Voting begins on
   <span class="avoid-break">
     <strong>April 22, 2019</strong>.

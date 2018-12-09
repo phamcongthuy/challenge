@@ -31,24 +31,7 @@
 {% elsif site.phase == 4 %}
 
       <p>
-        <span class="avoid-break">Finalists will be announced on <strong class="avoid-break">May 21, 2018.</strong></span>
-        <small class="avoid-break">
-        Voting begins on
-        <span class="avoid-break">
-          <strong>April 22, 2019</strong>.
-        </span>
-        </small>
-      </p>
-
-{% elsif site.phase == 5 %}
-
-      <p>
-        {% if site.event_url %}
-        <span class="avoid-break">
-          Vote at the <strong style=""><a href="/event/">public event</a></strong> on <strong>April 22, 2019</strong>.
-        </span>
-        {% else %}
-        The <a href="/finalists/">finalists</a> have been announced!
+        The <a href="/entries/">entries</a> have arrived!
         <span class="avoid-break">
           Voting begins on
           <span class="avoid-break">
@@ -60,7 +43,7 @@
 
 {% elsif site.phase == 6 %}
 
-      <p>Public voting has started! <a href="/finalists/">Check out the finalists</a>, and vote by <strong>April 29, 2019</strong>.</p>
+      <p>Public voting has started! <a href="/entries/">Check out the entries</a>, and vote by <strong>April 29, 2019</strong>.</p>
 
       <p class="action">
         <a href="{{ site.vote_url }}">I’m ready to vote</a>
@@ -80,20 +63,16 @@
 
 {% elsif site.phase == 8 %}
 
-      <!--
       <p>
         The <a href="/winners/">winners</a> have been announced.
         Thank you to everyone who participated!
       </p>
 
-      <p>
-        Visit <a href="https://la2050.org/">la2050.org</a> for jobs, events, and news from the world of impact.
-      </p>
-      -->
-
+      <!--
       <p>
         The activation challenge is part of the greater <a href="https://la2050.org/">LA2050 initiative</a>.
         <span class="avoid-break" data-characters="45">We’re working to move Los Angeles <span class="avoid-break">toward <a href="https://la2050.org/#learnmore">five goals</a>.</span></span>
       </p>
+      -->
 
 {% endif %}
