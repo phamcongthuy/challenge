@@ -201,7 +201,7 @@ _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?
 * Winning projects must be completed and the grant award must be expended within 24 months.
 * Ongoing projects are eligible for submission.
 * Previous applicants and winners of LA2050 grant programs may reapply.
-* <del><em>Evaluation committee</em>: In each goal category, the evaluation committee will select five <mark>finalists</mark>.</del>
+* <em>Evaluation committee</em>: In each goal category, the evaluation committee will select five <mark>finalists</mark>.
 * <em>Public vote</em>: The public will vote on the five <mark>finalists</mark> in each goal category. The proposal in each goal category garnering the most votes will be a winner.
 * Projects will be featured on this site and public voting will be open from Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
