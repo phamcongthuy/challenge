@@ -9,7 +9,15 @@ footer_image: true
 
 <div class="introduction" markdown="1">
 
-{% if site.phase <= 4 %}
+{% if site.phase <= 3 %}
+
+Starting **June 19, 2018** <small class="avoid-break">(9am Pacific Time)</small>, you can vote for a proposal on this website.
+
+<p class="action" markdown="1">
+  <a href="{{ site.mailing_list_url }}">Get updates</a>
+</p>
+
+{% elsif site.phase == 4 %}
 
 Starting **April 22, 2019** (9am Pacific Time), you can vote for the entries on this website.<br />You can cast five votes, one per [goal category](/about/#goals).
 
@@ -17,7 +25,7 @@ Starting **April 22, 2019** (9am Pacific Time), you can vote for the entries on 
   <a href="/entries/">Check out the entries</a>
 </p>
 
-{% elsif site.phase == 6 %}
+{% elsif site.phase == 5 %}
 
 You can cast five votes, one per goal category.<br /><a href="/entries/" style="color: var(--primary-color)">Check out the entries</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
 
@@ -25,7 +33,7 @@ You can cast five votes, one per goal category.<br /><a href="/entries/" style="
   <a href="{{ site.vote_url }}">I’m ready to vote</a>
 </p>
 
-{% elsif site.phase == 7 %}
+{% elsif site.phase == 6 %}
 
 Public voting is complete.
 
@@ -40,7 +48,7 @@ Public voting is complete.
   <a href="/entries/">Check out the entries</a>
 </p>
 
-{% elsif site.phase == 8 %}
+{% elsif site.phase == 7 %}
 
 The winners have been announced!
 

@@ -24,7 +24,7 @@ footer_image: true
 : Moderation Period
 {% endif %}
 
-{% if site.phase == 6 %}
+{% if site.phase == 5 %}
 **![](/assets/images/timeline/strawberry/voting.svg) April 22-29, 2019**
 : **Public Voting**
 {% else %}
@@ -32,7 +32,7 @@ footer_image: true
 : Public Voting
 {% endif %}
 
-{% if site.phase == 8 %}
+{% if site.phase == 7 %}
 **![](/assets/images/timeline/strawberry/winners.svg) June 4, 2019**
 : **Winners Announced**
 {% else %}

@@ -36,7 +36,7 @@ main > h1:first-child::before {
 The proposals will appear here on <strong>April 15, 2019</strong>.
 </div>
 
-{% elsif page.winners == true and site.phase < 8 %}
+{% elsif page.winners == true and site.phase <= 6 %}
 
 <div class="introduction" markdown="1">
 The winners will appear here on <strong>June 4, 2019</strong>.
@@ -81,7 +81,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endif %}
 
 
-{% if page.winners and site.phase == 8 %}
+{% if page.winners and site.phase == 7 %}
 <div class="introduction" style="margin-top: 6em; margin-bottom: 6em;">
   <p>Congratulations to the winners of the My LA2050 Grants Challenge!</p>
 </div>

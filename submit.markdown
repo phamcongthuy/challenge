@@ -80,7 +80,7 @@ Voting begins on
 
 </div>
 
-{% elsif site.phase == 6 %}
+{% elsif site.phase == 5 %}
 
 <div class="introduction" markdown="1">
 
@@ -102,7 +102,7 @@ The submission period is complete.
 
 </div>
 
-{% elsif site.phase == 7 %}
+{% elsif site.phase == 6 %}
 
 <div class="introduction" markdown="1">
 
@@ -121,7 +121,7 @@ The submission period is complete.
 
 </div>
 
-{% elsif site.phase == 8 %}
+{% elsif site.phase == 7 %}
 
 <div class="introduction" markdown="1">
 

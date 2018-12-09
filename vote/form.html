@@ -7,7 +7,7 @@ stylesheets:
 # image: https://activation.la2050.org/assets/images/vote/2048-wide/background.jpg
 ---
 
-{% if site.phase < 6 and site.voting_test_mode != true %}
+{% if site.phase <= 4 and site.voting_test_mode != true %}
 
   <div class="introduction introduction-voting">
     <div>
@@ -19,7 +19,7 @@ stylesheets:
     </div>
   </div>
 
-{% elsif site.phase > 6 and site.voting_test_mode != true %}
+{% elsif site.phase >= 6 and site.voting_test_mode != true %}
 
   <div class="introduction introduction-voting">
     <div>

@@ -29,15 +29,15 @@ show_promotion: true
   <p class="action">
     <a href="/entries/">Check out the entries!</a>
   </p>
-  {% elsif site.phase == 6 %}
+  {% elsif site.phase == 5 %}
   <p class="action">
     <a href="{{ site.vote_url }}">It’s time to vote!</a>
   </p>
-  {% elsif site.phase == 7 %}
+  {% elsif site.phase == 6 %}
   <p class="action">
     <a href="/entries/">Check out the entries!</a>
   </p>
-  {% elsif site.phase == 8 %}
+  {% elsif site.phase == 7 %}
   <p class="action">
     <a href="/winners/">Check out the winners!</a>
   </p>
@@ -105,7 +105,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   </span>
 </p>
 
-{% elsif site.phase == 6 %}
+{% elsif site.phase == 5 %}
 
 <p>
   <a href="{{ site.vote_url }}">It’s time to vote</a>!
@@ -115,7 +115,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   </span>
 </p>
 
-{% elsif site.phase == 7 %}
+{% elsif site.phase == 6 %}
 
 <p>
   <em>The public voting period is complete.</em>
@@ -128,7 +128,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   </span>
 </p>
 
-{% elsif site.phase == 8 %}
+{% elsif site.phase == 7 %}
 
 <p><em>The winners have been announced!</em></p>
 <p><a href="/winners/">Check out the winners</a></p>
@@ -191,11 +191,11 @@ The <mark>finalists</mark> will represent a diverse set of issues, engagement st
 * Ability to mobilize the LA community
 * Collaborative spirit
 
-{% if site.phase <= 5 %}
+{% if site.phase <= 4 %}
 
 Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal](/vote/) on this website.
 
-{% elsif site.phase == 6 %}
+{% elsif site.phase == 5 %}
 
 <p>
   <a href="/vote/">It’s time to vote</a>!
@@ -205,7 +205,7 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
   </span>
 </p>
 
-{% elsif site.phase == 7 %}
+{% elsif site.phase == 6 %}
 
 <p>
   <em>The public voting period is complete.</em>
@@ -218,7 +218,7 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
   </span>
 </p>
 
-{% elsif site.phase == 8 %}
+{% elsif site.phase == 7 %}
 
 <p><em>The winners have been announced!</em></p>
 <p><a href="/winners/">Check out the winners</a></p>
@@ -238,7 +238,7 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 : Submission Period
 {% endif %}
 
-{% if site.phase == 6 %}
+{% if site.phase == 5 %}
 **![](/assets/images/timeline/strawberry/voting.svg) April 22-29, 2019**
 : **Public Voting**
 {% else %}
@@ -246,7 +246,7 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 : Public Voting
 {% endif %}
 
-{% if site.phase == 8 %}
+{% if site.phase == 7 %}
 **![](/assets/images/timeline/strawberry/winners.svg) June 4, 2019**
 : **Winners Announced**
 {% else %}
