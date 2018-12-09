@@ -25,19 +25,9 @@ footer_image: true
 {% endif %}
 
 {% if site.phase == 6 %}
-{% if site.event_url %}
-**![](/assets/images/timeline/strawberry/event.svg) April 22, 2019**
-: **Public Event**
-{% endif %}
-
 **![](/assets/images/timeline/strawberry/voting.svg) April 22-29, 2019**
 : **Public Voting**
 {% else %}
-{% if site.event_url %}
-![](/assets/images/timeline/event.svg) April 22, 2019
-: Public Event
-{% endif %}
-
 ![](/assets/images/timeline/voting.svg) April 22-29, 2019
 : Public Voting
 {% endif %}
@@ -50,6 +40,6 @@ footer_image: true
 : Winners Announced
 {% endif %}
 
-**25 <mark>finalists</mark>** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>{% if site.event_url %}<br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to <mark>finalists</mark> at least three weeks prior to the event.{% endif %}
+**25 <mark>finalists</mark>** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>
 
 </div></div>
