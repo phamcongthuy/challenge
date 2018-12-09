@@ -48,7 +48,11 @@ The submission period has started! Apply by <strong>March 29, 2019</strong> <sma
 The submission period is complete.
 
 <small>
-Entries will be showcased here <strong>April 15, 2019</strong>. Finalists will be announced on <strong>May 21, 2018</strong>.
+Entries will be showcased here <strong>April 15, 2019</strong>. 
+Voting begins on
+<span class="avoid-break">
+  <strong>April 22, 2019</strong>.
+</span>
 </small>
 
 <p class="action" markdown="1">
@@ -93,7 +97,7 @@ The submission period is complete.
 </p>
 
 <p class="action" markdown="1">
-  <a href="/finalists/">Check out the finalists</a>
+  <a href="/entries/">Check out the entries</a>
 </p>
 
 </div>
@@ -112,7 +116,7 @@ The submission period is complete.
 </small>
 
 <p class="action" markdown="1">
-  <a href="/finalists/">Check out the finalists</a>
+  <a href="/entries/">Check out the entries</a>
 </p>
 
 </div>
@@ -154,9 +158,9 @@ _Applicants are encouraged to:_
 
 Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (5pm Pacific Time) on this website. 
 
-Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals. <del>An evaluation committee will review and score all applications and select 25 finalists which will be announced on Monday, May 21, 2018.</del>
+Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 <mark>finalists</mark> which will be announced on Monday, May 21, 2018.
 
-From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), we’ll open the finalists’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on Monday, June 4, 2019.
+From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), we’ll open the <mark>finalists</mark>’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on Monday, June 4, 2019.
 
 View the [full timeline](/timeline).
 
@@ -197,8 +201,8 @@ _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?
 * Winning projects must be completed and the grant award must be expended within 24 months.
 * Ongoing projects are eligible for submission.
 * Previous applicants and winners of LA2050 grant programs may reapply.
-* <del><em>Evaluation committee</em>: In each goal category, the evaluation committee will select five finalists.</del>
-* <em>Public vote</em>: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
+* <del><em>Evaluation committee</em>: In each goal category, the evaluation committee will select five <mark>finalists</mark>.</del>
+* <em>Public vote</em>: The public will vote on the five <mark>finalists</mark> in each goal category. The proposal in each goal category garnering the most votes will be a winner.
 * Projects will be featured on this site and public voting will be open from Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
 * Winners of the My LA2050 Grants Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.

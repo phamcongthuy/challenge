@@ -50,28 +50,6 @@ layout: null
   </url>
 
 {% comment %}
-######### Finalists #########
-{% endcomment %}
-  <url>
-    <loc>https://activation.la2050.org/finalists/</loc>
-  </url>
-  <url>
-    <loc>https://activation.la2050.org/learn/finalists/</loc>
-  </url>
-  <url>
-    <loc>https://activation.la2050.org/create/finalists/</loc>
-  </url>
-  <url>
-    <loc>https://activation.la2050.org/play/finalists/</loc>
-  </url>
-  <url>
-    <loc>https://activation.la2050.org/connect/finalists/</loc>
-  </url>
-  <url>
-    <loc>https://activation.la2050.org/live/finalists/</loc>
-  </url>
-
-{% comment %}
 ######### Projects #########
 {% endcomment %}
 

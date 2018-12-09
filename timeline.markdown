@@ -50,6 +50,6 @@ footer_image: true
 : Winners Announced
 {% endif %}
 
-<del>**25 finalists** will be chosen by the evaluation committee</del>, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>{% if site.event_url %}<br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to finalists at least three weeks prior to the event.{% endif %}
+**25 <mark>finalists</mark>** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>{% if site.event_url %}<br /><br />If your application is selected as a finalist to win the activation challenge, a representative of your team will be invited to a public event to present your proposal to the public. Details will be provided to <mark>finalists</mark> at least three weeks prior to the event.{% endif %}
 
 </div></div>

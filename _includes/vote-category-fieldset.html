@@ -7,15 +7,6 @@
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
 
-{% assign is_finalist = false %}
-{% for finalist in site.finalists %}
-  {% if finalist == project.uri %}
-    {% assign is_finalist = true %}
-  {% endif %}
-{% endfor %}
-
-{% comment %} if is_finalist == true {% endcomment %}
-{% if true %}
 <li>
 
   <a href="{{ project.uri }}" target="_blank">
@@ -53,7 +44,6 @@
 
 </li>
 {% assign first_item = false %}
-{% endif %}
 {% endfor %}
 </ul>
 

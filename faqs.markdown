@@ -147,7 +147,7 @@ Check out the [LA2050 Goals](/about/#goals), the [LA2050 Report](https://la2050.
 ## How do I vote?
 </summary>
 
-Visit [activation.la2050.org](https://activation.la2050.org) to start the voting process.
+Visit [challenge.la2050.org](https://challenge.la2050.org) to start the voting process.
 
 
 If you need additonal assistance, check out this [step-by-step guide](https://www.dropbox.com/s/tk93k2bk1rmqz17/Step-By-Step%20Voting%20Guide%20for%20the%202018%20My%20LA2050%20Activation%20Challenge%20%281%29.pdf?dl=0) on how to vote. 
@@ -163,7 +163,7 @@ If you need additonal assistance, check out this [step-by-step guide](https://ww
 ## How many times can I vote?
 </summary>
 
-You can only vote once per goal category, for a total of 5 votes. It is not required that you use all 5 of your votes, but we encourage you to do so! If you'd like to read about finalists you're less familiar with before you vote, we have all of the [finalists' submissions](https://activation.la2050.org/finalists/) posted and available.
+You can only vote once per goal category, for a total of 5 votes. It is not required that you use all 5 of your votes, but we encourage you to do so! If you'd like to read about entries you’re less familiar with before you vote, we have all of the [entries’ submissions](/entries/) posted and available.
 
 </details>
 

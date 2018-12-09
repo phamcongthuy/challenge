@@ -26,47 +26,12 @@ main > h1:first-child::before {
 }
 
 </style>
-{% elsif page.finalists == true %}
-<h1 style="color: white">Finalists</h1>
-{% else %}
 <h1 style="color: white">Entries</h1>
-{% endif %}
-
-{% assign conditional_finalists_url = "" %}
-
-{% if page.finalists %}
-{% assign conditional_finalists_url = "finalists/" %}
-{% endif %}
-
-
-
-{% comment %}
-{% unless page.is_search_results %}
-<script>
-(function() {
-  function getRandomOrder() {
-    return (Math.floor(Math.random() * 100) + 1) - 50;
-  }
-  for (var index = 0; index < 100; index++) {
-    document.documentElement.style.setProperty('--order-' + index, getRandomOrder());
-  }
-})();
-</script>
-{% endunless %}
-{% endcomment %}
-
-
 
 {% if site.phase < 4 %}
 
 <div class="introduction" markdown="1">
 The proposals will appear here on <strong>April 15, 2019</strong>.
-</div>
-
-{% elsif page.finalists == true and site.phase < 5 %}
-
-<div class="introduction" markdown="1">
-The finalists will appear here on <strong>May 21, 2018</strong>.
 </div>
 
 {% elsif page.winners == true and site.phase < 8 %}
@@ -114,22 +79,6 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endif %}
 
 
-{% if page.finalists and site.phase == 6 %}
-
-{% comment %}
-<div class="introduction">
-  <p>Public voting has started! Vote by <strong>April 29, 2019</strong> <small>(5pm Pacific Time)</small>.</p>
-
-  <p class="action">
-    <a href="{{ site.vote_url }}">I’m ready to vote</a>
-  </p>
-</div>
-
-<hr />
-{% endcomment %}
-
-{% endif %}
-
 {% if page.winners and site.phase == 8 %}
 <div class="introduction" style="margin-top: 6em; margin-bottom: 6em;">
   <p>Congratulations to the winners of the My LA2050 Grants Challenge!</p>
@@ -147,15 +96,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% include project-navigation.html %}
 
 
-<ul class="proposals {% if page.finalists or page.winners %}finalists{% endif %} {% if page.winners %}winners{% endif %}" id="project-list">
-
-<!--   <li class="proposals-category-tall">
-    <div><p><span>{{ page.category }}</span></p></div>
-  </li> -->
-<!-- 
-  <li class="proposals-category-short">
-    <div><p><span>{{ page.category }}</span></p></div>
-  </li> -->
+<ul class="proposals {% if page.winners %}finalists winners{% endif %}" id="project-list">
 
   {% unless page.winners %}
   {% comment %} Order alphabetically {% endcomment %}
@@ -166,13 +107,6 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
   {% assign do_show_item = false %}
 
-  {% assign is_finalist = false %}
-  {% for finalist in site.finalists %}
-    {% if finalist == data.uri %}
-      {% assign is_finalist = true %}
-    {% endif %}
-  {% endfor %}
-
   {% assign is_winner = false %}
   {% for winner in site.winners %}
     {% if winner == data.uri %}
@@ -182,16 +116,14 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
   {% if page.winners == true and is_winner == true %}
   {% assign do_show_item = true %}
-  {% elsif page.finalists == true and is_finalist == true %}
-  {% assign do_show_item = true %}
-  {% elsif page.winners != true and page.finalists != true %}
+  {% elsif page.winners != true %}
   {% assign do_show_item = true %}
   {% endif %}
 
   {% if do_show_item == true %}
 
   {% if page.is_search_results %}<script type="text/template">{% endif %}
-  {% if page.finalists or page.winners %}
+  {% if page.winners %}
   <li class="{{ data.category }}">
     <a href="{{ data.uri }}">
       <span class="image" {% if data.project_image_color %}
@@ -239,7 +171,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
       <p>
         <span>
           <span style="margin-right: 0.375em;">Share:</span>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F" onclick="window.location.href = 'https://twitter.com/share?text=' + encodeURIComponent('Congratulations to @{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }} for winning a $200K grant in the 2019 My LA2050 Grants Challenge! Check out the other @LA2050 #ActivateforLA winners!') + '&url=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F'; event.preventDefault()">
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fchallenge.la2050.org%2Fwinners%2F" onclick="window.location.href = 'https://twitter.com/share?text=' + encodeURIComponent('Congratulations to @{{ twitter | replace: "https://www.twitter.com/", "" | replace: "https://twitter.com/", "" | replace: "www.twitter.com/", "" | replace: "twitter.com/", "" | replace: "/", "" | replace: "@", "" }} for winning a $200K grant in the 2019 My LA2050 Grants Challenge! Check out the other @LA2050 #ActivateforLA winners!') + '&url=https%3A%2F%2Fchallenge.la2050.org%2Fwinners%2F'; event.preventDefault()">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="vertical-align: middle; margin-left: 0.75em">
               <title>Twitter</title>
               <switch>
@@ -249,7 +181,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
             </svg>
           </i>
           &nbsp;
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Factivation.la2050.org%2Fwinners%2F">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchallenge.la2050.org%2Fwinners%2F">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" style="vertical-align: middle; margin-left: 0.75em">
               <title>Facebook</title>
               <switch>
@@ -442,30 +374,6 @@ function shuffle(array) {
 
 {% endif %}
 
-
-{% comment %}
-{% unless page.winners or page.finalists %}
-
-<section class="goals" style="margin-bottom: 9em">
-
-<div class="navigation"><div>
-
-<!-- <h2>Browse categories</h2> -->
-
-<ul class="action" style="margin-right: 0;">
-  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
-  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
-  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
-  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
-  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
-</ul>
-
-</div></div>
-
-</section>
-
-{% endunless %}
-{% endcomment %}
 
 
 <!-- <script async src="/api/connect.js"></script>

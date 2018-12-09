@@ -35,7 +35,7 @@ show_promotion: true
   </p>
   {% elsif site.phase == 7 %}
   <p class="action">
-    <a href="/finalists/">Check out the finalists!</a>
+    <a href="/entries/">Check out the entries!</a>
   </p>
   {% elsif site.phase == 8 %}
   <p class="action">
@@ -85,9 +85,10 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   <em>The submission period is complete.</em>
 </p>
 <p>
-  Proposals will be showcased here on <strong>April 15, 2019</strong>. Finalists will be announced on
+  Proposals will be showcased here on <strong>April 15, 2019</strong>. 
+  Voting begins on
   <span class="avoid-break">
-    <strong>May 21, 2018</strong>.
+    <strong>April 22, 2019</strong>.
   </span>
 </p>
 
@@ -120,7 +121,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   <em>The public voting period is complete.</em>
 </p>
 <p>
-  <a href="/finalists/">Check out the finalists</a>.
+  <a href="/entries/">Check out the entries</a>.
   Winners will be announced on 
   <span class="avoid-break">
     <strong>June 4, 2019</strong>.
@@ -178,11 +179,11 @@ Read our [guidelines for proposals](/submit/#guidelines).
 
 Winners will be selected via a two-step process:
 
-<del>**25 finalists will be selected by an evaluation committee**: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 finalists—five in each goal category.</del>
+**25 <mark>finalists</mark> will be selected by an evaluation committee**: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 <mark>finalists</mark>—five in each goal category.
 
-**5 winning proposals will be selected by the public**: The public will vote on the finalists. The activations in each goal category that receive the most votes will be announced as the winners.
+**5 winning proposals will be selected by the public**: The public will vote on the <mark>finalists</mark>. The activations in each goal category that receive the most votes will be announced as the winners.
 
-The finalists will represent a diverse set of issues, engagement strategies, and activation goals. Finalists will be selected using the following criteria:
+The <mark>finalists</mark> will represent a diverse set of issues, engagement strategies, and activation goals. <mark>Finalists</mark> will be selected using the following criteria:
 
 * Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application
@@ -210,7 +211,7 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
   <em>The public voting period is complete.</em>
 </p>
 <p>
-  <a href="/finalists/">Check out the finalists</a>.
+  <a href="/entries/">Check out the entries</a>.
   Winners will be announced on 
   <span class="avoid-break">
     <strong>June 4, 2019</strong>.
