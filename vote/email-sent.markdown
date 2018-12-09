@@ -6,7 +6,7 @@ stylesheets:
   - "/assets/css/vote-process.css"
 ---
 
-{% if site.phase != 6 and site.voting_test_mode != true %}
+{% if site.phase != 5 and site.voting_test_mode != true %}
 
 # Oops!
 

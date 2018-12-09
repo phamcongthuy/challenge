@@ -6,7 +6,7 @@ main_class: standard-layout
 footer_image: true
 ---
 
-{% if site.phase != 6 and site.voting_test_mode != true %}
+{% if site.phase != 5 and site.voting_test_mode != true %}
 
 # Oops!
 
