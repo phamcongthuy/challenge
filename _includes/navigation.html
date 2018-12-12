@@ -15,8 +15,10 @@
   {% if site.phase >= 4 %}
   <li><a href="/entries/" id="entries-navigation-item">Entries</a></li>
   {% endif %}
+  {% unless site.phase == 0 %}
   <li><a href="/submit/">Submit</a></li>
   <li><a href="/vote/">Vote</a></li>
+  {% endunless %}
   <li><a href="/timeline/">Timeline</a></li>
   <li><a href="/faqs/"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
 </ul>

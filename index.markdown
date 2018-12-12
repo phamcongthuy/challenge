@@ -11,6 +11,46 @@ show_promotion: true
 <div class="caption">
 <div class="container">
 
+{% if site.phase == 0 %}
+<style>
+
+.header-figure.has-caption.has-caption-details img {
+  opacity: 0;
+}
+
+body .header-figure.has-caption {
+  background-color: var(--primary-color);
+}
+body .header-figure.has-caption::before {
+  content: none;
+}
+
+@media (min-width: 70em) {
+  .home:not(.header-not-visible) header ul a {
+    text-shadow: none;
+  }
+}
+
+.standard-layout > .standard-figure + .standard-section {
+  margin-top: -1.5em;
+}
+@supports (display: grid) {
+  @media (min-width: 70em) { /* @wide-enough-for-header-grid */
+    .standard-layout > .standard-figure + .standard-section {
+      margin-top: -3em;
+    }
+  }
+}
+
+.header-figure .caption .details p.action a {
+  background-color: rgb(237, 59, 136);
+}
+
+</style>
+<h1>
+  <span><span style="font-size: 0.5em; display: block;">The</span>Grants Challenge<span style="font-size: 0.5em; display: block;">is coming soon…</span></span>
+</h1>
+{% else %}
 <h1>
   <span>
     We believe in the
@@ -18,6 +58,7 @@ show_promotion: true
     power of Angelenos
   </span>
 </h1>
+{% endif %}
 
 <div class="details">
 
@@ -52,6 +93,7 @@ show_promotion: true
 </div><!-- /.caption -->
 </div><!-- /.standard-figure -->
 
+{% unless site.phase == 0 %}
 <p class="activate-tag">#ACTIVATEFORLA</p>
 
 <h2>
@@ -224,6 +266,11 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 <p><a href="/winners/">Check out the winners</a></p>
 
 {% endif %}
+
+
+
+{% endunless %}
+
 
 
 <section class="standard-section timeline" id="dates"><div markdown="1">
