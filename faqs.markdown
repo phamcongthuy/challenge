@@ -85,6 +85,8 @@ We’re open! But here are some ideas about what we’re looking for:
 * Efforts that not only produce positive results but are also focused on increasing local engagement and civic participation
 * A desire to test new strategies
 
+For inspiration, you can check out submissions from previous winners at the [My LA2050 Ideas Archive](https://archive.la2050.org/search/?keywords=winner)
+
 </details>
 
 
@@ -103,9 +105,9 @@ Share how your proposal will impact the LA2050 goal you are focusing on. For exa
 
 Be sure to explain why you think the strategy and methods are the best course of action for impacting the goal and metrics.
 
-Videos can help quickly articulate your project or your organization’s mission. To include a video, use a YouTube URL. If you don’t have a video, be sure to include a high-resolution photo that represents your idea or organization. Photos should be in JPG, or PNG format, at least 570 × 345 pixels. You’ll get the best results if you send us the highest resolution image you have. We suggest limiting attachment files to 5 MB each. We recommend avoiding a lot of text or logos in your images, as we may have to crop them to fit our site.
+Be sure to include an image that represents your idea or organization. You’ll get the best results if you send us the highest resolution image you have. We recommend avoiding a lot of text or logos in your images, as we may have to crop them to fit our site. Images should be in JPEG, or PNG format.
 
-Please note that when uploading documents, file names containing special characters (!@#$%^&\*()) are not permitted; file names should be less than or equal to 30 characters.
+Videos can also help quickly articulate your project or your organization’s mission. To include a video, first upload the video to a place like [YouTube](https://www.youtube.com/) or [Vimeo](https://vimeo.com/) and then include the URL for the video with your application.
 
 Applicants should not expect to be able to revise their applications after the submission date.
 

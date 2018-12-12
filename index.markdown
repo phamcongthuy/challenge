@@ -85,7 +85,7 @@ body .header-figure.has-caption::before {
 
 </style>
 <h1>
-  <span><span>The</span> Grants Challenge<br /><span>is coming in 2019…</span></span>
+  <span><span>The</span> Grants Challenge<br /><span>is coming soon…</span></span>
 </h1>
 {% else %}
 <h1>
