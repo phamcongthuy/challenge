@@ -500,14 +500,17 @@
     font-size: inherit;
     max-width: none;
   }
+  header h2 span:first-child,
+  footer h2 span:first-child {
+    letter-spacing: 0.1em;
+  }
   header h2 em,
   footer h2 em {
     font-style: italic;
     font-weight: bold;
     color: inherit;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.25em;
     display: inline-block;
-    transform: translateX(0.175em);
     font-size: 1.2em;
   }
   header h2 a,
