@@ -17,7 +17,7 @@ And now we want your help to continue this work!
 
 ## About the My LA2050 Grants Challenge
 
-This is an open call for ideas to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among ten organizations — two per goal category — to implement their ideas to engage Angelenos. Each organization will receive a total of $100,000 over one year to support their efforts.
+This is an open call for ideas to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among ten organizations—two per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $100,000 over one year to support their efforts.
 
 The proposals should aim to engage Angelenos to make a specific, tangible impact on one of the [LA2050 goals and metrics](https://www.google.com/url?q=https://alpha-challenge.la2050.org/about/%23goals&sa=D&ust=1544652127683000) by 2020.
 
@@ -241,6 +241,6 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 
 
-</section><!— /.goals —>
+</section><!-- /.goals -->
 
-<script></script><!— SHIM: This is here to prevent negative margin on the following element  —>
+<script></script><!-- SHIM: This is here to prevent negative margin on the following element -->

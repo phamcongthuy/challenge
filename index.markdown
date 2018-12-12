@@ -1,6 +1,6 @@
 ---
 title: 2019 My LA2050 Grants Challenge
-body_class: strawberry home
+body_class: blueberry home
 main_class: standard-layout
 footer_image: true
 show_promotion: true
@@ -16,6 +16,11 @@ show_promotion: true
 
 .header-figure.has-caption.has-caption-details img {
   opacity: 0;
+}
+@media (min-width: 70em) {
+  .header-figure.has-caption.has-caption-details img {
+    height: 51vw !important;
+  }
 }
 
 body .header-figure.has-caption {
@@ -44,11 +49,43 @@ body .header-figure.has-caption::before {
 
 .header-figure .caption .details p.action a {
   background-color: rgb(237, 59, 136);
+  border-color: rgb(237, 59, 136);
 }
+.header-figure .caption .details p.action a:hover,
+.header-figure .caption .details p.action a:active,
+.header-figure .caption .details p.action a:focus {
+  border-color: rgb(237, 59, 136);
+  color: rgb(237, 59, 136) !important;
+}
+
+.home .promotion {
+  background: white;
+  color: inherit;
+}
+.home .promotion a:hover,
+.home .promotion a:active,
+.home .promotion a:focus {
+  color: var(--primary-color);
+}
+
+.home:not(.header-not-visible) header a:hover,
+.home:not(.header-not-visible) header a:active,
+.home:not(.header-not-visible) header a:focus {
+  color: rgb(255, 224, 81);
+}
+
+/*
+@media (min-width: 70em) {
+  .header-figure.has-caption.has-caption-details h1 span span {
+    font-size: 0.5em;
+    display: block;
+  }
+}
+*/
 
 </style>
 <h1>
-  <span><span style="font-size: 0.5em; display: block;">The</span>Grants Challenge<span style="font-size: 0.5em; display: block;">is coming soon…</span></span>
+  <span><span>The</span> Grants Challenge<br /><span>is coming in 2019…</span></span>
 </h1>
 {% else %}
 <h1>

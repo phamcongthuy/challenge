@@ -502,14 +502,14 @@
   }
   header h2 span:first-child,
   footer h2 span:first-child {
-    letter-spacing: 0.1em;
+    letter-spacing: 0.11em;
   }
   header h2 em,
   footer h2 em {
     font-style: italic;
     font-weight: bold;
     color: inherit;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.24em;
     display: inline-block;
     font-size: 1.2em;
   }
