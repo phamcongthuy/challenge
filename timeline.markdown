@@ -17,11 +17,11 @@ footer_image: true
 {% endif %}
 
 {% if site.phase == 3 %}
-**![](/assets/images/timeline/strawberry/moderation.svg) April 1-12, 2019**
-: **Moderation Period**
+**![](/assets/images/timeline/strawberry/moderation.svg) April 15, 2019**
+: **All Submissions Online**
 {% else %}
-![](/assets/images/timeline/moderation.svg) April 1-12, 2019
-: Moderation Period
+![](/assets/images/timeline/moderation.svg) April 15, 2019
+: All Submissions Online
 {% endif %}
 
 {% if site.phase == 5 %}
@@ -40,6 +40,6 @@ footer_image: true
 : Winners Announced
 {% endif %}
 
-**25 <mark>finalists</mark>** will be chosen by the evaluation committee, and the <span class="avoid-break">**5 winners** will be voted on by the public.</span>
+**50 finalists** will be chosen by public vote, and the <span class="avoid-break">**10 winners** will be chosen by the Goldhirsh Foundation.</span>
 
 </div></div>

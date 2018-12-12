@@ -9,37 +9,16 @@ stylesheets:
 <h1><abbr title="Frequently Asked Questions">FAQs</abbr></h1>
 
 
-<details class="faq" markdown="1">
-
-<summary markdown="1">
-## 100,000 is a lot of people! Do we have to activate them all at once?
-</summary>
-
-100,000 is an exciting number of Angelenos to get involved in local issues. And it’ll be no easy feat. We anticipate that the number of people activated will occur over two years and will take many forms. Some people will just visit a website to learn about a new cause. Others will receive and open an email, others will actually click on something and show up to a meeting, and others will become super volunteers or community organizers. We anticipate that successful activations will create a clear ladder of engagement that take people from unengaged to superstar activists, organizers, volunteers, etc.
-
-</details>
-
-
 
 <details class="faq" markdown="1">
 
 <summary markdown="1">
-## How will you measure the number of people activated?
+## What is the My LA2050 Grants Challenge?
 </summary>
 
-Great question! We’re leaning on applicants to define how they plan to reach Angelenos and the number of people that will be reached via their various engagement strategies.
+The My LA2050 Grants Challenge is an open call for ideas to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among ten organizations—two per goal category—to implement their proposals. Each organization will receive a total of $100,000 over one year to support its efforts.
 
-</details>
-
-
-
-<details class="faq" markdown="1">
-
-<summary markdown="1">
-## Are there restrictions on what the activations can address?
-</summary>
-
-LA2050 can only fund projects that further charitable and educational purposes within the meaning of IRC section 501(c)(3). Thus, whether your organization is a nonprofit or for-profit entity, all activities for which you seek LA2050 grant funding must comply with section 501(c)(3). Please also carefully review [the detailed rules](https://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf) for the activation challenge.
+LA2050 will commit to a one-year partnership with the winners—leveraging its resources, assets, and networks to help the projects succeed. Together, the winning organizations, LA2050, and Angelenos will make progress for the region that will change the course of our future.
 
 </details>
 
@@ -51,7 +30,7 @@ LA2050 can only fund projects that further charitable and educational purposes w
 ## I have feedback on the LA2050 goals. How can I share that with you?
 </summary>
 
-We want your feedback! Email us at [connect@la2050.org](mailto:connect@la2050.org) with your feedback.
+We want your feedback! Email us at [connect@la2050.org](mailto:connect@la2050.org) with your feedback.
 
 We want Angelenos to see themselves as part of the solutions we need to improve our region. And we want to tap into the expertise of the organizations, agencies, and companies who have great ideas about how to boost engagement on local issues.
 
@@ -65,7 +44,7 @@ We want Angelenos to see themselves as part of the solutions we need to improve 
 ## Can I apply more than once?
 </summary>
 
-Technically there can be multiple entries from the same organization, so long as the submissions are unique and in different categories. However, we would recommend consolidating your resources, collaborators, and supporters and submitting one awesome proposal!
+There can be multiple entries from the same organization, as long as the submissions are unique and in different categories. However, we would recommend consolidating your resources, collaborators, and supporters to submit one awesome proposal!
 
 </details>
 
@@ -77,17 +56,16 @@ Technically there can be multiple entries from the same organization, so long as
 ## What are the benefits of applying?
 </summary>
 
-_Beyond the potential to receive funds to address an issue you’re passionate about, we also believe that applying to this challenge will provide additional benefits including:_
+Beyond the potential to receive a grant for your work, we believe that applying to the challenge will provide additional benefits including:
 
 * The opportunity to participate in a first-of-its-kind regional effort
-* Increasing awareness and exposure around an issue important for LA’s future
-* Helping to create or crystallize an activation, civic engagement, or mobilization idea
-* Increased understanding of the LA social impact landscape
+* Increased awareness and exposure via our public platform
+* Increased understanding of LA’s social impact landscape
 * The opportunity to cultivate and build new relationships with peers
-* The chance to build a coalition of committed Angelenos and organizations to support an important issue for LA
+* The chance to build a coalition of committed Angelenos and organizations to support important work in LA
 * The opportunity to learn how to tell a compelling story about your organization’s impact
 * Inspiring the creation of videos, photos, tweets, and pithy messaging to promote your proposal
-* Visibility in front of other foundations and potential alternative funding sources. Past challenges have resulted in $2M in grants from outside funding using the LA2050 platform for their grantmaking
+* Visibility in front of other foundations and potential alternative funding sources. Past challenges have resulted in +$2.25M in grants from outside funders using the LA2050 platform for their grantmaking
 
 </details>
 
@@ -96,13 +74,12 @@ _Beyond the potential to receive funds to address an issue you’re passionate a
 <details class="faq" markdown="1">
 
 <summary markdown="1">
-## What kinds of activations are you looking to support?
+## What kinds of projects are you looking to support?
 </summary>
 
-_We’re open! But here are some ideas about what we’re looking for:_
+We’re open! But here are some ideas about what we’re looking for:
 
 * Bold efforts that will produce measurable wins for the LA region
-* Activations with clear pathways for Angelenos to get involved
 * A spirit of collaboration and desire to unify and amplify collective efforts
 * Clear focus on inclusion, diversity of voices, and equity
 * Efforts that not only produce positive results but are also focused on increasing local engagement and civic participation
@@ -115,32 +92,32 @@ _We’re open! But here are some ideas about what we’re looking for:_
 <details class="faq" markdown="1">
 
 <summary markdown="1">
-## What are some tips for submitting ideas to the My LA2050 Activation Challenge?
+## What are some tips for submitting ideas to the My LA2050 Grants Challenge?
 </summary>
 
-_Collaborate._ We are eager to see folks working together to improve Los Angeles.
+Collaborate. We are eager to see folks working together to improve Los Angeles.
 
-_Think about impact._ Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your activation is feasible, implementable, and that it could impact the [LA2050 goals and metrics](/about/#goals) outlined by a community of Angelenos.
+Think about impact.Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your project is feasible, implementable, and that it could impact the [LA2050 goals and metrics](https://www.google.com/url?q=https://alpha-challenge.la2050.org/about/%23goals&sa=D&ust=1544652127690000) outlined by a community of Angelenos.
 
-Share how your activation will impact the LA2050 goal you are focusing on. For example, if you’ve chosen LA is the best place to learn, you might describe how your activation will improve graduation rates; if you’ve chosen LA is the best place to connect, you might explain how your activation will increase voting rates or volunteerism.
+Share how your proposal will impact the LA2050 goal you are focusing on. For example, if you’ve chosen the ‘Learn’ category, you might describe how your proposal will improve graduation rates; if you’ve chosen the ‘Connect’ category, you might explain how your proposal will increase voting rates or volunteerism.
 
-We want to see that you’ve considered how to create a ladder of engagement for Angelenos. Show in your submission that you’re thinking about someone’s journey from uninformed to an activist for social change.
+Be sure to explain why you think the strategy and methods are the best course of action for impacting the goal and metrics.
 
-Be sure to explain why you think the activation strategy and engagement methods are the best course of action for impacting the goal and metrics.
+Videos can help quickly articulate your project or your organization’s mission. To include a video, use a YouTube URL. If you don’t have a video, be sure to include a high-resolution photo that represents your idea or organization. Photos should be in JPG, or PNG format, at least 570 × 345 pixels. You’ll get the best results if you send us the highest resolution image you have. We suggest limiting attachment files to 5 MB each. We recommend avoiding a lot of text or logos in your images, as we may have to crop them to fit our site.
 
-Videos can help quickly articulate your project or your organization’s mission. To include a video, use a YouTube URL. If you don’t have a video, be sure to include a high-resolution photo that represents your idea or organization. Photos should be in JPG, PNG, or GIF format, at least 570 × 345 pixels. We suggest limiting attachment files to 5 MB each.
-
-Please note that when uploading documents file names containing special characters (!@#$%^&\*()) are not allowed and file names should be less than or equal to 30 characters.
+Please note that when uploading documents, file names containing special characters (!@#$%^&\*()) are not permitted; file names should be less than or equal to 30 characters.
 
 Applicants should not expect to be able to revise their applications after the submission date.
 
 Your application goes through a moderation process, and will show up on the site if it is approved. If we have questions about your application, we will be in touch.
 
-Check out the [LA2050 Goals](/about/#goals), the [LA2050 Report](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432), and our most recent [metrics update](https://la2050.s3-us-west-1.amazonaws.com/reports/13/pdfs/FINALDRAFT_OCT24.pdf?1508955187) for additional information.
+Check out the [LA2050 Goals](https://www.google.com/url?q=https://alpha-challenge.la2050.org/about/%23goals&sa=D&ust=1544652127692000), the [LA2050 Report](https://www.google.com/url?q=https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432&sa=D&ust=1544652127692000), and our most recent Submissions Report for additional information.
 
 </details>
 
 
+
+{% comment %}
 <details class="faq" markdown="1">
 
 <summary markdown="1">
@@ -216,34 +193,7 @@ You may have encountered this error message because you switched devices. It’s
 It’s also possible that the link or code has expired. If this is the case, you should be able to resend the code or email in order to confirm your votes. 
 
 </details>
-
-
-
-<details class="faq" markdown="1">
-
-<summary markdown="1">
-## What is the My LA2050 Grants Challenge?
-</summary>
-
-The My LA2050 Grants Challenge  is an open call for ideas to activate 100,000 Angelenos to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among five organizations—one per goal category—to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 over two years to support its efforts.
-
-LA2050 will commit to a two-year partnership with the winners—leveraging its resources, assets, and networks to help the activations succeed. Together, the winning organizations, LA2050, and Angelenos will produce five major wins for the region that will change the course of our future.
-
-</details>
-
-
-
-<details class="faq" markdown="1">
-
-<summary markdown="1">
-## Why did you start the My LA2050 Grants Challenge?
-</summary>
-
-The My LA2050 Grants Challenge represents a pivot from the past four My LA2050 grants challenges. This challenge is focused on building, organizing, and supporting a united LA2050 community to take action and produce the LA we all dream of.
-
-We’ve been inspired by the sparks of activism we’ve seen, but by traditional measures, LA has lacked civic engagement on a local level. We’re hoping that this activation challenge can help address barriers to civic engagement and create mechanisms to direct energy into local change.
-
-</details>
+{% endcomment %}
 
 
 
