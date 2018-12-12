@@ -105,7 +105,7 @@ Share how your proposal will impact the LA2050 goal you are focusing on. For exa
 
 Be sure to explain why you think the strategy and methods are the best course of action for impacting the goal and metrics.
 
-Be sure to include an image that represents your idea or organization. You’ll get the best results if you send us the highest resolution image you have. We recommend avoiding a lot of text or logos in your images, as we may have to crop them to fit our site. Images should be in JPEG, or PNG format.
+Please include an image that represents your idea or organization. You’ll get the best results if you send us the highest resolution image you have. We recommend avoiding a lot of text or logos in your images, as we may have to crop them to fit our site. Images should be in JPEG, or PNG format.
 
 Videos can also help quickly articulate your project or your organization’s mission. To include a video, first upload the video to a place like [YouTube](https://www.youtube.com/) or [Vimeo](https://vimeo.com/) and then include the URL for the video with your application.
 
