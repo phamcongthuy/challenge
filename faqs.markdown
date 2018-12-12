@@ -202,3 +202,8 @@ It’s also possible that the link or code has expired. If this is the case, you
 If you have any questions that aren’t answered on this page, please send us an email at [connect@la2050.org](mailto:connect@la2050.org).
 
 
+
+{% if site.phase == 0 %}
+<div style="margin-top: 6em"></div>
+{% endif %}
+
