@@ -99,7 +99,7 @@ For inspiration, you can check out submissions from previous winners at the [My 
 
 Collaborate. We are eager to see folks working together to improve Los Angeles.
 
-Think about impact.Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your project is feasible, implementable, and that it could impact the [LA2050 goals and metrics](https://www.google.com/url?q=https://alpha-challenge.la2050.org/about/%23goals&sa=D&ust=1544652127690000) outlined by a community of Angelenos.
+Think about impact.Be imaginative and audacious. We want to hear your most ambitious ideas – but we also want to know that your project is feasible, implementable, and that it could impact the [LA2050 goals and metrics](/about/#goals) outlined by a community of Angelenos.
 
 Share how your proposal will impact the LA2050 goal you are focusing on. For example, if you’ve chosen the ‘Learn’ category, you might describe how your proposal will improve graduation rates; if you’ve chosen the ‘Connect’ category, you might explain how your proposal will increase voting rates or volunteerism.
 
@@ -113,7 +113,7 @@ Applicants should not expect to be able to revise their applications after the s
 
 Your application goes through a moderation process, and will show up on the site if it is approved. If we have questions about your application, we will be in touch.
 
-Check out the [LA2050 Goals](https://www.google.com/url?q=https://alpha-challenge.la2050.org/about/%23goals&sa=D&ust=1544652127692000), the [LA2050 Report](https://www.google.com/url?q=https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432&sa=D&ust=1544652127692000), and our most recent Submissions Report for additional information.
+Check out the [LA2050 Goals](/about/#goals), the [LA2050 Report](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf), and our most recent Submissions Report for additional information.
 
 </details>
 
