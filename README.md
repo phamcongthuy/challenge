@@ -3,6 +3,8 @@
 
 This is a website for the My LA2050 Grants Challenge.
 
+https://challenge.la2050.org/
+
 * [How to make changes](#how-to-make-changes)
 * [How to switch between contest phases](#how-to-switch-between-contest-phases)
 * [How to develop locally](#how-to-develop-locally)
