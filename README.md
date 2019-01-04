@@ -11,17 +11,17 @@ This is a website for the My LA2050 Grants Challenge.
 
 ## How to make changes
 
-The website is published with [GitHub Pages](https://pages.github.com) & [Netlify](https://www.netlify.com), and the files are generated with Activation[Jekyll](http://jekyllrb.com).
+The website is published with [GitHub Pages](https://pages.github.com) & [Netlify](https://www.netlify.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
-As you make changes and commit/push them to GitHub, the [website](https://activation.la2050.org) will automatically update.
+As you make changes and commit/push them to GitHub, the [website](https://challenge.la2050.org) will automatically update.
 
-For example, if you [edit the about page](https://github.com/la2050/activation/edit/master/about.markdown) on GitHub, and then press the “Commit changes” button–you should see your changes on the [about page](https://activation.la2050.org/about/) of the website within a few minutes.
+For example, if you [edit the about page](https://github.com/la2050/challenge/edit/master/about.markdown) on GitHub, and then press the “Commit changes” button–you should see your changes on the [about page](https://challenge.la2050.org/about/) of the website within a few minutes.
 
 ## How to switch between contest phases
 
 The website is set up to show different content based on the current phase of the contest. To change which phase is active, you can follow these steps…
 
-1) Open the [configuration file](https://github.com/la2050/activation/blob/master/_config.yml)
+1) Open the [configuration file](https://github.com/la2050/challenge/blob/master/_config.yml)
 
 2) Find the current phase, and comment it out by placing a `#` sign in front of it.
 
@@ -63,7 +63,7 @@ If you want to see a preview of your changes while you work, you can [run a Jeky
 After you have Jekyll installed, you can clone this project with [Git](https://git-scm.com) or [GitHub Desktop](https://desktop.github.com)…
 
 ```
-git clone https://github.com/la2050/activation.git
+git clone https://github.com/la2050/challenge.git
 ```
 
 And then start running the Jekyll application like this...
@@ -83,7 +83,7 @@ Some of the images on the website are available in multiple sizes, to save bandw
 npm install
 ```
 
-3) Place your images in the [assets/images/goals/original](https://github.com/la2050/activation/tree/master/assets/images/goals/original) folder
+3) Place your images in the [assets/images/goals/original](https://github.com/la2050/challenge/tree/master/assets/images/goals/original) folder
 
 ```
 /assets/images/goals/original/connect.jpg
@@ -99,7 +99,7 @@ npm install
 npm run images:create
 ```
 
-If you want to generate a different set of images, you can edit the [gulpfile](https://github.com/la2050/activation/blob/master/gulpfile.js) and then repeat the steps above.
+If you want to generate a different set of images, you can edit the [gulpfile](https://github.com/la2050/challenge/blob/master/gulpfile.js) and then repeat the steps above.
 
 ## Handy guides
 
