@@ -88,13 +88,25 @@
     <meta property="og:description" content="{{ description }}" />
   {% endif %}
 
+
+  {% if site.phase == 0 %}
+
+    <meta property="og:image" content="https://challenge.la2050.org/assets/images/coming-soon-square.png" />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="1000" />
+
+  {% else %}
+
   {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
-  <meta property="og:image" content="https://activation.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
+  <meta property="og:image" content="https://challenge.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
   {% elsif page.image %}
   <meta property="og:image" content="{{ page.image }}" />
   {% elsif site.image %}
   <meta property="og:image" content="{{ site.image }}" />
   {% endif %}
+  
+  {% endif %}
+
 
   {% if page.redirect %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
