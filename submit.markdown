@@ -158,7 +158,7 @@ _Applicants are encouraged to:_
 
 Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (5pm Pacific Time) on this website. 
 
-Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 <mark>finalists</mark> which will be announced on Monday, May 21, 2018.
+Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals. An evaluation committee will review and score all applications and select 25 <mark>finalists</mark> which will be announced on <mark>Monday, May 21, 2018.</mark>
 
 From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), we’ll open the <mark>finalists</mark>’ submissions to public voting. Rally your colleagues and friends to get behind your effort and join the public in selecting the winners. Winners will be announced on Monday, June 4, 2019.
 

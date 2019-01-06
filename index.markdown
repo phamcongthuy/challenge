@@ -4,6 +4,7 @@ body_class: blueberry home
 main_class: standard-layout
 footer_image: true
 show_promotion: true
+use_default_meta_description: true
 ---
 
 <div class="standard-figure has-caption header-figure has-caption-details">
