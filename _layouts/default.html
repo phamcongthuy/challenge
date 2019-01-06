@@ -80,6 +80,8 @@
 
   {% if page.project_description and page.project_description != '' %}
     {% assign description = page.project_description %}
+  {% elsif page.use_default_meta_description == true %}
+    {% assign description = site.description %}
   {% elsif layout.use_default_meta_description == true %}
     {% assign description = site.description %}
   {% endif %}
