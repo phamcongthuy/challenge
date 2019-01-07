@@ -7,7 +7,7 @@ footer_image: true
 
 # Submit Your Proposal
 
-{% if site.phase == 1 %}
+{% if site.phase < 2 %}
 
 <div class="introduction" markdown="1">
 
@@ -121,7 +121,7 @@ The submission period is complete.
 
 </div>
 
-{% elsif site.phase == 7 %}
+{% elsif site.phase > 6 %}
 
 <div class="introduction" markdown="1">
 
@@ -134,6 +134,10 @@ The winners have been announced!
 </div>
 
 {% endif %}
+
+
+{% if site.phase > 0 %}
+
 
 ### Guidelines
 
@@ -247,5 +251,8 @@ The submission period has started! Apply by <strong>March 29, 2019</strong> <sma
 </p>
 
 </div>
+
+{% endif %}
+
 
 {% endif %}

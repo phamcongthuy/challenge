@@ -30,16 +30,16 @@ main > h1:first-child::before {
 <h1 style="color: white">Entries</h1>
 {% endif %}
 
-{% if site.phase < 4 %}
-
-<div class="introduction" markdown="1">
-The proposals will appear here on <strong>April 15, 2019</strong>.
-</div>
-
-{% elsif page.winners == true and site.phase <= 6 %}
+{% if page.winners and site.phase <= 6 %}
 
 <div class="introduction" markdown="1">
 The winners will appear here on <strong>June 4, 2019</strong>.
+</div>
+
+{% elsif site.phase < 4 %}
+
+<div class="introduction" markdown="1">
+The entries will appear here on <strong>April 15, 2019</strong>.
 </div>
 
 {% else %}

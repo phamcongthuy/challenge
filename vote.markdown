@@ -60,6 +60,10 @@ The winners have been announced!
 
 </div>
 
+
+{% if site.phase > 0 %}
+
+
 ### Help us choose our winners!
 
 The 5 activations that receive the most votes will be announced as the winners.
@@ -84,4 +88,7 @@ The <mark>finalists</mark> will represent a diverse set of issues, engagement st
 ### Questions
 
 If you have any questions about the information on this page, [please review our FAQs](/faqs) or send us an email at [connect@la2050.org](mailto:connect@la2050.org).
+
+
+{% endif %}
 
