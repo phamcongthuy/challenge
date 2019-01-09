@@ -39,14 +39,11 @@
   main > .timeline {
     color: rgb(6, 179, 188); /* @blueberry */
   }
-  main > .timeline p {
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
   main > .timeline p strong {
     color: inherit;
   }
   main > .timeline p:not(.action) a {
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: inherit;
   }
 
   main > h1 + .timeline {
@@ -126,7 +123,7 @@
     }
   }
   main > .timeline dt {
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 192, 50); /* @dark-banana */
   }
   .activation-examples li img,
   main > .timeline dt img {
