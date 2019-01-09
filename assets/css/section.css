@@ -37,7 +37,7 @@
     color: rgb(254, 254, 254); /* @snow */
   }
   main > .timeline {
-    
+    color: rgb(6, 179, 188); /* @blueberry */
   }
   main > .timeline p {
     color: rgb(237, 59, 136); /* @strawberry */
@@ -47,11 +47,6 @@
   }
   main > .timeline p:not(.action) a {
     color: rgb(237, 59, 136); /* @strawberry */
-  }
-  main > .timeline p a:active,
-  main > .timeline p a:hover,
-  main > .timeline p a:focus {
-    color: rgb(254, 254, 254); /* @snow */
   }
 
   main > h1 + .timeline {
@@ -131,7 +126,7 @@
     }
   }
   main > .timeline dt {
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(6, 179, 188); /* @blueberry */
   }
   .activation-examples li img,
   main > .timeline dt img {

@@ -1,6 +1,6 @@
 ---
 title: Timeline for the 2019 My LA2050 Grants Challenge
-body_class: banana timeline
+body_class: banana
 footer_image: true
 ---
 
