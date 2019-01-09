@@ -3,7 +3,9 @@
   /* =Type
   ----------------------------------------------- */
   body {
-    font: 100%/1.5 "Helvetica Neue", "Avenir Next", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5; 
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0 1.5em;
   }
