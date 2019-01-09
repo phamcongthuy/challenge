@@ -316,26 +316,34 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 ## Key Dates
 
 {% if site.phase == 2 %}
-**![](/assets/images/timeline/strawberry/submission.svg) February 28 - March 29, 2019**
+**![](/assets/images/timeline/light.svg) February 28 - March 29, 2019**
 : **Submission Period**
 {% else %}
-![](/assets/images/timeline/submission.svg) February 28 - March 29, 2019
+![](/assets/images/timeline/light.svg) February 28 - March 29, 2019
 : Submission Period
 {% endif %}
 
+{% if site.phase == 3 %}
+**![](/assets/images/timeline/paper.svg) April 15, 2019**
+: **All Submissions Online**
+{% else %}
+![](/assets/images/timeline/paper.svg) April 15, 2019
+: All Submissions Online
+{% endif %}
+
 {% if site.phase == 5 %}
-**![](/assets/images/timeline/strawberry/voting.svg) April 22-29, 2019**
+**![](/assets/images/timeline/vote-box.svg) April 22-29, 2019**
 : **Public Voting**
 {% else %}
-![](/assets/images/timeline/voting.svg) April 22-29, 2019
+![](/assets/images/timeline/vote-box.svg) April 22-29, 2019
 : Public Voting
 {% endif %}
 
 {% if site.phase == 7 %}
-**![](/assets/images/timeline/strawberry/winners.svg) June 4, 2019**
+**![](/assets/images/timeline/ribbon.svg) June 4, 2019**
 : **Winners Announced**
 {% else %}
-![](/assets/images/timeline/winners.svg) June 4, 2019
+![](/assets/images/timeline/ribbon.svg) June 4, 2019
 : Winners Announced
 {% endif %}
 
