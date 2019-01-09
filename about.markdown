@@ -23,7 +23,7 @@ The proposals should aim to engage Angelenos to make a specific, tangible impact
 
 LA2050 will commit to a one-year partnership, leveraging its resources, assets, and networks to help the projects succeed. Together, the winning organizations, LA2050, and Angelenos will create progress for the region that will change the course of our future.
 
-### LA2050 Partnership
+## LA2050 Partnership
 
 We want to work together! To partner, we plan to:
 
