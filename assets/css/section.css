@@ -37,8 +37,7 @@
     color: rgb(254, 254, 254); /* @snow */
   }
   main > .timeline {
-    background-color: rgb(255, 194, 51); /* @banana */
-    color: rgb(254, 254, 254); /* @snow */
+    
   }
   main > .timeline p {
     color: rgb(237, 59, 136); /* @strawberry */
@@ -56,7 +55,6 @@
   }
 
   main > h1 + .timeline {
-    margin-top: -4.5rem; /* @headline-bottom-margin */
     padding-top: 0;
   }
 
@@ -138,7 +136,7 @@
   .activation-examples li img,
   main > .timeline dt img {
     width: auto;
-    height: 4.5em;
+    height: 7.5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -178,37 +176,33 @@
       main > .timeline dl {
         display: grid;
         grid-column-gap: 1.5em;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         max-width: none;
       }
       .activation-examples li:nth-child(3n+1):last-child {
         grid-column: span 3;
       }
       main > .timeline dt:nth-of-type(1),
-      main > .timeline dt:nth-of-type(2),
-      main > .timeline dt:nth-of-type(3) {
+      main > .timeline dt:nth-of-type(2) {
         grid-row: 1 / 2;
         align-self: end;
       }
       main > .timeline dd:nth-of-type(1),
-      main > .timeline dd:nth-of-type(2),
-      main > .timeline dd:nth-of-type(3) {
+      main > .timeline dd:nth-of-type(2) {
         grid-row: 2 / 3;
         align-self: start;
       }
-      main > .timeline dt:nth-of-type(4),
-      main > .timeline dt:nth-of-type(5),
-      main > .timeline dt:nth-of-type(6) {
+      main > .timeline dt:nth-of-type(3),
+      main > .timeline dt:nth-of-type(4) {
         grid-row: 3 / 4;
         align-self: end;
       }
-      main > .timeline dd:nth-of-type(4),
-      main > .timeline dd:nth-of-type(5),
-      main > .timeline dd:nth-of-type(6) {
+      main > .timeline dd:nth-of-type(3),
+      main > .timeline dd:nth-of-type(4) {
         grid-row: 4 / 5;
         align-self: start;
       }
-      main > .timeline dt:nth-of-type(4):nth-last-child(2),
+      /* main > .timeline dt:nth-of-type(4):nth-last-child(2),
       main > .timeline dt:nth-of-type(7) {
         grid-row: 5 / 6;
         grid-column: 2 / 3;
@@ -219,6 +213,6 @@
         grid-row: 6 / 7;
         grid-column: 2 / 3;
         align-self: end;
-      }
+      } */
     }
   }
