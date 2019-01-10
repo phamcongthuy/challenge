@@ -8,5 +8,5 @@ This is useful for the _preview_ sites hosted on Netlify since you can
 ask Jekyll to load an addition configuration file, for example:
 
 ```
-jekyll build --config _config.yml,_config/preview-2.yml
+jekyll build --config _config.yml,_config/preview-1.yml
 ```
