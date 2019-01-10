@@ -38,6 +38,7 @@
   }
   main > .timeline {
     color: rgb(6, 179, 188); /* @blueberry */
+    border-top: 0.1875rem solid rgba(6, 179, 188, 0.5);
   }
   main > .timeline p strong {
     color: inherit;
@@ -137,7 +138,7 @@
 
   main > .timeline dt strong {
     font-weight: inherit;
-    color: rgb(254, 254, 254); /* @snow */
+    color: inherit;
   }
 
   main > .timeline dd {
