@@ -19,9 +19,7 @@
 
   main {
     min-height: 50vw;
-  }
-  .home main {
-    min-height: 75vw;
+    padding-bottom: 4.5em;
   }
   main > .standard-figure:last-child,
   main > .standard-section:last-child {

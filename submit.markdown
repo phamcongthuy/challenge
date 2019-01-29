@@ -168,22 +168,6 @@ From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5
 
 View the [full timeline](/timeline).
 
-<div class="application-process">
-<div markdown="1">
-#### Application Process
-
-1. Submit proposal
-2. Moderation period
-3. Proposals on website
-
-#### Voting Process
-
-2. Vote on proposals
-3. Winners announced
-</div>
-</div>
-
-<br />
 
 ### To apply, organizations will:
 
