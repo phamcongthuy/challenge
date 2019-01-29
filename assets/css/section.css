@@ -40,7 +40,20 @@
     color: inherit; /* @blueberry */
   }
   main > p + .timeline {
-    border-top: 0.1875rem solid rgb(235, 235, 235);
+    background-image: url(/assets/images/home/airplane.svg);
+    background-size: 50em auto;
+    background-position: 1.5em 0;
+    background-repeat: no-repeat;
+  }
+  @media (min-width: 50em) {
+    main > p + .timeline {
+      background-size: 75em auto;
+    }
+  }
+  @media (min-width: 95em) {
+    main > p + .timeline {
+      background-position: top;
+    }
   }
   main > .timeline h2 {
     color: var(--primary-color); /* @banana */

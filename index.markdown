@@ -1,146 +1,21 @@
 ---
 title: 2019 My LA2050 Grants Challenge
-body_class: strawberry home
+body_class: blueberry
 main_class: standard-layout
 footer_image: true
 show_promotion: true
 use_default_meta_description: true
 ---
 
-<div class="standard-figure has-caption header-figure has-caption-details">
-<img src="/assets/images/home/384-wide/womens-march-la.jpg" srcset="/assets/images/home/384-wide/womens-march-la.jpg 384w, /assets/images/home/512-wide/womens-march-la.jpg 512w, /assets/images/home/768-wide/womens-march-la.jpg 768w, /assets/images/home/1024-wide/womens-march-la.jpg 1024w, /assets/images/home/1536-wide/womens-march-la.jpg 1536w, /assets/images/home/2048-wide/womens-march-la.jpg 2048w" sizes="200vw" alt="Women’s March Los Angeles" />
-<div class="caption">
-<div class="container">
-
-{% if site.phase == 0 %}
-<style>
-
-.header-figure.has-caption.has-caption-details img {
-  opacity: 0;
-}
-@media (min-width: 70em) {
-  .header-figure.has-caption.has-caption-details img {
-    height: 51vw !important;
-  }
-}
-
-body .header-figure.has-caption {
-  background-color: var(--primary-color);
-}
-body .header-figure.has-caption::before {
-  content: none;
-}
-
-@media (min-width: 70em) {
-  .home:not(.header-not-visible) header ul a {
-    text-shadow: none;
-  }
-}
-
-.standard-layout > .standard-figure + .standard-section {
-  margin-top: -1.5em;
-}
-@supports (display: grid) {
-  @media (min-width: 70em) { /* @wide-enough-for-header-grid */
-    .standard-layout > .standard-figure + .standard-section {
-      margin-top: -3em;
-    }
-  }
-}
-
-.header-figure .caption .details p.action a {
-  background-color: rgb(237, 59, 136);
-  border-color: rgb(237, 59, 136);
-}
-.header-figure .caption .details p.action a:hover,
-.header-figure .caption .details p.action a:active,
-.header-figure .caption .details p.action a:focus {
-  border-color: rgb(237, 59, 136);
-  color: rgb(237, 59, 136) !important;
-}
-
-.home .promotion {
-  background: white;
-  color: inherit;
-}
-.home .promotion a:hover,
-.home .promotion a:active,
-.home .promotion a:focus {
-  color: var(--primary-color);
-}
-
-.home:not(.header-not-visible) header a:hover,
-.home:not(.header-not-visible) header a:active,
-.home:not(.header-not-visible) header a:focus {
-  color: rgb(255, 224, 81);
-}
-
-/*
-@media (min-width: 70em) {
-  .header-figure.has-caption.has-caption-details h1 span span {
-    font-size: 0.5em;
-    display: block;
-  }
-}
-*/
-
-</style>
 <h1>
-  <span><span>The</span> Grants Challenge<br /><span>is coming soon…</span></span>
+  <img src="/assets/images/home/city.svg" alt="" />
+  Tell us… how do you turn <strong>inspiration</strong> into <strong>impact</strong>?
 </h1>
-{% else %}
-<h1>
-  <span>
-    We believe in the
-    <br />
-    power of Angelenos
-  </span>
-</h1>
-{% endif %}
-
-<div class="details">
-
-  {% if site.phase == 2 %}
-  <p class="action">
-    <a href="{{ site.submission_url }}">Submit your idea</a>
-  </p>
-  {% elsif site.phase == 4 %}
-  <p class="action">
-    <a href="/entries/">Check out the entries!</a>
-  </p>
-  {% elsif site.phase == 5 %}
-  <p class="action">
-    <a href="{{ site.vote_url }}">It’s time to vote!</a>
-  </p>
-  {% elsif site.phase == 6 %}
-  <p class="action">
-    <a href="/entries/">Check out the entries!</a>
-  </p>
-  {% elsif site.phase == 7 %}
-  <p class="action">
-    <a href="/winners/">Check out the winners!</a>
-  </p>
-  {% else %}
-  <p class="action">
-    <a href="{{ site.mailing_list_url }}">Get updates</a>
-  </p>
-  {% endif %}
-
-</div><!-- /.details -->
-</div><!-- /.container -->
-</div><!-- /.caption -->
-</div><!-- /.standard-figure -->
-
-{% unless site.phase == 0 %}
-<p class="activate-tag">#ACTIVATEFORLA</p>
 
 <h2>
-  <span class="avoid-break">How would</span>
-  <span class="avoid-break">you activate</span>
-  <span class="avoid-break">100,000 Angelenos</span>
-  <span class="avoid-break">
-    for a <span class="avoid-break">better LA?</span>
-  </span>
+  Welcome to the
+  <span class="avoid-break">2019 My LA2050</span>
+  <span class="avoid-break">Grants Challenge</span>
 </h2>
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. We've supported 42 great projects to shape a better LA via the My LA2050 Grants Challenge.<br /><br /><strong>The My LA2050 Grants Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded among five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/about/#la2050-partnership) in support of their efforts.
@@ -219,11 +94,11 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 $1 million
 : in grants
 
-5
+10
 : organizations
 
-$200,000
-: over two years
+$100,000
+: over one year
 </div>
 
 <figure class="standard-figure has-caption">
@@ -304,11 +179,6 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 <p><a href="/winners/">Check out the winners</a></p>
 
 {% endif %}
-
-
-
-{% endunless %}
-
 
 
 <section class="standard-section timeline" id="dates"><div markdown="1">

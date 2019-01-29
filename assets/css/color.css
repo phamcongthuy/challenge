@@ -58,6 +58,7 @@
   .blueberry main > p a {
     color: rgb(237, 192, 50); /* @dark-banana */
     color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   .blueberry main > p a:hover,
   .blueberry main > p a:active,
@@ -119,6 +120,7 @@
   .blueberry main strong,
   .blueberry main em {
     color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
 

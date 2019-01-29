@@ -61,19 +61,26 @@
 
   h1 {
     margin-top: 3rem;
-    text-transform: uppercase;
     font-weight: 900; /* @black */
     font-size: 2em;
     line-height: 1;
     letter-spacing: 2px;
     max-width: 20em; /* @max-line-length / 2em */
   }
-  @media (min-width: 40em) {
+  h1 strong {
+    color: var(--secondary-color) !important;
+    color: rgb(255, 224, 81) !important; /* @bright-banana */
+  }
+  h1 img {
+    display: block;
+    margin-bottom: 0.75em;
+  }
+  /* @media (min-width: 40em) {
     h1 {
       font-size: 3.375em;
       font-size: 6vmax;
     }
-  }
+  } */
   h2 {
     margin-top: 3rem;
     font-size: 1.5em;

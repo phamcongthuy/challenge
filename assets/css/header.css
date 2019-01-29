@@ -61,21 +61,12 @@
     font-size: inherit;
     font-style: inherit;
   }
-  .home .promotion {
-    position: relative;
-    z-index: 999999999999;
-    background: white;
-  }
   .promotion {
     margin-left: -1.5em;
     margin-right: -1.5em;
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
-/*  .home .promotion h1,
-  .home .promotion strong {
-    color: white !important;
-  }*/
   @media (min-width: 40em) {
     .promotion {
       margin-left: -4.5em;
@@ -121,45 +112,14 @@
     color: white;
   }
 
-  .home .promotion strong {
-    display: inline-block;
-  }
-
 
   @media (min-width: 70em) {
-    .home .promotion {
-      background-color: black;
-      background-color: var(--primary-color, black);
-      color: white;
-    }
-    .home .promotion .icon,
-    .home .promotion strong,
-    .home .promotion a {
-      color: inherit;
-    }
-    .home .promotion a:hover,
-    .home .promotion a:active,
-    .home .promotion a:focus {
-      color: rgb(46, 219, 228); /* @bright-blueberry */
-    }
     .promotion .action {
       display: inline-block;
       margin-top: -1.25em;
       margin-left: 1.5em;
       margin-bottom: -1em;
       vertical-align: middle;
-    }
-    .home .promotion .action a {
-      background-color: transparent;
-      border-color: white;
-      color: white;
-    }
-    .home .promotion .action a:hover,
-    .home .promotion .action a:active,
-    .home .promotion .action a:focus {
-      background-color: white;
-      color black;
-      color: var(--primary-color, black);
     }
   }
 
@@ -350,8 +310,7 @@
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
     color: rgb(254, 254, 254); /* @snow */
-    text-transform: uppercase;
-    font-weight: 600; /* @semibold */
+    font-weight: bold;
     letter-spacing: 0.05em;
     text-decoration: none;
   }
@@ -395,6 +354,9 @@
   }
   footer .la2050 a svg path {
     fill: currentColor;
+  }
+  footer .la2050 a {
+    text-transform: uppercase;
   }
 
   header .navigation .primary li,
