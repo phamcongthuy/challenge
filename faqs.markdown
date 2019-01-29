@@ -6,8 +6,10 @@ stylesheets:
   - "/assets/css/faqs.css"
 ---
 
-<h1><abbr title="Frequently Asked Questions">FAQs</abbr></h1>
-
+<h1>
+  <img src="/assets/images/city-strawberry.svg" alt="" />
+  FAQs
+</h1>
 
 
 <details class="faq" markdown="1">

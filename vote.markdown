@@ -5,7 +5,10 @@ main_class: standard-layout
 footer_image: true
 ---
 
-# Public Voting
+<h1>
+  <img src="/assets/images/city-banana.svg" alt="" />
+  Public Voting
+</h1>
 
 <div class="introduction" markdown="1">
 

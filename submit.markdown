@@ -5,7 +5,10 @@ main_class: standard-layout
 footer_image: true
 ---
 
-# Submit Your Proposal
+<h1>
+  <img src="/assets/images/city-strawberry.svg" alt="" />
+  Submit Your Proposal
+</h1>
 
 {% if site.phase < 2 %}
 

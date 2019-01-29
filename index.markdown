@@ -8,7 +8,7 @@ use_default_meta_description: true
 ---
 
 <h1>
-  <img src="/assets/images/home/city.svg" alt="" />
+  <img src="/assets/images/city-strawberry.svg" alt="" />
   Tell us… how do you turn <strong>inspiration</strong> into <strong>impact</strong>?
 </h1>
 

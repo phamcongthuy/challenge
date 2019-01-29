@@ -5,7 +5,10 @@ main_class: standard-layout
 footer_image: true
 ---
 
-# About
+<h1>
+  <img src="/assets/images/city-banana.svg" alt="" />
+  About
+</h1>
 
 ## LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles.
 
