@@ -323,12 +323,13 @@
     color: rgb(6, 179, 188); /* @blueberry */
     color: var(--primary-color, rgb(6, 179, 188)); /* @blueberry */
   }
+  header .active a,
   header a:hover,
   header a:active,
   header a:focus {
     color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(255, 194, 51); /* @banana */
+    color: rgb(255, 224, 81); /* @bright-banana */
   }
   footer a {
     color: inherit;
