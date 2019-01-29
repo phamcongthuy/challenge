@@ -78,6 +78,11 @@
   <link rel="canonical" href="{{ canonical_url }}" />
   <meta property="og:url" content="{{ canonical_url }}" />
 
+  {% if site.hide_from_search_engines %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+
+
   {% if page.project_description and page.project_description != '' %}
     {% assign description = page.project_description %}
   {% elsif page.use_default_meta_description == true %}
