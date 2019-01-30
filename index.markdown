@@ -178,12 +178,10 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 
 <section class="standard-section timeline" id="dates"><div markdown="1">
 
-## Key Dates
+## Timeline
 
 {% include timeline.html %}
 
-
-View the full [timeline](/timeline).
 
 </div></section>
 
