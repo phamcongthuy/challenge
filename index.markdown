@@ -9,7 +9,7 @@ use_default_meta_description: true
 
 <h1>
   <img src="/assets/images/city-strawberry.svg" alt="" />
-  Tell us… how do you turn <strong>inspiration</strong> into <strong>impact</strong>?
+  Tell us… <span class="avoid-break">how do you turn</span> <span class="avoid-break"><strong>inspiration</strong> into <strong>impact</strong>?</span>
 </h1>
 
 <h2>
