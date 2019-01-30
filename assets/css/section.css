@@ -166,9 +166,10 @@
     margin-right: auto;
   }
 
-  main > .timeline dt strong {
-    font-weight: inherit;
+  main > .timeline dt strong,
+  main > .timeline dd strong {
     color: rgb(249, 160, 51); /* @tangerine */
+      font-weight: bold;
   }
 
   main > .timeline dd {
@@ -180,10 +181,6 @@
     font-weight: 600;
   }
 
-  main > .timeline dd strong {
-    color: rgb(249, 160, 51); /* @tangerine */
-    font-weight: inherit;
-  }
   main > .timeline dl {
     margin-bottom: 0;
     margin-left: auto;
