@@ -73,7 +73,8 @@
   {% capture canonical_url %}https://challenge.la2050.org{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ page.url }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical_url }}" />
   <meta property="og:url" content="{{ canonical_url }}" />
-
+  
+  {% comment %}Hide staging websites from search engines{% endcomment %}
   {% if site.hide_from_search_engines %}
   <meta name="robots" content="noindex">
   {% endif %}

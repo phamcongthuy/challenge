@@ -28,3 +28,20 @@ hide_from_search_engines: true
 # Winners announced: 
 # June 4
 phase: 7
+
+collections:
+  learn:
+    output: true
+    permalink: /learn/:path/
+  create:
+    output: true
+    permalink: /create/:path/
+  play:
+    output: true
+    permalink: /play/:path/
+  connect:
+    output: true
+    permalink: /connect/:path/
+  live:
+    output: true
+    permalink: /live/:path/
