@@ -4,12 +4,12 @@
 {% if site.phase >= 4 %}
   {% assign navigation_items_count = 6 %}
 {% endif %}
-{% if site.phase == 7 %}
+{% if site.phase >= 7 %}
   {% assign navigation_items_count = 7 %}
 {% endif %}
 <ul class="has-{{ navigation_items_count }}-items">
   <li {% if page.url contains '/about' %} class="active" {% endif %}><a href="/about/">About</a></li>
-  {% if site.phase == 7 %}
+  {% if site.phase >= 7 %}
   <li {% if page.url contains '/winners' %} class="active" {% endif %}><a href="/winners/">Winners</a></li>
   {% endif %}
   {% if site.phase >= 4 %}
