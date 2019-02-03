@@ -133,19 +133,19 @@ defaults:
       layout: project
       body_class: lime
 
-collections:
-  learn:
-    output: true
-    permalink: /learn/:path/
-  create:
-    output: true
-    permalink: /create/:path/
-  play:
-    output: true
-    permalink: /play/:path/
-  connect:
-    output: true
-    permalink: /connect/:path/
-  live:
-    output: true
-    permalink: /live/:path/
+# collections:
+#   learn:
+#     output: true
+#     permalink: /learn/:path/
+#   create:
+#     output: true
+#     permalink: /create/:path/
+#   play:
+#     output: true
+#     permalink: /play/:path/
+#   connect:
+#     output: true
+#     permalink: /connect/:path/
+#   live:
+#     output: true
+#     permalink: /live/:path/
