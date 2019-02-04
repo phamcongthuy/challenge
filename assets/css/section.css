@@ -32,10 +32,14 @@
     }
   }
 
-  .activation-examples {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(254, 254, 254); /* @snow */
+  main > .timeline {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    display: block;
   }
+
   main > .timeline dl {
     color: inherit; /* @blueberry */
     text-align: left;
@@ -53,7 +57,8 @@
   }
   @media (min-width: 95em) {
     main > p + .timeline {
-      background-position: top;
+      background-position: top left;
+      grid-column: 1 / -1;
     }
   }
   main > .timeline h2 {
@@ -74,40 +79,11 @@
     margin-top: -4.5em;
   }
 
-  .activation-examples h2 + p {
-    max-width: none;
-    font-weight: bold;
-  }
-  .activation-examples h2 + p strong {
-    color: inherit;
-    font-weight: inherit;
-  }
-  .activation-examples h2 + p strong em {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(255, 194, 51); /* @banana */
-    color: rgb(255, 224, 81); /* @bright-banana */
-    font-style: normal;
-    display: inline-block;
-    font-weight: inherit;
-  }
-  .activation-examples a {
-    color: rgb(255, 224, 81); /* @bright-banana */
-  }
-  .activation-examples a:hover,
-  .activation-examples a:active,
-  .activation-examples a:focus {
-    color: rgb(255, 79, 156); /* @bright-strawberry */
-    color: rgb(141, 208, 59); /* @lime */
-    color: rgb(181, 248, 99); /* @bright-lime */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-
 
   main > .timeline dl {
     letter-spacing: 0.1em;
     max-width: none;
   }
-  .activation-examples ul + p:last-child,
   main > .timeline dl + p:last-child {
     margin-top: 3em;
     margin-bottom: 1.25em;
@@ -116,7 +92,6 @@
   }
 
   @media (min-width: 40em) { /* @medium-size-screen */
-    .activation-examples ul + p:last-child,
     main > .timeline dl + p:last-child {
       margin-top: 7.5em;
       margin-bottom: 1.5em;
@@ -124,17 +99,6 @@
   }
 
 
-  .activation-examples ul,
-  .activation-examples li {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-  }
-
-  .activation-examples ul {
-    max-width: none;
-  }
-  .activation-examples li,  
   main > .timeline dt {
     margin-top: 3em;
     font-weight: 600;
@@ -144,7 +108,6 @@
     margin-top: 4.5em;
   }
   @media (min-width: 40em) { /* @medium-size-screen */
-    .activation-examples li,  
     main > .timeline dt {
       font-size: 0.75em;
     }
@@ -154,16 +117,11 @@
     color: inherit;
     font-weight: 400;
   }
-  .activation-examples li img,
   main > .timeline dt img {
     width: auto;
     height: 7.5em;
     display: block;
     margin-bottom: 0.75em;
-  }
-  .activation-examples li img {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   main > .timeline dt strong,
@@ -183,29 +141,14 @@
 
   main > .timeline dl {
     margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   @supports (display: grid) {
-    @media (min-width: 40em) {
-      .activation-examples ul {
-        display: grid;
-        grid-column-gap: 1.5em;
-        grid-template-columns: 1fr 1fr;
-        max-width: none;
-      }
-    }
     @media (min-width: 50em) {
-      .activation-examples ul,
       main > .timeline dl {
         display: grid;
         grid-column-gap: 0;
-        grid-template-columns: auto auto auto;
-        max-width: none;
-      }
-      .activation-examples li:nth-child(3n+1):last-child {
-        grid-column: span 3;
+        grid-template-columns: 0fr 1fr 1fr;
       }
       main > .timeline dt:nth-of-type(1),
       main > .timeline dt:nth-of-type(3),

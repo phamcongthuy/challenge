@@ -101,28 +101,31 @@ $100,000
 : over one year
 </div>
 
-<section class="standard-section activation-examples"><div markdown="1">
 
-## What do we mean by activation?
-
-<strong>
-  We don’t want to limit your imagination, <em>so think big</em>!
-</strong>
-
-* ![](/assets/images/examples/share-news.svg) Read and share news
-* ![](/assets/images/examples/donate.svg) Donate or fundraise
-* ![](/assets/images/examples/rally.svg) Participate in a rally or meeting
-* ![](/assets/images/examples/political-process.svg) Participate in political processes
-* ![](/assets/images/examples/digital-activism.svg) Digital activism
-* ![](/assets/images/examples/volunteer.svg) Volunteer
-* ![](/assets/images/examples/boycott.svg) Boycott / Buycott
-* ![](/assets/images/examples/organize-community.svg) Organize community
-* ![](/assets/images/examples/vote.svg) Vote
-* ![](/assets/images/examples/civic-tech.svg) Civic tech
-
-Read our [guidelines for proposals](/submit/#guidelines).
+<section class="standard-section"><div markdown="1">
 
 </div></section>
+
+
+<!-- 
+<div class="application-process">
+<div>
+    <h4 id="application-process">Application Process</h4>
+
+    <ol>
+      <li>Submit proposal</li>
+      <li>Moderation period</li>
+      <li>Proposals on website</li>
+    </ol>
+
+    <h4 id="voting-process">Voting Process</h4>
+
+    <ol>
+      <li>Vote on entries</li>
+      <li>Winners announced</li>
+    </ol>
+  </div>
+</div> -->
 
 
 ## Winners Selection
@@ -178,7 +181,7 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 
 <section class="standard-section timeline" id="dates"><div markdown="1">
 
-## Timeline
+<h2 class="hidden-but-accessible">Timeline</h2>
 
 {% include timeline.html %}
 
