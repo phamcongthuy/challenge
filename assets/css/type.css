@@ -67,7 +67,7 @@
     margin-top: 3rem;
     font-weight: 600;
     font-size: 2em;
-    font-size: calc(1.5vmax + 1.5em);
+    font-size: calc(1vmax + 1.5em);
     line-height: 1.25;
     letter-spacing: 2px;
     max-width: 20em; /* @max-line-length / 2em */
