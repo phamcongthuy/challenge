@@ -13,7 +13,7 @@
   @media (min-width: 40em) { /* @medium-size-screen */
     .standard-section {
       margin: 6em -4.5em;
-      padding: 4.5em 3em;
+      padding: 4.5em;
     }
   }
   .standard-section > div > h2 {
@@ -32,11 +32,18 @@
     }
   }
 
+  
+  main > .steps {
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+  }
+
   main > .timeline {
-    margin-left: 0;
+    /* margin-left: 0;
     padding-left: 0;
     margin-right: 0;
-    padding-right: 0;
+    padding-right: 0; */
     display: block;
   }
 
@@ -47,7 +54,7 @@
   main > p + .timeline {
     background-image: url(/assets/images/home/airplane.svg);
     background-size: 50em auto;
-    background-position: top left;
+    background-position: 1.5em 0;
     background-repeat: no-repeat;
   }
   @media (min-width: 50em) {
@@ -57,7 +64,7 @@
   }
   @media (min-width: 95em) {
     main > p + .timeline {
-      background-position: top left;
+      background-position: 3em 0;
       grid-column: 1 / -1;
     }
   }
@@ -129,11 +136,13 @@
   }
 
   main > .timeline dd {
-    /*! font-weight: 900; */
     padding-left: 0;
     margin-left: 0;
-    text-transform: uppercase;
     color: inherit;
+  }
+
+  main > .timeline:not(.steps) dd {
+    text-transform: uppercase;
     font-weight: 600;
   }
 

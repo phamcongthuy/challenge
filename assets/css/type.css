@@ -80,11 +80,17 @@
   h1 img {
     display: block;
     margin-bottom: 0.75em;
-    margin-left: -3rem;
-    margin-right: -3rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
     width: 100vw;
     display: block;
     max-width: none;
+  }
+  @media (min-width: 40em) {
+    h1 img {
+      margin-left: -3rem;
+      margin-right: -3rem;
+    }
   }
   h1 img[src*="/city"] {
     min-height: calc(193.642807/1375.2675781 * 100vw);

@@ -9,7 +9,7 @@ use_default_meta_description: true
 
 <h1>
   <img src="/assets/images/city-strawberry.svg" alt="" />
-  Tell us… <span class="avoid-break">how do you turn</span> <span class="avoid-break"><strong>inspiration</strong> into <strong>impact</strong>?</span>
+  Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
 </h1>
 
 <h2>
@@ -102,7 +102,19 @@ $100,000
 </div>
 
 
-<section class="standard-section"><div markdown="1">
+<section class="standard-section timeline steps"><div markdown="1">
+
+![](/assets/images/steps/1.svg) Step 1
+: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+![](/assets/images/steps/2.svg) Step 2
+: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+![](/assets/images/steps/3.svg) Step 3
+: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+![](/assets/images/steps/4.svg) Step 4
+: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 </div></section>
 
