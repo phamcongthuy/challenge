@@ -143,7 +143,7 @@ body .header-figure.has-caption::before {
   </span>
 </h2>
 
-LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. We've supported 42 great projects to shape a better LA via the My LA2050 Grants Challenge.<br /><br /><strong>The My LA2050 Grants Challenge is an open call for ideas that will activate 100,000 Angelenos to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded among five organizations to implement their ideas to engage Angelenos. Each organization will receive a total of $200,000 (over two years) and [partnership from LA2050](/about/#la2050-partnership) in support of their efforts.
+LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. We've supported 47 great projects to shape a better LA via My LA2050.<br /><br /><strong>The My LA2050 Grants Challenge is an open call for ideas to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded among ten organizations to implement their proposals. Each organization will receive a total of $100,000 and [partnership from LA2050](/about/#la2050-partnership) to support their efforts.
 
 <strong>Now, we're asking for your help to turn the [LA2050 goals and metrics](/about/#goals) into action.</strong>
 
@@ -219,16 +219,16 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 $1 million
 : in grants
 
-5
+10
 : organizations
 
-$200,000
-: over two years
+$100,000
+: over one-year
 </div>
 
 <figure class="standard-figure has-caption">
   <img src="/assets/images/home/384-wide/lamas.jpg" srcset="/assets/images/home/384-wide/lamas.jpg 384w, /assets/images/home/512-wide/lamas.jpg 512w, /assets/images/home/768-wide/lamas.jpg 768w, /assets/images/home/1024-wide/lamas.jpg 1024w, /assets/images/home/1536-wide/lamas.jpg 1536w, /assets/images/home/2048-wide/lamas.jpg 2048w" sizes="100vw" alt="LA Más" />
-  <figcaption class="caption"><span>Join us to harness our region’s civic activism for a better Los Angeles.</span></figcaption>
+  <figcaption class="caption"><span>Join us to harness our region’s spirit of innovation for a better Los Angeles.</span></figcaption>
 </figure>
 
 <section class="standard-section activation-examples"><div markdown="1">
@@ -259,11 +259,11 @@ Read our [guidelines for proposals](/submit/#guidelines).
 
 Winners will be selected via a two-step process:
 
-**25 <mark>finalists</mark> will be selected by an evaluation committee**: LA2050 will nominate an evaluation committee comprised of community members and experts to review and score applications. The evaluation committee will select 25 <mark>finalists</mark>—five in each goal category.
+**50 <mark>finalists</mark> will be selected by public vote**: The public will vote on all approved submissions to the grants challenge. Public vote will surface the top 10 <mark>finalists</mark> in each goal category.
 
-**5 winning proposals will be selected by the public**: The public will vote on the <mark>finalists</mark>. The activations in each goal category that receive the most votes will be announced as the winners.
+**10 winning proposals will be selected by a jury**: The Goldhirsh Foundation will select the winners from the 50 <mark>finalists</mark>. Two proposals in each goal category will be announced as the winners.
 
-The <mark>finalists</mark> will represent a diverse set of issues, engagement strategies, and activation goals. <mark>Finalists</mark> will be selected using the following criteria:
+<mark>Winners</mark> will be selected using the following criteria:
 
 * Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application
