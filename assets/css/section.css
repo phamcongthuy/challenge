@@ -32,12 +32,6 @@
     }
   }
 
-  
-  main > .steps {
-    background-color: rgb(255, 194, 51); /* @banana */
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: white;
-  }
 
   main > .timeline {
     /* margin-left: 0;
@@ -142,7 +136,7 @@
     color: inherit;
   }
 
-  main > .timeline:not(.steps) dd {
+  main > .timeline dd {
     text-transform: uppercase;
     font-weight: 600;
   }
@@ -205,3 +199,66 @@
       }
     }
   }
+  
+
+  main > .steps {
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+  }
+  main > .steps dt,
+  main > .steps dd {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  main > .steps img {
+    width: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.75em;
+  }
+  main > .steps dd + dt {
+    margin-top: 4.5em;
+  }
+  
+  @supports (display: grid) {
+    @media (min-width: 30em) {
+
+      main > .steps dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 4.5em;
+      }
+      main > .steps dd + dt {
+        margin-top: 0;
+      }
+      main > .steps dt {
+      }
+      main > .steps dd {
+        align-self: center;
+        text-align: left;
+      }
+
+    }
+    
+    @media (min-width: 85em) {
+      main > .steps dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4.5em;
+        grid-row-gap: 1.5em;
+      }
+      main > .steps dt {
+        grid-row: 1/2;
+        align-self: end;
+      }
+      main > .steps dd {
+        grid-row: 2/3;
+        align-self: start;
+      }
+    }
+  }
+
