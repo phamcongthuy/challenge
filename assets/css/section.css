@@ -126,7 +126,8 @@
     width: auto;
     height: 7.5em;
     display: block;
-    margin-bottom: 0.75em;
+    margin-bottom: 1.5em;
+    margin-left: 3em;
   }
 
   main > .timeline dt strong,
