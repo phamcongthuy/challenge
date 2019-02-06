@@ -144,11 +144,11 @@ $100,000
 
 Winners will be selected via a two-step process:
 
-**50 <mark>finalists</mark> will be selected by public vote**: The public will vote on all approved submissions to the grants challenge. Public vote will surface the top 10 <mark>finalists</mark> in each goal category.
+**50 finalists will be selected by public vote**: The public will vote on all approved submissions to the grants challenge. Public vote will surface the top 10 finalists in each goal category.
 
-**10 winning proposals will be selected by a jury**: The Goldhirsh Foundation will select the winners from the 50 <mark>finalists</mark>. Two proposals in each goal category will be announced as the winners.
+**10 winning proposals will be selected by a jury**: The Goldhirsh Foundation will select the winners from the 50 finalists. Two proposals in each goal category will be announced as the winners.
 
-<mark>Winners</mark> will be selected using the following criteria:
+Winners will be selected using the following criteria:
 
 * Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application
