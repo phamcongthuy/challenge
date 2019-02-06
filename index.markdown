@@ -104,6 +104,8 @@ $100,000
 
 <section class="standard-section steps"><div markdown="1">
 
+<div><img src="/assets/images/steps/watering-can.svg" height="200" alt="" /></div>
+
 ![](/assets/images/steps/1.svg) Step 1
 : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 

@@ -207,7 +207,12 @@
     letter-spacing: 0.1em;
   }
   
-  main > .steps img {
+  main > .steps img[src*="watering-can"] {
+    height: 9em;
+    width: auto;
+    display: block;
+  }
+  main > .steps dl img {
     width: 3em;
     display: block;
     margin-left: auto;
@@ -230,8 +235,6 @@
       main > .steps dd + dt {
         margin-top: 0;
       }
-      main > .steps dt {
-      }
       main > .steps dd {
         align-self: center;
         text-align: left;
@@ -240,6 +243,14 @@
     }
     
     @media (min-width: 60em) {
+      
+      main > .steps img[src*="watering-can"] {
+        height: 9em;
+        width: auto;
+        margin-left: 50%;
+        transform: translateX(-100%);
+      }
+      
       main > .steps dl {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
