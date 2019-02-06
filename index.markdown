@@ -145,7 +145,7 @@ Winners will be selected via a two-step process:
 
 **50 finalists will be selected by public vote**: The public will vote on all approved submissions to the grants challenge. Public vote will surface the top 10 finalists in each goal category.
 
-**10 winning proposals will be selected by a jury**: The Goldhirsh Foundation will select the winners from the 50 finalists. Two proposals in each goal category will be announced as the winners.
+**10 winning proposals will be selected by an internal jury**: Goldhirsh Foundation board and staff will select the winners from the 50 finalists. Two proposals in each goal category will be announced as the winners.
 
 Winners will be selected using the following criteria:
 
