@@ -106,13 +106,13 @@ $100,000
 
 <div><img src="/assets/images/steps/watering-can.svg" height="200" alt="" /></div>
 
-![](/assets/images/steps/1.svg) Step 1
+![](/assets/images/steps/1.svg?v={{ site.version }}) Step 1
 : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-![](/assets/images/steps/2.svg) Step 2
+![](/assets/images/steps/2.svg?v={{ site.version }}) Step 2
 : Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-![](/assets/images/steps/3.svg) Step 3
+![](/assets/images/steps/3.svg?v={{ site.version }}) Step 3
 : Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 </div></section>
