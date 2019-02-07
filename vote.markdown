@@ -5,7 +5,10 @@ main_class: standard-layout
 footer_image: true
 ---
 
-# Public Voting
+<h1>
+  <img src="/assets/images/city-banana.svg" alt="" />
+  Public Voting
+</h1>
 
 <div class="introduction" markdown="1">
 
@@ -66,14 +69,14 @@ The winners have been announced!
 
 ### Help us choose our winners!
 
-The 5 activations that receive the most votes will be announced as the winners.
+**50 finalists** will be chosen by public vote, and the **10 winners** will be chosen by the Goldhirsh Foundation.
 
-The <mark>finalists</mark> will represent a diverse set of issues, engagement strategies, and activation goals. <mark>Finalists</mark> will be selected using the following criteria:
+The winners will represent a diverse set of issues, strategies, and tactics. Winners will be selected using the following criteria:
 
 * Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application
 * Feasibility
-* Ability to mobilize the LA community
+* Innovation
 * Collaborative spirit
 
 ### Rules

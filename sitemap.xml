@@ -1,6 +1,9 @@
 ---
 layout: null
 ---
+
+{%- unless site.hide_from_search_engines -%}
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
@@ -9,44 +12,54 @@ layout: null
 {% endcomment %}
 
   <url>
-    <loc>https://activation.la2050.org/</loc>
+    <loc>https://challenge.la2050.org/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/about/</loc>
+    <loc>https://challenge.la2050.org/about/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/submit/</loc>
+    <loc>https://challenge.la2050.org/submit/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/vote/</loc>
+    <loc>https://challenge.la2050.org/vote/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/timeline/</loc>
+    <loc>https://challenge.la2050.org/timeline/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/faqs/</loc>
+    <loc>https://challenge.la2050.org/faqs/</loc>
   </url>
+
+{% if site.phase >= 7 %}
+
+  <url>
+    <loc>https://challenge.la2050.org/winners/</loc>
+  </url>
+
+{% endif %}
+
+{% if site.phase >= 4 %}
 
 {% comment %}
 ######### Entries #########
 {% endcomment %}
   <url>
-    <loc>https://activation.la2050.org/entries/</loc>
+    <loc>https://challenge.la2050.org/entries/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/learn/</loc>
+    <loc>https://challenge.la2050.org/learn/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/create/</loc>
+    <loc>https://challenge.la2050.org/create/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/play/</loc>
+    <loc>https://challenge.la2050.org/play/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/connect/</loc>
+    <loc>https://challenge.la2050.org/connect/</loc>
   </url>
   <url>
-    <loc>https://activation.la2050.org/live/</loc>
+    <loc>https://challenge.la2050.org/live/</loc>
   </url>
 
 {% comment %}
@@ -57,7 +70,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://activation.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
   </url>
 {% endfor %}
 
@@ -65,7 +78,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://activation.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
   </url>
 {% endfor %}
 
@@ -73,7 +86,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://activation.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
   </url>
 {% endfor %}
 
@@ -81,7 +94,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://activation.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
   </url>
 {% endfor %}
 
@@ -89,8 +102,12 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://activation.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
   </url>
 {% endfor %}
 
+{% endif %}
+
 </urlset>
+
+{% endunless %}

@@ -19,9 +19,7 @@
 
   main {
     min-height: 50vw;
-  }
-  .home main {
-    min-height: 75vw;
+    padding-bottom: 4.5em;
   }
   main > .standard-figure:last-child,
   main > .standard-section:last-child {
@@ -29,8 +27,16 @@
   }
 
   .numbers + .standard-figure,
+  .numbers + .standard-section,
   .standard-layout .numbers + .standard-figure {
     margin-top: 1.5em;
+  }
+  @media (min-width: 40em) {
+    .numbers + .standard-figure,
+    .numbers + .standard-section,
+    .standard-layout .numbers + .standard-figure {
+      margin-top: 3em;
+    }
   }
   .standard-section + .standard-figure,
   .standard-figure + .standard-section {
@@ -115,7 +121,7 @@
 
       .standard-layout {
         display: grid;
-        grid-template-columns: 1fr 2fr 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 3em;
         grid-row-gap: 1.5em;
         align-items: start;
@@ -127,7 +133,7 @@
       .standard-layout > h1 + .action,
       .standard-layout > .goals,
       .standard-layout > .standard-section {
-        grid-column: span 3;
+        grid-column: 1 / -1;
       }
 
       /* Reduce the amount of margin around figures and sections, to account for the grid gap */
@@ -135,6 +141,9 @@
       .standard-layout > .standard-section {
         margin-top: 4.5em; /* usual margin - grid row gap = 6em - 1.5em = 4.5em */
         margin-bottom: 4.5em;
+      }
+      .standard-layout > .numbers + .standard-section {
+        margin-top: 1.5em;
       }
 
       .standard-layout > h1:first-child {
@@ -153,6 +162,7 @@
         font-size: 1.5em;
         line-height: 1.125;
         max-width: 17.5em;
+        grid-row: span 2;
       }
       .standard-layout > p,
       .standard-layout > p.action,
@@ -161,7 +171,7 @@
       .standard-layout > ol,
       .standard-layout > ul {
         margin: 0;
-        grid-column: 2 / 3;
+        grid-column: 2 / -1;
       }
 
 .disabled .standard-layout > .standard-section + .standard-figure {

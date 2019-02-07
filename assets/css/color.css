@@ -58,6 +58,7 @@
   .blueberry main > p a {
     color: rgb(237, 192, 50); /* @dark-banana */
     color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
   .blueberry main > p a:hover,
   .blueberry main > p a:active,
@@ -108,6 +109,7 @@
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(254, 254, 254); /* @snow */
   }
+  .blueberry header .active a,
   .blueberry header a:hover,
   .blueberry header a:active,
   .blueberry header a:focus  {
@@ -119,6 +121,7 @@
   .blueberry main strong,
   .blueberry main em {
     color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(237, 59, 136); /* @strawberry */
   }
 
 
@@ -130,6 +133,7 @@
   .lime header a {
     color: rgb(254, 254, 254); /* @snow */
   }
+  .lime header .active a,
   .lime header a:hover,
   .lime header a:active,
   .lime header a:focus  {
@@ -154,6 +158,7 @@
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(254, 254, 254); /* @snow */
   }
+  .tangerine header .active a,
   .tangerine header a:hover,
   .tangerine header a:active,
   .tangerine header a:focus  {
@@ -182,6 +187,7 @@
     color: rgb(237, 59, 136); /* @strawberry */
     color: rgb(254, 254, 254); /* @snow */
   }
+  .banana header .active a,
   .banana header a:hover,
   .banana header a:active,
   .banana header a:focus  {

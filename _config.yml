@@ -1,8 +1,7 @@
 
 title: 2019 My LA2050 Grants Challenge
 description: >-
-  The My LA2050 Grants Challenge is an open call for ideas that
-  will activate 100,000 Angelenos to make LA the best place to
+  The My LA2050 Grants Challenge is an open call for ideas to make LA the best place to
   learn, create, play, connect, and live.
 image: https://challenge.la2050.org/assets/images/home/2048-wide/collaborates.jpg
 
@@ -13,13 +12,9 @@ mailing_list_url: https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4ef
 vote_url: /vote/form/
 
 
-# TEMPORARY: Content & design still being worked out
-phase: 0
-
-
 # New challenge announced: 
 # January 8
-# phase: 1
+phase: 1
 
 # Entries being accepted: 
 # February 28
@@ -32,6 +27,25 @@ phase: 0
 # Entries shown on the website: 
 # April 15
 # phase: 4
+# NOTE: If you switch to “phase: 4”, you’ll also want to
+# uncomment the “collections” so the entry pages will appear.
+
+# collections:
+#   learn:
+#     output: true
+#     permalink: /learn/:path/
+#   create:
+#     output: true
+#     permalink: /create/:path/
+#   play:
+#     output: true
+#     permalink: /play/:path/
+#   connect:
+#     output: true
+#     permalink: /connect/:path/
+#   live:
+#     output: true
+#     permalink: /live/:path/
 
 # Votes being accepted: 
 # April 22
@@ -76,7 +90,7 @@ voting_test_mode: false
 voting_strict_mode: true
 
 # For cache busting
-version: 1.6.7
+version: 2.1.1
 
 
 permalink: pretty
@@ -132,20 +146,3 @@ defaults:
     values:
       layout: project
       body_class: lime
-
-# collections:
-#   learn:
-#     output: true
-#     permalink: /learn/:path/
-#   create:
-#     output: true
-#     permalink: /create/:path/
-#   play:
-#     output: true
-#     permalink: /play/:path/
-#   connect:
-#     output: true
-#     permalink: /connect/:path/
-#   live:
-#     output: true
-#     permalink: /live/:path/

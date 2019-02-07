@@ -29,15 +29,11 @@
   <link rel="stylesheet" href="/assets/css/process.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/figure.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/header.css?v={{ site.version }}" />
-  <link rel="stylesheet" href="/assets/css/header-figure.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/navigation.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/layout.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/introduction.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/goals.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/goals-navigation.css?v={{ site.version }}" />
-
-  <!-- SHIM: Consider combinding this with header-figure.css (and removing redundant/overridden rules) -->
-  <link rel="stylesheet" href="/assets/css/header-figure-override.css?v={{ site.version }}" />
 
   {% if page.stylesheets %}
     {% assign stylesheets = page.stylesheets %}
@@ -77,7 +73,8 @@
   {% capture canonical_url %}https://challenge.la2050.org{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ page.url }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical_url }}" />
   <meta property="og:url" content="{{ canonical_url }}" />
-
+  
+  {% comment %}Hide staging websites from search engines{% endcomment %}
   {% if site.hide_from_search_engines %}
   <meta name="robots" content="noindex">
   {% endif %}
@@ -96,22 +93,12 @@
   {% endif %}
 
 
-  {% if site.phase == 0 %}
-
-    <meta property="og:image" content="https://challenge.la2050.org/assets/images/coming-soon-square.png" />
-    <meta property="og:image:width" content="1000" />
-    <meta property="og:image:height" content="1000" />
-
-  {% else %}
-
   {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
   <meta property="og:image" content="https://challenge.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
   {% elsif page.image %}
   <meta property="og:image" content="{{ page.image }}" />
   {% elsif site.image %}
   <meta property="og:image" content="{{ site.image }}" />
-  {% endif %}
-  
   {% endif %}
 
 
@@ -129,7 +116,7 @@
 </head>
 <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
-  {% if page.show_promotion or site.phase == 0 or site.phase == 2 or site.phase == 5 or site.phase == 7 %}
+  {% if page.show_promotion or site.phase == 2 or site.phase == 5 or site.phase == 7 %}
   <section class="promotion">
     {% include promotion.html %}
   </section>
@@ -161,17 +148,6 @@
   </header>
   <main{% if page.main_class %} class="{{ page.main_class }}"{% elsif layout.main_class %} class="{{ layout.main_class }}"{% endif %}>
     {{ content }}
-    {% unless site.phase == 0 %}
-    {% if page.footer_image %}
-    <figure class="standard-figure has-caption">
-      <img src="/assets/images/home/384-wide/collaborates.jpg" srcset="/assets/images/home/384-wide/collaborates.jpg 384w, /assets/images/home/512-wide/collaborates.jpg 512w, /assets/images/home/768-wide/collaborates.jpg 768w, /assets/images/home/1024-wide/collaborates.jpg 1024w, /assets/images/home/1536-wide/collaborates.jpg 1536w, /assets/images/home/2048-wide/collaborates.jpg 2048w" sizes="100vw" alt="A room filled with people listening to someone speaking" />
-      <figcaption class="caption">
-        <span>Los Angeles:</span><br />
-        <span>Change</span> <span>is&nbsp;Local</span>
-      </figcaption>
-    </figure>
-    {% endif %}
-    {% endunless %}
   </main>
   <footer>
     {% include logotype.html %}

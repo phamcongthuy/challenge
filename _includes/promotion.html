@@ -1,12 +1,23 @@
 {% if site.phase == 1 %}
 
       <p>
-        Starting <strong>February 28, 2019</strong>, <span class="avoid-break">you can <a class="avoid-break" href="/submit/">submit your big idea.</a></span><br />
+        Submissions open on February 28th!<br />
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4drDm6lKpmJudzHY8GYbXHvCszKoGuQUZsPR5TXc54OvDIQ/viewform">Learn more about the application process</a> at our office hours webinar on <strong>February 20, 2019</strong>
+      </p>
+      <p class="action">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4drDm6lKpmJudzHY8GYbXHvCszKoGuQUZsPR5TXc54OvDIQ/viewform">Sign up</a>
+      </p>
+
+<!--<p>
+        Starting <strong>February 28, 2019</strong>, <span class="avoid-break">you can <a class="avoid-break" href="/submit/">submit your big idea.</a></span>
         Voting begins on
         <span class="avoid-break">
           <strong>April 22, 2019</strong>.
         </span>
       </p>
+      <p class="action">
+        <a href="{{ site.mailing_list_url }}">Get updates</a>
+      </p>-->
 
 {% elsif site.phase == 2 %}
 
@@ -15,7 +26,7 @@
         <span class="avoid-break"><a href="/submit/">Read the guidelines</a> and apply by <strong>March 29, 2019.</strong></span>
       </p>
       <p class="action">
-        <a href="{{ site.submission_url }}">Submt your idea</a>
+        <a href="{{ site.submission_url }}">Submit your idea</a>
       </p>
 
 {% elsif site.phase == 3 %}
@@ -24,17 +35,24 @@
         The submission period is complete.
         <span class="avoid-break">Entries will be showcased here on <strong>April 15, 2019</strong>.</span>
       </p>
+      <p class="action">
+        <a href="{{ site.mailing_list_url }}">Get updates</a>
+      </p>
 
 {% elsif site.phase == 4 %}
 
       <p>
-        The <a href="/entries/">entries</a> have arrived!
+        The entries have arrived!
         <span class="avoid-break">
           Voting begins on
           <span class="avoid-break">
             <strong>April 22, 2019</strong>.
           </span>
         </span>
+      </p>
+      
+      <p class="action">
+        <a href="/entries/">Check out the entries!</a>
       </p>
 
 {% elsif site.phase == 5 %}
@@ -56,19 +74,26 @@
           </span>
         </span>
       </p>
+      <p class="action">
+        <a href="{{ site.mailing_list_url }}">Get updates</a>
+      </p>
 
 {% elsif site.phase == 7 %}
 
       <p>
-        The <a href="/winners/">winners</a> have been announced.
+        The winners have been announced.
         Thank you to everyone who participated!
       </p>
+      <p class="action">
+        <a href="/winners/">Check out the winners!</a>
+      </p>
 
-{% elsif site.phase == 0 %}
-
+      <!--
       <p>
         The 2019 Grants Challenge is part of the greater <a href="https://la2050.org/">LA2050 initiative</a>.
         <span class="avoid-break" data-characters="45">We’re working to move Los Angeles <span class="avoid-break">toward <a href="https://la2050.org/#learnmore">five goals</a>.</span></span>
       </p>
+      -->
 
 {% endif %}
+

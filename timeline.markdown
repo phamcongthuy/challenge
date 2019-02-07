@@ -4,7 +4,10 @@ body_class: banana
 footer_image: true
 ---
 
-# Timeline
+<h1>
+  <img src="/assets/images/city-strawberry.svg" alt="" />
+  Timeline
+</h1>
 
 <div class="standard-section timeline"><div markdown="1">
 

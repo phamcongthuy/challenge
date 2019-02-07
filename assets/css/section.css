@@ -13,7 +13,7 @@
   @media (min-width: 40em) { /* @medium-size-screen */
     .standard-section {
       margin: 6em -4.5em;
-      padding: 4.5em 3em;
+      padding: 4.5em;
     }
   }
   .standard-section > div > h2 {
@@ -32,18 +32,37 @@
     }
   }
 
-  .activation-examples {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(254, 254, 254); /* @snow */
-  }
+
   main > .timeline {
+    /* margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0; */
+    display: block;
+  }
+
+  main > .timeline dl {
     color: inherit; /* @blueberry */
+    text-align: left;
   }
   main > p + .timeline {
-    border-top: 0.1875rem solid rgb(235, 235, 235);
+    background-image: url(/assets/images/home/airplane.svg);
+    background-size: 75em auto;
+    background-position: 1.5em 0;
+    background-repeat: no-repeat;
+    grid-column: 1 / -1;
+  }
+  @media (min-width: 40em) {
+    main > p + .timeline {
+      background-position: 4.5em 0;
+    }
   }
   main > .timeline h2 {
-    color: var(--primary-color); /* @banana */
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(141, 208, 59); /* @lime */
+    color: rgb(255, 194, 51); /* @banana */
   }
   main > .timeline p strong {
     color: inherit;
@@ -56,40 +75,11 @@
     margin-top: -4.5em;
   }
 
-  .activation-examples h2 + p {
-    max-width: none;
-    font-weight: bold;
-  }
-  .activation-examples h2 + p strong {
-    color: inherit;
-    font-weight: inherit;
-  }
-  .activation-examples h2 + p strong em {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(255, 194, 51); /* @banana */
-    color: rgb(255, 224, 81); /* @bright-banana */
-    font-style: normal;
-    display: inline-block;
-    font-weight: inherit;
-  }
-  .activation-examples a {
-    color: rgb(255, 224, 81); /* @bright-banana */
-  }
-  .activation-examples a:hover,
-  .activation-examples a:active,
-  .activation-examples a:focus {
-    color: rgb(255, 79, 156); /* @bright-strawberry */
-    color: rgb(141, 208, 59); /* @lime */
-    color: rgb(181, 248, 99); /* @bright-lime */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-
 
   main > .timeline dl {
-    letter-spacing: 0.1em;
     max-width: none;
+    text-align: center;
   }
-  .activation-examples ul + p:last-child,
   main > .timeline dl + p:last-child {
     margin-top: 3em;
     margin-bottom: 1.25em;
@@ -98,96 +88,68 @@
   }
 
   @media (min-width: 40em) { /* @medium-size-screen */
-    .activation-examples ul + p:last-child,
     main > .timeline dl + p:last-child {
-      margin-top: 4.5em;
+      margin-top: 7.5em;
       margin-bottom: 1.5em;
     }
   }
 
 
-  .activation-examples ul,
-  .activation-examples li {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-  }
-
-  .activation-examples ul {
-    max-width: none;
-  }
-  .activation-examples li,  
   main > .timeline dt {
-    margin-top: 3em;
-    font-weight: 600;
     text-transform: uppercase;
-  }
-  @media (min-width: 40em) { /* @medium-size-screen */
-    .activation-examples li,  
-    main > .timeline dt {
-      font-size: 0.75em;
-    }
-  }
-  main > .timeline dt {
-    color: rgb(237, 192, 50); /* @dark-banana */
+    letter-spacing: 0.1em;
+    margin-top: 4.5rem;
+    font-size: 0.75em;
     color: inherit;
     font-weight: 400;
   }
-  .activation-examples li img,
   main > .timeline dt img {
     width: auto;
     height: 7.5em;
     display: block;
+    margin-bottom: 1.5em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.75em;
   }
 
-  main > .timeline dt strong {
-    font-weight: inherit;
-    color: rgb(6, 179, 188);
+  main > .timeline dt strong,
+  main > .timeline dd strong {
+    color: rgb(249, 160, 51); /* @tangerine */
+      font-weight: bold;
   }
 
   main > .timeline dd {
-    /*! font-weight: 900; */
-    text-transform: uppercase;
     padding-left: 0;
     margin-left: 0;
     color: inherit;
-    font-weight: 600;
   }
 
-  main > .timeline dd strong {
-    color: rgb(6, 179, 188); /* @strawberry */
-    font-weight: inherit;
+  main > .timeline dd {
+    font-weight: 600; /* @semibold */
   }
+
   main > .timeline dl {
-    margin-bottom: 3em;
+    margin-bottom: 0;
   }
 
   @supports (display: grid) {
-    @media (min-width: 40em) {
-      .activation-examples ul {
-        display: grid;
-        grid-column-gap: 1.5em;
-        grid-template-columns: 1fr 1fr;
-        max-width: none;
-      }
-    }
-    @media (min-width: 60em) {
-      .activation-examples ul,
+    @media (min-width: 30em) {
       main > .timeline dl {
         display: grid;
         grid-column-gap: 3em;
         grid-template-columns: 1fr 1fr;
-        max-width: none;
       }
-      .activation-examples li:nth-child(3n+1):last-child {
-        grid-column: span 3;
+      main > .timeline dt:nth-of-type(1),
+      main > .timeline dt:nth-of-type(3),
+      main > .timeline dd:nth-of-type(1),
+      main > .timeline dd:nth-of-type(3) {
+        grid-column: 1/2;
       }
-      main > .timeline dl:first-child dt:nth-of-type(1),
-      main > .timeline dl:first-child dt:nth-of-type(2) {
-        margin-top: 0;
+      main > .timeline dt:nth-of-type(2),
+      main > .timeline dt:nth-of-type(4),
+      main > .timeline dd:nth-of-type(2),
+      main > .timeline dd:nth-of-type(4) {
+        grid-column: 2/3;
       }
       main > .timeline dt:nth-of-type(1),
       main > .timeline dt:nth-of-type(2) {
@@ -210,4 +172,107 @@
         align-self: start;
       }
     }
+    @media (min-width: 85em) {
+      main > .timeline dl {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      main > .timeline dt:nth-of-type(n) {
+        grid-row: 1 / 2;
+        grid-column: auto;
+      }
+      main > .timeline dd:nth-of-type(n) {
+        grid-row: 2 / 3;
+        grid-column: auto;
+      }
+    }
   }
+  
+
+  main > .steps {
+    background-color: rgb(255, 194, 51); /* @banana */
+    background-color: rgb(6, 179, 188); /* @blueberry */
+    color: white;
+  }
+  main > .steps dl {
+    max-width: none;
+  }
+  main > .steps dd {
+    max-width: 20em;
+  }
+  main > .steps dt,
+  main > .steps dd {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  main > .steps dt {
+    font-weight: 600; /* @semibold */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  main > .steps img[src*="watering-can"] {
+    height: 9em;
+    width: auto;
+    display: block;
+  }
+  main > .steps dl img {
+    width: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.75em;
+  }
+  main > .steps dl img[src*="3.svg"] {
+    width: 4em;
+  }
+  main > .steps dd + dt {
+    margin-top: 4.5em;
+  }
+  
+  @supports (display: grid) {
+    @media (min-width: 50em) {
+
+      main > .steps dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 4.5em;
+      }
+      main > .steps dd + dt {
+        margin-top: 0;
+      }
+      main > .steps dd {
+        align-self: center;
+        text-align: left;
+      }
+
+    }
+    
+    @media (min-width: 50em) {
+      
+      main > .steps img[src*="watering-can"] {
+        height: 9em;
+        width: auto;
+        margin-left: 50%;
+        transform: translateX(-100%);
+        margin-bottom: -6em;
+      }
+      
+      main > .steps dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4.5em;
+        grid-row-gap: 0;
+      }
+      main > .steps dt {
+        grid-row: 1/2;
+        align-self: end;
+      }
+      main > .steps dd {
+        grid-row: 2/3;
+        align-self: start;
+        text-align: center;
+      }
+    }
+  }
+
