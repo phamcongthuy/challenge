@@ -147,7 +147,7 @@ The winners have been announced!
 * The grants challenge is all about making progress on our shared goals and metrics. Read about them [here](http://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432). 
 * <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4drDm6lKpmJudzHY8GYbXHvCszKoGuQUZsPR5TXc54OvDIQ/viewform">Sign-up for our office hours webinar</a> on February 20th. 
 * Need inspiration? Browse proposals from past My LA2050 winners on the [My LA2050 Ideas Archive](https://archive.la2050.org/search/?keywords=winner). 
-* Check out all previous My LA2050 reports [here](https://archive.la2050.org/search/?keywords=winner).
+* Check out all previous [My LA2050 Grants Challenge reports](https://la2050.org/reports) delineating best practices for getting out the vote, as well as trends and reported impact.
 
 {% comment %}
 * Ready to submit? Check out the [entry forms](https://drive.google.com/drive/folders/1gV-2RxzQrpUtkxas1qVsBtQswrb_ZwZg) by goal category
@@ -160,7 +160,7 @@ The winners have been announced!
 
 Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (5pm Pacific Time) on this website. 
 
-Your application will go through a moderation process to ensure that your project adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals.
+Your application will go through a moderation process to ensure that it adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals.
 
 From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), all submissions will be voted on by the public. Public voting will surface 50 finalists - the top ten submissions in each goal category. The Goldhirsh Foundation will then select two winners from each goal category, to be announced on Monday, June 4, 2019.
 
