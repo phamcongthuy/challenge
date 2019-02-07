@@ -162,7 +162,7 @@ Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 2
 
 Your application will go through a moderation process to ensure that it adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals.
 
-From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), all submissions will be voted on by the public. Public voting will surface 50 finalists - the top ten submissions in each goal category. The Goldhirsh Foundation will then select two winners from each goal category, to be announced on Monday, June 4, 2019.
+From Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time), all submissions will be voted on by the public. Public voting will surface 50 finalists - the top 10 submissions in each goal category. The Goldhirsh Foundation will then select two winners from each goal category, to be announced on Monday, June 4, 2019.
 
 View the [full timeline](/timeline).
 
