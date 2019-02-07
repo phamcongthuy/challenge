@@ -219,6 +219,9 @@
     margin-right: auto;
     margin-bottom: 0.75em;
   }
+  main > .steps dl img[src*="3.svg"] {
+    width: 4em;
+  }
   main > .steps dd + dt {
     margin-top: 4.5em;
   }
@@ -249,6 +252,7 @@
         width: auto;
         margin-left: 50%;
         transform: translateX(-100%);
+        margin-bottom: -3em;
       }
       
       main > .steps dl {
@@ -264,6 +268,7 @@
       main > .steps dd {
         grid-row: 2/3;
         align-self: start;
+        text-align: center;
       }
     }
   }
