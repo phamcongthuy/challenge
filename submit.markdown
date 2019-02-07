@@ -146,8 +146,8 @@ The winners have been announced!
 
 * The grants challenge is all about making progress on our shared goals and metrics. Read about them [here](http://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432). 
 * <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4drDm6lKpmJudzHY8GYbXHvCszKoGuQUZsPR5TXc54OvDIQ/viewform">Sign-up for our office hours webinar</a> on February 20th. 
-* Need inspiration? See how groups and leaders in LA are approaching civic participation in these [two](http://la2050.s3-us-west-1.amazonaws.com/reports/12/pdfs/Braintrust_final_oct9.pdf?1508800325) [reports](http://la2050.s3-us-west-1.amazonaws.com/reports/10/pdfs/partyatthepollsreport_july18.pdf?1500421763). 
-* For inspiration, you can check out submissions from previous winners at the [My LA2050 Ideas Archive](https://archive.la2050.org/search/?keywords=winner).
+* Need inspiration? Browse proposals from past My LA2050 winners on the [My LA2050 Ideas Archive](https://archive.la2050.org/search/?keywords=winner). 
+* Check out all previous My LA2050 reports [here](https://archive.la2050.org/search/?keywords=winner).
 
 {% comment %}
 * Ready to submit? Check out the [entry forms](https://drive.google.com/drive/folders/1gV-2RxzQrpUtkxas1qVsBtQswrb_ZwZg) by goal category
