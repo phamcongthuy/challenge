@@ -76,7 +76,7 @@ The winners will represent a diverse set of issues, engagement strategies, and a
 * Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application
 * Feasibility
-* Ability to mobilize the LA community
+* Innovation
 * Collaborative spirit
 
 ### Rules
