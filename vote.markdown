@@ -71,7 +71,7 @@ The winners have been announced!
 
 **50 finalists** will be chosen by public vote, and the **10 winners** will be chosen by the Goldhirsh Foundation.
 
-The winners will represent a diverse set of issues, engagement strategies, and activation goals. Winners will be selected using the following criteria:
+The winners will represent a diverse set of issues, strategies, and tactics. Winners will be selected using the following criteria:
 
 * Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application
