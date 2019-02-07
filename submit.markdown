@@ -174,20 +174,20 @@ View the [full timeline](/timeline).
 * Clearly articulate the strategies and tools that will be employed.
 * Identify collaboration partners and their respective roles. Collaboration is highly encouraged!
 * Submit a detailed budget explaining how funds will be used across the one year grant period.
-* Detail any additional non-financial assistance needed from LA2050 to make the project a success.
+* Detail any additional desired, non-financial assistance needed from LA2050 to make the project a success.
 
 ### Rules
 
 _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?_
 
 * The My LA2050 Grants Challenge is open for submissions from Thursday, February 28, 2019 (9am Pacific Time) through Friday, March 29, 2019 (5pm Pacific Time).
-* In order to submit a proposal, log in and complete the application form.
-* US-based non-profit, for-profit, social enterprises and government agencies with projects serving Los Angeles County are eligible to apply.
-* Winning projects must be completed and the grant award must be expended within 12 months.
+* In order to submit a proposal, log-in and complete the application form.
+* US-based non-profit, for-profit, social enterprises, and government agencies with projects serving Los Angeles County are eligible to apply.
+* Winning projects must be completed, and the grant award must be expended within 12 months.
 * Ongoing projects are eligible for submission.
 * Previous applicants and winners of LA2050 grant programs may reapply.
 * All projects will be featured on this site by April 15, 2019, and public voting will be open from Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time).
-* <em>Public vote</em>: The public will vote on all submissions to the grants challenge. The top ten submissions in each goal category garnering the most votes will be finalists (50 total).
+* <em>Public vote</em>: The public will vote on all submissions to the grants challenge. The top 10 submissions in each goal category garnering the most votes will be finalists (50 total).
 * <em>Winner selection</em>: From the pool of 50 finalists, Goldhirsh Foundation staff and board will select two winners from each goal category (10 total).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, innovation, feasibility, and collaborative spirit.
 * Winners of the My LA2050 Grants Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with an LA2050 team member per month.
