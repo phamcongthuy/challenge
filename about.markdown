@@ -28,9 +28,9 @@ LA2050 will commit to a one-year partnership, leveraging its resources, assets, 
 We want to work together! To partner, we plan to:
 
 * Leverage the LA2050 community to support and participate in the project.
-* Offer communications assistance to build awareness and thought-leadership, including authoring articles, op-eds, and blog posts.
-* Amplify messaging on social media and via the LA2050 newsletter to support the projects.
-* Design assets for materials.
+* Offer communications assistance to build awareness and thought leadership, including authoring articles, op-eds, and blog posts.
+* Amplify messaging on social media and via the LA2050 newsletter to support projects.
+* Create design assets as needed.
 * Provide technical assistance, strategic input and guidance, and access to experts to incorporate insights on the project.
 
 <hr id="goals" />
