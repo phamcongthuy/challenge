@@ -18,7 +18,7 @@ use_default_meta_description: true
   <span class="avoid-break">Grants Challenge</span>
 </h2>
 
-LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. We've supported 47 great projects to shape a better LA via My LA2050.<br /><br /><strong>The My LA2050 Grants Challenge is an open call for ideas to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded among ten organizations to implement their proposals. Each organization will receive a total of $100,000 and [partnership from LA2050](/about/#la2050-partnership) to support their efforts.
+LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. We've supported 47 great projects to shape a better LA via My LA2050.<br /><br /><strong>The My LA2050 Grants Challenge is an open call for ideas to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded among 10 organizations to implement their proposals. Each organization will receive a total of $100,000 and [partnership from LA2050](/about/#la2050-partnership) to support their efforts.
 
 <strong>Now, we're asking for your help to turn the [LA2050 goals and metrics](/about/#goals) into action.</strong>
 
