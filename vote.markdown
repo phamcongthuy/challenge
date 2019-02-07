@@ -69,9 +69,9 @@ The winners have been announced!
 
 ### Help us choose our winners!
 
-The 5 activations that receive the most votes will be announced as the winners.
+The 10 entries that receive the most votes will be announced as the winners.
 
-The <mark>finalists</mark> will represent a diverse set of issues, engagement strategies, and activation goals. <mark>Finalists</mark> will be selected using the following criteria:
+The finalists will represent a diverse set of issues, engagement strategies, and activation goals. finalists will be selected using the following criteria:
 
 * Impact on the [LA2050 goals and metrics](/about/#goals)
 * Overall quality of the application

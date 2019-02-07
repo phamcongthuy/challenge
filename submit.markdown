@@ -145,11 +145,15 @@ The winners have been announced!
 ### Resources
 
 * The grants challenge is all about making progress on our shared goals and metrics. Read about them [here](http://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432). 
-* Ready to submit? Check out the [entry forms](https://drive.google.com/drive/folders/1gV-2RxzQrpUtkxas1qVsBtQswrb_ZwZg) by goal category 
-* Review the [scorecard](https://drive.google.com/file/d/1fu8ZgcMTKj53pJNK5S1ECb1mxKi3vgLN/view) to see how your proposal will be evaluated
-* Check out our FAQs and [these questions](https://docs.google.com/document/d/1rS7M0RKiQOvUqISa2kBGxYm64DQDT5mR72q2fDywJWU/edit) from our office hours in February. 
+* <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4drDm6lKpmJudzHY8GYbXHvCszKoGuQUZsPR5TXc54OvDIQ/viewform">Sign-up for our office hours webinar</a> on February 20th. 
 * Need inspiration? See how groups and leaders in LA are approaching civic participation in these [two](http://la2050.s3-us-west-1.amazonaws.com/reports/12/pdfs/Braintrust_final_oct9.pdf?1508800325) [reports](http://la2050.s3-us-west-1.amazonaws.com/reports/10/pdfs/partyatthepollsreport_july18.pdf?1500421763). 
+* For inspiration, you can check out submissions from previous winners at the [My LA2050 Ideas Archive](https://archive.la2050.org/search/?keywords=winner).
+
+{% comment %}
+* Ready to submit? Check out the [entry forms](https://drive.google.com/drive/folders/1gV-2RxzQrpUtkxas1qVsBtQswrb_ZwZg) by goal category
+* Review the [scorecard](https://drive.google.com/file/d/1fu8ZgcMTKj53pJNK5S1ECb1mxKi3vgLN/view) to see how your proposal will be evaluated
 * How have Angelenos activated in the past? Check out [these videos](https://www.facebook.com/LA2050/videos/vl.1855009431227001/1798255590244812/?type=1) on movements shaping LA. 
+{% endcomment %}
 
 
 ### Dates
@@ -183,8 +187,8 @@ _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?
 * Winning projects must be completed and the grant award must be expended within 24 months.
 * Ongoing projects are eligible for submission.
 * Previous applicants and winners of LA2050 grant programs may reapply.
-* <em>Evaluation committee</em>: In each goal category, the evaluation committee will select five <mark>finalists</mark>.
-* <em>Public vote</em>: The public will vote on the five <mark>finalists</mark> in each goal category. The proposal in each goal category garnering the most votes will be a winner.
+* <em>Evaluation committee</em>: In each goal category, the evaluation committee will select five finalists.
+* <em>Public vote</em>: The public will vote on the five finalists in each goal category. The proposal in each goal category garnering the most votes will be a winner.
 * Projects will be featured on this site and public voting will be open from Monday, April 22, 2019 (9am Pacific Time) through Monday, April 29, 2019 (5pm Pacific Time).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, ability to mobilize Angelenos, feasibility, and collaborative spirit.
 * Winners of the My LA2050 Grants Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with a LA2050 team member per month.
