@@ -191,7 +191,7 @@ _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?
 * <em>Winner selection</em>: From the pool of 50 finalists, Goldhirsh Foundation staff and board will select two winners from each goal category (10 total).
 * Applications will be selected using the following criteria: impact on the LA2050 goal and metrics, overall quality of submission, innovation, feasibility, and collaborative spirit.
 * Winners of the My LA2050 Grants Challenge will be grantees of the Goldhirsh Foundation and will be required to participate in at least one check-in with an LA2050 team member per month.
-* [Read all the rules](https://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/131/files/original/2018-MyLA2050-Official-Rules.pdf)
+* [Read all the rules](http://la2050.s3-us-west-1.amazonaws.com/comfy/cms/files/135/files/original/2019GrantsChallengeRules.pdf)
 
 ### Questions
 
