@@ -196,6 +196,9 @@
   main > .steps dl {
     max-width: none;
   }
+  main > .steps dd {
+    max-width: 20em;
+  }
   main > .steps dt,
   main > .steps dd {
     margin-left: 0;
@@ -227,7 +230,7 @@
   }
   
   @supports (display: grid) {
-    @media (min-width: 30em) {
+    @media (min-width: 50em) {
 
       main > .steps dl {
         display: grid;
@@ -245,7 +248,7 @@
 
     }
     
-    @media (min-width: 60em) {
+    @media (min-width: 50em) {
       
       main > .steps img[src*="watering-can"] {
         height: 9em;
@@ -259,7 +262,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 4.5em;
-        grid-row-gap: 1.5em;
+        grid-row-gap: 0;
       }
       main > .steps dt {
         grid-row: 1/2;
