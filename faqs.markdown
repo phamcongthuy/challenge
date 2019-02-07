@@ -18,7 +18,7 @@ stylesheets:
 ## What is the My LA2050 Grants Challenge?
 </summary>
 
-The My LA2050 Grants Challenge is an open call for ideas to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among ten organizations—two per goal category—to implement their proposals. Each organization will receive a total of $100,000 over one year to support its efforts.
+The My LA2050 Grants Challenge is an open call for ideas to make Los Angeles the best place to learn, create, play, connect, and live. A total of $1M will be awarded among 10 organizations—two per goal category—to implement their proposals. Each organization will receive a total of $100,000 over one year to support its efforts.
 
 LA2050 will commit to a one-year partnership with the winners—leveraging its resources, assets, and networks to help the projects succeed. Together, the winning organizations, LA2050, and Angelenos will make progress for the region that will change the course of our future.
 
@@ -46,7 +46,7 @@ We want Angelenos to see themselves as part of the solutions we need to improve 
 ## Can I apply more than once?
 </summary>
 
-There can be multiple entries from the same organization, as long as the submissions are unique and in different categories. However, we would recommend consolidating your resources, collaborators, and supporters to submit one awesome proposal!
+There can be multiple entries from the same organization, as long as the submissions are unique and in goal different categories. However, we would recommend consolidating your resources, collaborators, and supporters to submit one awesome proposal!
 
 </details>
 
@@ -68,6 +68,7 @@ Beyond the potential to receive a grant for your work, we believe that applying 
 * The opportunity to learn how to tell a compelling story about your organization’s impact
 * Inspiring the creation of videos, photos, tweets, and pithy messaging to promote your proposal
 * Visibility in front of other foundations and potential alternative funding sources. Past challenges have resulted in +$2.25M in grants from outside funders using the LA2050 platform for their grantmaking
+* 'Volunteer' and 'donate' buttons on each submission page to drive resources to your organization
 
 </details>
 
