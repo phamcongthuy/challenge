@@ -5,7 +5,7 @@ main_class: standard-layout
 ---
 
 <h1>
-  <img src="/assets/images/city-banana.svg" alt="" />
+  {% include city-illustration.html %}
   About
 </h1>
 

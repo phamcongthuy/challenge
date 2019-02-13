@@ -7,7 +7,7 @@ use_default_meta_description: true
 ---
 
 <h1>
-  <img src="/assets/images/city-strawberry.svg" alt="" />
+  {% include city-illustration.html %}
   Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
 </h1>
 

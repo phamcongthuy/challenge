@@ -5,7 +5,7 @@ main_class: standard-layout
 ---
 
 <h1>
-  <img src="/assets/images/city-strawberry.svg" alt="" />
+  {% include city-illustration.html %}
   Submit Your Proposal
 </h1>
 
