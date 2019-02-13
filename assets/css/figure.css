@@ -124,7 +124,7 @@
 
   .video {
     margin: 3em 0;
-    grid-column: 1/4;
+    grid-column: 1/-1;
     width: 100%;
     position: relative;
   }

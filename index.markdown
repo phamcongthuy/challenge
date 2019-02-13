@@ -117,27 +117,6 @@ $100,000
 </div></section>
 
 
-<!-- 
-<div class="application-process">
-<div>
-    <h4 id="application-process">Application Process</h4>
-
-    <ol>
-      <li>Submit proposal</li>
-      <li>Moderation period</li>
-      <li>Proposals on website</li>
-    </ol>
-
-    <h4 id="voting-process">Voting Process</h4>
-
-    <ol>
-      <li>Vote on entries</li>
-      <li>Winners announced</li>
-    </ol>
-  </div>
-</div> -->
-
-
 ## Winners Selection
 
 Winners will be selected via a two-step process:

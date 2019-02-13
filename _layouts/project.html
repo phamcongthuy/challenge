@@ -8,7 +8,7 @@ stylesheets:
 
 <div style="margin-top: 3em"></div>
 
-<section class="proposal-introduction" style="grid-column: 1/4">
+<section class="proposal-introduction">
 
 <div class="proposal-header">
 <p class="category">
@@ -220,60 +220,6 @@ stylesheets:
 {% include project-links.html %}
 
 <hr />
-
-{% if page.project_video and false %}
-<div style="grid-column: 1/4;">
-  <figure class="feature proposal-video-figure">
-    <div data-aspect-ratio="1280/720">
-      <div class="proposal-video">
-        <iframe src="{{ page.project_video }}&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </figure>
-  <script type="text/template" id="video-template">
-    <figure class="feature proposal-video-figure">
-      <div data-aspect-ratio="1280/720">
-        <div class="proposal-video">
-          <iframe src="{{ page.project_video }}&modestbranding=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </figure>
-  </script>
-</div>
-
-<script type="text/javascript">
-  // Replace the image with a video element, if the link to the video has been pressed
-  (function() {
-
-    // Do we have the features we need?
-    if (!document.body.querySelector ||
-        !document.body.addEventListener) return;
-
-    var button   = document.getElementById('video-figure');
-    var template = document.getElementById('video-template');
-    var parent;
-
-    var activated = false;
-
-    if (button && template) {
-      parent = template.parentNode;
-      button.addEventListener('click', function(e) {
-        if (activated) {
-          parent.scrollIntoView({ behavior: 'smooth' });
-          e.preventDefault();
-          return;
-        }
-        activated = true;
-        parent.innerHTML = template.innerHTML;
-        parent.scrollIntoView({ behavior: 'smooth' });
-        // template.parentNode.scrollIntoView(true);
-        document.body.classList.add('has-active-video');
-        e.preventDefault();
-      }, false);
-    }
-  })();
-</script>
-{% endif %}
 
 <div class="proposal-in-depth">
 
