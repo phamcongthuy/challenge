@@ -1,8 +1,7 @@
 ---
 title: About the 2019 My LA2050 Grants Challenge
-body_class: strawberry
+body_class: strawberry about-page
 main_class: standard-layout
-footer_image: true
 ---
 
 <h1>
@@ -245,5 +244,3 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 
 </section><!-- /.goals -->
-
-<script></script><!-- SHIM: This is here to prevent negative margin on the following element -->

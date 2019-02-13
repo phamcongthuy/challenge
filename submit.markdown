@@ -2,7 +2,6 @@
 title: Submit Your Proposal for the 2019 My LA2050 Grants Challenge
 body_class: lime
 main_class: standard-layout
-footer_image: true
 ---
 
 <h1>
