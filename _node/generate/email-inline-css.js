@@ -11,7 +11,7 @@ const fileOutput = '../vote/email-auth0-sendgrid-inline-css.html'
 let html = fs.readFileSync(fileInput, 'utf8') // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
 
 // https://www.npmjs.com/package/inline-css
-inlineCss(html, { url: 'https://activation.la2050.org', removeStyleTags: false })
+inlineCss(html, { url: 'https://challenge.la2050.org', removeStyleTags: false })
     .then(function(html) {
      console.log(html) 
 
