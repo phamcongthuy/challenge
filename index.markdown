@@ -2,13 +2,12 @@
 title: 2019 My LA2050 Grants Challenge
 body_class: blueberry
 main_class: standard-layout
-footer_image: true
 show_promotion: true
 use_default_meta_description: true
 ---
 
 <h1>
-  <img src="/assets/images/city-strawberry.svg" alt="" />
+  {% include city-illustration.html %}
   Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
 </h1>
 

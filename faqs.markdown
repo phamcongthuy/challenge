@@ -1,13 +1,12 @@
 ---
 title: FAQs for the 2019 My LA2050 Grants Challenge
 body_class: tangerine
-footer_image: true
 stylesheets:
   - "/assets/css/faqs.css"
 ---
 
 <h1>
-  <img src="/assets/images/city-strawberry.svg" alt="" />
+  {% include city-illustration.html %}
   FAQs
 </h1>
 

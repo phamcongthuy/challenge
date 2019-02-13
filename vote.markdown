@@ -2,11 +2,10 @@
 title: How to vote in the 2019 My LA2050 Grants Challenge
 body_class: blueberry
 main_class: standard-layout
-footer_image: true
 ---
 
 <h1>
-  <img src="/assets/images/city-banana.svg" alt="" />
+  {% include city-illustration.html %}
   Public Voting
 </h1>
 
