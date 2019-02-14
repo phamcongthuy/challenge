@@ -139,7 +139,7 @@ stylesheets:
 
 <ul class="action" style="max-width: none;">
   {% if site.phase == 5 %}
-    <li><a href="/vote/form/?{{ page.category }}={{ page.title }}">Vote for this proposal</a></li>
+    <li><a href="/vote/form/?{{ page.category }}={{ page.title | url_encode }}">Vote for this proposal</a></li>
     <li><a href="{{ link_newsletter_url }}">Stay updated</a></li>
   {% else %}
     <li><a href="{{ link_newsletter_url }}">Stay updated on this proposal</a></li>
