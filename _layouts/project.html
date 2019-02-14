@@ -138,7 +138,12 @@ stylesheets:
 <h2>Love this idea?</h2>
 
 <ul class="action" style="max-width: none;">
-  <li><a href="{{ link_newsletter_url }}">Stay updated on this activation</a></li>
+  {% if site.phase == 5 %}
+    <li><a href="/vote/form/?{{ page.category }}={{ page.title }}">Vote for this proposal</a></li>
+    <li><a href="{{ link_newsletter_url }}">Stay updated</a></li>
+  {% else %}
+    <li><a href="{{ link_newsletter_url }}">Stay updated on this proposal</a></li>
+  {% endif %}
 </ul>
 </div>
 {% endif %}

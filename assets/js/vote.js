@@ -33,16 +33,6 @@
     console.log('zip button: ' + zipButton);
     zipButton.addEventListener('click', function(e) {
       console.log('zipButton click')
-      // e.preventDefault()
-      // updateProgress()
-      // console.log('updateProgress done')
-      // scrollToElement('finish')
-      // if (!usingMouse) {
-      //   setTimeout(function() {
-      //     document.querySelector('button[name="sign_in_by').focus()
-      //   }, 1000)
-      // }
-      // console.log('scrollTo finish done')
 
       if (document.querySelector('input[name="zip"]').value && 
           document.querySelector('input[name="zip"]').value.length != "") {
@@ -73,7 +63,6 @@
         }
       }
 
-      //e.preventDefault()
     })
   }
 
@@ -314,7 +303,6 @@
   }
 
   (function() {
-
     var form = document.querySelector('form[name="vote"]')
     var finish = document.getElementById('finish');
     var signInEmail = document.getElementById('sign-in-email')
@@ -327,68 +315,7 @@
         e.preventDefault()
       }
 
-      // cancelScrollToElement();
       signInPhoneEmail(e)
-
-      /*
-      if (document.querySelectorAll('input[type="radio"]:checked').length >= 1) {
-        console.log('at least one item has been voted for')
-
-        // If auth0 hasn’t loaded, go ahead and show the email field
-        if ((!window.auth0 || !window.auth0.WebAuth) && signInEmail) {
-          signInEmail.classList.remove('hidden')
-          document.querySelector('input[name="email"]').setAttribute('required', 'required')
-          emailShowing = true
-        }
-
-        if (!zipSeen) {
-          console.log('showing zip field')
-          zip.classList.remove('hidden')
-          zipShowing = true
-          scrollToElement('zip')
-          setTimeout(function() {
-            document.querySelector('input[name="zip"]').focus()
-            document.querySelector('input[name="zip"]').setAttribute('required', 'required')
-          }, 1000)
-          zipSeen = true
-          setUpConfirmButton()
-          setUpZipButton()
-
-          // if (!finishSeen && window.auth0 && window.auth0.WebAuth) {
-          //   finish.classList.remove('hidden')
-          //   finishShowing = true
-          //   if (window.auth0 && window.auth0.WebAuth) {
-          //     if (document.querySelector('.phone-button')) {
-          //       document.querySelector('.phone-button').classList.remove('phone-button-hidden')
-          //     }
-          //     if (document.querySelector('.facebook-button')) {
-          //       document.querySelector('.facebook-button').classList.remove('facebook-button-hidden')
-          //     }
-          //   }
-          //   scrollToElement('finish')
-          //   if (!usingMouse) {
-          //     setTimeout(function() {
-          //       document.querySelector('button[name="sign_in_by"]').focus()
-          //     }, 1000)
-          //   }
-          //   finishSeen = true
-          //   e.preventDefault();
-          // }
-
-          e.preventDefault();
-        } else if (emailShowing || phoneShowing) {
-          console.log('form submit');
-          cancelScrollToElement();
-          signInPhoneEmail(e);
-        } else {
-          // TBD: For the case where the confirmation or next button was pressed?
-          e.preventDefault();
-        }
-      } else {
-        // TBD: For the case where the confirmation or next button was pressed?
-        e.preventDefault();
-      }
-      */
     })
   })();
 
@@ -406,154 +333,106 @@
       }
     }
 
-    //document.addEventListener("DOMContentLoaded", function(event) {
-      var form = document.querySelector('form[name="vote"]');
 
-      //console.dir(form);
+    var form = document.querySelector('form[name="vote"]');
 
-      var delay = 500;
-      var delayTimeout;
-      scrollToElement = function(elementID) {
-        console.log('scrollTo: ' + elementID)
-        if (delayTimeout) clearTimeout(delayTimeout)
-        delayTimeout = setTimeout(function() {
-          __scrollTo(elementID)
-        }, delay);
+    //console.dir(form);
+
+    var delay = 500;
+    var delayTimeout;
+    scrollToElement = function(elementID) {
+      console.log('scrollTo: ' + elementID)
+      if (delayTimeout) clearTimeout(delayTimeout)
+      delayTimeout = setTimeout(function() {
+        __scrollTo(elementID)
+      }, delay);
+    }
+
+    function __scrollTo(elementID) {
+      console.log('__scrollTo: ' + elementID)
+      var element = document.getElementById(elementID)
+      if (element && element.scrollIntoView) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      if (elementID === "zip") {
+        setTimeout(function() {
+          document.querySelector('input[name="zip"]').focus()
+          document.querySelector('input[name="zip"]').setAttribute('required', 'required')
+        }, 1000)
+      }
+    }
+
+    cancelScrollToElement = function() {
+      if (delayTimeout) clearTimeout(delayTimeout)
+    }
+
+    function focusField(name) {
+      if (!usingMouse) {
+        setTimeout(function() {
+          document.querySelector('input[name="' + name + '"]').focus()
+        }, 1000)
+      }
+    }
+
+    function updateAndScroll(name) {
+      updateProgress()
+
+      var target = document.getElementById(name)
+      console.log('target')
+      console.log(target)
+      var targetContainer = target.parentNode
+
+      var nextSibling = targetContainer.nextSibling;
+      while(nextSibling && nextSibling.nodeType != 1) {
+        nextSibling = nextSibling.nextSibling
       }
 
-      function __scrollTo(elementID) {
-        console.log('__scrollTo: ' + elementID)
-        var element = document.getElementById(elementID)
-        if (element && element.scrollIntoView) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // console.log('targetContainer')
+      // console.log(targetContainer)
+
+      // console.log('nextSibling')
+      // console.log(nextSibling)
+
+      if (targetContainer) {
+        if (nextSibling.classList.contains('category')) {
+          nextName = nextSibling.querySelector('*[id]').id
+        } else {
+          nextName = "zip"
         }
-        if (elementID === "zip") {
-          setTimeout(function() {
-            document.querySelector('input[name="zip"]').focus()
-            document.querySelector('input[name="zip"]').setAttribute('required', 'required')
-          }, 1000)
-        }
+        scrollToElement(nextName)
+        focusField(nextName)
       }
+    }
 
-      cancelScrollToElement = function() {
-        if (delayTimeout) clearTimeout(delayTimeout)
-      }
-
-      function focusField(name) {
-        if (!usingMouse) {
-          setTimeout(function() {
-            document.querySelector('input[name="' + name + '"]').focus()
-          }, 1000)
-        }
-      }
-
-      function updateAndScroll(name) {
-        updateProgress()
-
-        var target = document.getElementById(name)
-        console.log('target')
-        console.log(target)
-        var targetContainer = target.parentNode
-
-        var nextSibling = targetContainer.nextSibling;
-        while(nextSibling && nextSibling.nodeType != 1) {
-          nextSibling = nextSibling.nextSibling
-        }
-
-        // console.log('targetContainer')
-        // console.log(targetContainer)
-
-        // console.log('nextSibling')
-        // console.log(nextSibling)
-
-        if (targetContainer) {
-          if (nextSibling.classList.contains('category')) {
-            nextName = nextSibling.querySelector('*[id]').id
+    (function() {
+      var keyPressedRecently = false
+      window.addEventListener('mousemove', function(e) {
+        // console.log('mouse moved')
+        if (keyPressedRecently) return
+        usingMouse = true
+      }, { passive: true })
+      var timer
+      window.addEventListener('keyup', function(e) {
+        // console.log('key pressed')
+        usingMouse = false
+        keyPressedRecently = true
+        if (timer) clearTimeout(timer)
+        timer = setTimeout(function() {
+          keyPressedRecently = false
+        }, 1000)
+      }, { passive: true })
+      form.addEventListener('click', function(e) {
+        // console.log('form click')
+        if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
+          console.log('e.target.name: ' + e.target.name)
+          if (usingMouse) {
+            updateAndScroll(e.target.name)
           } else {
-            nextName = "zip"
-            /*
-            zipSeen = true
-
-            // If auth0 hasn’t loaded, go ahead and show the email field
-            if (  (!window.auth0 || !window.auth0.WebAuth)
-                   &&
-                   document.getElementById('sign-in-email')  ) {
-              document.getElementById('sign-in-email').classList.remove('hidden')
-              document.querySelector('input[name="email"]').setAttribute('required', 'required')
-              emailShowing = true
-            }
-            */
+            updateProgress()
           }
-          scrollToElement(nextName)
-          focusField(nextName)
         }
-
-        // switch(name) {
-        //   case 'learn':
-        //     updateProgress()
-        //     scrollToElement('create')
-        //     focusElement('create')
-        //     break;
-        //   case 'create':
-        //     updateProgress()
-        //     scrollToElement('play')
-        //     focusElement('play')
-        //     break;
-        //   case 'play':
-        //     updateProgress()
-        //     scrollToElement('connect')
-        //     focusElement('input[name="connect"]')
-        //     break;
-        //   case 'connect':
-        //     updateProgress()
-        //     scrollToElement('live')
-        //     focusElement('input[name="live"]')
-        //     break;
-        //   case 'live':
-        //     updateProgress()
-        //     scrollToElement('zip')
-        //     focusElement('input[name="zip"]')
-        //     zipSeen = true
-        //     break;
-        //   default:
-
-        // }
-      }
-
-      (function() {
-        var keyPressedRecently = false
-        window.addEventListener('mousemove', function(e) {
-          // console.log('mouse moved')
-          if (keyPressedRecently) return
-          usingMouse = true
-        }, { passive: true })
-        var timer
-        window.addEventListener('keyup', function(e) {
-          // console.log('key pressed')
-          usingMouse = false
-          keyPressedRecently = true
-          if (timer) clearTimeout(timer)
-          timer = setTimeout(function() {
-            keyPressedRecently = false
-          }, 1000)
-        }, { passive: true })
-        form.addEventListener('click', function(e) {
-          // console.log('form click')
-          if (e.target.nodeName.toLowerCase() === 'input' && e.target.type === 'radio' && e.target.checked) {
-            console.log('e.target.name: ' + e.target.name)
-            if (usingMouse) {
-              updateAndScroll(e.target.name)
-            } else {
-              updateProgress()
-            }
-          }
-        }, { passive: true })
-      })()
-    //});
-
-    // window.addEventListener('scroll', function(e) {
-    //   if (delayTimeout) clearTimeout(delayTimeout)
-    // })
+      }, { passive: true })
+    })()
 
 
 
@@ -638,11 +517,6 @@
 
   })();
 
-  // document.querySelector('#zip button').addEventListener('click', function(e) {
-  //   console.log('zip button click')
-  //   updateProgress()
-  //   scrollToElement('finish')
-  // })
   document.querySelector('#zip button').classList.remove('hidden')
 
   document.querySelector('a[href="#questions"]').addEventListener('click', function(e) {
