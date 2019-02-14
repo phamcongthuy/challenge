@@ -193,10 +193,6 @@
   form {
     text-align: center;
   }
-  form .category ul {
-    margin-left: -1.5em !important;
-    margin-right: -1.5em !important;
-  }
   form .category ul,
   form .category ul > li {
     list-style: none;
@@ -453,17 +449,23 @@
     }
   }
 
-  form .category ul {
-    /*! display: flex; */
-    /*! flex-wrap: wrap; */
-    /*! justify-content: center; */
-    grid-column: 1/-1 !important;
-    max-width: none;
-    grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
-    grid-column-gap: 1.5em;
-    grid-row-gap: 6em;
-    display: grid;
-    margin-bottom: 9em;
+  @media (min-width: 40em) {
+    form .category ul {
+      margin-left: -1.5em !important;
+      margin-right: -1.5em !important;
+    }
+    form .category ul {
+      /*! display: flex; */
+      /*! flex-wrap: wrap; */
+      /*! justify-content: center; */
+      grid-column: 1/-1 !important;
+      max-width: none;
+      grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
+      grid-column-gap: 1.5em;
+      grid-row-gap: 6em;
+      display: grid;
+      margin-bottom: 9em;
+    }
   }
   form .category ul > li {
     position: relative;
