@@ -445,12 +445,13 @@
     zip.classList.add('hidden');
     document.querySelector('input[name="zip"]').removeAttribute('required');
     updateProgress = function() {
+      counter = document.querySelectorAll('input[type="radio"]:checked').length;
+      if (counter <= 0) return
+
       if (!progress) progress = document.getElementById("progress");
       if (!count) count = document.getElementById("vote-count");
 
       progress.classList.remove('hidden');
-
-      counter = document.querySelectorAll('input[type="radio"]:checked').length;
 
       count.innerText = counter;
 
