@@ -26,7 +26,6 @@
   <link rel="stylesheet" href="/assets/css/section.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/social.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/numbers.css?v={{ site.version }}" />
-  <link rel="stylesheet" href="/assets/css/process.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/figure.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/header.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/navigation.css?v={{ site.version }}" />
@@ -98,7 +97,7 @@
   {% elsif page.image %}
   <meta property="og:image" content="{{ page.image }}" />
   {% elsif site.image %}
-  <meta property="og:image" content="{{ site.image }}" />
+  <meta property="og:image" content="{{ site.image }}?v={{ site.version }}" />
   {% endif %}
 
 

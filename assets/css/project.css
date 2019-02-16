@@ -145,6 +145,7 @@
       grid-template-rows: auto 1fr; /* Shrink-wrap the first row */
       grid-column-gap: 3em;
       grid-row-gap: 0;
+      grid-column: 1/-1;
     }
 
     .links {
@@ -175,7 +176,7 @@
       margin-top: 3.75rem;
     }
     .proposal-introduction figure {
-      grid-row: 1/4;
+      grid-row: 1/-1;
       grid-column: 1/2;
       justify-self: end;
       width: 100%;

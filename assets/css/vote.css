@@ -193,15 +193,12 @@
   form {
     text-align: center;
   }
-  form .category ul {
-    margin-left: -1.5em !important;
-    margin-right: -1.5em !important;
-  }
   form .category ul,
   form .category ul > li {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+    margin-top: 1.5em;
   }
   form,
   form h2,
@@ -452,18 +449,31 @@
     }
   }
 
-  form .category ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  @media (min-width: 40em) {
+    form .category ul {
+      margin-left: -1.5em !important;
+      margin-right: -1.5em !important;
+    }
+    form .category ul {
+      /*! display: flex; */
+      /*! flex-wrap: wrap; */
+      /*! justify-content: center; */
+      grid-column: 1/-1 !important;
+      max-width: none;
+      grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
+      grid-column-gap: 1.5em;
+      grid-row-gap: 6em;
+      display: grid;
+      margin-bottom: 9em;
+    }
   }
   form .category ul > li {
     position: relative;
-    width: 19.5em;
+    /*! width: 19.5em; */
     padding: 0;
     padding-bottom: 3em;
     box-sizing: border-box;
-    margin: 3em 1.5em;
+    /*! margin: 3em 1.5em; */
     display: flex;
     flex-direction: row;
   }
@@ -475,7 +485,7 @@
   /* OPTIONAL: Move items closer together, if at least three can fit across*/
   @media (min-width: 92.5em) {
     form .category ul > li {
-      margin: 1.5em;
+      /*! margin: 1.5em; */
     }
   }
 

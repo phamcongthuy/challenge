@@ -234,6 +234,66 @@ stylesheets:
     randomize('form ul.play li')
     randomize('form ul.connect li')
     randomize('form ul.live li')
+
+
+    // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    // https://gist.github.com/jimthoburn/480e5f58b6bb43e2f1dde010951d40fe
+    function closest(element, tagName) {
+
+      // If the element is the target
+      if (element.nodeName.toLowerCase() === tagName) return element;
+
+      var ancestor = element;
+      while ((ancestor = ancestor.parentElement) && ancestor.nodeName && ancestor.nodeName.toLowerCase() !== tagName);
+      if (ancestor && ancestor.nodeName && ancestor.nodeName.toLowerCase() === tagName) {
+        return ancestor;
+      }
+    }
+
+    var form = document.querySelector('form')
+
+    var fieldNames = ['learn', 'create', 'play', 'connect', 'live']
+    var nextValue
+    var nextTarget
+    for (var index = 0; index < fieldNames.length; index++) {
+      nextValue = getParameterByName(fieldNames[index])
+      if (nextValue) {
+        nextTarget = form.querySelector('input[name="' + fieldNames[index] + '"][value="' + nextValue + '"]')
+        if (nextTarget) {
+          nextTarget.checked = true
+          
+          // Move the target to the top of the category
+          var closestItem = closest(nextTarget, "li")
+          var parent = closestItem.parentNode
+          parent.removeChild(closestItem)
+          parent.insertBefore(closestItem, parent.firstChild)
+          
+          var firstCategory = document.querySelector("form > .category")
+          if (firstCategory) {
+            // Move the category to the top of the page
+            var closestDiv = closest(nextTarget, "div")
+            if (closestDiv.className === "category") {
+              var category = closestDiv
+              parent = category.parentNode
+              parent.removeChild(category)
+              parent.insertBefore(category, firstCategory)
+            }
+          }
+
+        }
+      }
+    }
+  
   })()
   </script>
 
