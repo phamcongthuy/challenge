@@ -217,7 +217,11 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
         {% assign image_url = data.project_image %}
         {% assign image_category = data.category %}
 
+        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
+        <img src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
+        {% else %}
         <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 45em) 20em, 100vw" width="500" alt="" />
+        {% endif %}
       </span>
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>

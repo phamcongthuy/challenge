@@ -66,16 +66,6 @@ stylesheets:
 
 <img src="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}" alt="" width="500" />
 
-{% comment %}
-<picture>
-  <source srcset="/assets/images/{{ image_category }}/384-wide/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide/{{ image_url }} 2048w" sizes="100vw" media="(max-aspect-ratio: 1/1)">
-
-  <source srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 70em) 50vw, 100vw">
-
-  <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" width="500" alt="" />
-</picture>
-{% endcomment %}
-
 {% if page.project_video and page.project_video != '' %}
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
@@ -310,7 +300,7 @@ stylesheets:
 
 <hr />
 
-{% if page.application_id %}{% comment %}This if statement is temporary… only to avoid setting up comments for test entries{% endcomment %}
+{% unless page.plan_id %}{% comment %}This if statement is temporary… only to avoid setting up comments for test entries{% endcomment %}
 <div class="comments">
   <h2 class="comments-header">Comments</h2>
   <div id="disqus_thread"></div>
@@ -330,7 +320,7 @@ stylesheets:
         (d.head || d.body).appendChild(s);
     })();
 </script>
-{% endif %}
+{% endunless %}
 
 
 </div><!-- /.proposal-in-depth -->
@@ -362,11 +352,11 @@ stylesheets:
         {% assign image_url = data.project_image %}
         {% assign image_category = data.category %}
 
-        {% comment %}
-        <img src="/assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
-        {% endcomment %}
-
+        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
+        <img src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
+        {% else %}
         <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
+        {% endif %}
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
@@ -398,11 +388,11 @@ stylesheets:
         {% assign image_url = data.project_image %}
         {% assign image_category = data.category %}
 
-        {% comment %}
-        <img src="/assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }}" alt="" width="500" />
-        {% endcomment %}
-
+        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
+        <img src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
+        {% else %}
         <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
+        {% endif %}
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
