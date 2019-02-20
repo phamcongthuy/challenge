@@ -310,6 +310,7 @@ stylesheets:
 
 <hr />
 
+{% if page.application_id %}{% comment %}This if statement is temporary… only to avoid setting up comments for test entries{% endcomment %}
 <div class="comments">
   <h2 class="comments-header">Comments</h2>
   <div id="disqus_thread"></div>
@@ -329,6 +330,7 @@ stylesheets:
         (d.head || d.body).appendChild(s);
     })();
 </script>
+{% endif %}
 
 
 </div><!-- /.proposal-in-depth -->
