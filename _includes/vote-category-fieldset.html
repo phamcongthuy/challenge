@@ -15,9 +15,9 @@
     <span class="image">
       
       {% if project.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
-      <img class="lazy" src="/assets/images/blank.png" data-src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
+      <img src="/assets/images/blank.png" data-src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
       {% else %}
-      <img class="lazy" src="/assets/images/blank.png" data-src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" data-srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 30em) 20em, (min-width: 15em) 50vw, 100vw" width="500" alt=""
+      <img src="/assets/images/blank.png" data-src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" data-srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 30em) 20em, (min-width: 15em) 50vw, 100vw" width="500" alt=""
       {% if project.project_image_color %}
       style="background-color: {{ project.project_image_color }}"
       {% endif %} />
