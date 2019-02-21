@@ -275,8 +275,8 @@
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
     /* OPTIONAL: Align with the outer border */
-    margin: calc(0px -1px);
-    width: calc(100% + 2px);
+    /* margin: calc(0px -1px);
+    width: calc(100% + 2px); */
   }
   form .category ul > li .call-to-action strong,
   form .category ul > li .pseudo-checkbox strong {
@@ -448,11 +448,18 @@
       width: auto;
     }
   }
-
-  @media (min-width: 40em) {
+  
+  form .category ul {
+    /* @wrap-long-words */
+    word-wrap     : break-word;
+    overflow-wrap : break-word;
+  }
+  @media (min-width: 15em) {
     form .category ul {
-      margin-left: -1.5em !important;
-      margin-right: -1.5em !important;
+      margin-left: -0.75em !important;
+      margin-right: -0.75em !important;
+      width: calc(100vw - 1.5em);
+      overflow: hidden;
     }
     form .category ul {
       /*! display: flex; */
@@ -460,13 +467,31 @@
       /*! justify-content: center; */
       grid-column: 1/-1 !important;
       max-width: none;
+      grid-template-columns: calc(50% - 0.375em) calc(50% - 0.375em); /* SHIM: 1fr 1fr would be better here, but causes uneven columns */
+      grid-column-gap: 0.75em;
+      grid-row-gap: 4em;
+      display: grid;
+      margin-bottom: 6em;
+    }
+  }
+
+  @media (min-width: 30em) {
+    form .category ul {
       grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
       grid-column-gap: 1.5em;
       grid-row-gap: 6em;
-      display: grid;
-      margin-bottom: 9em;
+      width: auto;
+      overflow: visible;
     }
   }
+
+  @media (min-width: 40em) {
+    form .category ul {
+      margin-left: -1.5em !important;
+      margin-right: -1.5em !important;
+    }
+  }
+  
   form .category ul > li {
     position: relative;
     /*! width: 19.5em; */
@@ -534,12 +559,6 @@
     font-weight: inherit;
     display: block;
   }
-  form .category ul > li .text p {
-    margin: 0;
-    /*font-weight: 600;*/
-    /*font-size: 0.875em;*/
-    line-height: 1.3125;
-  }
   form .category ul > li .text h3 {
     margin-top: 0;
     margin-bottom: 0.375em;
@@ -569,7 +588,44 @@
   }
   form .category ul > li .text {
     display: block;
-    padding: 1.5em 1.5em 2.25em;
+    padding: 0.75em 0.75em 0;
+    margin-bottom: 1.125em;
+  }
+  form .category ul > li .text p {
+    margin: 0;
+  }
+  @media (max-width: 30em) {
+    /* form .category ul > li .text {
+      display: block;
+      height: calc(1.3125 * 5em);
+      overflow: hidden;
+      position: relative;
+    } */
+    /* form .category ul > li .text::after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 70%;
+      height: 1.3125em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+    } */
+    /* form .category ul > li .text p {
+      font-size: 0.875em;
+      line-height: calc(1.3125 / 0.875);
+    } */
+    form .category ul > li .text h3 {
+      margin-bottom: 0;
+    }
+    form .category ul > li .text p {
+      display: none;
+    }
+  }
+  @media (min-width: 40em) {
+    form .category ul > li .text {
+      padding: 1.5em 1.5em 2.25em;
+    }
   }
   form .category ul > li img {
     display: block;
@@ -607,14 +663,30 @@
     height: 3em;
   }
   */
-  form .category ul > li img {
+  form .category ul > li .image img {
     width: 100%;
     max-width: none;
-    height: 15em;
-    object-fit: cover;
   }
-  form .category ul > li img[style*="background-color"] {
-    object-fit: contain;
+  @supports (object-fit: cover) {
+    form .category ul > li .image {
+      display: block;
+      position: relative;
+      background: rgba(0, 0, 0, 0.1);
+      position: relative;
+      padding-top: 79.25925926%; /* 428px / 540px */
+    }
+    form .category ul > li .image img {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    form .category ul > li img[style*="background-color"] {
+      object-fit: contain;
+    }
   }
   form section {
     border-width: 0.125em;

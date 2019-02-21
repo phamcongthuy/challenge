@@ -1,5 +1,8 @@
 {% assign city_color = "banana" %}
-{% if page.body_class == "lime" or page.body_class == "tangerine" or page.body_class == "banana" or page.body_class == "blueberry" %}
+{% if page.body_class == "lime"
+   or page.body_class == "tangerine"
+   or page.body_class == "banana"
+   or page.body_class == "blueberry" %}
   {% assign city_color = "strawberry" %}
 {% endif %}
 <picture>

@@ -443,7 +443,6 @@
   }
   @supports (object-fit: cover) {
     .proposals:not(.finalists) .image {
-      padding-top: 79.25925926%; /* 428px / 540px */
       padding-top: 79.25925926vw;
       display: block;
       position: relative;
@@ -451,7 +450,7 @@
     }
     @media (min-width: 50em) {
       .proposals:not(.finalists) .image {
-        padding-top: 79.25925926%;
+        padding-top: 79.25925926%; /* 428px / 540px */
       }
     }
     .proposals:not(.finalists) img {
