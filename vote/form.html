@@ -104,28 +104,6 @@ stylesheets:
       </div>
     </section>
 
-    <!--
-    <section id="subscribe" class="tangerine">
-      <div>
-        <h2>Join the movement!</h2>
-        <p style="max-width: 42em">Sign up for the LA2050 newsletter and twice a month, you'll receive updates on awesome orgs in LA, activations, opportunities, and jobs that are shaping the future of our region.</p>
-        <p class="field-button" style="max-width: 20em; margin-left: auto; margin-right: auto;">
-          <label>
-            <span class="label-text">Email address</span>
-            <input type="email" name="subscribe_email" placeholder="example@mail.com" />
-          </label>
-          <button type="submit" class="hidden">Next</button>
-        </p>
-        <p>
-          <label>
-            <input type="checkbox" name="subscribe_agree" value="1" checked="checked" style="font-size: inherit;" />
-            Subscribe me to the mailing list
-          </label>
-        </p>
-      </div>
-    </section>
-    -->
-
     <section id="finish" class="blueberry hidden">
       <div>
         <h2>You’re <em>almost</em> done!</h2>
@@ -275,8 +253,10 @@ stylesheets:
           // Move the target to the top of the category
           var closestItem = closest(nextTarget, "li")
           var parent = closestItem.parentNode
-          parent.removeChild(closestItem)
-          parent.insertBefore(closestItem, parent.firstChild)
+          if (closestItem !== parent.firstChild) { // If the item is not already the first one
+            parent.removeChild(closestItem)
+            parent.insertBefore(closestItem, parent.firstChild)
+          }
           
           var firstCategory = document.querySelector("form > .category")
           if (firstCategory) {
@@ -284,9 +264,11 @@ stylesheets:
             var closestDiv = closest(nextTarget, "div")
             if (closestDiv.className === "category") {
               var category = closestDiv
-              parent = category.parentNode
-              parent.removeChild(category)
-              parent.insertBefore(category, firstCategory)
+              if (category !== firstCategory) { // If the category is not already the first one
+                parent = category.parentNode
+                parent.removeChild(category)
+                parent.insertBefore(category, firstCategory)
+              }
             }
           }
 
@@ -310,102 +292,112 @@ stylesheets:
 
 {% endif %}
 
+
+
 <script>
+(function() {
 
-// https://css-tricks.com/snippets/javascript/lazy-loading-images/
+  /* Do we have the features we need? */
+  if (!window.addEventListener) return;
 
-/* lazyload.js (c) Lorenzo Giuliani
- * MIT License (http://www.opensource.org/licenses/mit-license.html)
- *
- * expects a list of:  
- * `<img src="blank.gif" data-src="my_image.png" width="600" height="400" class="lazy">`
- */
 
-!function(window){
-  var $q = function(q, res){
-        if (document.querySelectorAll) {
-          res = document.querySelectorAll(q);
-        } else {
-          var d=document
-            , a=d.styleSheets[0] || d.createStyleSheet();
-          a.addRule(q,'f:b');
-          for(var l=d.all,b=0,c=[],f=l.length;b<f;b++)
-            l[b].currentStyle.f && c.push(l[b]);
+  /* =Utilities
+  ----------------------------------------------- */
+  var images = document.getElementsByTagName('img');
+  var positions = [];
 
-          a.removeRule(0);
-          res = c;
-        }
-        return res;
-      }
-    , addEventListener = function(evt, fn){
-        window.addEventListener
-          ? this.addEventListener(evt, fn, false)
-          : (window.attachEvent)
-            ? this.attachEvent('on' + evt, fn)
-            : this['on' + evt] = fn;
-      }
-    , _has = function(obj, key) {
-        return Object.prototype.hasOwnProperty.call(obj, key);
-      }
-    ;
+  // KUDOS: http://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element#answer-442474
+  function getOffset( el ) {
+    var _x = 0;
+    var _y = 0;
+    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+        _x += el.offsetLeft;
+        _y += el.offsetTop;
+        el = el.offsetParent;
+    }
+    return { top: _y, left: _x };
+  }
 
-  function loadImage (el, fn) {
-    if (el.getAttribute("data-srcset") && el.getAttribute("data-srcset") != "") {
-      el.setAttribute("srcset", el.getAttribute("data-srcset"))
-      el.removeAttribute("data-srcset")
+  function loadImage(image) {
+    if (image.getAttribute("data-srcset") && image.getAttribute("data-srcset") != "") {
+      image.setAttribute("srcset", image.getAttribute("data-srcset"));
+      image.removeAttribute("data-srcset");
     }
 
     setTimeout(function() {
-      if (el.getAttribute("data-src") && el.getAttribute("data-src") != "") {
-        el.setAttribute("src", el.getAttribute("data-src"))
-        el.removeAttribute("data-src")
+      if (image.getAttribute("data-src") && image.getAttribute("data-src") != "") {
+        image.setAttribute("src", image.getAttribute("data-src"));
+        image.removeAttribute("data-src");
       }
     }, 1)
-
-    if (fn) fn()
-
-    // var img = new Image()
-    //   , src = el.getAttribute('data-src');
-    // img.onload = function() {
-    //   if (!! el.parent)
-    //     el.parent.replaceChild(img, el)
-    //   else
-    //     el.src = src;
-    // 
-    //   fn? fn() : null;
-    // }
-    // img.src = src;
   }
 
-  function elementInViewport(el) {
-    var rect = el.getBoundingClientRect()
-
-    return (
-       rect.top <= (window.innerHeight || document.documentElement.clientHeight)
-    )
+  // KUDOS: https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY
+  function getScrollY() {
+    var supportPageOffset = window.pageXOffset !== undefined;
+    var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+    return supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
   }
 
-    var images = new Array()
-      , query = $q('img.lazy')
-      , processScroll = function(){
-          for (var i = 0; i < images.length; i++) {
-            if (elementInViewport(images[i])) {
-              loadImage(images[i], function () {
-                //images.splice(i, i);
-              });
-            }
-          };
-        }
-      ;
-    // Array.prototype.slice.call is not callable under our lovely IE8 
-    for (var i = 0; i < query.length; i++) {
-      images.push(query[i]);
-    };
+  function isVisible(element, elementTop, windowTop) {
+    var elementBottom = elementTop + element.offsetHeight;
+    var windowBottom  = windowTop  + window.innerHeight;
 
-    processScroll();
-    addEventListener('scroll',processScroll);
+    // If the top edge of the window is greater than the top edge of the target
+    if ((elementTop > windowTop && elementTop < windowBottom) || (elementBottom > windowTop && elementBottom < windowBottom)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
-}(this);
+  function updatePositions() {
+    positions = [];
+    for (var index = 0; index < images.length; index++) {
+      positions.push(getOffset(images[index]).top);
+    }
+  }
+
+  function loadVisible(e) {
+    // Load the images if they’re in view
+    var scrollY = getScrollY();
+    for (var index = 0; index < images.length; index++) {
+      if (isVisible(images[index], positions[index], scrollY)) {
+        loadImage(images[index]);
+      }
+    }
+  }
+
+  updatePositions();
+  loadVisible();
+
+  (function() {
+    var throttle;
+    window.addEventListener('scroll', function() {
+      if (throttle) clearTimeout(throttle);
+      throttle = setTimeout(loadVisible, 500);
+    }, false);
+  })();
 
 
+  /* Handle slow loading content and and resizing windows.
+  ----------------------------------------------- */
+  window.addEventListener('load', function() {
+    updatePositions();
+    loadVisible();
+  }, false);
+
+  (function() {
+    var throttle;
+    window.addEventListener('resize', function() {
+      if (throttle) clearTimeout(throttle);
+      throttle = setTimeout(function() {
+        updatePositions();
+        loadVisible();
+      }, 100);
+    }, false);
+  })();
+
+})();
 </script>
+
