@@ -104,28 +104,6 @@ stylesheets:
       </div>
     </section>
 
-    <!--
-    <section id="subscribe" class="tangerine">
-      <div>
-        <h2>Join the movement!</h2>
-        <p style="max-width: 42em">Sign up for the LA2050 newsletter and twice a month, you'll receive updates on awesome orgs in LA, activations, opportunities, and jobs that are shaping the future of our region.</p>
-        <p class="field-button" style="max-width: 20em; margin-left: auto; margin-right: auto;">
-          <label>
-            <span class="label-text">Email address</span>
-            <input type="email" name="subscribe_email" placeholder="example@mail.com" />
-          </label>
-          <button type="submit" class="hidden">Next</button>
-        </p>
-        <p>
-          <label>
-            <input type="checkbox" name="subscribe_agree" value="1" checked="checked" style="font-size: inherit;" />
-            Subscribe me to the mailing list
-          </label>
-        </p>
-      </div>
-    </section>
-    -->
-
     <section id="finish" class="blueberry hidden">
       <div>
         <h2>You’re <em>almost</em> done!</h2>
@@ -275,8 +253,10 @@ stylesheets:
           // Move the target to the top of the category
           var closestItem = closest(nextTarget, "li")
           var parent = closestItem.parentNode
-          parent.removeChild(closestItem)
-          parent.insertBefore(closestItem, parent.firstChild)
+          if (closestItem !== parent.firstChild) { // If the item is not already the first one
+            parent.removeChild(closestItem)
+            parent.insertBefore(closestItem, parent.firstChild)
+          }
           
           var firstCategory = document.querySelector("form > .category")
           if (firstCategory) {
@@ -284,9 +264,11 @@ stylesheets:
             var closestDiv = closest(nextTarget, "div")
             if (closestDiv.className === "category") {
               var category = closestDiv
-              parent = category.parentNode
-              parent.removeChild(category)
-              parent.insertBefore(category, firstCategory)
+              if (category !== firstCategory) { // If the category is not already the first one
+                parent = category.parentNode
+                parent.removeChild(category)
+                parent.insertBefore(category, firstCategory)
+              }
             }
           }
 
