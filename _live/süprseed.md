@@ -180,5 +180,6 @@ category: live
 uri: /live/süprseed/
 order: 8
 project_image: süprseed.jpg
+is_test_data: true
 
 ---

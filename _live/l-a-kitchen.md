@@ -143,5 +143,6 @@ category: live
 uri: /live/l-a-kitchen/
 order: 30
 project_image: l-a-kitchen.jpg
+is_test_data: true
 
 ---

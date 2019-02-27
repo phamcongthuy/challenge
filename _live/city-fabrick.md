@@ -117,5 +117,6 @@ category: live
 uri: /live/city-fabrick/
 order: 19
 project_image: city-fabrick.jpg
+is_test_data: true
 
 ---

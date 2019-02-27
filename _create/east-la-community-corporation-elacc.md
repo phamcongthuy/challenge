@@ -149,5 +149,6 @@ uri: /create/east-la-community-corporation-elacc/
 order: 9
 project_image: east-la-community-corporation-elacc.jpg
 link_limit: 4
+is_test_data: true
 
 ---

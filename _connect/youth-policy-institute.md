@@ -116,5 +116,6 @@ category: connect
 uri: /connect/youth-policy-institute/
 order: 32
 project_image: youth-policy-institute.jpg
+is_test_data: true
 
 ---

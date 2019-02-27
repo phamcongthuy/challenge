@@ -123,5 +123,6 @@ category: create
 uri: /create/get-lit-words-ignite/
 order: 10
 project_image: get-lit-words-ignite.jpg
+is_test_data: true
 
 ---

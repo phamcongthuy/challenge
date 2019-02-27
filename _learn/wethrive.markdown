@@ -104,5 +104,6 @@ plan_id: 84384
 order: 75
 category: learn
 uri: /learn/wethrive/
+is_test_data: true
 
 ---

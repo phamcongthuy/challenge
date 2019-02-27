@@ -130,5 +130,6 @@ plan_id: 84462
 order: 40
 category: learn
 uri: /learn/las-best/
+is_test_data: true
 
 ---

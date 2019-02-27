@@ -106,5 +106,6 @@ category: learn
 uri: /learn/las-best/
 order: 16
 project_image: las-best.jpg
+is_test_data: true
 
 ---

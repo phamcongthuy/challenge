@@ -138,5 +138,6 @@ category: live
 uri: /live/global-green/
 order: 17
 project_image: global-green.jpg
+is_test_data: true
 
 ---

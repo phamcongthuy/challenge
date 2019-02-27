@@ -136,5 +136,6 @@ plan_id: 84391
 order: 38
 category: learn
 uri: /learn/core-innovate-inc-century-academy-for-excellence/
+is_test_data: true
 
 ---

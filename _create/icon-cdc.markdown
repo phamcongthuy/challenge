@@ -119,5 +119,6 @@ plan_id: 84113
 order: 50
 category: create
 uri: /create/icon-cdc/
+is_test_data: true
 
 ---

@@ -83,5 +83,6 @@ plan_id: 83947
 order: 44
 category: live
 uri: /live/pretty-good-cat/
+is_test_data: true
 
 ---

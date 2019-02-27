@@ -131,5 +131,6 @@ category: connect
 uri: /connect/children-now/
 order: 28
 project_image: children-now.jpg
+is_test_data: true
 
 ---

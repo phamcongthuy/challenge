@@ -125,5 +125,6 @@ plan_id: 82589
 order: 60
 category: connect
 uri: /connect/coligo-inc-/
+is_test_data: true
 
 ---

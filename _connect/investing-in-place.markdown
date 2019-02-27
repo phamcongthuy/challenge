@@ -142,5 +142,6 @@ plan_id: 84341
 order: 69
 category: connect
 uri: /connect/investing-in-place/
+is_test_data: true
 
 ---

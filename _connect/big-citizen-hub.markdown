@@ -161,5 +161,6 @@ order: 1
 category: connect
 uri: /connect/big-citizen-hub/
 is_finalist: true
+is_test_data: true
 
 ---

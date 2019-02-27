@@ -121,5 +121,6 @@ plan_id: 84118
 order: 6
 category: play
 uri: /play/epage/
+is_test_data: true
 
 ---

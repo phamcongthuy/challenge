@@ -122,5 +122,6 @@ plan_id: 82377
 order: 23
 category: create
 uri: /create/four-rings/
+is_test_data: true
 
 ---

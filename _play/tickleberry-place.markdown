@@ -133,5 +133,6 @@ plan_id: 84356
 order: 22
 category: play
 uri: /play/tickleberry-place/
+is_test_data: true
 
 ---

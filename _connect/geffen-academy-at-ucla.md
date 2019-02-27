@@ -136,5 +136,6 @@ category: connect
 uri: /connect/geffen-academy-at-ucla/
 order: 36
 project_image: geffen-academy-at-ucla.jpg
+is_test_data: true
 
 ---

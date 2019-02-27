@@ -128,5 +128,6 @@ category: connect
 uri: /connect/child360-formerly-los-angeles-universal-preschool/
 order: 7
 project_image: child360-formerly-los-angeles-universal-preschool.jpg
+is_test_data: true
 
 ---

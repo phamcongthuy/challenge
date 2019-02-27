@@ -114,5 +114,6 @@ plan_id: 84097
 order: 65
 category: learn
 uri: /learn/d-a-d-project/
+is_test_data: true
 
 ---

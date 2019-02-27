@@ -173,5 +173,6 @@ category: create
 uri: /create/opportunity-fund/
 order: 5
 project_image: opportunity-fund.jpg
+is_test_data: true
 
 ---

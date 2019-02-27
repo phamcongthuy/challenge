@@ -202,5 +202,6 @@ category: play
 uri: /play/surf-bus-foundation/
 order: 6
 project_image: surf-bus-foundation.jpg
+is_test_data: true
 
 ---

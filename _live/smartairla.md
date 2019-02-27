@@ -188,5 +188,6 @@ category: live
 uri: /live/smartairla/
 order: 32
 project_image: smartairla.jpg
+is_test_data: true
 
 ---

@@ -123,5 +123,6 @@ plan_id: 84308
 order: 11
 category: create
 uri: /create/chrysalis/
+is_test_data: true
 
 ---

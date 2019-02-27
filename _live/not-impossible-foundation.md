@@ -109,5 +109,6 @@ category: live
 uri: /live/not-impossible-foundation/
 order: 11
 project_image: not-impossible-foundation.jpg
+is_test_data: true
 
 ---

@@ -115,5 +115,6 @@ category: connect
 uri: /connect/city-year-los-angeles/
 order: 18
 project_image: city-year-los-angeles.jpg
+is_test_data: true
 
 ---

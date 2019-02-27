@@ -113,5 +113,6 @@ category: live
 uri: /live/mutuo/
 order: 3
 project_image: mutuo.jpg
+is_test_data: true
 
 ---

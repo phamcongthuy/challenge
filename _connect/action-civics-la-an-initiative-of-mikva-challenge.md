@@ -150,5 +150,6 @@ category: connect
 uri: /connect/action-civics-la-an-initiative-of-mikva-challenge/
 order: 52
 project_image: action-civics-la-an-initiative-of-mikva-challenge.jpg
+is_test_data: true
 
 ---

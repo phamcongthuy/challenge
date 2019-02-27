@@ -114,5 +114,6 @@ category: create
 uri: /create/the-natch-inc/
 order: 6
 project_image: the-natch-inc.jpg
+is_test_data: true
 
 ---

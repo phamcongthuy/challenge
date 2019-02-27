@@ -115,5 +115,6 @@ category: create
 uri: /create/small-business-majority/
 order: 14
 project_image: small-business-majority.jpg
+is_test_data: true
 
 ---

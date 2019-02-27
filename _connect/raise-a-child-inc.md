@@ -147,5 +147,6 @@ category: connect
 uri: /connect/raise-a-child-inc/
 order: 11
 project_image: raise-a-child-inc.jpg
+is_test_data: true
 
 ---

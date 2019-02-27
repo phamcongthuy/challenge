@@ -186,5 +186,6 @@ category: connect
 uri: /connect/synaccord-llc/
 order: 30
 project_image: synaccord-llc.jpg
+is_test_data: true
 
 ---

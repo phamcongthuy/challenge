@@ -179,5 +179,6 @@ category: connect
 uri: /connect/lava-mae/
 order: 38
 project_image: lava-mae.jpg
+is_test_data: true
 
 ---

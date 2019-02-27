@@ -98,5 +98,6 @@ category: connect
 uri: /connect/casa-of-los-angeles/
 order: 51
 project_image: casa-of-los-angeles.jpg
+is_test_data: true
 
 ---

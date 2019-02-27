@@ -143,5 +143,6 @@ plan_id: 84149
 order: 13
 category: create
 uri: /create/california-institute-of-technology/
+is_test_data: true
 
 ---
