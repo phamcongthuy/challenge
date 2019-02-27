@@ -14,11 +14,11 @@ vote_url: /vote/form/
 
 # New challenge announced: 
 # January 8
-phase: 1
+# phase: 1
 
 # Entries being accepted: 
 # February 28
-# phase: 2
+phase: 2
 
 # Entry period ended: 
 # March 29
