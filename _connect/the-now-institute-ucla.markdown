@@ -132,5 +132,6 @@ plan_id: 84335
 order: 58
 category: connect
 uri: /connect/the-now-institute-ucla/
+is_test_data: true
 
 ---

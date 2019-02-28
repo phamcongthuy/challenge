@@ -108,5 +108,6 @@ plan_id: 84078
 order: 44
 category: learn
 uri: /learn/los-angeles-service-academy-lasa/
+is_test_data: true
 
 ---

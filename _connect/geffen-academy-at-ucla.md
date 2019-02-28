@@ -13,7 +13,6 @@ project_video: 'https://youtu.be/m9NRl8lAdZY'
 link_newsletter: 'https://goo.gl/forms/LN88arJmyW4oGWic2'
 organization_website:
   - 'https://geffenacademy.ucla.edu/'
-  # This link is broken - 'https://goo.gl/NXw7No'
 organization_twitter:
   - 'https://twitter.com/GeffenAcademy'
   - 'https://twitter.com/GeffenSports'
@@ -137,5 +136,6 @@ category: connect
 uri: /connect/geffen-academy-at-ucla/
 order: 36
 project_image: geffen-academy-at-ucla.jpg
+is_test_data: true
 
 ---

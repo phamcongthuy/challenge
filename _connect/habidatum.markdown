@@ -120,5 +120,6 @@ plan_id: 84449
 order: 33
 category: connect
 uri: /connect/habidatum/
+is_test_data: true
 
 ---

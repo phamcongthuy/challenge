@@ -81,5 +81,6 @@ plan_id: 84478
 order: 11
 category: live
 uri: /live/food-oasis-los-angeles/
+is_test_data: true
 
 ---

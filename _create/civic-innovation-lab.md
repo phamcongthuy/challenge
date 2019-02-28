@@ -118,5 +118,6 @@ category: create
 uri: /create/civic-innovation-lab/
 order: 1
 project_image: civic-innovation-lab.jpg
+is_test_data: true
 
 ---

@@ -95,5 +95,6 @@ order: 1
 category: play
 uri: /play/calo-youthbuild/
 is_finalist: true
+is_test_data: true
 
 ---

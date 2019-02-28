@@ -144,7 +144,7 @@ The winners have been announced!
 ### Resources
 
 * The grants challenge is all about making progress on our shared goals and metrics. Read about them [here](http://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf?1441226432). 
-* <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4drDm6lKpmJudzHY8GYbXHvCszKoGuQUZsPR5TXc54OvDIQ/viewform">Sign-up for our office hours webinar</a> on February 20th. 
+* <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4drDm6lKpmJudzHY8GYbXHvCszKoGuQUZsPR5TXc54OvDIQ/viewform">Sign-up for our office hours webinar</a> on March 5th. 
 * Need inspiration? Browse proposals from past My LA2050 winners on the [My LA2050 Ideas Archive](https://archive.la2050.org/search/?keywords=winner). 
 * Ready to submit? Check out the [entry form](https://drive.google.com/drive/u/0/folders/13kEX-1p_OgnW8AdHK0Ie6SxCPAHe2Ci0)
 * Review the [scorecard](https://drive.google.com/drive/u/0/folders/13kEX-1p_OgnW8AdHK0Ie6SxCPAHe2Ci0) to see how your proposal will be evaluated

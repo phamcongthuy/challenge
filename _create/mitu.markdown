@@ -136,5 +136,6 @@ plan_id: 84465
 order: 30
 category: create
 uri: /create/mitu/
+is_test_data: true
 
 ---

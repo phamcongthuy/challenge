@@ -140,5 +140,6 @@ category: connect
 uri: /connect/imagine-la/
 order: 19
 project_image: imagine-la.jpg
+is_test_data: true
 
 ---

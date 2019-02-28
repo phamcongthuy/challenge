@@ -123,5 +123,6 @@ order: 3
 category: learn
 uri: /learn/arts-and-living-charitable-foundation/
 is_finalist: true
+is_test_data: true
 
 ---

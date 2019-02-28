@@ -1,5 +1,5 @@
 ---
-application_id: '0783943642'
+application_id: 0783943642
 title: World Famous VIP Records Business Incubator and Multi Media Center
 project_description: >-
   Business accelerator/incubator for tech, music & food entrepreneurs supported
@@ -155,5 +155,6 @@ category: create
 uri: /create/world-famous-vip-records-llc/
 order: 17
 project_image: world-famous-vip-records-llc.jpg
+is_test_data: true
 
 ---

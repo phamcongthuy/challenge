@@ -99,5 +99,6 @@ plan_id: 82359
 order: 41
 category: learn
 uri: /learn/milk-bookies/
+is_test_data: true
 
 ---

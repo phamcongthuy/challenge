@@ -1,7 +1,8 @@
 ---
 application_id: '1158190324'
 title: >-
-  #Vision2020: An Achievable Plan to Save Us All from Air Toxins, Diesel Pollution & Climate Change!
+  #Vision2020: An Achievable Plan to Save Us All from Air Toxins, Diesel
+  Pollution & Climate Change!
 project_description: >-
   Move LA is building a broad coalition and championing a grand bargain to
   achieve the audacious goals of cleaning our air of diesel toxins and greatly
@@ -153,5 +154,6 @@ category: live
 uri: /live/move-la-a-project-of-community-partners/
 order: 39
 project_image: move-la-a-project-of-community-partners.jpg
+is_test_data: true
 
 ---

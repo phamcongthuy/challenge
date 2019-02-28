@@ -158,5 +158,6 @@ order: 1
 category: live
 uri: /live/plantaware/
 is_finalist: true
+is_test_data: true
 
 ---

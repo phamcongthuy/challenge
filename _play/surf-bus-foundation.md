@@ -15,7 +15,7 @@ organization_twitter:
   - '@altaseaorg'
   - '@lamitopsail'
   - '@marionc82937170'
-organization_facebook: https://www.facebook.com/The-Surf-Bus-Foundation-170696492986174/
+organization_facebook: 'https://www.facebook.com/The-Surf-Bus-Foundation-170696492986174/'
 organization_instagram:
   - '@surfbusfoundation'
   - '@altasea'
@@ -202,5 +202,6 @@ category: play
 uri: /play/surf-bus-foundation/
 order: 6
 project_image: surf-bus-foundation.jpg
+is_test_data: true
 
 ---

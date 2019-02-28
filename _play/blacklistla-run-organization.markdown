@@ -145,5 +145,6 @@ category: play
 uri: /play/blacklistla-run-organization/
 is_winner: true
 is_finalist: true
+is_test_data: true
 
 ---

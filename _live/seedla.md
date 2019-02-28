@@ -115,5 +115,6 @@ category: live
 uri: /live/seedla/
 order: 31
 project_image: seedla.jpg
+is_test_data: true
 
 ---

@@ -148,5 +148,6 @@ order: 59
 category: learn
 uri: >-
   /learn/university-of-southern-california-viterbi-stem-educational-outreach-programs-office/
+is_test_data: true
 
 ---

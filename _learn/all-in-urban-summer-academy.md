@@ -82,5 +82,6 @@ category: learn
 uri: /learn/all-in-urban-summer-academy/
 order: 15
 project_image: all-in-urban-summer-academy.jpg
+is_test_data: true
 
 ---

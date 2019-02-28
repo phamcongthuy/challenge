@@ -123,5 +123,6 @@ plan_id: 84291
 order: 59
 category: connect
 uri: /connect/ryman-arts/
+is_test_data: true
 
 ---

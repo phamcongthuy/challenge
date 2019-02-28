@@ -95,5 +95,6 @@ category: create
 uri: /create/hacker-fund/
 order: 8
 project_image: hacker-fund.jpg
+is_test_data: true
 
 ---

@@ -6,7 +6,7 @@ description: >-
 image: https://challenge.la2050.org/assets/images/city-illustration/square.png
 
 mailing_list_url: https://la2050.us6.list-manage.com/subscribe/post?u=81b6d7b4efb839b992bf7ae72&amp;id=b16f498212
-# submission_url: https://activationla2050.smapply.io/prog/challenge_info/
+submission_url: https://challengela2050.smapply.io
 
 # Our form:
 vote_url: /vote/form/
@@ -14,11 +14,11 @@ vote_url: /vote/form/
 
 # New challenge announced: 
 # January 8
-phase: 1
+# phase: 1
 
 # Entries being accepted: 
 # February 28
-# phase: 2
+phase: 2
 
 # Entry period ended: 
 # March 29

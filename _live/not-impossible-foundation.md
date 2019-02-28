@@ -8,7 +8,7 @@ project_description: >-
 organization_name: Not Impossible Foundation
 organization_description: Non-profit organization
 project_video: ''
-link_newsletter: mailto:info@notimpossiblelabs.com
+link_newsletter: 'mailto:info@notimpossiblelabs.com'
 organization_website: www.notimpossible.com
 organization_twitter: '@NotImpossible'
 organization_instagram: NotImpossible
@@ -109,5 +109,6 @@ category: live
 uri: /live/not-impossible-foundation/
 order: 11
 project_image: not-impossible-foundation.jpg
+is_test_data: true
 
 ---

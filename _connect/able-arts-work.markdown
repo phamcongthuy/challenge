@@ -114,5 +114,6 @@ category: connect
 uri: /connect/able-arts-work/
 is_winner: true
 is_finalist: true
+is_test_data: true
 
 ---

@@ -129,5 +129,6 @@ plan_id: 82362
 order: 5
 category: play
 uri: /play/perceptoscope/
+is_test_data: true
 
 ---

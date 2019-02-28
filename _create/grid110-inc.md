@@ -93,5 +93,6 @@ category: create
 uri: /create/grid110-inc/
 order: 7
 project_image: grid110-inc.jpg
+is_test_data: true
 
 ---

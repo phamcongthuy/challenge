@@ -125,5 +125,6 @@ plan_id: 83041
 order: 27
 category: learn
 uri: /learn/sportup/
+is_test_data: true
 
 ---

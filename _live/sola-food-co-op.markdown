@@ -63,5 +63,6 @@ plan_id: 84060
 order: 52
 category: live
 uri: /live/sola-food-co-op/
+is_test_data: true
 
 ---

@@ -118,5 +118,6 @@ category: live
 uri: /live/team-rubicon/
 order: 22
 project_image: team-rubicon.jpg
+is_test_data: true
 
 ---

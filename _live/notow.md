@@ -96,5 +96,6 @@ category: live
 uri: /live/notow/
 order: 24
 project_image: notow.jpg
+is_test_data: true
 
 ---

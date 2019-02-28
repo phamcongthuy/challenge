@@ -7,7 +7,7 @@ project_description: >-
   entire family!
 organization_name: EverWild
 organization_description: Non-profit organization
-project_video: https://vimeo.com/262456324
+project_video: 'https://vimeo.com/262456324'
 organization_website: www.everwildla.com
 organization_twitter: '@EverWildFA'
 organization_facebook: 'https://www.facebook.com/EverWildLa/'
@@ -108,5 +108,6 @@ category: play
 uri: /play/everwild/
 order: 1
 project_image: everwild.jpg
+is_test_data: true
 
 ---

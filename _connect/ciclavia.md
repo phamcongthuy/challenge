@@ -131,5 +131,6 @@ category: connect
 uri: /connect/ciclavia/
 order: 6
 project_image: ciclavia.jpg
+is_test_data: true
 
 ---

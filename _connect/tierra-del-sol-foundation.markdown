@@ -68,5 +68,6 @@ plan_id: 84163
 order: 49
 category: connect
 uri: /connect/tierra-del-sol-foundation/
+is_test_data: true
 
 ---

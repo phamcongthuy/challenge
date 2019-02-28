@@ -117,5 +117,6 @@ plan_id: 84232
 order: 68
 category: connect
 uri: /connect/civic-nation/
+is_test_data: true
 
 ---

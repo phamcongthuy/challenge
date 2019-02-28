@@ -133,5 +133,6 @@ category: live
 uri: /live/lift-los-angeles/
 order: 20
 project_image: lift-los-angeles.jpg
+is_test_data: true
 
 ---

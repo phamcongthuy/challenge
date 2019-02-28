@@ -148,5 +148,6 @@ category: connect
 uri: /connect/la-river-public-art-project-c-o-erw-design/
 order: 40
 project_image: la-river-public-art-project-c-o-erw-design.jpg
+is_test_data: true
 
 ---

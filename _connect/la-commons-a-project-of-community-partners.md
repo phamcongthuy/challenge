@@ -190,5 +190,6 @@ category: connect
 uri: /connect/la-commons-a-project-of-community-partners/
 order: 3
 project_image: la-commons-a-project-of-community-partners.jpg
+is_test_data: true
 
 ---

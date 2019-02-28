@@ -126,5 +126,6 @@ plan_id: 82468
 order: 6
 category: live
 uri: /live/la-compost/
+is_test_data: true
 
 ---

@@ -7,8 +7,7 @@ project_description: >-
   for all and create a healthy future for us all.
 organization_name: 'SÜPRSEED, Inc.'
 organization_description: Non-profit organization
-project_video: >-
-  https://www.youtube.com/watch?v=KcRryxjBr-8
+project_video: 'https://www.youtube.com/watch?v=KcRryxjBr-8'
 link_newsletter: 'http://eepurl.com/b5eqrX'
 organization_website: www.suprmarkt.la
 organization_twitter: ''
@@ -181,5 +180,6 @@ category: live
 uri: /live/süprseed/
 order: 8
 project_image: süprseed.jpg
+is_test_data: true
 
 ---

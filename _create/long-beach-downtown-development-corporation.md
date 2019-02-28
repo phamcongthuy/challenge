@@ -197,5 +197,6 @@ category: create
 uri: /create/long-beach-downtown-development-corporation/
 order: 15
 project_image: long-beach-downtown-development-corporation.jpg
+is_test_data: true
 
 ---

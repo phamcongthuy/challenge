@@ -79,5 +79,6 @@ plan_id: 84476
 order: 61
 category: live
 uri: /live/capital-main/
+is_test_data: true
 
 ---

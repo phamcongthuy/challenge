@@ -111,5 +111,6 @@ plan_id: 84265
 order: 46
 category: connect
 uri: /connect/university-of-southern-california/
+is_test_data: true
 
 ---

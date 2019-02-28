@@ -147,5 +147,6 @@ category: connect
 uri: /connect/university-of-southern-california/
 order: 24
 project_image: university-of-southern-california.jpg
+is_test_data: true
 
 ---

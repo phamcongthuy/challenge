@@ -100,5 +100,6 @@ category: play
 uri: /play/red-hen-press/
 order: 5
 project_image: red-hen-press.jpg
+is_test_data: true
 
 ---

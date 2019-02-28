@@ -84,5 +84,6 @@ plan_id: 84398
 order: 9
 category: play
 uri: /play/bicycle-culture-institute/
+is_test_data: true
 
 ---

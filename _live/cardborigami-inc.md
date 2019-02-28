@@ -140,5 +140,6 @@ category: live
 uri: /live/cardborigami-inc/
 order: 28
 project_image: cardborigami-inc.jpg
+is_test_data: true
 
 ---

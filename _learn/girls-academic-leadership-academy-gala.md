@@ -114,5 +114,6 @@ category: learn
 uri: /learn/girls-academic-leadership-academy-gala/
 order: 8
 project_image: girls-academic-leadership-academy-gala.jpg
+is_test_data: true
 
 ---

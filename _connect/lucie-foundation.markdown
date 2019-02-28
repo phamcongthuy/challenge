@@ -71,5 +71,6 @@ plan_id: 84468
 order: 41
 category: connect
 uri: /connect/lucie-foundation/
+is_test_data: true
 
 ---

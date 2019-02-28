@@ -13,7 +13,7 @@ project_video: 'https://vimeo.com/261964830'
 link_newsletter: 'https://raiseachild.org/take-the-next-step/'
 organization_website: 'https://raiseachild.org'
 organization_twitter: '@RaiseAChild'
-organization_facebook: 'RaiseAChild'
+organization_facebook: RaiseAChild
 organization_instagram: RaiseAChild
 link_donate: 'https://raiseachild.org/donations/'
 link_volunteer: 'https://raiseachild.org/take-the-next-step/'
@@ -147,5 +147,6 @@ category: connect
 uri: /connect/raise-a-child-inc/
 order: 11
 project_image: raise-a-child-inc.jpg
+is_test_data: true
 
 ---

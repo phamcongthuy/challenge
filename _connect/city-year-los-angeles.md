@@ -6,8 +6,7 @@ project_description: >-
   campuses, making them more welcoming, vibrant places for students to learn.
 organization_name: City Year Los Angeles
 organization_description: Non-profit organization
-project_video: >-
-  https://www.youtube.com/watch?v=oUBvw2A2YMI
+project_video: 'https://www.youtube.com/watch?v=oUBvw2A2YMI'
 link_newsletter: 'http://info.cityyear.org/Subscription_Center.html'
 organization_website: 'https://www.cityyear.org/losangeles'
 organization_twitter: '@CityYearLA'
@@ -116,5 +115,6 @@ category: connect
 uri: /connect/city-year-los-angeles/
 order: 18
 project_image: city-year-los-angeles.jpg
+is_test_data: true
 
 ---

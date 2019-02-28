@@ -139,5 +139,6 @@ plan_id: 84364
 order: 57
 category: connect
 uri: /connect/argo-labs/
+is_test_data: true
 
 ---

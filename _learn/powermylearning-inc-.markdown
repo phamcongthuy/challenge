@@ -59,5 +59,6 @@ plan_id: 84075
 order: 43
 category: learn
 uri: /learn/powermylearning-inc-/
+is_test_data: true
 
 ---

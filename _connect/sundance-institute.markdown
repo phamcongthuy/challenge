@@ -129,5 +129,6 @@ plan_id: 84141
 order: 44
 category: connect
 uri: /connect/sundance-institute/
+is_test_data: true
 
 ---

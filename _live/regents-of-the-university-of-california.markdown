@@ -124,5 +124,6 @@ order: 3
 category: live
 uri: /live/regents-of-the-university-of-california/
 is_finalist: true
+is_test_data: true
 
 ---

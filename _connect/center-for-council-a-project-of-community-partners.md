@@ -11,7 +11,7 @@ project_video: 'https://www.youtube.com/watch?v=TAAc3xB3YTk'
 link_newsletter: 'https://www.centerforcouncil.org/subscribe.html'
 organization_website: www.centerforcouncil.org
 organization_twitter: '@ctrforcouncil'
-organization_facebook: 'CenterforCouncil'
+organization_facebook: CenterforCouncil
 organization_instagram: '@CenterforCouncil'
 link_donate: 'https://donatenow.networkforgood.org/centerforcouncil'
 link_volunteer: ''
@@ -135,5 +135,6 @@ category: connect
 uri: /connect/center-for-council-a-project-of-community-partners/
 order: 10
 project_image: center-for-council-a-project-of-community-partners.jpg
+is_test_data: true
 
 ---

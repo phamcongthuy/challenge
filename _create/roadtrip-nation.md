@@ -146,5 +146,6 @@ category: create
 uri: /create/roadtrip-nation/
 order: 0
 project_image: roadtrip-nation.jpg
+is_test_data: true
 
 ---

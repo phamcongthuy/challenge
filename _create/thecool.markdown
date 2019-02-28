@@ -128,5 +128,6 @@ plan_id: 82452
 order: 8
 category: create
 uri: /create/thecool/
+is_test_data: true
 
 ---

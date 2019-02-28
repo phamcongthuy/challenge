@@ -120,5 +120,6 @@ category: live
 uri: /live/ucla-mobile-eye-clinic-umec/
 order: 37
 project_image: ucla-mobile-eye-clinic-umec.jpg
+is_test_data: true
 
 ---

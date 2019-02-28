@@ -145,5 +145,6 @@ plan_id: 82434
 order: 61
 category: learn
 uri: /learn/the-academy-project/
+is_test_data: true
 
 ---

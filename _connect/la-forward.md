@@ -124,5 +124,6 @@ category: connect
 uri: /connect/la-forward/
 order: 9
 project_image: la-forward.jpg
+is_test_data: true
 
 ---

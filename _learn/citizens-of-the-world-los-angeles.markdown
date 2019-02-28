@@ -125,5 +125,6 @@ plan_id: 83934
 order: 23
 category: learn
 uri: /learn/citizens-of-the-world-los-angeles/
+is_test_data: true
 
 ---

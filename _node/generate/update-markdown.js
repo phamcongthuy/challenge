@@ -5,27 +5,31 @@ let fs = require('fs');
 let yaml = require('js-yaml');
 
 function getYaml(text, filename) {
-  const DELIMITER = '---';
-  let items = text.split(DELIMITER);
+  const DELIMITER = `---
+`
+  let items = text.split(DELIMITER)
   if (items.length === 3) {
-    return items[1];
+    return `
+${items[1]}`
   } else {
-    console.log('unexpected markdown format detected');
-    console.log(items.length);
-    console.log(text);
-    console.log(filename);
+    console.log('unexpected markdown format detected')
+    console.log(items.length)
+    // console.log(text)
+    console.log(filename)
   }
 }
 
 function getContent(text, filename) {
-  const DELIMITER = '---';
-  let items = text.split(DELIMITER);
+  const DELIMITER = `---
+`
+  let items = text.split(DELIMITER)
   if (items.length === 3) {
-    return items[2];
+    return `
+${items[2]}`
   } else {
-    console.log('unexpected markdown format detected');
-    console.log(items.length);
-    console.log(text);
+    console.log('unexpected markdown format detected')
+    console.log(items.length)
+    // console.log(text)
   }
 }
 
@@ -140,8 +144,9 @@ function processFile(filename) {
   let data = loadMarkdown(filename);
   if (!data) return;
 
-  saveMarkdown(filename, data);
+  data.yaml.is_test_data = true;
 
+  saveMarkdown(filename, data);
 
 
   // Simplify image URL
