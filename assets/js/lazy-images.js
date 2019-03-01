@@ -78,7 +78,7 @@
     var throttle;
     window.addEventListener('scroll', function() {
       if (throttle) clearTimeout(throttle);
-      throttle = setTimeout(loadVisible, 500);
+      throttle = setTimeout(loadVisible, 100);
     }, false);
   })();
 
