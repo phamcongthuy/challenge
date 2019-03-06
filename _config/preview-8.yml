@@ -7,7 +7,7 @@ hide_from_search_engines: true
 
 # Entries being accepted: 
 # February 28
-phase: 2
+# phase: 2
 
 # Entry period ended: 
 # March 29
@@ -28,3 +28,24 @@ phase: 2
 # Finalists announced: 
 # ?
 # phase: 7
+
+# Winners announced: 
+# June 4
+phase: 8
+
+collections:
+  learn:
+    output: true
+    permalink: /learn/:path/
+  create:
+    output: true
+    permalink: /create/:path/
+  play:
+    output: true
+    permalink: /play/:path/
+  connect:
+    output: true
+    permalink: /connect/:path/
+  live:
+    output: true
+    permalink: /live/:path/

@@ -7,27 +7,40 @@ stylesheets:
 ---
 
 {% if page.winners == true %}
-<h1 style="color: white">Winners</h1>
+<h1 style="color: white"><span>Winners</span></h1>
 
 <style>
 
 main > h1:first-child {
   position: relative;
 }
+main > h1:first-child span {
+  text-shadow: 0 0 0.5em rgb(255, 194, 51); /* @banana */
+}
 main > h1:first-child::before {
   content: "";
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(/assets/images/trumpet.svg);
-  background-size: 10vmax auto;
+  background-image: url(/assets/images/winners.svg);
+  background-size: 100vmax auto;
+  background-position: top;
 }
 
 </style>
+{% elsif page.finalists == true %}
+<h1 style="color: white">Finalists</h1>
 {% else %}
 <h1 style="color: white">Entries</h1>
+{% endif %}
+
+{% assign conditional_finalists_url = "" %}
+
+{% if page.finalists %}
+{% assign conditional_finalists_url = "finalists/" %}
 {% endif %}
 
 {% if page.winners and site.phase <= 6 %}
@@ -98,7 +111,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% include project-navigation.html %}
 
 
-<ul class="proposals {% if page.winners %}finalists winners{% endif %}" id="project-list">
+<ul class="proposals {% if page.finalists or page.winners %}finalists{% endif %} {% if page.winners %}winners{% endif %}" id="project-list">
 
   {% unless page.winners %}
   {% comment %} Order alphabetically {% endcomment %}
@@ -109,6 +122,13 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
   {% assign do_show_item = false %}
 
+  {% assign is_finalist = false %}
+  {% for finalist in site.finalists %}
+    {% if finalist == data.url %}
+      {% assign is_finalist = true %}
+    {% endif %}
+  {% endfor %}
+
   {% assign is_winner = false %}
   {% for winner in site.winners %}
     {% if winner == data.url %}
@@ -118,14 +138,16 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
   {% if page.winners == true and is_winner == true %}
   {% assign do_show_item = true %}
-  {% elsif page.winners != true %}
+  {% elsif page.finalists == true and is_finalist == true %}
+  {% assign do_show_item = true %}
+  {% elsif page.winners != true and page.finalists != true %}
   {% assign do_show_item = true %}
   {% endif %}
 
   {% if do_show_item == true %}
 
   {% if page.is_search_results %}<script type="text/template">{% endif %}
-  {% if page.winners %}
+  {% if page.finalists or page.winners %}
   <li class="{{ data.category }}">
     <a href="{{ data.url }}">
       <span class="image" {% if data.project_image_color %}
@@ -200,15 +222,6 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
     </div>
     {% endif %}
 
-
-
-    <!--
-    <div class="action">
-      <p><a href="">Read More</a></p>
-      <p><a href="">Vote for this</a></p>
-    </div>
-    -->
-    <!-- <p class="action"><a href="">Vote for this</a></p> -->
   </li>
   {% else %}
   <li class="{{ data.category }}">

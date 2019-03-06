@@ -7,18 +7,24 @@
 {% if site.phase >= 7 %}
   {% assign navigation_items_count = 7 %}
 {% endif %}
+{% if site.phase >= 8 %}
+  {% assign navigation_items_count = 8 %}
+{% endif %}
 <ul class="has-{{ navigation_items_count }}-items">
-  <li {% if page.url contains '/about' %} class="active" {% endif %}><a href="/about/">About</a></li>
+  <li {% if page.url contains '/about' %}     class="active" {% endif %}><a href="/about/">About</a></li>
+  {% if site.phase >= 8 %}
+  <li {% if page.url contains '/winners' %}   class="active" {% endif %}><a href="/winners/">Winners</a></li>
+  {% endif %}
   {% if site.phase >= 7 %}
-  <li {% if page.url contains '/winners' %} class="active" {% endif %}><a href="/winners/">Winners</a></li>
+  <li {% if page.url contains '/finalists' %} class="active" {% endif %}><a href="/finalists/">Finalists</a></li>
   {% endif %}
   {% if site.phase >= 4 %}
-  <li {% if page.url contains '/entries' %} class="active" {% endif %}><a href="/entries/" id="entries-navigation-item">Entries</a></li>
+  <li {% if page.url contains '/entries' %}   class="active" {% endif %}><a href="/entries/">Entries</a></li>
   {% endif %}
-  <li {% if page.url contains '/submit' %} class="active" {% endif %}><a href="/submit/">Submit</a></li>
-  <li {% if page.url contains '/vote' %} class="active" {% endif %}><a href="/vote/">Vote</a></li>
-  <li {% if page.url contains '/timeline' %} class="active" {% endif %}><a href="/timeline/">Timeline</a></li>
-  <li {% if page.url contains '/faqs' %} class="active" {% endif %}><a href="/faqs/">FAQs</a></li>
+  <li {% if page.url contains '/submit' %}    class="active" {% endif %}><a href="/submit/">Submit</a></li>
+  <li {% if page.url contains '/vote' %}      class="active" {% endif %}><a href="/vote/">Vote</a></li>
+  <li {% if page.url contains '/timeline' %}  class="active" {% endif %}><a href="/timeline/">Timeline</a></li>
+  <li {% if page.url contains '/faqs' %}      class="active" {% endif %}><a href="/faqs/">FAQs</a></li>
 </ul>
 
 </div>
