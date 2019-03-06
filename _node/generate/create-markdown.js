@@ -85,7 +85,8 @@ function createMarkdownFile(data, category) {
   data.unique_identifier = getRandomInt(0, Math.pow(36, 8)).toString(36);
 
   data.category = category;
-  data.uri = '/' + category + '/' + filename + '/';
+  // data.uri = '/' + category + '/' + filename + '/';
+  data.filename = filename;
   data.order = orderCursors[category]++;
   if (!data.project_image) data.project_image = '/assets/images/' + category + '/' + filename + '.jpg';
 

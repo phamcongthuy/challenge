@@ -9,19 +9,35 @@
 
 <li>
 
-  <a href="{{ project.uri }}" target="_blank">
+  <a href="{{ project.url }}" target="_blank">
     {% assign image_url = project.project_image %}
     {% assign image_category = project.category %}
     <span class="image">
-      
-      {% if project.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
-      <img src="/assets/images/blank.png" data-src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
-      {% else %}
-      <img src="/assets/images/blank.png" data-src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" data-srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 30em) 20em, (min-width: 15em) 50vw, 100vw" width="500" alt=""
-      {% if project.project_image_color %}
-      style="background-color: {{ project.project_image_color }}"
-      {% endif %} />
-      {% endif %}
+    {% comment %}This if statement is temporary… for test entries from 2016{% endcomment %}
+    {% if project.plan_id %}
+      <img
+        src="/assets/images/blank.png"
+        data-src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}"
+        height="300"
+        alt=""
+      />
+    {% else %}
+      <img  src="/assets/images/blank.png"
+            data-src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}"
+            data-srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w,
+                         /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w,
+                         /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w,
+                         /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w,
+                         /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w,
+                         /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w"
+            sizes="(min-width: 30em) 20em, (min-width: 15em) 50vw, 100vw"
+            height="300"
+            alt=""
+        {% if project.project_image_color %}
+            style="background-color: {{ project.project_image_color }}"
+        {% endif %}
+      />
+    {% endif %}
     </span>
     <br />
     <div class="text">
@@ -37,7 +53,7 @@
     <input type="radio" name="{{ category }}" value="{{ project.title }}" />
 
     <span class="mask"></span>
-    <span class="pseudo-checkbox">
+    <span class="pseudo-checkbox" style="display: none">
       <svg width="24" height="24" viewBox="0 0 512 512">
         <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
       </svg>
@@ -45,6 +61,9 @@
     </span>
     <span class="call-to-action">
       <strong>Select</strong>
+    </span>
+    <span class="hidden-but-accessible">
+      {{ project.organization_name }}
     </span>
 
   </label>

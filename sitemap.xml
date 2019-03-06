@@ -70,7 +70,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.url }}</loc>
   </url>
 {% endfor %}
 
@@ -78,7 +78,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.url }}</loc>
   </url>
 {% endfor %}
 
@@ -86,7 +86,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.url }}</loc>
   </url>
 {% endfor %}
 
@@ -94,7 +94,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.url }}</loc>
   </url>
 {% endfor %}
 
@@ -102,7 +102,7 @@ layout: null
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>
-    <loc>https://challenge.la2050.org{{ project.uri }}</loc>
+    <loc>https://challenge.la2050.org{{ project.url }}</loc>
   </url>
 {% endfor %}
 

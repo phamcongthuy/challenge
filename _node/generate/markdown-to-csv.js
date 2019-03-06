@@ -120,10 +120,10 @@ function saveCSVFile(filePath, records) {
     columns.forEach(column => {
       let value = item[column]
       if (column === "project_image" && value) {
-        value = `https://challenge.la2050.org${item.uri}${value}`
+        value = `https://challenge.la2050.org${item.url}${value}`
       }
       if (column === "uri" && value) {
-        value = `https://challenge.la2050.org${item.uri}`
+        value = `https://challenge.la2050.org${item.url}`
       }
       if (!skipColumns[column]) {
         array.push(value)

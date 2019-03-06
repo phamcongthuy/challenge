@@ -111,7 +111,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
   {% assign is_winner = false %}
   {% for winner in site.winners %}
-    {% if winner == data.uri %}
+    {% if winner == data.url %}
       {% assign is_winner = true %}
     {% endif %}
   {% endfor %}
@@ -127,7 +127,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   {% if page.is_search_results %}<script type="text/template">{% endif %}
   {% if page.winners %}
   <li class="{{ data.category }}">
-    <a href="{{ data.uri }}">
+    <a href="{{ data.url }}">
       <span class="image" {% if data.project_image_color %}
         style="background-color: {{ data.project_image_color }}"{% endif %}>
         {% assign image_url = data.project_image %}
@@ -212,7 +212,7 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   </li>
   {% else %}
   <li class="{{ data.category }}">
-    <a href="{{ data.uri }}">
+    <a href="{{ data.url }}">
       <span class="image">
         {% assign image_url = data.project_image %}
         {% assign image_category = data.category %}

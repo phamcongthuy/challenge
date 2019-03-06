@@ -327,8 +327,8 @@
   form .category ul > li input:checked ~ .pseudo-checkbox {
     /*background: rgba(0, 0, 0, 0.5);*/
     opacity: 1;
-    display: block;
-    display: flex;
+    display: block !important; /* fallback for browsers that don’t understand flex */
+    display: flex !important; /* !important to override the inline style */
   }
   /*form .category ul > li:hover .mask {
     opacity: 0.25;

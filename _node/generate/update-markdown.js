@@ -166,7 +166,7 @@ function processFile(filename) {
   // if (data.yaml.project_video.indexOf('#') >= 0 ||
   //     data.yaml.project_video.indexOf(' ') >= 0) {
   //   console.log('*******');
-  //   console.log(data.yaml.uri)
+  //   console.log(data.yaml.url)
   //   console.log(data.yaml.project_video);
   // }
 
@@ -193,7 +193,7 @@ function processFile(filename) {
     //console.log('uri, organization_name, problem detected with');
 
     console.log('*******');
-    console.log(data.yaml.uri)
+    console.log(data.yaml.url)
 
     let problemList = []
 
@@ -223,7 +223,7 @@ function processFile(filename) {
       console.log(data.yaml[problemField]);
     });
 
-    // console.log(`https://staging-challenge.la2050.org${data.yaml.uri}, https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
+    // console.log(`https://staging-challenge.la2050.org${data.yaml.url}, https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
     // console.log(`https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename.split('/')[filename.split('/').length - 1]}`);
   }
   */
