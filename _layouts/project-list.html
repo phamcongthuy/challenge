@@ -43,7 +43,13 @@ main > h1:first-child::before {
 {% assign conditional_finalists_url = "finalists/" %}
 {% endif %}
 
-{% if page.winners and site.phase <= 6 %}
+{% if page.finalists and site.phase < 7 %}
+
+<div class="introduction" markdown="1">
+The finalists will appear here soon!
+</div>
+
+{% elsif page.winners and site.phase < 8 %}
 
 <div class="introduction" markdown="1">
 The winners will appear here on <strong>June 4, 2019</strong>.
