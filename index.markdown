@@ -84,6 +84,17 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
 {% elsif site.phase == 7 %}
 
+<p><em>The finalists have been announced!</em></p>
+<p>
+  <a href="/finalists/">Check out the finalists</a>.
+  Winners will be announced on 
+  <span class="avoid-break">
+    <strong>June 4, 2019</strong>.
+  </span>
+</p>
+
+{% elsif site.phase == 8 %}
+
 <p><em>The winners have been announced!</em></p>
 <p><a href="/winners/">Check out the winners</a></p>
 
@@ -161,6 +172,17 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 </p>
 
 {% elsif site.phase == 7 %}
+
+<p><em>The finalists have been announced!</em></p>
+<p>
+  <a href="/finalists/">Check out the finalists</a>.
+  Winners will be announced on 
+  <span class="avoid-break">
+    <strong>June 4, 2019</strong>.
+  </span>
+</p>
+
+{% elsif site.phase == 8 %}
 
 <p><em>The winners have been announced!</em></p>
 <p><a href="/winners/">Check out the winners</a></p>

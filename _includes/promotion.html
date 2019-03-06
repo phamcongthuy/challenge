@@ -65,7 +65,7 @@
         <a href="{{ site.vote_url }}">I’m ready to vote</a>
       </p>
 
-{% elsif site.phase == 6 or site.phase == 7 %}
+{% elsif site.phase == 6 %}
 
       <p>
         Public voting is complete.
@@ -80,7 +80,22 @@
         <a href="{{ site.mailing_list_url }}">Get updates</a>
       </p>
 
-{% elsif site.phase >= 8 %}
+{% elsif site.phase == 7 %}
+
+      <p>
+        The finalists have been announced!
+        <span class="avoid-break">
+          Winners will be announced on 
+          <span class="avoid-break">
+            <strong>June 4, 2019</strong>.
+          </span>
+        </span>
+      </p>
+      <p class="action">
+        <a href="/winners/">Check out the finalists!</a>
+      </p>
+
+{% elsif site.phase == 8 %}
 
       <p>
         The winners have been announced.
@@ -90,12 +105,12 @@
         <a href="/winners/">Check out the winners!</a>
       </p>
 
-{% else %}
-
+      <!--
       <p>
         The 2019 Grants Challenge is part of the greater <a href="https://la2050.org/">LA2050 initiative</a>.
         <span class="avoid-break" data-characters="45">We’re working to move Los Angeles <span class="avoid-break">toward <a href="https://la2050.org/#learnmore">five goals</a>.</span></span>
       </p>
+      -->
 
 {% endif %}
 
