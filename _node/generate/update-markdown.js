@@ -223,8 +223,8 @@ function processFile(filename) {
       console.log(data.yaml[problemField]);
     });
 
-    // console.log(`https://staging-challenge.la2050.org${data.yaml.url}, https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
-    // console.log(`https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename.split('/')[filename.split('/').length - 1]}`);
+    // console.log(`https://staging-challenge.la2050.org${data.yaml.url}, https://github.com/la2050/challenge/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
+    // console.log(`https://github.com/la2050/challenge/edit/staging/_${data.yaml.category}/${filename.split('/')[filename.split('/').length - 1]}`);
   }
   */
   
