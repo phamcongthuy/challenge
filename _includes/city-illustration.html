@@ -1,9 +1,6 @@
-{% assign city_color = "banana" %}
-{% if page.body_class == "lime"
-   or page.body_class == "tangerine"
-   or page.body_class == "banana"
-   or page.body_class == "blueberry" %}
-  {% assign city_color = "strawberry" %}
+{% assign city_color = "strawberry" %}
+{% if page.body_class contains "strawberry" %}
+  {% assign city_color = "banana" %}
 {% endif %}
 <picture>
   <source srcset="/assets/images/city-illustration/landscape-{{ city_color }}.svg" media="(min-aspect-ratio: 3/4)" />
