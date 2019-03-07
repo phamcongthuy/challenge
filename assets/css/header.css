@@ -158,8 +158,10 @@
   ----------------------------------------------- */
   header,
   footer {
-    background-color: rgb(240, 53, 133); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
+    /*
+    background-color: var(--strawberry);
+    color: var(--snow);
+    */
     margin-left: -1.5em;
     margin-right: -1.5em;
     padding: 3em 1.5em 1.5em;
@@ -305,32 +307,22 @@
   ----------------------------------------------- */
   header a,
   footer a {
-    color: rgb(254, 254, 254); /* @snow */
-    color: rgb(252, 209, 52); /* @banana */
-    color: rgb(255, 224, 81); /* @bright-banana */
-    color: rgb(252, 209, 52); /* @banana */
-    color: rgb(254, 254, 254); /* @snow */
+    /*color: var(--snow);*/
     font-weight: 600;
     letter-spacing: 0.05em;
     text-decoration: none;
   }
-  header a:hover,
-  header a:active,
-  header a:focus,
-  footer a:hover,
+/*  footer a:hover,
   footer a:active,
   footer a:focus {
-    color: rgb(0, 179, 187); /* @blueberry */
-    color: var(--primary-color, rgb(0, 179, 187)); /* @blueberry */
-  }
-  header .active a,
+    color: var(--strawberry)
+  }*/
+/*  header .active a,
   header a:hover,
   header a:active,
   header a:focus {
-    color: rgb(254, 254, 254); /* @snow */
-    color: rgb(252, 209, 52); /* @banana */
-    color: rgb(255, 224, 81); /* @bright-banana */
-  }
+    color: var(--banana);
+  }*/
   footer a {
     color: inherit;
   }
@@ -396,19 +388,19 @@
     color: inherit;
   }
   header .navigation .primary strong a {
-    background: rgb(254, 254, 254) /* @snow */;
-    border-color: rgb(254, 254, 254) /* @snow */;
-    color: var(--primary-color, rgb(41, 41, 41) /* @midnight */);
+    background: var(--snow);
+    border-color: var(--snow);
+    color: var(--primary-color);
   }
   footer .navigation .primary strong a {
-    background: rgb(41, 41, 41) /* @midnight */;
-    border-color: rgb(41, 41, 41) /* @midnight */;
-    color: rgb(254, 254, 254) /* @snow */;
+    background: var(--midnight);
+    border-color: var(--midnight);
+    color: var(--snow);
   }
   header .navigation .primary strong a:hover,
   header .navigation .primary strong a:active,
   header .navigation .primary strong a:focus {
-    color: rgb(41, 41, 41) /* @midnight */;
+    color: var(--midnight);
     background-color: var(--secondary-color, white);
     border-color: var(--secondary-color, white);
     color: var(--primary-color, black);
@@ -416,28 +408,9 @@
   footer .navigation .primary strong a:hover,
   footer .navigation .primary strong a:active,
   footer .navigation .primary strong a:focus {
-    background-color: var(--primary-color, rgb(41, 41, 41) /* @midnight */);
-    border-color: var(--primary-color, rgb(41, 41, 41) /* @midnight */);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
   }
-@supports (false) {
-  header .navigation .primary strong a {
-    color: rgb(240, 53, 133); /* @strawberry */
-  }
-  .lime      header .navigation .primary strong a,
-  .banana    header .navigation .primary strong a,
-  .tangerine header .navigation .primary strong a {
-    color: rgb(240, 53, 133); /* @strawberry */
-  }
-  .strawberry header .navigation .primary strong a,
-  .blueberry  header .navigation .primary strong a {
-    color: rgb(252, 209, 52); /* @banana */
-    color: rgb(255, 224, 81); /* @bright-banana */
-  }
-  .home      header .navigation .primary strong a {
-    color: rgb(0, 179, 187); /* @blueberry */
-    color: rgb(46, 219, 228); /* @bright-blueberry */
-  }
-}
 
 
   /* =Logotype
@@ -450,10 +423,7 @@
     font-weight: 500; /* @medium */
     font-size: 1.25em;
     text-transform: uppercase;
-    color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(252, 209, 52); /* @banana */
-    color: rgb(255, 224, 81); /* @bright-banana */
-    color: rgb(254, 254, 254); /* @snow */
+    color: var(--snow);
     line-height: 1;
     text-align: center;
   }
@@ -489,22 +459,18 @@
   footer h2 a svg path {
     fill: currentColor;
   }
-  header h2 a:hover,
+/*  header h2 a:hover,
   header h2 a:active,
   header h2 a:focus {
-    color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 224, 81); /* @bright-banana */
-  }
+    color: var(--banana);
+  }*/
 
 
   /* =Headline
   ----------------------------------------------- */
   main > h1:first-child {
-    background-color: rgb(240, 53, 133); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 224, 81); /* @bright-banana */
-    color: rgb(252, 209, 52); /* @banana */
-    color: rgb(254, 254, 254); /* @snow */
+/*    background-color: var(--strawberry);
+    color: var(--snow);*/
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     padding: 0 1.5rem 3.75rem;

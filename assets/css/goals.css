@@ -24,19 +24,19 @@
   /* =Headlines
   ----------------------------------------------- */
   .goals .item.blueberry h3 {
-    color: rgb(0, 179, 187); /* @blueberry */
+    color: var(--blueberry);
   }
   .goals .item.lime h3 {
-    color: rgb(141, 197, 75); /* @lime */
+    color: var(--lime);
   }
   .goals .item.banana h3 {
-    color: rgb(252, 209, 52); /* @banana */
+    color: var(--banana);
   }
   .goals .item.tangerine h3 {
-    color: rgb(249, 160, 51); /* @tangerine */
+    color: var(--tangerine);
   }
   .goals .item.strawberry h3 {
-    color: rgb(240, 53, 133); /* @strawberry */
+    color: var(--strawberry);
   }
   .goals .item h3 {
     margin-top: 0;
@@ -119,7 +119,7 @@
   .goals .metrics h4 {
     position: relative;
     z-index: 1;
-    background-color: rgb(249, 160, 51); /* @tangerine */
+    background-color: var(--tangerine);
     font-size: 1.25em;
     line-height: 6em;
     width: 6em;
@@ -138,53 +138,46 @@
   }
 
   .goals .tangerine .metrics {
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    background-color: rgb(229, 140, 31); /* @darker-tangerine */
-    color: rgb(254, 254, 254); /* @snow */
+    background-color: var(--tangerine);
+    color: var(--snow);
   }
   .goals .lime .metrics {
-    background-color: rgb(141, 197, 75); /* @lime */
-    background-color: rgb(121, 188, 39); /* @darker-lime */
-    color: rgb(254, 254, 254); /* @snow */
+    background-color: var(--lime);
+    color: var(--snow);
   }
   .goals .blueberry .metrics {
-    background-color: rgb(0, 179, 187); /* @blueberry */
-    color: rgb(252, 209, 52); /* @banana */
-    color: rgb(254, 254, 254); /* @snow */
+    background-color: var(--blueberry);
+    color: var(--snow);
   }
   .goals .banana .metrics {
-    background-color: rgb(252, 209, 52); /* @banana */
-    background-color: rgb(235, 174, 31); /* @darker-banana */
-    color: white ;
+    background-color: var(--banana);
+    background-color: var(--banana-darker);
+    color: var(--snow);
   }
   .goals .strawberry .metrics {
-    background-color: rgb(240, 53, 133); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
+    background-color: var(--strawberry);
+    color: var(--snow);
   }
 
   .goals .tangerine .metrics h4 {
-    background-color: rgb(255, 180, 71); /* @brighter-tangerine */
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(254, 254, 254); /* @snow */
+    background-color: var(--tangerine-very-bright);
+    color: var(--tangerine);
   }
   .goals .lime .metrics h4 {
-    background-color: rgb(161, 228, 79); /* @brighter-lime */
-    background-color: rgb(141, 197, 75); /* @lime */
-    color: rgb(254, 254, 254); /* @snow */
+    background-color: var(--lime-very-bright);
+    color: var(--lime);
   }
   .goals .blueberry .metrics h4 {
-    background-color: rgb(26, 189, 208); /* @brighter-blueberry */
-    color: rgb(252, 209, 52); /* @banana */
-    color: white ;
+    background-color: var(--blueberry-very-bright);
+    color: var(--blueberry);
   }
   .goals .banana .metrics h4 {
-    background-color: rgb(255, 214, 71); /* @brighter-banana */
-    background-color: rgb(252, 209, 52); /* @banana */
-    color: rgb(254, 254, 254); /* @snow */
+    background-color: var(--banana-very-bright);
+    color: var(--banana);
   }
   .goals .strawberry .metrics h4 {
-    background-color: rgb(255, 79, 156); /* @brighter-strawberry */
-    color: white ;
+    background-color: var(--strawberry-very-bright);
+    color: var(--strawberry);
   }
 
 

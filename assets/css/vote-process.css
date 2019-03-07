@@ -27,7 +27,7 @@ form input[type="text"] {
   border-radius: 0;
   box-sizing: border-box;
   text-align: center;
-  border: 0.1875em solid rgb(240, 53, 133); /* @strawberry */
+  border: 0.1875em solid var(--strawberry);
   border-color: rgba(0, 0, 0, 0.25);
   width: 25em;
   max-width: 100%;

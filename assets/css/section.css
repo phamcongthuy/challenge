@@ -60,9 +60,9 @@
   main > .timeline h2 {
     margin-top: 1.5em;
     margin-bottom: 0.75em;
-    color: rgb(240, 53, 133); /* @strawberry */
-    color: rgb(141, 197, 75); /* @lime */
-    color: rgb(252, 209, 52); /* @banana */
+    color: var(--strawberry);
+    color: var(--lime);
+    color: var(--banana);
   }
   main > .timeline p strong {
     color: inherit;
@@ -114,7 +114,7 @@
 
   main > .timeline dt strong,
   main > .timeline dd strong {
-    color: rgb(249, 160, 51); /* @tangerine */
+    color: var(--tangerine);
       font-weight: bold;
   }
 
@@ -189,8 +189,8 @@
   
 
   main > .steps {
-    background-color: rgb(252, 209, 52); /* @banana */
-    background-color: rgb(0, 179, 187); /* @blueberry */
+    background-color: var(--banana);
+    background-color: var(--blueberry);
     color: white;
   }
   main > .steps dl {

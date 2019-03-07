@@ -29,7 +29,7 @@ Starting **April 22, 2019** (9am Pacific Time), you can vote for the [entries](/
 
 {% elsif site.phase == 5 %}
 
-You can cast five votes, one per goal category.<br /><a href="/entries/" style="color: var(--primary-color)">Check out the entries</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
+You can cast five votes, one per goal category.<br /><a href="/entries/">Check out the entries</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
 
 <p class="action">
   <a href="{{ site.vote_url }}">I’m ready to vote</a>

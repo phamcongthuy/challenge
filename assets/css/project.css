@@ -545,15 +545,14 @@
     background: white;
     background: rgba(255, 255, 255, 0.75);
     color: black;
-    background: rgba(254, 254, 254, 0.75); /* @snow */
     background: black;
     border: 0.1875em solid black;
     background: var(--secondary-color, black);
     border: 0.1875em solid var(--secondary-color, black);
     background: var(--primary-color, black);
     border: 0.1875em solid var(--primary-color, black);
-    color: rgb(41, 41, 41); /* @midnight */
-    color: rgb(254, 254, 254); /* @snow */
+    color: var(--midnight);
+    color: var(--snow);
     padding: 0;
     width: 5em;
     line-height: 5em;
@@ -573,7 +572,7 @@
     padding: 0;
     transform: translate(-50%, -50%);
     opacity: 0.75;
-    background: rgb(254, 254, 254); /* @snow */
+    background: var(--snow);
     border-color: var(--secondary-color, black);
     color: var(--secondary-color, black);
     border-color: var(--primary-color, black);
@@ -617,7 +616,7 @@
     background: rgba(255, 255, 255, 0.75);
     color: black;
     background: var(--secondary-color, black);
-    color: rgb(254, 254, 254); /* @snow */
+    color: var(--snow);
     background: white;
     background: rgba(255, 255, 255, 0.9);
     color: var(--secondary-color, black);

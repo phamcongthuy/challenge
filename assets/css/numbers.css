@@ -4,10 +4,10 @@
   .numbers dl {
     margin-top: 3em;
     margin-bottom: 3em;
-    color: rgb(240, 53, 133); /* @strawberry */
+    color: var(--strawberry);
     text-transform: uppercase;
     text-align: center;
-    border: 0.1875rem solid rgba(240, 53, 133, 0.5); /* @strawberry */
+    border: 0.1875rem solid var(--strawberry-very-bright);
     border-left-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -17,7 +17,7 @@
     line-height: 1;
     font-style: italic;
     font-weight: bold;
-    border: 0.1875rem solid rgba(240, 53, 133, 0.5); /* @strawberry */
+    border: 0.1875rem solid var(--strawberry-very-bright);
     border-top-width: 0;
     border-bottom-width: 0;
     padding: 0.75em 0.25em 0;
@@ -29,8 +29,8 @@
     text-transform: uppercase;
     line-height: 1;
     margin-left: 0;
-    color: rgba(240, 53, 133, 0.5); /* @strawberry */
-    border: 0.1875rem solid rgba(240, 53, 133, 0.5); /* @strawberry */
+    color: var(--strawberry-bright);
+    border: 0.1875rem solid var(--strawberry-very-bright);
     border-top-width: 0;
     padding: 0.375em 0.75em 2em;
   }
@@ -43,7 +43,7 @@
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 1.5em;
-        border: 0.1875rem solid rgba(240, 53, 133, 0.5); /* @strawberry */
+        border: 0.1875rem solid var(--strawberry-very-bright);
         border-top-width: 0;
         border-right-width: 0;
         border-bottom-width: 0;
@@ -51,14 +51,14 @@
       .numbers dt {
         grid-row: 1 / 2;
         align-self: end;
-        border: 0.1875rem solid rgba(240, 53, 133, 0.5); /* @strawberry */
+        border: 0.1875rem solid var(--strawberry-very-bright);
         border-left-width: 0;
         border-bottom-width: 0;
       }
       .numbers dd {
         grid-row: 2 / 3;
         align-self: start;
-        border: 0.1875rem solid rgba(240, 53, 133, 0.5); /* @strawberry */
+        border: 0.1875rem solid var(--strawberry-very-bright);
         border-top-width: 0;
         border-left-width: 0;
       }
