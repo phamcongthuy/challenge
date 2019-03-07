@@ -149,7 +149,7 @@
     font-weight: bold;
     font-size: 0.75em;
     letter-spacing: 0.2em;
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(240, 53, 133); /* @strawberry */
     color: var(--primary-color);
   }
   .activate-tag + h2 {

@@ -8,8 +8,8 @@
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    background-color: rgb(240, 53, 133); /* @strawberry */
+    border: 0.1875em solid rgb(240, 53, 133); /* @strawberry */
     color: rgb(254, 254, 254); /* @snow */
     padding: 0.75em 1.5em;
     display: inline-block;
@@ -27,7 +27,7 @@
   .action a:active,
   .action a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(240, 53, 133); /* @strawberry */
   }
   .action svg {
     width: 1.5em;
@@ -48,7 +48,7 @@
     width: 100%;
     max-width: 25em;
     box-sizing: border-box;
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    border: 0.1875em solid rgb(240, 53, 133); /* @strawberry */
 
     /* Remove Safari’s default styles for search fields */
     -webkit-appearance: none;
@@ -57,18 +57,18 @@
   /* =Footer
   ----------------------------------------------- */
   .strawberry .action a {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    background-color: rgb(240, 53, 133); /* @strawberry */
+    border: 0.1875em solid rgb(240, 53, 133); /* @strawberry */
     color: white;
   }
   .blueberry .action a {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    border: 0.1875em solid rgb(6, 179, 188); /* @blueberry */
+    background-color: rgb(0, 179, 187); /* @blueberry */
+    border: 0.1875em solid rgb(0, 179, 187); /* @blueberry */
     color: white;
   }
   .banana .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
-    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+    background-color: rgb(252, 209, 52); /* @banana */
+    border: 0.1875em solid rgb(252, 209, 52); /* @banana */
     color: white;
   }
   .tangerine .action a {
@@ -77,13 +77,13 @@
     color: white;
   }
   .lime .action a {
-    background-color: rgb(141, 208, 59); /* @lime */
-    border: 0.1875em solid rgb(141, 208, 59); /* @lime */
+    background-color: rgb(141, 197, 75); /* @lime */
+    border: 0.1875em solid rgb(141, 197, 75); /* @lime */
     color: white;
   }
   .lime button {
-    background-color: rgb(141, 208, 59); /* @lime */
-    border: 0.1875em solid rgb(141, 208, 59); /* @lime */
+    background-color: rgb(141, 197, 75); /* @lime */
+    border: 0.1875em solid rgb(141, 197, 75); /* @lime */
     color: white;
   }
 
@@ -92,21 +92,21 @@
   .strawberry .action a:active,
   .strawberry .action a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(240, 53, 133); /* @strawberry */
   }
   .blueberry .action a.active,
   .blueberry .action a:hover,
   .blueberry .action a:active,
   .blueberry .action a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(0, 179, 187); /* @blueberry */
   }
   .banana .action a.active,
   .banana .action a:hover,
   .banana .action a:active,
   .banana .action a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(252, 209, 52); /* @banana */
   }
   .tangerine .action a.active,
   .tangerine .action a:hover,
@@ -123,7 +123,7 @@
   .lime .action a:active,
   .lime .action a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(141, 208, 59); /* @lime */
+    color: rgb(141, 197, 75); /* @lime */
   }
 
 
@@ -152,13 +152,13 @@
   }
 
   .action .strawberry a {
-    background-color: rgb(237, 59, 136); /* @strawberry */
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    background-color: rgb(240, 53, 133); /* @strawberry */
+    border: 0.1875em solid rgb(240, 53, 133); /* @strawberry */
     color: white;
   }
   .action .blueberry a {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    border: 0.1875em solid rgb(6, 179, 188); /* @blueberry */
+    background-color: rgb(0, 179, 187); /* @blueberry */
+    border: 0.1875em solid rgb(0, 179, 187); /* @blueberry */
     color: white;
   }
   .action .banana a {
@@ -172,8 +172,8 @@
     color: white;
   }
   .action .lime a {
-    background-color: rgb(141, 208, 59); /* @lime */
-    border: 0.1875em solid rgb(141, 208, 59); /* @lime */
+    background-color: rgb(141, 197, 75); /* @lime */
+    border: 0.1875em solid rgb(141, 197, 75); /* @lime */
     color: white;
   }
 
@@ -182,14 +182,14 @@
   .action .strawberry a:active,
   .action .strawberry a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(240, 53, 133); /* @strawberry */
   }
   .action .blueberry a.active,
   .action .blueberry a:hover,
   .action .blueberry a:active,
   .action .blueberry a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(0, 179, 187); /* @blueberry */
   }
   .action .banana a.active,
   .action .banana a:hover,
@@ -210,6 +210,6 @@
   .action .lime a:active,
   .action .lime a:focus {
     background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(141, 208, 59); /* @lime */
+    color: rgb(141, 197, 75); /* @lime */
   }
 

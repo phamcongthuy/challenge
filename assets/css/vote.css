@@ -139,7 +139,7 @@
     margin-top: -4.5em;
     margin-left: -4.5em;
     margin-right: -4.5em;
-    background-color: rgb(6, 179, 188);
+    background-color: rgb(0, 179, 187);
     color: rgb(254, 254, 254);
     padding: 0 4.5em 3em;
   }
@@ -349,19 +349,19 @@
     z-index: 1;
   }
   form .blueberry label .mask {
-    background: rgba(6, 179, 188, 0.5); /* @blueberry */
+    background: rgba(0, 179, 187, 0.5); /* @blueberry */
   }
   form .banana label .mask {
-    background: rgba(255, 194, 51, 0.5); /* @banana */
+    background: rgba(252, 209, 52, 0.5); /* @banana */
   }
   form .strawberry label .mask {
-    background: rgba(237, 59, 136, 0.5); /* @strawberry */
+    background: rgba(240, 53, 133, 0.5); /* @strawberry */
   }
   form .tangerine label .mask {
     background: rgba(249, 160, 51, 0.5); /* @tangerine */
   }
   form .lime label .mask {
-    background: rgba(141, 208, 59, 0.5); /* @lime */
+    background: rgba(141, 197, 75, 0.5); /* @lime */
   }
   form .category ul > li .call-to-action svg,
   form .category ul > li .pseudo-checkbox svg {
@@ -386,7 +386,7 @@
     max-width: none;
     box-sizing: border-box;
     text-align: center;
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    border: 0.1875em solid rgb(240, 53, 133); /* @strawberry */
     border-color: rgba(0, 0, 0, 0.25);
 
     /* Remove Safari’s default styles for search fields */
@@ -634,16 +634,16 @@
     display: block;
   }
   form .category .banana li a {
-    box-shadow: 0 0 1px rgba(255, 194, 51, 1); /* @banana */
+    box-shadow: 0 0 1px rgba(252, 209, 52, 1); /* @banana */
   }
   form .category .blueberry li a {
-    box-shadow: 0 0 1px rgba(6, 179, 188, 1); /* @blueberry */
+    box-shadow: 0 0 1px rgba(0, 179, 187, 1); /* @blueberry */
   }
   form .category .lime li a {
-    box-shadow: 0 0 1px rgba(141, 208, 59, 1); /* @lime */
+    box-shadow: 0 0 1px rgba(141, 197, 75, 1); /* @lime */
   }
   form .category .strawberry li a {
-    box-shadow: 0 0 1px rgba(237, 59, 136, 1); /* @strawberry */
+    box-shadow: 0 0 1px rgba(240, 53, 133, 1); /* @strawberry */
   }
   form .category .tangerine li a {
     box-shadow: 0 0 1px rgba(249, 160, 51, 1); /* @tangerine */

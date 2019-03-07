@@ -306,7 +306,7 @@
   .links .action a:hover,
   .links .action a:active,
   .links .action a:focus {
-    color: rgb(6, 179, 188);
+    color: rgb(0, 179, 187);
   }
 */
 
@@ -319,7 +319,7 @@
   }
   .links dd {
     font-weight: 600;
-    color: rgb(6, 179, 188);
+    color: rgb(0, 179, 187);
   }
   .links-more h2 {
     margin-top: 0 !important;

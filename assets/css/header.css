@@ -158,7 +158,7 @@
   ----------------------------------------------- */
   header,
   footer {
-    background-color: rgb(237, 59, 136); /* @strawberry */
+    background-color: rgb(240, 53, 133); /* @strawberry */
     color: rgb(254, 254, 254); /* @snow */
     margin-left: -1.5em;
     margin-right: -1.5em;
@@ -306,9 +306,9 @@
   header a,
   footer a {
     color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(252, 209, 52); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
-    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(252, 209, 52); /* @banana */
     color: rgb(254, 254, 254); /* @snow */
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -320,15 +320,15 @@
   footer a:hover,
   footer a:active,
   footer a:focus {
-    color: rgb(6, 179, 188); /* @blueberry */
-    color: var(--primary-color, rgb(6, 179, 188)); /* @blueberry */
+    color: rgb(0, 179, 187); /* @blueberry */
+    color: var(--primary-color, rgb(0, 179, 187)); /* @blueberry */
   }
   header .active a,
   header a:hover,
   header a:active,
   header a:focus {
     color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(252, 209, 52); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
   }
   footer a {
@@ -421,20 +421,20 @@
   }
 @supports (false) {
   header .navigation .primary strong a {
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(240, 53, 133); /* @strawberry */
   }
   .lime      header .navigation .primary strong a,
   .banana    header .navigation .primary strong a,
   .tangerine header .navigation .primary strong a {
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: rgb(240, 53, 133); /* @strawberry */
   }
   .strawberry header .navigation .primary strong a,
   .blueberry  header .navigation .primary strong a {
-    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(252, 209, 52); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
   }
   .home      header .navigation .primary strong a {
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: rgb(0, 179, 187); /* @blueberry */
     color: rgb(46, 219, 228); /* @bright-blueberry */
   }
 }
@@ -451,7 +451,7 @@
     font-size: 1.25em;
     text-transform: uppercase;
     color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(252, 209, 52); /* @banana */
     color: rgb(255, 224, 81); /* @bright-banana */
     color: rgb(254, 254, 254); /* @snow */
     line-height: 1;
@@ -500,10 +500,10 @@
   /* =Headline
   ----------------------------------------------- */
   main > h1:first-child {
-    background-color: rgb(237, 59, 136); /* @strawberry */
+    background-color: rgb(240, 53, 133); /* @strawberry */
     color: rgb(254, 254, 254); /* @snow */
     color: rgb(255, 224, 81); /* @bright-banana */
-    color: rgb(255, 194, 51); /* @banana */
+    color: rgb(252, 209, 52); /* @banana */
     color: rgb(254, 254, 254); /* @snow */
     margin-left: -1.5rem;
     margin-right: -1.5rem;
