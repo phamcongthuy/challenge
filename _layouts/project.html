@@ -49,9 +49,6 @@ stylesheets:
 {% endif %}
 {% endif %}
 
-{% assign image_url = page.project_image %}
-{% assign image_category = page.category %}
-
 <figure class="feature {% unless page.project_video != '' %} has-image{% endunless %}">
 <div data-aspect-ratio="1280/720">
 
@@ -61,10 +58,10 @@ stylesheets:
 {% if page.project_video and page.project_video != '' %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
 {% else %}
-<a href="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}">
+<a href="/assets/images/{{ page.year }}/{{ page.category }}/2048-wide/{{ page.filename }}.jpg">
 {% endif %}
 
-<img src="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}" alt="" width="500" />
+<img src="/assets/images/{{ page.year }}/{{ page.category }}/2048-wide/{{ page.filename }}.jpg" alt="" width="500" />
 
 {% if page.project_video and page.project_video != '' %}
 <span class="icon play">
@@ -228,7 +225,7 @@ stylesheets:
 {{ page.organization_activity | markdownify }}
 
 {% if page.project_is_collaboration != "No" and page.project_collaborators.size > 0 %}
-<h3>Are any other organizations collaborating on this proposal?</h3>
+<h3>Please list the organizations collaborating on this proposal.</h3>
 
 {% for collaborator in page.project_collaborators %}
 <p>{{ collaborator }}</p>
@@ -236,24 +233,26 @@ stylesheets:
 
 {% endif %}
 
-<h3>Please describe the activation your organization seeks to launch.</h3>
+<h3>Briefly tell us a story that demonstrates how your organization turns inspiration into impact.</h3>
 {{ page.project_proposal_description | markdownify }}
 
-<h3>Which of the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics will your activation impact?​</h3>
+<h3>Which of the <span style="text-transform: uppercase;">{{ page.category }}</span> metrics will your submission impact?​</h3>
 <ul>
   {% for metric in page.category_metrics %}
   <li>{{ metric }}</li>
   {% endfor %}
 </ul>
 
+{% if page.category_other and page.category_other.size > 0 %}
 <h3>Will your proposal impact any other LA2050 goal categories?</h3>
 <ul>
   {% for metric in page.category_other %}
   <li>{{ metric }}</li>
   {% endfor %}
 </ul>
+{% endif %}
 
-<h3>In what areas of Los Angeles will you be directly working?</h3>
+<h3>In which areas of Los Angeles will you be directly working?</h3>
 <ul>
   {% for area in page.project_areas %}
   <li>
@@ -267,40 +266,33 @@ stylesheets:
   {% endfor %}
 </ul>
 
-<h3>How will your activation mobilize Angelenos?</h3>
+<h3>How will your project make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span>? </h3>
+{{ page.project_proposal_best_place | markdownify }}
+
+<h3>In what stage of innovation is this project?</h3>
+{{ page.project_innovation_stage | markdownify }}
+
+<h3>Please explain how you will define and measure success for your project.</h3>
+{{ page.project_measure | markdownify }}
+
+{% if page.project_la2050_community_resources.size > 0 %}
+
+<h3>How can the LA2050 community and other stakeholders help your proposal succeed?</h3>
 <ul>
-  {% for item in page.project_proposal_mobilize %}
-  <li>
-    {{
-      item
-        | replace: "(e.g. voting, running for", ""
-        | replace: "office, community problem solving)", ""
-        | replace: "(e.g. buycott, boycott, promote", ""
-        | replace: "corporate social responsibility)", ""
-        | replace: "(e.g. change consumer spending or increase", ""
-        | replace: "conservation activity)", ""
-    }}
-  </li>
+  {% for resource in page.project_la2050_community_resources %}
+  <li>{{ resource }}</li>
   {% endfor %}
 </ul>
 
-<h3>Describe in greater detail how your activation will make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span>? </h3>
-{{ page.project_proposal_best_place | markdownify }}
-
-<h3>How will your activation engage Angelenos to make LA the best place to <span style="text-transform: uppercase;">{{ page.category }}</span></h3>
-{{ page.project_proposal_engage | markdownify }}
-
-<h3>Please explain how you will define and measure success for your activation.​</h3>
-{{ page.project_measure | markdownify }}
-
-<h3>Where do you hope this activation or your organization will be in five years?</h3>
-{{ page.project_five_years | markdownify }}
+{% endif %}
 
 </div>
 
+{% if page.application_id %}
+{% unless page.is_test_data %}{% comment %}This if statement is temporary… only to avoid setting up comments for test entries{% endcomment %}
+
 <hr />
 
-{% unless page.is_test_data %}{% comment %}This if statement is temporary… only to avoid setting up comments for test entries{% endcomment %}
 <div class="comments">
   <h2 class="comments-header">Comments</h2>
   <div id="disqus_thread"></div>
@@ -321,16 +313,20 @@ stylesheets:
     })();
 </script>  
 {% endunless %}
+{% endif %}
 
 
 </div><!-- /.proposal-in-depth -->
 
 <hr style="margin-top: 3em;" />
 
+{% if data_list.size > 2 %}
+
 <ul class="proposals more-proposals" style="margin-top: 3em;">
 
-{% assign data_collection = site.collections | where: "label", page.category | first %}
+{% assign data_collection = site.collections | where: "label", site.year | first %}
 {% assign data_list = data_collection.docs %}
+{% assign data_list = data_list | where: "category", page.category %}
 
 {% assign next_index = page.order | plus: 1 %}
 {% if next_index >= data_list.size %}
@@ -349,14 +345,19 @@ stylesheets:
       </h2>
 
       <span class="image">
-        {% assign image_url = data.project_image %}
-        {% assign image_category = data.category %}
-
-        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
-        <img src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
-        {% else %}
-        <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
-        {% endif %}
+        {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+        {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
+        <img
+          src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }}"
+          srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_filename }} 384w,
+                  /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }} 512w,
+                  /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_filename }} 768w,
+                  /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_filename }} 1024w,
+                  /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_filename }} 1536w,
+                  /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_filename }} 2048w"
+          sizes="(min-width: 50em) 40em, 100vw"
+          width="500"
+          alt="" />
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
@@ -385,14 +386,19 @@ stylesheets:
       </h2>
 
       <span class="image">
-        {% assign image_url = data.project_image %}
-        {% assign image_category = data.category %}
-
-        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
-        <img src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
-        {% else %}
-        <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
-        {% endif %}
+        {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+        {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
+        <img
+          src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }}"
+          srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_filename }} 384w,
+                  /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }} 512w,
+                  /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_filename }} 768w,
+                  /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_filename }} 1024w,
+                  /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_filename }} 1536w,
+                  /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_filename }} 2048w"
+          sizes="(min-width: 50em) 40em, 100vw"
+          width="500"
+          alt="" />
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
@@ -404,6 +410,8 @@ stylesheets:
   {% endfor %}
 
 </ul>
+
+{% endif %}
 
 {% include project-navigation.html %}
 

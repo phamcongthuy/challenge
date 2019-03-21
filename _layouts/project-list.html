@@ -65,8 +65,9 @@ The entries will appear here on <strong>April 15, 2019</strong>.
 
 {% if page.category %}
 
-{% assign data_collection = site.collections | where: "label", page.category | first %}
+{% assign data_collection = site.collections | where: "label", site.year | first %}
 {% assign data_list = data_collection.docs %}
+{% assign data_list = data_list | where: "category", page.category %}
 
 {% else %}
 
@@ -74,28 +75,8 @@ The entries will appear here on <strong>April 15, 2019</strong>.
 https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 {% endcomment %}
 
-{% assign data_collection = site.collections | where: "label", "learn" | first %}
+{% assign data_collection = site.collections | where: "label", site.year | first %}
 {% assign data_list = data_collection.docs %}
-
-{% assign data_collection = site.collections | where: "label", "create" | first %}
-{% for item in data_collection.docs %}
-  {% assign data_list = data_list | push: item %}
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "play" | first %}
-{% for item in data_collection.docs %}
-  {% assign data_list = data_list | push: item %}
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "connect" | first %}
-{% for item in data_collection.docs %}
-  {% assign data_list = data_list | push: item %}
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "live" | first %}
-{% for item in data_collection.docs %}
-  {% assign data_list = data_list | push: item %}
-{% endfor %}
 
 {% endif %}
 
@@ -158,9 +139,19 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
     <a href="{{ data.url }}">
       <span class="image" {% if data.project_image_color %}
         style="background-color: {{ data.project_image_color }}"{% endif %}>
-        {% assign image_url = data.project_image %}
-        {% assign image_category = data.category %}
-        <img src="/assets/images/{{ image_category }}/512-wide/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide/{{ image_url }} 2048w" sizes="(min-width: 60em) 50vw, 100vw" width="500" alt="" />
+        {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+        {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
+        <img
+          src="/assets/images/{{ image_category }}/512-wide/{{ image_filename }}"
+          srcset="/assets/images/{{ image_category }}/384-wide/{{ image_filename }} 384w, 
+                  /assets/images/{{ image_category }}/512-wide/{{ image_filename }} 512w, 
+                  /assets/images/{{ image_category }}/768-wide/{{ image_filename }} 768w, 
+                  /assets/images/{{ image_category }}/1024-wide/{{ image_filename }} 1024w, 
+                  /assets/images/{{ image_category }}/1536-wide/{{ image_filename }} 1536w, 
+                  /assets/images/{{ image_category }}/2048-wide/{{ image_filename }} 2048w" 
+          sizes="(min-width: 60em) 50vw, 100vw"
+          width="500"
+          alt="" />
       </span>
       <span class="text">
         {% if page.winners %}
@@ -233,14 +224,21 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
   <li class="{{ data.category }}">
     <a href="{{ data.url }}">
       <span class="image">
-        {% assign image_url = data.project_image %}
-        {% assign image_category = data.category %}
+        {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+        {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
 
-        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
-        <img src="/assets/images/blank.png" data-src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
-        {% else %}
-        <img src="/assets/images/blank.png" data-src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" data-srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 45em) 20em, 100vw" width="500" alt="" />
-        {% endif %}
+        <img
+          src="/assets/images/blank.png"
+          data-src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }}"
+          data-srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_filename }} 384w, 
+                       /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }} 512w, 
+                       /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_filename }} 768w, 
+                       /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_filename }} 1024w, 
+                       /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_filename }} 1536w, 
+                       /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_filename }} 2048w"
+          sizes="(min-width: 45em) 20em, 100vw"
+          width="500"
+          alt="" />
       </span>
       <p class="organization">{{ data['organization_name'] }}</p>
       <h3>{{ data['title'] }}</h3>

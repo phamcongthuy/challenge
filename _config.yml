@@ -11,6 +11,7 @@ submission_url: https://challengela2050.smapply.io
 # Our form:
 vote_url: /vote/form/
 
+year: 2019
 
 # New challenge announced: 
 # January 8
@@ -232,31 +233,6 @@ defaults:
       layout: default
   - scope:
       path: ""
-      type: learn
+      type: "2019"
     values:
       layout: project
-      body_class: blueberry
-  - scope:
-      path: ""
-      type: create
-    values:
-      layout: project
-      body_class: banana
-  - scope:
-      path: ""
-      type: play
-    values:
-      layout: project
-      body_class: strawberry
-  - scope:
-      path: ""
-      type: connect
-    values:
-      layout: project
-      body_class: tangerine
-  - scope:
-      path: ""
-      type: live
-    values:
-      layout: project
-      body_class: lime
