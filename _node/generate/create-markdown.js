@@ -208,6 +208,14 @@ function createMarkdownFile(data) {
   data.project_video = data.project_video.replace('watch', 'embed');
   */
 
+  // TEMPORARY: The project video and newsletter fields might be mixed up
+  // https://stackoverflow.com/questions/6680825/return-string-without-trailing-slash#6680877
+  if (!data.link_newsletter && data.project_video && data.project_video != "" && data.project_video.replace(/\/$/, "") == data.organization_website.replace(/\/$/, "")) {
+    data.link_newsletter = data.project_video;
+    data.project_video = "";
+  }
+  if (!data.project_video) data.project_video = '';
+
   data.filename = filename;
   data.order = orderCursors[data.category]++;
 
@@ -263,7 +271,7 @@ function createMarkdownFile(data) {
   // }
 
   // console.dir(data);
-  let writePath = '../_' + data.category; // Example: _/connect
+  let writePath = '../_' + data.year + '/' + data.category; // Example: _/2019/connect
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
   let output =

@@ -11,7 +11,7 @@ project_description: >-
   youth ages 13-19, most of which are in foster care.
 organization_name: Lost Angels Children's Project
 organization_description: Non-profit organization
-link_newsletter: 'https://www.lostangelscp.org'
+project_video: ''
 organization_website: 'https://www.lostangelscp.org'
 organization_twitter: '@LostAngelsCP'
 organization_facebook: '@lostangelscp'
@@ -104,6 +104,7 @@ category_other:
   - LA is the best place to PLAY
 year: 2019
 category: learn
+link_newsletter: 'https://www.lostangelscp.org'
 filename: lost-angels-childrens-project
 order: 0
 

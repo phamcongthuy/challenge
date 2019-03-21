@@ -11,7 +11,7 @@ project_description: >-
   service, and more.
 organization_name: The Editorialist LA
 organization_description: For-profit organization
-link_newsletter: 'https://www.theeditorialistla.com/'
+project_video: ''
 organization_website: 'https://www.theeditorialistla.com'
 organization_twitter: '@editorialistla'
 organization_facebook: facebook.com/editorialistla
@@ -106,6 +106,7 @@ category_other:
   - LA is the healthiest place to LIVE
 year: 2019
 category: connect
+link_newsletter: 'https://www.theeditorialistla.com/'
 filename: the-editorialist-la
 order: 1
 

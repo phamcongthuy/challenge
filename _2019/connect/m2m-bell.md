@@ -125,6 +125,7 @@ category_other:
   - LA is the healthiest place to LIVE
 year: 2019
 category: connect
+project_video: ''
 filename: m2m-bell
 order: 0
 

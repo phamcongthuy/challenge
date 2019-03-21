@@ -11,7 +11,7 @@ project_description: >-
   communities to help with collection.
 organization_name: Los Angeles Conservation Corps
 organization_description: Non-profit organization
-link_newsletter: 'https://www.lacorps.org/'
+project_video: ''
 organization_website: 'https://www.lacorps.org'
 organization_twitter: '@LACorps'
 organization_facebook: 'https://www.facebook.com/LACorps/'
@@ -86,6 +86,7 @@ category_metrics:
 category_other: []
 year: 2019
 category: live
+link_newsletter: 'https://www.lacorps.org/'
 filename: los-angeles-conservation-corps
 order: 0
 

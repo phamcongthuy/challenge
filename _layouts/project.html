@@ -49,9 +49,6 @@ stylesheets:
 {% endif %}
 {% endif %}
 
-{% assign image_url = page.project_image %}
-{% assign image_category = page.category %}
-
 <figure class="feature {% unless page.project_video != '' %} has-image{% endunless %}">
 <div data-aspect-ratio="1280/720">
 
@@ -61,10 +58,10 @@ stylesheets:
 {% if page.project_video and page.project_video != '' %}
 <a href="{{ page.project_video }}" target="_blank" class="has-icon">
 {% else %}
-<a href="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}">
+<a href="/assets/images/{{ page.year }}/{{ page.category }}/2048-wide/{{ page.filename }}.jpg">
 {% endif %}
 
-<img src="/assets/images/{{ page.category }}/2048-wide/{{ image_url }}" alt="" width="500" />
+<img src="/assets/images/{{ page.year }}/{{ page.category }}/2048-wide/{{ page.filename }}.jpg" alt="" width="500" />
 
 {% if page.project_video and page.project_video != '' %}
 <span class="icon play">
@@ -323,10 +320,13 @@ stylesheets:
 
 <hr style="margin-top: 3em;" />
 
+{% if data_list.size > 2 %}
+
 <ul class="proposals more-proposals" style="margin-top: 3em;">
 
-{% assign data_collection = site.collections | where: "label", page.category | first %}
+{% assign data_collection = site.collections | where: "label", site.year | first %}
 {% assign data_list = data_collection.docs %}
+{% assign data_list = data_list | where: "category", page.category %}
 
 {% assign next_index = page.order | plus: 1 %}
 {% if next_index >= data_list.size %}
@@ -345,14 +345,19 @@ stylesheets:
       </h2>
 
       <span class="image">
-        {% assign image_url = data.project_image %}
-        {% assign image_category = data.category %}
-
-        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
-        <img src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
-        {% else %}
-        <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
-        {% endif %}
+        {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+        {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
+        <img
+          src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }}"
+          srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_filename }} 384w,
+                  /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }} 512w,
+                  /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_filename }} 768w,
+                  /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_filename }} 1024w,
+                  /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_filename }} 1536w,
+                  /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_filename }} 2048w"
+          sizes="(min-width: 50em) 40em, 100vw"
+          width="500"
+          alt="" />
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
@@ -381,14 +386,19 @@ stylesheets:
       </h2>
 
       <span class="image">
-        {% assign image_url = data.project_image %}
-        {% assign image_category = data.category %}
-
-        {% if data.plan_id %}{% comment %}This if statement is temporary… for test entries{% endcomment %}
-        <img src="https://2016-challenge.la2050.org/assets/images/entries/custom540/{{ image_url }}" width="500" alt="" />
-        {% else %}
-        <img src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }}" srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_url }} 384w, /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_url }} 512w, /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_url }} 768w, /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_url }} 1024w, /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_url }} 1536w, /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_url }} 2048w" sizes="(min-width: 50em) 40em, 100vw" width="500" alt="" />
-        {% endif %}
+        {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+        {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
+        <img
+          src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }}"
+          srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_filename }} 384w,
+                  /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }} 512w,
+                  /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_filename }} 768w,
+                  /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_filename }} 1024w,
+                  /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_filename }} 1536w,
+                  /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_filename }} 2048w"
+          sizes="(min-width: 50em) 40em, 100vw"
+          width="500"
+          alt="" />
       </span>
 
       <p class="organization">{{ data['organization_name'] }}</p>
@@ -400,6 +410,8 @@ stylesheets:
   {% endfor %}
 
 </ul>
+
+{% endif %}
 
 {% include project-navigation.html %}
 
