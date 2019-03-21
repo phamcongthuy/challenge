@@ -1,4 +1,5 @@
 ---
+application_id: '5962365920'
 title: Food waste prevention program
 project_description: >-
   Los Angeles Conservation Corps has operated a recycling program for more than
@@ -41,7 +42,7 @@ project_proposal_best_place: >-
   The Corps collects tons of food waste per week from dozens of supermarkets,
   convenience stores, and restaurants. Edible food is distributed by MEND to
   help feed 30,000 people in need per month in the San Fernando Valley. Inedible
-  foodstuffs go to Kroger's anaerobic digester in Compton for conversion to
+  foodstuffs go to Kroger’s anaerobic digester in Compton for conversion to
   renewable biogas or to LA Compost for use in community gardens. Nothing goes
   to landfill.
    
@@ -55,12 +56,7 @@ project_proposal_best_place: >-
    
    
    
-  The program's metrics include tonnage of food collected from donors and thus
-  diverted from landfill, tonnage of edible food distributed to people in need,
-  number of people served, tonnage of food waste composted or anaerobically
-  digested. Each month, MEND serves 2,540 clients onsite and 18,520 through
-  offsite distribution, and the Corps’ contribution enables service of 10,000
-  more per month.
+   The program’s metrics include tonnage of food collected from donors and thus diverted from landfill, tonnage of edible food distributed to people in need, number of people served, tonnage of food waste composted or anaerobically digested. Each month, MEND serves 2,540 clients onsite and 18,520 through offsite distribution, and the Corps’ contribution enables service of 10,000 more per month.
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -85,11 +81,12 @@ mailing_address_street: 1400 North Spring Street
 mailing_address_city: Los Angeles
 mailing_address_state: California
 mailing_address_zip: '90012'
-category_metrics: []
+category_metrics:
+  - Access to healthy food
 category_other: []
 year: 2019
 category: live
 filename: los-angeles-conservation-corps
-order: 3
+order: 0
 
 ---

@@ -36,7 +36,9 @@ function stringToURI(str) {
     .replace(/\-\-/g, '-')
     .replace(/^\-/g, '') // Remove starting dash
     .replace(/\-$/g, '') // Remove trailing dash
-    .replace(' ', '');
+    .replace(/ /, '') // Remove empty spaces
+    .replace(/ /, '') // Remove empty spaces
+    .trim();
 }
 
 function getArrayFromString(string) {
@@ -53,10 +55,10 @@ function getArrayFromString(string) {
     .replace(/\['/g, '["')
     .replace(/'\]/g, '"]');
   //string = `${string}`.replace(/'/g, '"');
-  console.log('parsing JSON string: ' + string);
-  console.log('');
-  console.log('');
-  console.log('');
+  // console.log('parsing JSON string: ' + string);
+  // console.log('');
+  // console.log('');
+  // console.log('');
   return JSON.parse(string);
 }
 
@@ -70,12 +72,12 @@ function getRandomInt(min, max) {
 
 function mapAllColumnNames(data) {
   let columnNamesMap = {
-    '? missing' : 'application_id',
+      'Application id': 'application_id',
       'Project Title': 'title',
       '2. In one to three sentences, please succinctly describe the project or activities your organization would like support for:': 'project_description',
       'Organization Details: | Organization name: *' : 'organization_name',
       'Describe your organization(s):': 'organization_description',
-    '? missing' : 'project_video',
+      'Enter your video URL here:' : 'project_video',
       'Please share the direct link(s) for people to sign up for your newsletter(s):': 'link_newsletter',
       'How can people reach your organization online? | Organization(s) website(s):': 'organization_website',
       'How can people reach your organization online? | Organization(s) Twitter handle(s):': 'organization_twitter',
@@ -91,7 +93,7 @@ function mapAllColumnNames(data) {
       'learn7': 'project_proposal_best_place',
       'live7': 'project_proposal_best_place',
       'play7': 'project_proposal_best_place',
-      "15. LA2050 will serve as a partner on this project. Which of LA2050's resources will be of the most value to you?": 'project_la2050_community_resources',
+      '15. LA2050 will serve as a partner on this project. Which of LA2050’s resources will be of the most value to you?': 'project_la2050_community_resources',
       "6. In what stage of innovation is this project?": 'project_innovation_stage',
       'Please list the organizations collaborating on this proposal:': 'project_collaborators',
       '12. Please explain how you will define and measure success for your project.*' : 'project_measure',
@@ -110,7 +112,7 @@ function mapAllColumnNames(data) {
       'Organization Details: | City:': 'mailing_address_city',
       'Organization Details: | State:': 'mailing_address_state',
       'Organization Details: | ZIP:': 'mailing_address_zip',
-      'Q4_Goal_Category': 'category'
+      'Application label': 'category',
   }
 
   for (let name in columnNamesMap) {
@@ -126,13 +128,18 @@ function mapAllColumnNames(data) {
 
 }
 
-function createMarkdownFile(data, category) {
+function createMarkdownFile(data) {
+
+  if (data["Current stage"] !== "Moderation Process") return;
 
   mapAllColumnNames(data);
 
   console.log('createMarkdownFile for ' + data.organization_name);
 
   let filename = stringToURI(data.organization_name);
+  
+  data.title = data.title.trim();
+  data.organization_name = data.organization_name.trim();
 
   // Page title
   //data.title = data.title + ' — My LA2050 Grants Challenge';
@@ -163,22 +170,29 @@ function createMarkdownFile(data, category) {
 
   data.year = 2019;
 
-  if (data.category.toLowerCase().includes('connect')) {
-    delete data.category;
-    data.category = "connect";
-  } else if (data.category.toLowerCase().includes('play')) {
-    delete data.category;
-    data.category = "play";
-  } else if (data.category.toLowerCase().includes('learn')) {
-    delete data.category;
-    data.category = "learn";
-  } else if (data.category.toLowerCase().includes('live')) {
-    delete data.category;
-    data.category = "live";
-  } else if (data.category.toLowerCase().includes('create')) {
-    delete data.category;
-    data.category = "create";
-  }
+  // OPTIONAL: Move category to the bottom
+  let category = data.category.toLowerCase()
+  delete data.category
+  data.category = category
+
+  // if (!data.category) data.category = 'connect';
+  // 
+  // if (data.category.toLowerCase().includes('connect')) {
+  //   delete data.category;
+  //   data.category = "connect";
+  // } else if (data.category.toLowerCase().includes('play')) {
+  //   delete data.category;
+  //   data.category = "play";
+  // } else if (data.category.toLowerCase().includes('learn')) {
+  //   delete data.category;
+  //   data.category = "learn";
+  // } else if (data.category.toLowerCase().includes('live')) {
+  //   delete data.category;
+  //   data.category = "live";
+  // } else if (data.category.toLowerCase().includes('create')) {
+  //   delete data.category;
+  //   data.category = "create";
+  // }
   
   // if (!category) category = data.category.toLowerCase();
   // data.category = category;
@@ -195,10 +209,19 @@ function createMarkdownFile(data, category) {
   */
 
   data.filename = filename;
-  data.order = orderCursors[category]++;
+  data.order = orderCursors[data.category]++;
+
   // if (!data.project_image) data.project_image = '/assets/images/' + category + '/' + filename + '.jpg';
 
   let toDelete = [
+    'Application name',
+    'Application state',
+    'Application status',
+    'Awarded',
+    'Q4_Goal_Category',
+    'Current stage',
+    'Moderation Decision',
+    'What is your organization’s annual operating budget?*',
     `13. Please include a detailed line-item budget describing how you will use the grant funding to implement your project or activities.`,
     'How can people reach these organizations online? | Organization(s) Facebook page(s):',
     'How can people reach these organizations online? | Organization(s) Instagram username(s):',
@@ -207,6 +230,16 @@ function createMarkdownFile(data, category) {
     `How did you hear about this challenge?`,
     'If yes, how many collaborators are involved in this proposal?',
     'Is this proposal a collaboration?',
+    'ABOUT YOU * | Your phone number:',
+    'ABOUT YOU * | Your name:',
+    'ABOUT YOU * | Your phone number:',
+    'ABOUT YOU * | Your email:',
+    '10. Please list at least one major barrier, challenge, or opposing group(s) you anticipate facing. What is your strategy for overcoming this? *',
+    '11. Are there other organizations doing similar work (whether complementary or competitive) and what differentiates yours? *',
+    '14. If your proposal will cost more than the amount requested, how will you cover the additional costs?*',
+    '9. If you are submitting a collaborative proposal, please describe the role of partner organization/s in the project.*',
+    'How large is your organization?*',
+    'Has your organization previously applied for a My LA2050 grant? Check all that apply*',
     'learn_metrics',
     'create_metrics',
     'play_metrics',
@@ -223,7 +256,13 @@ function createMarkdownFile(data, category) {
     delete data[name];
   })
 
-  console.dir(data);
+  // const applicationIDs = {
+  //   'Los Angeles Conservation Corps': '5962365920',
+  //   `Lost Angels Children's Project`: '2827931015',
+  // 
+  // }
+
+  // console.dir(data);
   let writePath = '../_' + data.category; // Example: _/connect
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
@@ -274,13 +313,21 @@ function fixDataCharactersInString(string) {
     .replace(/Â½/g, '½')
     .replace(/Ãœ/g, 'Ü')
     .replace(/Ã±/g, 'ñ')
+    .replace(/Â/g, '')
   return string;
 }
 
 function fixDataCharacters(data) {
   for (let prop in data) {
-    if (typeof(data[prop]) === 'string') {
-      data[prop] = fixDataCharactersInString(data[prop]);
+    if (data.hasOwnProperty(prop)) {
+      if (typeof(data[prop]) === 'string') {
+        data[prop] = fixDataCharactersInString(data[prop]);
+      }
+      let fixedPropName = fixDataCharactersInString(prop);
+      if (prop !== fixedPropName) {
+        data[fixedPropName] = data[prop];
+        delete data[prop];
+      }
     }
   }
 
@@ -301,9 +348,10 @@ function generateCollections(file_name, category) {
   return records;
 }
 
+generateCollections('entries.csv');
 
 // generateCollections('learn.csv', 'learn');
 // generateCollections('create.csv', 'create');
 // generateCollections('play.csv', 'play');
-generateCollections('connect.csv', 'connect');
+// generateCollections('connect.csv', 'connect');
 // generateCollections('live.csv', 'live');

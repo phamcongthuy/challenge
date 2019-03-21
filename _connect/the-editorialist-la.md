@@ -1,4 +1,5 @@
 ---
+application_id: '6351075943'
 title: The Editorialist LA
 project_description: >-
   I have already established a successful business with an audience of more than
@@ -106,6 +107,6 @@ category_other:
 year: 2019
 category: connect
 filename: the-editorialist-la
-order: 0
+order: 1
 
 ---
