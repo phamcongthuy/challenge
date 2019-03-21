@@ -4,3 +4,5 @@ hide_from_search_engines: true
 # Entries being accepted: 
 # February 28
 phase: 2
+
+show_early_entries: true

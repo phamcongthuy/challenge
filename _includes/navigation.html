@@ -1,7 +1,7 @@
 <div class="navigation">
 
 {% assign navigation_items_count = 5 %}
-{% if site.phase >= 4 %}
+{% if site.phase >= 4 or site.show_early_entries %}
   {% assign navigation_items_count = 6 %}
 {% endif %}
 {% if site.phase >= 7 %}
@@ -18,7 +18,7 @@
   {% if site.phase >= 7 %}
   <li {% if page.url contains '/finalists' %} class="active" {% endif %}><a href="/finalists/">Finalists</a></li>
   {% endif %}
-  {% if site.phase >= 4 %}
+  {% if site.phase >= 4 or site.show_early_entries %}
   <li {% if page.url contains '/entries' %}   class="active" {% endif %}><a href="/entries/">Entries</a></li>
   {% endif %}
   <li {% if page.url contains '/submit' %}    class="active" {% endif %}><a href="/submit/">Submit</a></li>
