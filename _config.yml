@@ -29,25 +29,6 @@ phase: 2
 # Entries shown on the website: 
 # April 15
 # phase: 4
-# NOTE: If you switch to “phase: 4”, you’ll also want to
-# uncomment the “collections” so the entry pages will appear.
-
-# collections:
-#   learn:
-#     output: true
-#     permalink: /learn/:path/
-#   create:
-#     output: true
-#     permalink: /create/:path/
-#   play:
-#     output: true
-#     permalink: /play/:path/
-#   connect:
-#     output: true
-#     permalink: /connect/:path/
-#   live:
-#     output: true
-#     permalink: /live/:path/
 
 # Votes being accepted: 
 # April 22
