@@ -54,7 +54,6 @@ project_proposal_description: >-
 project_areas:
   - Central LA
   - Our project has an LA beginning and will then reach teachers nationwide.
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -79,6 +78,56 @@ mailing_address_street: '444 Larchmont Boulevard #207'
 mailing_address_city: Los Angeles
 mailing_address_state: California
 mailing_address_zip: '90027'
+project_proposal_best_place: >-
+  Larchmont Charter School has begun the strategic development of a multi-tier
+  support system to reach each of the 1451 students currently enrolled in our
+  K-12 school. We need to expand our program to fully turn the philosophy and
+  protocols of this model into a codified, scalable, learning system. Educators,
+  leaders, and board members of Larchmont Charter School believe that every
+  child arrives with different cultural influences and deserves the right to
+  progress with through systems of inclusion rather than systems that
+  discriminate against minorities, those with learning differences, language
+  barriers, or the effects of poverty. All students are met respectfully in our
+  classrooms, with curriculum appropriate for their level, but the need for a
+  strategic, articulated, codified system citing how educators assess each
+  learner, at all grade levels and across four geographically and
+  demographically different campuses and then how educators will offer each
+  student the appropriate universal design for instruction are the core goals
+  this grant will allow us to achieve. We seek to provide this tool not only to
+  our own faculty but also to other educators of diverse groups of students who
+  seek the success this model allows for their own learning communities.
+   
+   
+   
+   The Larchmont Model Teacher Initiative will develop the elements of the model and train current faculty. It will then further scale the model for success K-12. Once the model is fully documented, a plan to educate other teachers nationwide in how to implement the model will begin. We respectfully request funding from The Goldhirsh Foundation to embark on a 2-year plan to codify our system and educate as many teachers as possible, starting with those in Los Angeles. This plan allows both Larchmont Charter School and Los Angeles to be leaders in this field, and help define a progressive system of diverse-by-design education that succeeds, especially in assisting students from low-income families, students with learning differences and special needs, and English learners.
+   
+   
+   
+   Year 1 Timeline:
+   
+   -Deploy grade-level coordinators to collect best practices in The Larchmont Model (such as social and emotional training tools, eco-literacy, Whole-Child Check-in, and more.
+   
+   -Develop and codify the elements of The Larchmont Model at all grade levels
+   
+   -Write and edit the model as a publishable document
+   
+   -Plan, write, and execute survey system with metrics.
+   
+   -Train Larchmont Charter School faculty at all grade levels so competencies, expectations, and outcomes are clear.
+   
+   
+   
+   
+   
+   Year 2
+   
+   -Continue training (new) faculty and refining model
+   
+   -Plan and execute workshops and culminating symposium.
+   
+   -Plan and execute marketing plan to publicize workshops and symposia
+   
+   -Survey participants and modify/define documents.
 category_metrics:
   - College matriculation rates
   - Students’ perceived sense of safety at and on the way to school

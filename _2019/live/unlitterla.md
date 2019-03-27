@@ -61,7 +61,6 @@ project_areas:
     County of Los Angeles (please select only if your project has a countywide
     benefit)
   - Areas within several miles of LA Metro subway and light rail
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -121,6 +120,51 @@ mailing_address_street: 5528 Fairview Place
 mailing_address_city: Agoura Hills
 mailing_address_state: California
 mailing_address_zip: '91301'
+project_proposal_best_place: >-
+  Over 160 3-4 mile walking routes will be simultaneously cleaned by teams of
+  4-10 volunteers on a single event day. Volunteers register and receive
+  supplies at an initial kick-off event in DTLA, then travel to their assigned
+  Metro station, where their route is based. Four or five hours later, nearly
+  650 miles of streets will have been “unlittered.” Using GPS and mobile mapping
+  systems, volunteers will have access to data such as restroom locations, trash
+  bag drop locations, and realtime location on cleanup routes. Coordination with
+  city/county sanitation departments and private trash collection firms will
+  ensure that bagged litter is promptly removed. Sponsors and grant sources will
+  provide funding and in-kind contributions of volunteer supplies, promotional
+  items, and marketing of the event. A key strategy is to maximize exposure via
+  social, broadcast, print, and online media to drive home the cultural change
+  message that our residents care enough to come out and clean up, and that we
+  should be more careful to avoid littering in the future. This effort serves
+  all residents of the region, both directly through improving the quality of
+  our surroundings, and indirectly by helping reduce harmful impacts on
+  waterways. Additionally promoting a spirit of a “clean LA” benefits the future
+  of the city. 
+   
+   
+   
+   Mar-June 2019 - Coordinate participation from LA City, LA Metro, other cities
+   
+   May-July 2019 - Establish cooperation with trash collection organizations
+   
+   Jan-Aug 2019 - Develop and test technology systems, including mapping, volunteer sign-up, route grouping, and event sign-in
+   
+   May 2019 - Begin PR & promotion of (likely) September event date
+   
+   May-Aug 2019 - Secure sponsorships for supplies, funds
+   
+   Jul-Aug 2019 - Obtain supplies, shirts, promo items, etc.
+   
+   Jul-Aug 2019 - Plan kickoff event and “after party” event.
+   
+   Aug-Sept 2019 - Open volunteer sign-ups / Awareness survey
+   
+   Sept 2019 - UnlitterLA 2019 Event - date TBD
+   
+   Oct 2019 - Followup and review / Awareness survey / Outline 2020 plan
+   
+   
+   
+   UnlitterLA will track the amount of litter collected (by bags/pounds) and the total amount of Southland streets cleaned. For succeeding events, we intend to reach areas currently not included in the first year. Associated partner organizations, such as CleanStreetsLA and Heal The Bay will be asked to quantify the positive effects of this effort on metrics they regularly assess. Our social media efforts will include surveying impacted members of the population what about the event and its affect on them. The high-visibility objective of the project is designed to cause a cultural change, resulting in a measurable improvement in street litter levels, to be quantified by partner cities and sanitation departments. LA is already a great place to LIVE, and we will be making quantifiable steps to help it become the BEST PLACE.
 category_metrics:
   - Acres and miles of polluted waterways
   - Resilient communities

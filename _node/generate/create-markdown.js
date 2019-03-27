@@ -100,7 +100,7 @@ function getRandomInt(min, max) {
 }
 
 function mapAllColumnNames(data) {
-  let columnNamesMap = {
+  const columnNamesMap = {
       'Application id': 'application_id',
       'Project Title': 'title',
       '2. In one to three sentences, please succinctly describe the project or activities your organization would like support for:': 'project_description',
@@ -117,11 +117,6 @@ function mapAllColumnNames(data) {
       '1. In one to two sentences, please describe the mission of your organization:': 'organization_activity',
       '8. Briefly tell us a story that demonstrates how your organization turns inspiration into impact.': 'project_proposal_description',
       '5. In which areas of Los Angeles will you be directly working?': 'project_areas',
-      'connect7': 'project_proposal_best_place',
-      'create7': 'project_proposal_best_place',
-      'learn7': 'project_proposal_best_place',
-      'live7': 'project_proposal_best_place',
-      'play7': 'project_proposal_best_place',
       '15. LA2050 will serve as a partner on this project. Which of LA2050’s resources will be of the most value to you?': 'project_la2050_community_resources',
       "6. In what stage of innovation is this project?": 'project_innovation_stage',
       'Please list the organizations collaborating on this proposal:': 'project_collaborators',
@@ -148,6 +143,37 @@ function mapAllColumnNames(data) {
     if (columnNamesMap.hasOwnProperty(name)) {
       if (data[name] !== undefined) {
         data[columnNamesMap[name]] = data[name];
+      }
+    }
+  }
+
+  for (let name in columnNamesMap) {
+    if (columnNamesMap.hasOwnProperty(name)) {
+      if (data[name] !== undefined) {
+        delete data[name];
+      }
+    }
+  }
+
+  const bestPlaceMap = {
+    'connect7': 'project_proposal_best_place',
+    'create7': 'project_proposal_best_place',
+    'learn7': 'project_proposal_best_place',
+    'live7': 'project_proposal_best_place',
+    'play7': 'project_proposal_best_place'
+  }
+
+  for (let name in bestPlaceMap) {
+    if (bestPlaceMap.hasOwnProperty(name)) {
+      if (data[name] !== undefined && data[name] != '') {
+        data[bestPlaceMap[name]] = data[name];
+      }
+    }
+  }
+
+  for (let name in bestPlaceMap) {
+    if (bestPlaceMap.hasOwnProperty(name)) {
+      if (data[name] !== undefined) {
         delete data[name];
       }
     }

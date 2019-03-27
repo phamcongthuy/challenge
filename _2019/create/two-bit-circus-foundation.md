@@ -51,7 +51,6 @@ project_proposal_description: >-
    2BCF has completed mergers with two community-based organizations that will remain as Divisions within 2BCF. Imagination Foundation (IF), which grew out of “Caine’s Arcade,” finds, fosters and funds creativity and entrepreneurship in children around the world and LA Makerspace (LAM) with a mission to ensure equitable access to the technical knowledge, digital literacy, and problem-solving skills. 2BCF has now embarked on its newest mission to bring the benefits of its STEAM Lab Makerspace into the community-at-large through the public library system.
 project_areas:
   - Central LA
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -80,6 +79,35 @@ mailing_address_street: 12815 S. Western Ave.
 mailing_address_city: Gardena
 mailing_address_state: California
 mailing_address_zip: '90249'
+project_proposal_best_place: >-
+  According to US data, over 50% of today's jobs require some degree of
+  technology skills, which experts say will increase to 77% in the next decade.
+  Yet, LA has the nation's 5th largest job skills gap, primarily in technology.
+  For adults who need to stay current, and students preparing for the future,
+  innovation is the most important prerequisite. Makerspaces, with their freedom
+  to experiment and share skills, have long been innovation hubs in the tech
+  community. We now have an opportunity to export Makerspaces to the community
+  via the library system.
+   
+   
+   
+   With no library Makerspaces available in either the City or County public library system, 2BCF proposes to launch the first dedicated Makerspace in a Los Angeles City public library at the Pio Pico Koreatown Library. With support from LA2050, over 6 months, 3,000 sq. ft. of space would be built out, furnished, equipped with 3D printers, and supplied with 2BCF recycled materials. The Workshop schedule would include such topics as: Open Making Hours, Coding in Minecraft, Intro to Coding for Adults, Circuit Bending Music, Little Makers (2-4 year olds), and Citizen Science. Program effectiveness will be measured by pre-then-post surveys conducted at every workshop series.
+   
+   
+   
+   Pio Pico Library is located in Koreatown, fifteen minutes from downtown Los Angeles and near the Koreatown/Western Station metro stop. Its population is 53.5% Latino, with a median household income 45% lower than the city's. The library is surrounded by numerous public and private elementary, middle and high schools. 
+   
+   
+   
+   2BCF’s Makerspace division has offered free, family-friendly maker workshops to the public at various Los Angeles Public Library branches since 2014, while training library staff to develop and execute their own maker events.
+   
+   
+   
+   Pio Pico's free family Makerspace will support intergenerational and diverse learners, giving multicultural families a welcoming, safe space to explore new technologies and develop their skills and projects. With support of experienced Makers, users will develop important “soft skills” that are key to success in the workplace and entrepreneurship, as well as daily life. Opening access to advanced technologies will encourage users to develop badly-needed STEAM workforce skills and pursue entrepreneurial goals. 
+   
+   
+   
+   The Pio Pico Makerspace will: 1) introduce adults to technology in a self-empowering atmosphere with real-world relevance; 2) provide opportunities for students in underserved schools to enhance their creative and critical thinking skills outside of the classroom; and, 3) in the most ethnically diverse city in the nation, allow residents of varied backgrounds to have multi-cultural conversations, fostering understanding on more contentious city-wide issues. But, most important, the Pio Pico Makerspace is a democratization of knowledge, a reaffirmation of our society's commitment to universal knowledge through the public library system.
 category_metrics:
   - Employment in the creative industries
   - Minority- and women-owned firms

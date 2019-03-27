@@ -52,7 +52,6 @@ project_areas:
   - >-
     City of Los Angeles (please select only if your project has a citywide
     benefit)
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -111,6 +110,38 @@ mailing_address_street: '3110 Main Street, Building C'
 mailing_address_city: Santa Monica
 mailing_address_state: California
 mailing_address_zip: '90405'
+project_proposal_best_place: |-
+  Project Execution and Timeline
+   
+   - Gladeo League Recruitment (4 weeks): Work with the career services department of LA’s community colleges to select 12 interns to join our Gladeo League: 8 Video Producers, 4 Reporters 
+   
+   - Gladeo League Training (3-4 weeks): They will be mentored by LA professionals working in broadcast journalism and film/video production. From Spectrum News 1, Twentieth Century Fox/Disney, KTLA and Dentsu Aegis Network. 
+   
+   - Content to be created: 24 Inspirational Career videos, 24 Accompanying Comprehensive Career Profiles
+   
+   - Pre-Production (4-6 weeks): Our partner, LA Chamber of Commerce Bixel Exchange will recruit, vet, and coordinate the 24 interviewees for the videos and career profiles we are producing. To prepare the interviewees, Gladeo will send out pre-interview questionnaires and schedule pre-interview calls in advance of interview day. 
+   
+   - Production (3 months): Gladeo League interns with our staff will shoot and conduct on-camera interviews of four professionals in various roles at each of the six companies.
+   
+   - Post-Production (3 months): Gladeo League members will edit the videos and profiles with the help of Gladeo’s professional staff and mentors. 
+   
+   - Distribution to LA/OC college and high school students: Gladeo and our collaborative partner, the LA Chamber of Commerce Bixel Exchange, will present the new videos and online resources to the school partners (19 community colleges, 30 high schools) through their email newsletter, social media, and workshops.
+   
+   - We also hope to work with LA2050 to distribute our free resources to the youth non-profit partners in their network. 
+   
+   
+   
+   A 2014 report from the Public Policy Institute of California predicts that by 2025, California will have an estimated 2.5 million unfilled jobs that will require at least some postsecondary education, with Information Technology slated to be the fastest growing sector. In addition, African American and Hispanic tech workers combined make up just 5% of the tech workforce. Students of increased socio-economic status are many times gifted with career orientation early in their youth. Students of lower economic means fail to benefit from career orientation from their parents or community. So how do they aspire to and pursue careers they’ve never heard of? Our project aims to bridge the following gaps at scale: 
+   
+   
+   
+   - Information gap: What careers exist? What do they entail and what are the education and steps necessary to get your foot in the door? 
+   
+   - Belief gap: How many underrepresented minorities are not pursuing careers in the technology sector because they don’t see or know anyone who looks like them doing it or because they’ve been told they are not as capable? 
+   
+   
+   
+   We are working to create a world where hope and opportunity are not limited by the lack of career role models, awareness, or information. LA is a city of full of diversity, in both its people and its industry. Now, let’s see our diverse people work in all of our diverse industries!
 category_metrics:
   - College and community college completion rates
   - Youth unemployment and underemployment

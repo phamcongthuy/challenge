@@ -59,7 +59,6 @@ project_areas:
   - South LA
   - South Bay
   - Antelope Valley
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - Publicity/awareness
@@ -86,6 +85,65 @@ mailing_address_street: '6330 Variel Ave, Ste 201'
 mailing_address_city: Woodland Hills
 mailing_address_state: California
 mailing_address_zip: '91367'
+project_proposal_best_place: >-
+  A growing body of research is illustrating the positive impact that informal
+  science education (ISE) opportunities, such as museums and science clubs, have
+  on young people as well as the importance of ISE as a conduit of science
+  knowledge to learners of all ages. Additionally, research in education has
+  shown that relationships built in informal educational programs have a very
+  powerful influence on young people’s envisioning of their future, in some ways
+  more than the activities of formal schooling. The primary goal of our
+  nonprofit is establishing solid, ongoing, and consistent connections between
+  the adult facilitators and mentors and the children within each community,
+  using STEM activities as an anchor to gather youth together. The programs
+  located at key HCA sites will leverage the rich, learner-centered curriculum
+  developed by the Columbia Memorial Space Center, as well as our expertise in
+  delivering this programming in affordable housing communities. The mission is
+  to create a continual presence in the community and the young people’s lives,
+  providing different career paths in some of the fastest growing fields in the
+  United States. Using science as a springboard, this project will make
+  measurable progress towards making Los Angeles communities the best place to
+  LEARN.
+   
+   Our key goals aim to broaden the reach and scope of advanced, enriching courses which are not otherwise attainable to under-resourced people outside of their homes. Goal 1: To increase weekly class size in programs at our 25 sites with current ongoing programs. Goal 2: To increase the number of properties in our portfolio participating in the Rocketeer Club program in partnership with Columbia Memorial Space Center (CMSC) from six in the 2017 program up to 10 for the following. Goal 3: To
+   
+   establish evaluation systems which measure program effectiveness and impact of increased promotion across HCA’s portfolio.
+   
+   
+   
+   Timeline of Program:
+   
+   Jul.: Recruitment and hiring of instructors
+   
+   Aug.: Training at Space Center and supply purchases/community room organization
+   
+   Sept.: Open House events in each community room to sign up residents, promotion of club, and classroom set up by instructors. Early evaluation of student’s self-esteem and comfort with STEM.
+   
+   Oct.-Dec.: Curriculum focuses on 3D printing, Rocketry, and Robotics.
+   
+   <Mid Dec. Evaluations and town hall for residents to see progress of students>
+   
+   Jan.-April: Curriculum focuses on Aerospace, Biology, and Career pathways.
+   
+   May: Field Trip to Space Center and final evaluations. 
+   
+   Jun.-Jul: Evaluation reports and budget finalization.
+   
+   The population being served in with this program are A). Economically disadvantaged, B.) Historically disenfranchised, C.) Los Angeles County residents. An approximate demographic breakdown of residents served in this program previously:
+   
+   Men/Boys (%): 40%
+   
+   Women/Girls (%): 60%
+   
+   African American (%): 45%
+   
+   Asian American (%): 5%
+   
+   Hispanic (%): 45%
+   
+   Native American (%): 1%
+   
+   No Distinction (%): 4%
 category_metrics:
   - Proficiency in English and Language Arts and Math
   - 'Students’ immersion in Science, Technology, Engineering, and Math content'

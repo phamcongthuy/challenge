@@ -48,7 +48,6 @@ project_areas:
     County of Los Angeles (please select only if your project has a countywide
     benefit)
   - LAUSD
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -74,6 +73,48 @@ mailing_address_street: 8248 Van Nuys Blvd.
 mailing_address_city: Panorama City
 mailing_address_state: California
 mailing_address_zip: '91402'
+project_proposal_best_place: >-
+  The project begins with a creative youth entrepreneur training program
+  encompassing activity-based leadership, marketing, financial, career
+  development workshops and youth mentoring. The program starts off by
+  empowering youth ages 16-21 to draw out their vision for the program. The
+  entrepreneur training program will be teaching the key elements of starting
+  and operating a small business and steps on how to start a business in the LA
+  area. Youth will complete a personalized business plan based on their personal
+  creative interests. The youth will learn how to be a leader by taking part in
+  engaging activities that focus on: multicultural communication, critical
+  thinking skills, and emotional intelligence. The three part program builds
+  upon entrepreneurship, leadership, and career development skills needed in
+  LA’s new economy. In entrepreneurship, youth will learn the steps on how to
+  start a business in the LA area and will complete a personalized business plan
+  based on their personal creative interests. In leadership, youth will learn
+  how to be a leader by taking part in engaging activities that focus on three
+  components: communication, emotional intelligence and mental abilities. The
+  social component focuses on learning advanced communication skills in group
+  communication, cross-cultural communication, global communication, and
+  professional networking. A diversity workshop is focused on creating empathy
+  for the many cultures and rich diversity races, religions, socioeconomic
+  status, language abilities, people with a criminal justice background,
+  immigration status, age, sexual orientation, etc, which exist in Los Angeles.
+  The second component is emotional awareness focusing on providing youth with
+  critical thinking skills, and the appreciation of non-traditional forms of
+  success including the arts, innovation, outside-the-box thinking, fostering of
+  new ideas without the fear of failure, and focus on the flexibility of
+  universal skills. In career, youth will focus on career development by
+  learning how to personally brand themselves, social media etiquette,
+  networking, create a resume, partaking in career assessments, mock interviews
+  and learning how to turn internships into full time jobs to start their
+  career. Our Youth Entrepreneurship Training will help promote social and
+  cultural identity, build a stronger sense of community, and give youth,
+  especially at-risk youth, a sense of meaning and belonging. Recruiting and
+  retention rates for local higher education institutions will increase thanks
+  to our program as we will partner with local higher education institutes to
+  have representatives come and make presentations and engage our youth about
+  their respective institutions and programs. Youth that participate in this
+  program are innovative, creative, community oriented, and hardworking. This
+  program will help youth unleash their potential by connecting youth to
+  resources and programs will create long-term Angeleno entrepreneurs in our
+  great city.
 category_metrics:
   - Employment in the creative industries
   - Minority- and women-owned firms

@@ -53,7 +53,6 @@ project_areas:
   - >-
     City of Los Angeles (please select only if your project has a citywide
     benefit)
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -109,6 +108,65 @@ mailing_address_street: '3415 S Sepulveda Blvd, 1100'
 mailing_address_city: LOS ANGELES
 mailing_address_state: California
 mailing_address_zip: '90034'
+project_proposal_best_place: >-
+  NALIP’s Emerging Content Creators Inclusion Initiative aims to provide support
+  for the next generation of creatives through a variety of programs and events:
+   
+   
+   
+   Educational Forums/Panels
+   
+   
+   
+   Networking Sessions
+   
+   
+   
+   Mentorship Opportunities
+   
+   
+   
+   Summer Programs
+   
+   
+   
+   Workshops
+   
+   
+   
+   Funding Opportunities for College-Entry Projects
+   
+   
+   
+   The Emerging Content Creators Inclusion Initiative (ECCII) will serve college-aged youth, particularly women, minorities, and members of the LGBTQ community. The initiative will be an informative, step-by-step guide for young content creators to be integrated into the entertainment industry. These young creators, primarily between 18-24 years of age, will possess a demonstrated interest in pursuing a career in media. Through the physical and digital platforms NALIP will provide, the Emerging Content Creators Inclusion Initiative will reach over 100,000 Angelenos and promote the advancement of emerging talent.
+   
+   
+   
+   NALIP aims to host a variety of events for participants of the Emerging Content Creators Inclusion Initiative throughout the year. 
+   
+   
+   
+   Summer: Participants of this initiative will be able to further realize their passion for creating through special workshops during the NALIP Media Summit. They will also have a scheduled agenda to attend the best panel sessions geared toward their career goals. During this time, there will also be participants that can be part of the volunteer/internship opportunities that NALIP has to offer.
+   
+   
+   
+   Fall: Participants will attend a workshop or mentorship session that coincides with the Media Fest, a two-day festival featuring content by Latinx creatives. They will be able to take a look at the careers of seasoned professionals as well as break into intimate groups where they can have more one-on-one mentorship sessions with these industry experts. 
+   
+   
+   
+   Winter: the initiative will coincide with the Diverse Women in Media Forum, where NALIP provides an intimate setting for Women of Color to network and build community. 
+   
+   
+   
+   Between the months of January and June: NALIP will host a series of workshops and events for participants to continue the facilitation of their careers. 
+   
+   
+   
+   NALIP will also create the submission process for emerging creatives involved in the initiative to submit a concept and garner funding for projects that will grant them entry into an accredited institution for higher education. 
+   
+   
+   
+   This project will make measurable progress towards making LA the best place to create by increasing the resources available to emerging creatives in order for them to succeed in this industry and continue to advance their creative platform. This program will be offered throughout Los Angeles and its extremities to create an accessible point of entry for emerging creators. The Emerging Content Creators Inclusion Initiative will become a focal point within NALIP’s annual events, social media, newsletter, and beyond to enhance, engage, and advance the initiative’s mission.
 category_metrics:
   - Employment in the creative industries
   - Jobs per capita

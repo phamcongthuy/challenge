@@ -60,7 +60,6 @@ project_areas:
     City of Los Angeles (please select only if your project has a citywide
     benefit)
   - LAUSD
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -110,6 +109,50 @@ mailing_address_street: '1438 N. Gower Street, Box 83 or Building 42'
 mailing_address_city: Los Angeles
 mailing_address_state: California
 mailing_address_zip: 90028-8358
+project_proposal_best_place: |-
+  Execution and Timeline:
+   
+   NFMLA's four full-time staff members executes the program starting months in advance with promotional outreach to LA County filmmakers, potential community attendees, students, sponsors and collaborators.
+   
+   
+   
+   Activities for the “On Location The Los Angeles Video Project” begin when the “Call for Submissions” is released to the LA community through the organization’s website, social media, newsletter and also through partner organizations and their networks. Filmmakers then have two-months, from June to August, to create a film under 5-minutes that depicts their view of the city of Los Angeles. 
+   
+   
+   
+   In August, after the 26 filmmakers are selected, their name and their films synopsis are then posted on the “On Location” webpage where the public will be able to see a list of all of the films and the filmmakers before attending the event. 
+   
+   
+   
+   The “On Location” screening event, where all of the films will be displayed for the community, takes place in October 2019. The films are divided into two programs so that the Los Angeles attendees and filmmakers have the chance to mingle while eating, drinking before the next film program starts. 
+   
+   
+   
+   The donation portion of the night is when filmmakers are given resources, services and equipment by NFMLA’s partnering organizations (worth over $65,000 overall). A breakdown of all of the donations can be found on the program's webpage. The end of the screening event concludes the project for the year. 
+   
+    
+   
+   Population:
+   
+   The population being served includes over 120+ local filmmakers, who create and submit their films to the NFMLA. Of those filmmakers, 26 films are showcased at the screening event in October 2019. In regards to the breakdown of the filmmakers for 2018, 60% were made by filmmakers of color, 50% were made by female filmmakers. NFMLA hopes to further improve these numbers for the 2019 "On Location" project. 
+   
+   
+   
+   Measured Progress:
+   
+   The project will make measurable progress towards making LA the best place to connect through the art of storytelling in the medium of cinema. NFMLA has conducted annual Audience and Filmmaker Surveys for the "On Location" program, which is where they can give NFMLA feedback that the organization later evaluates in an effort to see what people enjoyed at the event vs. what additions they would like to see in the program the following year. In regards to audience, over 500+ LA locals attend the screening event.
+   
+   
+   
+   2019 Project Goals include:
+   
+   * Create career advancing opportunities for local filmmakers from across LA County to create short-films that display their unique perspective on the city. 
+   
+   * Gain recognition for local filmmakers by premiering their films each year to a growing audience of over 500+ attendees at the screening, which provides over $65,000 worth of production support services. 
+   
+   * Connect the diverse LA communities by establishing dialogue between audience-members and filmmakers.
+   
+   * Provide low-ticket prices and free submission costs to LA community
 category_metrics:
   - Attendance at cultural events
   - Attendance at public/open streets gatherings

@@ -45,7 +45,6 @@ project_areas:
   - >-
     City of Los Angeles (please select only if your project has a citywide
     benefit)
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -76,6 +75,30 @@ mailing_address_street: '836 S Bundy Dr., #305'
 mailing_address_city: Los Angeles
 mailing_address_state: California
 mailing_address_zip: '90049'
+project_proposal_best_place: >-
+  If I receive this grant, I plan to drastically expand my content offerings,
+  site capability, and company as a whole. First, I would redesign, rebrand, and
+  relaunch my website and social media channels to be more LA-centric. The brand
+  message will be clear; we are a local media company for millennials, and the
+  one-stop-shop for all things Los Angeles culture. Next, I would hire some
+  much-needed help from a Creative Director or Content Manager who can run the
+  social media channels, and create more Los Angeles content, like neighborhood
+  guides, local business features, and more. Additionally, I’m already looking
+  into working with a large media company to produce a web series about Los
+  Angeles, where I host guided neighborhood tours, restaurant visits, sit-downs
+  with local business owners, and more. Currently, there are few people creating
+  consistent video content about Los Angeles as a city, and I believe bringing a
+  personal, human perspective would fill a much-needed gap in the local media
+  space. Finally, I would launch an e-commerce platform to sell LA-made goods,
+  as well as a reservation system to book restaurants, activities, and
+  experiences while reading about them. My intent, through capturing a larger
+  audience and creating more content, is to create a go-to media source for
+  millennials encompassing everything they could possibly want to know about Los
+  Angeles, but in a way that is enjoyable, palatable, and easily digestible. 
+   
+   The population being served by this project is mostly targeted at millennials, especially young women. But really, this project is for all Angelenos. Los Angeles natives, tourists, or people from all over who have moved here in the hopes of pursuing their dreams. I want to explore all this city has to offer, from the hottest new bars for 20-somethings to the hole-in-the-wall taco shops to new restaurants that families and people of all ages can enjoy. 
+   
+   Los Angeles is a city full of so much potential, but one of the hardest adjustments for residents to make is connection. Connecting to each other and the city itself. Sifting through information about the city is like trying to find a needle in a haystack that is over 500 square miles large. There are already so many cultural events to attend, local businesses to support, and things to do, and there are even more media sources that list out thousands of pages of overwhelming information. It's hard to not become paralyzed by the sheer amount of choices. But I want to make that information not just more readily available, but more easily packaged for a younger audience with a smaller attention span, and with a recognizable face that audiences can connect to. The goal is to create ONE go-to source of information that is highly curated, personal, and up-to-date, allowing Angelenos to finally cut through all the noise and find what they're looking for: things to do, ways to connect, how to support local businesses and restaurants, etc.
 category_metrics:
   - Attendance at cultural events
   - Attendance at public/open streets gatherings

@@ -51,7 +51,6 @@ project_areas:
   - >-
     County of Los Angeles (please select only if your project has a countywide
     benefit)
-project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-
@@ -99,6 +98,57 @@ mailing_address_street: 545 S San Pedro St
 mailing_address_city: Los Angeles
 mailing_address_state: California
 mailing_address_zip: '90013'
+project_proposal_best_place: >-
+  Union Rescue Mission wants to team up with the communities of Los Angeles to
+  help get every family off the streets. Over the next year, we will end
+  homelessness for 1,500 families and motivate 35,000 Angelenos to service. Our
+  strategies for this project include:
+   
+   
+   
+   CONNECT families to housing:
+   
+   - Provide families with emergency food, shelter, and medical care for up to 90 days
+   
+   - Transition families into one of our bridge housing locations for up to 2 years
+   
+   - Partner with local services to help families secure affordable housing
+   
+   
+   
+   CONNECT Angelenos to volunteerism:
+   
+   - Mobilize volunteers for URM’s annual “Walk to End Homelessness” 5K to raise 
+   
+    awareness and over $1 million in funds
+   
+   - Recruit and train a robust team of volunteers to serve at URM and throughout the city
+   
+   - Inspire volunteers to become activists in their own communities by participating in
+   
+    neighborhood council meetings, town halls, and community events
+   
+   - Engage a team of young professionals in L.A to volunteer, raise funds and become digital
+   
+    activists in the fight to end homelessness
+   
+   
+   
+   In order to make LA the best place to CONNECT, we will track the following measurements to gauge our success:
+   
+   - The number of families in URM's family program
+   
+   - The number of families transitioning into permanent housing
+   
+   - The number of social media impressions
+   
+   - The number of subscribers on Youtube and URM's podcast
+   
+   - The number of volunteers serving at URM
+   
+   
+   
+   We want to make sure that every family is off the streets but we can't do this alone. We NEED the communities of Los Angeles to help us end family homelessness in our city. URM's priority is connecting caring citizens and local communities with opportunities for service. It gives all of us the chance to work together to transform Los Angeles into a place where everyone deserves to thrive.
 category_metrics:
   - Adults getting sufficient social & emotional support
   - Attendance at public/open streets gatherings
