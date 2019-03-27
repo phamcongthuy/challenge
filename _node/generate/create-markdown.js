@@ -7,6 +7,35 @@ let parse = require('csv-parse/lib/sync');
 let yaml = require('js-yaml');
 // let request = require("request");
 
+function changeNAtoEmpty(data) {
+  for (var prop in data) {
+    if (typeof(data[prop]) === 'string' && (
+          data[prop].toLowerCase() === 'n/a' || 
+          data[prop].toLowerCase() === 'na'  ||
+          data[prop].toLowerCase() === 'none'
+        )) {
+      data[prop] = ''
+    }
+  }
+
+  return data;
+}
+
+// https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript#46181
+function isEmailAddress(email) {
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}
+
+function addMailTo(data) {
+  for (var prop in data) {
+    if (isEmailAddress(data[prop])) {
+      data[prop] = `mailto:${data[prop]}`
+    }
+  }
+  return data;
+}
+
 function stringToURI(str) {
   return String(str).toLowerCase()
     .replace(/\s/g, '-')
@@ -117,10 +146,8 @@ function mapAllColumnNames(data) {
 
   for (let name in columnNamesMap) {
     if (columnNamesMap.hasOwnProperty(name)) {
-      if (data[name] != null) {
-        if (data[name] != '') {
-          data[columnNamesMap[name]] = data[name];
-        }
+      if (data[name] !== undefined) {
+        data[columnNamesMap[name]] = data[name];
         delete data[name];
       }
     }
@@ -130,9 +157,12 @@ function mapAllColumnNames(data) {
 
 function createMarkdownFile(data) {
 
-  if (data["Current stage"] !== "Moderation Process") return;
+  if (data["Current stage"] !== "Voting Period") return;
 
   mapAllColumnNames(data);
+
+  data = changeNAtoEmpty(data);
+  data = addMailTo(data);
 
   console.log('createMarkdownFile for ' + data.organization_name);
 
@@ -356,7 +386,7 @@ function generateCollections(file_name, category) {
   return records;
 }
 
-generateCollections('entries.csv');
+generateCollections('Batch 1 2019 Grants Challenge 3_20 - Sheet4.csv');
 
 // generateCollections('learn.csv', 'learn');
 // generateCollections('create.csv', 'create');

@@ -89,9 +89,9 @@
       padding-bottom: 3rem;
     }
   }
-  @media (min-width: 60em) {
+  @media (min-width: 80em) {
     .goals .metrics ul {
-      font-size: 0.875em;
+      /* font-size: 0.875em; */
       column-count: 3;
     }
   }

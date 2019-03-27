@@ -8,10 +8,13 @@ project_description: >-
    The patented technology we've developed has won IEEE and a Google Research Awards after demonstrations in Barcelona and Philadelphia. Now we need to complete the coding, adding rules for mobility, and rules for devices people already own. We need WiFi research hardware, as well as the hardware that will create the first base station antennas at USC, the LA Chamber and the LA Cleantech Incubator.
 organization_name: M2M Bell
 organization_description: Social enterprise or B-corps
+project_video: ''
 organization_website: 'https://www.m2mbell.com'
-organization_twitter: NA
-organization_facebook: NA
-organization_instagram: NA
+organization_twitter: ''
+organization_facebook: ''
+organization_instagram: ''
+link_donate: ''
+link_volunteer: ''
 organization_activity: >-
   Our mission is to build a wireless Public Utility that would be paid for by
   the companies that make the devices we buy. The network will be autonomous,
@@ -45,42 +48,7 @@ project_areas:
   - >-
     City of Los Angeles (please select only if your project has a citywide
     benefit)
-project_proposal_best_place: >-
-  Today, when we buy a device we have to give it access through our smart phone
-  to a mobile carrier, or we have to give it access to our home's WiFi, which is
-  personally identifying. With M2M Bell, connectivity would just be in the air
-  like when you turn on your car radio, where connectivity is just a
-  feature...not a separate service. For the companies that make the devices,
-  this also becomes an advantage because they will have immediate connectivity
-  to their cloud upon first power-up out of the box, which would be hosted on
-  the M2M Bell network. This allows the device to "check in" before the consumer
-  introduces a potentially unsafe device to every other device in their home or
-  business. Once a device is trusted, then the consumer can decide to give it
-  access to traditional networks, or not.
-   
-   
-   
-   The M2M Bell network also uses half the power needed to transmit data because of our proprietary switching protocol which does not transmit data packets over and over until they go through. This power reduction has far reaching benefits, including a reduction in the data center footprint, a reduction in EMF pollution, and eventually, the elimination of existing routers, which for the first time will not need to be replaced by faster ones.
-   
-   
-   
-   We will use unlicensed TV airwaves for the long distance mesh core (WiFi and LTE), while using long range Internet of Things radios (Zigbee and LoRa) for the access networks that allow "things" to connect. The access network also uses unlicensed airwaves, so our network is 100% wireless and does not require connectivity to wired network. 
-   
-   
-   
-   The coding that still needs to be completed utilizes a patented, award-winning technology that reduces network overhead from 50% to less than 2%. For the Bucknell demo in Philadelphia, this translated into the antenna's ability to improve capacity from 1500 to 5700 competing devices. We also have 5G simulations that would allow an antenna to serve 15,000 competing devices. 
-   
-   
-   
-   Once funded, the research can be completed within 3-4 months, and then we will work with other teams at USC in Artificial Intelligence and Blockchain technologies, including USC's i3 Consortium. The i3 is like a Playstore for live data streams that can be used by the City of LA (a founding member), and the i3 would also be hosted on the M2M Bell network. After 6-8 months, the first antennas will go up for Downtown LA, followed by the City and County.
-   
-   
-   
-   M2M Bell will be the first wireless data network that gets stronger as it gets larger, because each new device does not add overhead...this is the inverse of today's switching technology. Our patented technology was originally invented for cable TV, so broadcasting voice and video will be the future applications after the Internet of Things applications. 
-   
-   
-   
-   M2M Bell will be the first wireless data network that can enforce telecommunications harassment, obscenity and privacy laws, which stipulate that all data created by our "things" is owned by us.
+project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - Strategy assistance and implementation
@@ -125,8 +93,7 @@ category_other:
   - LA is the healthiest place to LIVE
 year: 2019
 category: connect
-project_video: ''
 filename: m2m-bell
-order: 0
+order: 2
 
 ---

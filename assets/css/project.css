@@ -132,10 +132,10 @@
   }
 
 
-  @media (min-width: 60em) {
-    .proposal-answers {
-      font-size: 0.875em;
-    }
+  .proposal-answers h3 {
+    font-size: inherit;
+    margin-top: 2.25rem;
+    max-width: none;
   }
 
   @media (min-width: 70em) { /* Just wide enough to avoid wrapping the donate / volunteer buttons */

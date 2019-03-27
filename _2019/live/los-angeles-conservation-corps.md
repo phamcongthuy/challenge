@@ -38,25 +38,7 @@ project_proposal_description: >-
   environment.
 project_areas:
   - San Fernando Valley
-project_proposal_best_place: >-
-  The Corps collects tons of food waste per week from dozens of supermarkets,
-  convenience stores, and restaurants. Edible food is distributed by MEND to
-  help feed 30,000 people in need per month in the San Fernando Valley. Inedible
-  foodstuffs go to Kroger’s anaerobic digester in Compton for conversion to
-  renewable biogas or to LA Compost for use in community gardens. Nothing goes
-  to landfill.
-   
-   
-   
-   The food waste prevention project serves the needy in San Fernando Valley, centering on the MEND food bank in Pacoima. Los Angeles has the largest food insecure population in America with 1.3 million residents of the County struggling to put food on the table. At MEND, 35% of clients are fully dependent upon the food bank. The residents of Pacoima are 90% Latino. It’s a low-income/disadvantaged community.
-   
-   
-   
-   The program was awarded by CalRecycle last year and begins operations this year. It will be an ongoing program, so long as funding is available.
-   
-   
-   
-   The program’s metrics include tonnage of food collected from donors and thus diverted from landfill, tonnage of edible food distributed to people in need, number of people served, tonnage of food waste composted or anaerobically digested. Each month, MEND serves 2,540 clients onsite and 18,520 through offsite distribution, and the Corps’ contribution enables service of 10,000 more per month.
+project_proposal_best_place: ''
 project_la2050_community_resources:
   - Access to LA2050 community
   - >-

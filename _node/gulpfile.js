@@ -82,28 +82,28 @@ gulp.task("default", function() {
   // generatedImagePath  = '../assets/images/vote';
   // generateNext();
 
-  // sizesCursor = 0;
-  // sourceImagePath     = '../assets/images/2019/learn/original';
-  // generatedImagePath  = '../assets/images/2019/learn';
-  // generateNext();
+  sizesCursor = 0;
+  sourceImagePath     = '../assets/images/2019/learn/original';
+  generatedImagePath  = '../assets/images/2019/learn';
+  generateNext();
+
+  sizesCursor = 0;
+  sourceImagePath     = '../assets/images/2019/create/original';
+  generatedImagePath  = '../assets/images/2019/create';
+  generateNext();
 
   // sizesCursor = 0;
-  // sourceImagePath     = '../assets/images/create/original';
-  // generatedImagePath  = '../assets/images/create';
+  // sourceImagePath     = '../assets/images/2019/play/original';
+  // generatedImagePath  = '../assets/images/2019/play';
   // generateNext();
 
-  // sizesCursor = 0;
-  // sourceImagePath     = '../assets/images/play/original';
-  // generatedImagePath  = '../assets/images/play';
-  // generateNext();
+  sizesCursor = 0;
+  sourceImagePath     = '../assets/images/2019/connect/original';
+  generatedImagePath  = '../assets/images/2019/connect';
+  generateNext();
 
-  // sizesCursor = 0;
-  // sourceImagePath     = '../assets/images/2019/connect/original';
-  // generatedImagePath  = '../assets/images/2019/connect';
-  // generateNext();
-
-  // sizesCursor = 0;
-  // sourceImagePath     = '../assets/images/2019/live/original';
-  // generatedImagePath  = '../assets/images/2019/live';
-  // generateNext();
+  sizesCursor = 0;
+  sourceImagePath     = '../assets/images/2019/live/original';
+  generatedImagePath  = '../assets/images/2019/live';
+  generateNext();
 });

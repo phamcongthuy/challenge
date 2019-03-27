@@ -146,10 +146,10 @@ function updateLocations(folder) {
   }
 }
 
-let submissionFiles = getAllFilesFromFolder('./assets-submissions');
+let submissionFiles = getAllFilesFromFolder('./download__kvKBXqQ8BZWKn7sFw92RsHff6S8vpQ');
 
 updateLocations('../_2019/learn');
-//updateLocations('../_2019/create');
-//updateLocations('../_2019/play');
+updateLocations('../_2019/create');
+// updateLocations('../_2019/play');
 updateLocations('../_2019/connect');
 updateLocations('../_2019/live');
