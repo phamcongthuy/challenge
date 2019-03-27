@@ -12,10 +12,10 @@ project_description: >-
 organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
 project_video: ''
-organization_website: 'https://www.twobitcircus.org'
-organization_twitter: '@twobitcircus.org'
-organization_facebook: twobitcircus.org
-organization_instagram: '@twobitcircus.org'
+organization_website: 'http://twobitcircus.org/'
+organization_twitter: 'http://www.twitter.com/twobitcircusorg/'
+organization_facebook: 'https://www.facebook.com/twobitcircusorg/'
+organization_instagram: 'https://www.instagram.com/twobitcircusorg/'
 link_donate: 'mailto:info@twobitcircus.org'
 link_volunteer: 'mailto:info@twobitcircus.org'
 organization_activity: >-
