@@ -94,7 +94,7 @@
 {% elsif site.phase == 5 %}
 <p class="count"><a href="{{ site.vote_url }}">Vote for one of these <strong>{{ data_list.size }}</strong> entries</a> in the <strong class="category">{{ page.category }}</strong> category, by April 29, 2019.</p>
 {% elsif data_list.size <= 0 %}
-<p class="count">There aren’t any entries in the <strong class="category">{{ page.category }}</strong> category.</p>
+<p class="count">We’re eagerly awaiting more entries in the <strong class="category">{{ page.category }}</strong> category!</p>
 {% else %}
 <p class="count">There are <strong>{{ data_list.size }}</strong> entries in the <strong class="category">{{ page.category }}</strong> category.</p>
 {% endif %}
