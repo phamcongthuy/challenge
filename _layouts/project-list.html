@@ -7,7 +7,7 @@ stylesheets:
 ---
 
 {% if page.winners == true %}
-<h1 style="color: white"><span>Winners</span></h1>
+<h1><span>Winners</span></h1>
 
 <style>
 
@@ -32,9 +32,9 @@ main > h1:first-child::before {
 
 </style>
 {% elsif page.finalists == true %}
-<h1 style="color: white">Finalists</h1>
+<h1>Finalists</h1>
 {% else %}
-<h1 style="color: white">Entries</h1>
+<h1>Entries</h1>
 {% endif %}
 
 {% assign conditional_finalists_url = "" %}

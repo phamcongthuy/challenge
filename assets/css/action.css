@@ -59,32 +59,32 @@
   .strawberry .action a {
     background-color: var(--strawberry);
     border: 0.1875em solid var(--strawberry);
-    color: white;
+    color: var(--snow);
   }
   .blueberry .action a {
     background-color: var(--blueberry);
     border: 0.1875em solid var(--blueberry);
-    color: white;
+    color: var(--snow);
   }
   .banana .action a {
     background-color: var(--banana);
     border: 0.1875em solid var(--banana);
-    color: white;
+    color: var(--snow);
   }
   .tangerine .action a {
     background-color: var(--tangerine);
     border: 0.1875em solid var(--tangerine);
-    color: white;
+    color: var(--snow);
   }
   .lime .action a {
     background-color: var(--lime);
     border: 0.1875em solid var(--lime);
-    color: white;
+    color: var(--snow);
   }
   .lime button {
     background-color: var(--lime);
     border: 0.1875em solid var(--lime);
-    color: white;
+    color: var(--snow);
   }
 
   .strawberry .action a.active,
@@ -154,27 +154,27 @@
   .action .strawberry a {
     background-color: var(--strawberry);
     border: 0.1875em solid var(--strawberry);
-    color: white;
+    color: var(--snow);
   }
   .action .blueberry a {
     background-color: var(--blueberry);
     border: 0.1875em solid var(--blueberry);
-    color: white;
+    color: var(--snow);
   }
   .action .banana a {
     background-color: var(--banana);
     border: 0.1875em solid var(--banana);
-    color: white;
+    color: var(--snow);
   }
   .action .tangerine a {
     background-color: var(--tangerine);
     border: 0.1875em solid var(--tangerine);
-    color: white;
+    color: var(--snow);
   }
   .action .lime a {
     background-color: var(--lime);
     border: 0.1875em solid var(--lime);
-    color: white;
+    color: var(--snow);
   }
 
   .action .strawberry a.active,

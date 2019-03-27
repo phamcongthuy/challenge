@@ -191,7 +191,7 @@
   main > .steps {
     background-color: var(--banana);
     background-color: var(--blueberry);
-    color: white;
+    color: var(--snow);
   }
   main > .steps dl {
     max-width: none;

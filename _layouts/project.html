@@ -320,13 +320,13 @@ stylesheets:
 
 <hr style="margin-top: 3em;" />
 
-{% if data_list.size > 2 %}
-
-<ul class="proposals more-proposals" style="margin-top: 3em;">
-
 {% assign data_collection = site.collections | where: "label", site.year | first %}
 {% assign data_list = data_collection.docs %}
 {% assign data_list = data_list | where: "category", page.category %}
+
+{% if data_list.size > 2 %}
+
+<ul class="proposals more-proposals" style="margin-top: 3em;">
 
 {% assign next_index = page.order | plus: 1 %}
 {% if next_index >= data_list.size %}
@@ -418,36 +418,3 @@ stylesheets:
 <div style="margin-bottom: 4.5em"></div>
 
 
-
-
-{% comment %}
-<hr style="margin-top: 0" />
-
-<h2 class="comments-header" style="justify-self: center;">Choose another category</h2>
-
-{% include project-navigation.html %}
-
-<style>
-.goals .navigation > div .count {
-  opacity: 0; 
-}
-</style>
-
-<section class="goals" style="margin-top: -3em; margin-bottom: 4.5em">
-
-<div class="navigation"><div>
-
-<h2>Choose another category</h2>
-
-<ul class="action" style="margin-right: 0; margin-top: 1.5em;">
-  <li class="blueberry"><a href="/learn/#projects"{% if page.category == 'learn' %} class="active"{% endif %}>Learn</a></li>
-  <li class="banana"><a href="/create/#projects"{% if page.category == 'create' %} class="active"{% endif %}>Create</a></li>
-  <li class="strawberry"><a href="/play/#projects"{% if page.category == 'play' %} class="active"{% endif %}>Play</a></li>
-  <li class="tangerine"><a href="/connect/#projects"{% if page.category == 'connect' %} class="active"{% endif %}>Connect</a></li>
-  <li class="lime"><a href="/live/#projects"{% if page.category == 'live' %} class="active"{% endif %}>Live</a></li>
-</ul>
-
-</div></div>
-
-</section>
-{% endcomment %}
