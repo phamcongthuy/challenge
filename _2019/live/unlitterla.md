@@ -14,8 +14,8 @@ organization_website: 'http://www.unlitterla.org'
 organization_twitter: '@unlitterla'
 organization_facebook: UnlitterLA (closed planning group for now)
 organization_instagram: '@unlitterla'
-link_donate: Link will be provided on public-facing Facebook page when launched
-link_volunteer: Will implement when event date established
+# link_donate: Link will be provided on public-facing Facebook page when launched
+# link_volunteer: Will implement when event date established
 organization_activity: >-
   Inspiring LA pride through mass street litter cleanup events, that are highly
   visible for those not participating. Our goals are increased civic pride,
