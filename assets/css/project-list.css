@@ -700,7 +700,7 @@
   }
   .proposals .create h3 {
     color: var(--banana);
-    color: var(--banana-darker);
+    color: var(--banana-dark);
   }
   .proposals .connect h3 {
     color: var(--tangerine);

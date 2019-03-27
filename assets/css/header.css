@@ -332,7 +332,7 @@
   }
   @media (min-width: 60em) {
     footer a {
-      font-size: 0.875em;
+      /*! font-size: 0.875em; */
     }
   }
   footer small a {

@@ -151,7 +151,7 @@
   }
   .goals .banana .metrics {
     background-color: var(--banana);
-    background-color: var(--banana-darker);
+    background-color: var(--banana-dark);
     color: var(--snow);
   }
   .goals .strawberry .metrics {

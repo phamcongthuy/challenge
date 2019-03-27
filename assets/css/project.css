@@ -136,6 +136,7 @@
     font-size: inherit;
     margin-top: 2.25rem;
     max-width: none;
+    font-weight: inherit;
   }
 
   @media (min-width: 70em) { /* Just wide enough to avoid wrapping the donate / volunteer buttons */
