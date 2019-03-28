@@ -43,35 +43,35 @@
     margin-top: 1.875em;
   }
   .introduction .action a {
-    background-color: rgb(237, 59, 136); /* @stroke: awberry */
-    border: 0.1875em solid rgb(237, 59, 136); /* @strawberry */
+    background-color: var(--strawberry);
+    border: 0.1875em solid var(--strawberry);
   }
   .introduction .action a:hover,
   .introduction .action a:active,
   .introduction .action a:focus {
-    background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(237, 59, 136); /* @strawberry */
+    background-color: var(--snow);
+    color: var(--strawberry);
   }
 
   .strawberry .introduction .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
-    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+    background-color: var(--banana);
+    border: 0.1875em solid var(--banana);
   }
   .strawberry .introduction .action a:hover,
   .strawberry .introduction .action a:active,
   .strawberry .introduction .action a:focus {
-    background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 194, 51); /* @banana */
+    background-color: var(--snow);
+    color: var(--banana);
   }
 
   .blueberry .introduction .action a {
-    background-color: rgb(255, 194, 51); /* @banana */
-    border: 0.1875em solid rgb(255, 194, 51); /* @banana */
+    background-color: var(--banana);
+    border: 0.1875em solid var(--banana);
   }
   .blueberry .introduction .action a:hover,
   .blueberry .introduction .action a:active,
   .blueberry .introduction .action a:focus {
-    background-color: rgb(254, 254, 254); /* @snow */
-    color: rgb(255, 194, 51); /* @banana */
+    background-color: var(--snow);
+    color: var(--banana);
   }
 

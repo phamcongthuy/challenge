@@ -11,6 +11,8 @@ submission_url: https://challengela2050.smapply.io
 # Our form:
 vote_url: /vote/form/
 
+year: 2019
+show_early_entries: true
 
 # New challenge announced: 
 # January 8
@@ -27,25 +29,6 @@ phase: 2
 # Entries shown on the website: 
 # April 15
 # phase: 4
-# NOTE: If you switch to “phase: 4”, you’ll also want to
-# uncomment the “collections” so the entry pages will appear.
-
-# collections:
-#   learn:
-#     output: true
-#     permalink: /learn/:path/
-#   create:
-#     output: true
-#     permalink: /create/:path/
-#   play:
-#     output: true
-#     permalink: /play/:path/
-#   connect:
-#     output: true
-#     permalink: /connect/:path/
-#   live:
-#     output: true
-#     permalink: /live/:path/
 
 # Votes being accepted: 
 # April 22
@@ -55,22 +38,84 @@ phase: 2
 # April 29
 # phase: 6
 
+# Finalists announced: 
+# ?
+# phase: 7
+
 # Winners announced: 
 # June 4
-# phase: 7
+# phase: 8
+
+
+finalists:
+
+  # Learn
+  # 1)
+  # 2)
+  # 3)
+  # 4)
+  # 5)
+  # 6)
+  # 7)
+  # 8)
+  # 9)
+  # 10)
+
+  # Create
+  # 1)
+  # 2)
+  # 3)
+  # 4)
+  # 5)
+  # 6)
+  # 7)
+  # 8)
+  # 9)
+  # 10)
+
+  # Play
+  # 1)
+  # 2)
+  # 3)
+  # 4)
+  # 5)
+  # 6)
+  # 7)
+  # 8)
+  # 9)
+  # 10)
+
+  # Connect
+  # 1)
+  # 2)
+  # 3)
+  # 4)
+  # 5)
+  # 6)
+  # 7)
+  # 8)
+  # 9)
+  # 10)
+
+  # Live
+  # 1)
+  # 2)
+  # 3)
+  # 4)
+  # 5)
+  # 6)
+  # 7)
+  # 8)
+  # 9)
+  # 10)
 
 
 winners:
   # 1)
-  - /learn/center-for-innovation-in-stem-education-cise/
   # 2)
-  - /create/east-la-community-corporation-elacc/
   # 3)
-  - /play/the-brady-center-to-prevent-gun-violence/
   # 4)
-  - /connect/mirys-list/
   # 5)
-  - /live/united-way-of-greater-los-angeles/
 
 
 auth0_js_url: https://cdn.auth0.com/js/auth0/9.5.1/auth0.min.js
@@ -90,7 +135,7 @@ voting_test_mode: false
 voting_strict_mode: true
 
 # For cache busting
-version: 2.1.7
+version: 2.1.8
 
 
 permalink: pretty
@@ -102,11 +147,11 @@ exclude:
   - Gemfile.lock
   - _node
   - sitemap.txt
-  - assets/images/learn/original
-  - assets/images/create/original
-  - assets/images/play/original
-  - assets/images/connect/original
-  - assets/images/live/original
+  - assets/images/2019/learn/original
+  - assets/images/2019/create/original
+  - assets/images/2019/play/original
+  - assets/images/2019/connect/original
+  - assets/images/2019/live/original
   - assets/images/goals/original
   - assets/images/home/original
   - assets/images/vote/original
@@ -118,31 +163,11 @@ defaults:
       layout: default
   - scope:
       path: ""
-      type: learn
+      type: "2019"
     values:
       layout: project
-      body_class: blueberry
-  - scope:
-      path: ""
-      type: create
-    values:
-      layout: project
-      body_class: banana
-  - scope:
-      path: ""
-      type: play
-    values:
-      layout: project
-      body_class: strawberry
-  - scope:
-      path: ""
-      type: connect
-    values:
-      layout: project
-      body_class: tangerine
-  - scope:
-      path: ""
-      type: live
-    values:
-      layout: project
-      body_class: lime
+
+collections:
+  '2019':
+    output: true
+    permalink: /2019/:path/

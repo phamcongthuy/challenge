@@ -123,13 +123,32 @@ The submission period is complete.
 
 </div>
 
-{% elsif site.phase > 6 %}
+{% elsif site.phase == 7 %}
+
+<div class="introduction" markdown="1">
+
+The finalists have been announced!
+
+<small>
+  Winners will be announced on 
+  <span class="avoid-break">
+    <strong>June 4, 2019</strong>.
+  </span>
+</small>
+
+<p class="action">
+  <a href="/finalists/">Check out the finalists</a>
+</p>
+
+</div>
+
+{% elsif site.phase == 8 %}
 
 <div class="introduction" markdown="1">
 
 The winners have been announced!
 
-<p class="action" markdown="1">
+<p class="action">
   <a href="/winners/">Check out the winners</a>
 </p>
 

@@ -15,4 +15,8 @@
   links.forEach(function(link) {
     link.setAttribute('href', '/' + categories[random] + '/');
   })
+  links = document.querySelectorAll('a[href="/finalists/"]');
+  links.forEach(function(link) {
+    link.setAttribute('href', '/' + categories[random] + '/finalists/');
+  })
 })();

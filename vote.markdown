@@ -29,7 +29,7 @@ Starting **April 22, 2019** (9am Pacific Time), you can vote for the [entries](/
 
 {% elsif site.phase == 5 %}
 
-You can cast five votes, one per goal category.<br /><a href="/entries/" style="color: var(--primary-color)">Check out the entries</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
+You can cast five votes, one per goal category.<br /><a href="/entries/">Check out the entries</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
 
 <p class="action">
   <a href="{{ site.vote_url }}">I’m ready to vote</a>
@@ -50,11 +50,26 @@ Public voting is complete.
   <a href="/entries/">Check out the entries</a>
 </p>
 
-{% elsif site.phase > 6 %}
+{% elsif site.phase == 7 %}
+
+The finalists have been announced!
+
+<small>
+  Winners will be announced on 
+  <span class="avoid-break">
+    <strong>June 4, 2019</strong>.
+  </span>
+</small>
+
+<p class="action">
+  <a href="/finalists/">Check out the finalists</a>
+</p>
+
+{% elsif site.phase == 8 %}
 
 The winners have been announced!
 
-<p class="action" markdown="1">
+<p class="action">
   <a href="/winners/">Check out the winners</a>
 </p>
 

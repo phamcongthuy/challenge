@@ -20,7 +20,7 @@ You may want to visit our [home page](/) instead.
 
 <div class="introduction" markdown="1">
 
-<h2 style="max-width: none; text-align: center; font-size: inherit; color: var(--secondary-color); font-weight: 500;">You’ve subscribed to the LA2050 newsletter! <span style="font-weight: normal; color: rgb(41, 41, 41); /* @midnight */"></span></h2>
+<h2 style="max-width: none; text-align: center; font-size: inherit; color: var(--secondary-color); font-weight: 500;">You’ve subscribed to the LA2050 newsletter! <span style="font-weight: normal; color: var(--midnight);"></span></h2>
 
 <h1>Help LA2050 determine how much of Los Angeles we’re reaching</h1>
 <p style="font-size: inherit;"><small style="font-size: inherit;">Providing this information is optional. You can <a href="/vote/confirmation/">skip this step</a>.</small></p>

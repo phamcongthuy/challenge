@@ -126,7 +126,11 @@ function addMailTo(data) {
 
 function changeNAtoEmpty(data) {
   for (var prop in data) {
-    if (typeof(data[prop]) === 'string' && (data[prop].toLowerCase() === 'n/a' || data[prop].toLowerCase() === 'none')) {
+    if (typeof(data[prop]) === 'string' && (
+          data[prop].toLowerCase() === 'n/a' || 
+          data[prop].toLowerCase() === 'na'  ||
+          data[prop].toLowerCase() === 'none'
+        )) {
       data[prop] = ''
     }
   }
@@ -144,9 +148,7 @@ function processFile(filename) {
   let data = loadMarkdown(filename);
   if (!data) return;
 
-  data.yaml.is_test_data = true;
-
-  saveMarkdown(filename, data);
+  // data.yaml.is_test_data = true;
 
 
   // Simplify image URL
@@ -166,7 +168,7 @@ function processFile(filename) {
   // if (data.yaml.project_video.indexOf('#') >= 0 ||
   //     data.yaml.project_video.indexOf(' ') >= 0) {
   //   console.log('*******');
-  //   console.log(data.yaml.uri)
+  //   console.log(data.yaml.url)
   //   console.log(data.yaml.project_video);
   // }
 
@@ -193,7 +195,7 @@ function processFile(filename) {
     //console.log('uri, organization_name, problem detected with');
 
     console.log('*******');
-    console.log(data.yaml.uri)
+    console.log(data.yaml.url)
 
     let problemList = []
 
@@ -223,8 +225,8 @@ function processFile(filename) {
       console.log(data.yaml[problemField]);
     });
 
-    // console.log(`https://staging-challenge.la2050.org${data.yaml.uri}, https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
-    // console.log(`https://github.com/la2050/activation/edit/staging/_${data.yaml.category}/${filename.split('/')[filename.split('/').length - 1]}`);
+    // console.log(`https://staging-challenge.la2050.org${data.yaml.url}, https://github.com/la2050/challenge/edit/staging/_${data.yaml.category}/${filename}, ${data.yaml.organization_name}, ${problemList.join('; ')}`);
+    // console.log(`https://github.com/la2050/challenge/edit/staging/_${data.yaml.category}/${filename.split('/')[filename.split('/').length - 1]}`);
   }
   */
   
@@ -237,7 +239,9 @@ function processFile(filename) {
   // delete data.yaml.unique_identifier;
 
   // data.yaml = convertStringsToJSON(data.yaml)
-
+  
+  
+  // saveMarkdown(filename, data);
 }
 
 // https://stackoverflow.com/questions/20822273/best-way-to-get-folder-and-file-list-in-javascript#21459809
@@ -273,8 +277,8 @@ function updateMarkdownFiles(folder) {
   }
 }
 
-updateMarkdownFiles('../_learn');
-updateMarkdownFiles('../_create');
-updateMarkdownFiles('../_play');
-updateMarkdownFiles('../_connect');
-updateMarkdownFiles('../_live');
+updateMarkdownFiles('../_2019/learn');
+updateMarkdownFiles('../_2019/create');
+// updateMarkdownFiles('../_2019/play');
+updateMarkdownFiles('../_2019/connect');
+updateMarkdownFiles('../_2019/live');

@@ -1,204 +1,145 @@
 
 
-
   /* =Colors
   ----------------------------------------------- */
   :root {
-    --primary-color:   rgb(237, 59, 136); /* @strawberry */
-    --secondary-color: rgb(255, 194, 51); /* @banana */
+
+    /* LEARN */
+    --blueberry              : hsl(183, 100%,  37%);
+    --blueberry-bright       : hsl(182,  58%,  75%);
+    --blueberry-very-bright  : hsl(183,  59%,  92%);
+
+    /* PLAY */
+    --strawberry             : hsl(334,  86%,  57%);
+    --strawberry-bright      : hsl(334,  86%,  83%);
+    --strawberry-very-bright : hsl(328,  59%,  94%);
+
+    /* LIVE */
+    --lime                   : hsl( 88,  51%,  53%);
+    --lime-bright            : hsl( 86,  52%,  81%);
+    --lime-very-bright       : hsl( 85,  50%,  91%);
+
+    /* CONNECT */
+    --tangerine              : hsl( 33,  94%,  59%);
+    --tangerine-bright       : hsl( 33,  95%,  84%);
+    --tangerine-very-bright  : hsl( 33,  95%,  92%);
+
+    /* CREATE */
+    --banana                 : hsl( 47,  97%,  60%);
+    --banana-bright          : hsl( 47,  98%,  84%);
+    --banana-very-bright     : hsl( 48,  95%,  92%);
+
+    /* SHIM: Make banana color darker in some cases, for legibility */
+    --banana-dark            : hsl(47, 87%, 50%);
+
+
+    --midnight : rgb( 41,  41,  41);
+    --snow     : rgb(254, 254, 254);
   }
 
+
+
+  :root {
+    --primary-color:   var(--strawberry);
+    --secondary-color: var(--banana);
+    --primary-color-readability: var(--strawberry);
+  }
   .banana {
-    --primary-color:   rgb(255, 194, 51); /* @banana */
-    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+    --primary-color:   var(--banana);
+    --secondary-color: var(--strawberry);
+    --primary-color-readability: var(--banana-dark);
   }
   .blueberry {
-    --primary-color:   rgb(6, 179, 188); /* @blueberry */
-    --secondary-color: rgb(255, 194, 51); /* @banana */
+    --primary-color:   var(--blueberry);
+    --secondary-color: var(--banana);
+    --primary-color-readability: var(--blueberry);
   }
   .lime {
-    --primary-color:   rgb(141, 208, 59); /* @lime */
-    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+    --primary-color:   var(--lime);
+    --secondary-color: var(--strawberry);
+    --primary-color-readability: var(--lime);
   }
   .strawberry {
-    --primary-color:   rgb(237, 59, 136); /* @strawberry */
-    /*--primary-color: rgb(255, 59, 118);*/ /* @strawberry-orange */
-    --secondary-color: rgb(255, 194, 51); /* @banana */
+    --primary-color:   var(--strawberry);
+    --secondary-color: var(--banana);
+    --primary-color-readability: var(--strawberry);
   }
   .tangerine {
-    --primary-color:   rgb(249, 160, 51); /* @tangerine */
-    --secondary-color: rgb(237, 59, 136); /* @strawberry */
+    --primary-color:   var(--tangerine);
+    --secondary-color: var(--strawberry);
+    --primary-color-readability: var(--tangerine);
   }
 
 
   body {
-    background: rgb(254, 254, 254); /* @snow */
-    color: rgb(41, 41, 41); /* @midnight */
+    background: var(--snow);
+    color: var(--midnight);
   }
 
   h1, h2, h3, h4, h5, h6, strong, em {
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: gray;
+    color: var(--primary-color-readability, gray);
   }
 
   a {
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: var(--primary-color);
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-    font-weight: 600; /* @semibold */
   }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, strong a, em a {
-    font-weight: inherit;
-  }
+
   a:hover,
   a:active,
   a:focus {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(6, 179, 188); /* @blueberry */
+    color: var(--secondary-color);
   }
 
-  .blueberry main > p a {
-    color: rgb(237, 192, 50); /* @dark-banana */
-    color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  .blueberry main > p a:hover,
-  .blueberry main > p a:active,
-  .blueberry main > p a:focus {
-    color: rgb(237, 192, 50); /* @dark-banana */
+  main > h1:first-child strong {
+    color: var(--secondary-color);
+    font-weight: bold;
   }
 
-  .tangerine main a {
-    color: rgb(249, 160, 51); /* @tangerine */
+  header,
+  main > h1:first-child {
+    background-color: var(--primary-color);
+    color: var(--snow);
   }
-  .tangerine main a:hover,
-  .tangerine main a:active,
-  .tangerine main a:focus {
-    color: rgb(237, 59, 136); /* @strawberry */
+  header a,
+  main > h1:first-child em {
+    color: var(--snow);
   }
-
-  .lime main a:hover,
-  .lime main a:active,
-  .lime main a:focus {
-    color: rgb(141, 208, 59); /* @lime */
+  header .active a,
+  header a:hover,
+  header a:active,
+  header a:focus  {
+    color: var(--secondary-color);
   }
-
-  .strawberry main > ul a,
-  .strawberry main > p a {
-    color: rgb(237, 192, 50); /* @dark-banana */
-    color: rgb(237, 59, 136); /* @strawberry */
+  main > h1:not(:first-child),
+  main h2,
+  main h3,
+  main strong,
+  main em {
+    color: gray;
+    color: var(--primary-color-readability, gray);
   }
-  .strawberry main > ul a:hover,
-  .strawberry main > ul a:active,
-  .strawberry main > ul a:focus,
-  .strawberry main > p a:hover,
-  .strawberry main > p a:active,
-  .strawberry main > p a:focus {
-    color: rgb(237, 192, 50); /* @dark-banana */
+  main > ul a,
+  main > p a {
+    color: var(--primary-color);
   }
-
-
-
-  .blueberry header,
-  .blueberry main > h1:first-child {
-    background-color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(255, 194, 51); /* @banana */
-    color: rgb(255, 224, 81); /* @bright-banana */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-  .blueberry header a,
-  .blueberry main > h1:first-child em {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-  .blueberry header .active a,
-  .blueberry header a:hover,
-  .blueberry header a:active,
-  .blueberry header a:focus  {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(255, 224, 81); /* @bright-banana */
-  }
-  .blueberry main h2,
-  .blueberry main h3,
-  .blueberry main strong,
-  .blueberry main em {
-    color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(237, 59, 136); /* @strawberry */
+  main > ul a:hover,
+  main > ul a:active,
+  main > ul a:focus,
+  main > p a:hover,
+  main > p a:active,
+  main > p a:focus {
+    color: var(--secondary-color);
   }
 
-
-  .lime header,
-  .lime main > h1:first-child {
-    background-color: rgb(141, 208, 59); /* @lime */
-    color: rgb(254, 254, 254); /* @snow */
+  /* SHIM: Make the colors work a little differently on the home page */
+  .home.blueberry main {
+    --primary-color: var(--strawberry);
+    --primary-color-readability: var(--strawberry);
   }
-  .lime header a {
-    color: rgb(254, 254, 254); /* @snow */
-  }
-  .lime header .active a,
-  .lime header a:hover,
-  .lime header a:active,
-  .lime header a:focus  {
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  .lime main h2,
-  .lime main h3,
-  .lime main strong,
-  .lime main em {
-    color: rgb(141, 208, 59); /* @lime */
+  .home.blueberry main h1 {
+    --primary-color: var(--blueberry);
+    --primary-color-readability: var(--blueberry);
   }
 
-
-  .tangerine header,
-  .tangerine main > h1:first-child {
-    background-color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-  .tangerine header a,
-  .tangerine main > h1:first-child em {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-  .tangerine header .active a,
-  .tangerine header a:hover,
-  .tangerine header a:active,
-  .tangerine header a:focus  {
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  .tangerine main > h1:not(:first-child),
-  .tangerine main h2,
-  .tangerine main h3,
-  .tangerine main > details h3,
-  .tangerine main > details p strong,
-  .tangerine main > details p em,
-  .tangerine main > p strong,
-  .tangerine main > p em {
-    color: rgb(249, 160, 51); /* @tangerine */
-  }
-
-
-  .banana header,
-  .banana main > h1:first-child {
-    background-color: rgb(255, 194, 51); /* @banana */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-  .banana header a,
-  .banana main > h1:first-child em {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(254, 254, 254); /* @snow */
-  }
-  .banana header .active a,
-  .banana header a:hover,
-  .banana header a:active,
-  .banana header a:focus  {
-    color: rgb(237, 59, 136); /* @strawberry */
-  }
-  .banana main > h1:not(:first-child),
-  .banana main h2,
-  .banana main h3,
-  .banana main h4,
-  .banana main p strong,
-  .banana main p em {
-    color: rgb(237, 192, 50); /* @dark-banana */
-    color: rgb(255, 194, 51); /* @banana */
-  }

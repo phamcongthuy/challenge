@@ -92,12 +92,12 @@
   {% endif %}
 
 
-  {% if page.project_image and page.project_image != '' and page.category and page.category != '' %}
-  <meta property="og:image" content="https://challenge.la2050.org/assets/images/{{ page.category }}/2048-wide/{{ page.project_image }}" />
+  {% if page.filename and page.filename != '' and page.category and page.category != '' and page.year and page.year != '' %}
+  <meta property="og:image" content="https://challenge.la2050.org/assets/images/{{ page.year }}/{{ page.category }}/2048-wide/{{ page.filename }}.jpg" />
   {% elsif page.image %}
   <meta property="og:image" content="{{ page.image }}" />
   {% elsif site.image %}
-  <meta property="og:image" content="{{ site.image }}?v={{ site.version }}" />
+  <meta property="og:image" content="{{ site.image }}" />
   {% endif %}
 
 
@@ -113,9 +113,25 @@
   <meta name="twitter:site" content="@LA2050" />
 
 </head>
-<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
-  {% if page.show_promotion or site.phase == 2 or site.phase == 5 or site.phase == 7 %}
+{% if page.layout == "project" and page.category %}
+  {% case page.category %}
+    {% when "learn" %}
+      {% assign project_body_class = "blueberry" %}
+    {% when "create" %}
+      {% assign project_body_class = "banana" %}
+    {% when "play" %}
+      {% assign project_body_class = "strawberry" %}
+    {% when "connect" %}
+      {% assign project_body_class = "tangerine" %}
+    {% when "live" %}
+      {% assign project_body_class = "lime" %}
+  {% endcase %}
+{% endif %}
+
+<body{% if page.body_class %} class="{{ page.body_class }}"{% elsif project_body_class %} class="{{ project_body_class }}"{% endif %}>
+
+  {% if page.show_promotion or site.phase == 2 or site.phase == 5 or site.phase == 8 %}
   <section class="promotion">
     {% include promotion.html %}
   </section>

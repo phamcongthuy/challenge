@@ -72,11 +72,6 @@
     letter-spacing: 2px;
     max-width: 20em; /* @max-line-length / 2em */
   }
-  h1 strong {
-    color: var(--secondary-color) !important;
-    color: rgb(255, 224, 81) !important; /* @bright-banana */
-    font-weight: bold;
-  }
   h1 img {
     display: block;
     margin-bottom: 1.5em;
@@ -125,6 +120,12 @@
     font-weight: normal;
   }
 
+  a {
+    font-weight: 600; /* @semibold */
+  }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, strong a, em a {
+    font-weight: inherit;
+  }
 
   img {
     max-width: 100%;
@@ -149,7 +150,7 @@
     font-weight: bold;
     font-size: 0.75em;
     letter-spacing: 0.2em;
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: var(--strawberry);
     color: var(--primary-color);
   }
   .activate-tag + h2 {

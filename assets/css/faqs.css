@@ -34,11 +34,11 @@
   }
 
   summary {
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(249, 160, 51); /* @tangerine */
+    color: var(--strawberry);
+    color: var(--tangerine);
   }
   .lime summary {
-    color: rgb(141, 208, 59); /* @lime */
+    color: var(--lime);
   }
   summary h2,
   .tangerine main > details h2 {
@@ -49,15 +49,15 @@
     outline: 0px solid transparent;
   }
   details.faq summary:focus {
-    color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(249, 160, 51); /* @tangerine */
-    color: rgb(237, 59, 136); /* @strawberry */
+    color: var(--blueberry);
+    color: var(--tangerine);
+    color: var(--strawberry);
   }
   details.faq summary::-webkit-details-marker,
   details.faq summary:focus::-webkit-details-marker {
-    color: rgb(6, 179, 188); /* @blueberry */
-    color: rgb(237, 59, 136); /* @strawberry */
-    color: rgb(249, 160, 51); /* @tangerine */
+    color: var(--blueberry);
+    color: var(--strawberry);
+    color: var(--tangerine);
     color: inherit;
   }
 
