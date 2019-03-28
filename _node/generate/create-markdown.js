@@ -398,24 +398,32 @@ function fixDataCharacters(data) {
   return data;
 }
 
-function generateCollections(file_name, category) {
+function generateCollections(file_path) {
 
-  console.log('generateCollections: ' + file_name);
+  console.log('generateCollections: ' + file_path);
 
-  let input = fs.readFileSync('./_spreadsheets/' + file_name, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
+  let input = fs.readFileSync(file_path, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
   let records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
+
+  records.sort((a, b) => {
+    // a is less than b by some ordering criterion
+    if (a['Project Title'] > b['Project Title']) {
+      return -1
+    }
+    // a is greater than b by the ordering criterion
+    if (a['Project Title'] < b['Project Title']) {
+      return 1
+    }
+    // a must be equal to b
+    return 0
+  })
 
   for (let index = 0; index < records.length; index++) {
     let data = fixDataCharacters(records[index]);
-    createMarkdownFile(data, category);
+    createMarkdownFile(data);
   }
   return records;
 }
 
-generateCollections('Batch 1 2019 Grants Challenge 3_20 - Sheet4.csv');
+generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet6.csv');
 
-// generateCollections('learn.csv', 'learn');
-// generateCollections('create.csv', 'create');
-// generateCollections('play.csv', 'play');
-// generateCollections('connect.csv', 'connect');
-// generateCollections('live.csv', 'live');
