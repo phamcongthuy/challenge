@@ -407,11 +407,11 @@ function generateCollections(file_path) {
 
   records.sort((a, b) => {
     // a is less than b by some ordering criterion
-    if (a['Project Title'] > b['Project Title']) {
+    if (a['Project Title'] < b['Project Title']) {
       return -1
     }
     // a is greater than b by the ordering criterion
-    if (a['Project Title'] < b['Project Title']) {
+    if (a['Project Title'] > b['Project Title']) {
       return 1
     }
     // a must be equal to b
