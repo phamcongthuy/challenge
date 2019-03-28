@@ -409,4 +409,37 @@ function shuffle(array) {
 })();
 </script>
 
+<script>
+(function() {
+  if (!document.body.querySelector || !document.body.querySelectorAll) return
+
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
+  function randomize(selector) {
+    var items = document.querySelectorAll(selector)
+    if (items.length < 1) return
+
+    var nextItem
+    var parent = items[0].parentNode
+
+    for (var index = 0; index < items.length; index++) {
+
+      // Get a random item
+      nextItem = items[getRandomInt(items.length)]
+
+      // Move it before the first item
+      parent.removeChild(nextItem)
+      // console.dir(nextItem)
+      // console.dir(items)
+      parent.insertBefore(nextItem, document.querySelector(selector))
+    }
+  }
+
+  randomize('.proposals li')
+})();
+</script>
+
 <script async src="/assets/js/lazy-images.js"></script>
