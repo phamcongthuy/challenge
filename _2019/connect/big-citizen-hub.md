@@ -56,11 +56,7 @@ project_measure: >-
    
    both the program process (i.e. quality of program implementation, youth participants’ program
    
-   experiences) and program outcomes (i.e. youth participants’ developmental growth and learning). Through continued use of these measures, we aim to track longitudinal changes in the program’s ten target outcomes:
-   
-   
-   
-   Character Development: 
+   experiences) and program outcomes (i.e. youth participants’ developmental growth and learning). Through continued use of these measures, we aim to track longitudinal changes in the program’s ten target outcomes in the areas of _Character Development_, _Social Capital_, and _Sociopolitical Empowerment_:
    
    1. Diversity Attitudes
    
@@ -70,15 +66,7 @@ project_measure: >-
    
    4. Curiosity & Exploration
    
-   
-   
-   Social Capital
-   
    5. Diverse Social Capital
-   
-   
-   
-   Sociopolitical Empowerment: 
    
    6. Awareness of Social Issues
    
@@ -102,15 +90,15 @@ project_measure: >-
    
    In addition, we track:
    
-   Participant demographics 
+   * Participant demographics 
    
-   Participant attendance
+   * Participant attendance
    
-   Hours served
+   * Hours served
    
-   Retention percentage
+   * Retention percentage
    
-   Number of community partners engaged
+   * Number of community partners engaged
 ein: 95-4302067
 mailing_address_street: 1000 N Alameda St Suite 240
 mailing_address_city: Los Angeles
@@ -132,33 +120,33 @@ project_proposal_best_place: >-
    
    AmeriCorps members will recruit and retain middle- and high-school youth, build relationships with schools and community partners, design Saturday curricula, train college-aged volunteers, and develop experiential learning opportunities for program participants - all while developing their own skills in youth work, project management, and sociopolitical problem-solving. Over the course of 22 Saturdays between January and June, AmeriCorps members will increase youths’ civic knowledge and personal agency. We will:
    
-   *Place youth on diverse teams, utilizing a near-peer mentor structure 
+   * Place youth on diverse teams, utilizing a near-peer mentor structure 
    
-   *Address concerns of cultural competency by exposing youth to different groups and perspectives they may not otherwise have access to
+   * Address concerns of cultural competency by exposing youth to different groups and perspectives they may not otherwise have access to
    
-   *Give youth the space to learn and practice civic leadership skills
+   * Give youth the space to learn and practice civic leadership skills
    
-   *Provide the resources to explore, serve, and reflect on social justice issues
+   * Provide the resources to explore, serve, and reflect on social justice issues
    
-   *Provide a place to implement local solutions to local problems
+   * Provide a place to implement local solutions to local problems
    
-   *Complete youth-led service projects
+   * Complete youth-led service projects
    
-   *Utilize public transit to collaborate with agencies across the city, addressing issues such as Environmental Sustainability, Gender Justice, Housing, Immigration, and the School-to-Prison Pipeline
+   * Utilize public transit to collaborate with agencies across the city, addressing issues such as Environmental Sustainability, Gender Justice, Housing, Immigration, and the School-to-Prison Pipeline
    
    
    
    In 2020, our youth will represent the following:
    
-   300 youth ages 11-26
+   * 300 youth ages 11-26
    
-   60+ zip codes within LA County
+   * 60+ zip codes within LA County
    
-   85% socioeconomically disadvantaged
+   * 85% socioeconomically disadvantaged
    
-   50% female, 35% male, 15% gender non-conforming
+   * 50% female, 35% male, 15% gender non-conforming
    
-   75% Latino, 10% Asian, 5% African American, 5% Caucasian, 5% multiracial
+   * 75% Latino, 10% Asian, 5% African American, 5% Caucasian, 5% multiracial
    
    
    
