@@ -198,7 +198,7 @@ View the [full timeline](/timeline).
 
 _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?_
 
-* The My LA2050 Grants Challenge is open for submissions from Thursday, February 28, 2019 (9am Pacific Time) through Friday, March 29, 2019 (5pm Pacific Time).
+* The My LA2050 Grants Challenge is open for submissions from Thursday, February 28, 2019 (9am Pacific Time) through Friday, March 29, 2019 (midnight, Pacific Time).
 * In order to submit a proposal, log-in and complete the application form.
 * US-based non-profit, for-profit, social enterprises, and government agencies with projects serving Los Angeles County are eligible to apply.
 * Winning projects must be completed, and the grant award must be expended within 12 months.
