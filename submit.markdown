@@ -176,7 +176,7 @@ The winners have been announced!
 
 ### Dates
 
-Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (5pm Pacific Time) on this website. 
+Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (midnight, Pacific Time) on this website. 
 
 Your application will go through a moderation process to ensure that it adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals.
 
