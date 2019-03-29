@@ -29,7 +29,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
 {% elsif site.phase == 2 %}
 
-<a href="{{ site.submission_url }}">Submit your idea</a> by Friday, **March 29, 2019** <small>(5pm Pacific Time)</small>.
+<a href="{{ site.submission_url }}">Submit your idea</a> by Friday, **March 29, 2019** <small>(midnight)</small>.
 
 Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
