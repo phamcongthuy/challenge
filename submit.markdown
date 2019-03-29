@@ -35,7 +35,7 @@ main_class: standard-layout
 
 <div class="introduction" markdown="1">
 
-The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(5pm Pacific Time)</small>.
+The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(midnight, Pacific Time)</small>.
 
 <p class="action" markdown="1">
   <a href="{{ site.submission_url }}">Submit your idea</a>
