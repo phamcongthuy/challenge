@@ -50,7 +50,7 @@ The submission period has started! Apply by <strong>March 29, 2019</strong> <sma
 The submission period is complete.
 
 <small>
-Entries will be showcased here <strong>April 15, 2019</strong>. 
+Entries will be showcased here by <strong>April 15, 2019</strong>. 
 Voting begins on
 <span class="avoid-break">
   <strong>April 22, 2019</strong>.
