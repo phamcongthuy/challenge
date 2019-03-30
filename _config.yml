@@ -20,11 +20,11 @@ show_early_entries: true
 
 # Entries being accepted: 
 # February 28
-phase: 2
+# phase: 2
 
 # Entry period ended: 
 # March 29
-# phase: 3
+phase: 3
 
 # Entries shown on the website: 
 # April 15

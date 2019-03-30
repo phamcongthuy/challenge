@@ -39,7 +39,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   <em>The submission period is complete.</em>
 </p>
 <p>
-  Proposals will be showcased here on <strong>April 15, 2019</strong>. 
+  Proposals will be showcased here by <strong>April 15, 2019</strong>. 
   Voting begins on
   <span class="avoid-break">
     <strong>April 22, 2019</strong>.
