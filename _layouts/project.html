@@ -120,24 +120,37 @@ stylesheets:
 {% assign url_contains_notes = link_newsletter_url %}
 {% endunless %}
 {% endif %}
-{% if url_contains_notes == '' %}
-<div class="links links-action">
-<h2>Love this idea?</h2>
-
-<ul class="action" style="max-width: none;">
-  {% if site.phase == 5 %}
-    <li><a href="/vote/form/?{{ page.category }}={{ page.title | url_encode }}">Vote for this proposal</a></li>
-    <li><a href="{{ link_newsletter_url }}">Stay updated</a></li>
-  {% else %}
-    <li><a href="{{ link_newsletter_url }}">Stay updated on this proposal</a></li>
-  {% endif %}
-</ul>
-</div>
-{% endif %}
 
 {% endfor %}
 
 {% endif %}
+
+
+
+{% if site.phase == 5 %}
+<div class="links links-action">
+<h2>Love this idea?</h2>
+
+<ul class="action" style="max-width: none;">
+  <li><a href="/vote/form/?{{ page.category }}={{ page.title | url_encode }}">Vote for this proposal</a></li>
+  {% if page.link_newsletter and page.link_newsletter != '' and url_contains_notes == '' %}
+  <li><a href="{{ link_newsletter_url }}">Stay updated</a></li>
+  {% endif %}
+</ul>
+</div>
+{% elsif page.link_newsletter and page.link_newsletter != '' and url_contains_notes == '' %}
+<div class="links links-action">
+<h2>Love this idea?</h2>
+
+<ul class="action" style="max-width: none;">
+  <li><a href="{{ link_newsletter_url }}">Stay updated on this proposal</a></li>
+</ul>
+</div>
+{% endif %}
+
+
+
+
 
 
 {% if page.link_donate and page.link_donate != '' %}
