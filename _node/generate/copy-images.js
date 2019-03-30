@@ -150,6 +150,6 @@ let submissionFiles = getAllFilesFromFolder('./download__QbCFCqF5B9ZmwBrgM5qc38D
 
 updateLocations('../_2019/learn');
 updateLocations('../_2019/create');
-// updateLocations('../_2019/play');
+updateLocations('../_2019/play');
 updateLocations('../_2019/connect');
 updateLocations('../_2019/live');
