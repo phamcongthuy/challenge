@@ -18,7 +18,10 @@ organization_facebook: 'https://www.facebook.com/right2tech'
 organization_instagram: '@right2tech'
 link_donate: 'https://www.human-i-t.org/donate'
 link_volunteer: 'https://www.human-i-t.org/volunteer'
-organization_activity: "â€\x8Dhuman-I-T provides low-income individuals & nonprofits with technology, internet, and digital training. By reusing instead of recycling electronics, our team transforms e-waste into opportunity."
+organization_activity: >-
+  human-I-T provides low-income individuals & nonprofits with technology,
+  internet, and digital training. By reusing instead of recycling electronics,
+  our team transforms e-waste into opportunity.
 project_proposal_description: >-
   LA is better place to connect when we all have equitable access to the digital
   world. One of the most poignant examples of that comes from a single mother of
