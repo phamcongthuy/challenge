@@ -247,7 +247,7 @@ function createMarkdownFile(data) {
     .map(name => getArrayFromString(data[name]))
     .reduce((arrays, nextArray) => arrays.concat(nextArray));
 
-  console.dir(metrics_other)
+  // console.dir(metrics_other)
 
   metricsOtherColumns.forEach(name => {
     delete data[name];
@@ -407,6 +407,7 @@ function fixDataCharactersInString(string) {
     .replace(/â€/g, '”') // ?
     .replace(/â€¢/g, "*")
     .replace(/â€¦/g, "…")
+    .replace(/â€\x8D/g, "")
     .replace(/âˆš/g, '√')
     .replace(/â–ª/g, '*')
     .replace(/â—\x8F/g, '*')
