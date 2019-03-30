@@ -121,11 +121,11 @@ function mapAllColumnNames(data) {
       "6. In what stage of innovation is this project?": 'project_innovation_stage',
       'Please list the organizations collaborating on this proposal:': 'project_collaborators',
       '12. Please explain how you will define and measure success for your project.*' : 'project_measure',
-      'Learn_Metrics' : 'learn_metrics',
-      'Create_Metrics' : 'create_metrics',
-      'Play_Metrics' : 'play_metrics',
-      'Connect_Metrics' : 'connect_metrics',
-      'Live_Metrics' : 'live_metrics',
+      '4. Which of the following LEARN metrics will your activation impact?' : 'learn_metrics',
+      '4. Which of the following CREATE metrics will your activation impact?' : 'create_metrics',
+      '4. Which of the following PLAY metrics will your activation impact?' : 'play_metrics',
+      '4. Which of the following CONNECT metrics will your activation impact?' : 'connect_metrics',
+      '4. Which of the following LIVE metrics will your activation impact?' : 'live_metrics',
       'Learn_Other' : 'learn_other',
       'Create_Other' : 'create_other',
       'Play_Other' : 'play_other',
@@ -155,12 +155,22 @@ function mapAllColumnNames(data) {
     }
   }
 
+  /*
   const bestPlaceMap = {
     'connect7': 'project_proposal_best_place',
     'create7': 'project_proposal_best_place',
     'learn7': 'project_proposal_best_place',
     'live7': 'project_proposal_best_place',
     'play7': 'project_proposal_best_place'
+  }
+  */
+
+  const bestPlaceMap = {
+    '7. Please provide the details of your project or activities, including: (1)': 'project_proposal_best_place',
+    '7. Please provide the details of your project or activities, including: (2)': 'project_proposal_best_place',
+    '7. Please provide the details of your project or activities, including: (3)': 'project_proposal_best_place',
+    '7. Please provide the details of your project or activities, including: (4)': 'project_proposal_best_place',
+    '7. Please provide the details of your project or activities, including: (5)': 'project_proposal_best_place'
   }
 
   for (let name in bestPlaceMap) {
@@ -213,13 +223,41 @@ function createMarkdownFile(data) {
         .concat(getArrayFromString(data.connect_metrics))
         .concat(getArrayFromString(data.learn_metrics))
         .concat(getArrayFromString(data.live_metrics))
-        .concat(getArrayFromString(data.play_metrics))
+        .concat(getArrayFromString(data.play_metrics));
 
+  /*
   let metrics_other = getArrayFromString(data.create_other)
         .concat(getArrayFromString(data.connect_other))
         .concat(getArrayFromString(data.learn_other))
         .concat(getArrayFromString(data.live_other))
         .concat(getArrayFromString(data.play_other))
+  */
+
+  const metricsOtherColumns = [
+    `4. Please select any other LA2050 goal categories your proposal will impact (v)`,
+    `4. Please select any other LA2050 goal categories your proposal will impact (w)`,
+    `4. Please select any other LA2050 goal categories your proposal will impact (x)`,
+    `5. Please select any other LA2050 goal categories your proposal will impact (y)`,
+    `4. Please select any other LA2050 goal categories your proposal will impact (z)`
+  ];
+
+  const reducer = (accumulator, currentValue) => accumulator.concat(currentValue);
+
+  let metrics_other = metricsOtherColumns
+    .map(name => getArrayFromString(data[name]))
+    .reduce((arrays, nextArray) => arrays.concat(nextArray));
+
+  console.dir(metrics_other)
+
+  metricsOtherColumns.forEach(name => {
+    delete data[name];
+  })
+
+  // let metrics_other = getArrayFromString(data[`4. Please select any other LA2050 goal categories your proposal will impact (v)`])
+  //             .concat(getArrayFromString(data[`4. Please select any other LA2050 goal categories your proposal will impact (w)`]))
+  //             .concat(getArrayFromString(data[`4. Please select any other LA2050 goal categories your proposal will impact (x)`]))
+  //             .concat(getArrayFromString(data[`5. Please select any other LA2050 goal categories your proposal will impact (y)`]))
+  //             .concat(getArrayFromString(data[`4. Please select any other LA2050 goal categories your proposal will impact (z)`]))
 
   data.category_metrics = metrics;
   data.category_other   = metrics_other;
@@ -282,7 +320,7 @@ function createMarkdownFile(data) {
     'Application state',
     'Application status',
     'Awarded',
-    'Q4_Goal_Category',
+    '3. Please select the primary LA2050 goal your submission will impact:',
     'Current stage',
     'Moderation Decision',
     'What is your organization’s annual operating budget?*',
@@ -425,5 +463,5 @@ function generateCollections(file_path) {
   return records;
 }
 
-generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet6.csv');
+generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet7 (2).csv');
 
