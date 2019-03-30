@@ -18,7 +18,7 @@ project_video: 'https://www.youtube.com/watch?v=65oc4Nc8gt4&feature=youtu.be'
 organization_website: 'https://www.mayorsfundfored.org'
 organization_twitter: '@LBMayorsfund4Ed'
 organization_facebook: '@LBMayorsfund4Ed'
-organization_instagram: '@'
+organization_instagram: ''
 link_donate: >-
   https://mayorsfundfored.networkforgood.com/projects/68735-mayor-s-fund-for-education
 link_volunteer: ''

@@ -15,7 +15,7 @@ project_video: ''
 organization_website: 'https://www.AdvancementProjectCA.org'
 organization_twitter: '@AP_California'
 organization_facebook: www.facebook.com/AdvancementProjectCA
-organization_instagram: '@'
+organization_instagram: ''
 link_donate: 'https://www.AdvancementProjectCA.org/donate'
 link_volunteer: AdvancementProjectCA.org/sign-up
 organization_activity: >-
