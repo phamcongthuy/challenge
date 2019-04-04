@@ -133,6 +133,6 @@ category_other: []
 year: 2019
 category: connect
 filename: civic-innovation-lab
-order: 21
+order: 9
 
 ---

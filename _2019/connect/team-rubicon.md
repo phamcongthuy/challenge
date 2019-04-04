@@ -114,6 +114,6 @@ category_other:
 year: 2019
 category: connect
 filename: team-rubicon
-order: 33
+order: 28
 
 ---

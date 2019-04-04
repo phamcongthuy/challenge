@@ -285,6 +285,6 @@ category_other:
 year: 2019
 category: learn
 filename: pop-culture-hero-coalition
-order: 25
+order: 24
 
 ---

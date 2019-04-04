@@ -114,6 +114,6 @@ category_other:
 year: 2019
 category: connect
 filename: casa-of-los-angeles
-order: 18
+order: 8
 
 ---

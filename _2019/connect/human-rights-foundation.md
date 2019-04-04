@@ -128,6 +128,6 @@ category_other:
 year: 2019
 category: connect
 filename: human-rights-foundation
-order: 22
+order: 11
 
 ---

@@ -99,6 +99,6 @@ category_other:
 year: 2019
 category: live
 filename: los-angeles-lgbt-center
-order: 5
+order: 14
 
 ---

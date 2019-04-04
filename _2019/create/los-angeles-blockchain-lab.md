@@ -149,6 +149,6 @@ category_other:
 year: 2019
 category: create
 filename: los-angeles-blockchain-lab
-order: 23
+order: 17
 
 ---

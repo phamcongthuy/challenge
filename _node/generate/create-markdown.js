@@ -459,13 +459,17 @@ function generateCollections(file_path) {
   let input = fs.readFileSync(file_path, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
   let records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
 
+  function getValueForComparison(data) {
+    return stringToURI(fixDataCharactersInString(data['Organization Details: | Organization name: *']))
+  }
+
   records.sort((a, b) => {
     // a is less than b by some ordering criterion
-    if (a['Project Title'] < b['Project Title']) {
+    if (getValueForComparison(a) < getValueForComparison(b)) {
       return -1
     }
     // a is greater than b by the ordering criterion
-    if (a['Project Title'] > b['Project Title']) {
+    if (getValueForComparison(a) > getValueForComparison(b)) {
       return 1
     }
     // a must be equal to b

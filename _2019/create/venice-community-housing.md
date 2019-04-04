@@ -131,6 +131,6 @@ category_other:
 year: 2019
 category: create
 filename: venice-community-housing
-order: 30
+order: 27
 
 ---

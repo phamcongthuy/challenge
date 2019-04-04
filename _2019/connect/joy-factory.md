@@ -237,6 +237,6 @@ category_other:
 year: 2019
 category: connect
 filename: joy-factory
-order: 27
+order: 16
 
 ---

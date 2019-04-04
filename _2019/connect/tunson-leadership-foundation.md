@@ -119,6 +119,6 @@ category_other:
 year: 2019
 category: connect
 filename: tunson-leadership-foundation
-order: 9
+order: 31
 
 ---

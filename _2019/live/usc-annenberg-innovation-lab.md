@@ -11,10 +11,9 @@ project_description: >-
   false/misleading narratives.
 organization_name: USC Annenberg Innovation Lab
 organization_description: Non-profit organization
-project_video: ''
-# organization_website_notes: >-
-#   https://www.countthenation.org / https://www.annenberglab.com/ (Count the
-#   Nation is a project of the USC Annenberg Innovation Lab)
+project_video: >-
+  https://www.countthenation.org / https://www.annenberglab.com/ (Count the
+  Nation is a project of the USC Annenberg Innovation Lab)
 organization_website: 'https://www.countthenation.org'
 organization_twitter: 'https://twitter.com/countnation'
 organization_facebook: 'https://www.facebook.com/countthenation/'
@@ -152,6 +151,6 @@ category_other:
 year: 2019
 category: live
 filename: usc-annenberg-innovation-lab
-order: 30
+order: 33
 
 ---

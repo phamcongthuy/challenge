@@ -158,6 +158,6 @@ category_other:
 year: 2019
 category: connect
 filename: union-rescue-mission
-order: 10
+order: 32
 
 ---
