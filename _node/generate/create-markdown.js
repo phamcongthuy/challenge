@@ -310,6 +310,21 @@ function createMarkdownFile(data) {
   }
   if (!data.project_video) data.project_video = '';
 
+  // Handle empty instagram values
+  if (data.organization_instagram === '@') {
+    data.organization_instagram = '';
+  }
+  
+  // Handle empty twitter values
+  if (data.organization_twitter === '@') {
+    data.organization_twitter = '';
+  }
+
+  // Fix insecure Facebook values
+  if (data.organization_facebook.includes('http://')) {
+    data.organization_facebook = data.organization_facebook.replace('http://', 'https://');
+  }
+
   data.filename = filename;
   data.order = orderCursors[data.category]++;
 
@@ -464,5 +479,5 @@ function generateCollections(file_path) {
   return records;
 }
 
-generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet7 (2).csv');
+generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet8.csv');
 

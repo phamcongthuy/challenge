@@ -146,7 +146,7 @@ function updateLocations(folder) {
   }
 }
 
-let submissionFiles = getAllFilesFromFolder('./download__QbCFCqF5B9ZmwBrgM5qc38DX8r4ffq');
+let submissionFiles = getAllFilesFromFolder('./download__9r4DFrpbT7qt5BNGh8QQhB2vZrx48d');
 
 updateLocations('../_2019/learn');
 updateLocations('../_2019/create');
