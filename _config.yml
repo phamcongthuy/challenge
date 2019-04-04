@@ -147,6 +147,7 @@ exclude:
   - Gemfile.lock
   - _node
   - sitemap.txt
+  - test-finalists.txt
   - assets/images/2019/learn/original
   - assets/images/2019/create/original
   - assets/images/2019/play/original
