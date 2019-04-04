@@ -126,6 +126,6 @@ category_other:
 year: 2019
 category: learn
 filename: freedom-and-fashion
-order: 10
+order: 5
 
 ---

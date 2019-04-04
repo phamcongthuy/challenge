@@ -121,6 +121,6 @@ category_other:
 year: 2019
 category: learn
 filename: los-angeles-service-academy
-order: 24
+order: 22
 
 ---

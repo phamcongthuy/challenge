@@ -153,6 +153,6 @@ category_other:
 year: 2019
 category: connect
 filename: in-the-making
-order: 10
+order: 24
 
 ---

@@ -110,6 +110,6 @@ category_other:
 year: 2019
 category: connect
 filename: human-i-t
-order: 30
+order: 13
 
 ---

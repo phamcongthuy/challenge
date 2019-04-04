@@ -158,6 +158,6 @@ category_other:
 year: 2019
 category: learn
 filename: fulfillment-fund
-order: 7
+order: 6
 
 ---

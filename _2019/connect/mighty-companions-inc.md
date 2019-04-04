@@ -123,6 +123,6 @@ category_other:
 year: 2019
 category: connect
 filename: mighty-companions-inc
-order: 19
+order: 5
 
 ---

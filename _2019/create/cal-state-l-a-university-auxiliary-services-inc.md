@@ -138,6 +138,6 @@ category_other:
 year: 2019
 category: create
 filename: cal-state-l-a-university-auxiliary-services-inc
-order: 6
+order: 1
 
 ---

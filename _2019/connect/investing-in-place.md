@@ -141,6 +141,6 @@ category_other:
 year: 2019
 category: connect
 filename: investing-in-place
-order: 1
+order: 26
 
 ---

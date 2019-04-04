@@ -129,6 +129,6 @@ category_other:
 year: 2019
 category: learn
 filename: deedly-inc
-order: 6
+order: 2
 
 ---

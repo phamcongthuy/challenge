@@ -96,6 +96,6 @@ category_other:
 year: 2019
 category: connect
 filename: california-center-for-economic-initiatives
-order: 8
+order: 19
 
 ---

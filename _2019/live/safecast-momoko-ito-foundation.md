@@ -116,6 +116,6 @@ category_other:
 year: 2019
 category: live
 filename: safecast-momoko-ito-foundation
-order: 6
+order: 29
 
 ---

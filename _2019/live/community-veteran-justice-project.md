@@ -116,6 +116,6 @@ category_other:
 year: 2019
 category: live
 filename: community-veteran-justice-project
-order: 3
+order: 15
 
 ---

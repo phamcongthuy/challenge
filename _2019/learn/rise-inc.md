@@ -147,6 +147,6 @@ category_other: []
 year: 2019
 category: learn
 filename: rise-inc
-order: 15
+order: 26
 
 ---

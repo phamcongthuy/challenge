@@ -111,6 +111,6 @@ year: 2019
 category: connect
 link_newsletter: 'https://www.theeditorialistla.com/'
 filename: the-editorialist-la
-order: 28
+order: 8
 
 ---

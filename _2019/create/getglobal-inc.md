@@ -133,6 +133,6 @@ category_other:
 year: 2019
 category: create
 filename: getglobal-inc
-order: 14
+order: 7
 
 ---

@@ -117,6 +117,6 @@ category_other:
 year: 2019
 category: create
 filename: circle-of-friends-the-path-to-inclusion-a-project-of-community-partners
-order: 17
+order: 2
 
 ---
