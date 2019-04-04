@@ -11,10 +11,11 @@ project_description: >-
   events, or on a line at Starbucks!
 organization_name: 'Mighty Companions, Inc.'
 organization_description: Non-profit organization
-project_video: |-
-  https://vimeo.com/326934354
-   
-   PASSWORD: friendly
+project_video: ''
+# project_video: |-
+#   https://vimeo.com/326934354
+#   
+#   PASSWORD: friendly
 organization_website: 'https://www.SUESpeaks.org'
 organization_twitter: '@_SUESpeaks'
 organization_facebook: 'https://www.facebook.com/SUESpeaksSearchingforUnityinEverything/'
