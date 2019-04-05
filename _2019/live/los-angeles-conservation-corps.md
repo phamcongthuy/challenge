@@ -86,7 +86,6 @@ category_metrics:
 category_other: []
 year: 2019
 category: live
-link_newsletter: 'https://www.lacorps.org/'
 filename: los-angeles-conservation-corps
 order: 13
 
