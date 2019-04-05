@@ -12,7 +12,7 @@ project_description: >-
    The Heroic Journey Curriculum, with lessons on healthy identity, empathy, resilience, restorative justice, and making positive, life-long choices, is in accordance with extensive research about the impact of SEL in schools.
 organization_name: Pop Culture Hero Coalition
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/watch?time_continue=296&v=vZwxAvZ1LE0'
+project_video: 'https://youtu.be/vZwxAvZ1LE0'
 organization_website: 'https://www.PopCultureHero.org'
 organization_twitter: '@SuperheroIRL'
 organization_facebook: 'https://www.facebook.com/SuperheroIRL'

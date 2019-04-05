@@ -13,7 +13,8 @@ project_description: |-
    Those benefitting from our programs, having access to a balanced meal with fruits, vegetables and cereals, reduced the danger factor of developing high blood pressure or diabetes, among other common ailments related to poor diets.
 organization_name: World Harvest
 organization_description: Non-profit organization
-project_video: 'https://www.worldharvestla.org/stories'
+project_video: https://youtu.be/2cLR-XrSB2o
+# project_video: 'https://www.worldharvestla.org/stories'
 organization_website: 'https://www.worldharvestla.org'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/WorldHarvestFoodBank/'

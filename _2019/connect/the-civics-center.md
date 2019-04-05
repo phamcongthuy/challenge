@@ -13,7 +13,7 @@ project_description: >-
   expand this work throughout LA County.
 organization_name: The Civics Center
 organization_description: Non-profit organization
-project_video: xxx
+project_video: ''
 organization_website: 'https://thecivicscenter.org/'
 organization_twitter: '@TheCivicsCenter'
 organization_facebook: 'https://www.facebook.com/TheCivicsCenter/'

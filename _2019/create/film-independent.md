@@ -11,7 +11,8 @@ project_description: >-
   helping to further dialogue between Angelenos and communities under attack.
 organization_name: Film Independent
 organization_description: Non-profit organization
-project_video: 'https://my.filmindependent.org/page.aspx?pid=446&tab=1'
+project_video: ''
+# project_video: 'https://my.filmindependent.org/page.aspx?pid=446&tab=1'
 organization_website: 'https://www.filmindependent.org'
 organization_twitter: '@filmindependent'
 organization_facebook: 'https://www.facebook.com/filmindependent/'

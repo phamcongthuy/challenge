@@ -11,10 +11,7 @@ project_description: >-
   mentors, prototyping equipment, and coworking space.
 organization_name: Hacker Fund
 organization_description: Non-profit organization
-project_video: >-
-  Here is a video of the 2018 Compton STEAMFest which depicts the types of
-  activities that will take place in the Compton Innovation Center in 2019:
-  https://www.youtube.com/watch?v=rrmxqzbTycA&feature=youtu.be
+project_video: https://www.youtube.com/watch?v=rrmxqzbTycA&feature=youtu.be
 organization_website: 'https://www.hacker.fund'
 organization_twitter: '@thehackerfund'
 organization_facebook: facebook.com/hackerfund

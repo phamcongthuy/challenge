@@ -11,7 +11,8 @@ project_description: >-
   modeled and filmed by students of all abilities.
 organization_name: 'Circle of Friends- The Path to Inclusion, a project of Community Partners'
 organization_description: Non-profit organization
-project_video: 'https://vimeo.com/327421262'
+project_video: ''
+# project_video: 'https://vimeo.com/327421262'
 organization_website: 'https://www.circleofriends.org'
 organization_twitter: '@cofinclusion'
 organization_facebook: www.facebook.com/circleofriends/

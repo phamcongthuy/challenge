@@ -11,7 +11,7 @@ project_description: >-
   skateboarding for education.
 organization_name: The Urban Warehouse
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/watch?time_continue=4&v=o51Q_P_8uBw'
+project_video: 'https://youtu.be/o51Q_P_8uBw'
 organization_website: 'https://www.thegarageboardshops.com'
 organization_twitter: '@garageboardshop'
 organization_facebook: The Garage Board Shop

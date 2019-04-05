@@ -11,7 +11,8 @@ project_description: >-
   share it with dozens of partner news organizations.
 organization_name: CALmatters
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA'
+project_video: ''
+# project_video: 'https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA'
 organization_website: 'https://www.calmatters.org'
 organization_twitter: '@calmatters'
 organization_facebook: 'https://www.facebook.com/calmatters'

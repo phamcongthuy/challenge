@@ -11,7 +11,7 @@ project_description: >-
   caught" and recognized for good work.
 organization_name: New Earth
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/watch?time_continue=160&v=aVYDRtqjIKg'
+project_video: 'https://youtu.be/aVYDRtqjIKg'
 organization_website: 'https://www.newearthlife.org'
 organization_twitter: '@NewEarthLife'
 organization_facebook: www.facebook.com/newearthlife

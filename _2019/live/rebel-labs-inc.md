@@ -14,18 +14,35 @@ project_description: >-
 organization_name: Rebel Labs Inc.
 organization_description: Social enterprise or B-corps
 project_video: 'https://rebellabs.wistia.com/medias/0xmt0a6ewb'
-organization_website: >-
-  http://rebellabs.com (corporate) | http://rebel360.com (program) |
-  http://www.farmermark.com/sprouts-of-promise-about (Sprouts of Promise) |
-  https://www.grow-good.org (GrowGood) | lafarmersmarketweek.com (reserved)
-organization_twitter: '@rebel360life | @gofarmermark'
-organization_facebook: '@rebel360life | @gofarmermark | @wegrowgood'
-organization_instagram: '@rebel360life | @gofarmermark | @grow_good'
-link_donate: 'http://www.farmermark.com/contact | https://www.grow-good.org/donate'
-link_volunteer: >-
-  https://rebel360.com/contact/ |
-  http://www.farmermark.com/sprouts-of-promise-how-it-works |
-  https://www.grow-good.org/volunteer
+organization_website:
+  - 'http://rebellabs.com'
+  - 'http://rebel360.com'
+  - 'http://www.farmermark.com/sprouts-of-promise-about'
+  - 'https://www.grow-good.org'
+# organization_website: >-
+#   http://rebellabs.com (corporate) | http://rebel360.com (program) |
+#   http://www.farmermark.com/sprouts-of-promise-about (Sprouts of Promise) |
+#   https://www.grow-good.org (GrowGood) | lafarmersmarketweek.com (reserved)
+organization_twitter: 
+  - '@rebel360life'
+  - '@gofarmermark'
+organization_facebook:
+  - '@rebel360life'
+organization_facebook: 
+  - '@rebel360life'
+  - '@gofarmermark'
+  - '@wegrowgood'
+organization_instagram: 
+  - '@rebel360life'
+  - '@gofarmermark'
+  - '@grow_good'
+# link_donate: 
+#  - http://www.farmermark.com/contact
+#  - https://www.grow-good.org/donate'
+link_volunteer:
+  - 'https://rebel360.com/contact/'
+  - 'http://www.farmermark.com/sprouts-of-promise-how-it-works'
+  - 'https://www.grow-good.org/volunteer'
 organization_activity: >-
   Rebel Labs is a public benefit corporation & Pending Certified B Corp with a
   vision to lead a science-based rebellion to eliminate obesity & type 2
