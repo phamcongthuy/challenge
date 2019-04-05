@@ -10,8 +10,9 @@ organization_name: Los Angeles County Grand Park Foundation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=bfp01PSI7ig'
 organization_website: 'https://grandparkfoundation.org'
-organization_twitter: grandparkfoundation@GrandParkFdn
-organization_facebook: Grand Park Foundation
+organization_twitter: '@GrandParkFdn'
+organization_facebook: ''
+# organization_facebook: Grand Park Foundation
 organization_instagram: '@grandparkfoundation'
 link_donate: 'https://grandparkfoundation.org/donate'
 link_volunteer: ''
