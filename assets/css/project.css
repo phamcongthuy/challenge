@@ -282,7 +282,7 @@
   @media (min-width: 70em) {
     .proposal-in-depth {
       display: grid;
-      grid-template-columns: 1fr minmax(auto, 40em) 1fr;
+      grid-template-columns: 1fr minmax(auto, 43em) 1fr;
       grid-gap: 3em;
     }
     .proposal-answers {
