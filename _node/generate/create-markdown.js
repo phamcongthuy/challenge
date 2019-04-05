@@ -305,10 +305,25 @@ function createMarkdownFile(data) {
   // TEMPORARY: The project video and newsletter fields might be mixed up
   // https://stackoverflow.com/questions/6680825/return-string-without-trailing-slash#6680877
   if (!data.link_newsletter && data.project_video && data.project_video != "" && data.project_video.replace(/\/$/, "") == data.organization_website.replace(/\/$/, "")) {
-    data.link_newsletter = data.project_video;
+    // data.link_newsletter = data.project_video;
     data.project_video = "";
   }
   if (!data.project_video) data.project_video = '';
+
+  // Handle empty instagram values
+  if (data.organization_instagram === '@') {
+    data.organization_instagram = '';
+  }
+  
+  // Handle empty twitter values
+  if (data.organization_twitter === '@') {
+    data.organization_twitter = '';
+  }
+
+  // Fix insecure Facebook values
+  if (data.organization_facebook.includes('http://')) {
+    data.organization_facebook = data.organization_facebook.replace('http://', 'https://');
+  }
 
   data.filename = filename;
   data.order = orderCursors[data.category]++;
@@ -444,13 +459,17 @@ function generateCollections(file_path) {
   let input = fs.readFileSync(file_path, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
   let records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
 
+  function getValueForComparison(data) {
+    return stringToURI(fixDataCharactersInString(data['Organization Details: | Organization name: *']))
+  }
+
   records.sort((a, b) => {
     // a is less than b by some ordering criterion
-    if (a['Project Title'] < b['Project Title']) {
+    if (getValueForComparison(a) < getValueForComparison(b)) {
       return -1
     }
     // a is greater than b by the ordering criterion
-    if (a['Project Title'] > b['Project Title']) {
+    if (getValueForComparison(a) > getValueForComparison(b)) {
       return 1
     }
     // a must be equal to b
@@ -464,5 +483,5 @@ function generateCollections(file_path) {
   return records;
 }
 
-generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet7 (2).csv');
+generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet8.csv');
 

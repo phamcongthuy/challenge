@@ -178,6 +178,6 @@ category_other:
 year: 2019
 category: create
 filename: the-national-association-of-latino-independent-producers-nalip
-order: 2
+order: 24
 
 ---

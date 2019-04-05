@@ -109,8 +109,7 @@ category_other:
   - LA is the healthiest place to LIVE
 year: 2019
 category: connect
-link_newsletter: 'https://www.theeditorialistla.com/'
 filename: the-editorialist-la
-order: 7
+order: 30
 
 ---

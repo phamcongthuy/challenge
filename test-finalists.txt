@@ -1,0 +1,38 @@
+---
+layout: null
+---
+{% assign data_collection = site.collections | where: "label", site.year | first %}
+{% assign data_list = data_collection.docs %}
+
+finalists:
+{% assign next_data_list = data_list | where: "category", "learn" | sample: 10 %}
+  # Learn
+{% for project in next_data_list %}
+  # {{ forloop.index }})
+  - {{ project.url }}
+{% endfor %}
+{% assign next_data_list = data_list | where: "category", "create" | sample: 10 %}
+  # Create
+{% for project in next_data_list %}
+  # {{ forloop.index }})
+  - {{ project.url }}
+{% endfor %}
+{% assign next_data_list = data_list | where: "category", "play" | sample: 10 %}
+  # Play
+{% for project in next_data_list %}
+  # {{ forloop.index }})
+  - {{ project.url }}
+{% endfor %}
+{% assign next_data_list = data_list | where: "category", "connect" | sample: 10 %}
+  # Connect
+{% for project in next_data_list %}
+  # {{ forloop.index }})
+  - {{ project.url }}
+{% endfor %}
+{% assign next_data_list = data_list | where: "category", "live" | sample: 10 %}
+  # Live
+{% for project in next_data_list %}
+  # {{ forloop.index }})
+  - {{ project.url }}
+{% endfor %}
+
