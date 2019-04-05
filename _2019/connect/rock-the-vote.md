@@ -13,7 +13,7 @@ organization_name: Rock the Vote
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=xiOwBE8XQEM&feature=youtu.be'
 organization_website: 'https://www.rockthevote.org'
-organization_twitter: '@https://www.instagram.com/rockthevote/'
+organization_twitter: '@rockthevote'
 organization_facebook: 'https://www.facebook.com/rockthevote'
 organization_instagram: '@rockthevote'
 link_donate: 'https://www.rockthevote.org/donate/?ms=rtv.org-topnav'
