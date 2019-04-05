@@ -67,7 +67,7 @@ layout: null
 
 {% endif %}
 
-{% if site.phase >= 4 %}
+{% if site.phase >= 4 or site.show_early_entries %}
 
 {% comment %}
 ######### Entries #########
@@ -95,39 +95,7 @@ layout: null
 ######### Projects #########
 {% endcomment %}
 
-{% assign data_collection = site.collections | where: "label", "learn" | first %}
-{% assign data_list = data_collection.docs %}
-{% for project in data_list %}
-  <url>
-    <loc>https://challenge.la2050.org{{ project.url }}</loc>
-  </url>
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "create" | first %}
-{% assign data_list = data_collection.docs %}
-{% for project in data_list %}
-  <url>
-    <loc>https://challenge.la2050.org{{ project.url }}</loc>
-  </url>
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "play" | first %}
-{% assign data_list = data_collection.docs %}
-{% for project in data_list %}
-  <url>
-    <loc>https://challenge.la2050.org{{ project.url }}</loc>
-  </url>
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "connect" | first %}
-{% assign data_list = data_collection.docs %}
-{% for project in data_list %}
-  <url>
-    <loc>https://challenge.la2050.org{{ project.url }}</loc>
-  </url>
-{% endfor %}
-
-{% assign data_collection = site.collections | where: "label", "live" | first %}
+{% assign data_collection = site.collections | where: "label", site.year | first %}
 {% assign data_list = data_collection.docs %}
 {% for project in data_list %}
   <url>

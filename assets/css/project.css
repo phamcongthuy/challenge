@@ -29,19 +29,19 @@
     border-color: var(--secondary-color, black);
     background: var(--primary-color, black);
     border-color: var(--primary-color, black);  
-    color: white;
+    color: var(--snow);
   }
   .links .action a:hover,
   .links .action a:active,
   .links .action a:focus {
-    background: white;
+    background-color: var(--snow);
     color: var(--secondary-color, black);
     border-color: var(--secondary-color, black);
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
   }
   .links-involved .action a {
-    background: white;
+    background-color: var(--snow);
     color: black;
     border-color: black;
     color: var(--primary-color, black);
@@ -54,7 +54,7 @@
     border-color: black;
     background: var(--primary-color, black);
     border-color: var(--primary-color, black);
-    color: white;
+    color: var(--snow);
   }
 
   .proposal-introduction .category a {
@@ -132,10 +132,11 @@
   }
 
 
-  @media (min-width: 60em) {
-    .proposal-answers {
-      font-size: 0.875em;
-    }
+  .proposal-answers h3 {
+    font-size: inherit;
+    margin-top: 2.25rem;
+    max-width: none;
+    font-weight: inherit;
   }
 
   @media (min-width: 70em) { /* Just wide enough to avoid wrapping the donate / volunteer buttons */
@@ -301,7 +302,7 @@
     margin-right: 0;
   }
 /*  .links .action a {
-    color: white;
+    color: var(--snow);
   }
   .links .action a:hover,
   .links .action a:active,
@@ -505,19 +506,9 @@
     .links ul.action {
       display: flex;
       flex-wrap: wrap;
-      /*justify-content: center;*/
     }
-/*    .links ul.action li {
-      flex-grow: 1;
-    }*/
   }
-/*  @supports (display: grid) {
-    .links ul.action {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 3em auto;
-    }
-  }*/
+
 
 
 
@@ -540,25 +531,8 @@
 
   .has-icon .icon {
     position: absolute;
-    top: 0.725em;
-    right: 0.725em;
-    background: white;
-    background: rgba(255, 255, 255, 0.75);
-    color: black;
-    background: black;
-    border: 0.1875em solid black;
-    background: var(--secondary-color, black);
-    border: 0.1875em solid var(--secondary-color, black);
-    background: var(--primary-color, black);
-    border: 0.1875em solid var(--primary-color, black);
-    color: var(--midnight);
-    color: var(--snow);
-    padding: 0;
-    width: 5em;
     line-height: 5em;
     border-radius: 50%;
-    transition: background-color 0.2s;
-    /*font-size: 1.5em;*/
     text-align: center;
     display: flex;
     width: 3em;
@@ -572,17 +546,11 @@
     padding: 0;
     transform: translate(-50%, -50%);
     opacity: 0.75;
-    background: var(--snow);
-    border-color: var(--secondary-color, black);
-    color: var(--secondary-color, black);
-    border-color: var(--primary-color, black);
-    border-color: white;
-    color: var(--primary-color, black);
-    color: black;
-    background: black;
+    transition: all 0.2s;
+
+    background-color: black;
     color: white;
     border-color: transparent;
-    transition: all 0.2s;
   }
 
   .has-icon:hover .icon,
@@ -612,16 +580,12 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background: white;
-    background: rgba(255, 255, 255, 0.75);
-    color: black;
-    background: var(--secondary-color, black);
-    color: var(--snow);
+    
     background: white;
     background: rgba(255, 255, 255, 0.9);
-    color: var(--secondary-color, black);
     border-color: var(--secondary-color, black);
     color: black;
+
     font-size: 0.75em;
     padding: 0.25em 0.5em;
     font-weight: 500;

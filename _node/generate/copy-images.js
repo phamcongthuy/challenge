@@ -2,6 +2,7 @@
 'use strict';
 
 let fs = require('fs');
+let mkdirp = require('mkdirp');
 let yaml = require('js-yaml');
 
 function getYaml(text, filename) {
@@ -84,26 +85,29 @@ function processFile(filename) {
 
   let imageExtension = fromFilePath.split('.')[fromFilePath.split('.').length - 1];
 
-  let markdownFilename = filename.split('/');
-  let toImageName = markdownFilename[markdownFilename.length - 1].replace(/md$/, imageExtension)
+  // Copy the image inside that folder to the destination folder
+  let writePath = `../assets/images/${data.year}/${data.category}/original`;
+  let toFilename = `${data.filename}.${imageExtension}`;
 
-  // Copy the image inside that folder to /assets-submission-images/<markdown-filename>.<file ext>
-  let toFilePath = `./assets-submissions-images/${data.category}/${toImageName}`;
+  console.log(`writePath: ${writePath}`);
+  console.log(`toFilename: ${toFilename}`);
 
   // https://stackoverflow.com/questions/4980243/how-to-copy-a-file#11334246
-  // let fromFile = fs.createWriteStream(fromFilePath); 
-  // let toFile   = fs.createReadStream(toFilePath);
-
-  // fromFile.on('end', function(){ console.log('copied image successfully to ' + toFilePath) });
-
-  // fromFile.pipe(toFile);
 
   let encoding = 'binary';
   let content = fs.readFileSync(fromFilePath, encoding);
-  // console.log('content: ' + content);
-  fs.writeFileSync(toFilePath, content, encoding);
-
-  // Use image magic to make images smaller (and normalize to JPG?)
+  
+  mkdirp(writePath, function (err) {
+    if (err) {
+      console.error(err);
+    } else {
+      fs.writeFileSync(writePath + '/' + toFilename, content, encoding, (err) => {
+        if (err) {
+          console.log(err);
+        }
+      });
+    }
+  });
 }
 
 
@@ -142,10 +146,10 @@ function updateLocations(folder) {
   }
 }
 
-let submissionFiles = getAllFilesFromFolder('./assets-submissions');
+let submissionFiles = getAllFilesFromFolder('./download__9r4DFrpbT7qt5BNGh8QQhB2vZrx48d');
 
-updateLocations('./_learn');
-updateLocations('./_create');
-updateLocations('./_play');
-updateLocations('./_connect');
-updateLocations('./_live');
+updateLocations('../_2019/learn');
+updateLocations('../_2019/create');
+updateLocations('../_2019/play');
+updateLocations('../_2019/connect');
+updateLocations('../_2019/live');

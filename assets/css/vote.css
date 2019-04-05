@@ -78,15 +78,6 @@
     }
   }
 
-  /*.introduction::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-  }*/
   @media (min-width: 40em) {
     .introduction {
       margin: 0 -4.5em;
@@ -100,7 +91,7 @@
   }
   .introduction .logo {
     margin-top: -3em;
-    color: white;
+    color: inherit;
   }
   .introduction .logo svg {
     width: 12em;
@@ -135,46 +126,6 @@
     margin-top: 3em;
   }
 
-  /*.introduction {
-    margin-top: -4.5em;
-    margin-left: -4.5em;
-    margin-right: -4.5em;
-    background-color: rgb(0, 179, 187);
-    color: rgb(254, 254, 254);
-    padding: 0 4.5em 3em;
-  }
-  .introduction a {
-    color: inherit;
-  }
-  .introduction svg {
-    width: 1.5em;
-    height: 1.5em;
-    fill: currentColor;
-  }*/
-
-
-  /*
-  form .category ul > li:nth-child(1) {
-    order: var(--order-1);
-  }
-  
-  form .category ul > li:nth-child(2) {
-    order: var(--order-2);
-  }
-  
-  form .category ul > li:nth-child(3) {
-    order: var(--order-3);
-  }
-  
-  form .category ul > li:nth-child(4) {
-    order: var(--order-4);
-  }
-  
-  form .category ul > li:nth-child(5) {
-    order: var(--order-5);
-  }
-  */
- 
 
   .promotion {
     display: none;
@@ -231,22 +182,6 @@
     font-size: inherit;
     margin-bottom: 0.75em;
   }
-  /*
-  form .category ul > li .mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.2s;
-    font-size: 1.5em;
-  }
-  */
   form .category ul > li .call-to-action,
   form .category ul > li .pseudo-checkbox {
     position: absolute;
@@ -296,8 +231,9 @@
   form .category ul > li label:hover .call-to-action,
   form .category ul > li label:hover .pseudo-checkbox {
     background: black;
-    background: var(--primary-color, black);
     color: white !important;
+    background: var(--primary-color, black);
+    color: var(--snow) !important;
     border-color: black;
     border-color: var(--primary-color, black);
   }
@@ -490,48 +426,6 @@
     flex-grow: 1;
   }
 
-  /* OPTIONAL: Move items closer together, if at least three can fit across*/
-  @media (min-width: 92.5em) {
-    form .category ul > li {
-      /*! margin: 1.5em; */
-    }
-  }
-
-  /*
-  form .category ul > li a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: calc(100% - 3em);
-    text-decoration: none;
-    background-color: var(--primary-color);
-    transition: opacity 0.2s;
-    opacity: 0;
-  }
-  form .category ul > li a svg {
-    background: var(--primary-color);
-    color: white;
-    width: 0.75em;
-    height: 0.75em;
-    padding: 0.5em;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    opacity: 0;
-  }
-  form .category ul > li a:hover  svg,
-  form .category ul > li a:active svg,
-  form .category ul > li a:focus  svg {
-    background: white;
-    color: var(--primary-color);
-    border-color: var(--primary-color); 
-  }
-  form .category ul > li a:hover,
-  form .category ul > li a:active,
-  form .category ul > li a:focus {
-    opacity: 0.5;
-  }
-  */
 
   form .category ul > li a,
   form .category ul > li a:hover,
@@ -631,21 +525,7 @@
   form .category .tangerine li a {
     box-shadow: 0 0 1px var(--tangerine);
   }
-  /*
-  form .category ul > li label::after {
-    content: "";
-    background: var(--primary-color);
-    color: white;
-    display: block;
-    padding: 0.75em 1.5em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    height: 3em;
-  }
-  */
+
   form .category ul > li .image img {
     width: 100%;
     max-width: none;
@@ -694,9 +574,10 @@
     color: inherit !important;
   }
   #sign-in-email input:checked ~ .pseudo-checkbox svg {
-    color: white !important;
     background: inherit;
+    color: inherit !important;
     background: var(--secondary-color, inherit);
+    color: var(--snow) !important;
     border-color: var(--secondary-color, inherit);
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   }
@@ -704,10 +585,11 @@
     transition: fill 0.2s;
   }
   #sign-in-email input:focus ~ .pseudo-checkbox svg {
-    outline: 0.375em solid black;
-    outline: 0.375em solid var(--secondary-color, black);
-    outline: auto 5px -webkit-focus-ring-color;
+    /* outline: 5px solid black;
+    outline: 5px solid var(--secondary-color, black);
+    outline: auto 5px -webkit-focus-ring-color; */
     background: white;
+    background: var(--snow);
     color: black !important;
     color: var(--secondary-color, black) !important;
     border-color: currentColor;
@@ -778,8 +660,9 @@
   #zip,
   #finish {
     background: black;
-    background: var(--primary-color, black);
     color: white;
+    background: var(--primary-color, black);
+    color: var(--snow);
     font-weight: 500;
     margin-left: -1.5em;
     margin-right: -1.5em;
@@ -815,6 +698,7 @@
     margin-top: 0;
     margin-bottom: 0;
     border-color: white;
+    border-color: var(--snow);
   }
 
 
@@ -827,9 +711,10 @@
   #finish .action a,
   #finish button {
     background-color: black;
+    color: white;
     background-color: var(--secondary-color, black);
     border-color: var(--secondary-color, black);
-    color: white;
+    color: var(--snow);
   }
   #finish button {
     width: 100%;
@@ -942,23 +827,8 @@
 
   .has-icon .icon {
     position: absolute;
-    top: 0.725em;
-    right: 0.725em;
-    background: white;
-    background: rgba(255, 255, 255, 0.75);
-    color: black;
-    background: var(--secondary-color, black);
-    border: 0.1875em solid var(--secondary-color, black);
-    background: var(--primary-color, black);
-    border: 0.1875em solid var(--primary-color, black);
-    color: var(--midnight);
-    color: var(--snow);
-    padding: 0;
-    width: 5em;
     line-height: 5em;
     border-radius: 50%;
-    transition: background-color 0.2s;
-    /*font-size: 1.5em;*/
     text-align: center;
     display: flex;
     width: 3em;
@@ -972,16 +842,11 @@
     padding: 0;
     transform: translate(-50%, -50%);
     opacity: 0.75;
-    background: var(--snow);
-    color: var(--secondary-color, black);
-    border-color: var(--primary-color, black);
-    border-color: white;
-    color: var(--primary-color, black);
-    color: black;
-    background: black;
+    transition: all 0.2s;
+
+    background-color: black;
     color: white;
     border-color: transparent;
-    transition: all 0.2s;
   }
 
   .has-icon:hover .icon,
@@ -1025,8 +890,9 @@
 
   #questions p {
     background: black;
-    background: var(--primary-color, black);
     color: white;
+    background: var(--primary-color, black);
+    color: var(--snow);
     padding: 3em 1.5em;
     margin: 0 -1.5em 3em
   }

@@ -11,6 +11,8 @@ submission_url: https://challengela2050.smapply.io
 # Our form:
 vote_url: /vote/form/
 
+year: 2019
+show_early_entries: true
 
 # New challenge announced: 
 # January 8
@@ -18,34 +20,15 @@ vote_url: /vote/form/
 
 # Entries being accepted: 
 # February 28
-phase: 2
+# phase: 2
 
 # Entry period ended: 
 # March 29
-# phase: 3
+phase: 3
 
 # Entries shown on the website: 
 # April 15
 # phase: 4
-# NOTE: If you switch to “phase: 4”, you’ll also want to
-# uncomment the “collections” so the entry pages will appear.
-
-# collections:
-#   learn:
-#     output: true
-#     permalink: /learn/:path/
-#   create:
-#     output: true
-#     permalink: /create/:path/
-#   play:
-#     output: true
-#     permalink: /play/:path/
-#   connect:
-#     output: true
-#     permalink: /connect/:path/
-#   live:
-#     output: true
-#     permalink: /live/:path/
 
 # Votes being accepted: 
 # April 22
@@ -68,123 +51,71 @@ finalists:
 
   # Learn
   # 1)
-  - /learn/big-brothers-big-sisters-of-greater-los-angeles/
   # 2)
-  - /learn/charles-r-drew-university-of-medicine-and-science/
   # 3)
-  - /learn/center-for-innovation-in-stem-education-cise/
   # 4)
-  - /learn/common-sense/
   # 5)
-  - /learn/harlem-lacrosse-los-angeles/
   # 6)
-  - /learn/crayon-collection/
   # 7)
-  - /learn/proyecto-jardin-a-project-of-hunger-action-la/
   # 8)
-  - /learn/all-in-urban-summer-academy/
   # 9)
-  - /learn/the-people-of-change/
   # 10)
-  - /learn/girls-academic-leadership-academy-gala/
 
   # Create
   # 1)
-  - /create/brioxy/
   # 2)
-  - /create/east-la-community-corporation-elacc/
   # 3)
-  - /create/long-beach-downtown-development-corporation/
   # 4)
-  - /create/make-it-in-la/
   # 5)
-  - /create/national-association-of-latino-independent-producers-nalip/
   # 6)
-  - /create/civic-innovation-lab/
   # 7)
-  - /create/grid110-inc/
   # 8)
-  - /create/make-it-in-la/
   # 9)
-  - /create/think-tank-productions-inc-dba-think-tank-gallery/
   # 10)
-  - /create/get-lit-words-ignite/
 
   # Play
   # 1)
-  - /play/the-brady-center-to-prevent-gun-violence/
   # 2)
-  - /play/kounkuey-design-initiative/
   # 3)
-  - /play/los-angeles-dodgers-foundation/
   # 4)
-  - /play/the-trust-for-public-land/
   # 5)
-  - /play/south-bay-bicycle-coalition/
   # 6)
-  - /play/red-hen-press/
   # 7)
-  - /play/everwild/
   # 8)
   # 9)
   # 10)
 
   # Connect
   # 1)
-  - /connect/casa-of-los-angeles/
   # 2)
-  - /connect/film-independent/
   # 3)
-  - /connect/city-year-los-angeles/
   # 4)
-  - /connect/mirys-list/
   # 5)
-  - /connect/voterunlead/
   # 6)
-  - /connect/twigg-how-to/
   # 7)
-  - /connect/boys-girls-clubs-of-venice-bgcv/
   # 8)
-  - /connect/eayikes/
   # 9)
-  - /connect/la-forward/
   # 10)
-  - /connect/gracias-music-foundation/
 
   # Live
   # 1)
-  - /live/environment-california-research-policy-center/
   # 2)
-  - /live/l-a-kitchen/
   # 3)
-  - /live/move-la-a-project-of-community-partners/
   # 4)
-  - /live/undergraduate-gerontology-and-alzheimers-disease-awareness-association-dba-the-youth-movement-against-alzheimers/
   # 5)
-  - /live/united-way-of-greater-los-angeles/
   # 6)
-  - /live/süprseed/
   # 7)
-  - /live/my-friends-house-inc/
   # 8)
-  - /live/lift-los-angeles/
   # 9)
-  - /live/mar-vista-family-center/
   # 10)
-  - /live/roots-wings/
 
 
 winners:
   # 1)
-  - /learn/center-for-innovation-in-stem-education-cise/
   # 2)
-  - /create/east-la-community-corporation-elacc/
   # 3)
-  - /play/the-brady-center-to-prevent-gun-violence/
   # 4)
-  - /connect/mirys-list/
   # 5)
-  - /live/united-way-of-greater-los-angeles/
 
 
 auth0_js_url: https://cdn.auth0.com/js/auth0/9.5.1/auth0.min.js
@@ -216,11 +147,12 @@ exclude:
   - Gemfile.lock
   - _node
   - sitemap.txt
-  - assets/images/learn/original
-  - assets/images/create/original
-  - assets/images/play/original
-  - assets/images/connect/original
-  - assets/images/live/original
+  - test-finalists.txt
+  - assets/images/2019/learn/original
+  - assets/images/2019/create/original
+  - assets/images/2019/play/original
+  - assets/images/2019/connect/original
+  - assets/images/2019/live/original
   - assets/images/goals/original
   - assets/images/home/original
   - assets/images/vote/original
@@ -232,31 +164,11 @@ defaults:
       layout: default
   - scope:
       path: ""
-      type: learn
+      type: "2019"
     values:
       layout: project
-      body_class: blueberry
-  - scope:
-      path: ""
-      type: create
-    values:
-      layout: project
-      body_class: banana
-  - scope:
-      path: ""
-      type: play
-    values:
-      layout: project
-      body_class: strawberry
-  - scope:
-      path: ""
-      type: connect
-    values:
-      layout: project
-      body_class: tangerine
-  - scope:
-      path: ""
-      type: live
-    values:
-      layout: project
-      body_class: lime
+
+collections:
+  '2019':
+    output: true
+    permalink: /2019/:path/

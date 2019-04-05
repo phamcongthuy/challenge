@@ -29,7 +29,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
 {% elsif site.phase == 2 %}
 
-<a href="{{ site.submission_url }}">Submit your idea</a> by Friday, **March 29, 2019** <small>(5pm Pacific Time)</small>.
+<a href="{{ site.submission_url }}">Submit your idea</a> by Friday, **March 29, 2019** <small>(midnight, Pacific)</small>.
 
 Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 
@@ -39,7 +39,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
   <em>The submission period is complete.</em>
 </p>
 <p>
-  Proposals will be showcased here on <strong>April 15, 2019</strong>. 
+  Proposals will be showcased here by <strong>April 15, 2019</strong>. 
   Voting begins on
   <span class="avoid-break">
     <strong>April 22, 2019</strong>.

@@ -35,7 +35,7 @@ main_class: standard-layout
 
 <div class="introduction" markdown="1">
 
-The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(5pm Pacific Time)</small>.
+The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(midnight, Pacific Time)</small>.
 
 <p class="action" markdown="1">
   <a href="{{ site.submission_url }}">Submit your idea</a>
@@ -50,7 +50,7 @@ The submission period has started! Apply by <strong>March 29, 2019</strong> <sma
 The submission period is complete.
 
 <small>
-Entries will be showcased here <strong>April 15, 2019</strong>. 
+Entries will be showcased here by <strong>April 15, 2019</strong>. 
 Voting begins on
 <span class="avoid-break">
   <strong>April 22, 2019</strong>.
@@ -176,7 +176,7 @@ The winners have been announced!
 
 ### Dates
 
-Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (5pm Pacific Time) on this website. 
+Apply between Thursday, February 28, 2019 (9am Pacific Time) and Friday, March 29, 2019 (midnight, Pacific Time) on this website. 
 
 Your application will go through a moderation process to ensure that it adheres to all challenge rules. Applications that make it through the initial vetting will be published on the My LA2050 Grants Challenge website on Monday, April 15, 2019 to allow the public to read about and engage with the proposals.
 
@@ -198,7 +198,7 @@ View the [full timeline](/timeline).
 
 _What are the rules for submitting a proposal to the My LA2050 Grants Challenge?_
 
-* The My LA2050 Grants Challenge is open for submissions from Thursday, February 28, 2019 (9am Pacific Time) through Friday, March 29, 2019 (5pm Pacific Time).
+* The My LA2050 Grants Challenge is open for submissions from Thursday, February 28, 2019 (9am Pacific Time) through Friday, March 29, 2019 (midnight, Pacific Time).
 * In order to submit a proposal, log-in and complete the application form.
 * US-based non-profit, for-profit, social enterprises, and government agencies with projects serving Los Angeles County are eligible to apply.
 * Winning projects must be completed, and the grant award must be expended within 12 months.
@@ -243,7 +243,7 @@ If you have any questions about the information on this page, [please review our
 
 <div class="introduction" markdown="1">
 
-The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(5pm Pacific Time)</small>.
+The submission period has started! Apply by <strong>March 29, 2019</strong> <small>(midnight Pacific Time)</small>.
 
 <p class="action" markdown="1">
   <a href="{{ site.submission_url }}">Submit your idea</a>

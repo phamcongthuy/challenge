@@ -30,7 +30,7 @@
     --banana-very-bright     : hsl( 48,  95%,  92%);
 
     /* SHIM: Make banana color darker in some cases, for legibility */
-    --banana-darker: hsl(47, 87%, 50%);
+    --banana-dark            : hsl(47, 87%, 50%);
 
 
     --midnight : rgb( 41,  41,  41);
@@ -42,26 +42,32 @@
   :root {
     --primary-color:   var(--strawberry);
     --secondary-color: var(--banana);
+    --primary-color-readability: var(--strawberry);
   }
   .banana {
     --primary-color:   var(--banana);
     --secondary-color: var(--strawberry);
+    --primary-color-readability: var(--banana-dark);
   }
   .blueberry {
     --primary-color:   var(--blueberry);
     --secondary-color: var(--banana);
+    --primary-color-readability: var(--blueberry);
   }
   .lime {
     --primary-color:   var(--lime);
     --secondary-color: var(--strawberry);
+    --primary-color-readability: var(--lime);
   }
   .strawberry {
     --primary-color:   var(--strawberry);
     --secondary-color: var(--banana);
+    --primary-color-readability: var(--strawberry);
   }
   .tangerine {
     --primary-color:   var(--tangerine);
     --secondary-color: var(--strawberry);
+    --primary-color-readability: var(--tangerine);
   }
 
 
@@ -71,7 +77,8 @@
   }
 
   h1, h2, h3, h4, h5, h6, strong, em {
-    color: var(--primary-color);
+    color: gray;
+    color: var(--primary-color-readability, gray);
   }
 
   a {
@@ -110,7 +117,8 @@
   main h3,
   main strong,
   main em {
-    color: var(--primary-color);
+    color: gray;
+    color: var(--primary-color-readability, gray);
   }
   main > ul a,
   main > p a {
@@ -128,8 +136,10 @@
   /* SHIM: Make the colors work a little differently on the home page */
   .home.blueberry main {
     --primary-color: var(--strawberry);
+    --primary-color-readability: var(--strawberry);
   }
   .home.blueberry main h1 {
     --primary-color: var(--blueberry);
+    --primary-color-readability: var(--blueberry);
   }
 

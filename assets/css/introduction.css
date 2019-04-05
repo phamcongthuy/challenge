@@ -43,7 +43,7 @@
     margin-top: 1.875em;
   }
   .introduction .action a {
-    background-color: rgb(240, 53, 133); /* @stroke: awberry */
+    background-color: var(--strawberry);
     border: 0.1875em solid var(--strawberry);
   }
   .introduction .action a:hover,

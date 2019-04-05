@@ -124,7 +124,7 @@
       .timeline.banana .nav-link a,
       .timeline.banana.has-active-nav header,
       .timeline.banana.header-not-visible header {
-        background: white;
+        background-color: var(--snow);
         color: var(--strawberry);
       }
       .timeline.banana .nav-link a {
@@ -142,14 +142,14 @@
       .timeline.banana.header-not-visible header a:hover,
       .timeline.banana.header-not-visible header a:active,
       .timeline.banana.header-not-visible header a:focus {
-        background: white;
+        background-color: var(--snow);
         color: var(--banana);
       }
       .timeline.banana.has-active-nav header strong a,
       .timeline.banana.header-not-visible header strong a {
         background-color: var(--secondary-color, black);
         border-color: var(--secondary-color, black);
-        color: white;
+        color: var(--snow);
       }
     }
     @media (min-width: 1040em) { /* @wide-enough-for-positioned-navigation-header-figure */
