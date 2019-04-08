@@ -142,6 +142,14 @@ function is_valid_url(url) {
   return url.match(/^(ht|f)tps?:\/\/[a-z0-9-\.]+\.[a-z]{2,4}\/?([^\s<>\#%"\,\{\}\\|\\\^\[\]`]+)?$/);
 }
 
+let orderCursors = {
+  learn: 0,
+  create: 0,
+  play: 0,
+  connect: 0,
+  live: 0
+}
+
 function processFile(filename) {
 
   // Load the contents of the file
@@ -239,9 +247,10 @@ function processFile(filename) {
   // delete data.yaml.unique_identifier;
 
   // data.yaml = convertStringsToJSON(data.yaml)
-  
-  
-  // saveMarkdown(filename, data);
+
+  data.yaml.order = orderCursors[data.yaml.category]++;
+
+  saveMarkdown(filename, data);
 }
 
 // https://stackoverflow.com/questions/20822273/best-way-to-get-folder-and-file-list-in-javascript#21459809
