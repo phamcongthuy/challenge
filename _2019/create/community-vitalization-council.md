@@ -20,7 +20,7 @@ link_donate: ''
 link_volunteer: ''
 organization_activity: >-
   The Community Vitalization Council promotes community level economic vitality
-  and jobs. The International Business Accelerator,a program of Civic 180,
+  and jobs. The International Business Accelerator, a program of Civic 180,
   supports SMEs to expand into global markets
 project_proposal_description: >-
   Over the years we’ve witnessed a recurring and frustrating speedbump for small
