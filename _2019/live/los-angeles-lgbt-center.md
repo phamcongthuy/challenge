@@ -1,4 +1,5 @@
 ---
+published: false
 application_id: '8217956722'
 title: Los Angeles LGBT Center's Culinary Arts Program
 project_description: >-
