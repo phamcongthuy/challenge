@@ -134,6 +134,6 @@ category_other: []
 year: 2019
 category: connect
 filename: living-through-giving-foundation
-order: 19
+order: 20
 
 ---

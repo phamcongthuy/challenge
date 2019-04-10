@@ -219,6 +219,6 @@ category_other:
 year: 2019
 category: play
 filename: los-angeles-dodgers-foundation
-order: 5
+order: 6
 
 ---

@@ -160,6 +160,6 @@ category_other:
 year: 2019
 category: connect
 filename: inspiring-service
-order: 14
+order: 15
 
 ---

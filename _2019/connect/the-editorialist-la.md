@@ -111,6 +111,6 @@ category_other:
 year: 2019
 category: connect
 filename: the-editorialist-la
-order: 30
+order: 35
 
 ---

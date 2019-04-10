@@ -263,9 +263,9 @@ function processFile(filename) {
 
   // data.yaml.project_collaborators = getArrayFromDelimitedString(data.yaml.project_collaborators);
 
-  // data.yaml.order = orderCursors[data.yaml.category]++;
+  data.yaml.order = orderCursors[data.yaml.category]++;
 
-  // saveMarkdown(filename, data);
+  saveMarkdown(filename, data);
 }
 
 // https://stackoverflow.com/questions/20822273/best-way-to-get-folder-and-file-list-in-javascript#21459809
@@ -303,6 +303,6 @@ function updateMarkdownFiles(folder) {
 
 updateMarkdownFiles('../_2019/learn');
 updateMarkdownFiles('../_2019/create');
-// updateMarkdownFiles('../_2019/play');
+updateMarkdownFiles('../_2019/play');
 updateMarkdownFiles('../_2019/connect');
 updateMarkdownFiles('../_2019/live');

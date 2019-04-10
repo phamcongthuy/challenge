@@ -11,8 +11,8 @@ organization_name: SCV Adventure Play Foundation
 organization_description: Non-profit organization
 project_video: ''
 link_newsletter:
- - https://www.scvadventureplay.org/
- - http://eepurl.com/N-mdv
+  - 'https://www.scvadventureplay.org/'
+  - 'http://eepurl.com/N-mdv'
 organization_website: 'https://www.scvadventureplay.org/'
 organization_twitter: '@SCVAdvPlay'
 organization_facebook: 'https://www.facebook.com/scvadventureplay'
@@ -127,6 +127,6 @@ category_other:
 year: 2019
 category: play
 filename: scv-adventure-play-foundation
-order: 7
+order: 8
 
 ---
