@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Building Skills Partnership
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'http://www.buildingskills.org/newsletter-sign-up/'
 organization_website: 'http://www.buildingskills.org'
 organization_twitter: '@Building_Skills'
 organization_facebook: 'https://www.facebook.com/BuildingSkills/'

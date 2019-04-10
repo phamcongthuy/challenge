@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Fulfillment Fund
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=m2aD8KL3qEE'
+link_newsletter: 'https://www.fulfillment.org/subscribe-to-emails'
 organization_website: 'https://www.fulfillment.org'
 organization_twitter: '@FulfillmentFund'
 organization_facebook: facebook.com/ffund

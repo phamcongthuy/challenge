@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 'Hytch, LLC.'
 organization_description: For-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.hytch.me/'
 organization_twitter: '@https://twitter.com/HytchRewards'
 organization_facebook: 'https://www.facebook.com/HytchRewards/'

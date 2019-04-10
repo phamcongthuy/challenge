@@ -13,6 +13,7 @@ organization_name: California Center For Economic Initiatives
 organization_description: Non-profit organization
 project_video: >-
   https://www.facebook.com/GARIFUNAFILMFESTIVALINTERNATIONAL/videos/pcb.10217618302462897/10217618238141289/?type=3&theater
+link_newsletter: 'http://garifunafilmfestival.com/signup-for-newsletter/'
 organization_website: 'http://garifunafilmfestival.com/'
 organization_twitter: 'https://twitter.com/GarifFilmFest'
 organization_facebook: 'https://www.facebook.com/dabuyaba/'

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Lost Angels Children's Project
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.lostangelscp.org'
 organization_twitter: '@LostAngelsCP'
 organization_facebook: '@lostangelscp'

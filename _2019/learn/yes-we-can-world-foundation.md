@@ -10,6 +10,7 @@ project_description: >-
 organization_name: Yes We Can World Foundation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=kzsUYpsge6s&feature=youtu.be'
+link_newsletter: 'https://www.yeswecan.world/updates'
 organization_website: 'https://www.yeswecan.world'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/YesWeCanWorld'

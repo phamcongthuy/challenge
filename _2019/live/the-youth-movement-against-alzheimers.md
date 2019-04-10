@@ -11,6 +11,7 @@ project_description: >-
 organization_name: The Youth Movement Against Alzheimer's
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=5fwflSIChBM&t'
+link_newsletter: 'http://eepurl.com/c9DBOb'
 organization_website: 'https://www.theyouthmovement.org / www.youthcaregiving.org'
 organization_twitter: '@theyouthmvmt'
 organization_facebook: 'https://www.facebook.com/theyouthmovementagainstalzheimers/'

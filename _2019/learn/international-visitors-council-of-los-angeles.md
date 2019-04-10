@@ -11,6 +11,7 @@ project_description: >-
 organization_name: International Visitors Council of Los Angeles
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://bit.ly/2H0UzP9'
 organization_website: 'https://www.ivcla.org'
 organization_twitter: '@ivc_la'
 organization_facebook: 'https://www.facebook.com/ivcla/'

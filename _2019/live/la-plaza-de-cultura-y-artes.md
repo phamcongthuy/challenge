@@ -12,6 +12,7 @@ project_description: >-
 organization_name: LA Plaza de Cultura y Artes
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=0f-R2vkAn2s'
+link_newsletter: ''
 organization_website: 'http://www.lapca.org'
 organization_twitter: LAPlazaLA
 organization_facebook: 'https://www.facebook.com/LAPlazaLA/'

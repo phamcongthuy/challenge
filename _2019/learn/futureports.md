@@ -8,6 +8,7 @@ project_description: >-
 organization_name: FuturePorts
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: www.futureports.org
 organization_website: 'https://www.futureports.org'
 organization_twitter: '@futureports'
 organization_facebook: www.facebook.com/FuturePortsSoCal

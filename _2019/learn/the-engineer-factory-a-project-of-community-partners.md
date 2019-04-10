@@ -11,6 +11,7 @@ project_description: >-
 organization_name: 'The Engineer Factory , a Project of Community Partners'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=ExIBLrtQVv0&t=11s'
+link_newsletter: 'https://www.theengineerfactory.org/contact'
 organization_website: 'https://www.theengineerfactory.org'
 organization_twitter: '@EngineerFactory'
 organization_facebook: 'https://www.facebook.com/TheEngineerFactory/'

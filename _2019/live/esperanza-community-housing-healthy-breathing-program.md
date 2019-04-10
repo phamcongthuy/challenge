@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Esperanza Community Housing Healthy Breathing Program
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.esperanzacommunityhousing.org'
 organization_twitter: '@esperanzachc'
 organization_facebook: Esperanza Community Housing

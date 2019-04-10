@@ -9,6 +9,7 @@ project_description: >-
 organization_name: MRS HR
 organization_description: For-profit organization
 project_video: 'https://youtu.be/8EbsGpa0GMU'
+link_newsletter: www.mrshr.com/contact
 organization_website: 'https://www.mrshr.com'
 organization_twitter: '@askmrshr'
 organization_facebook: 'https://www.facebook.com/askmrshr/'

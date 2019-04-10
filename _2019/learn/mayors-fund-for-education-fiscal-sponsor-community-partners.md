@@ -15,6 +15,7 @@ project_description: >-
 organization_name: 'Mayor''s Fund for Education (Fiscal Sponsor: Community Partners)'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=65oc4Nc8gt4&feature=youtu.be'
+link_newsletter: ''
 organization_website: 'https://www.mayorsfundfored.org'
 organization_twitter: '@LBMayorsfund4Ed'
 organization_facebook: '@LBMayorsfund4Ed'

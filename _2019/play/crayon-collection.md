@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Crayon Collection
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=vNSMqEbxs4U'
+link_newsletter: 'https://www.crayoncollection.org/contact-us/'
 organization_website: 'https://www.crayoncollection.org'
 organization_twitter: '@crayoncollectio'
 organization_facebook: www.facebook.com/crayoncollection

@@ -14,6 +14,7 @@ project_description: >-
 organization_name: Spark Program Inc
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=BLlXhYnhR2Y'
+link_newsletter: 'https://sparkprogram.org/contact-us/'
 organization_website: 'https://www.sparkprogram.org'
 organization_twitter: '@SparkProgram @SparkProgramLA'
 organization_facebook: www.facebook.com/SparkProgramInc

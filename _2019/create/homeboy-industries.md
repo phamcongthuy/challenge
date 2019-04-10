@@ -14,6 +14,7 @@ project_description: >-
 organization_name: Homeboy Industries
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://homeboyindustries.org/'
 organization_website: 'https://www.homeboyindustries.org'
 organization_twitter: '@homeboyind'
 organization_facebook: 'https://www.facebook.com/HomeboyIndustries/'

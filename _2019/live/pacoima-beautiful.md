@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Pacoima Beautiful
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://pacoimabeautiful.org/subscribe/'
 organization_website: 'https://pacoimabeautiful.org/'
 organization_twitter: '@PB__Community'
 organization_facebook: 'https://www.facebook.com/Pacoima.Beautiful/'

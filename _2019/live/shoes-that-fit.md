@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Shoes That Fit
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/292764608'
+link_newsletter: 'https://www.shoesthatfit.org/news-events/'
 organization_website: 'https://www.shoesthatfit.org'
 organization_twitter: '@ShoesThatFit'
 organization_facebook: 'https://www.facebook.com/ShoesThatFitNonProfit/'

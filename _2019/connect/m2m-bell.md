@@ -9,6 +9,7 @@ project_description: >-
 organization_name: M2M Bell
 organization_description: Social enterprise or B-corps
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.m2mbell.com'
 organization_twitter: ''
 organization_facebook: ''

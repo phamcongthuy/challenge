@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Community Veteran Justice Project
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=vPNFx-Q67s8'
+link_newsletter: ''
 organization_website: 'https://www.cvjp.org'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/CVJProject'

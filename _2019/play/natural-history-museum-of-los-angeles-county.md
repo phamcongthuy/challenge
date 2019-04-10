@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Natural History Museum of Los Angeles County
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/xG579E0-slU'
+link_newsletter: 'https://nhm.org/site/about-our-museums/e-news/subscribe'
 organization_website: 'https://nhm.org'
 organization_twitter: '@NHMLA'
 organization_facebook: 'https://www.facebook.com/nhmla/'

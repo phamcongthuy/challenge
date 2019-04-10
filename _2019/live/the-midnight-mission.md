@@ -12,6 +12,7 @@ project_description: >-
 organization_name: The Midnight Mission
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.midnightmission.org/'
 organization_website: 'https://www.midnightmission.org'
 organization_twitter: '@midnightmission'
 organization_facebook: 'https://www.facebook.com/TheMidnightMission/'

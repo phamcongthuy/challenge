@@ -9,6 +9,7 @@ project_description: >-
 organization_name: B~STEM Project Foundation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=OSJ0ckWGlvM'
+link_newsletter: 'https://mailchi.mp/bbefeb08c963/bstem-project-new-year-2019'
 organization_website: 'https://www.bstemproject.org/'
 organization_twitter: '@bstemproject'
 organization_facebook: 'https://www.facebook.com/bstemproject/'

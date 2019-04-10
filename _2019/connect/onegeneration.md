@@ -12,6 +12,7 @@ project_description: >-
 organization_name: ONEgeneration
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=aQrabcLX9L8'
+link_newsletter: www.onegeneration.org
 organization_website: 'https://www.onegeneration.org'
 organization_twitter: '@ONEgenCares'
 organization_facebook: 'https://www.facebook.com/ONEgencares/'

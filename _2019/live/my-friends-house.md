@@ -7,6 +7,7 @@ project_description: >-
 organization_name: My Friends House
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=Bt5RMStlQxI&t=90s'
+link_newsletter: 'http://myfriendshouseinc.org/contact/'
 organization_website: 'http://myfriendshouseinc.org/'
 organization_twitter: '@MyFriendsHse'
 organization_facebook: 'https://www.facebook.com/myfriendshouseinc'

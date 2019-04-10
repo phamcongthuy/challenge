@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Root Down LA
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/cAdVqB37qEw'
+link_newsletter: www.rootdownla.org/connect
 organization_website: 'https://www.rootdownla.org'
 organization_twitter: '@rootdownla'
 organization_facebook: Root Down LA

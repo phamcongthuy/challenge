@@ -12,6 +12,7 @@ project_description: >-
 organization_name: H.I.P Through Science
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/dNFIH0G0HDo'
+link_newsletter: 'https://www.thepplofchange.org'
 organization_website: 'https://www.thepplofchange.org'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/thepeopleofchange'

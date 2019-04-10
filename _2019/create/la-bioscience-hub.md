@@ -14,6 +14,7 @@ project_description: >-
 organization_name: LA Bioscience Hub
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=Y3hlwctOVns'
+link_newsletter: 'http://labiosciencehub.org/contact'
 organization_website: 'http://labiosciencehub.org/'
 organization_twitter: '@LABioscienceHub'
 organization_facebook: ''

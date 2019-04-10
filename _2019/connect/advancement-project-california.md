@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Advancement Project California
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: AdvancementProjectCA.org/sign-up
 organization_website: 'https://www.AdvancementProjectCA.org'
 organization_twitter: '@AP_California'
 organization_facebook: www.facebook.com/AdvancementProjectCA

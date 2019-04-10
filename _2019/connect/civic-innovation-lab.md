@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Civic Innovation Lab
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.civicinnovationlab.la/get_updates'
 organization_website: 'https://www.civicinnovationlab.la'
 organization_twitter: '@civicinnlab'
 organization_facebook: civicinnlab

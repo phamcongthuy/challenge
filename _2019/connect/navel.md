@@ -12,6 +12,8 @@ project_description: >-
 organization_name: NAVEL
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: >-
+  https://mc.us11.list-manage.com/subscribe/post?u=74eb21ff8ecbfc361612ece52&id=fea67e6d5e
 organization_website: 'https://navel.la'
 organization_twitter: ''
 organization_facebook: navellosangeles

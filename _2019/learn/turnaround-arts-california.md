@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 'Turnaround Arts: California'
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/291549657'
+link_newsletter: 'https://turnaroundartsca.org/'
 organization_website: 'https://www.turnaroundartsca.org'
 organization_twitter: '@TurnarndArtsCA'
 organization_facebook: '@TurnaroundArtsCA'

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Ahdom_Sayre
 organization_description: For-profit organization
 project_video: ''
+link_newsletter: 'http://www.ahdomsayre.com/op-project'
 organization_website: 'https://www.ahdomsayre.com'
 organization_twitter: '@ahdomsayre'
 organization_facebook: 'https://www.facebook.com/ahdomsayregroup/'

@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Creator Force at Civic Nation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=-BM1fjskBvQ&feature=youtu.be'
+link_newsletter: ''
 organization_website: 'https://www.creatorforce.com'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/Creator-Force-1670029099675606/'

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Inspiring Service
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/327368094'
+link_newsletter: 'https://inspiringservice.org/newsletter'
 organization_website: 'https://inspiringservice.org'
 organization_twitter: '@InspiringSvc'
 organization_facebook: 'https://www.facebook.com/InspiringService/'

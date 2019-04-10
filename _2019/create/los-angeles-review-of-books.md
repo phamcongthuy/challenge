@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Los Angeles Review of Books
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=mblPvTBTug4'
+link_newsletter: 'https://lareviewofbooks.org/newsletter'
 organization_website: 'https://www.lareviewofbooks.org, http://thepublishingworkshop.com'
 organization_twitter: '@LAReviewofBooks'
 organization_facebook: 'https://www.facebook.com/losangelesreview/'

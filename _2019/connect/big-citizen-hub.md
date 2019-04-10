@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Big Citizen HUB
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/WA8wmi8t3ik'
+link_newsletter: 'http://eepurl.com/dxhwSj'
 organization_website: 'https://www.bigcitizenhub.org'
 organization_twitter: '@BigCitizenHUB'
 organization_facebook: 'https://www.facebook.com/TheBigCitizenHub'

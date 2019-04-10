@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Community Vitalization Council
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=9KQbRTk5Hcc'
+link_newsletter: ''
 organization_website: 'https://www.iba.io'
 organization_twitter: '@IntlBizAccel'
 organization_facebook: International Business Accelerator

@@ -9,6 +9,7 @@ project_description: >-
 organization_name: Freedom and Fashion
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/147255799'
+link_newsletter: 'https://freedomandfashion.org/about-us/contact-us/'
 organization_website: 'https://freedomandfashion.org/'
 organization_twitter: '@freedomnfashion'
 organization_facebook: 'https://www.facebook.com/freedomandfashion/'

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: New Earth
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/aVYDRtqjIKg'
+link_newsletter: 'https://newearthlife.org/contact/'
 organization_website: 'https://www.newearthlife.org'
 organization_twitter: '@NewEarthLife'
 organization_facebook: www.facebook.com/newearthlife

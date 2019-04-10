@@ -14,6 +14,7 @@ project_description: >-
 organization_name: Partnership for Los Angeles Schools
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/LQBJxKL78Lw'
+link_newsletter: ''
 organization_website: 'https://www.partnershipla.org'
 organization_twitter: '@partnershipla'
 organization_facebook: 'https://www.facebook.com/PartnershipLA/'

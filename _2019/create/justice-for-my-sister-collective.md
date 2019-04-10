@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Justice for My Sister Collective
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=QACJr3pKb28'
+link_newsletter: ''
 organization_website: 'http://justiceformysister.com/collective/'
 organization_twitter: '@justice4sister'
 organization_facebook: 'https://www.facebook.com/JusticeForMySister'

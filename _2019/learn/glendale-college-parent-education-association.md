@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Glendale College Parent Education Association
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/vr84fEpJm5I'
+link_newsletter: ''
 organization_website: 'https://www.gcpea.org'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/gcpea'

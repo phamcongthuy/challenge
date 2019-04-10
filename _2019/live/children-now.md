@@ -13,6 +13,7 @@ organization_name: Children Now
 organization_description: Non-profit organization
 project_video: ''
 organization_website: 'https://www.childrennow.org'
+link_newsletter: 'https://www.childrennow.org/blog/'
 organization_twitter: '@ChildrenNow'
 organization_facebook: 'https://www.facebook.com/childrennow/'
 organization_instagram: '@childrennow'

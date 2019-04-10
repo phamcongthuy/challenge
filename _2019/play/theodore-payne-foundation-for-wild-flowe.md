@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Theodore Payne Foundation for Wild Flowe
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/DoKD6BiSCvc'
+link_newsletter: 'http://theodorepayne.org/'
 organization_website: 'https://www.theodorepayne.org'
 organization_twitter: '@TheodorePayne'
 organization_facebook: facebook.com/TheodorePayneFoundation

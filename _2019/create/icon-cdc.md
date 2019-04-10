@@ -12,6 +12,7 @@ project_description: >-
 organization_name: ICON CDC
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://iconcdc.org/'
 organization_website: 'https://www.iconcdc.org'
 organization_twitter: '@iconcdc'
 organization_facebook: 'https://www.facebook.com/ICONCDC/'

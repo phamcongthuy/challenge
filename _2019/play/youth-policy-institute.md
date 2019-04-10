@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Youth Policy Institute
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/LYUnE4Elxn8'
+link_newsletter: 'https://www.ypi.org/subscribe/'
 organization_website: 'https://www.ypi.org'
 organization_twitter: '@ypiusa'
 organization_facebook: Youth Policy Institute

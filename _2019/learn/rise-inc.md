@@ -15,6 +15,7 @@ organization_name: 'Rise, Inc.'
 organization_description: Non-profit organization
 project_video: >-
   https://www.facebook.com/RiseFreeOrg/videos/299798094036117/UzpfSTIxMjY4MTA5MjU5MjU2OTo1MjU2NjYzNTEyOTQwNDA/
+link_newsletter: 'https://risefree.org/go/join/'
 organization_website: 'https://www.risefree.org'
 organization_twitter: '@risefreeorg'
 organization_facebook: www.facebook.com/RiseFreeOrg/

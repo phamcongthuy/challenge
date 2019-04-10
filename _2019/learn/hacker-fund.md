@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Hacker Fund
 organization_description: Non-profit organization
 project_video: https://www.youtube.com/watch?v=rrmxqzbTycA&feature=youtu.be
+link_newsletter: 'https://www.hacker.fund/'
 organization_website: 'https://www.hacker.fund'
 organization_twitter: '@thehackerfund'
 organization_facebook: facebook.com/hackerfund

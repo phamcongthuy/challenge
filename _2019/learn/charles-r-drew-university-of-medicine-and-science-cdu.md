@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Charles R. Drew University of Medicine and Science (CDU)
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/K8faMGto5BY'
+link_newsletter: www.cdrewu.edu/community/pipeline
 organization_website: 'https://www.cdrewu.edu'
 organization_twitter: '@cdrewu'
 organization_facebook: 'https://www.facebook.com/charlesrdrewuniversity/'

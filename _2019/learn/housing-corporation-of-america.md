@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Housing Corporation of America
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=se9UNUDvUlo&t=113s'
+link_newsletter: ''
 organization_website: 'https://www.hcahousing.org'
 organization_twitter: ''
 organization_facebook: Housing Corporation of America

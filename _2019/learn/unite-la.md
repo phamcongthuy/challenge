@@ -11,6 +11,7 @@ project_description: >-
 organization_name: UNITE LA
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.unitela.com/join'
 organization_website: 'https://www.unitela.com'
 organization_twitter: '@letsunitela'
 organization_facebook: 'https://www.facebook.com/letsunitela'

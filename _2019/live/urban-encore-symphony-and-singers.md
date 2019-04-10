@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Urban Encore Symphony and Singers
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.urbaness.org'
 organization_twitter: ''
 organization_facebook: Urban Encore

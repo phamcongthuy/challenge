@@ -16,6 +16,7 @@ project_description: >-
 organization_name: FoodCycle LA
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.foodcyclela.org'
 organization_twitter: ''
 organization_facebook: foodcyclelaorg

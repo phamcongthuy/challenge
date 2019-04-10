@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Union Rescue Mission
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://urm.org/urm-email-updates/'
 organization_website: 'https://www.urm.org'
 organization_twitter: '@URM'
 organization_facebook: '@unionrescuemissionla'

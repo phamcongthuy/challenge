@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Harlem Lacrosse
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/t_TjnwnSfZg'
+link_newsletter: 'https://www.harlemlacrosse.org/'
 organization_website: 'https://www.harlemlacrosse.org'
 organization_twitter: '@HarlemLacrosse'
 organization_facebook: harlemlacrosseLA

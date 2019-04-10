@@ -15,6 +15,7 @@ project_description: >-
 organization_name: American Digital Diversity Initiative
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/D00Hm-61tM0'
+link_newsletter: ''
 organization_website: 'https://www.digitalequity.tech'
 organization_twitter: '@digequity'
 organization_facebook: digequity

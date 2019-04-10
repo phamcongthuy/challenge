@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Rock the Vote
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=xiOwBE8XQEM&feature=youtu.be'
+link_newsletter: 'https://my.sweet.io/RockTheVote'
 organization_website: 'https://www.rockthevote.org'
 organization_twitter: '@rockthevote'
 organization_facebook: 'https://www.facebook.com/rockthevote'

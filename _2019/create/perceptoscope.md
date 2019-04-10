@@ -13,6 +13,7 @@ project_description: >-
 organization_name: Perceptoscope
 organization_description: Social enterprise or B-corps
 project_video: ''
+link_newsletter: 'https://perceptoscope.com'
 organization_website: 'https://perceptoscope.com'
 organization_twitter: '@perceptoscope'
 organization_facebook: 'https://www.facebook.com/perceptoscope/'

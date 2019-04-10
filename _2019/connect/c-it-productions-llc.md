@@ -9,6 +9,7 @@ project_description: >-
 organization_name: 'C It Productions, LLC'
 organization_description: For-profit organization
 project_video: 'https://www.youtube.com/watch?v=CgEcBRPuiO8'
+link_newsletter: 'https://www.facebook.com/compassioncenteredcinema/'
 organization_website: 'https://c-it-productions.com/'
 organization_twitter: '@tracymelchior'
 organization_facebook: 'https://www.facebook.com/compassioncenteredcinema/'

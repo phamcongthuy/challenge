@@ -12,6 +12,7 @@ project_description: >-
 organization_name: LA Forward
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.losangelesforward.org/'
 organization_website: 'https://www.LosAngelesForward.org'
 organization_twitter: '@LosAngelesFwd'
 organization_facebook: 'https://www.facebook.com/losangelesforward'

@@ -14,6 +14,7 @@ project_description: |-
 organization_name: JOY FACTORY
 organization_description: Social enterprise or B-corps
 project_video: 'https://photos.app.goo.gl/3SPcCHkL26DtdsbL8'
+link_newsletter: 'http://wearejoyfactory.org'
 organization_website: 'http://wearejoyfactory.org'
 organization_twitter: ''
 organization_facebook: JOY FACTORY

@@ -12,6 +12,8 @@ project_description: >-
 organization_name: BREATHE California of Los Angeles County
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/YKG-ePiDpdk'
+link_newsletter: >-
+  https://visitor.r20.constantcontact.com/d.jsp?llr=49v7stbab&p=oi&m=1101242718047&sit=p4gis9hbb&f=b47968ec-3559-41ba-9eec-de9d122ee053
 organization_website: 'https://www.breathela.org'
 organization_twitter: '@breathelac'
 organization_facebook: '@breathelac'

@@ -14,6 +14,7 @@ project_description: >-
 organization_name: United Parents and Students
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/313460263'
+link_newsletter: 'https://unitedparentsandstudents.org/'
 organization_website: 'https://www.unitedparentsandstudents.org'
 organization_twitter: ''
 organization_facebook: www.facebook.com/UnitedParentsandStudents/

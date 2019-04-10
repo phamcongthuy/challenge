@@ -12,6 +12,7 @@ project_description: >-
 organization_name: The Tiyya Foundation
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/302922092'
+link_newsletter: 'http://eepurl.com/2ymrn'
 organization_website: 'https://www.tiyya.org'
 organization_twitter: '@tiyyafdn'
 organization_facebook: '@tiyyafdn'

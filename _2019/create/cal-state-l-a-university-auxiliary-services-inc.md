@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 'Cal State L.A. University Auxiliary Services, Inc.'
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.calstatela.edu'
 organization_twitter: '@calstatela'
 organization_facebook: CalStateLA

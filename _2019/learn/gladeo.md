@@ -14,6 +14,8 @@ project_description: >-
 organization_name: Gladeo
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=3s6Kqtxj7U0'
+link_newsletter: >-
+  https://gladeo.us11.list-manage.com/subscribe/post?u=98c3d0005a0fe89639eaebaa5&id=df2c256ed9
 organization_website: 'https://gladeo.org'
 organization_twitter: '@gladeo_org'
 organization_facebook: 'https://www.facebook.com/gladeo.org/'

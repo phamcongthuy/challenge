@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Infinity Studio 8
 organization_description: For-profit organization
 project_video: 'https://youtu.be/fQX65iZeoME'
+link_newsletter: 'http://eepurl.com/z3Aa9'
 organization_website: 'https://www.massivelyepic.com'
 organization_twitter: '@massivelyepic'
 organization_facebook: 'https://www.facebook.com/MassivelyEpic/'

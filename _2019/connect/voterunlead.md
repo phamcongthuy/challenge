@@ -14,6 +14,7 @@ project_description: >-
 organization_name: VOTERUNLEAD
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'http://voterunlead.org/'
 organization_website: 'https://www.voterunlead.org'
 organization_twitter: '@VoteRunLead'
 organization_facebook: 'https://www.facebook.com/VoteRunLead/'

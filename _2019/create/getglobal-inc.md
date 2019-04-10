@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 'GetGlobal, Inc'
 organization_description: For-profit organization
 project_video: https://www.youtube.com/watch?v=Xm8BeQreqmg&t=6s
+link_newsletter: 'https://share.hsforms.com/1Kln2HDXdSo-uQXuAi4-Vjw1pfeb'
 organization_website: 'https://www.getglobal.co'
 organization_twitter: '@getglobalconf'
 organization_facebook: 'https://www.facebook.com/getglobalexpo'

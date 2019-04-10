@@ -12,6 +12,7 @@ project_description: >-
 organization_name: California Common Cause
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://actionnetwork.org/forms/sign-up-for-breaking-news-and-updates'
 organization_website: 'https://www.commoncause.org/CA'
 organization_twitter: '@CommonCauseCA'
 organization_facebook: www.facebook.com/CommonCauseCA

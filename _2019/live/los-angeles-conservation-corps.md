@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Los Angeles Conservation Corps
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.lacorps.org'
 organization_twitter: '@LACorps'
 organization_facebook: 'https://www.facebook.com/LACorps/'

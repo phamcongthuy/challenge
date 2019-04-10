@@ -13,6 +13,7 @@ organization_name: Climate Uprising (Interconnected Media)
 organization_description: Non-profit organization
 project_video: >-
   https://www.climateuprising.org/videos/2019/3/28/tom-voted-for-climate-deniers-but-losing-everything-changes-everything-climateuprising
+link_newsletter: 'https://actionnetwork.org/forms/sign-up-for-climate-uprising-newsletter'
 organization_website: 'https://www.climateuprising.org'
 organization_twitter: '@climateuprise'
 organization_facebook: 'https://www.facebook.com/ClimateUprising/'

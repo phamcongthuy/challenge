@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Women In Film
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://womeninfilm.org/newsletter/'
 organization_website: 'https://www.womeninfilm.org'
 organization_twitter: '@womeninfilm'
 organization_facebook: 'https://www.facebook.com/WIFLA'

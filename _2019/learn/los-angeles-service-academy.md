@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Los Angeles Service Academy
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/uGjAQ4LYDr8'
+link_newsletter: laserviceacademy.org/about/contact/
 organization_website: 'http://laserviceacademy.org'
 organization_twitter: '@LASA_ICW'
 organization_facebook: facebook.com/husc.icw

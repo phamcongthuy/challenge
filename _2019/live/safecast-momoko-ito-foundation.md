@@ -10,6 +10,7 @@ project_description: >-
 organization_name: Safecast (Momoko Ito Foundation)
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/158274995'
+link_newsletter: 'https://blog.safecast.org/mailing-list/'
 organization_website: 'https://www.safecast.org'
 organization_twitter: '@safecast'
 organization_facebook: 'https://www.facebook.com/safecast'

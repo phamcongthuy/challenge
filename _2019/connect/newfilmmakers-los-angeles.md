@@ -12,6 +12,7 @@ project_description: >-
 organization_name: NewFilmmakers Los Angeles
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=QgomJsKI6fg&t=50s'
+link_newsletter: 'https://www.newfilmmakersla.com/newsletter-sign-up/'
 organization_website: 'https://www.nfmla.org'
 organization_twitter: '@NFMLA'
 organization_facebook: 'https://www.facebook.com/NFMLA/'

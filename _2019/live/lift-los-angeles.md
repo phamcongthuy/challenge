@@ -14,6 +14,7 @@ project_description: >-
 organization_name: LIFT-Los Angeles
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.liftcommunities.org/get-involved/'
 organization_website: 'https://www.liftcommunities.org/'
 organization_twitter: '@LIFTCommunities'
 organization_facebook: '@LIFTCommunities'

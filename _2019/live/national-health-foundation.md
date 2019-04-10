@@ -12,6 +12,8 @@ project_description: >-
 organization_name: National Health Foundation
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/eeCWQK8e8YQ'
+link_newsletter: >-
+  https://myemail.constantcontact.com/Making-Healthy-Communities-Happen.html?soid=1102051927192&aid=HjPRCHZut_M
 organization_website: 'https://www.nationalhealthfoundation.org'
 organization_twitter: '@nhfcommunity'
 organization_facebook: 'https://www.facebook.com/nationalhealthfoundation/'
