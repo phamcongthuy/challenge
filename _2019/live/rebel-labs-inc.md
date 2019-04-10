@@ -30,8 +30,6 @@ organization_website:
 organization_twitter: 
   - '@rebel360life'
   - '@gofarmermark'
-organization_facebook:
-  - '@rebel360life'
 organization_facebook: 
   - '@rebel360life'
   - '@gofarmermark'
