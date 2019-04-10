@@ -13,6 +13,7 @@ organization_name: CALmatters
 organization_description: Non-profit organization
 project_video: ''
 # project_video: 'https://www.youtube.com/channel/UCNQv9nDu2_r5zbgtUQungeA'
+link_newsletter: 'https://calmatters.org/subscribe-to-calmatters/'
 organization_website: 'https://www.calmatters.org'
 organization_twitter: '@calmatters'
 organization_facebook: 'https://www.facebook.com/calmatters'

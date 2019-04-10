@@ -14,6 +14,7 @@ project_description: >-
 organization_name: The Civics Center
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://thecivicscenter.org/newsletter'
 organization_website: 'https://thecivicscenter.org/'
 organization_twitter: '@TheCivicsCenter'
 organization_facebook: 'https://www.facebook.com/TheCivicsCenter/'
