@@ -13,6 +13,7 @@ organization_name: 'Circle of Friends- The Path to Inclusion, a project of Commu
 organization_description: Non-profit organization
 project_video: ''
 # project_video: 'https://vimeo.com/327421262'
+link_newsletter: 'https://www.circleofriends.org/newsletters'
 organization_website: 'https://www.circleofriends.org'
 organization_twitter: '@cofinclusion'
 organization_facebook: www.facebook.com/circleofriends/
@@ -68,7 +69,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Mother Road Studios
+project_collaborators:
+  - Mother Road Studios
 project_measure: >-
   L’Atelier LA’s goals is to change attitudes, model behavior, and promote
   inclusion, positively impacting student development. We will measure progress

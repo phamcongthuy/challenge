@@ -11,7 +11,8 @@ project_description: >-
   reinforce LA's global competitiveness.
 organization_name: 'GetGlobal, Inc'
 organization_description: For-profit organization
-project_video: https://www.youtube.com/watch?v=Xm8BeQreqmg&t=6s
+project_video: 'https://www.youtube.com/watch?v=Xm8BeQreqmg&t=6s'
+link_newsletter: 'https://share.hsforms.com/1Kln2HDXdSo-uQXuAi4-Vjw1pfeb'
 organization_website: 'https://www.getglobal.co'
 organization_twitter: '@getglobalconf'
 organization_facebook: 'https://www.facebook.com/getglobalexpo'
@@ -62,20 +63,13 @@ project_la2050_community_resources:
   - Publicity/awareness
   - 'Attracting helpful, nontraditional LA partners'
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  - Mayor's Office of Long Beach
-   
-   - The Port of Long Beach
-   
-   - Long Beach Economic Development
-   
-   - California Centers for International Trade Development
-   
-   - National Governors Association
-   
-   - US-ASEAN Business Council
-   
-   - More to follow...
+project_collaborators:
+  - Mayor’s Office of Long Beach
+  - The Port of Long Beach
+  - Long Beach Economic Development
+  - California Centers for International Trade Development
+  - National Governors Association
+  - US-ASEAN Business Council
 project_measure: >-
   New companies from the LA area attending GetGlobal that are
   international-capable 

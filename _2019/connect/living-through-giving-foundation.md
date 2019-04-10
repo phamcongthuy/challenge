@@ -12,6 +12,7 @@ organization_name: Living Through Giving Foundation
 organization_description: Non-profit organization
 project_video: >-
   https://www.nbclosangeles.com/news/local/_HashtagLunchbag_Los-Angeles-507743072.html
+link_newsletter: 'https://www.hashtaglunchbag.org/'
 organization_website: 'https://www.hashtaglunchbag.org'
 organization_twitter: '@HashtagLunchbag'
 organization_facebook: 'https://www.facebook.com/hashtaglunchbag/'
@@ -133,6 +134,6 @@ category_other: []
 year: 2019
 category: connect
 filename: living-through-giving-foundation
-order: 19
+order: 20
 
 ---

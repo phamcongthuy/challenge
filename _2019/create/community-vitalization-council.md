@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Community Vitalization Council
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=9KQbRTk5Hcc'
+link_newsletter: ''
 organization_website: 'https://www.iba.io'
 organization_twitter: '@IntlBizAccel'
 organization_facebook: International Business Accelerator
@@ -20,7 +21,7 @@ link_donate: ''
 link_volunteer: ''
 organization_activity: >-
   The Community Vitalization Council promotes community level economic vitality
-  and jobs. The International Business Accelerator,a program of Civic 180,
+  and jobs. The International Business Accelerator, a program of Civic 180,
   supports SMEs to expand into global markets
 project_proposal_description: >-
   Over the years we’ve witnessed a recurring and frustrating speedbump for small
@@ -77,7 +78,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: Loyola Marymount University College of Business Administration - confirmed
+project_collaborators:
+  - Loyola Marymount University College of Business Administration - confirmed
 project_measure: >-
   For three chosen metrics (manufacturing, women/minority owned businesses and
   high-growth startups):

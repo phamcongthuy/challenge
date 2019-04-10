@@ -13,6 +13,7 @@ organization_name: Film Independent
 organization_description: Non-profit organization
 project_video: ''
 # project_video: 'https://my.filmindependent.org/page.aspx?pid=446&tab=1'
+link_newsletter: 'https://my.filmindependent.org/page.aspx?pid=446&tab=1'
 organization_website: 'https://www.filmindependent.org'
 organization_twitter: '@filmindependent'
 organization_facebook: 'https://www.facebook.com/filmindependent/'

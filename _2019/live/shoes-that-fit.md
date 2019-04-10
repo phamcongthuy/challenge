@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Shoes That Fit
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/292764608'
+link_newsletter: 'https://www.shoesthatfit.org/news-events/'
 organization_website: 'https://www.shoesthatfit.org'
 organization_twitter: '@ShoesThatFit'
 organization_facebook: 'https://www.facebook.com/ShoesThatFitNonProfit/'
@@ -66,10 +67,11 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: >-
-  We will be partnering with local sports teams and the Los Angeles Police
-  Department who will work as our liaisons working in conjunction with the Los
-  Angeles Unified School District.
+project_collaborators:
+  - >-
+    We will be partnering with local sports teams and the Los Angeles Police
+    Department who will work as our liaisons working in conjunction with the Los
+    Angeles Unified School District.
 project_measure: >-
   We at Shoes That Fit define the success of our project through the number of
   kids we can reach and provide for throughout Los Angeles. 
@@ -126,6 +128,6 @@ category_other:
 year: 2019
 category: live
 filename: shoes-that-fit
-order: 25
+order: 24
 
 ---

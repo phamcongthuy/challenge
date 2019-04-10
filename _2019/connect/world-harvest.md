@@ -15,6 +15,7 @@ organization_name: World Harvest
 organization_description: Non-profit organization
 project_video: https://youtu.be/2cLR-XrSB2o
 # project_video: 'https://www.worldharvestla.org/stories'
+link_newsletter: 'https://www.worldharvestla.org'
 organization_website: 'https://www.worldharvestla.org'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/WorldHarvestFoodBank/'
@@ -129,6 +130,6 @@ category_other:
 year: 2019
 category: connect
 filename: world-harvest
-order: 35
+order: 40
 
 ---

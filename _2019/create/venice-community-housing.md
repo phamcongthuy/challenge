@@ -11,6 +11,8 @@ project_description: >-
 organization_name: Venice Community Housing
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/QKx0BHD91SA'
+link_newsletter: >-
+  https://visitor.r20.constantcontact.com/manage/optin?v=001XydcUt-Tcv52rxFfyTVB2OjzZWZhOX83AyPcD7_kSMEQ8brlkLTUeZNCplkrGi1g4bwdr-kgCMKXwUSPpf1jHRLsmphDVcoyAasbX65kW7t78LqaIYYa7pVipP1fIPQPjHQZLR-EehZgCtph0JuTC94i4AYTF7JM
 organization_website: 'https://www.vchcorp.org'
 organization_twitter: '@VCHC'
 organization_facebook: 'https://www.facebook.com/vchcorp/'
@@ -59,20 +61,14 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: |-
-  Ivo Vergara, artist
-   
-   Henry Lipkis, artist
-   
-   Safe Place For Youth (SPY)
-   
-   Venice Arts Council
-   
-   18th Street Arts
-   
-   Beyond Baroque
-   
-   AmeriCorps
+project_collaborators:
+  - 'Ivo Vergara, artist'
+  - 'Henry Lipkis, artist'
+  - Safe Place For Youth (SPY)
+  - Venice Arts Council
+  - 18th Street Arts
+  - Beyond Baroque
+  - AmeriCorps
 project_measure: >-
   Success will be defined by creating art installations on 4 of VCH’s properties
   by summer of 2020. VCH will measure this by monitoring that the hired artists

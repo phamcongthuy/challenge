@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Pacoima Beautiful
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://pacoimabeautiful.org/subscribe/'
 organization_website: 'https://pacoimabeautiful.org/'
 organization_twitter: '@PB__Community'
 organization_facebook: 'https://www.facebook.com/Pacoima.Beautiful/'
@@ -47,9 +48,15 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: >-
-  LA Conservation Corps, GRID Alternatives, LA Business Council, LA CleanTech
-  Incubator, Trust for Public Land/LA, LADOT, LA Sanitation, Community Partners
+project_collaborators:
+  - LA Conservation Corps
+  - GRID Alternatives
+  - LA Business Council
+  - LA CleanTech Incubator
+  - Trust for Public Land/LA
+  - LADOT
+  - LA Sanitation
+  - Community Partners
 project_measure: >-
   The definition of success is satisfying statewide goals for greenhouse gas
   reduction. The measures of success would be energy savings for solar projects,

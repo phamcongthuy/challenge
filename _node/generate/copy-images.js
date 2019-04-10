@@ -136,17 +136,19 @@ function getAllFilesFromFolder(dir) {
 function updateLocations(folder) {
 
   // Get a list of markdown files
-  let locations = getAllFilesFromFolder(folder);
+  let files = getAllFilesFromFolder(folder);
 
-  console.log(locations);
+  console.log(files);
 
   // For each location file
-  for (let index = 0; index < locations.length; index++) {
-    processFile(/*folder + '/' + */locations[index]);
+  for (let index = 0; index < files.length; index++) {
+    if (files[index].indexOf('.DS_Store') >= 0) continue;
+    processFile(files[index]);
   }
 }
 
-let submissionFiles = getAllFilesFromFolder('./download__9r4DFrpbT7qt5BNGh8QQhB2vZrx48d');
+
+let submissionFiles = getAllFilesFromFolder('../../_data/download__vQfs75VTzXvRrxVHkFds2ww6PBdgsz');
 
 updateLocations('../_2019/learn');
 updateLocations('../_2019/create');

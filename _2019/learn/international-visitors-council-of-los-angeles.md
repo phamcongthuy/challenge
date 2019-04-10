@@ -11,6 +11,7 @@ project_description: >-
 organization_name: International Visitors Council of Los Angeles
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://bit.ly/2H0UzP9'
 organization_website: 'https://www.ivcla.org'
 organization_twitter: '@ivc_la'
 organization_facebook: 'https://www.facebook.com/ivcla/'
@@ -46,7 +47,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Cleveland Charter High School
+project_collaborators:
+  - Cleveland Charter High School
 project_measure: >-
   Students will receive preliminary and final questionnaires to assess their
   attitudes, curiosity and knowledge about global facts, cultures and events.
@@ -153,6 +155,6 @@ category_other:
 year: 2019
 category: learn
 filename: international-visitors-council-of-los-angeles
-order: 17
+order: 18
 
 ---

@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Team Rubicon
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/308700435'
+link_newsletter: 'https://teamrubiconusa.org/'
 organization_website: 'https://www.teamrubiconusa.org'
 organization_twitter: '@TeamRubicon'
 organization_facebook: 'https://www.facebook.com/teamrubicon/'
@@ -114,6 +115,6 @@ category_other:
 year: 2019
 category: connect
 filename: team-rubicon
-order: 28
+order: 33
 
 ---

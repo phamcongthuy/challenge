@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Women In Film
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://womeninfilm.org/newsletter/'
 organization_website: 'https://www.womeninfilm.org'
 organization_twitter: '@womeninfilm'
 organization_facebook: 'https://www.facebook.com/WIFLA'
@@ -61,7 +62,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: The California State University Entertainment Alliance
+project_collaborators:
+  - The California State University Entertainment Alliance
 project_measure: >-
   Our evaluation will be based on feedback from participants on how the program
   elevated their confidence and abilities, the number of interviews and meetings

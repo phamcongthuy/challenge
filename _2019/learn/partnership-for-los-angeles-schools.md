@@ -14,6 +14,7 @@ project_description: >-
 organization_name: Partnership for Los Angeles Schools
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/LQBJxKL78Lw'
+link_newsletter: ''
 organization_website: 'https://www.partnershipla.org'
 organization_twitter: '@partnershipla'
 organization_facebook: 'https://www.facebook.com/PartnershipLA/'
@@ -28,11 +29,11 @@ project_proposal_description: >-
   On a recent visit to one of our elementary schools, Partnership CEO Joan
   Sullivan asked a kindergartner if he planned to go to college. “Yes!,” the
   student replied immediately. “And I’m in the Class of 2035!” The youngster’s
-  knowledge of the year in which he is scheduled to graduate high school did not
+  knowledge of the year in which he is scheduled to graduate college did not
   surprise Joan. As part of building a college-going culture, all Partnership
   elementary schools are tasked with their students learning and remembering the
-  year of their future high school graduation. This activity is a small way in
-  which the Partnership establishes an expectation of college among our youngest
+  year of their future college graduation. This activity is a small way in which
+  the Partnership establishes an expectation of college among our youngest
   scholars. 
    
    
@@ -55,7 +56,7 @@ project_proposal_description: >-
    
    
    
-   The Partnership complements programs focused on building stakeholder capacity with a vibrant advocacy work stream dedicated to achieving the systemic changes needed for broad, sustainable transformation. In these ways, the Partnership continues to forge a pathway to ensure that in 16 years, members of the Class of 2035 will be fully-prepared to enter college.
+   The Partnership complements programs focused on building stakeholder capacity with a vibrant advocacy work stream dedicated to achieving the systemic changes needed for broad, sustainable transformation. In these ways, the Partnership continues to forge a pathway to ensure that in 12 years, members of the Class of 2035 will be fully-prepared to enter college.
 project_areas:
   - Central LA
   - East LA
@@ -93,7 +94,7 @@ project_measure: >-
    
    
    
-   * The graduation rate of the Partnership network’s Class of 2020 (four-year cohort) will increase by 1 percentage point from the Class of 2019’s graduation rate as measured by the California Department of Education. Baseline: 79%, Class of 2018. Related LEARN metric: District-wide graduation rates.
+   * The graduation rate of the Partnership network’s Class of 2020 (four-year cohort) will increase by 2 percentage points from the Class of 2019’s graduation rate as measured by the California Department of Education. Baseline: 79%, Class of 2018. Related LEARN metric: District-wide graduation rates.
    
    
    
@@ -136,6 +137,6 @@ category_other: []
 year: 2019
 category: learn
 filename: partnership-for-los-angeles-schools
-order: 23
+order: 24
 
 ---

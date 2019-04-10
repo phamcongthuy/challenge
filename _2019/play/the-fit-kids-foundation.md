@@ -10,6 +10,7 @@ project_description: >-
 organization_name: The Fit Kids Foundation
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/niVADGLaDDg'
+link_newsletter: 'https://fitkids.org/newsletters/'
 organization_website: 'https://www.fitkids.org'
 organization_twitter: '@FitKidsCA'
 organization_facebook: www.facebook.com/fitkidsCA/
@@ -94,6 +95,6 @@ category_other:
 year: 2019
 category: play
 filename: the-fit-kids-foundation
-order: 9
+order: 10
 
 ---

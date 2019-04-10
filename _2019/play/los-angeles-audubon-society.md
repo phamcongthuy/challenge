@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Los Angeles Audubon Society
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/2XAZzi2YKno'
+link_newsletter: 'https://www.laaudubon.org'
 organization_website: 'https://www.laaudubon.org'
 organization_twitter: '@LAAudubon'
 organization_facebook: www.facebook.com/LosAngelesAudubon
@@ -157,6 +158,6 @@ category_other:
 year: 2019
 category: play
 filename: los-angeles-audubon-society
-order: 3
+order: 4
 
 ---

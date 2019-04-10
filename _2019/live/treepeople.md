@@ -11,6 +11,7 @@ project_description: >-
 organization_name: TreePeople
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.treepeople.org/'
 organization_website: 'https://www.treepeople.org'
 organization_twitter: '@treepeople_org'
 organization_facebook: 'https://www.facebook.com/TreePeopleorg/'
@@ -98,6 +99,6 @@ category_other:
 year: 2019
 category: live
 filename: treepeople
-order: 29
+order: 28
 
 ---

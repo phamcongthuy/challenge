@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Boys & Girls Clubs of Carson
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/9QjzZPNQlbE'
+link_newsletter: 'https://www.bgccarson.org/'
 organization_website: 'https://www.bgccarson.org/'
 organization_twitter: '@BGCofCarson'
 organization_facebook: 'https://www.facebook.com/bgccarson'

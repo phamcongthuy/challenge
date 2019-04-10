@@ -12,6 +12,7 @@ project_description: >-
 organization_name: H.I.P Through Science
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/dNFIH0G0HDo'
+link_newsletter: 'https://www.thepplofchange.org'
 organization_website: 'https://www.thepplofchange.org'
 organization_twitter: ''
 organization_facebook: 'https://www.facebook.com/thepeopleofchange'
@@ -59,20 +60,11 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  The East Side Riders Bike Club
-   
-   
-   
-   Ted Watkins Park
-   
-   
-   
-   Nickerson gardens resident advisory committie
-   
-   
-   
-   Gonsaque courts resident advisory committie
+project_collaborators:
+  - The East Side Riders Bike Club
+  - Ted Watkins Park
+  - Nickerson gardens resident advisory committie
+  - Gonsaque courts resident advisory committie
 project_measure: >-
   The measures of our success will be measured through a variety of methods. We
   will have quarterly quizzes that will be assigned and given out to each site
@@ -131,6 +123,6 @@ category_other:
 year: 2019
 category: learn
 filename: h-i-p-through-science
-order: 14
+order: 15
 
 ---

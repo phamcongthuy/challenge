@@ -12,6 +12,7 @@ project_description: >-
 organization_name: In the Making
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/hmWllpFD5lU'
+link_newsletter: 'https://www.inthemakingla.org/'
 organization_website: 'https://www.inthemakingla.org'
 organization_twitter: '@inthemakingLA'
 organization_facebook: '@inthemakingLA'
@@ -153,6 +154,6 @@ category_other:
 year: 2019
 category: connect
 filename: in-the-making
-order: 13
+order: 14
 
 ---

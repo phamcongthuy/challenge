@@ -12,6 +12,7 @@ project_description: >-
 organization_name: American Heart Association
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/f3wn7ku7wcA'
+link_newsletter: 'https://newsroom.heart.org/connect'
 organization_website: 'https://www.heart.org'
 organization_twitter: '@AmericanHeartLA'
 organization_facebook: AmericanHeartLA

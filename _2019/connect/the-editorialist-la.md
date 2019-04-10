@@ -12,6 +12,7 @@ project_description: >-
 organization_name: The Editorialist LA
 organization_description: For-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.theeditorialistla.com'
 organization_twitter: '@editorialistla'
 organization_facebook: facebook.com/editorialistla
@@ -110,6 +111,6 @@ category_other:
 year: 2019
 category: connect
 filename: the-editorialist-la
-order: 30
+order: 35
 
 ---

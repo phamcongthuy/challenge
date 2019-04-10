@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Green Girl Farms
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: facebook.com/greengirlfarms
 organization_website: 'https://www.greengirlfarms.org'
 organization_twitter: '@greengirlfarms'
 organization_facebook: facebook.com/greengirlfarms
@@ -54,12 +55,10 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: |-
-  San Pedro Bay Historical Society
-   
-   Feed and Be Fed
-   
-   The Garden Church
+project_collaborators:
+  - San Pedro Bay Historical Society
+  - Feed and Be Fed
+  - The Garden Church
 project_measure: >-
   Success of our project will be defined by public participation and measured in
   food distribution and consumption, as well as through goal metrics. In our

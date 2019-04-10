@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Larchmont Charter School
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=GjY2oTPnxak'
+link_newsletter: ''
 organization_website: 'https://www.larchmontcharter.org'
 organization_twitter: '@larchmontschool'
 organization_facebook: Larchmont Charter School
@@ -137,6 +138,6 @@ category_other:
 year: 2019
 category: learn
 filename: larchmont-charter-school
-order: 18
+order: 19
 
 ---

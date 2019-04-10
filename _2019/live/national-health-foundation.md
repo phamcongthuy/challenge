@@ -12,6 +12,8 @@ project_description: >-
 organization_name: National Health Foundation
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/eeCWQK8e8YQ'
+link_newsletter: >-
+  https://myemail.constantcontact.com/Making-Healthy-Communities-Happen.html?soid=1102051927192&aid=HjPRCHZut_M
 organization_website: 'https://www.nationalhealthfoundation.org'
 organization_twitter: '@nhfcommunity'
 organization_facebook: 'https://www.facebook.com/nationalhealthfoundation/'
@@ -55,10 +57,9 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  Woodbury University
-   
-   West Adams Preparatory School
+project_collaborators:
+  - Woodbury University
+  - West Adams Preparatory School
 project_measure: >-
   NHF tracks youth organizing outcomes and impacts on two different levels:
   impacts on the community and impacts on the youth organizers themselves. NHF’s

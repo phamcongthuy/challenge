@@ -12,6 +12,8 @@ project_description: >-
 organization_name: NAVEL
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: >-
+  https://mc.us11.list-manage.com/subscribe/post?u=74eb21ff8ecbfc361612ece52&id=fea67e6d5e
 organization_website: 'https://navel.la'
 organization_twitter: ''
 organization_facebook: navellosangeles
@@ -62,20 +64,14 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  California Carts
-   
-   CalArts Center for Integrated Media
-   
-   CalArts School of Dance
-   
-   Culture Hub
-   
-   LA Dance Project
-   
-   Massive Science
-   
-   Relevant
+project_collaborators:
+  - California Carts
+  - CalArts Center for Integrated Media
+  - CalArts School of Dance
+  - Culture Hub
+  - LA Dance Project
+  - Massive Science
+  - Relevant
 project_measure: >-
   While we certainly will measure traditional metrics such as attendance at
   programs and events, number of residents, members, and volunteers, and
@@ -151,6 +147,6 @@ category_other:
 year: 2019
 category: connect
 filename: navel
-order: 22
+order: 23
 
 ---

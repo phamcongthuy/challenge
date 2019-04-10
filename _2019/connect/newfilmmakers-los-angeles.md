@@ -12,6 +12,7 @@ project_description: >-
 organization_name: NewFilmmakers Los Angeles
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=QgomJsKI6fg&t=50s'
+link_newsletter: 'https://www.newfilmmakersla.com/newsletter-sign-up/'
 organization_website: 'https://www.nfmla.org'
 organization_twitter: '@NFMLA'
 organization_facebook: 'https://www.facebook.com/NFMLA/'
@@ -67,25 +68,29 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: >-
-  Industry Sponsors: Film LA, HBO, SAG-AFTRA, 21st Century Fox, Sony Pictures,
-  The Walt Disney Studios Company, Wells Fargo, Sunset Studios
-   
-   
-   
-   Foundation and Government Support: Hollywood Chamber of Commerce, Department of Cultural Affairs, Los Angeles County Arts Commission, Hollywood Foreign Press Association
-   
-   
-   
-   Community Collaborators: Mole-Richardson, Vegas Pro, Blackmagicdesign, American Entertainment Insruance, Production HUB, ATS Audiovisual, The Camera Division, VER Rental, Castex, Columbia College Hollywood, The South Park Center
-   
-   
-   
-   Media Collaborators: Creative Handbook, Backstage, MovieMaker Magazine, LA Metro, The Wrap, International Screenwriters Association, LA Weekly, Screen International
-   
-   
-   
-   University Collaborators (for student programs): Mount San Antonio College, California State University Northridge, Emerson College: Los Angeles, Los Angeles City College, California State University Los Angeles, University of Southern California: Cinematic Arts, New York Film Academy, LA Film School, Santa Monica College
+project_collaborators:
+  - >-
+    Industry Sponsors: Film LA, HBO, SAG-AFTRA, 21st Century Fox, Sony Pictures,
+    The Walt Disney Studios Company, Wells Fargo, Sunset Studios
+  - >-
+    Foundation and Government Support: Hollywood Chamber of Commerce, Department
+    of Cultural Affairs, Los Angeles County Arts Commission, Hollywood Foreign
+    Press Association
+  - >-
+    Community Collaborators: Mole-Richardson, Vegas Pro, Blackmagicdesign,
+    American Entertainment Insruance, Production HUB, ATS Audiovisual, The
+    Camera Division, VER Rental, Castex, Columbia College Hollywood, The South
+    Park Center
+  - >-
+    Media Collaborators: Creative Handbook, Backstage, MovieMaker Magazine, LA
+    Metro, The Wrap, International Screenwriters Association, LA Weekly, Screen
+    International
+  - >-
+    University Collaborators (for student programs): Mount San Antonio College,
+    California State University Northridge, Emerson College: Los Angeles, Los
+    Angeles City College, California State University Los Angeles, University of
+    Southern California: Cinematic Arts, New York Film Academy, LA Film School,
+    Santa Monica College
 project_measure: >-
   NFMLA will define and measure success for the "On Location" project through
   audience surveys, which are administered at the event to the 500+ attendees by
@@ -162,6 +167,6 @@ category_other:
 year: 2019
 category: connect
 filename: newfilmmakers-los-angeles
-order: 23
+order: 24
 
 ---

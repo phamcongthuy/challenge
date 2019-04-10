@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Los Angeles Service Academy
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/uGjAQ4LYDr8'
+link_newsletter: laserviceacademy.org/about/contact/
 organization_website: 'http://laserviceacademy.org'
 organization_twitter: '@LASA_ICW'
 organization_facebook: facebook.com/husc.icw
@@ -57,7 +58,8 @@ project_la2050_community_resources:
   - Access to LA2050 community
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: USC; The Huntington; LAPL
+project_collaborators:
+  - USC; The Huntington; LAPL
 project_measure: >-
   LASA's definition of success is twofold. First, LASA seeks to introduce youth
   to the complexities of LA infrastructure. Second, LASA seeks to empower youth
@@ -121,6 +123,6 @@ category_other:
 year: 2019
 category: learn
 filename: los-angeles-service-academy
-order: 19
+order: 20
 
 ---

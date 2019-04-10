@@ -12,6 +12,8 @@ project_description: >-
 organization_name: The Institution for Art and Olfaction
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: >-
+  https://artandolfaction.us6.list-manage.com/subscribe?u=bf9fa0aba69f763bfaa0e1444&id=bdcaba6440
 organization_website: 'https://www.artandolfaction.com'
 organization_twitter: '@artandolfaction'
 organization_facebook: artandolfaction
@@ -54,7 +56,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: GrowGood
+project_collaborators:
+  - GrowGood
 project_measure: |-
   The measures of our success: 
    

@@ -14,6 +14,8 @@ project_description: >-
 organization_name: Gladeo
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=3s6Kqtxj7U0'
+link_newsletter: >-
+  https://gladeo.us11.list-manage.com/subscribe/post?u=98c3d0005a0fe89639eaebaa5&id=df2c256ed9
 organization_website: 'https://gladeo.org'
 organization_twitter: '@gladeo_org'
 organization_facebook: 'https://www.facebook.com/gladeo.org/'
@@ -64,10 +66,9 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  Bixel Exchange of the LA Chamber of Commerce
-   
-   Dentsu Aegis Network
+project_collaborators:
+  - Bixel Exchange of the LA Chamber of Commerce
+  - Dentsu Aegis Network
 project_measure: >-
   There are 2 programs working in synergy so we will define and measure success
   separately for each program involved in this project. We will conduct students
@@ -151,6 +152,6 @@ category_other:
 year: 2019
 category: learn
 filename: gladeo
-order: 12
+order: 13
 
 ---

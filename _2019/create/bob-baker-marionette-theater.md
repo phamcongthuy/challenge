@@ -12,6 +12,8 @@ project_description: >-
 organization_name: Bob Baker Marionette Theater
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=UfcwyirLGAo'
+link_newsletter: >-
+  https://us14.list-manage.com/subscribe?u=c673aa70badacbc7cd30b9b8e&id=59ccf192e0
 organization_website: 'https://www.bobbakermarionettetheater.com'
 organization_twitter: '@bobbakertheater'
 organization_facebook: 'https://www.facebook.com/BobBakerMarionetteTheater/'

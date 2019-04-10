@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Los Angeles Blockchain Lab
 organization_description: For-profit organization
 project_video: ''
+link_newsletter: 'mailto:info@lablockchainlab.org'
 organization_website: 'https://www.lablockchainlab.org'
 organization_twitter: '@LABlockchainLab'
 organization_facebook: LABlockchainLab-1536664923109486/

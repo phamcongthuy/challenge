@@ -12,6 +12,8 @@ project_description: >-
 organization_name: EnCorps Inc.
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=waf-mAvcNjM'
+link_newsletter: >-
+  https://visitor.r20.constantcontact.com/d.jsp?llr=zbrxlezab&p=oi&m=1126501696569&sit=wmcl9vclb&f=cf118fb6-9cf5-4249-a763-258d08053786
 organization_website: 'https://www.encorps.org'
 organization_twitter: '@EnCorps'
 organization_facebook: 'https://www.facebook.com/EnCorps'
@@ -200,6 +202,6 @@ category_other: []
 year: 2019
 category: learn
 filename: encorps-inc
-order: 8
+order: 9
 
 ---

@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Red Hen Press
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://oi.vresp.com/?fid=9df70c5ddd'
 organization_website: 'https://redhen.org'
 organization_twitter: '@redhenpress'
 organization_facebook: '@redhenpress'

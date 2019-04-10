@@ -13,6 +13,7 @@ project_description: >-
 organization_name: Pop Culture Hero Coalition
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/vZwxAvZ1LE0'
+link_newsletter: Please email info@PopCultureHero.org.
 organization_website: 'https://www.PopCultureHero.org'
 organization_twitter: '@SuperheroIRL'
 organization_facebook: 'https://www.facebook.com/SuperheroIRL'
@@ -285,6 +286,6 @@ category_other:
 year: 2019
 category: learn
 filename: pop-culture-hero-coalition
-order: 24
+order: 25
 
 ---

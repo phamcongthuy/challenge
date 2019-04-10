@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Ahdom_Sayre
 organization_description: For-profit organization
 project_video: ''
+link_newsletter: 'http://www.ahdomsayre.com/op-project'
 organization_website: 'https://www.ahdomsayre.com'
 organization_twitter: '@ahdomsayre'
 organization_facebook: 'https://www.facebook.com/ahdomsayregroup/'
@@ -55,7 +56,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: GreenWealth Energy
+project_collaborators:
+  - GreenWealth Energy
 project_measure: >-
   Success for the project will be measured by both successfully completing the
   build, and by the impact it creates on the local community and the green

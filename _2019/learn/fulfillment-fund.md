@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Fulfillment Fund
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=m2aD8KL3qEE'
+link_newsletter: 'https://www.fulfillment.org/subscribe-to-emails'
 organization_website: 'https://www.fulfillment.org'
 organization_twitter: '@FulfillmentFund'
 organization_facebook: facebook.com/ffund
@@ -56,18 +57,13 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  L.A. Promise
-   
-   C5Y Foundation
-   
-   Girls Academic Leadership Academy (GALA)
-   
-   School of Visual Arts and Humanities (SVAH)
-   
-   Ambassador School of Global Leadership (ASGL)
-   
-   UCLA Community School (UCLACS)
+project_collaborators:
+  - L.A. Promise
+  - C5Y Foundation
+  - Girls Academic Leadership Academy (GALA)
+  - School of Visual Arts and Humanities (SVAH)
+  - Ambassador School of Global Leadership (ASGL)
+  - UCLA Community School (UCLACS)
 project_measure: >-
   As mentioned in the beginning of our application, we will consider the project
   a success based on a multiple different metrics in addition to the total
@@ -158,6 +154,6 @@ category_other:
 year: 2019
 category: learn
 filename: fulfillment-fund
-order: 10
+order: 11
 
 ---

@@ -8,6 +8,7 @@ project_description: >-
 organization_name: LawMaker
 organization_description: Social enterprise or B-corps
 project_video: 'https://www.youtube.com/watch?v=f8ZyMkwghMs&feature=youtu.be'
+link_newsletter: 'https://mailchi.mp/lawmaker/lawmakerjoin'
 organization_website: 'https://lawmaker.io'
 organization_twitter: '@WeAreLawMaker'
 organization_facebook: 'https://www.facebook.com/WeAreLawMaker/'
@@ -125,6 +126,6 @@ category_other:
 year: 2019
 category: connect
 filename: lawmaker
-order: 18
+order: 19
 
 ---

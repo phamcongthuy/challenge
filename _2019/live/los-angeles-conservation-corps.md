@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Los Angeles Conservation Corps
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.lacorps.org'
 organization_twitter: '@LACorps'
 organization_facebook: 'https://www.facebook.com/LACorps/'
@@ -48,7 +49,11 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: 'MEND, CalRecycle, Kroger, LA Compost'
+project_collaborators:
+  - MEND
+  - CalRecycle
+  - Kroger
+  - LA Compost
 project_measure: >-
   The definition of success is satisfying statewide goals for reducing the
   tonnage of food waste that goes to landfill and increasing the food security
@@ -87,6 +92,6 @@ category_other: []
 year: 2019
 category: live
 filename: los-angeles-conservation-corps
-order: 13
+order: 14
 
 ---

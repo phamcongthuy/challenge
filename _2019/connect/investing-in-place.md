@@ -10,6 +10,7 @@ project_description: >-
 organization_name: Investing in Place
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'http://eepurl.com/bOWmdr'
 organization_website: 'https://investinginplace.org'
 organization_twitter: '@investinplace@'
 organization_facebook: 'https://www.facebook.com/investinginplace/'
@@ -141,6 +142,6 @@ category_other:
 year: 2019
 category: connect
 filename: investing-in-place
-order: 15
+order: 16
 
 ---

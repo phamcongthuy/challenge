@@ -305,7 +305,7 @@ function createMarkdownFile(data) {
   // TEMPORARY: The project video and newsletter fields might be mixed up
   // https://stackoverflow.com/questions/6680825/return-string-without-trailing-slash#6680877
   if (!data.link_newsletter && data.project_video && data.project_video != "" && data.project_video.replace(/\/$/, "") == data.organization_website.replace(/\/$/, "")) {
-    data.link_newsletter = data.project_video;
+    // data.link_newsletter = data.project_video;
     data.project_video = "";
   }
   if (!data.project_video) data.project_video = '';
@@ -483,5 +483,5 @@ function generateCollections(file_path) {
   return records;
 }
 
-generateCollections('./Batch 1 2019 Grants Challenge 3_20 - Sheet8.csv');
+generateCollections('../../_data/Batch 1 2019 Grants Challenge 3_20 - Sheet9.csv');
 

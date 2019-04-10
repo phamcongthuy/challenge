@@ -15,6 +15,7 @@ project_description: >-
 organization_name: 'Mayor''s Fund for Education (Fiscal Sponsor: Community Partners)'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=65oc4Nc8gt4&feature=youtu.be'
+link_newsletter: ''
 organization_website: 'https://www.mayorsfundfored.org'
 organization_twitter: '@LBMayorsfund4Ed'
 organization_facebook: '@LBMayorsfund4Ed'
@@ -54,12 +55,9 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  City of Long Beach Department of Health and Human Services
-   
-   
-   
-   Long Beach Early Childhood Education Committee
+project_collaborators:
+  - City of Long Beach Department of Health and Human Services
+  - Long Beach Early Childhood Education Committee
 project_measure: >-
   The cultural and perception shift targeted by the LB Initiative efforts (i.e.
   increased early education enrollment) can be difficult to track within a
@@ -136,6 +134,6 @@ category_other:
 year: 2019
 category: learn
 filename: mayors-fund-for-education-fiscal-sponsor-community-partners
-order: 21
+order: 22
 
 ---

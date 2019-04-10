@@ -137,6 +137,7 @@
     margin-top: 2.25rem;
     max-width: none;
     font-weight: inherit;
+    line-height: inherit;
   }
 
   @media (min-width: 70em) { /* Just wide enough to avoid wrapping the donate / volunteer buttons */
@@ -281,7 +282,7 @@
   @media (min-width: 70em) {
     .proposal-in-depth {
       display: grid;
-      grid-template-columns: 1fr minmax(auto, 40em) 1fr;
+      grid-template-columns: 1fr minmax(auto, 43em) 1fr;
       grid-gap: 3em;
     }
     .proposal-answers {

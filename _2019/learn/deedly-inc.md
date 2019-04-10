@@ -13,6 +13,7 @@ organization_name: Deedly Inc
 organization_description: Non-profit organization
 project_video: >-
   https://deedly.s3-accelerate.amazonaws.com/552b31c4a7a18284592ca33746f96b16_introv2.mp4
+link_newsletter: ''
 organization_website: 'https://www.deedly.com'
 organization_twitter: '@deedlyeducation'
 organization_facebook: deedlyeducation
@@ -129,6 +130,6 @@ category_other:
 year: 2019
 category: learn
 filename: deedly-inc
-order: 6
+order: 7
 
 ---

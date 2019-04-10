@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Advancement Project California
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: AdvancementProjectCA.org/sign-up
 organization_website: 'https://www.AdvancementProjectCA.org'
 organization_twitter: '@AP_California'
 organization_facebook: www.facebook.com/AdvancementProjectCA
@@ -75,16 +76,12 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  Antelope Valley Partners for Health
-   
-   Long Beach Forward
-   
-   Pacoima Beautiful
-   
-   L.A. Voice
-   
-   SELA Collaborative
+project_collaborators:
+  - Antelope Valley Partners for Health
+  - Long Beach Forward
+  - Pacoima Beautiful
+  - L.A. Voice
+  - SELA Collaborative
 project_measure: >-
   Across all government, private, and community efforts, we believe it is
   possible to enumerate all residents in the county. At a minimum, however, the

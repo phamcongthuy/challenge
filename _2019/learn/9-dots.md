@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 9 Dots
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/252264371'
+link_newsletter: 'https://www.9dots.org/'
 organization_website: 'https://www.9Dots.org'
 organization_twitter: '@9dotscommunity'
 organization_facebook: 'https://www.facebook.com/9dotscommunity/'
