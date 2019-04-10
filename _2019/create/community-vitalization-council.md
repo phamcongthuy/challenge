@@ -77,7 +77,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: Loyola Marymount University College of Business Administration - confirmed
+project_collaborators:
+  - Loyola Marymount University College of Business Administration - confirmed
 project_measure: >-
   For three chosen metrics (manufacturing, women/minority owned businesses and
   high-growth startups):

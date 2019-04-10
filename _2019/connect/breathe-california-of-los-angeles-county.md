@@ -57,7 +57,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Climate Cents
+project_collaborators:
+  - Climate Cents
 project_measure: >-
   In year 1 of Blue Sky LA, we will define success by meeting the following
   goals:

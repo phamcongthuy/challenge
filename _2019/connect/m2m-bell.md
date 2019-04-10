@@ -52,14 +52,11 @@ project_la2050_community_resources:
   - Access to LA2050 community
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  M2M Bell
-   
-   Marshall School, USC
-   
-   Viterbi School, USC
-   
-   The Bixel Exchange at the LA Chamber of Commerce
+project_collaborators:
+  - M2M Bell
+  - 'Marshall School, USC'
+  - 'Viterbi School, USC'
+  - The Bixel Exchange at the LA Chamber of Commerce
 project_measure: >-
   When our first antenna goes live on campus, the other USC tech teams can run
   their applications within our attached servers. We will then approach the City

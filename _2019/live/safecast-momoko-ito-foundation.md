@@ -58,10 +58,9 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  Los Angeles Public Library
-   
-   Los Angeles Makerspace / Two Bit Circus
+project_collaborators:
+  - Los Angeles Public Library
+  - Los Angeles Makerspace / Two Bit Circus
 project_measure: >-
   We push for open source standards and greater data transparency that enables
   communities to produce personally relevant environmental data. With 20 sensors

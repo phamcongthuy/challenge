@@ -61,7 +61,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Wise Entertainment
+project_collaborators:
+  - Wise Entertainment
 project_measure: >-
   The Census Bureau is targeting a self-response rate of 60.5%. CA’s goal is to
   far exceed this. Our singular goal is to help CA do just that, knowing that

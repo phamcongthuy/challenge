@@ -46,7 +46,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Cleveland Charter High School
+project_collaborators:
+  - Cleveland Charter High School
 project_measure: >-
   Students will receive preliminary and final questionnaires to assess their
   attitudes, curiosity and knowledge about global facts, cultures and events.

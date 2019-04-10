@@ -56,7 +56,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: University of Southern California
+project_collaborators:
+  - University of Southern California
 project_measure: >-
   To gauge the impact of the grant and program on the literary community, we
   will track the job placement of our all of our alumni, as we have for the past

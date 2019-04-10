@@ -52,7 +52,8 @@ project_la2050_community_resources:
   - Access to LA2050 community
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: Action Civics CA-Mikva Challenge
+project_collaborators:
+  - Action Civics CA-Mikva Challenge
 project_measure: >-
   Success for the LA Youth Civics in Action program will be determined by the
   following measurable outcomes: 

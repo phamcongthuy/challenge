@@ -62,7 +62,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: LA Voice
+project_collaborators:
+  - LA Voice
 project_measure: >-
   The goal of the LA 101 guide is to make Los Angeles a more civically engaged
   place by giving people the knowledge to participate in civic life.

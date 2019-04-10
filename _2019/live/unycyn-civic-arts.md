@@ -57,7 +57,11 @@ project_la2050_community_resources:
   - Publicity/awareness
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: 'AltaSea, Beautify Earth, Community Healing Gardens, SkySource'
+project_collaborators:
+  - AltaSea
+  - Beautify Earth
+  - Community Healing Gardens
+  - SkySource
 project_measure: >-
   With the risks facing Los Angeles, earthquakes, flooding, landslides, forest
   fires and drought, to name a few, there is no question that a disaster will

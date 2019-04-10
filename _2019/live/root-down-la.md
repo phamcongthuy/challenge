@@ -62,7 +62,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: Root Down LA and See-LA
+project_collaborators:
+  - Root Down LA and See-LA
 project_measure: >-
   RDLA’s greatest success can be observed in the passion and commitment from our
   youth, who are advocates for, and now run the majority of our programs; eleven

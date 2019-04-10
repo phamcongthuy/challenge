@@ -50,9 +50,10 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: >-
-  ReworkWork. ReworkWork is an organization specializing in diversity and
-  inclusion with an emphasis on recruiting.
+project_collaborators:
+  - >-
+    ReworkWork. ReworkWork is an organization specializing in diversity and
+    inclusion with an emphasis on recruiting.
 project_measure: >-
   The applicant portal will contain a tracking system that will measure the
   applicants activity, jobs secured, attendance to job fairs, and relationships

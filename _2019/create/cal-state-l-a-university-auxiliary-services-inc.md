@@ -63,7 +63,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: Conaxion Inc.
+project_collaborators:
+  - Conaxion Inc.
 project_measure: >-
   300 students participating in pre-incubator training workshops within the
   first 1.5 years of operation

@@ -61,9 +61,10 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: >-
-  The Marcedes Lewis Foundation (MLF) is the confirmed collaborator on this
-  proposal.
+project_collaborators:
+  - >-
+    The Marcedes Lewis Foundation (MLF) is the confirmed collaborator on this
+    proposal.
 project_measure: >-
   The success of the Science, Health, Football & Fun! Project will be defined
   and measured using the following Project Outcomes and Performance Measures: 

@@ -58,141 +58,75 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: >-
-  The Cult Collective [ie. Pia Lindstrom, Founder of the Xenii parties with Rob
-  Perry. My mentor and consultant]
-   
-   Zinc Cafe DTLA
-   
-   Recycled Movie Sets LA
-   
-   Roo Coffee
-   
-   Fig Tree Cafe Venice Beach
-   
-   Lumineux Oral Essentials
-   
-   Non Plus Ultra (501c3 for artists)
-   
-   Discordian Design
-   
-   Pizzanista
-   
-   Bomme Studio
-   
-   ISA ISA, DTLA florist
-   
-   Boxed Water
-   
-   HJK Women
-   
-   Bunge Construction
-   
-   NEXT Margarita
-   
-   Seven Shores Management
-   
-   PBR
-   
-   Venice Shores Management
-   
-   MyIntent
-   
-   
-   
-   Past collaborators (but we are yet to approach about formal partnership):
-   
-   Union Rescue Mission [meeting scheduled for Monday]
-   
-   Waves 4 Water
-   
-   Save the Children
-   
-   Winston House
-   
-   Mark Gonzales
-   
-   213 Management
-   
-   2332 Venice
-   
-   Genius Loci Festival
-   
-   Restless Group
-   
-   Gjelina Restaurant
-   
-   The Butchers Daughter Restaurant
-   
-   Sachi LA
-   
-   Nosotros Tequila
-   
-   MVAD
-   
-   House Beer
-   
-   Libre Tequila
-   
-   Mid Century LA
-   
-   OM Digital Photo Booth
-   
-   Lucent Dosier Experience
-   
-   Bark Williams
-   
-   MNKR
-   
-   LOLA wine
-   
-   HINT water
-   
-   RUNA
-   
-   Springboard Wine
-   
-   Rock & Reilly's
-   
-   PEARL'S Restaurant
-   
-   Radfish Malibu
-   
-   MAIA Restaurant
-   
-   Katie Brown
-   
-   LA Party Rentals
-   
-   Blink Creative Group
-   
-   Hustle & Co
-   
-   WNDO art gallery
-   
-   Lagunitas Beer
-   
-   Bev Wine
-   
-   Kassia Surf
-   
-   Buero Skateboards
-   
-   General Admission
-   
-   Hatchet Hall
-   
-   Deus Customs
-   
-   Banks Journal
-   
-   Bondi Harvest
-   
-   Boom Town
-   
-   2 Town Cider
-   
-   Aqu Wellness
+project_collaborators:
+  - >-
+    The Cult Collective [ie. Pia Lindstrom, Founder of the Xenii parties with
+    Rob Perry. My mentor and consultant]
+  - Zinc Cafe DTLA
+  - Recycled Movie Sets LA
+  - Roo Coffee
+  - Fig Tree Cafe Venice Beach
+  - Lumineux Oral Essentials
+  - Non Plus Ultra (501c3 for artists)
+  - Discordian Design
+  - Pizzanista
+  - Bomme Studio
+  - 'ISA ISA, DTLA florist'
+  - Boxed Water
+  - HJK Women
+  - Bunge Construction
+  - NEXT Margarita
+  - Seven Shores Management
+  - PBR
+  - Venice Shores Management
+  - MyIntent
+  - 'Past collaborators (but we are yet to approach about formal partnership):'
+  - 'Union Rescue Mission [meeting scheduled for Monday]'
+  - Waves 4 Water
+  - Save the Children
+  - Winston House
+  - Mark Gonzales
+  - 213 Management
+  - 2332 Venice
+  - Genius Loci Festival
+  - Restless Group
+  - Gjelina Restaurant
+  - The Butchers Daughter Restaurant
+  - Sachi LA
+  - Nosotros Tequila
+  - MVAD
+  - House Beer
+  - Libre Tequila
+  - Mid Century LA
+  - OM Digital Photo Booth
+  - Lucent Dosier Experience
+  - Bark Williams
+  - MNKR
+  - LOLA wine
+  - HINT water
+  - RUNA
+  - Springboard Wine
+  - Rock & Reilly's
+  - PEARL'S Restaurant
+  - Radfish Malibu
+  - MAIA Restaurant
+  - Katie Brown
+  - LA Party Rentals
+  - Blink Creative Group
+  - Hustle & Co
+  - WNDO art gallery
+  - Lagunitas Beer
+  - Bev Wine
+  - Kassia Surf
+  - Buero Skateboards
+  - General Admission
+  - Hatchet Hall
+  - Deus Customs
+  - Banks Journal
+  - Bondi Harvest
+  - Boom Town
+  - 2 Town Cider
+  - Aqu Wellness
 project_measure: >-
   The amount of interns who successfully complete the programme and graduate
   into lasting and fulfilling employment.

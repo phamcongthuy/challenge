@@ -66,10 +66,11 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: >-
-  We will be partnering with local sports teams and the Los Angeles Police
-  Department who will work as our liaisons working in conjunction with the Los
-  Angeles Unified School District.
+project_collaborators:
+  - >-
+    We will be partnering with local sports teams and the Los Angeles Police
+    Department who will work as our liaisons working in conjunction with the Los
+    Angeles Unified School District.
 project_measure: >-
   We at Shoes That Fit define the success of our project through the number of
   kids we can reach and provide for throughout Los Angeles. 

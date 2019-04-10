@@ -73,7 +73,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Los Angeles Public Library
+project_collaborators:
+  - Los Angeles Public Library
 project_measure: >-
   Success will be measured through surveys that are administered before and
   after specific programming, marketing campaign metrics, community access,

@@ -52,7 +52,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Compton Unified School District
+project_collaborators:
+  - Compton Unified School District
 project_measure: >-
   Hacker Fund is a data-driven organization. In order to assess our
   success/failures, growth, and user satisfaction, we document our metrics via

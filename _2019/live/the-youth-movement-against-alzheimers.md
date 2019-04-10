@@ -58,34 +58,21 @@ project_la2050_community_resources:
   - Publicity/awareness
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: |-
-  The USC Leonard Davis School of Gerontology
-   
-   The UCLA Longevity Center
-   
-   The UCLA Social Enterprise Academy 
-   
-   UsAgainstAlzheimer’s
-   
-   Uber Health
-   
-   Cedars Sinai
-   
-   Kaiser Permanente
-   
-   Los Angeles Department of Aging
-   
-   Los Angeles Caregiver Resource Center
-   
-   Home Instead
-   
-   Alzheimer’s Los Angeles
-   
-   Alzheimer’s Association - California Southland Chapter
-   
-   First African Methodist Episcopal Church
-   
-   Actively Caring Through Sharing
+project_collaborators:
+  - The USC Leonard Davis School of Gerontology
+  - The UCLA Longevity Center
+  - The UCLA Social Enterprise Academy
+  - UsAgainstAlzheimer’s
+  - Uber Health
+  - Cedars Sinai
+  - Kaiser Permanente
+  - Los Angeles Department of Aging
+  - Los Angeles Caregiver Resource Center
+  - Home Instead
+  - Alzheimer’s Los Angeles
+  - Alzheimer’s Association - California Southland Chapter
+  - First African Methodist Episcopal Church
+  - Actively Caring Through Sharing
 project_measure: >-
   Youthcare’s success will be defined by its ability to reach its ultimate
   health objective by first reaching its immediate and intermediate objectives. 

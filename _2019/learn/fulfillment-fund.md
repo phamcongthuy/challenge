@@ -56,18 +56,13 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  L.A. Promise
-   
-   C5Y Foundation
-   
-   Girls Academic Leadership Academy (GALA)
-   
-   School of Visual Arts and Humanities (SVAH)
-   
-   Ambassador School of Global Leadership (ASGL)
-   
-   UCLA Community School (UCLACS)
+project_collaborators:
+  - L.A. Promise
+  - C5Y Foundation
+  - Girls Academic Leadership Academy (GALA)
+  - School of Visual Arts and Humanities (SVAH)
+  - Ambassador School of Global Leadership (ASGL)
+  - UCLA Community School (UCLACS)
 project_measure: >-
   As mentioned in the beginning of our application, we will consider the project
   a success based on a multiple different metrics in addition to the total

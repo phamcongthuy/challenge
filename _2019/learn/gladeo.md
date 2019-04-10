@@ -64,10 +64,9 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  Bixel Exchange of the LA Chamber of Commerce
-   
-   Dentsu Aegis Network
+project_collaborators:
+  - Bixel Exchange of the LA Chamber of Commerce
+  - Dentsu Aegis Network
 project_measure: >-
   There are 2 programs working in synergy so we will define and measure success
   separately for each program involved in this project. We will conduct students

@@ -87,7 +87,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Project Angel Food
+project_collaborators:
+  - Project Angel Food
 project_measure: >-
   Urban Encore, a new music organization, will consider itself successful if
   caregivers and patients facing serious illnesses show an improvement in their

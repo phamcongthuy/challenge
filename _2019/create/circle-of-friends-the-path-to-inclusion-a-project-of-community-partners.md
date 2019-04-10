@@ -68,7 +68,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Mother Road Studios
+project_collaborators:
+  - Mother Road Studios
 project_measure: >-
   L’Atelier LA’s goals is to change attitudes, model behavior, and promote
   inclusion, positively impacting student development. We will measure progress

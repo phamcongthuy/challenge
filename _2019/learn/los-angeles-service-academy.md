@@ -57,7 +57,8 @@ project_la2050_community_resources:
   - Access to LA2050 community
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: USC; The Huntington; LAPL
+project_collaborators:
+  - USC; The Huntington; LAPL
 project_measure: >-
   LASA's definition of success is twofold. First, LASA seeks to introduce youth
   to the complexities of LA infrastructure. Second, LASA seeks to empower youth

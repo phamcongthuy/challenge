@@ -52,7 +52,8 @@ project_la2050_community_resources:
   - Publicity/awareness
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Creative Visions
+project_collaborators:
+  - Creative Visions
 project_measure: >-
   Our goal is to inform and engage people locally with the issues and connect
   them with the resources and places to take action. We’ll measure this through:

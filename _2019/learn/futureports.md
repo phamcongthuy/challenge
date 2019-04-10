@@ -47,7 +47,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: The Discovery Cube Los Angeles
+project_collaborators:
+  - The Discovery Cube Los Angeles
 project_measure: >-
   We will define and measure success by the number of visitors to the exhibit,
   and number of downloads for the mobile app subsequent to the visit. We will

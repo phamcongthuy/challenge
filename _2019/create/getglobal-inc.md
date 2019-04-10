@@ -62,20 +62,13 @@ project_la2050_community_resources:
   - Publicity/awareness
   - 'Attracting helpful, nontraditional LA partners'
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  - Mayor's Office of Long Beach
-   
-   - The Port of Long Beach
-   
-   - Long Beach Economic Development
-   
-   - California Centers for International Trade Development
-   
-   - National Governors Association
-   
-   - US-ASEAN Business Council
-   
-   - More to follow...
+project_collaborators:
+  - 'Mayor’s Office of Long Beach'
+  - 'The Port of Long Beach'
+  - 'Long Beach Economic Development'
+  - 'California Centers for International Trade Development'
+  - 'National Governors Association'
+  - 'US-ASEAN Business Council'
 project_measure: >-
   New companies from the LA area attending GetGlobal that are
   international-capable 

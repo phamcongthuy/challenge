@@ -62,20 +62,14 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  California Carts
-   
-   CalArts Center for Integrated Media
-   
-   CalArts School of Dance
-   
-   Culture Hub
-   
-   LA Dance Project
-   
-   Massive Science
-   
-   Relevant
+project_collaborators:
+  - California Carts
+  - CalArts Center for Integrated Media
+  - CalArts School of Dance
+  - Culture Hub
+  - LA Dance Project
+  - Massive Science
+  - Relevant
 project_measure: >-
   While we certainly will measure traditional metrics such as attendance at
   programs and events, number of residents, members, and volunteers, and

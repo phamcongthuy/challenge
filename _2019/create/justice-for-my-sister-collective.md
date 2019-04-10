@@ -56,7 +56,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Critical Mass Dance Company
+project_collaborators:
+  - Critical Mass Dance Company
 project_measure: |-
   Through Futurisms:
    

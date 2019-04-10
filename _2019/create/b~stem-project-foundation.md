@@ -58,7 +58,8 @@ project_la2050_community_resources:
     additional visibility and resources to help educate the next generation of
     innovators.
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Level Forward
+project_collaborators:
+  - Level Forward
 project_measure: >-
   Since 2016, B~STEM Project has engaged 3,010 participants, administered 2,121
   hours of programming, and supported 1,501 projects developed by our emerging

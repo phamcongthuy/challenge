@@ -92,11 +92,24 @@ function getArrayFromString(string) {
     .replace(/\['/g, '["')
     .replace(/'\]/g, '"]');
   //string = `${string}`.replace(/'/g, '"');
-  console.log('parsing JSON string: ' + string);
-  console.log('');
-  console.log('');
-  console.log('');
+  // console.log('parsing JSON string: ' + string);
+  // console.log('');
+  // console.log('');
+  // console.log('');
   return JSON.parse(string);
+}
+
+function getArrayFromDelimitedString(string) {
+  if (!string) return []
+
+  let commaArray = string.split(',').map(item => item.trim()).filter(item => item != '');
+
+  let lineReturnArray = string.split('\n').map(item => item.trim()).filter(item => item != '');
+
+  let array = (commaArray.length > lineReturnArray.length) ? commaArray : lineReturnArray;
+  
+  // Trim the whitespace, and leaving out empty items
+  return array;
 }
 
 function convertStringsToJSON(data) {
@@ -248,9 +261,11 @@ function processFile(filename) {
 
   // data.yaml = convertStringsToJSON(data.yaml)
 
-  data.yaml.order = orderCursors[data.yaml.category]++;
+  // data.yaml.project_collaborators = getArrayFromDelimitedString(data.yaml.project_collaborators);
 
-  saveMarkdown(filename, data);
+  // data.yaml.order = orderCursors[data.yaml.category]++;
+
+  // saveMarkdown(filename, data);
 }
 
 // https://stackoverflow.com/questions/20822273/best-way-to-get-folder-and-file-list-in-javascript#21459809

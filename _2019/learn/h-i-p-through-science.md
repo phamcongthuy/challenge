@@ -59,20 +59,11 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  The East Side Riders Bike Club
-   
-   
-   
-   Ted Watkins Park
-   
-   
-   
-   Nickerson gardens resident advisory committie
-   
-   
-   
-   Gonsaque courts resident advisory committie
+project_collaborators:
+  - The East Side Riders Bike Club
+  - Ted Watkins Park
+  - Nickerson gardens resident advisory committie
+  - Gonsaque courts resident advisory committie
 project_measure: >-
   The measures of our success will be measured through a variety of methods. We
   will have quarterly quizzes that will be assigned and given out to each site

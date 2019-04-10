@@ -48,7 +48,8 @@ project_la2050_community_resources:
   - Publicity/awareness
   - Local relationships beyond LA2050
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Los Angeles Unified School District
+project_collaborators:
+  - Los Angeles Unified School District
 project_measure: |-
   Rock the Vote will consider the project to be a success if:
    

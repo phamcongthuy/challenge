@@ -97,7 +97,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: P.S. Arts
+project_collaborators:
+  - P.S. Arts
 project_measure: >-
   Turnaround Arts Los Angeles will focus on five key indicators of success with
   our partner schools:

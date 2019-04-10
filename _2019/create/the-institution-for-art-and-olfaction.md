@@ -54,7 +54,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: GrowGood
+project_collaborators:
+  - GrowGood
 project_measure: |-
   The measures of our success: 
    

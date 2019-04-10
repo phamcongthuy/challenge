@@ -48,12 +48,12 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: |-
-  Asian Americans Advancing Justice — Los Angeles
-   
-   Disability Rights California
-   
-   National Association of Latino Elected and Appointed Officials (NALEO) Educational Fund
+project_collaborators:
+  - Asian Americans Advancing Justice — Los Angeles
+  - Disability Rights California
+  - >-
+    National Association of Latino Elected and Appointed Officials (NALEO)
+    Educational Fund
 project_measure: |-
   Success for this project would mean:
    
