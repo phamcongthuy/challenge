@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Justice for My Sister Collective
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=QACJr3pKb28'
+link_newsletter: ''
 organization_website: 'http://justiceformysister.com/collective/'
 organization_twitter: '@justice4sister'
 organization_facebook: 'https://www.facebook.com/JusticeForMySister'
@@ -56,7 +57,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Critical Mass Dance Company
+project_collaborators:
+  - Critical Mass Dance Company
 project_measure: |-
   Through Futurisms:
    

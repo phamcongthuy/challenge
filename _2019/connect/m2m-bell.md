@@ -9,6 +9,7 @@ project_description: >-
 organization_name: M2M Bell
 organization_description: Social enterprise or B-corps
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.m2mbell.com'
 organization_twitter: ''
 organization_facebook: ''
@@ -52,14 +53,11 @@ project_la2050_community_resources:
   - Access to LA2050 community
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  M2M Bell
-   
-   Marshall School, USC
-   
-   Viterbi School, USC
-   
-   The Bixel Exchange at the LA Chamber of Commerce
+project_collaborators:
+  - M2M Bell
+  - 'Marshall School, USC'
+  - 'Viterbi School, USC'
+  - The Bixel Exchange at the LA Chamber of Commerce
 project_measure: >-
   When our first antenna goes live on campus, the other USC tech teams can run
   their applications within our attached servers. We will then approach the City
@@ -129,6 +127,6 @@ category_other:
 year: 2019
 category: connect
 filename: m2m-bell
-order: 20
+order: 21
 
 ---

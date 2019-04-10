@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Move LA
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/4JnqpY0nP4s'
+link_newsletter: 'http://www.movela.org/join'
 organization_website: 'https://www.movela.org'
 organization_twitter: '@movelatransit'
 organization_facebook: www.facebook.com/movelatransit
@@ -61,7 +62,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Climate Resolve
+project_collaborators:
+  - Climate Resolve
 project_measure: |-
   We will define and measure outcomes by:
    
@@ -127,6 +129,6 @@ category_other:
 year: 2019
 category: live
 filename: move-la
-order: 15
+order: 16
 
 ---

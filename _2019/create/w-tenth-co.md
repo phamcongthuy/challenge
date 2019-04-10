@@ -11,6 +11,7 @@ project_description: >-
 organization_name: W Tenth Co
 organization_description: For-profit organization
 project_video: 'https://wtenth.com'
+link_newsletter: 'https://wtenth.com'
 organization_website: 'https://www.wtenth.com'
 organization_twitter: '@West_10th'
 organization_facebook: 'https://www.facebook.com/W10th'

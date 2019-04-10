@@ -14,6 +14,7 @@ project_description: >-
 organization_name: Partnership for Los Angeles Schools
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/LQBJxKL78Lw'
+link_newsletter: ''
 organization_website: 'https://www.partnershipla.org'
 organization_twitter: '@partnershipla'
 organization_facebook: 'https://www.facebook.com/PartnershipLA/'
@@ -31,8 +32,8 @@ project_proposal_description: >-
   knowledge of the year in which he is scheduled to graduate college did not
   surprise Joan. As part of building a college-going culture, all Partnership
   elementary schools are tasked with their students learning and remembering the
-  year of their future college graduation. This activity is a small way in
-  which the Partnership establishes an expectation of college among our youngest
+  year of their future college graduation. This activity is a small way in which
+  the Partnership establishes an expectation of college among our youngest
   scholars. 
    
    
@@ -136,6 +137,6 @@ category_other: []
 year: 2019
 category: learn
 filename: partnership-for-los-angeles-schools
-order: 23
+order: 24
 
 ---

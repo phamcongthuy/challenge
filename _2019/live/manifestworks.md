@@ -11,6 +11,7 @@ project_description: >-
 organization_name: ManifestWorks
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/192842820'
+link_newsletter: ''
 organization_website: 'https://www.manifestworks.org'
 organization_twitter: '@manifestworks'
 organization_facebook: 'https://www.facebook.com/ManifestWorks/'
@@ -150,6 +151,6 @@ category_other:
 year: 2019
 category: live
 filename: manifestworks
-order: 14
+order: 15
 
 ---

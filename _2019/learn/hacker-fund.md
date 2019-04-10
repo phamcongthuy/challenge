@@ -11,7 +11,8 @@ project_description: >-
   mentors, prototyping equipment, and coworking space.
 organization_name: Hacker Fund
 organization_description: Non-profit organization
-project_video: https://www.youtube.com/watch?v=rrmxqzbTycA&feature=youtu.be
+project_video: 'https://www.youtube.com/watch?v=rrmxqzbTycA&feature=youtu.be'
+link_newsletter: 'https://www.hacker.fund/'
 organization_website: 'https://www.hacker.fund'
 organization_twitter: '@thehackerfund'
 organization_facebook: facebook.com/hackerfund
@@ -52,7 +53,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Compton Unified School District
+project_collaborators:
+  - Compton Unified School District
 project_measure: >-
   Hacker Fund is a data-driven organization. In order to assess our
   success/failures, growth, and user satisfaction, we document our metrics via
@@ -168,6 +170,6 @@ category_other:
 year: 2019
 category: learn
 filename: hacker-fund
-order: 15
+order: 16
 
 ---

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Rock the Vote
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=xiOwBE8XQEM&feature=youtu.be'
+link_newsletter: 'https://my.sweet.io/RockTheVote'
 organization_website: 'https://www.rockthevote.org'
 organization_twitter: '@rockthevote'
 organization_facebook: 'https://www.facebook.com/rockthevote'
@@ -48,7 +49,8 @@ project_la2050_community_resources:
   - Publicity/awareness
   - Local relationships beyond LA2050
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: Los Angeles Unified School District
+project_collaborators:
+  - Los Angeles Unified School District
 project_measure: |-
   Rock the Vote will consider the project to be a success if:
    
@@ -136,6 +138,6 @@ category_other:
 year: 2019
 category: connect
 filename: rock-the-vote
-order: 27
+order: 30
 
 ---

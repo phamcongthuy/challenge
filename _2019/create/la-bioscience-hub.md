@@ -14,6 +14,7 @@ project_description: >-
 organization_name: LA Bioscience Hub
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=Y3hlwctOVns'
+link_newsletter: 'http://labiosciencehub.org/contact'
 organization_website: 'http://labiosciencehub.org/'
 organization_twitter: '@LABioscienceHub'
 organization_facebook: ''
@@ -53,7 +54,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: East Los Angeles College and Pasadena City College
+project_collaborators:
+  - East Los Angeles College and Pasadena City College
 project_measure: >-
   Biotech Leaders Academy aims to 1) increase student awareness of and
   confidence in biotech entrepreneurship and diverse career pathways 2) improve

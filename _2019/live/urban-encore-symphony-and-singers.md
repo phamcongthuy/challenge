@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Urban Encore Symphony and Singers
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: ''
 organization_website: 'https://www.urbaness.org'
 organization_twitter: ''
 organization_facebook: Urban Encore
@@ -87,7 +88,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Project Angel Food
+project_collaborators:
+  - Project Angel Food
 project_measure: >-
   Urban Encore, a new music organization, will consider itself successful if
   caregivers and patients facing serious illnesses show an improvement in their
@@ -234,6 +236,6 @@ category_other:
 year: 2019
 category: live
 filename: urban-encore-symphony-and-singers
-order: 30
+order: 31
 
 ---

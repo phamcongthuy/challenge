@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Stoked Mentoring Inc
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/rJD4AWaFmz8'
+link_newsletter: 'https://www.stoked.org'
 organization_website: 'https://www.stoked.org'
 organization_twitter: '@STOKEDorg'
 organization_facebook: STOKEDorg
@@ -130,6 +131,6 @@ category_other:
 year: 2019
 category: play
 filename: stoked-mentoring-inc
-order: 8
+order: 9
 
 ---

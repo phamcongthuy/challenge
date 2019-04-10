@@ -237,12 +237,14 @@ stylesheets:
 <h3>What does your organization do?</h3>
 {{ page.organization_activity | markdownify }}
 
-{% if page.project_is_collaboration != "No" and page.project_collaborators.size > 0 %}
+{% if page.project_is_collaboration != "No" and page.project_collaborators and page.project_collaborators.size > 0 %}
 <h3>Please list the organizations collaborating on this proposal.</h3>
 
+<ul>
 {% for collaborator in page.project_collaborators %}
-<p>{{ collaborator }}</p>
+<li>{{ collaborator }}</li>
 {% endfor %}
+</ul>
 
 {% endif %}
 

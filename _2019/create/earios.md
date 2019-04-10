@@ -9,6 +9,7 @@ organization_name: Earios
 organization_description: For-profit organization
 project_video: >-
   https://www.kickstarter.com/projects/1936438128/earios-a-woman-run-podcast-network
+link_newsletter: ''
 organization_website: 'http://earios.net'
 organization_twitter: '@eariosnetwork'
 organization_facebook: ''

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 'Turnaround Arts: California'
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/291549657'
+link_newsletter: 'https://turnaroundartsca.org/'
 organization_website: 'https://www.turnaroundartsca.org'
 organization_twitter: '@TurnarndArtsCA'
 organization_facebook: '@TurnaroundArtsCA'
@@ -97,7 +98,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: P.S. Arts
+project_collaborators:
+  - P.S. Arts
 project_measure: >-
   Turnaround Arts Los Angeles will focus on five key indicators of success with
   our partner schools:
@@ -150,6 +152,6 @@ category_other: []
 year: 2019
 category: learn
 filename: turnaround-arts-california
-order: 29
+order: 30
 
 ---

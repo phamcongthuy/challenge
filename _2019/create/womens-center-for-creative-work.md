@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Women's Center For Creative Work
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://womenscenterforcreativework.com/'
 organization_website: 'https://womenscenterforcreativework.com/'
 organization_twitter: '@WCCWLA'
 organization_facebook: /womenscenterforcreativework

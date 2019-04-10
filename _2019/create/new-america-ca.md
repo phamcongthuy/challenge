@@ -11,6 +11,7 @@ project_description: >-
 organization_name: New America CA
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=00Q9L_iiMTw'
+link_newsletter: 'https://www.newamerica.org/subscribe/'
 organization_website: 'https://www.newamerica.org/ca/'
 organization_twitter: '@NewAmericaCA'
 organization_facebook: ''

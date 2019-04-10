@@ -12,6 +12,7 @@ project_description: >-
 organization_name: The Tiyya Foundation
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/302922092'
+link_newsletter: 'http://eepurl.com/2ymrn'
 organization_website: 'https://www.tiyya.org'
 organization_twitter: '@tiyyafdn'
 organization_facebook: '@tiyyafdn'
@@ -64,16 +65,12 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: |-
-  Temple Emanuel Synagogue 
-   
-   Grid 110
-   
-   MAJOR Fund 
-   
-   Pledge LA
-   
-   Los Angeles Refugee Forum
+project_collaborators:
+  - Temple Emanuel Synagogue
+  - Grid 110
+  - MAJOR Fund
+  - Pledge LA
+  - Los Angeles Refugee Forum
 project_measure: |-
   We will track the following quantitative metrics to help us gauge our success:
    

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Planned Parenthood Pasadena and San Gabriel Valley
 organization_description: Non-profit organization
 project_video: 'http://www.weareplannedparenthood.org/onlineactions/nJT69mwMk0SfsDltv9tFnA2'
+link_newsletter: ''
 organization_website: 'https://www.pppsgv.org'
 organization_twitter: '@pppsgv'
 organization_facebook: 'https://www.facebook.com/PPPSGV/'
@@ -119,6 +120,6 @@ category_other:
 year: 2019
 category: live
 filename: planned-parenthood-pasadena-and-san-gabriel-valley
-order: 20
+order: 21
 
 ---

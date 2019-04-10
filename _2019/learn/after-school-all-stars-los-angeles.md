@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 'After-School All-Stars, Los Angeles'
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/t3QQPi2pnEU'
+link_newsletter: ''
 organization_website: 'https://www.la-allstars.org'
 organization_twitter: '@ASASLosAngeles'
 organization_facebook: asaslosangeles

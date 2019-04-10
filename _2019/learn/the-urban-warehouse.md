@@ -12,6 +12,7 @@ project_description: >-
 organization_name: The Urban Warehouse
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/o51Q_P_8uBw'
+link_newsletter: 'https://www.thegarageboardshops.com/contact'
 organization_website: 'https://www.thegarageboardshops.com'
 organization_twitter: '@garageboardshop'
 organization_facebook: The Garage Board Shop
@@ -83,6 +84,6 @@ category_other:
 year: 2019
 category: learn
 filename: the-urban-warehouse
-order: 28
+order: 29
 
 ---

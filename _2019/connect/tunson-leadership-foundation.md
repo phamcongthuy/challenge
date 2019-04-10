@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Tunson Leadership Foundation
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.tunsonleadershipfoundation.org/copy-of-contact'
 organization_website: 'https://www.tunsonleadershipfoundation.org'
 organization_twitter: '@tunsonleadershipfoundation'
 organization_facebook: 'https://www.facebook.com/tunsonleadershipfoundation'
@@ -119,6 +120,6 @@ category_other:
 year: 2019
 category: connect
 filename: tunson-leadership-foundation
-order: 31
+order: 36
 
 ---

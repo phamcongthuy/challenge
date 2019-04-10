@@ -12,6 +12,7 @@ project_description: >-
 organization_name: USC Annenberg Innovation Lab
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.countthenation.org/join-the-movement/engage/'
 organization_website: 'https://www.countthenation.org'
 organization_twitter: 'https://twitter.com/countnation'
 organization_facebook: 'https://www.facebook.com/countthenation/'
@@ -61,7 +62,8 @@ project_la2050_community_resources:
 project_innovation_stage: >-
   Lateral application (testing feasibility of a proven action/solution to a new
   issue or sector)
-project_collaborators: Wise Entertainment
+project_collaborators:
+  - Wise Entertainment
 project_measure: >-
   The Census Bureau is targeting a self-response rate of 60.5%. CA’s goal is to
   far exceed this. Our singular goal is to help CA do just that, knowing that
@@ -149,6 +151,6 @@ category_other:
 year: 2019
 category: live
 filename: usc-annenberg-innovation-lab
-order: 31
+order: 32
 
 ---

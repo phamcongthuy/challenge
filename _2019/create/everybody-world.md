@@ -11,6 +11,8 @@ project_description: >-
 organization_name: EVERYBODY.WORLD
 organization_description: Social enterprise or B-corps
 project_video: 'https://vimeo.com/273991082'
+link_newsletter: >-
+  https://world.us13.list-manage.com/subscribe?u=5a2f49197c0505335da84b70b&id=f94909c94d
 organization_website: 'https://www.everybody.world'
 organization_twitter: '@everybody_world'
 organization_facebook: www.facebook.com/everybodyishere/

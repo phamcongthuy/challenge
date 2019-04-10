@@ -12,6 +12,7 @@ project_description: >-
 organization_name: LA Forward
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.losangelesforward.org/'
 organization_website: 'https://www.LosAngelesForward.org'
 organization_twitter: '@LosAngelesFwd'
 organization_facebook: 'https://www.facebook.com/losangelesforward'
@@ -62,7 +63,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: LA Voice
+project_collaborators:
+  - LA Voice
 project_measure: >-
   The goal of the LA 101 guide is to make Los Angeles a more civically engaged
   place by giving people the knowledge to participate in civic life.
@@ -148,6 +150,6 @@ category_other: []
 year: 2019
 category: connect
 filename: la-forward
-order: 17
+order: 18
 
 ---

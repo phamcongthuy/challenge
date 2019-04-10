@@ -13,6 +13,8 @@ project_description: >-
 organization_name: 'Cardborigami, Inc.'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=w47i_b8U5-0&feature=youtu.be'
+link_newsletter: >-
+  https://cardborigami.us17.list-manage.com/subscribe?u=fe2e6e52ae317f4ebd4144aea&id=592bdf1cc6
 organization_website: 'http://www.cardborigami.org'
 organization_twitter: '@cardborigami'
 organization_facebook: 'https://www.facebook.com/Cardborigami/'

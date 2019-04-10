@@ -10,6 +10,8 @@ project_description: >-
 organization_name: 3-D SPACE
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/sMiWY0aFpkk'
+link_newsletter: >-
+  https://us9.list-manage.com/subscribe?u=a780b39b310865de52de96358&id=95ee08cb21
 organization_website: 'https://www.3-DSPACE.org'
 organization_twitter: '@la3dspace'
 organization_facebook: www.facebook.com/la3dspace

@@ -15,6 +15,7 @@ project_video: >-
   https://www.mlb.com/dodgers/video/los-angeles-dodgers-foundation-c2171227383?t=t119-default-vtp
    
    https://ladodgers.sharefile.com/d-s0a817c2d1454bb98
+link_newsletter: 'https://www.mlb.com/dodgers/forms/ladf-newsletter-registration'
 organization_website: 'https://www.dodgersfoundation.org'
 organization_twitter: 'https://twitter.com/DodgersFdn'
 organization_facebook: 'https://www.facebook.com/LosAngelesDodgersFoundation/'
@@ -218,6 +219,6 @@ category_other:
 year: 2019
 category: play
 filename: los-angeles-dodgers-foundation
-order: 5
+order: 6
 
 ---

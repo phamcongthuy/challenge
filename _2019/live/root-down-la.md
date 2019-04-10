@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Root Down LA
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/cAdVqB37qEw'
+link_newsletter: www.rootdownla.org/connect
 organization_website: 'https://www.rootdownla.org'
 organization_twitter: '@rootdownla'
 organization_facebook: Root Down LA
@@ -62,7 +63,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: Root Down LA and See-LA
+project_collaborators:
+  - Root Down LA and See-LA
 project_measure: >-
   RDLA’s greatest success can be observed in the passion and commitment from our
   youth, who are advocates for, and now run the majority of our programs; eleven
@@ -110,6 +112,6 @@ category_other:
 year: 2019
 category: live
 filename: root-down-la
-order: 21
+order: 22
 
 ---

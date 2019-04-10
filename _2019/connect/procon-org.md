@@ -12,24 +12,21 @@ project_description: >-
    Tying student speeches and community projects to 2020 election issues, we'll inspire Angelenos to participate in neighborhood councils and vote. This will have lasting, transformative impacts on students, their families, schools, and communities.
 organization_name: ProCon.org
 organization_description: Non-profit organization
-project_video: |-
-  https://www.youtube.com/watch?v=y-og0tzo8jc&t=57s
-   
-   https://www.youtube.com/watch?v=pbStmzmVOy8
+project_video: https://www.youtube.com/watch?v=y-og0tzo8jc&t=57s
+# another_project_video: https://www.youtube.com/watch?v=pbStmzmVOy8
+link_newsletter:
+  - https://www.procon.org/view.background-resource.php?resourceID=006145
+  - https://www.mikvachallenge.org/blog/sign-up-for-our-newsletter/
 organization_website: 'https://www.procon.org/'
 organization_twitter: '@procon_org'
 organization_facebook: 'https://www.facebook.com/ProCon.org/'
 organization_instagram: 'https://www.instagram.com/procon_org/'
-link_donate: |-
-  https://procon.z2systems.com/np/clients/procon/donation.jsp?campaign=1
-   
-   
-   
-   http://www.mikvachallenge.org/donate-action-civics-ca/?eType=ActivityDefinitionInstance&eId=dbd7e11d-a980-44e3-8f09-b215aeb43576
-link_volunteer: |-
-  https://www.procon.org/view.background-resource.php?resourceID=002483
-   
-   https://www.mikvachallenge.org/get-involved/
+link_donate:
+  - https://procon.z2systems.com/np/clients/procon/donation.jsp?campaign=1
+  - http://www.mikvachallenge.org/donate-action-civics-ca/?eType=ActivityDefinitionInstance&eId=dbd7e11d-a980-44e3-8f09-b215aeb43576
+link_volunteer:
+  - https://www.procon.org/view.background-resource.php?resourceID=002483
+  - https://www.mikvachallenge.org/get-involved/
 organization_activity: >-
   ProCon.org promotes critical thinking, education, and informed citizenship by
   presenting controversial issues in a straightforward, nonpartisan, and
@@ -52,7 +49,8 @@ project_la2050_community_resources:
   - Access to LA2050 community
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: Action Civics CA-Mikva Challenge
+project_collaborators:
+  - Action Civics CA-Mikva Challenge
 project_measure: >-
   Success for the LA Youth Civics in Action program will be determined by the
   following measurable outcomes: 
@@ -157,6 +155,6 @@ category_other:
 year: 2019
 category: connect
 filename: procon-org
-order: 26
+order: 29
 
 ---

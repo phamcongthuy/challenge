@@ -13,6 +13,7 @@ project_description: >-
 organization_name: Perceptoscope
 organization_description: Social enterprise or B-corps
 project_video: ''
+link_newsletter: 'https://perceptoscope.com'
 organization_website: 'https://perceptoscope.com'
 organization_twitter: '@perceptoscope'
 organization_facebook: 'https://www.facebook.com/perceptoscope/'
@@ -64,7 +65,9 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: 'La Brea Tar Pits, Natural History Museum of Los Angeles County'
+project_collaborators:
+  - La Brea Tar Pits
+  - Natural History Museum of Los Angeles County
 project_measure: >-
   Success for Perceptoscope is ultimately measured in our ability to impact a
   place. We want to increase visitation to our most beloved public spaces, give

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Equal Pay Company
 organization_description: Social enterprise or B-corps
 project_video: ''
+link_newsletter: 'http://eepurl.com/gcFIpn'
 organization_website: 'https://equalpay.co'
 organization_twitter: '@equalpayco'
 organization_facebook: 'https://www.facebook.com/equalpayco'

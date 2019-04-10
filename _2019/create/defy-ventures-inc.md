@@ -12,6 +12,7 @@ project_description: >-
 organization_name: 'Defy Ventures, Inc.'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=aYKeyEblTUo'
+link_newsletter: 'https://defyventures.org/contact/'
 organization_website: 'https://www.defyventures.org'
 organization_twitter: '@DefyVentures'
 organization_facebook: 'https://www.facebook.com/DefyVentures/'

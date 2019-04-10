@@ -14,6 +14,7 @@ project_description: >-
 organization_name: The Regents of the University of California (UCLA Depression Grand Challenge)
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=6QqwHu4hvss'
+link_newsletter: 'http://bit.ly/UCLA-GC-Subscribe'
 organization_website: 'https://grandchallenges.ucla.edu/depression'
 organization_twitter: '@UCLAThinkGrand'
 organization_facebook: 'https://www.facebook.com/UCLAThinkGrand/'
@@ -184,6 +185,6 @@ category_other:
 year: 2019
 category: live
 filename: the-regents-of-the-university-of-california-ucla-depression-grand-challenge
-order: 25
+order: 26
 
 ---

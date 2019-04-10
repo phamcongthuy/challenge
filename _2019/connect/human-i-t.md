@@ -12,6 +12,8 @@ project_description: >-
 organization_name: human-I-T
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/293207936'
+link_newsletter: >-
+  https://smarthuman.us10.list-manage.com/subscribe?u=155ddf5129029f2b88c819545&id=fcbfcea3c3
 organization_website: 'https://www.human-I-T.org'
 organization_twitter: '@right2tech'
 organization_facebook: 'https://www.facebook.com/right2tech'
@@ -110,6 +112,6 @@ category_other:
 year: 2019
 category: connect
 filename: human-i-t
-order: 10
+order: 11
 
 ---

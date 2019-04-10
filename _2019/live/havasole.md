@@ -12,6 +12,7 @@ project_description: >-
 organization_name: HavASole
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/mfz2rfJYiCI'
+link_newsletter: 'https://havasole.com/'
 organization_website: 'https://havasole.com/'
 organization_twitter: '@HavASole'
 organization_facebook: 'https://www.facebook.com/havAsole/'

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: CASA of Los Angeles
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/138053078'
+link_newsletter: 'http://casala.org/connect/'
 organization_website: 'https://www.casala.org'
 organization_twitter: '@casaofla'
 organization_facebook: 'https://www.facebook.com/CASAofLA/'

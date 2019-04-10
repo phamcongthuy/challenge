@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Crayon Collection
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'http://www.habitsofwaste.org/contact-us/'
 organization_website: 'https://www.habitsofwaste.org'
 organization_twitter: '@howchangers'
 organization_facebook: www.facebook.com/howchangers

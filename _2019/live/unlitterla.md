@@ -10,6 +10,7 @@ project_description: >-
 organization_name: UnlitterLA
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/lM8QNhVfwrc'
+link_newsletter: ''
 organization_website: 'http://www.unlitterla.org'
 organization_twitter: '@unlitterla'
 organization_facebook: UnlitterLA (closed planning group for now)
@@ -175,6 +176,6 @@ category_other:
 year: 2019
 category: live
 filename: unlitterla
-order: 28
+order: 29
 
 ---

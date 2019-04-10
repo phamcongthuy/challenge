@@ -13,6 +13,7 @@ organization_name: Unycyn Civic Arts
 organization_description: Non-profit organization
 project_video: 'https://flowproject.la/ia-entertainment-tractor-beam/2019/03/flowprojectla.mp4'
 organization_website: 'https://flowproject.la'
+link_newsletter: 'https://flowproject.la/#newsletter'
 organization_twitter: '@flowprojectla'
 organization_facebook: 'https://www.facebook.com/unycyn.civic.arts/'
 organization_instagram: '@flowproject.la'
@@ -57,7 +58,11 @@ project_la2050_community_resources:
   - Publicity/awareness
   - Strategy assistance and implementation
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: 'AltaSea, Beautify Earth, Community Healing Gardens, SkySource'
+project_collaborators:
+  - AltaSea
+  - Beautify Earth
+  - Community Healing Gardens
+  - SkySource
 project_measure: >-
   With the risks facing Los Angeles, earthquakes, flooding, landslides, forest
   fires and drought, to name a few, there is no question that a disaster will
@@ -167,6 +172,6 @@ category_other:
 year: 2019
 category: live
 filename: unycyn-civic-arts
-order: 29
+order: 30
 
 ---

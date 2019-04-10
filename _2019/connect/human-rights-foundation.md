@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Human Rights Foundation
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=XvdUV2S78uY'
+link_newsletter: 'https://hrf.org/contact/'
 organization_website: 'https://www.hrf.org'
 organization_twitter: '@hrf'
 organization_facebook: 'https://www.facebook.com/humanrightsfoundation/'
@@ -128,6 +129,6 @@ category_other:
 year: 2019
 category: connect
 filename: human-rights-foundation
-order: 11
+order: 12
 
 ---

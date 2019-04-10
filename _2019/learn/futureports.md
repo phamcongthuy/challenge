@@ -8,6 +8,7 @@ project_description: >-
 organization_name: FuturePorts
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: www.futureports.org
 organization_website: 'https://www.futureports.org'
 organization_twitter: '@futureports'
 organization_facebook: www.facebook.com/FuturePortsSoCal
@@ -47,7 +48,8 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Pilot project (testing a new idea on a small scale to prove feasibility)
-project_collaborators: The Discovery Cube Los Angeles
+project_collaborators:
+  - The Discovery Cube Los Angeles
 project_measure: >-
   We will define and measure success by the number of visitors to the exhibit,
   and number of downloads for the mobile app subsequent to the visit. We will
@@ -107,6 +109,6 @@ category_other: []
 year: 2019
 category: learn
 filename: futureports
-order: 11
+order: 12
 
 ---

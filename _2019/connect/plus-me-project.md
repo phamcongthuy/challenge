@@ -14,6 +14,7 @@ project_description: >-
 organization_name: PLUS ME Project
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=HZDzQsPU4no'
+link_newsletter: www.theplusmeproject.org
 organization_website: 'https://www.theplusmeproject.org'
 organization_twitter: '@PLUSMEproject'
 organization_facebook: www.facebook.com/theplusmeproject
@@ -114,6 +115,6 @@ category_other: []
 year: 2019
 category: connect
 filename: plus-me-project
-order: 25
+order: 28
 
 ---

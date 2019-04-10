@@ -11,6 +11,7 @@ project_description: >-
 organization_name: Civic Innovation Lab
 organization_description: Non-profit organization
 project_video: ''
+link_newsletter: 'https://www.civicinnovationlab.la/get_updates'
 organization_website: 'https://www.civicinnovationlab.la'
 organization_twitter: '@civicinnlab'
 organization_facebook: civicinnlab
@@ -133,6 +134,6 @@ category_other: []
 year: 2019
 category: connect
 filename: civic-innovation-lab
-order: 9
+order: 10
 
 ---

@@ -12,6 +12,7 @@ project_description: >-
 organization_name: Housing Corporation of America
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=se9UNUDvUlo&t=113s'
+link_newsletter: ''
 organization_website: 'https://www.hcahousing.org'
 organization_twitter: ''
 organization_facebook: Housing Corporation of America
@@ -65,7 +66,8 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: The Columbia Memorial Space Center
+project_collaborators:
+  - The Columbia Memorial Space Center
 project_measure: >-
   Our main metric of success for this program is participation rates of youth
   and their parents, informal evaluation of emotional and self-esteem growth
@@ -156,6 +158,6 @@ category_other:
 year: 2019
 category: learn
 filename: housing-corporation-of-america
-order: 16
+order: 17
 
 ---

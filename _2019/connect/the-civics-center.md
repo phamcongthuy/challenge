@@ -180,6 +180,6 @@ category_other:
 year: 2019
 category: connect
 filename: the-civics-center
-order: 29
+order: 34
 
 ---

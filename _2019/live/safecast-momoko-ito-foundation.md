@@ -10,6 +10,7 @@ project_description: >-
 organization_name: Safecast (Momoko Ito Foundation)
 organization_description: Non-profit organization
 project_video: 'https://vimeo.com/158274995'
+link_newsletter: 'https://blog.safecast.org/mailing-list/'
 organization_website: 'https://www.safecast.org'
 organization_twitter: '@safecast'
 organization_facebook: 'https://www.facebook.com/safecast'
@@ -58,10 +59,9 @@ project_la2050_community_resources:
     LA2050 newsletter
   - Publicity/awareness
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  Los Angeles Public Library
-   
-   Los Angeles Makerspace / Two Bit Circus
+project_collaborators:
+  - Los Angeles Public Library
+  - Los Angeles Makerspace / Two Bit Circus
 project_measure: >-
   We push for open source standards and greater data transparency that enables
   communities to produce personally relevant environmental data. With 20 sensors
@@ -116,6 +116,6 @@ category_other:
 year: 2019
 category: live
 filename: safecast-momoko-ito-foundation
-order: 22
+order: 23
 
 ---
