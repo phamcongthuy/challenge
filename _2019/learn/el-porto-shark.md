@@ -12,7 +12,7 @@ project_description: >-
 organization_name: El Porto Shark
 organization_description: Social enterprise or B-corps
 project_video: 'https://www.youtube.com/watch?v=j70l04crPn4'
-organization_website: 'https://www.williseeashrk.com'
+organization_website: 'http://williseeashark.com/'
 organization_twitter: '@elportoshark'
 organization_facebook: 'https://www.facebook.com/ElPortoShark/'
 organization_instagram: '@elportoshark'

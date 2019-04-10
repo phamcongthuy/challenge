@@ -12,7 +12,7 @@ project_description: >-
 organization_name: Unycyn Civic Arts
 organization_description: Non-profit organization
 project_video: 'https://flowproject.la/ia-entertainment-tractor-beam/2019/03/flowprojectla.mp4'
-organization_website: 'https://www.flowproject.la'
+organization_website: 'https://flowproject.la'
 organization_twitter: '@flowprojectla'
 organization_facebook: 'https://www.facebook.com/unycyn.civic.arts/'
 organization_instagram: '@flowproject.la'

@@ -13,7 +13,7 @@ project_description: >-
   help LA eliminate obesity and type 2 diabetes.
 organization_name: Rebel Labs Inc.
 organization_description: Social enterprise or B-corps
-project_video: 'https://rebellabs.wistia.com/medias/0xmt0a6ewb'
+project_video: 'https://vimeo.com/328687422'
 organization_website:
   - 'http://rebellabs.com'
   - 'http://rebel360.com'
