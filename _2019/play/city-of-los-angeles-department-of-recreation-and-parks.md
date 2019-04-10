@@ -57,10 +57,9 @@ project_la2050_community_resources:
   - 'Capacity, including staff'
   - Strategy assistance and implementation
 project_innovation_stage: Post-pilot (testing an expansion of concept after initially successful pilot)
-project_collaborators: |-
-  Los Angeles Parks Foundation (LAPF)
-   
-   Los Angeles Unified School District (LAUSD)
+project_collaborators:
+  - Los Angeles Parks Foundation (LAPF)
+  - Los Angeles Unified School District (LAUSD)
 project_measure: >-
   Success for the Mobile Recreation Program will be defined by the increase in
   attendance and repeat attendance at the current CSP sites, as well as healthy

@@ -57,10 +57,9 @@ project_la2050_community_resources:
   - Publicity/awareness
   - 'Capacity, including staff'
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  City of Los Angeles Department of Neighborhood Empowerment
-   
-   City of Los Angeles Public Library
+project_collaborators:
+  - City of Los Angeles Department of Neighborhood Empowerment
+  - City of Los Angeles Public Library
 project_measure: >-
   - Outreach to 1000+ Angelenos who attend Digital and/or Data Literacy
   programming

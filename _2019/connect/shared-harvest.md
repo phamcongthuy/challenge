@@ -142,7 +142,7 @@ project_proposal_best_place: >-
    
    
    
-   1.
+   1)
    
    Metric: Social & emotional support 
    
@@ -152,7 +152,7 @@ project_proposal_best_place: >-
    
    
    
-   2. 
+   2)
    
    Metric: Increased rates of Volunteerism while reducing student debt
    
@@ -162,7 +162,7 @@ project_proposal_best_place: >-
    
    
    
-   3. 
+   3)
    
    Metric: Total number of local social media friends and connections
    
