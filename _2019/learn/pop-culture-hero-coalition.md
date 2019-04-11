@@ -2,10 +2,7 @@
 application_id: '1730716684'
 title: The Heroic Journey Curriculum
 project_description: >-
-  Our Heroic Journey Curriculum is a 32-lesson-plan Social Emotional Learning
-  Program (SEL), featuring mental health & bullying prevention elements. It has
-  been created by a world-class team of pop-culture-fluent psychologists and
-  experts, using stories students can relate to.
+Bullying in all its forms forces 160,000 American kids to miss school each day, severely impacting grades and mental health, often leading to trauma, addiction, and self-harm. Research shows the solution is teaching empathy, inclusion, resilience, and other emotional skills, so our psychologists have created a comprehensive 32-lesson plan for Homeroom, Health, or English classes, equipping teachers and kids so all can learn in safety. Vote to improve schools and save lives.
    
    
    
