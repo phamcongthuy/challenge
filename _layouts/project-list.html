@@ -34,7 +34,19 @@ main > h1:first-child::before {
 {% elsif page.finalists == true %}
 <h1>Finalists</h1>
 {% else %}
-<h1>Entries</h1>
+  {% if site.phase == 4 or site.phase == 5 %}
+    <h1 style="/*! letter-spacing: unset; */"><picture>
+      <source srcset="/assets/images/city-illustration/landscape-strawberry.svg" media="(min-aspect-ratio: 3/4)">
+      <source srcset="/assets/images/city-illustration/portrait-strawberry.svg">
+      <img src="/assets/images/city-illustration/portrait-strawberry.svg" alt=""> 
+    </picture>Tell us… which of these proposals will<br> make LA the best place to <strong style="text-transform: uppercase">{{ page.category }}</strong>? <br><br>
+    <small style="font-style: normal;display: block;">
+      {% if site.phase == 5 %}<a href="/vote/" style="color: inherit;">Vote</a> by{% else %}<a href="/vote/" style="color: inherit;">Voting</a> begins on{% endif %}
+      <strong>April 29, 2019</strong>.
+    </small></h1>
+  {% else %}
+  <h1>Entries</h1>
+  {% endif %}
 {% endif %}
 
 {% assign conditional_finalists_url = "" %}

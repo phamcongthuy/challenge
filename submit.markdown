@@ -6,7 +6,9 @@ main_class: standard-layout
 
 <h1>
   {% include city-illustration.html %}
-  Submit Your Proposal
+  Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
+  <!-- <br />
+  <small>Submit Your Proposal</small> -->
 </h1>
 
 {% if site.phase < 2 %}

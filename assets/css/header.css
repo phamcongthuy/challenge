@@ -58,8 +58,8 @@
     font-size: inherit;
   }
   .promotion small {
-    font-size: inherit;
-    font-style: inherit;
+    /*! font-size: inherit; */
+    /*! font-style: inherit; */
   }
   .promotion {
     margin-left: -1.5em;

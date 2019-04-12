@@ -102,6 +102,12 @@ stylesheets:
   {{ page.project_description }}
 </p>
 
+{% if site.phase == 5 %}
+<p class="action">
+  <a href="/vote/form/?{{ page.category }}={{ page.title | url_encode }}">Vote for this proposal</a>
+</p>
+{% endif %}
+
 </div>
 
 {% if page.link_newsletter and page.link_newsletter != '' %}
@@ -127,30 +133,6 @@ stylesheets:
 
 
 
-{% if site.phase == 5 %}
-<div class="links links-action">
-<h2>Love this idea?</h2>
-
-<ul class="action" style="max-width: none;">
-  <li><a href="/vote/form/?{{ page.category }}={{ page.title | url_encode }}">Vote for this proposal</a></li>
-  {% if page.link_newsletter and page.link_newsletter != '' and url_contains_notes == '' %}
-  <li><a href="{{ link_newsletter_url }}">Stay updated</a></li>
-  {% endif %}
-</ul>
-</div>
-{% elsif page.link_newsletter and page.link_newsletter != '' and url_contains_notes == '' %}
-<div class="links links-action">
-<h2>Love this idea?</h2>
-
-<ul class="action" style="max-width: none;">
-  <li><a href="{{ link_newsletter_url }}">Stay updated on this proposal</a></li>
-</ul>
-</div>
-{% endif %}
-
-
-
-
 
 
 {% if page.link_donate and page.link_donate != '' %}
@@ -160,6 +142,19 @@ stylesheets:
 {% if page.link_volunteer and page.link_volunteer != '' %}
 {% assign link_volunteer_exists = true %}
 {% endif %}
+
+{% if page.link_newsletter and page.link_newsletter != '' and url_contains_notes == '' %}
+{% assign link_newsletter_exists = true %}
+{% endif %}
+
+
+<div class="links links-action">
+<h2>Love this idea?</h2>
+
+<ul class="action" style="max-width: none;">
+  <li {% if site.phase == 5 %}class="secondary"{% endif %}><a href="{{ link_newsletter_url }}">Stay updated</a></li>
+</ul>
+</div>
 
 
 {% if link_donate_exists or link_volunteer_exists %}
@@ -184,7 +179,7 @@ stylesheets:
     {% endunless %}
     {% endif %}
     {% if url_contains_notes == '' %}
-    <li><a href="{{ link_donate_url }}">Donate</a></li>
+    <li class="secondary"><a href="{{ link_donate_url }}">Donate</a></li>
     {% endif %}
 
     {% endfor %}
@@ -208,7 +203,7 @@ stylesheets:
     {% endunless %}
     {% endif %}
     {% if url_contains_notes == '' %}
-    <li><a href="{{ link_volunteer_url }}">Volunteer</a></li>
+    <li class="secondary"><a href="{{ link_volunteer_url }}">Volunteer</a></li>
     {% endif %}
 
     {% endfor %}

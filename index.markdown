@@ -62,7 +62,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 5 %}
 
 <p>
-  <a href="{{ site.vote_url }}">It’s time to vote</a>!
+  <a href="/vote/">It’s time to vote</a>!
   Winners will be announced on 
   <span class="avoid-break">
     <strong>June 4, 2019</strong>.
