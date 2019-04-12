@@ -237,7 +237,6 @@ stylesheets:
 <h3>What does your organization do?</h3>
 {{ page.organization_activity | markdownify }}
 
-{% comment %}
 {% if page.project_is_collaboration != "No" and page.project_collaborators and page.project_collaborators.size > 0 %}
 <h3>Please list the organizations collaborating on this proposal.</h3>
 
@@ -248,7 +247,6 @@ stylesheets:
 </ul>
 
 {% endif %}
-{% endcomment %}
 
 <h3>Briefly tell us a story that demonstrates how your organization turns inspiration into impact.</h3>
 {{ page.project_proposal_description | markdownify }}
