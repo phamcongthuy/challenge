@@ -32,6 +32,7 @@
 </form>
 </details>
 
+{% comment %}
 {% unless page.is_search_results %}
 <script>
 (function() {
@@ -64,6 +65,7 @@
 })();
 </script>
 {% endunless %}
+{% endcomment %}
 
 {% endunless %}
 {% endif %}
