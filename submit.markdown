@@ -6,9 +6,7 @@ main_class: standard-layout
 
 <h1>
   {% include city-illustration.html %}
-  Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
-  <!--<br /><br />
-  <small style="font-style: inherit;">Submit Your Proposal</small>-->
+  Submit Your Proposal
 </h1>
 
 {% if site.phase < 2 %}

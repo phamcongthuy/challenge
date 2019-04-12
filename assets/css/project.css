@@ -100,6 +100,9 @@
   .proposal-introduction p {
     margin-left: 0;
   }
+  .proposal-introduction p.action {
+    margin-top: 1.5em;
+  }
 
   .proposal-header {
     grid-column: 2/-1;
