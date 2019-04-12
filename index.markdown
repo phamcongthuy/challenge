@@ -6,10 +6,28 @@ show_promotion: true
 use_default_meta_description: true
 ---
 
+{% if site.phase == 4 or site.phase == 5 %}
+<h1>
+  {% include city-illustration.html %}
+  <span class="proposal-feature">
+    <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
+      Tell us… which of these <strong><a href="/entries/" style="color: var(--secondary-color)">proposals</a></strong> will make Los Angeles the best place to learn, create, play, connect, and live?<br /><br />
+      <small style="font-style: normal;display: block;">
+        {% if site.phase == 5 %}
+          <strong><a href="/vote/" style="color: var(--secondary-color);">Vote</a></strong> by April 29, 2019.
+        {% else %}
+          <strong><a href="/vote/" style="color: var(--secondary-color);">Voting</a></strong> begins on April 22, 2019.
+        {% endif %}
+      </small>
+    </span>
+  </span>
+</h1>
+{% else %}
 <h1>
   {% include city-illustration.html %}
   Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
 </h1>
+{% endif %}
 
 <h2>
   Welcome to the
@@ -198,4 +216,93 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 
 
 </div></section>
+
+
+
+{% if site.phase == 4 or site.phase == 5 %}
+<script>
+(function() {
+
+{% raw %}
+const template = `
+<img
+  src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }}"
+  srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_filename }} 384w, 
+               /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }} 512w, 
+               /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_filename }} 768w, 
+               /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_filename }} 1024w, 
+               /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_filename }} 1536w, 
+               /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_filename }} 2048w"
+  sizes="calc(100vw / 9)"
+  width="500"
+  alt="" />
+`
+{% endraw %}
+
+const images = [
+
+{% assign data_collection = site.collections | where: "label", site.year | first %}
+{% assign data_list = data_collection.docs %}
+{% assign delimiter = '' %}
+{% for data in data_list %}
+  {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+  {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
+  {{ delimiter }}
+  {
+    image_filename: "{{ image_filename }}",
+    image_category: "{{ image_category }}"
+  }
+  {% assign delimiter = ',' %}
+{% endfor %}
+];
+
+// https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range#1527820
+/**
+ * Returns a random integer between min (inclusive) and max (inclusive)
+ * Using Math.round() will give you a non-uniform distribution!
+ */
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+let randomNumbers = [];
+
+function getUniqueRandomNumber() {
+  let unique;
+
+  do {
+    unique = getRandomInt(0, images.length - 1);
+  } while (randomNumbers.includes(unique) && randomNumbers.length < images.length);
+
+  if (!randomNumbers.includes(unique)) {
+    randomNumbers.push(unique);
+  }
+
+  return unique;
+}
+
+function getImageHTML(data) {
+  return template
+    .replace(/\{\{ image_category \}\}/g, data.image_category)
+    .replace(/\{\{ image_filename \}\}/g, data.image_filename)
+}
+
+const headline = document.querySelector(".proposal-feature");
+const imagesContainer = document.createElement("span");
+imagesContainer.className = "proposal-images";
+headline.appendChild(imagesContainer);
+
+for (var index = 0; index < 10*6 && index < images.length; index++) {
+
+  // Get a random item
+  let data = images[getUniqueRandomNumber()]
+
+  let imageHTML = getImageHTML(data);
+  
+  imagesContainer.insertAdjacentHTML("beforeend", imageHTML);
+}
+
+})();
+</script>
+{% endif %}
 
