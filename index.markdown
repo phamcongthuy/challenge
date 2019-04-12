@@ -9,17 +9,18 @@ use_default_meta_description: true
 {% if site.phase == 4 or site.phase == 5 %}
 <h1>
   {% include city-illustration.html %}
-  <span class="proposal-feature">
-    <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
-      Tell us… which of these <strong><a href="/entries/" style="color: var(--secondary-color)">proposals</a></strong> will make Los Angeles the best place to learn, create, play, connect, and live?<br /><br />
-      <small style="font-style: normal;display: block;">
-        {% if site.phase == 5 %}
-          <strong><a href="/vote/" style="color: var(--secondary-color);">Vote</a></strong> by April 29, 2019.
-        {% else %}
-          <strong><a href="/vote/" style="color: var(--secondary-color);">Voting</a></strong> begins on April 22, 2019.
-        {% endif %}
-      </small>
-    </span>
+  <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
+    Tell us… which of these <strong><a href="/entries/" style="color: var(--secondary-color)">proposals</a></strong> will make Los Angeles the best place to learn, create, play, connect, and live?<br /><br />
+    <small style="font-style: normal;display: block;">
+      {% if site.phase == 5 %}
+        <strong><a href="/vote/" style="color: var(--secondary-color);">Vote</a></strong> by April 29, 2019.
+      {% else %}
+        <strong><a href="/vote/" style="color: var(--secondary-color);">Voting</a></strong> begins on April 22, 2019.
+      {% endif %}
+    </small>
+  </span>
+  <span class="proposal-feature banana" style="margin-top: 4.5rem">
+    <span class="action"><a href="/entries/">Check out the proposals</a></span>
   </span>
 </h1>
 {% else %}
@@ -292,7 +293,7 @@ const imagesContainer = document.createElement("span");
 imagesContainer.className = "proposal-images";
 headline.appendChild(imagesContainer);
 
-for (var index = 0; index < 10*6 && index < images.length; index++) {
+for (var index = 0; index < 6*3 && index < images.length; index++) {
 
   // Get a random item
   let data = images[getUniqueRandomNumber()]

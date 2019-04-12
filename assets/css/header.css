@@ -497,6 +497,18 @@
     z-index: 1;
   }
 
+  main > h1:first-child .proposal-feature .action {
+    position: relative;
+    z-index: 1;
+    font-size: 1rem;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    main > h1:first-child .proposal-feature .action {
+      font-size: 1.5rem;
+    }
+  }
+
   main > h1:first-child .proposal-images {
     display: grid;
     width: 100%;
@@ -516,10 +528,10 @@
 
   @media (min-aspect-ratio: 1/1) {
     main > h1:first-child .proposal-images {
-      grid-template-columns: repeat(12, 1fr);
+      grid-template-columns: repeat(9, 1fr);
     }
     main > h1:first-child .proposal-images img {
-      height: calc(85vw / 12);
+      height: calc(85vw / 9);
     }
   }
 
