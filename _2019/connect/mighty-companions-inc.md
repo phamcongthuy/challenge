@@ -16,6 +16,7 @@ project_video: ''
 #   https://vimeo.com/326934354
 #   
 #   PASSWORD: friendly
+link_newsletter: 'http://visitor.constantcontact.com/email.jsp?m=1102168955372'
 organization_website: 'https://www.SUESpeaks.org'
 organization_twitter: '@_SUESpeaks'
 organization_facebook: 'https://www.facebook.com/SUESpeaksSearchingforUnityinEverything/'

@@ -14,6 +14,10 @@ project_description: >-
 organization_name: Rebel Labs Inc.
 organization_description: Social enterprise or B-corps
 project_video: 'https://vimeo.com/328687422'
+link_newsletter:
+  - https://rebel360.com/account/
+  - http://www.farmermark.com/contact
+  - https://www.grow-good.org
 organization_website:
   - 'http://rebellabs.com'
   - 'http://rebel360.com'
@@ -26,8 +30,6 @@ organization_website:
 organization_twitter: 
   - '@rebel360life'
   - '@gofarmermark'
-organization_facebook:
-  - '@rebel360life'
 organization_facebook: 
   - '@rebel360life'
   - '@gofarmermark'

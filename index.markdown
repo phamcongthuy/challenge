@@ -9,6 +9,21 @@ use_default_meta_description: true
 <h1>
   {% include city-illustration.html %}
   Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
+  {% if site.phase == 4 or site.phase == 5 %}
+  <br /><br />
+  <small style="font-style: normal;display: block;">
+    {% if site.phase == 5 %}
+      <strong><a href="/vote/" style="color: var(--secondary-color);">Vote</a></strong> by April 29, 2019.
+    {% else %}
+      <strong><a href="/vote/" style="color: var(--secondary-color);">Voting</a></strong> begins on April 22, 2019.
+    {% endif %}
+  </small>
+  {% endif %}
+  {% if site.phase >= 4 %}
+  <span class="proposal-feature banana" style="margin-top: 4.5rem">
+    <span class="action"><a href="/entries/">Check out the proposals</a></span>
+  </span>  
+  {% endif %}
 </h1>
 
 <h2>
@@ -62,7 +77,7 @@ Read our <a href="/submit/#guidelines">guidelines for proposals</a>.
 {% elsif site.phase == 5 %}
 
 <p>
-  <a href="{{ site.vote_url }}">It’s time to vote</a>!
+  <a href="/vote/">It’s time to vote</a>!
   Winners will be announced on 
   <span class="avoid-break">
     <strong>June 4, 2019</strong>.
@@ -198,4 +213,93 @@ Starting Tuesday, <strong>April 22, 2019</strong>, you can [vote for a proposal]
 
 
 </div></section>
+
+
+
+{% if site.phase >= 4 %}
+<script>
+(function() {
+
+{% raw %}
+const template = `
+<img
+  src="/assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }}"
+  srcset="/assets/images/{{ image_category }}/384-wide-with-aspect-10-8/{{ image_filename }} 384w, 
+               /assets/images/{{ image_category }}/512-wide-with-aspect-10-8/{{ image_filename }} 512w, 
+               /assets/images/{{ image_category }}/768-wide-with-aspect-10-8/{{ image_filename }} 768w, 
+               /assets/images/{{ image_category }}/1024-wide-with-aspect-10-8/{{ image_filename }} 1024w, 
+               /assets/images/{{ image_category }}/1536-wide-with-aspect-10-8/{{ image_filename }} 1536w, 
+               /assets/images/{{ image_category }}/2048-wide-with-aspect-10-8/{{ image_filename }} 2048w"
+  sizes="calc(100vw / 9)"
+  width="500"
+  alt="" />
+`
+{% endraw %}
+
+const images = [
+
+{% assign data_collection = site.collections | where: "label", site.year | first %}
+{% assign data_list = data_collection.docs %}
+{% assign delimiter = '' %}
+{% for data in data_list %}
+  {% capture image_filename %}{{ data.filename }}.jpg{% endcapture %}
+  {% capture image_category %}{{ data.year }}/{{ data.category }}{% endcapture %}
+  {{ delimiter }}
+  {
+    image_filename: "{{ image_filename }}",
+    image_category: "{{ image_category }}"
+  }
+  {% assign delimiter = ',' %}
+{% endfor %}
+];
+
+// https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range#1527820
+/**
+ * Returns a random integer between min (inclusive) and max (inclusive)
+ * Using Math.round() will give you a non-uniform distribution!
+ */
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+let randomNumbers = [];
+
+function getUniqueRandomNumber() {
+  let unique;
+
+  do {
+    unique = getRandomInt(0, images.length - 1);
+  } while (randomNumbers.includes(unique) && randomNumbers.length < images.length);
+
+  if (!randomNumbers.includes(unique)) {
+    randomNumbers.push(unique);
+  }
+
+  return unique;
+}
+
+function getImageHTML(data) {
+  return template
+    .replace(/\{\{ image_category \}\}/g, data.image_category)
+    .replace(/\{\{ image_filename \}\}/g, data.image_filename)
+}
+
+const headline = document.querySelector(".proposal-feature");
+const imagesContainer = document.createElement("span");
+imagesContainer.className = "proposal-images";
+headline.appendChild(imagesContainer);
+
+for (var index = 0; index < 6*3 && index < images.length; index++) {
+
+  // Get a random item
+  let data = images[getUniqueRandomNumber()]
+
+  let imageHTML = getImageHTML(data);
+  
+  imagesContainer.insertAdjacentHTML("beforeend", imageHTML);
+}
+
+})();
+</script>
+{% endif %}
 
