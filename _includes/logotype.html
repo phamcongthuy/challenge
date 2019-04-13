@@ -1,5 +1,9 @@
 <h2>
-  {% if site.phase >= 4 and site.phase <= 5 %}
+  {% if site.phase >= 8 %}
+  <a href="/winners/">
+  {% elsif site.phase == 7 %}
+  <a href="/finalists/">
+  {% elsif site.phase >= 4 and site.phase <= 6 %}
   <a href="/entries/">
   {% else %}
   <a href="/">
