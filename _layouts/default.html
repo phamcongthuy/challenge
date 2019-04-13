@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   {% capture title %}{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% endcapture %}
-  <title>{{ title }}</title>
+  <title>{% if page.organization_name and page.organization_name != title %}{{ page.organization_name }}, {% endif %}{{ title }}{% if page.layout == "project" %}, {{ site.title }}{% endif %}</title>
   <meta property="og:title" content="{{ title }}" />
 
   <!-- OPTIONAL: Preload the most likely web fonts to be needed -->

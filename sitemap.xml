@@ -67,6 +67,7 @@ layout: null
 
 {% endif %}
 
+{% if site.phase >= 2 %}
 {% if site.phase >= 4 or site.show_early_entries %}
 
 {% comment %}
@@ -103,6 +104,7 @@ layout: null
   </url>
 {% endfor %}
 
+{% endif %}
 {% endif %}
 
 </urlset>

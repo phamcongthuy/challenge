@@ -8,7 +8,7 @@ project_description: >-
   neighbors. Youth will develop a relationship with the natural world while
   learning how native California plants support butterflies and activate vacant
   space with color, fragrance, and life.
-organization_name: Theodore Payne Foundation for Wild Flowe
+organization_name: Theodore Payne Foundation for Wild Flowers
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/DoKD6BiSCvc'
 link_newsletter: 'http://theodorepayne.org/'
