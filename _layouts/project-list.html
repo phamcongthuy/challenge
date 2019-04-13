@@ -37,9 +37,12 @@ main > h1:first-child::before {
 
 </style>
 {% elsif page.finalists == true %}
-<h1>Finalists</h1>
+<h1>
+  {% include city-illustration.html %}
+  Finalists in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
+</h1>
 {% else %}
-  {% if site.phase == 4 or site.phase == 5 %}
+  {% if site.phase >= 4 and site.phase <= 5 %}
     <h1>
       {% include city-illustration.html %}
       <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
@@ -59,8 +62,16 @@ main > h1:first-child::before {
         </small>
       </span>
     </h1>
+  {% elsif site.phase >= 6 %}
+    <h1>
+      {% include city-illustration.html %}
+      Entries in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
+    </h1>
   {% else %}
-  <h1>Entries</h1>
+  <h1>
+    {% include city-illustration.html %}
+    Entries
+  </h1>
   {% endif %}
 {% endif %}
 
