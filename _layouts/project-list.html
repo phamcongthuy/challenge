@@ -332,25 +332,51 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   if (keywordsIndicator) keywordsIndicator.textContent = keywords;
 
   function containsKeyword(keyword, string) {
+
+    // if (string.indexOf(keyword) >= 0) {
+    //   console.log("/******")
+    //   console.log("keyword: " + keyword);
+    //   console.log("string: " + string);
+    // }
+
     if (!keyword || keyword == '' || keyword.length < 2) return;
 
     keyword = keyword.toLowerCase();
+    string = string.toLowerCase();
 
     var rank = 0;
 
-    // Keyword as part of another word gets one point
-    if (string.indexOf(keyword) >= 0) rank++;
+    // If we’re only one character off, add a little rank
+    // if (keyword.length >= 4) {
+      // var similarity = 6 // https://en.wikipedia.org/wiki/Levenshtein_distance
+      // if (subCompare(keyword, string, similarity).found === 1) rank += 0.1;
+    // }
+    // var distance = getLevenshteinenated(keyword, string)
+    // if (distance < 5) rank += 0.1;
+
+    if (string == keyword) rank++;
+
+    // Keyword at the beginning of another word gets one point
+    if (string.indexOf(' ' + keyword) >= 0) rank++;
+    if (string.indexOf('>' + keyword) >= 0) rank++;
 
     // Keyword used as a word by itself gets one point
     // TODO: Handle punctuation or HTML elements, before or after the keyword
     if (string.indexOf(' ' + keyword + ' ') >= 0) rank++;
     if (string.startsWith(keyword + ' ')) rank++;
+    if (string.indexOf('>' + keyword + ' ') >= 0) rank++;
     if (string.endsWith(' ' + keyword)) rank++;
+    if (string.indexOf(' ' + keyword + "<") >= 0) rank++;
 
     // Multiple instances of keyword add additional points
     // KUDOS: https://stackoverflow.com/questions/881085/count-the-number-of-occurrences-of-a-character-in-a-string-in-javascript
-    var numberOfMatches = (string.match(new RegExp(keyword, "g")) || []).length;
+    var numberOfMatches = (string.match(new RegExp(' ' + keyword, "g")) || []).length;
     if (numberOfMatches > 2) rank += (numberOfMatches - 1);
+
+    // if (string.indexOf(keyword) >= 0) {
+    //   console.log("rank: " + rank);
+    //   console.log("******/")
+    // }
 
     return rank;
   }
@@ -358,8 +384,18 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   function containsAnyKeyword(keywordList, string) {
     string = string.toLowerCase();
     var rank = 0;
+    var nextRank = 0;
     for (var index = 0; index < keywordList.length; index++) {
-      rank += containsKeyword(keywordList[index], string);
+      nextRank = containsKeyword(keywordList[index], string);
+
+      // Add a little rank for a match without puncuation or tense
+      var rootKeyword = keywordList[index].replace(/['‘’,"“”\.]/g, "").replace(/(ion|ing|ed|ies|s)$/, "")
+      // var rootKeyword = keywordList[index].replace(/['‘’,"“”]/g, "").replace(/(ing|ed|s)$/, "")
+      if (rootKeyword.length >= 3) {
+        nextRank = containsKeyword(rootKeyword, string) * 0.1;
+      }
+
+      rank += nextRank;
     }
     return rank;
   }
@@ -373,33 +409,62 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   //   return true;
   // }
 
-// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array#2450976
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+  // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array#2450976
+  function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
 
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
 
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
 
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
   }
 
-  return array;
-}
+  function getKeywordList(keywords) {
 
+    // SHIM: Assume that most folks will search with quotes around all of the search terms
+    //       This could be made more robust by allowing quotes around only some of them
+    if (
+        keywords.indexOf('"') == 0
+        && 
+        keywords.lastIndexOf('"') == (keywords.length - 1)
+      ) {
+
+      return [keywords]
+    }
+
+    return keywords.replace(/\s/, ',').split(',')
+  }
 
   // var fragment = document.createDocumentFragment();
   var items = projectList.getElementsByTagName('script');
   var matches = [];
+  var keywordList = getKeywordList(keywords);
+  if (keywordList.filter) keywordList = keywordList.filter(function(keyword) {
+    return keyword.toLowerCase() != "and" && keyword.toLowerCase() != "the" && keyword.toLowerCase() != "la";
+  })
   for (var index = 0; index < items.length; index++) {
-    var keywordList = keywords.replace(/\s/, ',').split(',');
     var rank = containsAnyKeyword(keywordList, items[index].innerHTML);
+
+    // If an exact phrase was found, add more rank depending on the number of words
+    // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
+    if (getKeywordList(keywords).length >= 1) {
+      // console.log("looking for an exact phrase match")
+      if (items[index].innerHTML.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
+        // console.log("***** exact phrase match *****")
+        rank += (10000 * getKeywordList(keywords).length)
+      }
+    }
+
     if (rank > 0) {
       matches.push({
         item: items[index],
