@@ -39,7 +39,7 @@ main > h1:first-child::before {
 {% elsif page.finalists == true %}
 <h1>
   {% include city-illustration.html %}
-  Finalists in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
+  Finalists{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
   <small style="font-style: normal;display: block;">
     <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
       Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
