@@ -177,7 +177,14 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 
   {% if do_show_item == true %}
 
-  {% if page.is_search_results %}<script type="text/template">{% endif %}
+  {% if page.is_search_results %}<script type="text/template"
+  data-project_areas="{{ data.project_areas | join: ',' }}"
+  data-organization_activity="{{ data.organization_activity }}"
+  data-project_proposal_description="{{ data.project_proposal_description }}"
+  data-project_measure="{{ data.project_measure }}"
+  data-project_proposal_best_place="{{ data.project_proposal_best_place }}"
+  data-category_metrics="{{ data.category_metrics }}"
+  data-project_collaborators="{{ data.project_collaborators }}">{% endif %}
   {% if page.finalists or page.winners %}
   <li class="{{ data.category }}">
     <a href="{{ data.url }}">
@@ -386,13 +393,13 @@ The entries will appear here by <strong>April 15, 2019</strong>.
     var rank = 0;
     var nextRank = 0;
     for (var index = 0; index < keywordList.length; index++) {
-      nextRank = containsKeyword(keywordList[index], string);
+      nextRank += containsKeyword(keywordList[index], string);
 
       // Add a little rank for a match without puncuation or tense
       var rootKeyword = keywordList[index].replace(/['‘’,"“”\.]/g, "").replace(/(ion|ing|ed|ies|s)$/, "")
       // var rootKeyword = keywordList[index].replace(/['‘’,"“”]/g, "").replace(/(ing|ed|s)$/, "")
       if (rootKeyword.length >= 3) {
-        nextRank = containsKeyword(rootKeyword, string) * 0.1;
+        nextRank += containsKeyword(rootKeyword, string) * 0.1;
       }
 
       rank += nextRank;
@@ -445,6 +452,22 @@ The entries will appear here by <strong>April 15, 2019</strong>.
     return keywords.replace(/\s/, ',').split(',')
   }
 
+  function dataAttributeContainsMatch(element, attribute, keywordList, isList) {
+    let value = items[index].getAttribute(attribute)
+    if (value && value != "") {
+      if (isList) {;
+        let rank = 0;
+        let items = value.split(",");
+        items.forEach(item => {
+          rank += containsAnyKeyword(keywordList, item);
+        })
+        return rank;
+      } else {
+        return containsAnyKeyword(keywordList, value);
+      }
+    }
+  }
+
   // var fragment = document.createDocumentFragment();
   var items = projectList.getElementsByTagName('script');
   var matches = [];
@@ -457,13 +480,22 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 
     // If an exact phrase was found, add more rank depending on the number of words
     // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
-    if (getKeywordList(keywords).length >= 1) {
+    if (keywordList.length >= 1) {
       // console.log("looking for an exact phrase match")
       if (items[index].innerHTML.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
         // console.log("***** exact phrase match *****")
-        rank += (10000 * getKeywordList(keywords).length)
+        rank += (10000 * keywordList.length)
       }
     }
+
+    // Add a little rank for a match by data attribute
+    rank += dataAttributeContainsMatch(items[index], "data-project_areas", keywordList, true);
+    rank += dataAttributeContainsMatch(items[index], "data-project_collaborators", keywordList, true);
+    rank += dataAttributeContainsMatch(items[index], "data-category_metrics", keywordList, true);
+    rank += dataAttributeContainsMatch(items[index], "data-organization_activity", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-project_proposal_description", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-project_measure", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-project_proposal_best_place", keywordList);
 
     if (rank > 0) {
       matches.push({
@@ -489,6 +521,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   });
 
   matches = matches.reverse();
+  console.dir({ matches });
 
   for (var index = 0; index < matches.length; index++) {
      projectList.insertAdjacentHTML('beforeend', matches[index].item.innerHTML);
@@ -531,6 +564,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 })();
 </script>
 
+{% unless page.is_search_results %}
 <script>
 (function() {
   if (!document.body.querySelector || !document.body.querySelectorAll) return
@@ -563,6 +597,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   randomize('.proposals li')
 })();
 </script>
+{% endunless %}
 
 <script src="/assets/js/intersection-observer.js"></script>
 <script src="/assets/js/lazy-images.js"></script>

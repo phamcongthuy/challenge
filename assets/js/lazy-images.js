@@ -25,9 +25,9 @@
   function onIntersection(entries) {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        console.log(`entry.intersectionRatio: ${entry.intersectionRatio}`)
+        // console.log(`entry.intersectionRatio: ${entry.intersectionRatio}`)
         //if (entry.intersectionRatio >= 0.1) {
-        console.log({target: entry.target})
+        // console.log({target: entry.target})
         //}
         visibleImages.add(entry.target)
 
