@@ -89,7 +89,9 @@ stylesheets:
 </figure>
 
 <div class="proposal-description">
+{% unless page['organization_name'] == page['title'] %}
 <h2 style="margin-top: 0.75rem;" class="organization">{{ page.organization_name }}</h2>
+{% endunless %}
 <!-- TODO: Handle long lists of collaborators:
   /learn/wish-academy-high-school/
   /connect/data-roads-foundation/

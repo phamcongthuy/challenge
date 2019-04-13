@@ -211,7 +211,9 @@ The entries will appear here by <strong>April 15, 2019</strong>.
         </p>
         {% endif %}
         <h3>{{ data['title'] }}</h3>
+        {% unless data['organization_name'] == data['title'] %}
         <p class="organization">{{ data['organization_name'] }}</p>
+        {% endunless %}
         {% unless page.winners %}
         <p class="organization-type">{{ data.organization_description }}</p>
         <p class="description">{{ data['project_description'] }}</p>
@@ -284,7 +286,9 @@ The entries will appear here by <strong>April 15, 2019</strong>.
           width="500"
           alt="" />
       </span>
-      <p class="organization">{{ data['organization_name'] }}</p>
+      {% unless data['organization_name'] == data['title'] %}
+      <p class="organization" >{{ data['organization_name'] }}</p>
+      {% endunless %}
       <h3>{{ data['title'] }}</h3>
       <p class="description">{{ data['project_description'] }}</p>
     </a>
