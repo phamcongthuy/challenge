@@ -67,7 +67,7 @@ main > h1:first-child::before {
         </small>
       </span>
     </h1>
-  {% elsif site.phase >= 6 %}
+  {% else %}
     <h1>
       {% include city-illustration.html %}
       Entries in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
@@ -77,11 +77,6 @@ main > h1:first-child::before {
         </small>
       </small>
     </h1>
-  {% else %}
-  <h1>
-    {% include city-illustration.html %}
-    Entries
-  </h1>
   {% endif %}
 {% endif %}
 
@@ -89,6 +84,13 @@ main > h1:first-child::before {
 
 {% if page.finalists %}
 {% assign conditional_finalists_url = "finalists/" %}
+{% endif %}
+
+{% assign do_show_entries = false %}
+{% if site.phase >= 2 %}
+{% if site.phase >= 4 or site.show_early_entries == true %}
+  {% assign do_show_entries = true %}
+{% endif %}
 {% endif %}
 
 {% if page.finalists and site.phase < 7 %}
@@ -103,7 +105,7 @@ The finalists will appear here soon!
 The winners will appear here on <strong>June 4, 2019</strong>.
 </div>
 
-{% elsif site.phase < 4 and site.show_early_entries != true %}
+{% elsif do_show_entries == false %}
 
 <div class="introduction" markdown="1">
 The entries will appear here by <strong>April 15, 2019</strong>.

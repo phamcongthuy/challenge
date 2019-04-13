@@ -1,8 +1,10 @@
 <div class="navigation">
 
 {% assign navigation_items_count = 5 %}
-{% if site.phase >= 4 or site.show_early_entries %}
+{% if site.phase >= 2 %}
+{% if site.phase >= 4 or site.show_early_entries == true %}
   {% assign navigation_items_count = 6 %}
+{% endif %}
 {% endif %}
 {% if site.phase >= 7 %}
   {% assign navigation_items_count = 7 %}
@@ -18,13 +20,15 @@
   {% if site.phase >= 7 %}
   <li {% if page.url contains '/finalists/' %} class="active" {% endif %}><a href="/finalists/">Finalists</a></li>
   {% endif %}
-  {% if site.phase >= 4 or site.show_early_entries %}
+  {% if site.phase >= 2 %}
+  {% if site.phase >= 4 or site.show_early_entries == true %}
   <li {% if page.url == '/entries/' or 
             page.url == '/learn/' or 
             page.url == '/create/' or 
             page.url == '/play/' or 
             page.url == '/connect/' or 
             page.url == '/live/' %}      class="active" {% endif %}><a href="/entries/">Entries</a></li>
+  {% endif %}
   {% endif %}
   <li {% if page.url == '/submit/' %}    class="active" {% endif %}><a href="/submit/">Submit</a></li>
   <li {% if page.url == '/vote/' %}      class="active" {% endif %}><a href="/vote/">Vote</a></li>
