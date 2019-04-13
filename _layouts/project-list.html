@@ -40,6 +40,11 @@ main > h1:first-child::before {
 <h1>
   {% include city-illustration.html %}
   Finalists in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
+  <small style="font-style: normal;display: block;">
+    <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+      Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
+    </small>
+  </small>
 </h1>
 {% else %}
   {% if site.phase >= 4 and site.phase <= 5 %}
@@ -66,6 +71,11 @@ main > h1:first-child::before {
     <h1>
       {% include city-illustration.html %}
       Entries in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
+      <small style="font-style: normal;display: block;">
+        <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+          Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
+        </small>
+      </small>
     </h1>
   {% else %}
   <h1>
@@ -112,7 +122,10 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 
 {% if page.winners and site.phase == 8 %}
 <div class="introduction" style="margin-top: 6em; margin-bottom: 6em;">
-  <p>Congratulations to the winners of the My LA2050 Grants Challenge!</p>
+  <p>
+    Congratulations to the winners of the My LA2050 Grants Challenge!<br />
+    <small style="font-style: inherit;">Learn about the <a href="/about/">challenge</a>.</small>
+  </p>
 </div>
 <style>
 @media (min-width: 40em) {
