@@ -46,7 +46,7 @@
       <p>
         The entries have arrived!
         <span class="avoid-break">
-          Voting begins on
+          <a href="/vote/">Voting</a> begins on
           <span class="avoid-break">
             <strong>April 22, 2019</strong>.
           </span>
@@ -59,11 +59,26 @@
 
 {% elsif site.phase == 5 %}
 
-      <p>Public voting has started! <a href="/entries/">Check out the entries</a>, and vote by <strong>April 29, 2019</strong>.</p>
+      <p>Public voting has started! 
 
+      <a href="/vote/">Vote</a> by April 29, 2019.</p>
+      
       <p class="action">
-        <a href="{{ site.vote_url }}">I’m ready to vote</a>
+        <a href="/entries/">Check out the entries!</a>
       </p>
+      <!--
+
+      {% if page.layout == "project" and page.category %}
+      <p class="action">
+        <a href="/vote/form/?{{ page.category }}={{ page.title | url_encode }}">I’m ready to vote</a>
+      </p>
+      {% else %}
+      <p class="action">
+        <a href="/entries/">Check out the entries!</a>
+        <a href="/vote/form/">I’m ready to vote</a>
+      </p>
+      {% endif %}
+      -->
 
 {% elsif site.phase == 6 %}
 

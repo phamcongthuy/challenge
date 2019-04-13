@@ -6,6 +6,11 @@ stylesheets:
   - "/assets/css/project-list.css"
 ---
 
+{% unless page.category %}
+  {% assign page.category = "live" %}
+{% endunless %}
+
+
 {% if page.winners == true %}
 <h1><span>Winners</span></h1>
 
@@ -32,15 +37,60 @@ main > h1:first-child::before {
 
 </style>
 {% elsif page.finalists == true %}
-<h1>Finalists</h1>
+<h1>
+  {% include city-illustration.html %}
+  Finalists{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
+  <small style="font-style: normal;display: block;">
+    <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+      Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
+    </small>
+  </small>
+</h1>
 {% else %}
-<h1>Entries</h1>
+  {% if site.phase >= 4 and site.phase <= 5 %}
+    <h1>
+      {% include city-illustration.html %}
+      <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
+        Which of these proposals will
+        make LA the best place{% if page.category %}  to <strong style="text-transform: uppercase">{{ page.category }}</strong>{% endif %}?<br /><br />
+        <small style="font-style: normal;display: block;">
+          <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+            {% if site.phase == 5 %}
+              Public voting has started! <strong style="font-weight: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;;">Vote</a></strong> by April 29, 2019.
+            {% else %}
+              <strong style="font-weight: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;;">Voting</a></strong> begins on April 22, 2019.
+            {% endif %}
+          </small><br />
+          <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+            Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
+          </small>
+        </small>
+      </span>
+    </h1>
+  {% else %}
+    <h1>
+      {% include city-illustration.html %}
+      Entries{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
+      <small style="font-style: normal;display: block;">
+        <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+          Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
+        </small>
+      </small>
+    </h1>
+  {% endif %}
 {% endif %}
 
 {% assign conditional_finalists_url = "" %}
 
 {% if page.finalists %}
 {% assign conditional_finalists_url = "finalists/" %}
+{% endif %}
+
+{% assign do_show_entries = false %}
+{% if site.phase >= 2 %}
+{% if site.phase >= 4 or site.show_early_entries == true %}
+  {% assign do_show_entries = true %}
+{% endif %}
 {% endif %}
 
 {% if page.finalists and site.phase < 7 %}
@@ -55,7 +105,7 @@ The finalists will appear here soon!
 The winners will appear here on <strong>June 4, 2019</strong>.
 </div>
 
-{% elsif site.phase < 4 and site.show_early_entries != true %}
+{% elsif do_show_entries == false %}
 
 <div class="introduction" markdown="1">
 The entries will appear here by <strong>April 15, 2019</strong>.
@@ -74,7 +124,10 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 
 {% if page.winners and site.phase == 8 %}
 <div class="introduction" style="margin-top: 6em; margin-bottom: 6em;">
-  <p>Congratulations to the winners of the My LA2050 Grants Challenge!</p>
+  <p>
+    Congratulations to the winners of the My LA2050 Grants Challenge!<br />
+    <small style="font-style: inherit;">Learn about the <a href="/about/">challenge</a>.</small>
+  </p>
 </div>
 <style>
 @media (min-width: 40em) {
@@ -124,7 +177,15 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 
   {% if do_show_item == true %}
 
-  {% if page.is_search_results %}<script type="text/template">{% endif %}
+  {% if page.is_search_results %}<script type="text/template"
+  data-organization_description="{{ data.organization_description }}"
+  data-project_areas="{{ data.project_areas | join: ',' }}"
+  data-organization_activity="{{ data.organization_activity }}"
+  data-project_proposal_description="{{ data.project_proposal_description }}"
+  data-project_measure="{{ data.project_measure }}"
+  data-project_proposal_best_place="{{ data.project_proposal_best_place }}"
+  data-category_metrics="{{ data.category_metrics }}"
+  data-project_collaborators="{{ data.project_collaborators }}">{% endif %}
   {% if page.finalists or page.winners %}
   <li class="{{ data.category }}">
     <a href="{{ data.url }}">
@@ -158,7 +219,9 @@ The entries will appear here by <strong>April 15, 2019</strong>.
         </p>
         {% endif %}
         <h3>{{ data['title'] }}</h3>
+        {% unless data['organization_name'] == data['title'] %}
         <p class="organization">{{ data['organization_name'] }}</p>
+        {% endunless %}
         {% unless page.winners %}
         <p class="organization-type">{{ data.organization_description }}</p>
         <p class="description">{{ data['project_description'] }}</p>
@@ -231,7 +294,9 @@ The entries will appear here by <strong>April 15, 2019</strong>.
           width="500"
           alt="" />
       </span>
-      <p class="organization">{{ data['organization_name'] }}</p>
+      {% unless data['organization_name'] == data['title'] %}
+      <p class="organization" >{{ data['organization_name'] }}</p>
+      {% endunless %}
       <h3>{{ data['title'] }}</h3>
       <p class="description">{{ data['project_description'] }}</p>
     </a>
@@ -267,7 +332,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
 
-  var keywords = getParameterByName('keywords');
+  var keywords = getParameterByName('keywords').trim();
   if (!keywords || !form || !field || !projectList) return; // TODO: Show an error message?
 
   field.value = keywords;
@@ -275,25 +340,51 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   if (keywordsIndicator) keywordsIndicator.textContent = keywords;
 
   function containsKeyword(keyword, string) {
+
+    // if (string.indexOf(keyword) >= 0) {
+    //   console.log("/******")
+    //   console.log("keyword: " + keyword);
+    //   console.log("string: " + string);
+    // }
+
     if (!keyword || keyword == '' || keyword.length < 2) return;
 
     keyword = keyword.toLowerCase();
+    string = string.toLowerCase();
 
     var rank = 0;
 
-    // Keyword as part of another word gets one point
-    if (string.indexOf(keyword) >= 0) rank++;
+    // If we’re only one character off, add a little rank
+    // if (keyword.length >= 4) {
+      // var similarity = 6 // https://en.wikipedia.org/wiki/Levenshtein_distance
+      // if (subCompare(keyword, string, similarity).found === 1) rank += 0.1;
+    // }
+    // var distance = getLevenshteinenated(keyword, string)
+    // if (distance < 5) rank += 0.1;
+
+    if (string == keyword) rank++;
+
+    // Keyword at the beginning of another word gets one point
+    if (string.indexOf(' ' + keyword) >= 0) rank++;
+    if (string.indexOf('>' + keyword) >= 0) rank++;
 
     // Keyword used as a word by itself gets one point
     // TODO: Handle punctuation or HTML elements, before or after the keyword
     if (string.indexOf(' ' + keyword + ' ') >= 0) rank++;
     if (string.startsWith(keyword + ' ')) rank++;
+    if (string.indexOf('>' + keyword + ' ') >= 0) rank++;
     if (string.endsWith(' ' + keyword)) rank++;
+    if (string.indexOf(' ' + keyword + "<") >= 0) rank++;
 
     // Multiple instances of keyword add additional points
     // KUDOS: https://stackoverflow.com/questions/881085/count-the-number-of-occurrences-of-a-character-in-a-string-in-javascript
-    var numberOfMatches = (string.match(new RegExp(keyword, "g")) || []).length;
+    var numberOfMatches = (string.match(new RegExp(' ' + keyword, "g")) || []).length;
     if (numberOfMatches > 2) rank += (numberOfMatches - 1);
+
+    // if (string.indexOf(keyword) >= 0) {
+    //   console.log("rank: " + rank);
+    //   console.log("******/")
+    // }
 
     return rank;
   }
@@ -301,8 +392,18 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   function containsAnyKeyword(keywordList, string) {
     string = string.toLowerCase();
     var rank = 0;
+    var nextRank = 0;
     for (var index = 0; index < keywordList.length; index++) {
-      rank += containsKeyword(keywordList[index], string);
+      nextRank += containsKeyword(keywordList[index], string);
+
+      // Add a little rank for a match without puncuation or tense
+      var rootKeyword = keywordList[index].replace(/['‘’,"“”\.]/g, "").replace(/(ion|ing|ed|ies|s)$/, "")
+      // var rootKeyword = keywordList[index].replace(/['‘’,"“”]/g, "").replace(/(ing|ed|s)$/, "")
+      if (rootKeyword.length >= 3) {
+        nextRank += containsKeyword(rootKeyword, string) * 0.1;
+      }
+
+      rank += nextRank;
     }
     return rank;
   }
@@ -316,33 +417,110 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   //   return true;
   // }
 
-// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array#2450976
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+  // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array#2450976
+  function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
 
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
 
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
 
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
   }
 
-  return array;
-}
+  function getKeywordList(keywords) {
 
+    // SHIM: Assume that most folks will search with quotes around all of the search terms
+    //       This could be made more robust by allowing quotes around only some of them
+    if (
+        keywords.indexOf('"') == 0
+        && 
+        keywords.lastIndexOf('"') == (keywords.length - 1)
+      ) {
+
+      return [keywords.substring(1, keywords.length - 1).trim()]
+    }
+
+    return keywords.replace(/\s/, ',').split(',')
+  }
+
+  function dataAttributeContainsMatch(element, attribute, keywordList, isList) {
+    let value = items[index].getAttribute(attribute)
+    if (value && value != "") {
+      if (isList) {;
+        let rank = 0;
+        let items = value.split(",");
+        items.forEach(item => {
+          rank += containsAnyKeyword(keywordList, item);
+
+          // If an exact phrase was found, add more rank depending on the number of words
+          // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
+          if (keywordList.length >= 1) {
+            // console.log("looking for an exact phrase match")
+            if (item.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
+              // console.log("***** exact phrase match *****")
+              rank += (10000 * keywordList.length)
+            }
+          }
+        })
+        return rank;
+      } else {
+        let rank = containsAnyKeyword(keywordList, value);
+        // If an exact phrase was found, add more rank depending on the number of words
+        // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
+        if (keywordList.length >= 1) {
+          // console.log("looking for an exact phrase match")
+          if (value.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
+            // console.log("***** exact phrase match *****")
+            rank += (10000 * keywordList.length)
+          }
+        }
+        return rank;
+      }
+    } else {
+      return 0;
+    }
+  }
 
   // var fragment = document.createDocumentFragment();
   var items = projectList.getElementsByTagName('script');
   var matches = [];
+  var keywordList = getKeywordList(keywords);
+  if (keywordList.filter) keywordList = keywordList.filter(function(keyword) {
+    return keyword.toLowerCase() != "and" && keyword.toLowerCase() != "the" && keyword.toLowerCase() != "la";
+  })
   for (var index = 0; index < items.length; index++) {
-    var keywordList = keywords.replace(/\s/, ',').split(',');
     var rank = containsAnyKeyword(keywordList, items[index].innerHTML);
+
+    // If an exact phrase was found, add more rank depending on the number of words
+    // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
+    if (keywordList.length >= 1) {
+      // console.log("looking for an exact phrase match")
+      if (items[index].innerHTML.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
+        // console.log("***** exact phrase match *****")
+        rank += (10000 * keywordList.length)
+      }
+    }
+
+    // Add a little rank for a match by data attribute
+    rank += dataAttributeContainsMatch(items[index], "data-project_areas", keywordList, true);
+    rank += dataAttributeContainsMatch(items[index], "data-project_collaborators", keywordList, true);
+    rank += dataAttributeContainsMatch(items[index], "data-category_metrics", keywordList, true);
+    rank += dataAttributeContainsMatch(items[index], "data-organization_activity", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-project_proposal_description", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-project_measure", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-project_proposal_best_place", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-organization_description", keywordList);
+
     if (rank > 0) {
       matches.push({
         item: items[index],
@@ -367,6 +545,7 @@ function shuffle(array) {
   });
 
   matches = matches.reverse();
+  console.dir({ matches });
 
   for (var index = 0; index < matches.length; index++) {
      projectList.insertAdjacentHTML('beforeend', matches[index].item.innerHTML);
@@ -409,6 +588,7 @@ function shuffle(array) {
 })();
 </script>
 
+{% unless page.is_search_results %}
 <script>
 (function() {
   if (!document.body.querySelector || !document.body.querySelectorAll) return
@@ -441,5 +621,7 @@ function shuffle(array) {
   randomize('.proposals li')
 })();
 </script>
+{% endunless %}
 
-<script async src="/assets/js/lazy-images.js"></script>
+<script src="/assets/js/intersection-observer.js"></script>
+<script src="/assets/js/lazy-images.js"></script>

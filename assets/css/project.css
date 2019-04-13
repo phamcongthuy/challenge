@@ -40,16 +40,16 @@
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
   }
-  .links-involved .action a {
+  .links .action .secondary a {
     background-color: var(--snow);
     color: black;
     border-color: black;
     color: var(--primary-color, black);
     border-color: var(--primary-color, black);
   }
-  .links-involved .action a:hover,
-  .links-involved .action a:active,
-  .links-involved .action a:focus {
+  .links .action .secondary a:hover,
+  .links .action .secondary a:active,
+  .links .action .secondary a:focus {
     background: black;
     border-color: black;
     background: var(--primary-color, black);
@@ -99,6 +99,9 @@
   .proposal-introduction h3,
   .proposal-introduction p {
     margin-left: 0;
+  }
+  .proposal-introduction p.action {
+    margin-top: 1.5em;
   }
 
   .proposal-header {

@@ -4,10 +4,19 @@ body_class: strawberry about-page
 main_class: standard-layout
 ---
 
+{% if site.phase >= 4 %}
+
+{% capture about %}{% include about-the-challenge.md %}{% endcapture %}
+{{ about | markdownify }}
+
+{% else %}
+
 <h1>
   {% include city-illustration.html %}
   About
 </h1>
+
+{% endif %}
 
 ## LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles.
 
@@ -244,3 +253,5 @@ By the year 2050, Los Angeles will have the nation’s lowest obesity rates and 
 
 
 </section><!-- /.goals -->
+
+
