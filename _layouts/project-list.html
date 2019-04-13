@@ -6,6 +6,11 @@ stylesheets:
   - "/assets/css/project-list.css"
 ---
 
+{% unless page.category %}
+  {% assign page.category = "live" %}
+{% endunless %}
+
+
 {% if page.winners == true %}
 <h1><span>Winners</span></h1>
 
@@ -36,15 +41,21 @@ main > h1:first-child::before {
 {% else %}
   {% if site.phase == 4 or site.phase == 5 %}
     <h1>
+      {% include city-illustration.html %}
       <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
         Which of these proposals will
         make LA the best place to <strong style="text-transform: uppercase">{{ page.category }}</strong>?<br /><br />
         <small style="font-style: normal;display: block;">
-          {% if site.phase == 5 %}
-            <strong><a href="/vote/" style="color: inherit;">Vote</a></strong> by April 29, 2019.
-          {% else %}
-            <strong><a href="/vote/" style="color: inherit;">Voting</a></strong> begins on April 22, 2019.
-          {% endif %}
+          <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+            {% if site.phase == 5 %}
+              Public voting has started! <strong style="font-weight: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;;">Vote</a></strong> by April 29, 2019.
+            {% else %}
+              <strong style="font-weight: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;;">Voting</a></strong> begins on April 22, 2019.
+            {% endif %}
+          </small><br />
+          <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
+            Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
+          </small>
         </small>
       </span>
     </h1>

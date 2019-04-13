@@ -105,6 +105,33 @@
   <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
   {% endif %}
 
+  {% assign redirect_to_random_entry_page = false %}
+  {% if page.url == "/entries/" %}
+    {% assign redirect_to_random_entry_page = true %}
+  {% endif %}
+  {% if page.url == "/" and site.phase >= 4 and site.phase <= 5 %}
+    {% assign redirect_to_random_entry_page = true %}
+  {% endif %}
+  {% if redirect_to_random_entry_page %}
+  <script>
+  (function() {
+    var links, random;
+
+    var categories = [
+      'learn',
+      'create',
+      'play',
+      'connect',
+      'live'
+    ];
+
+    random = Math.floor(Math.random() * categories.length) + 0;
+
+    window.location.href = '/' + categories[random] + '/';
+  })();
+  </script>
+  {% endif %}
+
   {% comment %}Open Graph: http://ogp.me{% endcomment %}
   <meta property="og:type" content="website" />
 
@@ -132,11 +159,11 @@
 <body{% if page.body_class %} class="{{ page.body_class }}"{% elsif project_body_class %} class="{{ project_body_class }}"{% endif %}>
 
   {% if page.show_promotion or site.phase == 2 or site.phase == 5 or site.phase == 8 %}
-  
+  {% unless site.phase >= 4 and site.phase <= 5 and page.layout == "project-list" %}
   <section class="promotion">
     {% include promotion.html %}
   </section>
-
+  {% endunless %}
   {% endif %}
 
   <header id="navigation">
