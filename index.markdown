@@ -9,16 +9,6 @@ use_default_meta_description: true
 <h1>
   {% include city-illustration.html %}
   Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
-  {% if site.phase == 4 or site.phase == 5 %}
-  <br /><br />
-  <small style="font-style: normal;display: block;">
-    {% if site.phase == 5 %}
-      <strong><a href="/vote/" style="color: var(--secondary-color);">Vote</a></strong> by April 29, 2019.
-    {% else %}
-      <strong><a href="/vote/" style="color: var(--secondary-color);">Voting</a></strong> begins on April 22, 2019.
-    {% endif %}
-  </small>
-  {% endif %}
   {% if site.phase >= 4 %}
   <span class="proposal-feature banana" style="margin-top: 4.5rem">
     <span class="action"><a href="/entries/">Check out the proposals</a></span>
