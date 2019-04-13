@@ -34,7 +34,9 @@
     <div class="text">
       <div class="text-inner">
         <h3>{{ project.organization_name }}</h3>
+        {% unless project.title == project.organization_name %}
         <p>{{ project.title }}</p>
+        {% endunless %}
       </div>
     </div>
     <span class="mask"></span>
