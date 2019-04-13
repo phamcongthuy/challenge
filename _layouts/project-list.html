@@ -52,7 +52,7 @@ main > h1:first-child::before {
       {% include city-illustration.html %}
       <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
         Which of these proposals will
-        make LA the best place to <strong style="text-transform: uppercase">{{ page.category }}</strong>?<br /><br />
+        make LA the best place{% if page.category %}  to <strong style="text-transform: uppercase">{{ page.category }}</strong>{% endif %}?<br /><br />
         <small style="font-style: normal;display: block;">
           <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
             {% if site.phase == 5 %}
@@ -70,7 +70,7 @@ main > h1:first-child::before {
   {% else %}
     <h1>
       {% include city-illustration.html %}
-      Entries in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
+      Entries{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
       <small style="font-style: normal;display: block;">
         <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
           Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
@@ -465,6 +465,8 @@ The entries will appear here by <strong>April 15, 2019</strong>.
       } else {
         return containsAnyKeyword(keywordList, value);
       }
+    } else {
+      return 0;
     }
   }
 
