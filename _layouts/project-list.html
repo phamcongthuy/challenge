@@ -39,7 +39,7 @@ main > h1:first-child::before {
 {% elsif page.finalists == true %}
 <h1>
   {% include city-illustration.html %}
-  Finalists in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category
+  Finalists{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
   <small style="font-style: normal;display: block;">
     <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
       Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
@@ -178,6 +178,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   {% if do_show_item == true %}
 
   {% if page.is_search_results %}<script type="text/template"
+  data-organization_description="{{ data.organization_description }}"
   data-project_areas="{{ data.project_areas | join: ',' }}"
   data-organization_activity="{{ data.organization_activity }}"
   data-project_proposal_description="{{ data.project_proposal_description }}"
@@ -331,7 +332,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
 
-  var keywords = getParameterByName('keywords');
+  var keywords = getParameterByName('keywords').trim();
   if (!keywords || !form || !field || !projectList) return; // TODO: Show an error message?
 
   field.value = keywords;
@@ -446,7 +447,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
         keywords.lastIndexOf('"') == (keywords.length - 1)
       ) {
 
-      return [keywords]
+      return [keywords.substring(1, keywords.length - 1).trim()]
     }
 
     return keywords.replace(/\s/, ',').split(',')
@@ -498,6 +499,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
     rank += dataAttributeContainsMatch(items[index], "data-project_proposal_description", keywordList);
     rank += dataAttributeContainsMatch(items[index], "data-project_measure", keywordList);
     rank += dataAttributeContainsMatch(items[index], "data-project_proposal_best_place", keywordList);
+    rank += dataAttributeContainsMatch(items[index], "data-organization_description", keywordList);
 
     if (rank > 0) {
       matches.push({
