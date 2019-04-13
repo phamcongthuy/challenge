@@ -461,10 +461,30 @@ The entries will appear here by <strong>April 15, 2019</strong>.
         let items = value.split(",");
         items.forEach(item => {
           rank += containsAnyKeyword(keywordList, item);
+
+          // If an exact phrase was found, add more rank depending on the number of words
+          // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
+          if (keywordList.length >= 1) {
+            // console.log("looking for an exact phrase match")
+            if (item.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
+              // console.log("***** exact phrase match *****")
+              rank += (10000 * keywordList.length)
+            }
+          }
         })
         return rank;
       } else {
-        return containsAnyKeyword(keywordList, value);
+        let rank = containsAnyKeyword(keywordList, value);
+        // If an exact phrase was found, add more rank depending on the number of words
+        // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
+        if (keywordList.length >= 1) {
+          // console.log("looking for an exact phrase match")
+          if (value.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
+            // console.log("***** exact phrase match *****")
+            rank += (10000 * keywordList.length)
+          }
+        }
+        return rank;
       }
     } else {
       return 0;

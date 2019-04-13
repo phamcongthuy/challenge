@@ -18,7 +18,7 @@
   }
 
   function loadVisibleImages() {
-    console.dir(visibleImages)
+    // console.dir(visibleImages)
     visibleImages.forEach(image => loadImage(image))
   }
 
@@ -44,7 +44,7 @@
   // https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
   const observer = new IntersectionObserver(onIntersection, {
     threshold: 0,
-    rootMargin: "0% 0% 0% 0%"
+    rootMargin: "100% 0% 100% 0%"
   })
 
   for (var index = 0; index < images.length; index++) {
