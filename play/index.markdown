@@ -1,7 +1,7 @@
 ---
 layout: project-list
 body_class: play
-title: Entries for the PLAY category, 2019 My LA2050 Grants Challenge
+title: Entries in the PLAY category, 2019 My LA2050 Grants Challenge
 canonical_url: /play/
 category: play
 ---
