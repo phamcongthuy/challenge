@@ -24,15 +24,21 @@ Starting **April 22, 2019** (9am Pacific Time), you can vote for the entries on 
 Starting **April 22, 2019** (9am Pacific Time), you can vote for the [entries](/entries/) on this website.<br />You can cast five votes, one per [goal category](/about/#goals).
 
 <p class="action" markdown="1">
-  <a href="/entries/">Check out the entries</a>
+  <a href="/entries/">Check out the entries!</a>
 </p>
 
 {% elsif site.phase == 5 %}
 
-You can cast five votes, one per goal category.<br /><a href="/entries/">Check out the entries</a> and then vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
+Vote by <strong>April 29, 2019</strong> (5pm Pacific Time).
+<br />
+You can cast five votes, one per [goal category](/about/#goals).
 
 <p class="action">
-  <a href="{{ site.vote_url }}">I’m ready to vote</a>
+  <a href="/entries/">Check out the entries!</a>
+</p>
+<p style="font-size: inherit; margin-top: 2.25em;">
+  <small style="font-size: 0.875em;">You can vote by pressing the “Vote for this proposal” button on any entry page.</small><br />
+  <small style="font-size: 0.875em;">You can also visit the <a href="/vote/form/">voting form</a> directly.</small>
 </p>
 
 {% elsif site.phase == 6 %}
