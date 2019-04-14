@@ -173,6 +173,7 @@ stylesheets:
 {% endif %}
 
 
+{% if link_newsletter_exists %}
 <div class="links links-action">
 <h2>Love this idea?</h2>
 
@@ -180,6 +181,7 @@ stylesheets:
   <li {% if site.phase == 5 %}class="secondary"{% endif %}><a href="{{ link_newsletter_url }}">Stay updated</a></li>
 </ul>
 </div>
+{% endif %}
 
 
 {% if link_donate_exists or link_volunteer_exists %}
