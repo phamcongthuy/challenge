@@ -552,3 +552,16 @@
     }
   }
 
+
+  main > h1:first-child svg {
+/*     border: 3px solid; */
+    padding: 0.5em;
+    border-radius: 50%;
+    width: 0.75em;
+    height: 0.75em;
+/*     opacity: 0.5; */
+    background: var(--secondary-color);
+    color: var(--primary-color);
+margin-top: 1.5em;
+  }
+

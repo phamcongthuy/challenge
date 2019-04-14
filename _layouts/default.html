@@ -200,9 +200,11 @@
 
   {% if page.show_promotion or site.phase >= 2 %}
   {% unless site.phase >= 4 and site.phase <= 5 and page.layout == "project-list" %}
+  {% unless site.phase == 5 and page.layout == "project" %}
   <section class="promotion">
     {% include promotion.html %}
   </section>
+  {% endunless %}
   {% endunless %}
   {% endif %}
 

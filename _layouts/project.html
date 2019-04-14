@@ -105,8 +105,13 @@ stylesheets:
 </p>
 
 {% if site.phase == 5 %}
-<p class="action">
-  <a href="/vote/form/?{{ page.category }}={{ page.organization_name | url_encode }}">Vote for this proposal</a>
+<p class="vote-action">
+  <span class="action">
+    <a href="/vote/form/?{{ page.category }}={{ page.organization_name | url_encode }}">Vote for this proposal</a>
+  </span>
+  <br />
+  <br />
+  <small style="font-size: 0.875em; font-weight: 500; line-height: 1.7142857143;">Vote by April 29, 2019. You can cast five votes, one per <a href="/about/#goals">goal category</a>. <span class="avoid-break">Learn more about <a href="/vote/">public voting</a>.</span></small>
 </p>
 {% endif %}
 
