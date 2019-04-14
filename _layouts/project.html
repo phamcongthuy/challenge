@@ -104,9 +104,32 @@ stylesheets:
   {{ page.project_description }}
 </p>
 
-{% if site.phase == 5 %}
-<p class="action">
-  <a href="/vote/form/?{{ page.category }}={{ page.organization_name | url_encode }}">Vote for this proposal</a>
+{% if site.phase == 4 %}
+<p class="vote-action" style="margin-top: 3em;">
+  <span style="display: block;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-1rem, -1rem) rotate(-10deg);
+    background: var( --primary-color);
+    color: white;
+    padding: 0.375em 0.75em;
+    font-weight: 600;
+    font-size: 0.875em;">Coming soon!</span>
+  <span class="action" style="opacity: 0.2; filter: grayscale(100%);">
+    <span style="cursor: default;">Vote for this proposal</span>
+  </span>
+  <br />
+  <br />
+  <small style="font-size: 0.875em; font-weight: 500; line-height: 1.7142857143;"><a href="/vote/" style="color: inherit">Public voting</a> begins on <em>April 22, 2019.</em> You can cast five votes, one per <a href="/about/#goals" style="color: inherit">goal category</a>.</small>
+</p>
+{% elsif site.phase == 5 %}
+<p class="vote-action">
+  <span class="action">
+    <a href="/vote/form/?{{ page.category }}={{ page.organization_name | url_encode }}">Vote for this proposal</a>
+  </span>
+  <br />
+  <br />
+  <small style="font-size: 0.875em; font-weight: 500; line-height: 1.7142857143;">Vote by <strong>April 29, 2019</strong>. You can cast five votes, one per <a href="/about/#goals" style="color: inherit">goal category</a>. <span class="avoid-break">Learn more about <a href="/vote/" style="color: inherit">public voting</a>.</span></small>
 </p>
 {% endif %}
 
@@ -150,6 +173,7 @@ stylesheets:
 {% endif %}
 
 
+{% if link_newsletter_exists %}
 <div class="links links-action">
 <h2>Love this idea?</h2>
 
@@ -157,6 +181,7 @@ stylesheets:
   <li {% if site.phase == 5 %}class="secondary"{% endif %}><a href="{{ link_newsletter_url }}">Stay updated</a></li>
 </ul>
 </div>
+{% endif %}
 
 
 {% if link_donate_exists or link_volunteer_exists %}
