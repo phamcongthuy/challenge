@@ -21,10 +21,13 @@ Starting **April 22, 2019** (9am Pacific Time), you can vote for the entries on 
 
 {% elsif site.phase == 4 %}
 
-Starting **April 22, 2019** (9am Pacific Time), you can vote for the [entries](/entries/) on this website.<br />You can cast five votes, one per [goal category](/about/#goals).
+Starting **April 22, 2019** (9am Pacific Time), you can vote for the entries on this website.<br />You can cast five votes, one per [goal category](/about/#goals).
 
 <p class="action" markdown="1">
   <a href="/entries/">Check out the entries!</a>
+</p>
+<p style="font-size: inherit; margin-top: 2.25em;">
+  <small style="font-size: 0.875em;">You can vote by pressing the “Vote for this proposal” button on any entry page.</small>
 </p>
 
 {% elsif site.phase == 5 %}

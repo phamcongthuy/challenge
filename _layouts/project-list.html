@@ -54,15 +54,15 @@ main > h1:first-child::before {
         Tell us… which of these proposals will
         make <span class="avoid-break">Los Angeles</span> the best place{% if page.category %}  to <strong style="text-transform: uppercase; letter-spacing: 0.05em;">{{ page.category }}</strong>{% endif %}?<br /><br />
         <small style="font-style: normal;display: block;">
-          <small style="letter-spacing: 0; font-style: normal; font-weight: normal;" class="avoid-break">
+          <small style="letter-spacing: 0; font-style: normal;" class="avoid-break">
             {% if site.phase == 5 %}
-              <strong style="font-weight: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> has started! Vote by April 29, 2019.
+              <strong style="font-weight: inherit; color: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> has started! Vote by <strong>April 29, 2019</strong>.
             {% else %}
-              <strong style="font-weight: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> begins on April 22, 2019.
+              <strong style="font-weight: inherit; color: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> begins <span class="avoid-break">on <strong>April 22, 2019</strong>.</span>
             {% endif %}
           </small>
-          <small style="letter-spacing: 0; font-style: normal; font-weight: normal;" class="avoid-break">
-            Learn <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">about the challenge</a></strong>.
+          <small style="letter-spacing: 0; font-style: normal;" class="avoid-break">
+            Learn <strong style="font-weight: inherit; color: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">about the challenge</a></strong>.
           </small>
         </small>
       </span>
