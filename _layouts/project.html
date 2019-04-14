@@ -106,7 +106,7 @@ stylesheets:
 
 {% if site.phase == 5 %}
 <p class="action">
-  <a href="/vote/form/?{{ page.category }}={{ page.title | url_encode }}">Vote for this proposal</a>
+  <a href="/vote/form/?{{ page.category }}={{ page.organization_name | url_encode }}">Vote for this proposal</a>
 </p>
 {% endif %}
 
