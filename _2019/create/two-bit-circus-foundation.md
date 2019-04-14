@@ -13,7 +13,7 @@ organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
 project_video: ''
 organization_website: 'http://twobitcircus.org/'
-organization_twitter: 'http://www.twitter.com/twobitcircusorg/'
+organization_twitter: 'https://www.twitter.com/twobitcircusorg/'
 organization_facebook: 'https://www.facebook.com/twobitcircusorg/'
 organization_instagram: 'https://www.instagram.com/twobitcircusorg/'
 link_donate: 'mailto:info@twobitcircus.org'
