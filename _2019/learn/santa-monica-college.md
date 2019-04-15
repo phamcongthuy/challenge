@@ -12,7 +12,10 @@ project_description: >-
 organization_name: Santa Monica College
 organization_description: Government
 project_video: 'http://www.smc.edu/AcademicPrograms/ECE/Pages/Videos-.aspx'
-link_newsletter: ''
+link_newsletter: 'https://www.smc.edu/smcinfocus/pages/subscribe2.aspx'
+# link_newsletter:
+#   - http://www.smc.edu/SMCInFocus/Pages/Newsletter.aspx (the newsletter)
+#   - https://www.smc.edu/smcinfocus/pages/subscribe2.aspx (to subscribe) 
 organization_website: 'https://www.smc.edu'
 organization_twitter: '@smc.edu'
 organization_facebook: SantaMonicaCollegeOfficial
