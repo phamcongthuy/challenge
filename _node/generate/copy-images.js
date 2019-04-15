@@ -148,7 +148,7 @@ function updateLocations(folder) {
 }
 
 
-let submissionFiles = getAllFilesFromFolder('../../_data/download__vQfs75VTzXvRrxVHkFds2ww6PBdgsz');
+let submissionFiles = getAllFilesFromFolder('../../_data/download__26BKVKfpFShKfRMnbZgRQmCkfDWngt');
 
 updateLocations('../_2019/learn');
 updateLocations('../_2019/create');
