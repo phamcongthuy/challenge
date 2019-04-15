@@ -1,7 +1,7 @@
 ---
 layout: project-list
 body_class: banana finalists
-title: Finalists in the CREATE category for the 2019 My LA2050 Grants Challenge
+title: Finalists in the CREATE category
 finalists: true
 category: create
 ---
