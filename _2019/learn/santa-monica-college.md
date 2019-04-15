@@ -11,12 +11,7 @@ project_description: >-
   in the west Los Angeles area.
 organization_name: Santa Monica College
 organization_description: Government
-project_video: http://www.smc.edu/AcademicPrograms/ECE/Pages/Videos-.aspx
-# project_video: |-
-#   www.smc.edu/labschool (not a video, but rather a written description)
-#    
-#    http://www.smc.edu/AcademicPrograms/ECE/Pages/Videos-.aspx
-# (link to the groundbreaking video as well as several ECE Program videos)
+project_video: 'http://www.smc.edu/AcademicPrograms/ECE/Pages/Videos-.aspx'
 link_newsletter: ''
 organization_website: 'https://www.smc.edu'
 organization_twitter: '@smc.edu'
@@ -24,12 +19,7 @@ organization_facebook: SantaMonicaCollegeOfficial
 organization_instagram: '@smcedu'
 link_donate: >-
   https://santamonicacollegefoundation.org/santa-monica-early-childhood-lab-school.php
-link_volunteer: >-
-  http://www.smc.edu/AcademicPrograms/ECE/Pages/default.aspx
-# link_volunteer: 
-#   http://www.smc.edu/AcademicPrograms/ECE/Pages/default.aspx (this is the
-#   website for SMC's Early Childhood/Education Program and the best place to
-#   explore volunteer opportunities for this program)
+link_volunteer: 'http://www.smc.edu/AcademicPrograms/ECE/Pages/default.aspx'
 organization_activity: >-
   Santa Monica College is an educational leader and innovator in west Los
   Angeles that fosters personal and intellectual exploration while students
@@ -66,14 +56,11 @@ project_la2050_community_resources:
   - Publicity/awareness
   - Assessment of Impact Countywide
 project_innovation_stage: Expand existing program (expanding and continuing ongoing successful projects)
-project_collaborators: |-
-  City of Santa Monica
-   
-   RAND Corporation
-   
-   Santa Monica College Foundation
-   
-   Growing Place
+project_collaborators:
+  - City of Santa Monica
+  - RAND Corporation
+  - Santa Monica College Foundation
+  - Growing Place
 project_measure: >-
   This project will work to improve student success at both the early childhood
   level as well as the community college level. Specifically, this project will
