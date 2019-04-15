@@ -10,7 +10,8 @@ project_description: >-
   space with color, fragrance, and life.
 organization_name: Theodore Payne Foundation for Wild Flowers
 organization_description: Non-profit organization
-project_video: 'https://youtu.be/DoKD6BiSCvc'
+project_video: ''
+# project_video: 'https://youtu.be/DoKD6BiSCvc'
 link_newsletter: 'http://theodorepayne.org/'
 organization_website: 'https://www.theodorepayne.org'
 organization_twitter: '@TheodorePayne'
