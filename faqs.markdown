@@ -11,9 +11,6 @@ stylesheets:
 </h1>
 
 
-{% if site.phase >= 5 %}
-
-
 <details class="faq" markdown="1">
 
 <summary markdown="1">
@@ -91,9 +88,6 @@ You may have encountered this error message because you switched devices. It’s
 It’s also possible that the link or code has expired. If this is the case, you should be able to resend the code or email in order to confirm your votes. 
 
 </details>
-
-
-{% endif %}
 
 
 <details class="faq" markdown="1">
