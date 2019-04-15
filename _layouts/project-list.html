@@ -50,8 +50,8 @@ main > h1:first-child::before {
   {% if site.phase >= 4 and site.phase <= 5 %}
     <h1>
       {% include city-illustration.html %}
-      <span style="max-width: 23em; display: block; margin-left: auto; margin-right: auto;">
-        Tell us… which of these proposals will
+      <span style="max-width: 20em; display: block; margin-left: auto; margin-right: auto;">
+        Tell us… which <a href="#projects" style="color: inherit; font-weight: inherit;">proposal</a> will
         make <span class="avoid-break">Los Angeles</span> the best place{% if page.category %}  to <strong style="text-transform: uppercase; letter-spacing: 0.05em;">{{ page.category }}</strong>{% endif %}?<br /><br />
         <small style="font-style: normal;display: block;">
           <small style="letter-spacing: 0; font-style: normal;" class="avoid-break">
@@ -74,8 +74,7 @@ main > h1:first-child::before {
       </a>
       <script>
       (function() {
-        let projectsLink = document.querySelector(`a[href*="#projects"]`)
-        if (projectsLink) {
+        document.querySelectorAll(`a[href*="#projects"]`).forEach(projectsLink => {
           projectsLink.addEventListener("click", function(e) {
             let element = document.getElementById(projectsLink.getAttribute("href").replace("#", ""))
             if (element && element.scrollIntoView) {
@@ -83,7 +82,7 @@ main > h1:first-child::before {
             }
             e.preventDefault()
           })
-        }
+        })
       })()
       </script>
     </h1>
