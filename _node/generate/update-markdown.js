@@ -261,7 +261,7 @@ function processFile(filename) {
 
   // data.yaml = convertStringsToJSON(data.yaml)
 
-  // data.yaml.project_collaborators = getArrayFromDelimitedString(data.yaml.project_collaborators);
+  data.yaml.project_collaborators = getArrayFromDelimitedString(data.yaml.project_collaborators);
 
   data.yaml.order = orderCursors[data.yaml.category]++;
 
