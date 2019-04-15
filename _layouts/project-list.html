@@ -41,8 +41,8 @@ main > h1:first-child::before {
   {% include city-illustration.html %}
   Finalists{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
   <small style="font-style: normal;display: block;">
-    <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
-      Learn <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">about the challenge</a></strong>.
+    <small style="letter-spacing: 0; font-style: normal;">
+      Learn <strong style="font-weight: inherit; color: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">about the challenge</a></strong>.
     </small>
   </small>
 </h1>
@@ -51,14 +51,14 @@ main > h1:first-child::before {
     <h1>
       {% include city-illustration.html %}
       <span style="max-width: 23em; display: block; margin-left: auto; margin-right: auto;">
-        Tell us… which of these proposals will
+        Tell us… which of <a href="#projects" style="color: inherit; font-weight: inherit;">these proposals</a> will
         make <span class="avoid-break">Los Angeles</span> the best place{% if page.category %}  to <strong style="text-transform: uppercase; letter-spacing: 0.05em;">{{ page.category }}</strong>{% endif %}?<br /><br />
         <small style="font-style: normal;display: block;">
           <small style="letter-spacing: 0; font-style: normal;" class="avoid-break">
             {% if site.phase == 5 %}
-              <strong style="font-weight: inherit; color: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> has started! Vote by <strong>April 29, 2019</strong>.
+              <strong style="font-weight: inherit; color: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> has started! <span class="avoid-break">Vote by <span class="avoid-break"><strong>April 29, 2019</strong>.</span></span>
             {% else %}
-              <strong style="font-weight: inherit; color: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> begins <span class="avoid-break">on <strong>April 22, 2019</strong>.</span>
+              <strong style="font-weight: inherit; color: inherit;"><a href="/vote/" style="color: inherit; font-weight: inherit;">Public voting</a></strong> begins on <span class="avoid-break"><strong>April 22, 2019</strong>.</span>
             {% endif %}
           </small>
           <small style="letter-spacing: 0; font-style: normal;" class="avoid-break">
@@ -67,14 +67,14 @@ main > h1:first-child::before {
         </small>
       </span>
       <a href="#projects">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="44.8" height="51.2">
+        <svg aria-label="Entries" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="44.8" height="51.2">
+          <title>Entries</title>
           <path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" class=""></path>
         </svg>
       </a>
       <script>
       (function() {
-        let projectsLink = document.querySelector(`a[href*="#projects"]`)
-        if (projectsLink) {
+        document.querySelectorAll(`a[href*="#projects"]`).forEach(projectsLink => {
           projectsLink.addEventListener("click", function(e) {
             let element = document.getElementById(projectsLink.getAttribute("href").replace("#", ""))
             if (element && element.scrollIntoView) {
@@ -82,7 +82,7 @@ main > h1:first-child::before {
             }
             e.preventDefault()
           })
-        }
+        })
       })()
       </script>
     </h1>
@@ -91,8 +91,8 @@ main > h1:first-child::before {
       {% include city-illustration.html %}
       Entries{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
       <small style="font-style: normal;display: block;">
-        <small style="letter-spacing: 0; font-style: normal; font-weight: normal;">
-          Learn about the <strong style="font-weight: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">challenge</a></strong>.
+        <small style="letter-spacing: 0; font-style: normal;">
+          Learn <strong style="font-weight: inherit; color: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">about the challenge</a></strong>.
         </small>
       </small>
     </h1>
@@ -145,7 +145,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 <div class="introduction" style="margin-top: 6em; margin-bottom: 6em;">
   <p>
     Congratulations to the winners of the My LA2050 Grants Challenge!<br />
-    <small style="font-style: inherit;">Learn about the <a href="/about/">challenge</a>.</small>
+    <small style="font-style: inherit;">Learn <a href="/about/">about the challenge</a>.</small>
   </p>
 </div>
 <style>
@@ -641,6 +641,8 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 })();
 </script>
 {% endunless %}
+
+<script async src="/assets/js/scroll-into-view.js?v={{ site.version }}"></script>
 
 <script src="/assets/js/intersection-observer.js"></script>
 <script src="/assets/js/lazy-images.js"></script>

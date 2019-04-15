@@ -3,6 +3,10 @@
     display: none;
   }
 
+  main {
+    padding-bottom: 0;
+  }
+
   .introduction-voting {
     position: relative;
   }
@@ -169,11 +173,11 @@
   form h2,
   form h3,
   form h4 {
-    color: var(--primary-color, black) !important;
+    color: var(--primary-color-readability, black) !important;
     font-weight: bold;
   }
   form strong {
-    color: var(--primary-color, black) !important;
+    color: var(--primary-color-readability, black) !important;
   }
   form .category ul > li label {
     cursor: pointer;
@@ -201,7 +205,7 @@
     box-sizing: border-box;
     background: white;
     color: black !important;
-    color: var(--primary-color, black) !important;
+    color: var(--primary-color-readability, black) !important;
     border: 0.1875em solid;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
