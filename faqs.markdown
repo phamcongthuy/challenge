@@ -35,7 +35,7 @@ If you need additonal assistance, check out this [step-by-step guide](https://ww
 ## How many times can I vote?
 </summary>
 
-You can only vote once per goal category, for a total of 5 votes. It is not required that you use all 5 of your votes, but we encourage you to do so! If you'd like to read about entries you’re less familiar with before you vote, we have all of the [entries’ submissions](/entries/) posted and available.
+You can only vote once per goal category, for a total of 5 votes. It is not required that you use all 5 of your votes, but we encourage you to do so! If you'd like to read up on entries you’re less familiar with before you vote, we have all of the [submissions](/entries/) posted and available.
 
 </details>
 
