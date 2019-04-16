@@ -261,7 +261,11 @@ function processFile(filename) {
 
   // data.yaml = convertStringsToJSON(data.yaml)
 
-  // data.yaml.project_collaborators = getArrayFromDelimitedString(data.yaml.project_collaborators);
+  // try {
+  //   if (data.yaml.project_collaborators = getArrayFromDelimitedString(data.yaml.project_collaborators);
+  // } catch(e) {
+  //   console.log("couldn’t update project_collaborators for: " + data.yaml.organization_name);
+  // }
 
   data.yaml.order = orderCursors[data.yaml.category]++;
 

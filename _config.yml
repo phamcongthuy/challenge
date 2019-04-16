@@ -24,11 +24,11 @@ show_early_entries: true
 
 # Entry period ended: 
 # March 29
-phase: 3
+# phase: 3
 
 # Entries shown on the website: 
 # April 15
-# phase: 4
+phase: 4
 
 # Votes being accepted: 
 # April 22
