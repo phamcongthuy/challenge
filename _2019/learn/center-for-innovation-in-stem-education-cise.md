@@ -6,7 +6,7 @@ project_description: >-
   Local District South on the state adopted, industry recognized Next Generation
   Science Standards (NGSS). In 2013, California adopted the NGSS, modernizing an
   outdated curriculum and endorsing a more impactful way to teach students. Six
-  year later, implementation is still uneven with limited teacher training in
+  years later, implementation is still uneven with limited teacher training in
   L.A. Teachers trained on the new standards will inspire and enable their
   students to pursue STEM careers.
 organization_name: Center for Innovation in STEM Education (CISE)
