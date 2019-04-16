@@ -11,7 +11,7 @@ project_description: >-
   road to a healthy lifestyle.
 organization_name: LA Plaza de Cultura y Artes
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/watch?v=0f-R2vkAn2s'
+project_video: 'https://youtu.be/TAI_A3-mqsI'
 link_newsletter: ''
 organization_website: 'http://www.lapca.org'
 organization_twitter: LAPlazaLA

@@ -10,7 +10,7 @@ project_description: >-
   their caregivers a period of relief using a non-pharmacological approach.
 organization_name: Urban Encore Symphony and Singers
 organization_description: Non-profit organization
-project_video: ''
+project_video: 'https://youtu.be/CkOh2lJhbvY'
 link_newsletter: ''
 organization_website: 'https://www.urbaness.org'
 organization_twitter: ''
