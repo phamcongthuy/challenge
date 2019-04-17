@@ -117,7 +117,7 @@ project_proposal_best_place: >-
    
    
    
-   During the program, participants work in one of Homeboy’s social enterprises (including Homegirl CafÃ© & Catering and Homeboy Electronics Recycling) or headquarters to gain on-the-job experience. Homeboy’s social enterprises provide some opportunities for permanent job placement and increasing numbers of local employers have become felon-friendly, still there remains a need for many more jobs in the Los Angeles community that will consider a candidate with a criminal record. 
+   During the program, participants work in one of Homeboy’s social enterprises (including Homegirl Café & Catering and Homeboy Electronics Recycling) or headquarters to gain on-the-job experience. Homeboy’s social enterprises provide some opportunities for permanent job placement and increasing numbers of local employers have become felon-friendly, still there remains a need for many more jobs in the Los Angeles community that will consider a candidate with a criminal record. 
    
    
    
