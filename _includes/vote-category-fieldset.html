@@ -33,7 +33,11 @@
     <br />
     <div class="text">
       <div class="text-inner">
-        <h3>{{ project.organization_name }}</h3>
+        {% if project.organization_name == "EVERYBODY.WORLD" %}
+          <h3>EVERYBODY&shy;.WORLD</h3>
+        {% else %}
+          <h3>{{ project.organization_name }}</h3>
+        {% endif %}
         {% unless project.title == project.organization_name %}
         <p>{{ project.title }}</p>
         {% endunless %}
