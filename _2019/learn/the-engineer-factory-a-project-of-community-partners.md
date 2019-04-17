@@ -8,7 +8,7 @@ project_description: >-
   #MathSwag Labs at the schools lead by future STEM teachers in the CSU Math
   Science Teacher Initiative. The program will also use peer volunteers and
   parent participation.
-organization_name: 'The Engineer Factory , a Project of Community Partners'
+organization_name: 'The Engineer Factory, a Project of Community Partners'
 organization_description: Non-profit organization
 project_video: 'https://www.youtube.com/watch?v=ExIBLrtQVv0&t=11s'
 link_newsletter: 'https://www.theengineerfactory.org/contact'
