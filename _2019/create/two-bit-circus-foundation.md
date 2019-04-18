@@ -11,7 +11,7 @@ project_description: >-
   be available to the whole community.
 organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
-project_video: ''
+project_video: 'https://youtu.be/HMaaH6Suf98'
 organization_website: 'http://twobitcircus.org/'
 organization_twitter: 'https://www.twitter.com/twobitcircusorg/'
 organization_facebook: 'https://www.facebook.com/twobitcircusorg/'
