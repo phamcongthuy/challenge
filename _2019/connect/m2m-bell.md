@@ -14,7 +14,7 @@ organization_website: 'https://www.m2mbell.com'
 organization_twitter: ''
 organization_facebook: ''
 organization_instagram: ''
-link_donate: ''
+link_donate: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6N8D88FES6LRE&source=url'
 link_volunteer: ''
 organization_activity: >-
   Our mission is to build a wireless Public Utility that would be paid for by
