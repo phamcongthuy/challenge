@@ -9,7 +9,7 @@ project_description: >-
    
    
    We will pilot a public education campaign for LA County voters to learn about and experience the new voting system through the Fall 2019 Mock Election. We will also collect feedback from voters to help ensure a seamless rollout of the new voting experience.
-organization_name: California Common Cause
+organization_name: California Common Cause, NALEO Educational Fund, Disability Rights California, and Asian Americans Advancing Justice - LA
 organization_description: Non-profit organization
 project_video: ''
 link_newsletter: 'https://actionnetwork.org/forms/sign-up-for-breaking-news-and-updates'
