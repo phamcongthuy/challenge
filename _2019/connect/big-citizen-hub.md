@@ -9,19 +9,19 @@ project_description: >-
   youth annually across Los Angeles, giving them space on Saturdays to talk
   about and address our most pressing issues, creating pathways for them to
   design and nurture a more just society.
-organization_name: Big Citizen HUB
+organization_name: Changeist, formerly Big Citizen HUB
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/WA8wmi8t3ik'
 link_newsletter: 'http://eepurl.com/dxhwSj'
-organization_website: 'https://www.bigcitizenhub.org'
-organization_twitter: '@BigCitizenHUB'
-organization_facebook: 'https://www.facebook.com/TheBigCitizenHub'
-organization_instagram: '@bigcitizenhub'
+organization_website: 'www.changeist.org'
+organization_twitter: '@Bchangeistla'
+organization_facebook: 'www.facebook.com/changeistLA'
+organization_instagram: '@changeistla'
 link_donate: >-
   https://bigcitizenhub.networkforgood.com/projects/40668-donate-to-big-citizen-hub
 link_volunteer: 'http://www.bigcitizenhub.org/ages19-26/'
 organization_activity: >-
-  Big Citizen HUB's mission is to help young people bridge racial, social, and
+  Changeist's mission is to help young people bridge racial, social, and
   economic divides through youth empowerment and civic action.
 project_proposal_description: >-
   When Founder and Executive Director, Mario Fedelin, was 20, he served a year
@@ -30,10 +30,8 @@ project_proposal_description: >-
   That service year led him down a path of over a decade of leadership and civic
   activism. In 2013, as he was reflecting on his work and career, he asked
   himself, “What if I had a service year when I was 11? How different would my
-  life be?” To answer that question, he built Big Citizen HUB, a little league
-  for civic action. Now after an incredible four years of operation, Big Citizen
-  HUB is being given the opportunity to add AmeriCorps members to our service
-  model, creating an additional pathway for our youth to make deep change within
+  life be?” To answer that question, he built Changeist, a little league
+  for civic action. Now after an incredible four years of operation, the organization is being given the opportunity to add AmeriCorps members to our service model, creating an additional pathway for our youth to make deep change within
   their communities.
 project_areas:
   - >-
@@ -106,7 +104,7 @@ mailing_address_city: Los Angeles
 mailing_address_state: California
 mailing_address_zip: '90012'
 project_proposal_best_place: >-
-  Big Citizen HUB mobilizes young people (ages 11-26), taking them through a
+  Changeist mobilizes young people (ages 11-26), taking them through a
   6-month civic experience, exploring and taking action on important issues in
   LA. We harness youth assets and positive peer networks through dialogue,
   community immersion, diversity, and teamwork, while activating youth to
@@ -115,7 +113,7 @@ project_proposal_best_place: >-
    
    
    
-   We’ve recently been recognized by CaliforniaVolunteers (the State Service Commission) as a program model to support Governor Newsom’s commitment to expanding service in California and increasing civic engagement for all Californians. CaliforniaVolunteers has made a multi-year dedication to support Big Citizen HUB’s growth and expansion by leveraging AmeriCorps State funding. This summer we will join nearly 60 other AmeriCorps State programs operating in California and will be the only program model that uses service as a strategy to grow civic engagement among youth. Beginning in August 2019 we will prepare 15 AmeriCorps members to design and deliver our programming in Los Angeles, increasing our impact by 50%. 
+   We’ve recently been recognized by CaliforniaVolunteers (the State Service Commission) as a program model to support Governor Newsom’s commitment to expanding service in California and increasing civic engagement for all Californians. CaliforniaVolunteers has made a multi-year dedication to support Changeist's growth and expansion by leveraging AmeriCorps State funding. This summer we will join nearly 60 other AmeriCorps State programs operating in California and will be the only program model that uses service as a strategy to grow civic engagement among youth. Beginning in August 2019 we will prepare 15 AmeriCorps members to design and deliver our programming in Los Angeles, increasing our impact by 50%. 
    
    
    
