@@ -14,7 +14,7 @@ organization_description: Non-profit organization
 project_video: 'https://youtu.be/WA8wmi8t3ik'
 link_newsletter: 'http://eepurl.com/dxhwSj'
 organization_website: 'www.changeist.org'
-organization_twitter: '@Bchangeistla'
+organization_twitter: '@changeistla'
 organization_facebook: 'www.facebook.com/changeistLA'
 organization_instagram: '@changeistla'
 link_donate: >-
