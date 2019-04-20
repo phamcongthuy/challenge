@@ -29,15 +29,15 @@ project_proposal_description: >-
    
    
    
-   My first job was as a water fetcher at age 4. Carrying buckets of water on my head taught me patience, efficiency and how little you can earn within a day of work. Fast forward to my family’s imigration to the USA, braiding hair and selling corn in downtown LA became my new hustle. These experiences cultivated my grit, creative resourcefulness which became invaluable as I navigated my career as a first-generation student. I’m now a solution-driven emergency room doctor and global public health practitioner who founded a platform that is disrupting the student debt crisis and helping people actualize their own self worth and value. 
+   As the founder, my first job was as a water fetcher at age 4. Carrying buckets of water on my head taught me patience, efficiency and how little you can earn within a day of work. Fast forward to my family’s imigration to the USA, braiding hair and selling corn in downtown LA became my new hustle. These experiences cultivated my grit, creative resourcefulness which became invaluable as I navigated my career as a first-generation student. I’m now a solution-driven Emergency Medicine (EM)  doctor and Global Public Health practitioner who founded a platform that is disrupting the student debt crisis and helping people actualize their own self worth and value. 
    
    
    
-   My co-founder Briana is also a first-generation emergency room doctor who is passionate about serving her community. With a father who always had several side hustles and a mother who went back to night school for professional advancement, she was given had a sense of responsibility instilled in her at a young age. While training for medicine was grueling, she prioritized finding the time to take care of those who helped take care of her. She is adept at wearing multiple hats: single mother, doctor, teacher, and a social entrepreneur. 
+   My co-founder, Briana, is also a first-generation EM doctor who is passionate about serving her community. With a father who always had several side hustles and a mother who went back to night school for professional advancement, she had a sense of responsibility instilled in her at a young age. While training for medicine was grueling, she prioritized finding the time to take care of those who helped take care of her. She is adept at wearing multiple hats: single mother, doctor, teacher, and a social entrepreneur. 
    
    
    
-   We not only represent professionals with student loan debt, but the most marginalized and impacted population: black women. Women currently hold $900b in student debt with black women being the most adversely affected. Additionally , gender and racial wage gap disparities affect this population the most, even at the highest levels of education. 
+   We not only represent professionals with student loan debt, but the most marginalized and impacted population: black women. Women currently hold $900b in student debt with black women being the most adversely affected. Additionally, gender and racial wage gap disparities affect this population the most, even at the highest levels of education. 
    
    
    

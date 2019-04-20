@@ -2,12 +2,7 @@
 application_id: '4346064658'
 title: West Tenth - A Modern Main Street
 project_description: >-
-  We would like support enhancing our tech products (mobile app and website) so
-  we can scale our efforts and reach women in LA and beyond.
-   
-   
-   
-   We also need support around our marketing. We are trying to increase the value that women & society place on household and family management experience. We believe that the skills women gain while they are away from the workforce giving care to their families are inherently valuable and can be monetized.
+  West Tenth aims to unleash the potential of the women in LA, creating 10,000+ local, women-led businesses along the way. West Tenth is a digital marketplace that encourages women who have left the workforce to market (and monetize) their everyday talents to their neighbors, friends, and communities. Where some may see a woman with just a cute photography hobby or a knack for home organizing or decorating, West Tenth sees a potential entrepreneur. Help CREATE the West Tenth vision: a modern, women-led main street.
 organization_name: W Tenth Co
 organization_description: For-profit organization
 project_video: 'https://wtenth.com'

@@ -11,7 +11,7 @@ project_description: >-
   be shared nationwide through social media.
 organization_name: Rock the Vote
 organization_description: Non-profit organization
-project_video: 'https://www.youtube.com/watch?v=xiOwBE8XQEM&feature=youtu.be'
+project_video: 'https://youtu.be/HMaaH6Suf98'
 link_newsletter: 'https://my.sweet.io/RockTheVote'
 organization_website: 'https://www.rockthevote.org'
 organization_twitter: '@rockthevote'
