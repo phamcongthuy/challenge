@@ -50,7 +50,7 @@ main > h1:first-child::before {
   {% if site.phase >= 4 and site.phase <= 5 %}
     <h1>
       {% include city-illustration.html %}
-      <span style="max-width: 23em; display: block; margin-left: auto; margin-right: auto;">
+      <span style="max-width: 23em; display: block; margin-left: auto; margin-right: auto;" id="primary-headline">
         Tell us… which of <a href="#projects" style="color: inherit; font-weight: inherit;">these proposals</a> will
         make <span class="avoid-break">Los Angeles</span> the best place{% if page.category %}  to <strong style="text-transform: uppercase; letter-spacing: 0.05em;">{{ page.category }}</strong>{% endif %}?<br /><br />
         <small style="font-style: normal;display: block;">
@@ -77,6 +77,19 @@ main > h1:first-child::before {
         document.querySelectorAll(`a[href*="#projects"]`).forEach(projectsLink => {
           projectsLink.addEventListener("click", function(e) {
             let element = document.getElementById(projectsLink.getAttribute("href").replace("#", ""))
+            if (element && element.scrollIntoView) {
+              element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }
+            e.preventDefault()
+          })
+        })
+      })()
+      </script>
+      <script>
+      (function() {
+        document.querySelectorAll(`a[href="/entries/"]`).forEach(projectsLink => {
+          projectsLink.addEventListener("click", function(e) {
+            let element = document.getElementById("primary-headline")
             if (element && element.scrollIntoView) {
               element.scrollIntoView({ behavior: 'smooth', block: 'start' })
             }

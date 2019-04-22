@@ -58,14 +58,20 @@
       </p>
 
 {% elsif site.phase == 5 %}
-
-      <p><a href="/vote/">Public voting</a> has started! 
-
-      <span class="avoid-break">Vote by April 29, 2019.</span></p>
-      
+      <p>
+        <a href="/vote/">Public voting</a> has started! 
+        <span class="avoid-break">Vote by April 29, 2019.</span>
+      </p>
+            
+      {% if site.phase == 5 and page.layout == "project" %}
+      <p class="action">
+        <a href="/vote/form/?{{ page.category }}={{ page.organization_name | url_encode }}">Vote for this proposal</a>
+      </p>
+      {% else %}
       <p class="action">
         <a href="/entries/">Check out the entries!</a>
       </p>
+      {% endif %}
       <!--
 
       {% if page.layout == "project" and page.category %}
