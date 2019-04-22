@@ -160,8 +160,7 @@ You may want to visit our [home page](/) instead.
     if (voteDataExists() &&
         (window.VOTING_SAVE_ON_ERROR === true || 
          errorHappenedTwice(err) === true || 
-         errorHappenedTwice(err) === "unknown" ||
-         err.errorDescription    === "`state` does not match.")) {
+         errorHappenedTwice(err) === "unknown")) {
       form.querySelector('input[name="auth_error"]').value             = err.error
       form.querySelector('input[name="auth_error_description"]').value = err.errorDescription
 
