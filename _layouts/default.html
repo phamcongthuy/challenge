@@ -199,13 +199,9 @@
 <body{% if page.body_class %} class="{{ page.body_class }}"{% elsif project_body_class %} class="{{ project_body_class }}"{% endif %}>
 
   {% if page.show_promotion or site.phase >= 2 %}
-  {% unless site.phase >= 4 and site.phase <= 5 and page.layout == "project-list" %}
-  {% unless site.phase == 5 and page.layout == "project" %}
   <section class="promotion">
     {% include promotion.html %}
   </section>
-  {% endunless %}
-  {% endunless %}
   {% endif %}
 
   <header id="navigation">
