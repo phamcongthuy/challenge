@@ -2,13 +2,7 @@
 application_id: '5385489419'
 title: 'STEAM Lab Makerspace: Pio Pico Public Library at Koreatown/Los Angeles'
 project_description: >-
-  2BCF is expanding its signature program, STEAM Lab Makerspace (SLM), from
-  preK-12 schools to LA City and County public libraries. SLMs are a designated
-  space where, using 2BCF upcycled materials and tools, STEAM classes/workshops
-  foster technical literacy through interdisciplinary hands-on projects. A
-  staple in tech companies, they are a potent source of innovation and
-  creativity that, with the introduction of the Pio Pico Library SLM, will now
-  be available to the whole community.
+  Imagine that in addition to information, your local library also offered access to advanced technologies such as 3D printing, laser cutting, and circuit board printing, along with the know-how the community needed to put the power of innovation into everyone’s hands. 2BCF’s LA Makerspace division, in partnership with the Los Angeles Public Library system, is bringing exactly that to the Library’s Koreatown Branch in the form of LA’s first Family Makerspace. Free to the public, families, and individuals of all economic situations and cultural backgrounds will be able to develop new interests and new skills for the much-needed tech workforce, and to create new products and launch small businesses, always with a commitment to environmental sustainability. And finally, it will be a flagship and training space for librarians, educators, and other community leaders to spark their own Makerspaces and Maker programs.
 organization_name: Two Bit Circus Foundation
 organization_description: Non-profit organization
 project_video: ''
