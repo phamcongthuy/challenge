@@ -63,7 +63,7 @@
         <span class="avoid-break">Vote by April 29, 2019.</span>
       </p>
             
-      {% if site.phase == 5 and page.layout == "project" %}
+      {% if page.layout == "project" %}
       <p class="action">
         <a href="/vote/form/?{{ page.category }}={{ page.organization_name | url_encode }}">Vote for this proposal</a>
       </p>
