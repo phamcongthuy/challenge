@@ -473,7 +473,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   }
 
   function dataAttributeContainsMatch(element, attribute, keywordList, isList) {
-    let value = items[index].getAttribute(attribute)
+    let value = element.getAttribute(attribute)
     if (value && value != "") {
       if (isList) {;
         let rank = 0;
@@ -509,46 +509,76 @@ The entries will appear here by <strong>April 15, 2019</strong>.
       return 0;
     }
   }
+  
+  function getMatches(keywords) {
+    var matches = [];
+    var rank;
 
-  // var fragment = document.createDocumentFragment();
-  var items = projectList.getElementsByTagName('script');
-  var matches = [];
-  var keywordList = getKeywordList(keywords);
-  if (keywordList.filter) keywordList = keywordList.filter(function(keyword) {
-    return keyword.toLowerCase() != "and" && keyword.toLowerCase() != "the" && keyword.toLowerCase() != "la";
-  })
-  for (var index = 0; index < items.length; index++) {
-    var rank = containsAnyKeyword(keywordList, items[index].innerHTML);
+    var keywordList = getKeywordList(keywords);
+    if (keywordList.filter) keywordList = keywordList.filter(function(keyword) {
+      return keyword.toLowerCase() != "and" && keyword.toLowerCase() != "the" && keyword.toLowerCase() != "la";
+    })
+    for (var index = 0; index < items.length; index++) {
+      rank = containsAnyKeyword(keywordList, items[index].innerHTML);
 
-    // If an exact phrase was found, add more rank depending on the number of words
-    // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
-    if (keywordList.length >= 1) {
-      // console.log("looking for an exact phrase match")
-      if (items[index].innerHTML.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
-        // console.log("***** exact phrase match *****")
-        rank += (10000 * keywordList.length)
+      // If an exact phrase was found, add more rank depending on the number of words
+      // console.log(keywords.replace(/\s/, ',').split(',').length >= 1)
+      if (keywordList.length >= 1) {
+        // console.log("looking for an exact phrase match")
+        if (items[index].innerHTML.toLowerCase().indexOf(keywords.toLowerCase()) >= 0) {
+          // console.log("***** exact phrase match *****")
+          rank += (10000 * keywordList.length)
+        }
+      }
+
+      // Add a little rank for a match by data attribute
+      rank += dataAttributeContainsMatch(items[index], "data-project_areas", keywordList, true);
+      rank += dataAttributeContainsMatch(items[index], "data-project_collaborators", keywordList, true);
+      rank += dataAttributeContainsMatch(items[index], "data-category_metrics", keywordList, true);
+      rank += dataAttributeContainsMatch(items[index], "data-organization_activity", keywordList);
+      rank += dataAttributeContainsMatch(items[index], "data-project_proposal_description", keywordList);
+      rank += dataAttributeContainsMatch(items[index], "data-project_measure", keywordList);
+      rank += dataAttributeContainsMatch(items[index], "data-project_proposal_best_place", keywordList);
+      rank += dataAttributeContainsMatch(items[index], "data-organization_description", keywordList);
+
+      if (rank > 0) {
+        matches.push({
+          item: items[index],
+          rank: rank
+        });
       }
     }
 
-    // Add a little rank for a match by data attribute
-    rank += dataAttributeContainsMatch(items[index], "data-project_areas", keywordList, true);
-    rank += dataAttributeContainsMatch(items[index], "data-project_collaborators", keywordList, true);
-    rank += dataAttributeContainsMatch(items[index], "data-category_metrics", keywordList, true);
-    rank += dataAttributeContainsMatch(items[index], "data-organization_activity", keywordList);
-    rank += dataAttributeContainsMatch(items[index], "data-project_proposal_description", keywordList);
-    rank += dataAttributeContainsMatch(items[index], "data-project_measure", keywordList);
-    rank += dataAttributeContainsMatch(items[index], "data-project_proposal_best_place", keywordList);
-    rank += dataAttributeContainsMatch(items[index], "data-organization_description", keywordList);
+    return matches;
+  }
+  
+  // var fragment = document.createDocumentFragment();
+  var items = projectList.getElementsByTagName('script');
+  var matches = getMatches(keywords);
 
-    if (rank > 0) {
-      matches.push({
-        item: items[index],
-        rank: rank
-      });
+  // SHIM: If no matches were found, try an exact phrase search
+  // if (matches.length <= 0) {
+    var exactPhrase = `"${keywords}"`;
+    matches = matches.concat(getMatches(exactPhrase));
+  // }
+
+  matches = shuffle(matches);
+
+  var previousMatches = {}
+  function onlyUniqueMatches(nextMatch) {
+    var key = nextMatch.item.innerHTML
+    if (!previousMatches[key]) {
+      previousMatches[key] = nextMatch
+      return true;
+    } else {
+      // SHIM: Use the highest rank among duplicates
+      if (previousMatches[key].rank < nextMatch.rank) {
+        previousMatches[key].rank = nextMatch.rank;
+      }
     }
   }
 
-  matches = shuffle(matches);
+  matches = matches.filter( onlyUniqueMatches );
 
   matches.sort(function (a, b) {
     // a is less than b by some ordering criterion
