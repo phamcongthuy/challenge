@@ -10,7 +10,7 @@ project_description: >-
   and mentorship.
 organization_name: The National Association of Latino Independent Producers (NALIP)
 organization_description: Non-profit organization
-project_video: ''
+project_video: 'https://www.youtube.com/watch?v=NTzgKuGeamE'
 link_newsletter: 'https://nalip.nationbuilder.com/login'
 organization_website: 'https://www.nalip.org'
 organization_twitter: '@NALIP_org'
