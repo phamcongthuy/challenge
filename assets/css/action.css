@@ -51,7 +51,8 @@
     width: 100%;
     max-width: 25em;
     box-sizing: border-box;
-    border: 0.1875em solid var(--strawberry);
+    border: 0.1875em solid black;
+    border-color: var(--strawberry);
 
     /* Remove Safari’s default styles for search fields */
     -webkit-appearance: none;

@@ -377,6 +377,18 @@
     word-wrap     : break-word;
     overflow-wrap : break-word;
   }
+
+  form .category li {
+    width: 20em;
+    display: inline-block;
+  }
+  @supports (display: grid) {
+    form .category li {
+      width: auto;
+      display: block;
+    }
+  }
+
   @media (min-width: 15em) {
     form .category ul {
       margin-left: -0.75em !important;
@@ -749,8 +761,9 @@
   #finish button:hover,
   #finish button:active,
   #finish button:focus {
-    background-color: var(--snow);
+    background-color: white;
     color: black;
+    background-color: var(--snow);
     color: var(--secondary-color, black);
   }
 
