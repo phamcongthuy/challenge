@@ -41,17 +41,19 @@
     border-color: var(--primary-color, black);
   }
   .links .action .secondary a {
-    background-color: var(--snow);
+    background-color: white;
     color: black;
     border-color: black;
-    color: var(--primary-color, black);
+    background-color: var(--snow);
     border-color: var(--primary-color, black);
+    color: var(--primary-color, black);
   }
   .links .action .secondary a:hover,
   .links .action .secondary a:active,
   .links .action .secondary a:focus {
     background: black;
     border-color: black;
+    color: white;
     background: var(--primary-color, black);
     border-color: var(--primary-color, black);
     color: var(--snow);
