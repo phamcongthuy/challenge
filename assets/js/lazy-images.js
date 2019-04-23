@@ -1,48 +1,57 @@
 (function() {
   
-  let visibleImages = new Set();
-  let timer;
+  var visibleImages = []
+  var timer
 
   function loadImage(image) {
     if (image.getAttribute("data-srcset") && image.getAttribute("data-srcset") != "") {
-      image.setAttribute("srcset", image.getAttribute("data-srcset"));
-      image.removeAttribute("data-srcset");
+      image.setAttribute("srcset", image.getAttribute("data-srcset"))
+      image.removeAttribute("data-srcset")
     }
 
     setTimeout(function() {
       if (image.getAttribute("data-src") && image.getAttribute("data-src") != "") {
-        image.setAttribute("src", image.getAttribute("data-src"));
-        image.removeAttribute("data-src");
+        image.setAttribute("src", image.getAttribute("data-src"))
+        image.removeAttribute("data-src")
       }
     }, 1)
   }
 
   function loadVisibleImages() {
     // console.dir(visibleImages)
-    visibleImages.forEach(image => loadImage(image))
+    for (var index = 0; index < visibleImages.length; index++) {
+      loadImage(visibleImages[index])
+    }
   }
 
   function onIntersection(entries) {
-    entries.forEach(entry => {
+    var entry
+    for (var index = 0; index < entries.length; index++) {
+      entry = entries[index]
       if (entry.isIntersecting) {
         // console.log(`entry.intersectionRatio: ${entry.intersectionRatio}`)
         //if (entry.intersectionRatio >= 0.1) {
         // console.log({target: entry.target})
         //}
-        visibleImages.add(entry.target)
+        visibleImages.push(entry.target)
 
         if (timer) clearTimeout(timer)
         timer = setTimeout(loadVisibleImages, 100)
       } else {
-        visibleImages.delete(entry.target)
+        for (var j = 0; j < visibleImages.length; j++) {
+          if (visibleImages[index] === entry.target) {
+            visibleImages.splice(j, 1)
+            break
+          }
+        }
       }
-    })
+    }
   }
 
-  const images = document.getElementsByTagName('img');
+  var images = document.getElementsByTagName('img')
 
   // https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
-  const observer = new IntersectionObserver(onIntersection, {
+  var observer = new IntersectionObserver(onIntersection, {
     threshold: 0,
     rootMargin: "100% 0% 100% 0%"
   })

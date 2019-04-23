@@ -74,28 +74,32 @@ main > h1:first-child::before {
       </a>
       <script>
       (function() {
-        document.querySelectorAll(`a[href*="#projects"]`).forEach(projectsLink => {
-          projectsLink.addEventListener("click", function(e) {
-            let element = document.getElementById(projectsLink.getAttribute("href").replace("#", ""))
-            if (element && element.scrollIntoView) {
-              element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-            }
-            e.preventDefault()
+        try {
+          document.querySelectorAll(`a[href*="#projects"]`).forEach(projectsLink => {
+            projectsLink.addEventListener("click", function(e) {
+              let element = document.getElementById(projectsLink.getAttribute("href").replace("#", ""))
+              if (element && element.scrollIntoView) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+              }
+              e.preventDefault()
+            })
           })
-        })
+        } catch(e) {}
       })()
       </script>
       <script>
       (function() {
-        document.querySelectorAll(`a[href="/entries/"]`).forEach(projectsLink => {
-          projectsLink.addEventListener("click", function(e) {
-            let element = document.getElementById("primary-headline")
-            if (element && element.scrollIntoView) {
-              element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-            }
-            e.preventDefault()
+        try {
+          document.querySelectorAll(`a[href="/entries/"]`).forEach(projectsLink => {
+            projectsLink.addEventListener("click", function(e) {
+              let element = document.getElementById("primary-headline")
+              if (element && element.scrollIntoView) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+              }
+              e.preventDefault()
+            })
           })
-        })
+        } catch(e) {}
       })()
       </script>
     </h1>
