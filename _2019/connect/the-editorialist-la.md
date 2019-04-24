@@ -2,13 +2,7 @@
 application_id: '6351075943'
 title: The Editorialist LA
 project_description: >-
-  I have already established a successful business with an audience of more than
-  100,000 people across all my blog and social channels. Going forward, I need
-  support to expand, hire employees, and relaunch the website to focus even more
-  on Los Angeles and our local businesses. I would also use this support to
-  create a web series focused on Los Angeles, with each episode exploring a new
-  neighborhood, business, restaurant, activity, local figurehead, social
-  service, and more.
+  With this grant, we can finally turn The Editorialist LA into a central, digital guide to Los Angeles that covers food and nightlife, shopping, fashion, beauty, fitness, activities, and everything in between with a face that people can recognize and trust. This support would allow us to expand our content offerings and relaunch the business to focus even more on Los Angeles and highlight our local businesses. We are also planning to create a digital video series focused on Los Angeles, with each episode exploring a new neighborhood, business, restaurant, activity, local figurehead, social service, and more.
 organization_name: The Editorialist LA
 organization_description: For-profit organization
 project_video: ''
