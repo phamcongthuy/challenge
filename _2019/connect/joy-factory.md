@@ -13,7 +13,7 @@ project_description: |-
    - Building showers for our interns
 organization_name: JOY FACTORY
 organization_description: Social enterprise or B-corps
-project_video: 'https://photos.app.goo.gl/3SPcCHkL26DtdsbL8'
+project_video: 'https://www.youtube.com/watch?v=YbPXFShzxno&feature=youtu.be'
 link_newsletter: 'http://wearejoyfactory.org'
 organization_website: 'http://wearejoyfactory.org'
 organization_twitter: ''
