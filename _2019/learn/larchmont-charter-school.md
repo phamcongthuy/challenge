@@ -1,6 +1,6 @@
 ---
 application_id: '934894549'
-title: The Larchmont Model-Teacher Iniative
+title: The Larchmont Model-Teacher Initiative
 project_description: >-
   The Larchmont Model Teacher Initiative codifies the social and emotional
   learning approach developed at Larchmont Charter School over its successful
