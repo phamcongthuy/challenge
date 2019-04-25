@@ -1,12 +1,9 @@
 ---
 application_id: '1730716684'
-title: The Heroic Journey Curriculum
+title: 'The Heroic Journey: a School Curriculum to Prevent Bullying, Racism, Misogyny, and Homophobia through Early Emotional Education'
 project_description: >-
   Bullying in all its forms forces 160,000 American kids to miss school each day, severely impacting grades and mental health, often leading to trauma, addiction, and self-harm. Research shows the solution is teaching empathy, inclusion, resilience, and other emotional skills, so our psychologists have created a comprehensive 32-lesson plan for Homeroom, Health, or English classes, equipping teachers and kids so all can learn in safety. Vote to improve schools and save lives.
    
-   
-   
-   The Heroic Journey Curriculum, with lessons on healthy identity, empathy, resilience, restorative justice, and making positive, life-long choices, is in accordance with extensive research about the impact of SEL in schools.
 organization_name: Pop Culture Hero Coalition
 organization_description: Non-profit organization
 project_video: 'https://youtu.be/vZwxAvZ1LE0'
