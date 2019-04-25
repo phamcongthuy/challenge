@@ -1,6 +1,6 @@
 ---
 application_id: '2622158064'
-title: Freedom and Fashion
+title: Education & support for survivors of sex trafficking and other injustices.
 project_description: >-
   We're proud to share that our organization is growing quickly and we now need
   more support to meet the demands for more programs. This project will provide
