@@ -1,6 +1,6 @@
 ---
 application_id: '1730716684'
-title: The Heroic Journey: a School Curriculum to Prevent Bullying, Racism, Misogyny, and Homophobia through Early Emotional Education
+title: 'The Heroic Journey: a School Curriculum to Prevent Bullying, Racism, Misogyny, and Homophobia through Early Emotional Education'
 project_description: >-
   Bullying in all its forms forces 160,000 American kids to miss school each day, severely impacting grades and mental health, often leading to trauma, addiction, and self-harm. Research shows the solution is teaching empathy, inclusion, resilience, and other emotional skills, so our psychologists have created a comprehensive 32-lesson plan for Homeroom, Health, or English classes, equipping teachers and kids so all can learn in safety. Vote to improve schools and save lives.
    
