@@ -125,6 +125,13 @@
     var email = (form.querySelector('input[name="email"]')) ? form.querySelector('input[name="email"]').value : null;
     var telephone = (form.querySelector('input[name="telephone"]')) ? form.querySelector('input[name="telephone"]').value : null;
 
+    // If the phone number has a value (perhaps from autofill), but the email field is visible–ignore the phone number.
+    if (email && email != "" && telephone && telephone != "") {
+      if (emailShowing) {
+        telephone = null
+      }
+    }
+
     var fieldNames = ['learn', 'create', 'play', 'connect', 'live'];
     var votesData = [];
     var nextField;
