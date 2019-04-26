@@ -12,7 +12,7 @@ project_description: >-
 organization_name: 'Circle of Friends- The Path to Inclusion, a project of Community Partners'
 organization_description: Non-profit organization
 project_video: ''
-# project_video: 'https://vimeo.com/327421262'
+project_video: 'https://vimeo.com/327421262'
 link_newsletter: 'https://www.circleofriends.org/newsletters'
 organization_website: 'https://www.circleofriends.org'
 organization_twitter: '@cofinclusion'
