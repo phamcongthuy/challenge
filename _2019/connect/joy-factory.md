@@ -2,15 +2,7 @@
 application_id: '5263421953'
 title: JOY FACTORY
 project_description: |-
-  Internship programme for people who are ready to get off the street:
-   
-   - Training with our employment partners (who commit to a minimum amount of hires per year)
-   
-   - Therapy with experienced counsellors, masseuses and other self care, confidence building therapists
-   
-   - One on one mentorship throughout the programme with volunteers from the clubhouse
-   
-   - Building showers for our interns
+  An artist run social clubhouse in Chinatown with an itinerary of music and art events, supper clubs, movie nights, Factory Forum speaker events and wellness studio sessions. Profits fund a bespoke internship program for people who are ready to get off the streets and into employment, while receiving one on one mentorship with well matched clubhouse members. Our interns are equal members of the clubhouse, receiving all the massage and self care sessions that the paying members do but with no charge, free professional training with our employment partners, free confidence building therapy with experienced counsellors and showers prior to sessions. 
 organization_name: JOY FACTORY
 organization_description: Social enterprise or B-corps
 project_video: 'https://www.youtube.com/watch?v=YbPXFShzxno&feature=youtu.be'
