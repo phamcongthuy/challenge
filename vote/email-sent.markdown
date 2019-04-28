@@ -24,8 +24,6 @@ You may want to visit our [home page](/) instead.
 
 <p>We sent a message to your email address with a link you can press to <span style="display: inline-block">confirm your votes.</span></p>
 
-<small>Didn’t get an email? It might be in your “spam” folder.</small>
-
 <form action="/vote/email-sent/" method="get">
 
 <input type="hidden" name="learn" />
@@ -41,6 +39,8 @@ You may want to visit our [home page](/) instead.
 <p class="action"><button type="submit">Resend email</button></p>
 
 </form>
+
+<p><small>We sent the message to: <b id="sent-to-email" style="display: inline-block"></b><br /></small> <small>Didn’t get an email? It might be in your “spam” folder.</small></p>
 
 </div>
 
@@ -74,7 +74,8 @@ You may want to visit our [home page](/) instead.
   form.querySelector('input[name="zip"]').value = getParameterByName('zip');
   form.querySelector('input[name="email"]').value = getParameterByName('email');
   form.querySelector('input[name="subscribe_email_list"]').value = getParameterByName('subscribe_email_list');
-
+  
+  document.getElementById("sent-to-email").textContent = getParameterByName('email');
 </script>
 
 <script src="{{ site.auth0_js_url }}"></script>
