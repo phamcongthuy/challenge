@@ -42,6 +42,8 @@ We sent a text message to your phone number with a verification code. <span styl
 </p>
 </form>
 
+<p><small>We sent the message to: <b id="sent-to-telephone" style="display: inline-block"></b> </small></p>
+
 <h3 style="max-width: none; text-align: center; margin-bottom: 0;" id="headline"></h3>
 <p style="margin-top: 0"><small><span id="message-details"></span> <span id="resend" style="display: none"><a href="#resend">get a new verification code</a>.</span></small></p>
 
@@ -76,6 +78,8 @@ We sent a text message to your phone number with a verification code. <span styl
 
   form.querySelector('input[name="zip"]').value = getParameterByName('zip');
   form.querySelector('input[name="telephone"]').value = getParameterByName('telephone');
+
+  document.getElementById("sent-to-telephone").textContent = getParameterByName('telephone');
 
 </script>
 
