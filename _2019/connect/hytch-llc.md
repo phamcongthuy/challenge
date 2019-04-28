@@ -14,7 +14,7 @@ organization_description: For-profit organization
 project_video: ''
 link_newsletter: ''
 organization_website: 'https://www.hytch.me/'
-organization_twitter: '@https://twitter.com/HytchRewards'
+organization_twitter: 'https://twitter.com/HytchRewards'
 organization_facebook: 'https://www.facebook.com/HytchRewards/'
 organization_instagram: 'https://www.instagram.com/hytchrewards/'
 link_donate: ''
