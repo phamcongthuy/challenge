@@ -10,8 +10,8 @@ organization_website: 'http://twobitcircus.org/'
 organization_twitter: 'https://www.twitter.com/twobitcircusorg/'
 organization_facebook: 'https://www.facebook.com/twobitcircusorg/'
 organization_instagram: 'https://www.instagram.com/twobitcircusorg/'
-link_donate: 'mailto:info@twobitcircus.org'
-link_volunteer: 'mailto:info@twobitcircus.org'
+link_donate: ''
+link_volunteer: ''
 organization_activity: >-
   Using manufacturer clean discards, 2BCF provides educators PreK-College
   affordable materials, sample curricula and training to support STEAM
