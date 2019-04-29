@@ -178,12 +178,10 @@ The entries will appear here by <strong>April 15, 2019</strong>.
 {% include project-navigation.html %}
 
 
-<ul class="proposals {% if page.finalists or page.winners %}finalists{% endif %} {% if page.finalists or page.winners %}winners{% endif %}" id="project-list">
+<ul class="proposals {% if page.winners %}finalists{% endif %} {% if page.winners %}winners{% endif %}" id="project-list">
 
-  {% unless page.winners %}
   {% comment %} Order alphabetically {% endcomment %}
   {% assign data_list = data_list | sort: "order" %}
-  {% endunless %}
 
   {% for data in data_list %}
 
@@ -222,7 +220,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
   data-project_proposal_best_place="{{ data.project_proposal_best_place }}"
   data-category_metrics="{{ data.category_metrics }}"
   data-project_collaborators="{{ data.project_collaborators }}">{% endif %}
-  {% if page.finalists or page.winners %}
+  {% if page.winners %}
   <li class="{{ data.category }}">
     <a href="{{ data.url }}">
       <span class="image" {% if data.project_image_color %}
@@ -242,7 +240,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
           alt="" />
       </span>
       <span class="text">
-        {% if page.finalists or page.winners %}
+        {% if page.winners %}
         {% comment %}
         <p
           style="text-transform: none; text-decoration: none;">
@@ -258,7 +256,7 @@ The entries will appear here by <strong>April 15, 2019</strong>.
         {% unless data['organization_name'] == data['title'] %}
         <p class="organization">{{ data['organization_name'] }}</p>
         {% endunless %}
-        {% unless page.finalists or page.winners %}
+        {% unless page.winners %}
         <p class="organization-type">{{ data.organization_description }}</p>
         <p class="description">{{ data['project_description'] }}</p>
         {% endunless %}
