@@ -10,7 +10,7 @@ organization_website: 'http://twobitcircus.org/'
 organization_twitter: 'https://www.twitter.com/twobitcircusorg/'
 organization_facebook: 'https://www.facebook.com/twobitcircusorg/'
 organization_instagram: 'https://www.instagram.com/twobitcircusorg/'
-link_donate: ''
+link_donate: 'http://twobitcircus.org/'
 link_volunteer: ''
 organization_activity: >-
   Using manufacturer clean discards, 2BCF provides educators PreK-College
