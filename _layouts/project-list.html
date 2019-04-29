@@ -39,7 +39,7 @@ main > h1:first-child::before {
 {% elsif page.finalists == true %}
 <h1>
   {% include city-illustration.html %}
-  Finalists{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
+  Finalists{% if page.category %} in the <strong style="text-transform: uppercase; letter-spacing: 0.05em;">{{ page.category }}</strong> category{% endif %}
   <small style="font-style: normal;display: block;">
     <small style="letter-spacing: 0; font-style: normal;">
       Learn <strong style="font-weight: inherit; color: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">about the challenge</a></strong>.
@@ -106,7 +106,7 @@ main > h1:first-child::before {
   {% else %}
     <h1>
       {% include city-illustration.html %}
-      Entries{% if page.category %} in the <strong style="text-transform: uppercase">{{ page.category }}</strong> category{% endif %}
+      Entries{% if page.category %} in the <strong style="text-transform: uppercase; letter-spacing: 0.05em;">{{ page.category }}</strong> category{% endif %}
       <small style="font-style: normal;display: block;">
         <small style="letter-spacing: 0; font-style: normal;">
           Learn <strong style="font-weight: inherit; color: inherit;"><a href="/about/" style="color: inherit; font-weight: inherit;">about the challenge</a></strong>.

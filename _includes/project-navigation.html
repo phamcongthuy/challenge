@@ -88,7 +88,10 @@
 {% if page.category %}
 
 {% if page.finalists %}
-<p class="count">There are <strong>10</strong> finalists in the <strong class="category">{{ page.category }}</strong> category.</p>
+<p class="count">
+  There are <strong>10</strong> finalists in the <strong class="category">{{ page.category }}</strong> category.<br /><br />
+  <small>These finalists are in random order.</small>
+</p>
 {% elsif data_list.size <= 0 %}
 <p class="count">We’re eagerly awaiting more entries in the <strong class="category">{{ page.category }}</strong> category!</p>
 {% else %}
