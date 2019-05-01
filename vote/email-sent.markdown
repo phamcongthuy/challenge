@@ -11,9 +11,9 @@ stylesheets:
 # Oops!
 
 <div class="introduction" markdown="1">
-Public voting is complete.
+Đặt mua sản phẩm cây trồng giống nhiều dinh dưỡng nuôi thỏ. và mua thỏ con giống tại.
 
-You may want to visit our [home page](/) instead.
+Tiepz Studio [Shop](https://tiepz.com).
 </div>
 
 {% else %}

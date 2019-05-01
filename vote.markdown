@@ -46,12 +46,12 @@ You can cast five votes, one per [goal category](/about/#goals).
 
 {% elsif site.phase == 6 %}
 
-Public voting is complete.
+Đặt mua sản phẩm cây trồng giống nhiều dinh dưỡng nuôi thỏ.
 
 <small>
-  Winners will be announced on 
+  và mua thỏ con giống tại 
   <span class="avoid-break">
-    <strong>June 4, 2019</strong>.
+    <strong>Tiepz Studio</strong>.
   </span>
 </small>
 
