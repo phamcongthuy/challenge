@@ -1,5 +1,5 @@
 ---
-title: About the 2019 My LA2050 Grants Challenge
+title: Giới thiệu chung
 body_class: strawberry about-page
 main_class: standard-layout
 ---
@@ -18,7 +18,7 @@ main_class: standard-layout
 
 {% endif %}
 
-## LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles.
+## Trang Web này được cung cấp như công cụ để tổng hợp kinh nghiệm chăn nuôi thỏ kết hợp với trồng trọt các loại cây phù hợp dinh dưỡng cho thỏ tại nhà.
 
 With the support of 30,000 Angelenos, we’ve outlined an [aspirational vision](https://la2050.s3-us-west-1.amazonaws.com/reports/1/pdfs/vision_for_a_successful_los_angeles.pdf) centered on [five goals](/about/#goals): to make Los Angeles the best place to learn, create, play, connect, and live by the year 2050. We’re also tracking our progress by evaluating [60+ metrics](https://www.la2050.org/metrics) that assess how Los Angeles is faring.
 
