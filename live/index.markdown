@@ -1,7 +1,7 @@
 ---
 layout: project-list
 body_class: lime
-title: Entries in the LIVE category
+title: Hướng dẫn về cây cỏ cho thỏ
 canonical_url: /live/
 category: live
 ---
