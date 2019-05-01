@@ -1,6 +1,6 @@
 <h1>
   {% include city-illustration.html %}
-  Tell us… how do you turn <strong>inspiration</strong> <span class="avoid-break">into <strong>impact</strong>?</span>
+  Xây dựng nuôi thỏ vững chắc <strong>cây cỏ dinh dưỡng</strong> <span class="avoid-break">và <strong>thỏ con giống khỏe mạnh</strong>!</span>
 </h1>
 
 <h2>
