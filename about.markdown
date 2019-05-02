@@ -13,7 +13,7 @@ main_class: standard-layout
 
 <h1>
   {% include city-illustration.html %}
-  About
+  Giới thiệu
 </h1>
 
 {% endif %}

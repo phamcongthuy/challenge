@@ -4,9 +4,9 @@
 </h1>
 
 <h2>
-  Welcome to the
-  <span class="avoid-break">2019 My LA2050</span>
-  <span class="avoid-break">Grants Challenge</span>
+  Rabbit Care Service Tiepz Studio
+  <span class="avoid-break">2019 Rabbit</span>
+  <span class="avoid-break">Tiepz</span>
 </h2>
 
 LA2050 is a community-guided initiative driving and tracking progress toward a shared vision for the future of Los Angeles. With the support of 30,000 Angelenos, we’ve outlined an aspirational vision centered on five goals and 60+ metrics tracked over time to evaluate how Los Angeles is faring. <br /><br /><strong>The My LA2050 Grants Challenge is an open call for ideas to make LA the best place to learn, create, play, connect, and live.<br /><br />A total of $1,000,000</strong> will be awarded among 10 organizations to implement their proposals. Each organization will receive a total of $100,000 and [partnership from LA2050](/about/#la2050-partnership) to support its efforts.
